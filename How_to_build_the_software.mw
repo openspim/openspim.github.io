@@ -1,0 +1,15 @@
+= Cloning the Micro-Manager and support sources =
+
+# cd /c/
+# mkdir projects
+# git clone git://fiji.sc/micromanager1.4 micromanager
+# cd micromanager
+# git checkout -t origin/win32
+# cd ..
+# git clone git://fiji.sc/mmanager-3rdparty 3rdpartypublic
+# cd 3rdpartypublic
+# git checkout -t origin/contrib
+
+= Building Micro-Manager =
+
+As described on the [http://valelab.ucsf.edu/~MM/MMwiki/index.php/Building_MM_on_Windows uManager Wiki].
