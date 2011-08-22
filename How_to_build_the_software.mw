@@ -4,7 +4,7 @@
 # mkdir projects
 # git clone git://fiji.sc/micromanager1.4 micromanager
 # cd micromanager
-# git checkout -t origin/win32
+# git checkout -t origin/win32-build
 # cd ..
 # git clone git://fiji.sc/mmanager-3rdparty 3rdpartypublic
 # cd 3rdpartypublic
