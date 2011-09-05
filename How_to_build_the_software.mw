@@ -1,7 +1,11 @@
+= You need Git =
+
+First of all, you need to make sure that you have the version control software [http://git-scm.com Git] installed. If in doubt, just install [http://msysgit.googlecode.com/ Git for Windows].
+
 = Cloning the Micro-Manager and support sources =
 
-# cd /c/
-# mkdir projects
+Wherever you like, e.g. in your home directory, call these commands:
+
 # git clone git://fiji.sc/micromanager1.4 micromanager
 # cd micromanager
 # git checkout -t origin/win32-build
