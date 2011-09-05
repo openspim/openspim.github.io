@@ -8,7 +8,7 @@
 # cd ..
 # git clone git://fiji.sc/mmanager-3rdparty 3rdpartypublic
 # cd 3rdpartypublic
-# git checkout -t origin/contrib
+# git checkout -t origin/win32-build
 
 = Building Micro-Manager =
 
