@@ -2,3 +2,16 @@
 # Update Fiji: ''Help>Update Fiji''
 # [http://fiji.sc/Update_Sites Add this update site] in the Fiji Updater's advanced mode: http://fiji.lbl.gov/SPIMInABriefcase/
 # Run Micro-Manager: ''Plugins>Micro-Manager>Micro-Manager Studio''
+
+== Modifying MMStartup.bsh ==
+
+Hint: if you always want the SPIM plugin to be called when starting Micro-Manager, add the following lines to ''Fiji.app/MMStartup.bsh'':
+
+ setAccessibility(true);
+ 
+ import org.micromanager.MMStudioMainFrame.PluginItem;
+ for (PluginItem plugin : gui.plugins_)
+         if (plugin.className.equals("SPIMAcquisition")) {
+                 plugin.instantiate();
+                 plugin.plugin.show();
+         }
