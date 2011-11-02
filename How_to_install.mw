@@ -1,6 +1,7 @@
 # Install [http://fiji.sc/Downloads Fiji].
 # Update Fiji: ''Help>Update Fiji''
 # [http://fiji.sc/Update_Sites Add this update site] in the Fiji Updater's advanced mode: http://fiji.lbl.gov/SPIMInABriefcase/
+# If you have a QImaging camera, [http://www.qimaging.com/support/downloads/ download and install the drivers] (yes, it is annoying that we cannot simply bundle them in the Update site...)
 # Run Micro-Manager: ''Plugins>Micro-Manager>Micro-Manager Studio''
 
 == Modifying MMStartup.bsh ==
