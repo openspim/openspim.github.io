@@ -21,3 +21,5 @@ Wherever you like, e.g. in your home directory, call these commands:
 First, <u>make sure</u> that the environment variable ''JAVA_HOME'' is set and points to a valid JDK (you can add environment variables by right-clicking on the "Start" menu button, choosing "Open Windows Explorer", opening the context menu of "My Computer", selecting "Properties" and in the "Advanced mode" click on the "Environment variables" button. You need to restart the Visual Studio after adding the environment variable).
 
 After installing [http://msdn.microsoft.com/en-us/express/future/bb421473 Visual Studio Express 2008], continue as described on the [http://valelab.ucsf.edu/~MM/MMwiki/index.php/Building_MM_on_Windows uManager Wiki].
+
+[[Category:Development]]
