@@ -16,3 +16,5 @@ Hint: if you always want the SPIM plugin to be called when starting Micro-Manage
                  plugin.instantiate();
                  plugin.plugin.show();
          }
+
+[[Category:Usage]]
