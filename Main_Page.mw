@@ -1,2 +1,5 @@
-* [[How to install]] the Micro-Manager software with SPIM support
-* [[How to build]] the Micro-Manager software with SPIM support
+= Users' section =
+[[How to install]] the Micro-Manager software with SPIM support.
+
+= Developers' section =
+[[How to build]] the Micro-Manager software with SPIM support.
