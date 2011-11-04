@@ -19,3 +19,15 @@ Wherever you like, e.g. in your home directory, call these commands:
 First, <u>make sure</u> that the environment variable ''JAVA_HOME'' is set and points to a valid JDK (you can add environment variables by right-clicking on the "Start" menu button, choosing "Open Windows Explorer", opening the context menu of "My Computer", selecting "Properties" and in the "Advanced mode" click on the "Environment variables" button. You need to restart the Visual Studio after adding the environment variable).
 
 After installing [http://msdn.microsoft.com/en-us/express/future/bb421473 Visual Studio Express 2008], continue as described on the [http://valelab.ucsf.edu/~MM/MMwiki/index.php/Building_MM_on_Windows uManager Wiki].
+
+= Overview of the source code =
+
+µManager is divided into the following parts:
+
+# the core. Written in C++, lives in ''MMCore/''. Has basic helper functions (logging, library loading, etc).
+# the device base. Also written in C++, lives in ''MMDevice/''. Has the abstract definitions of the devices µManager understands.
+# the device drivers. They live in ''DeviceDrivers/'' and most of them require additional 3rd-party libraries from the hardware vendors.
+# the Java binding. Uses [http://www.swig.org SWIG] to define the interface to MMCore, lives in ''MMCoreJ_wrap/''.
+# the ImageJ plugin ''Micro-Manager Studio''. Written in Java, lives in ''mmstudio/''.
+# the µManager plugins. These implement the interface ''org.micromanager.api.MMPlugin'' and must reside inside .jar files in ''<ij.dir>/mmplugins/'' after being compiled. The sources live in ''plugins/<jarname>/''.
+# the 3rd-party libraries. Some of those are public (as they should be, whoever thought it be a good advertisement if developers cannot develop for your hardware without buying the hardware?) and live in the directory ''../3rdpartypublic/'', i.e. '''outside''' the µManager source code. Those libraries which non-disclosure agreements or similar niceties prevent from being redistributed live in ''../3rdparty/''. Evidently, the µManager developers have an internal repository for this, as do we.
