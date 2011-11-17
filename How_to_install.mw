@@ -17,4 +17,14 @@ Hint: if you always want the SPIM plugin to be called when starting Micro-Manage
                  plugin.plugin.show();
          }
 
+== Starting the Micro-Manager Studio from the command-line ==
+
+There are two ways, really. The Fiji way:
+
+ fiji-win32 --run Micro-Manager_Studio
+
+Call the Studio directly, without first starting ImageJ:
+
+ fiji-win32 --main-class=org.micromanager.MMStudioMainFrame
+
 [[Category:Usage]]
