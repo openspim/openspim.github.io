@@ -1,0 +1,13 @@
+{| class="wikitable sortable" border="1"
+|+ Table of Parts
+|-
+! scope="col" | #
+! scope="col" class="unsortable" | Image
+! scope="col" | Category
+! scope="col" | Name
+! scope="col" class="unsortable" | Description
+! scope="col" | Price
+! scope="col" class="unsortable" | File/Link
+|-
+| xx || xx || xx || xx || xx || xx  || xx
+|}
