@@ -7,14 +7,14 @@
 ! scope="col" width="150"| Accessibility 
 ! scope="col" class="unsortable" width="250"| Description
 ! scope="col" width="150"| Quantity
-! scope="col" width="100"| Price
+! scope="col" width="100"| Price (EUR)
 ! scope="col" class="unsortable" width="80"| File/Link
 ! scope="col" class="unsortable" width="120"| Image
 |- align="center"
 | 1 
 || Laser 
 || Coherent Cube 
-|bgcolor="red"| purchase 
+|bgcolor="#1980AF"| purchase 
 || <math>\lambda =</math>489 nm, P=50 mW 
 || 1
 || xx 
@@ -35,46 +35,46 @@
 || Rail system 
 || Rail 
 |bgcolor="red"| purchase  
-|| 300 mm rail 
+|| 300 mm dovetail optical rail (RLA300/M)
 || 1
-|| xx  
-|| xx 
+|| 62
+|| [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=30 Thorlabs] 
 || xx
 |- align="center"
 | 4 
 || Rail system
 || Rail 
 |bgcolor="red"| purchase   
-|| 150 mm rail 
+|| 150 mm dovetail optical rail (RLA150)
 || 2
-|| xx  
-|| xx 
+|| 35  
+|| [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=30 Thorlabs] 
 || xx
 |- align="center"
 | 5 
 || Rail system
 || Rail
 |bgcolor="red"| purchase  
-|| 75 mm rail
+|| 75 mm dovetail optical rail
 || 1
-|| xx  
-|| xx 
+|| 25  
+|| [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=30 Thorlabs] 
 || xx
 |- align="center"
 | 6 
 || Rail system
-|| Slider
+|| Carrier
 |bgcolor="red"| purchase
-|| Rail slider 25 mm width;
+|| Rail carrier 1"/25 mm (RC1);
 || 8  
 || xx 
-|| xx
+|| [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=234 Thorlabs]
 || xx
 |- align="center"
 | 7 
 || Rail system 
 || Spacer 
-|bgcolor="red"| purchase 
+|bgcolor="green"| self made
 || mounts a lens, mirror etc.
 || xx  
 || xx 
@@ -102,56 +102,156 @@
 || xx
 |- align="center"
 | 10
-|| Screw 
-|| xx
+|| Optics 
+|| Mirror
 |bgcolor="red"| purchase
-|| xx
-|| xx 
-|| xx 
-|| xx
+|| Broadband dielectric mirror 1" (BB1-E02) 
+|| 3
+|| 65
+|| [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=139 Thorlabs]
 || xx
 |- align="center"
 | 11
-|| Screw 
-|| xx
+|| Optics 
+|| Achromat
 |bgcolor="red"| purchase
-|| xx
-|| xx 
+|| 50 mm achromat for the beam expander
+|| 1
 || xx 
 || xx
 || xx
 |- align="center"
 | 12
-|| Screw 
-|| xx
+|| Optics
+|| Achromat
 |bgcolor="red"| purchase
-|| xx
-|| xx 
+|| 25 mm achromat for the beam expander
+|| 1 
 || xx 
 || xx
 || xx
 |- align="center"
 | 13
-|| Screw 
-|| xx
+|| Optics
+|| Lens
 |bgcolor="red"| purchase
-|| xx
-|| xx 
+||  mm singlet lens for the telescope
+|| 2 
 || xx 
 || xx
 || xx
 |- align="center"
-| 10
-|| Screw 
-|| xx
+| 14
+|| Optics
+|| Cyndrical lens
 |bgcolor="red"| purchase
-|| xx
-|| xx 
+|| 50 mm cylindrical lens to create the sheet
+|| 1 
 || xx 
 || xx
 || xx
 |- align="center"
-| 10
+| 15
+|| Optics
+|| Tube lens
+|bgcolor="red"| purchase
+|| xx
+|| 1 
+|| xx 
+|| xx
+|| xx
+|- align="center"
+| 16
+|| Mount
+|| Tube lens holder
+|bgcolor="red"| purchase
+|| defines the tube lens - objective distance
+|| 1 
+|| xx 
+|| xx
+|| xx
+|- align="center"
+| 17
+|| Optics
+|| Slit
+|bgcolor="red"| purchase
+|| Adjustable mechanical slit (VA100/M)
+|| 1 
+|| 220  
+|| [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=1465 Thorlabs]
+|| xx
+|- align="center"
+| 18
+|| Optics
+|| Iris
+|bgcolor="red"| purchase
+|| Ring-Activated Threaded Iris Diaphragms (SM1D12D)
+|| 1 
+|| 55
+|| [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=1479 Thorlabs]
+|| xx
+|- align="center"
+| 19
+|| Mount
+|| Sample chamber
+|bgcolor="green"| self made
+|| mounts the objectives and holds the sample in place
+|| 1 
+|| xx 
+|| xx
+|| xx
+|- align="center"
+| 20
+|| Optics
+|| Objective 10x
+|bgcolor="red"| purchase
+|| 10x/NA 0.3
+|| 1 
+|| xx 
+|| xx
+|| xx
+|- align="center"
+| 21
+|| Optics
+|| Objective 20x
+|bgcolor="red"| purchase
+|| 20x/NA 0.5
+|| 1 
+|| xx 
+|| xx
+|| xx
+|- align="center"
+| 22
+|| Motor
+|| Motor
+|bgcolor="red"| purchase
+|| 4D positioning of the sample
+|| 1
+|| xx 
+|| xx
+|| xx
+|- align="center"
+| 23
+|| Washer 
+|| Washer
+|bgcolor="red"| purchase
+|| Counterbore Adapter Rings (SD1)
+|| 1 
+|| 7 
+|| [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=234 Thorlabs]
+|| xx
+|- align="center"
+| 24
+|| Optics 
+|| Mirror Mount
+|bgcolor="red"| purchase
+|| Polaris Kinematic Mirror Mounts (Polaris-K1)
+|| 3
+|| 115 
+|| [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=3912 Thorlabs]
+|| xx
+|- align="center"
+| 99
 || Screw 
 || xx
 |bgcolor="red"| purchase
