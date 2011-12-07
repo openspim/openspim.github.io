@@ -1,13 +1,163 @@
 {| class="wikitable sortable" border="1"
 |+ Table of Parts
 |-
-! scope="col" | #
-! scope="col" class="unsortable" | Image
-! scope="col" | Category
-! scope="col" | Name
-! scope="col" class="unsortable" | Description
-! scope="col" | Price
-! scope="col" class="unsortable" | File/Link
-|-
-| xx || xx || xx || xx || xx || xx  || xx
+! scope="col" width="50"| #
+! scope="col" width="120"| Category
+! scope="col" width="150"| Name
+! scope="col" width="150"| Accessibility 
+! scope="col" class="unsortable" width="250"| Description
+! scope="col" width="150"| Quantity
+! scope="col" width="100"| Price
+! scope="col" class="unsortable" width="80"| File/Link
+! scope="col" class="unsortable" width="120"| Image
+|- align="center"
+| 1 
+|| Laser 
+|| Coherent Cube 
+|bgcolor="red"| purchase 
+|| <math>\lambda =</math>489 nm, P=50 mW 
+|| 1
+|| xx 
+|| xx  
+|| [[File:hands.gif|thumb]]
+|- align="center"
+| 2 
+|| Laser 
+|| Laser mount 
+|bgcolor="green"| self made 
+|| functions as heat sink and brings the laser to the desired height 
+|| 1 
+|| xx
+|| xx  
+|| xx
+|- align="center"
+| 3 
+|| Rail system 
+|| Rail 
+|bgcolor="red"| purchase  
+|| 300 mm rail 
+|| 1
+|| xx  
+|| xx 
+|| xx
+|- align="center"
+| 4 
+|| Rail system
+|| Rail 
+|bgcolor="red"| purchase   
+|| 150 mm rail 
+|| 2
+|| xx  
+|| xx 
+|| xx
+|- align="center"
+| 5 
+|| Rail system
+|| Rail
+|bgcolor="red"| purchase  
+|| 75 mm rail
+|| 1
+|| xx  
+|| xx 
+|| xx
+|- align="center"
+| 6 
+|| Rail system
+|| Slider
+|bgcolor="red"| purchase
+|| Rail slider 25 mm width;
+|| 8  
+|| xx 
+|| xx
+|| xx
+|- align="center"
+| 7 
+|| Rail system 
+|| Spacer 
+|bgcolor="red"| purchase 
+|| mounts a lens, mirror etc.
+|| xx  
+|| xx 
+|| xx
+|| xx
+|- align="center"
+| 8
+|| Mount 
+|| Motor mount
+|bgcolor="green"| self made 
+|| Mounting plate for motors
+|| 1  
+|| xx 
+|| xx
+|| xx
+|- align="center"
+| 9
+|| Mount 
+|| Tube lens mount
+|bgcolor="green"| self made 
+|| Holds the tube lens etc.
+|| 1  
+|| xx 
+|| xx
+|| xx
+|- align="center"
+| 10
+|| Screw 
+|| xx
+|bgcolor="red"| purchase
+|| xx
+|| xx 
+|| xx 
+|| xx
+|| xx
+|- align="center"
+| 11
+|| Screw 
+|| xx
+|bgcolor="red"| purchase
+|| xx
+|| xx 
+|| xx 
+|| xx
+|| xx
+|- align="center"
+| 12
+|| Screw 
+|| xx
+|bgcolor="red"| purchase
+|| xx
+|| xx 
+|| xx 
+|| xx
+|| xx
+|- align="center"
+| 13
+|| Screw 
+|| xx
+|bgcolor="red"| purchase
+|| xx
+|| xx 
+|| xx 
+|| xx
+|| xx
+|- align="center"
+| 10
+|| Screw 
+|| xx
+|bgcolor="red"| purchase
+|| xx
+|| xx 
+|| xx 
+|| xx
+|| xx
+|- align="center"
+| 10
+|| Screw 
+|| xx
+|bgcolor="red"| purchase
+|| xx
+|| xx 
+|| xx 
+|| xx
+|| xx
 |}
