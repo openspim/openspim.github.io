@@ -6,7 +6,7 @@
 ! scope="col" width="150"| Name
 ! scope="col" width="150"| Accessibility 
 ! scope="col" class="unsortable" width="250"| Description
-! scope="col" width="150"| Quantity
+! scope="col" width="50"| Quantity
 ! scope="col" width="100"| Price (EUR)
 ! scope="col" class="unsortable" width="80"| File/Link
 ! scope="col" class="unsortable" width="120"| Image
