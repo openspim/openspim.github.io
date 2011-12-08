@@ -33,7 +33,7 @@
 |- align="center"
 | 3 
 || Rail system 
-|| Rail 
+|| Rail 2
 |bgcolor="red"| purchase  
 || 300 mm dovetail optical rail (RLA300/M)
 || 1
@@ -43,7 +43,7 @@
 |- align="center"
 | 4 
 || Rail system
-|| Rail 
+|| Rail 1,3
 |bgcolor="red"| purchase   
 || 150 mm dovetail optical rail (RLA150)
 || 2
@@ -53,7 +53,7 @@
 |- align="center"
 | 5 
 || Rail system
-|| Rail
+|| Rail 4
 |bgcolor="red"| purchase  
 || 75 mm dovetail optical rail
 || 1
@@ -63,7 +63,7 @@
 |- align="center"
 | 6 
 || Rail system
-|| Carrier
+|| Rail Carrier
 |bgcolor="red"| purchase
 || Rail carrier 1"/25 mm (RC1);
 || 8  
