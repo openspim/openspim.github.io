@@ -25,7 +25,7 @@
 || Laser 
 || Laser mount 
 |bgcolor="green"| self made 
-|| functions as heat sink and brings the laser to the desired height 
+|| functions as heat sink and brings the laser to the desipink height 
 || 1 
 || xx
 || xx  
@@ -34,7 +34,7 @@
 | 3 
 || Rail system 
 || Rail 2
-|bgcolor="red"| purchase  
+|bgcolor="pink"| purchase  
 || 300 mm dovetail optical rail (RLA300/M)
 || 1
 || 62
@@ -44,7 +44,7 @@
 | 4 
 || Rail system
 || Rail 1,3
-|bgcolor="red"| purchase   
+|bgcolor="pink"| purchase   
 || 150 mm dovetail optical rail (RLA150)
 || 2
 || 35  
@@ -54,7 +54,7 @@
 | 5 
 || Rail system
 || Rail 4
-|bgcolor="red"| purchase  
+|bgcolor="pink"| purchase  
 || 75 mm dovetail optical rail
 || 1
 || 25  
@@ -64,7 +64,7 @@
 | 6 
 || Rail system
 || Rail Carrier
-|bgcolor="red"| purchase
+|bgcolor="pink"| purchase
 || Rail carrier 1"/25 mm (RC1);
 || 8  
 || xx 
@@ -104,7 +104,7 @@
 | 10
 || Optics 
 || Mirror
-|bgcolor="red"| purchase
+|bgcolor="pink"| purchase
 || Broadband dielectric mirror 1" (BB1-E02) 
 || 3
 || 65
@@ -114,7 +114,7 @@
 | 11
 || Optics 
 || Achromat
-|bgcolor="red"| purchase
+|bgcolor="pink"| purchase
 || 50 mm achromat for the beam expander
 || 1
 || xx 
@@ -124,7 +124,7 @@
 | 12
 || Optics
 || Achromat
-|bgcolor="red"| purchase
+|bgcolor="pink"| purchase
 || 25 mm achromat for the beam expander
 || 1 
 || xx 
@@ -134,7 +134,7 @@
 | 13
 || Optics
 || Lens
-|bgcolor="red"| purchase
+|bgcolor="pink"| purchase
 ||  mm singlet lens for the telescope
 || 2 
 || xx 
@@ -144,7 +144,7 @@
 | 14
 || Optics
 || Cyndrical lens
-|bgcolor="red"| purchase
+|bgcolor="pink"| purchase
 || 50 mm cylindrical lens to create the sheet
 || 1 
 || xx 
@@ -154,7 +154,7 @@
 | 15
 || Optics
 || Tube lens
-|bgcolor="red"| purchase
+|bgcolor="pink"| purchase
 || xx
 || 1 
 || xx 
@@ -164,7 +164,7 @@
 | 16
 || Mount
 || Tube lens holder
-|bgcolor="red"| purchase
+|bgcolor="pink"| purchase
 || defines the tube lens - objective distance
 || 1 
 || xx 
@@ -174,7 +174,7 @@
 | 17
 || Optics
 || Slit
-|bgcolor="red"| purchase
+|bgcolor="pink"| purchase
 || Adjustable mechanical slit (VA100/M)
 || 1 
 || 220  
@@ -184,7 +184,7 @@
 | 18
 || Optics
 || Iris
-|bgcolor="red"| purchase
+|bgcolor="pink"| purchase
 || Ring-Activated Threaded Iris Diaphragms (SM1D12D)
 || 1 
 || 55
@@ -204,7 +204,7 @@
 | 20
 || Optics
 || Objective 10x
-|bgcolor="red"| purchase
+|bgcolor="pink"| purchase
 || 10x/NA 0.3
 || 1 
 || xx 
@@ -214,7 +214,7 @@
 | 21
 || Optics
 || Objective 20x
-|bgcolor="red"| purchase
+|bgcolor="pink"| purchase
 || 20x/NA 0.5
 || 1 
 || xx 
@@ -224,7 +224,7 @@
 | 22
 || Motor
 || Motor
-|bgcolor="red"| purchase
+|bgcolor="pink"| purchase
 || 4D positioning of the sample
 || 1
 || xx 
@@ -234,7 +234,7 @@
 | 23
 || Washer 
 || Washer
-|bgcolor="red"| purchase
+|bgcolor="pink"| purchase
 || Counterbore Adapter Rings (SD1)
 || 1 
 || 7 
@@ -244,7 +244,7 @@
 | 24
 || Optics 
 || Mirror Mount
-|bgcolor="red"| purchase
+|bgcolor="pink"| purchase
 || Polaris Kinematic Mirror Mounts (Polaris-K1)
 || 3
 || 115 
@@ -254,7 +254,7 @@
 | 99
 || Screw 
 || xx
-|bgcolor="red"| purchase
+|bgcolor="pink"| purchase
 || xx
 || xx 
 || xx 
