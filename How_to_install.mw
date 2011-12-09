@@ -27,4 +27,4 @@ Call the Studio directly, without first starting ImageJ:
 
  fiji-win32 --main-class=org.micromanager.MMStudioMainFrame
 
-[[Category:Usage]]
+[[Category:Software]]
