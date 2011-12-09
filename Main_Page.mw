@@ -1,3 +1,19 @@
+<b>The Idea</b>
+
+OpenSPIM is an <i>Open Access</i> project to build an accessible, entry level implementation of Selective Plane Illumination Microscopy (SPIM). 
+
+<b>SPIM principle</b>
+
+SPIM is a variation of light-sheet microscopy technique, that uncouples the illumination and detection axes in an optical set-up allowing imaging of biological specimen with low photodamage. Optical sectioning is achieved by focusing an excitation laser beam into a thin light-sheet and illuminating only a thin section (plane) of the imaged specimen. The illuminated plane is then photographed by a CCD camera behind perpendicularly positioned detection lens that is focused to the center of the light-sheet. The optical set-up is fixed and 3D imaging is achieved by moving the light sheet through the sample collecting  a stack of 2d planes. Additionally, by mounting the sample in a rigid medium, such as agarose, and hanging it in front of the detection lens, it is possible to rotate the sample and collect 3d stacks from multiple angles (the so-called views in SPIM terminology).  
+
+<b>SPIM application</b>
+
+SPIM is an emerging microscopy technology promising to revolutionize several fields of biological research, in particular developmental and cell biology, by allowing imaging of large samples with high resolution over extended periods of time. SPIM has been used in a spectacular fashion to record the development of embryos of model organisms such as <i>Drosophila</i> and zebra fish with cellular resolution throughout the developing specimen that may consist of tens of thousands of cell (the so-called <i>in toto</i> imaging). The ability of SPIM to deliver high signal-to-noise 3D images of large specimen from different angles in an extended time-lapse is currently hard to achieve with any other microscopy technology. Since monitoring biological systems with high resolution over time is the goal of essentially all fields of biological inquiry, SPIM technology is imminently useful to biologists.
+
+
+<b>OpenSPIM</b>
+
+
 = Hardware section =
 [[Step by step assembly]]
 
