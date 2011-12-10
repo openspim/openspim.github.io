@@ -19,7 +19,6 @@ OpenSPIM is a SPIM set-up implementing single-sided light sheet illumination and
 
 SPIM is an emerging microscopy technology promising to revolutionize several fields of biological research, in particular developmental and cell biology, by allowing imaging of large samples with high resolution over extended periods of time. SPIM has been used in a spectacular fashion to record the development of embryos of model organisms such as <i>Drosophila</i> and zebra fish with cellular resolution throughout the developing specimen that may consist of tens of thousands of cell (the so-called <i>in toto</i> imaging). The ability of SPIM to deliver high signal-to-noise 3D images of large specimen from different angles in an extended time-lapse is currently hard to achieve with any other microscopy technology. Since monitoring biological systems with high resolution over time is the goal of essentially all fields of biological inquiry, SPIM technology is imminently useful to biologists.
 
-<include iframe title="YouTube video player" width="350" height="267" src="http://www.youtube.com/embed/jkDd8SMv1eU" frameborder="0" allowfullscreen></include>
 
 
 = Hardware section =
