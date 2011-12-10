@@ -1,31 +1,23 @@
 {| border="1" cellpadding="20" cellspacing="0"
-|+ align="bottom" style="color:#e76700;" |''People''
+|+ ''OpenSPIM People'' 
 |-
-|[[Image:Pavel.jpg|frame|left]] 
-|Research Group Leader at the MPI-CBG in Dresden. Provides ideas, concepts, research questions and funding. 
+| [[Image:Pavel.jpg|frame|left]] 
+| Research Group Leader at the MPI-CBG in Dresden. Provides ideas, concepts, research questions and funding.
 |-
-|Bread
-|Pie
+| [[Image:Jan.jpg|frame|left]] 
+| Research Group Leader at the MPI-CBG in Dresden. Provides ideas, concepts, research questions and funding.
 |-
-|Butter
-|Ice cream 
+| [[Image:Pete.jpg|frame|left]] 
+| Microscopy technician in the Tomancak lab. Designed and build the OpenSPIM.
+|-
+| [[Image:Johannes.jpg|frame|left]]  
+| Visiting Scientist at LOCI University of Madison. Wrote the microManager OpenSPIM steering interface. Develops and maintains Fiji.
+|-
+| [[Image:Vineeth.jpg|frame|left]] 
+| PhD student in the Tomancak lab. In charge of the photography for the OpenSPIM project. 
+|-
+| XX 
+| Sopal, Sukhdeep Singh, Steve Simmert - PhD students at the BIOTEC in Dresden. Put together the OpenSPIM Wiki during the 2011 pre-doc course in the Tomancak lab. 
 |}
-
-[[Image:Pavel.jpg|frame|left]] Research Group Leader at the MPI-CBG in Dresden. Provides ideas, concepts, research questions and funding. [[Image:Jan.jpg|frame|left]] 
-
-Research Group Leader at the MPI-CBG in Dresden. Provides SPIM expertise, guidance and general support for the project. [[Image:Pete.jpg|frame|left]] 
-
-
-Microscopy technician in the Tomancak lab. Designed and build the OpenSPIM [[Image:Johannes.jpg|frame|left]] Visiting Scientist at LOCI University of Madison. 
-
-Wrote the microManager OpenSPIM steering interface. Develops and maintains Fiji. [[Image:Vineeth.jpg|frame|left]] 
-
-
-
-PhD student in the Tomancak lab. In charge of the photography for the OpenSPIM project. 
-
-
-
-Sopal, Sukhdeep Singh, Steve Simmert - PhD students at the BIOTEC in Dresden. Put together the OpenSPIM Wiki during the 2011 pre-doc course in the Tomancak lab. 
 
 [[Category:People]]
