@@ -8,4 +8,6 @@ Micro-Manager writes verbose information to the ''CoreLog<timestamp>.txt'' file 
 
 Likewise, it is advisable to use the ''ReportingUtils.log()'' and ''ReportingUtils.logException()'' methods to write to the CoreLog from Java.
 
+{{#ev:youtube|dMH0bHeiRNg}}
+
 [[Category:Software]]
