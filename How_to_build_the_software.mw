@@ -22,4 +22,15 @@ First, <u>make sure</u> that the environment variable ''JAVA_HOME'' is set and p
 
 After installing [http://msdn.microsoft.com/en-us/express/future/bb421473 Visual Studio Express 2008], continue as described on the [http://valelab.ucsf.edu/~MM/MMwiki/index.php/Building_MM_on_Windows uManager Wiki].
 
+== Debugging ==
+
+=== When Micro-Manager does not list the driver ===
+
+# Make sure the .dll is present in ''dist/mm/Win32/''
+# Use the [http://www.dependencywalker.com/ Dependency Walker] to detect missing dependencies
+
+=== Using Visual Studio's interactive debugger ===
+
+Start Fiji, and before starting Micro-Manager use Visual Studio's ''Debug>Attach to Process...'' to attach to the process. After that, you may set breakpoints (optional) and then start Micro-Manager in Fiji.
+
 [[Category:Software]]
