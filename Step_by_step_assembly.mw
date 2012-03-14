@@ -9,21 +9,37 @@ Before you start to assemble please make sure you have all [[table of parts|need
 2x ThorLabs part #: BB05-E02 1/2" diameter mirrors go into<br />
 2x ThorLabs part #: Polaris-K05 1/2" diameter mirror mounts
 
+===== Tools needed =====
+
+1.5 mm hex key/driver
+
 ==== 1" diameter mirror into 1" diameter mirror mount ====
 
 1x ThorLabs part #: BB1-E02 1" diameter mirror goes into<br />
 1x ThorLabs part #: Polaris-K1 1" diameter mirror mount
 
+===== Tools needed =====
+
+2 mm hex key/driver
+
 === Lenses into lens mounts ===
 
-==== 1/2" lenses into 1/2" lens mounts ====
+==== 1/2" spherical lenses into 1/2" lens mounts ====
 
-
-2x ThorLabs part #: AC127-025-A-ML 1/2" diameter 25 mm focal length achromatic lens doublet go into<br />
+2x ThorLabs part #: AC127-025-A-ML 1/2" diameter 25 mm focal length achromatic spherical lens doublet go into<br />
 2x ThorLabs part #: LMR05/M 1/2" diameter lens mounts
 
-2x ThorLabs part #: AC127-050-A-ML 1/2" diameter 50 mm focal length achromatic lens doublet go into<br />
+2x ThorLabs part #: AC127-050-A-ML 1/2" diameter 50 mm focal length achromatic spherical lens doublet go into<br />
 2x ThorLabs part #: LMR05/M 1/2" diameter lens mounts
+
+===== Tools needed =====
+
+none
+
+==== 1" diameter cylindrical lens into rotating mount ====
+
+1x ThorLabs part #: ACY254-50-A 1" diameter 50 mm focal length achromatic cylindrical lens doublet<br />
+1x ThorLabs part #: RSP1X15/M 1" diameter indexed rotating holding mount
 
 == Mirror mount ==
 {|colspan="2"|
