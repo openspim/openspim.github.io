@@ -10,11 +10,11 @@ Wherever you like, e.g. in your home directory, call these commands:
 
 # git clone git://fiji.sc/micromanager1.4 micromanager
 # cd micromanager
-# git checkout -t origin/win32-build
+# git checkout -t origin/openspim
 # cd ..
 # git clone git://fiji.sc/mmanager-3rdparty 3rdpartypublic
 # cd 3rdpartypublic
-# git checkout -t origin/win32-build
+# git checkout -t origin/openspim
 
 = Building Micro-Manager =
 
