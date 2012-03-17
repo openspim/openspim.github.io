@@ -1,5 +1,11 @@
 This page just explains how to build the software needed for OpenSPIM. For an overview of the source code, please have a look at [[Overview_of_the_source_code|this page]].
 
+= QuickStart =
+
+If you have access to the OpenSPIM DropBox, just download & run the [https://dl-web.dropbox.com/get/Software&Drivers/Windows/32%20bit/OpenSPIM%20development%20environment/msysGit-netinstall-openspim.exe OpenSPIM development environment installer]. This will set up everything you need and perform the initial build.
+
+If you do not have access to the DropBox, please follow the following instructions.
+
 = You need Git =
 
 First of all, you need to make sure that you have the version control software [http://git-scm.com Git] installed. If in doubt, just install [http://msysgit.github.com/ Git for Windows].
