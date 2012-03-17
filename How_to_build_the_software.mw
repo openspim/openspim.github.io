@@ -2,15 +2,21 @@ This page just explains how to build the software needed for OpenSPIM. For an ov
 
 = QuickStart =
 
+<span style='color:red;'>First, make sure you have your camera driver installed!</span>
+
 If you have access to the OpenSPIM DropBox, just download & run the [https://dl-web.dropbox.com/get/Software&Drivers/Windows/32%20bit/OpenSPIM%20development%20environment/msysGit-netinstall-openspim.exe OpenSPIM development environment installer]. This will set up everything you need and perform the initial build.
 
 If you do not have access to the DropBox, please follow the following instructions.
 
-= You need Git =
+= Manual setup =
+
+<span style='color:red;'>First, make sure you have your camera driver installed!</span>
+
+== You need Git ==
 
 First of all, you need to make sure that you have the version control software [http://git-scm.com Git] installed. If in doubt, just install [http://msysgit.github.com/ Git for Windows].
 
-= Cloning the Micro-Manager and support sources =
+== Cloning the Micro-Manager and support sources ==
 
 Wherever you like, e.g. in your home directory, call these commands:
 
@@ -22,20 +28,20 @@ Wherever you like, e.g. in your home directory, call these commands:
 # cd 3rdpartypublic
 # git checkout -t origin/openspim
 
-= Building Micro-Manager =
+== Building Micro-Manager ==
 
 First, <u>make sure</u> that the environment variable ''JAVA_HOME'' is set and points to a valid JDK (you can add environment variables by right-clicking on the "Start" menu button, choosing "Open Windows Explorer", opening the context menu of "My Computer", selecting "Properties" and in the "Advanced mode" click on the "Environment variables" button. You need to restart the Visual Studio after adding the environment variable).
 
 After installing [http://msdn.microsoft.com/en-us/express/future/bb421473 Visual Studio Express 2008], continue as described on the [http://valelab.ucsf.edu/~MM/MMwiki/index.php/Building_MM_on_Windows uManager Wiki].
 
-== Debugging ==
+= Debugging =
 
-=== When Micro-Manager does not list the driver ===
+== When Micro-Manager does not list the driver ==
 
 # Make sure the .dll is present in ''dist/mm/Win32/''
 # Use the [http://www.dependencywalker.com/ Dependency Walker] to detect missing dependencies
 
-=== Using Visual Studio's interactive debugger ===
+== Using Visual Studio's interactive debugger ==
 
 Start Fiji, and before starting Micro-Manager use Visual Studio's ''Debug>Attach to Process...'' to attach to the process. After that, you may set breakpoints (optional) and then start Micro-Manager in Fiji.
 
