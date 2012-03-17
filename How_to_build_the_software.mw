@@ -36,10 +36,20 @@ After installing [http://msdn.microsoft.com/en-us/express/future/bb421473 Visual
 
 = Debugging =
 
+== Look at the CoreLog ==
+
+Whatever you do, first have a look at the file CoreLog<date>.txt, located in the directory Micro-Manager was started from (this is not necessarily the directory where it is installed, beware!).
+
 == When Micro-Manager does not list the driver ==
 
 # Make sure the .dll is present in ''dist/mm/Win32/''
 # Use the [http://www.dependencywalker.com/ Dependency Walker] to detect missing dependencies
+
+== Micro-Manager just crashes when I connect <device> ==
+
+Micro-Manager's memory management is not very safe on the driver side. Try to start Fiji with less memory reserved for Java, e.g. ''--mem=512m''.
+
+If that does not help, try to find out what's in [[#Look at the CoreLog]], and if that fails, too, you might have more luck [[#Using Visual Studio's interactive debugger]].
 
 == Using Visual Studio's interactive debugger ==
 
