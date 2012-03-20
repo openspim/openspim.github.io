@@ -22,7 +22,7 @@
 ||[[File:05.jpg|thumb|upright=0.7]]
 |- align="center"
 | 2 
-|| Laser 
+|| Mount
 || Laser mount 
 |bgcolor="green"| self made 
 || functions as heat sink and brings the laser to the desired height of 50 mm off the surface of the optical breadboard
@@ -33,9 +33,9 @@
 |- align="center"
 | 3 
 || Rail system 
-|| Rail 2
+|| 300 mm dovetail optical rail
 |bgcolor="pink"| purchase  
-|| 300 mm dovetail optical rail (RLA300/M)
+|| RLA300/M (2)
 || 1
 || 62
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=RLA300/M Thorlabs] 
@@ -43,9 +43,9 @@
 |- align="center"
 | 4 
 || Rail system
-|| Rail 1,3
+|| 150 mm dovetail optical rail
 |bgcolor="pink"| purchase   
-|| 150 mm dovetail optical rail (RLA150)
+|| RLA150 (1&3)
 || 2
 || 35  
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=RLA150/M Thorlabs] 
@@ -53,9 +53,9 @@
 |- align="center"
 | 5 
 || Rail system
-|| Rail 4
+|| 75 mm dovetail optical rail
 |bgcolor="pink"| purchase  
-|| 75 mm dovetail optical rail (RLA075)
+|| RLA075 (4)
 || 1
 || 25  
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=RLA075/M Thorlabs] 
