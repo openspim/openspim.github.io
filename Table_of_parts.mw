@@ -73,19 +73,59 @@
 |- align="center"
 | 7 
 || Rail system 
+|| Stilt 
+|bgcolor="green"| self made
+|| elevates the optical components (mirrors, lenses, slits and irises) to the desired height of 50mm off the surface of the optical breadboard
+|| Varying (see below)  
+|| xx 
+|| xx
+|| xx
+|- align="center"
+| 7a 
+|| Rail system 
+|| 10 mm stilt for iris mount
+|bgcolor="green"| self made
+|| elevates the iris to the desired height of 50mm off the surface of the optical breadboard
+|| 1 
+|| xx 
+|| xx
+|| xx
+|- align="center"
+| 7b
+|| Rail system 
 || Spacer 
 |bgcolor="green"| self made
-|| elevates the optical components (mirrors, lenses, slits and irises) at the desired height of 50mm off the surface of the optical breadboard
+|| elevates the vertical slit to the desired height of 50mm off the surface of the optical breadboard
+|| 13.25 mm stilt for vertical slit 
+|| 1 
+|| xx
+|| xx
+|- align="center"
+| 7c 
+|| Rail system 
+|| 15 mm stilts for 1/2" spherical lens mounts 
+|bgcolor="green"| self made
+|| elevates the 1/2" lenses to the desired height of 50mm off the surface of the optical breadboard
+|| Varying (see below)  
+|| 4 
+|| xx
+|| xx
+|- align="center"
+| 7d
+|| Rail system 
+|| 19.5 mm stilts for 1/2" mirror mounts 
+|bgcolor="green"| self made
+|| elevates the 1/2" mirrors to the desired height of 50mm off the surface of the optical breadboard
 || Varying (see below)  
 || xx 
 || xx
 || xx
 |- align="center"
 | 8
-|| Mount 
-|| Motor mount
+|| 24.5 mm stilt for 1" mirror mount 
+|| Mirror mount
 |bgcolor="green"| self made 
-|| Mounting plate for motors
+|| elevates the 1" mirror to the desired height of 50mm off the surface of the optical breadboard
 || 1  
 || xx 
 || xx
