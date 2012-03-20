@@ -125,14 +125,22 @@
 || xx
 || xx
 |- align="center"
-| 10
-|| Optics 
+| rowspan="2"|10
+| rowspan="2"| Optics 
 || Mirror
 |bgcolor="pink"| purchase
 || 1" broadband dielectric mirror (BB1-E02) 
 || 1
 || 65
-|| [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=139 Thorlabs]
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=BB1-E02 Thorlabs]
+|| [[File:08.jpg|thumb|upright=0.7]]
+|- align="center"
+|| Mirror
+|bgcolor="pink"| purchase
+|| 1/2" broadband dielectric mirror (BB05-E02) 
+|| 2
+|| 65
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=BB05-E02 Thorlabs]
 || [[File:08.jpg|thumb|upright=0.7]]
 |- align="center"
 | rowspan="2"|11 
