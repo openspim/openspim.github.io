@@ -25,7 +25,7 @@
 || Laser 
 || Laser mount 
 |bgcolor="green"| self made 
-|| functions as heat sink and brings the laser to the desired height 
+|| functions as heat sink and brings the laser to the desired height of 50 mm off the surface of the optical breadboard
 || 1 
 || xx
 || xx  
@@ -75,7 +75,7 @@
 || Rail system 
 || Spacer 
 |bgcolor="green"| self made
-|| mounts a lens, mirror etc.
+|| elevates the optical components (mirrors, lenses, slits and irises) at the height of 50mm off the surface of the optical breadboard
 || xx  
 || xx 
 || xx
