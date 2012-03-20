@@ -135,14 +135,14 @@
 || [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=139 Thorlabs]
 || [[File:08.jpg|thumb|upright=0.7]]
 |- align="center"
-| 11
-|| Optics 
+| rowspan="4"|11 
+| rowspan="4"| Optics 
 || Achromat
 |bgcolor="pink"| purchase
 || 1/2" diameter 50 mm focal length achromat
 || 2
-|| xx 
-|| xx
+|| 65 
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=AC127-050-A-ML Thorlabs]
 || [[File:09Lens.jpg|thumb|upright=0.7]]
 |- align="center"
 | 12
@@ -151,8 +151,8 @@
 |bgcolor="pink"| purchase
 || 1/2" diameter 25 mm focal length achromat
 || 2
-|| xx 
-|| xx
+|| 65 
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=AC127-025-A-ML Thorlabs]
 || [[File:09Lens.jpg|thumb|upright=0.7]]
 |- align="center"
 | 13
