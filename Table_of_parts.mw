@@ -2,7 +2,7 @@
 |+ Table of Parts
 |-
 ! scope="col" class="unsortable" width="50"| #
-! scope="col" width="120"| Category
+! scope="col" class="unsortable" width="120"| Category
 ! scope="col" class="unsortable" width="150"| Name/Model #
 ! scope="col" class="unsortable" width="150"| Accessibility 
 ! scope="col" class="unsortable" width="250"| Description
