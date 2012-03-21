@@ -233,6 +233,16 @@
 || xx
 || xx
 |- align="center"
+|| Tube lens spacer
+|bgcolor="green"| self made
+|| defines the tube lens - objective distance
+|| 1 
+|| xx 
+|| xx
+|| xx
+|- align="center"
+| 16
+|| optics
 || VA100/M
 |bgcolor="pink"| purchase
 || Adjustable mechanical slit
