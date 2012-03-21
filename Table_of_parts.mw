@@ -181,22 +181,22 @@
 |- align="center"
 | 13
 || Optics
-|| Lens
-|bgcolor="pink"| purchase
-||  mm singlet lens for the telescope
-|| 2 
-|| xx 
-|| xx
-|| xx
-|- align="center"
-| 14
-|| Optics
 || ACY254-050-A
 |bgcolor="pink"| purchase
 || f = 50 mm, Ø1" Cylindrical Achromat, AR Coating: 350 - 700 nm
 || 1 
 || 315
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=ACY254-050-A Thorlabs]
+|| [[File:012CylindricalLens.jpg|thumb|upright=0.7]]
+|- align="center"
+| 14
+|| Mount
+|| RSP1X15/M
+|bgcolor="pink"| purchase
+|| Metric Rotation Mount, 360° Continuous or 15° Indexed Rotation 
+|| 1 
+|| 110
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=RSP1X15/M Thorlabs]
 || [[File:012CylindricalLens.jpg|thumb|upright=0.7]]
 |- align="center"
 | 15
