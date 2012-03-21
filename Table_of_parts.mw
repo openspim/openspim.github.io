@@ -289,11 +289,19 @@
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=SD1 Thorlabs]
 || xx
 |- align="center"
-| 24
-|| Optics 
+| rowspan="2"|24
+| rowspan="2"| Mount 
 || Mirror Mount
 |bgcolor="pink"| purchase
 || Polaris Kinematic Mirror Mounts (Polaris-K1)
+|| 3
+|| 115 
+|| [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=3912 Thorlabs]
+|| [[File:08.jpg|thumb|upright=0.7]]
+|- align="center"
+|| Mirror Mount
+|bgcolor="pink"| purchase
+|| Polaris Kinematic Mirror Mounts (Polaris-K05)
 || 3
 || 115 
 || [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=3912 Thorlabs]
