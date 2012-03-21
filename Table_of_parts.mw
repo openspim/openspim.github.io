@@ -1,13 +1,13 @@
 {| class="wikitable sortable" border="1"
 |+ Table of Parts
 |-
-! scope="col" width="50"| #
+! scope="col" class="unsortable" width="50"| #
 ! scope="col" width="120"| Category
-! scope="col" width="150"| Name/Model #
-! scope="col" width="150"| Accessibility 
+! scope="col" class="unsortable" width="150"| Name/Model #
+! scope="col" class="unsortable" width="150"| Accessibility 
 ! scope="col" class="unsortable" width="250"| Description
-! scope="col" width="50"| Quantity
-! scope="col" width="100"| Price (EUR)
+! scope="col" class="unsortable" width="50"| Quantity
+! scope="col" class="unsortable" width="100"| Price (EUR)
 ! scope="col" class="unsortable" width="80"| File/Link
 ! scope="col" class="unsortable" width="120"| Image
 |- align="center"
