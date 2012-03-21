@@ -57,7 +57,7 @@
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=RLA075/M Thorlabs] 
 || [[File:rails.jpg|thumb|upright=0.7]]
 |- align="center"
-| 6 
+| 4
 || Rail system
 || RC1
 |bgcolor="pink"| purchase
@@ -67,7 +67,7 @@
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=RC1 Thorlabs]
 || [[File:RailCarrier.jpg|thumb|center|upright=0.3]]
 |- align="center"
-| rowspan="4"|7 
+| rowspan="4"|5 
 | rowspan="4"| Rail system 
 || 10 mm stilt for iris mount
 |bgcolor="green"| self made
@@ -101,7 +101,7 @@
 || xx
 || xx
 |- align="center"
-| 8
+| 6
 || Mount 
 || 24.5 mm stilt for 1" mirror mount
 |bgcolor="green"| self made 
@@ -111,7 +111,7 @@
 || xx
 || xx
 |- align="center"
-| 9
+| 7
 || Mount 
 || Detection axis holder mount
 |bgcolor="green"| self made 
@@ -121,7 +121,7 @@
 || xx
 || xx
 |- align="center"
-| rowspan="2"|10
+| rowspan="2"|8
 | rowspan="2"| Optics 
 ||  BB1-E02
 |bgcolor="pink"| purchase
@@ -139,7 +139,7 @@
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=BB05-E02 Thorlabs]
 || [[File:08.jpg|thumb|upright=0.7]]
 |- align="center"
-| rowspan="2"|11 
+| rowspan="2"|9 
 | rowspan="2"| Optics 
 || AC127-050-A-ML
 |bgcolor="pink"| purchase
@@ -157,7 +157,7 @@
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=AC127-025-A-ML Thorlabs]
 || [[File:09Lens.jpg|thumb|upright=0.7]]
 |- align="center"
-| rowspan="2"|12 
+| rowspan="2"|10
 | rowspan="2"| Mount 
 || LMR1/M
 |bgcolor="pink"| purchase
@@ -175,7 +175,7 @@
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=LMR05/M Thorlabs]
 || [[File:09Lens.jpg|thumb|upright=0.7]] 
 |- align="center"
-| 13
+| 11
 || Optics
 || ACY254-050-A
 |bgcolor="pink"| purchase
@@ -185,7 +185,7 @@
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=ACY254-050-A Thorlabs]
 || [[File:012CylindricalLens.jpg|thumb|upright=0.7]]
 |- align="center"
-| 14
+| 12
 || Mount
 || RSP1X15/M
 |bgcolor="pink"| purchase
@@ -195,7 +195,7 @@
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=RSP1X15/M Thorlabs]
 || [[File:012CylindricalLens.jpg|thumb|upright=0.7]]
 |- align="center"
-| 15
+| 13
 || Optics
 || U-TLU
 |bgcolor="pink"| purchase
@@ -205,7 +205,7 @@
 || Olympus
 || [[File:021 diffView.jpg|thumb|upright=0.7]]
 |- align="center"
-| rowspan="2"|16
+| rowspan="2"|14
 | rowspan="2"| C-Mount
 || U-TV0.5XC-3
 |bgcolor="yellow"| purchase the one you need
@@ -223,8 +223,8 @@
 || Olympus
 || xx
 |- align="center"
-| 16
-|| Mount
+ rowspan="2"|15
+| rowspan="2"| Blah
 || Tube lens spacer
 |bgcolor="green"| self made
 || defines the tube lens - objective distance
