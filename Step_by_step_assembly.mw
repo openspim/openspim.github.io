@@ -185,6 +185,8 @@ Put the M4x22 mm capscrew through a SD1 M4 to M6 adapter, then the capscrew/adap
 
 === Install 1" mirror assembly and its spacer post ===
 
+<b><span style="color:#FF0000"> From here on out till the completion of the installation of the OpenSPIM the furthest threaded hole juxtaposed in the opposite corner to the 1" mirror post will be called A1. See above. </span></b>
+
 ===== Objects needed =====
 
 *1x POLARIS-K1 1" mirror mount with mirror installed
@@ -193,10 +195,6 @@ Put the M4x22 mm capscrew through a SD1 M4 to M6 adapter, then the capscrew/adap
 *1x 25 mm tall optical post/spacer with M4 thru tap through the center
 *1x M4 nut
 
-Put the M4x50 mm capscrew through a SD1 M4 to M6 adapter, then the capscrew/adapter assembly through the bottom side of the optical breadboard in the hole in a corner that is tapped through with no threading. It is easy to see which the correct side is by the diameter size of this corner hole, the larger side is the bottom.
-
-<b><span style="color:#FF0000"> From here on out till the completion of the installation of the OpenSPIM the furthest threaded hole juxtaposed in the opposite corner to the 1" mirror post will be called A1. See above. </span></b>
-
 ===== Tools needed =====
 
 *1x 3 mm hex key/driver
@@ -204,7 +202,6 @@ Put the M4x50 mm capscrew through a SD1 M4 to M6 adapter, then the capscrew/adap
 
 ===== [http://youtu.be/tErFX8eFffU/ Directions] =====
 
-Using a 3 mm hex key/driver, put the M4x15 mm capscrew through the M4 thru tapped mounting hole in the POLARIS-K1 mirror mount, and screw into theM4 threaded 1" tall post.
 
 {|colspan="2"|
 |-
