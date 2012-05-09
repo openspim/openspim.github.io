@@ -289,9 +289,22 @@ Also, the rail carriers tightening knobs should always face out along the edge o
 
 
 
-== Sample Chamber with Objectives ==
+=== Install the OpenSPIM chamber ===
+
+===== Objects needed =====
+
+*1x OpenSPIM chamber assembly
+*1x Optical breadboard with dovetail rail system installed
+
+===== Tools needed =====
+
+*None
+
+===== [http://youtu.be/MxL_oFhFfTc/ Directions] =====
+
+Slide the OpenSPIM chamber assembly onto the 75 mm dovetail rail along the 20x detection objective axis so that the back of the 10x illumination objective is facing the 1" mirror mount along the dovetail rail axis.
+
 {|colspan="2"|
-Here comes the text
 |-
 |[[file:09_sample_chamber.JPG|thumb|center]]
 |[[file:09a_IMG_0583_new.jpg|thumb|center]]
