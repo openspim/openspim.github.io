@@ -181,8 +181,7 @@ Put the M4x22 mm capscrew through a SD1 M4 to M6 adapter, then the capscrew/adap
 Put the M4x22 mm capscrew through a SD1 M4 to M6 adapter, then the capscrew/adapter assembly through the bottom side of the RC1 rail carrier. The <b><i>??</i></b> mm stilt then goes over and through the M4 thru hole, so that there is about <b><i>??</i></b> mm of threading of the M4 capscrew poking out. On the bottom/base of the 1" optical mount, where the iris mechanism resides, is a threaded hole for M4 capscrew, rotate the mount around until it is snug then give it a 1/4 turn to tighten it with the 3 mm hex key/driver. Further angular adjustments will need to be made to the position of this assembly when aligning the laser.
 
 == Install everything on to the optical breadboard ==
-
-<b>The optical breadboard has a depth of 300 mm and a width of 450 mm, with a grid of 12 x 18 M6 threaded holes spaced 25 mm apart from one another. We will use a coordinate system similar to a spreadsheet to make it easier to know where each component and capscrew is positioned. Starting with A1 in the upper left corner, and ending with R12 in the lower right</b>
+<b><span style="color:#FF0000; background:#00C000"> The optical breadboard has a depth of 300 mm and a width of 450 mm, with a grid of 12 x 18 M6 threaded holes spaced 25 mm apart from one another. We will use a coordinate system similar to a spreadsheet to make it easier to know where each component and capscrew is positioned. Starting with A1 in the upper left corner, and ending with R12 in the lower right </span></b>
 
 === Install 1" mirror assembly and its spacer post ===
 
