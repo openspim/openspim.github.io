@@ -232,11 +232,31 @@ Place the CUBE laser heatsink assembly so that the mounting capscrew holes/notch
 |[[file:04_IMG_0563_new.jpg|thumb|center]]
 |}
 
-== Mount dovetail rails onto optical breadboard ==
+=== Mount dovetail rails onto optical breadboard ===
+
+===== Objects needed =====
+
+*1x ThorLabs part #: RLA075/M 75 mm dovetail rail
+*2x ThorLabs part #: RLA150/M 150 mm dovetail rails
+*1x ThorLabs part #: RLA300/M 300 mm dovetail rail
+*6x (or more) M6x16 mm capscrews
+ 
+===== Tools needed =====
+
+*1x 5 mm hex key/driver
+
+===== [http://youtu.be/zDHqsXEtSdA/ Directions] =====
+
+Place one of the 150 mm dovetail rails lengthwise with its ends on B6 to B12. Using the 5 mm hex key/driver, screw in 2 to 5 M6 capscrews along the length of the dovetail rail in holes B7 through B11. I personally put 2 M6 capscrews in B8 and B10.
+
+Place the 300 mm dovetail rail lengthwise along row 11 between columns D and O. Using the 5 mm hex key/driver, screw in 2 M6 capscrews in the middle of the 2 long slit holes of the dovetail rail in holes F11 and M11. You can slide the position of the dovetail rail 25 mm along its long axis.
+
+Place the other 150 mm dovetail rail lengthwise with its ends on Q5 to Q11. Using the 5 mm hex key/driver, screw in 2 to 5 M6 capscrews along the length of the dovetail rail in holes B6 through B10. I personally put 2 M6 capscrews in B7 and B9.
+
+Place the 75 mm dovetail rail lengthwise with its ends on O3 to R3. Using the 5 mm hex key/driver, screw in 2 M6 capscrews along the length of the dovetail rail in holes P3 through Q3. I personally put 2 M6 capscrews in B8 and B10.
 
 
 {|colspan="2"|
-For give the confusion about the mirrors (next step) being already on the images below, I got a little bit ahead of myself while documenting in two different locations months apart from each other.
 |-
 |[[file:07_rail4.JPG|thumb|center]]
 |[[file:07_IMG_0575_new.jpg|thumb|center]]
