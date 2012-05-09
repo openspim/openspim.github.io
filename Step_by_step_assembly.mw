@@ -182,35 +182,22 @@ Put the M4x22 mm capscrew through a SD1 M4 to M6 adapter, then the capscrew/adap
 
 == Install everything on to the optical breadboard ==
 
+<b>The optical breadboard has a depth of 300 mm and a width of 450 mm, with a grid of 12 x 18 M6 threaded holes spaced 25 mm apart from one another. We will use a coordinate system similar to a spreadsheet to make it easier to know where each capscrew is positioned. Starting with A1 in the upper left corner, and ending with R12 in the lower right</b>
+
 === Install 1" mirror assembly and its spacer post ===
 
 ===== Objects needed =====
 
-*1x M4x20 mm capscrew
+*1x POLARIS-K1 1" mirror mount with mirror installed
+*1x M4x50 mm capscrew
 *1x ThorLabs part #: SD1 -  M4 to M6 adapter
-*1x 1" tall optical post with M4 threading through the center
+*1x 25 mm tall optical post/spacer with M4 thru tap through the center
+*1x M4 nut
 *1x ThorLabs part#: MB3045/M - 300x450x12.7 mm optical breadboard
 
-===== Tools needed =====
+Put the M4x50 mm capscrew through a SD1 M4 to M6 adapter, then the capscrew/adapter assembly through the bottom side of the optical breadboard in the hole in a corner that is tapped through with no threading. It is easy to see which the correct side is by the diameter size of this corner hole, the larger side is the bottom.
 
-*1x 3 mm hex key/driver
-
-===== [http://youtu.be/tErFX8eFffU/ Directions] =====
-
-Put the M4x20 mm capscrew through a SD1 M4 to M6 adapter, then the capscrew/adapter assembly through the bottom side of the optical breadboard in the hole in the corner that is tapped through with no threading (which we will call QR,11-12). It is easy to see which the correct side is by the diameter size of this corner hole, the larger side is the bottom.
-
-{|colspan="2"|
-|-
-|[[file:02_mirror_3_mount.JPG|thumb|center]]
-|[[file:02_IMG_0548_new.jpg|thumb|center]]
-|}
-
-=== Install the POLARIS-K1 mirror mount on post ===
-
-===== Objects needed =====
-
-*1x M4x15 mm capscrew
-*1x POLARIS-K1 1" mirror mount with mirror installed
+<b> From here on out till the completion of the installation of the OpenSPIM the furthest threaded hole juxtaposed in the opposite corner will be called A1. See above. </b>
 
 ===== Tools needed =====
 
