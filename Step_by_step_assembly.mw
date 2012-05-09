@@ -1,6 +1,6 @@
 Before you start to assemble please make sure you have all [[table of parts|needed parts]] or you know how to improvise them. The light path of our original design is 50 mm off the top surface of the ThorLabs metric optical breadboard (part #: MB3045/M) where everything is installed.
 
-== Assemble purchased ThorLabs components ==
+== Assemble purchased components ==
 
 === Mirrors into corresponding mirror mounts ===
 
@@ -86,6 +86,23 @@ none
 ===== [http://youtu.be/7GvfFznetsA/ Directions] =====
 
 Take both components out of their respective boxes, and after screwing the 1" diameter external threaded ring in, screw the iris diaphragm inside the mount all the way back until it is flush with the mount.
+
+=== Mount the laser on the laser heat sink ===
+
+===== Objects needed =====
+
+*1x Coherent CUBE solid state laser diode
+*1x Machined metal (i.e. Aluminum) laser heatsink (that will raise the laser beam output to 50 mm off the surface of the optical breadboard)
+*4x M4 capscrews that came with the CUBE laser with their included washers.
+*1x Heat transfer paste
+
+===== Tools needed =====
+
+*1x 3 mm hex key/driver
+
+===== Directions =====
+
+Wear latex or nitril gloves that comfortably fit your hands! Apply heat transfer paste to the surface of the metal heat sink block where the CUBE laser will sit (everywhere between the four M4 threaded holes). Put the M4 capscrews that came with the CUBE laser through their included washers and the top of the holes in the base plate of the CUBE laser into the heatsink. using a 3 mm hex key/driver, screw the CUBE laser down onto the surface of the heatsink where the heat transfer paste is applied. Remove excess heat transfer paste with gloves on your hands!
 
 == Put assembled ThorLabs components on rail carriers ==
 
