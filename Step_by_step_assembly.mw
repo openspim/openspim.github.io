@@ -181,7 +181,7 @@ Put the M4x22 mm capscrew through a SD1 M4 to M6 adapter, then the capscrew/adap
 Put the M4x22 mm capscrew through a SD1 M4 to M6 adapter, then the capscrew/adapter assembly through the bottom side of the RC1 rail carrier. The <b><i>??</i></b> mm stilt then goes over and through the M4 thru hole, so that there is about <b><i>??</i></b> mm of threading of the M4 capscrew poking out. On the bottom/base of the 1" optical mount, where the iris mechanism resides, is a threaded hole for M4 capscrew, rotate the mount around until it is snug then give it a 1/4 turn to tighten it with the 3 mm hex key/driver. Further angular adjustments will need to be made to the position of this assembly when aligning the laser.
 
 == Install everything on to the optical breadboard ==
-<b><span style="color:#FF0000"> The optical breadboard has a depth of 300 mm and a width of 450 mm, with a grid of 12 x 18 M6 threaded holes spaced 25 mm apart from one another. We will use a coordinate system similar to a spreadsheet to make it easier to know where each component and capscrew is positioned. Starting with A1 in the upper left corner, and ending with R12 in the lower right </span></b>
+<b><span style="color:#FF0000"> The optical breadboard </span></b> (ThorLabs Part #: MB3045/M) <b><span style="color:#FF0000"> has a depth of 300 mm and a width of 450 mm, with a grid of 12 x 18 M6 threaded holes spaced 25 mm apart from one another. We will use a coordinate system similar to a spreadsheet to make it easier to know where each component and capscrew is positioned. Starting with A1 in the upper left corner, and ending with R12 in the lower right </span></b>
 
 === Install 1" mirror assembly and its spacer post ===
 
@@ -192,11 +192,10 @@ Put the M4x22 mm capscrew through a SD1 M4 to M6 adapter, then the capscrew/adap
 *1x ThorLabs part #: SD1 -  M4 to M6 adapter
 *1x 25 mm tall optical post/spacer with M4 thru tap through the center
 *1x M4 nut
-*1x ThorLabs part#: MB3045/M - 300x450x12.7 mm optical breadboard
 
 Put the M4x50 mm capscrew through a SD1 M4 to M6 adapter, then the capscrew/adapter assembly through the bottom side of the optical breadboard in the hole in a corner that is tapped through with no threading. It is easy to see which the correct side is by the diameter size of this corner hole, the larger side is the bottom.
 
-<b> From here on out till the completion of the installation of the OpenSPIM the furthest threaded hole juxtaposed in the opposite corner to the 1" mirror post will be called A1. See above. </b>
+<b><span style="color:#FF0000"> From here on out till the completion of the installation of the OpenSPIM the furthest threaded hole juxtaposed in the opposite corner to the 1" mirror post will be called A1. See above. </span></b>
 
 ===== Tools needed =====
 
