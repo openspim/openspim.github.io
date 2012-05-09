@@ -266,6 +266,20 @@ Place the 75 mm dovetail rail lengthwise with its ends on O3 to R3. Using the 5 
 
 === Install both 1/2" mirror assemblies on rail system ===
 
+===== Objects needed =====
+
+*2x 1/2" mirror assemblies on rail carriers
+*1x Optical breadboard with dovetail rail system installed
+
+===== Tools needed =====
+
+*None
+
+===== [http://youtu.be/zDHqsXEtSdA/ Directions] =====
+
+Position the 1/2 mirror assemblies on their respective rail carriers so that the laser beam will be reflected along the dovetail rail system, the first one should face 45 degrees to the right of the front of the laser while the second should face 45 degrees to the left. See the images or Youtube video for further clarification.
+
+Also, the rail carriers tightening knobs should always face out along the edge of the OpenSPIM system.
 
 {|colspan="2"|
 |-
