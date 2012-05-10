@@ -122,11 +122,11 @@ Wear latex or nitril gloves that comfortably fit your hands! Apply heat transfer
 
 == Put assembled ThorLabs components on rail carriers ==
 
-==== 1/2" mirror mount assemblies ====
+==== Ø1/2" mirror mount assemblies ====
 
 ===== Objects needed =====
 
-*2x 1/2" mirror mounts with installed mirrors
+*2x Ø1/2" mirror mounts with installed mirrors
 *2x 19 mm stilts with a M4 thru hole through the middle of it's body
 *2x M4x40 mm capscrews
 *2x M4 nuts
@@ -142,15 +142,15 @@ Wear latex or nitril gloves that comfortably fit your hands! Apply heat transfer
 
 Put the M4x40 mm capscrew through a SD1 M4 to M6 adapter, then the capscrew/adapter assembly through the bottom side of the RC1 rail carrier. The 19 mm stilt then goes over and through the M4 thru hole, so that there is about 15-20 mm of threading of the M4 capscrew poking out. Set the base of the mirror on the stilt through one of its holes, and screw a M4 nut over the remaining threading of the M4 capscrew. Grab and hold the M4 nut with the needle nosed pliers and from the bottom of the RC1 rail carrier use the 3 mm hex key/driver to screw the capscrew tight. Further angular adjustments will need to be made to the position of these assemblies when aligning the laser.
 
-==== 1/2" spherical lens mount assemblies ====
+==== Ø1/2" spherical lens mount assemblies ====
 
 ===== Objects needed =====
 
-*4x 1/2" lens mounts with installed spherical achromatic doublet lenses
-*4x 15 mm stilts with a M4 thru hole through the middle of it's body (either self made or ThorLabs part #: SC1 - spacer)
-*4x M4x25 mm capscrews
-*4x ThorLabs part #: SD1 -  M4 to M6 adapter
-*4x ThorLabs part #: RC1 - rail carrier
+*5x Ø1/2" optical mounts with installed optical components (2x <b>f</b> = 25 mm achromat, 2x <b>f</b> = 50 mm achromat & 1x 1 mm alignment tool)
+*5x 15 mm stilts with a M4 thru hole through the middle of it's body (either self made or ThorLabs part #: SC1 - spacer)
+*5x M4x25 mm capscrews
+*5x ThorLabs part #: SD1 -  M4 to M6 adapter
+*5x ThorLabs part #: RC1 - rail carrier
 
 ===== Tools needed =====
 
@@ -184,7 +184,7 @@ Put the M4x22 mm capscrew through a SD1 M4 to M6 adapter, then the capscrew/adap
 
 *1x Iris mechanism
 *1x 10 mm stilt with a M4 thru hole through the middle of it's body 
-*1x M4x10 mm capscrew
+*1x M4x15 mm capscrew
 *1x ThorLabs part #: SD1 -  M4 to M6 adapter
 *1x ThorLabs part #: RC1 - rail carrier
 
@@ -194,7 +194,7 @@ Put the M4x22 mm capscrew through a SD1 M4 to M6 adapter, then the capscrew/adap
 
 ===== [http://youtu.be/r3XgT8I1RIU/ Directions] =====
 
-Put the M4x22 mm capscrew through a SD1 M4 to M6 adapter, then the capscrew/adapter assembly through the bottom side of the RC1 rail carrier. The <b><i>??</i></b> mm stilt then goes over and through the M4 thru hole, so that there is about <b><i>??</i></b> mm of threading of the M4 capscrew poking out. On the bottom/base of the 1" optical mount, where the iris mechanism resides, is a threaded hole for M4 capscrew, rotate the mount around until it is snug then give it a 1/4 turn to tighten it with the 3 mm hex key/driver. Further angular adjustments will need to be made to the position of this assembly when aligning the laser.
+Put the M4x22 mm capscrew through a SD1 M4 to M6 adapter, then the capscrew/adapter assembly through the bottom side of the RC1 rail carrier. The 2-3 mm stilt then goes over and through the M4 thru hole, so that there is about 2-3 mm of threading of the M4 capscrew poking out. On the bottom/base of the Ø1" optical mount, where the iris mechanism resides, is a threaded hole for M4 capscrew, rotate the mount around until it is snug then give it a 1/4 turn to tighten it with the 3 mm hex key/driver. Further angular adjustments will need to be made to the position of this assembly when aligning the laser.
 
 == Install illumination axis on the optical breadboard ==
 <b><span style="color:#FF0000"> The optical breadboard </span></b> (ThorLabs Part #: MB3045/M) <b><span style="color:#FF0000"> has a depth of 300 mm and a width of 450 mm, with a grid of 12 x 18 M6 threaded holes spaced 25 mm apart from one another. We will use a coordinate system similar to a spreadsheet to make it easier to know where each component and capscrew is positioned. Starting with A1 in the upper left corner, and ending with R12 in the lower right </span></b>
