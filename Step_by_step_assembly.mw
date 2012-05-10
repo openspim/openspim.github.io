@@ -310,7 +310,21 @@ Slide the OpenSPIM chamber assembly onto the 75 mm dovetail rail along the 20x d
 
 == Alignment of laser ==
 
+===== Objects needed =====
 
+*1x Installed Coherent CUBE laser with heatsink
+*2x Installed 1\2" mirror mount assemblies on the dovetail rail
+*1x Installed 1" mirror mount on corner post
+*1x ThorLabs part #: <b>DG05-1500-H1-MD - Ø1/2" SM05-Mounted Frosted Glass Alignment Disk w/Ø1 mm Hole </b>
+
+===== Tools needed =====
+
+*1x 1.5 mm hex key/driver
+*Nx Just a little [http://youtu.be/SC2u7zWtdE8/ patience]
+
+===== [http://youtu.be/SC2u7zWtdE8/ Directions] =====
+
+Take off all jewelry (wedding bands, watches and anything shiny)! Power on laser. Roughly rotate, and adjust the distances to, all of the installed mirror mounts so that the laser will reflect off of the middle of the mirror surface of each assembly into the back of the illumination objective. 
 
 {|colspan="2"|
 |-
