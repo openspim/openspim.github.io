@@ -21,380 +21,380 @@
 
 
 |- align="center"
-|| Coherent Cube Laser
+|| Coherent 
 |bgcolor="pink"| purchase 
 || What ever <math>\lambda =</math> & mW is necessary for your experiments
-|| [http://www.coherent.com/products/?1007/CUBE Coherent] 
+|| [http://www.coherent.com/products/?1007/CUBE Cube] 
 ||[[File:05.jpg|thumb|upright=0.7]]
 || 1
 || ~7000 
 
 
 |- align="center"
-|| Laser Heat Sink 
+|| OpenSPIM
 |bgcolor="green"| self made 
 || Functions as heat sink and brings the laser to the desired height of 50 mm off the surface of the optical breadboard
-|| xx  
+|| Laser Heat Sink 
 || xx
 || 1 
 || xx
 
 
 |- align="center"
-|| RLA300/M
+|| ThorLabs
 |bgcolor="pink"| purchase  
 || Metric Dovetail Optical Rail, 300 mm
-|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=RLA300/M Thorlabs] 
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=RLA300/M RLA300/M] 
 || [[File:ThorLabs_RLA075-M_Meteric-Dovetail-Optical-Rail_Length=300mm.jpg|thumb|upright=0.7]]
 || 1
 || 65
 
 
 |- align="center"
-|| RLA150/M 
+|| ThorLabs
 |bgcolor="pink"| purchase   
 || Metric Dovetail Optical Rail, 150 mm
-|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=RLA150/M Thorlabs] 
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=RLA150/M RLA150/M ] 
 || [[File:ThorLabs_RLA075-M_Meteric-Dovetail-Optical-Rail_Length=150mm.jpg|thumb|upright=0.7]]
 || 2
 || 35  
 
 
 |- align="center"
-|| RLA075/M
+|| ThorLabs
 |bgcolor="pink"| purchase  
 || Metric Dovetail Optical Rail, 75 mm
-|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=RLA075/M Thorlabs] 
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=RLA075/M RLA075/M] 
 || [[File:ThorLabs_RLA075-M_Meteric-Dovetail-Optical-Rail_Length=75mm.jpg|thumb|upright=0.7]]
 || 1
 || 25  
 
 
 |- align="center"
-|| RC1
+|| ThorLabs
 |bgcolor="pink"| purchase
 || Rail carrier 1"/25 mm;
-|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=RC1 Thorlabs]
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=RC1 RC1]
 || [[File:ThorLabs_RC1-M_Rail-Carrier_for_Dovetail-Optical-Rail.jpg|thumb|upright=0.7]]
 || 8 (or 9*)  
 || 20 
 
 
 |- align="center"
-|| 10 mm stilt for iris mount
+|| OpenSPIM
 |bgcolor="green"| self made
 || elevates the iris from the modified rail carrier to the desired height of 50mm off the surface of the optical breadboard
-|| xx
+|| 10 mm stilt for iris mount
 || xx
 || 1 
 || xx 
 
 
 |- align="center"
-|| 13.25 mm stilt for vertical slit
+|| OpenSPIM
 |bgcolor="green"| self made
 || elevates the vertical slit from the rail carrier to the desired height of 50mm off the surface of the optical breadboard
-|| xx
+|| 13.25 mm stilt for vertical slit
 || xx
 ||  1
 || xx 
 
 
 |- align="center"
-|| 15 mm stilts for Ø1/2" spherical lens mounts 
+|| OpenSPIM
 |bgcolor="green"| self made
 || elevates the Ø1/2" lenses from the rail carrier to the desired height of 50mm off the surface of the optical breadboard
-|| xx 
+|| 15 mm stilts for Ø1/2" spherical lens mounts 
 || xx 
 || 4 (or 5*)  
 || xx
 
 
 |- align="center"
-|| SC1/M
+|| ThorLabs
 |bgcolor="orange"| optional purchase
 || elevates the Ø1/2" lenses from the rail carrier to the desired height of 50mm off the surface of the optical breadboard
-|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=SC1/M Thorlabs]
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=SC1/M SC1/M]
 || [[File:ThorLabs_SC1-M_Spacer_Height=15mm.jpg|thumb|upright=0.7]]
 || 4 (or 5*)  
 || 25 
 
 
 |- align="center"
-|| 19.5 mm stilts for Ø1/2" mirror mounts 
+|| OpenSPIM
 |bgcolor="green"| self made
 || elevates the Ø1/2" mirrors from the rail carrier to the desired height of 50mm off the surface of the optical breadboard
-|| xx
+|| 19.5 mm stilts for Ø1/2" mirror mounts
 || xx
 || 2  
 || xx 
 
 
 |- align="center"
-|| 24.5 mm stilt for Ø1" mirror mount
+|| OpenSPIM
 |bgcolor="green"| self made 
 || elevates the Ø1" mirror to the desired height of 50mm off the surface of the optical breadboard
-|| xx
+|| 24.5 mm stilt for Ø1" mirror mount
 || xx
 || 1  
 || xx 
 
 
 |- align="center"
-|| Detection axis holder mount
+|| OpenSPIM
 |bgcolor="green"| self made 
 || Holds the entire detection axis from behind the detection objective to the camera to the desired height of 50 mm off the surface of the optical breadboard
-|| xx
+|| Detection axis holder mount
 || xx
 || 1  
 || xx 
 
 
 |- align="center"
-||  BB1-E02
+|| ThorLabs
 |bgcolor="pink"| purchase
 || Ø1" broadband dielectric mirror
-|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=BB1-E02 Thorlabs]
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=BB1-E02 BB1-E02]
 || [[File:ThorLabs_BB1-E02_Broadband-Dielectric-Mirror_Diameter=1in.jpg|thumb|upright=0.7]]
 || 1
 || 65
 
 
 |- align="center"
-||  BB05-E02
+|| ThorLabs
 |bgcolor="pink"| purchase
 || Ø1/2" broadband dielectric mirror 
-|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=BB05-E02 Thorlabs]
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=BB05-E02 BB05-E02]
 || [[File:ThorLabs_BB05-E02_Broadband-Dielectric-Mirror_Diameter=0-5in.jpg|thumb|upright=0.7]]
 || 2
 || 45
 
 
 |- align="center"
-|| AC127-050-A-ML
+|| ThorLabs
 |bgcolor="pink"| purchase
 || Ø1/2" Achromatic Doublet, SM05-Threaded Mount, f=50 mm, ARC: 400-700 nm 
-|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=AC127-050-A-ML Thorlabs]
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=AC127-050-A-ML AC127-050-A-ML]
 || [[File:ThorLabs_AC127-050-A-ML_Achromatic-Doublet_Dia=0-5in_F=50mm.jpg|thumb|upright=0.7]]
 || 2
 || 65 
 
 
 |- align="center"
-|| AC127-025-A-ML
+|| ThorLabs
 |bgcolor="pink"| purchase
 || Ø1/2" Achromatic Doublet, SM05-Threaded Mount, f=25 mm, ARC: 400-700 nm 
-|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=AC127-025-A-ML Thorlabs]
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=AC127-025-A-ML AC127-025-A-ML]
 || [[File:ThorLabs_AC127-025-A-ML_Achromatic-Doublet_Dia=0-5in_F=25mm.jpg|thumb|upright=0.7]]
 || 2
 || 65 
 
 
 |- align="center"
-|| LMR1/M
+|| ThorLabs
 |bgcolor="pink"| purchase
 || Ø1" optic mount (for the iris)
-|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=LMR1/M Thorlabs]
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=LMR1/M LMR1/M]
 || [[File:ThorLabs_LMR1-M_Lens-Mount_Dia=1in.jpg|thumb|center|upright=0.7]]
 || 1
 || 15
 
 
 |- align="center"
-|| LMR05/M
+|| ThorLabs
 |bgcolor="pink"| purchase
 || Ø1/2" optic mount (for light sheet creation)
-|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=LMR05/M Thorlabs]
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=LMR05/M LMR05/M]
 || [[File:ThorLabs_LMR05-M_Lens-Mount_Dia=0-5in.jpg|thumb|upright=0.7]] 
 || 4 (or 5*) 
 || 15
 
 
 |- align="center"
-|| ACY254-050-A
+|| ThorLabs
 |bgcolor="pink"| purchase
 || f = 50 mm, Ø1" Cylindrical Achromat, AR Coating: 350 - 700 nm
-|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=ACY254-050-A Thorlabs]
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=ACY254-050-A ACY254-050-A]
 || [[File:ThorLabs_ACY254-050-A_Cylindrical-Achromat_Dia=1in_f=50mm.jpg|thumb|upright=0.7]]
 || 1 
 || 315
 
 
 |- align="center"
-|| RSP1X15/M
+|| ThorLabs
 |bgcolor="pink"| purchase
 || Metric Rotation Mount, 360° Continuous or 15° Indexed Rotation 
-|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=RSP1X15/M Thorlabs]
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=RSP1X15/M RSP1X15/M]
 || [[File:ThorLabs_RSP1X15-M_Metric_Rotation-Mount_Dia=1in.jpg|thumb|upright=0.7]]
 || 1 
 || 110
 
 
 |- align="center"
-|| U-TLU
+|| Olympus
 |bgcolor="pink"| purchase
 || Tube lens for detection axis
-|| Olympus
+|| U-TLU
 || [[File:021 diffView.jpg|thumb|upright=0.7]]
 || 1 
 || ~400 
 
 
 |- align="center"
-|| U-TV0.5XC-3
+|| Olypmus
 |bgcolor="orange"| purchase the one you need
 || 0.5x magnifying camera mount
-|| Olympus
+|| U-TV0.5XC-3
 || xx
 || 1 
 || ~400 
 
 
 |- align="center"
-|| U-TV1 X & U-CMAD3
+|| Olympus
 |bgcolor="orange"| purchase the one you need
 || 1x magnifying camera mount
-|| Olympus
+|| U-TV1 X & U-CMAD3
 || xx
 || 1 
 || ~400 
 
 
 |- align="center"
-|| Tube lens spacer
+|| OpenSPIM
 |bgcolor="green"| self made
 || defines the tube lens - objective distance
-|| xx
+|| Tube lens spacer
 || xx
 || 1 
 || xx 
 
 
 |- align="center"
-|| Ø1"/Ø25 mm filter holder
+|| OpenSPIM
 |bgcolor="yellow"| make as many as you need
 || Microscopy filter holder that slides into the tube lens spacer
-|| xx
+|| Ø1"/Ø25 mm filter holder
 || xx
 || ?
 || xx 
 
 
 |- align="center"
-|| Ø1 1/4"/Ø31.5 mm filter holder
+|| OpenSPIM
 |bgcolor="yellow"| make as many as you need
 || Astronomy filter holder that slides into the tube lens spacer
-|| xx
+|| Ø1 1/4"/Ø31.5 mm filter holder
 || xx
 || ? 
 || xx 
 
 
 |- align="center"
-|| VA100/M
+|| ThorLabs
 |bgcolor="pink"| purchase
 || Adjustable mechanical slit
-|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=VA100/M Thorlabs]
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=VA100/M VA100/M]
 || [[File:ThorLabs_VA100-M_Adjustable-Mechanical-Slit_Metric.jpg|thumb|upright=0.7]]
 || 1 
 || 220  
 
 
 |- align="center"
-|| SM1D12D
+|| ThorLabs
 |bgcolor="pink"| purchase
 || Ring-Activated SM1 Iris Diaphragm 
-|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=SM1D12D Thorlabs]
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=SM1D12D SM1D12D]
 || [[File:ThorLabs_SM1D12D_Ring-Activated-SM1-Iris-Diaphragm.jpg|thumb|center|upright=0.7]]
 || 1 
 || 55
 
 
 |- align="center"
-|| Sample chamber
+|| OpenSPIM
 |bgcolor="green"| self made
 || mounts the objectives and holds the sample in place
-|| xx
+|| Sample chamber
 || xx
 || 1 
 || xx 
 
 
 |- align="center"
-|| UMPLFLN 10XW
+|| Olympus
 |bgcolor="pink"| purchase
 || Water dipping lens for Illumination (10x/0.3)
-|| [http://microscope.olympus-global.com/uis2/en/umplfln10xw/ Olympus]
+|| [http://microscope.olympus-global.com/uis2/en/umplfln10xw/ UMPLFLN 10XW]
 || [[File:Olympus_UMPLFLN-10XW_10x-Water-Dippining-Objective-Lens.jpg|thumb|center|upright=0.7]]
 || 1 
 || xx 
 
 
 |- align="center"
-|| UMPLFLN 20XW
+|| Olympus
 |bgcolor="pink"| purchase
 || Water dipping lens for detection (20x/0.5)
-|| [http://microscope.olympus-global.com/uis2/en/umplfln20xw/ Olympus]
+|| [http://microscope.olympus-global.com/uis2/en/umplfln20xw/ UMPLFLN 20XW]
 || [[File:Olympus_UMPLFLN-20XW_20x-Water-Dippining-Objective-Lens.jpg|thumb|center|upright=0.7]]
 || 1 
 || xx 
 
 
 |- align="center"
-|| USB-4D-Stage
+|| Picard-Industries
 |bgcolor="pink"| purchase
 || 4D positioning of the sample
-|| Picard-Industries
+|| USB-4D-Stage
 || xx
 || 1
 || ask for quote...
 
 
 |- align="center"
-|| DG05-1500-H1-MD
+|| ThorLabs
 |bgcolor="pink"| purchase
 || Ø1/2" SM05-Mounted Frosted Glass Alignment Disk w/Ø1 mm Hole 
-|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=DG05-1500-H1-MD Thorlabs]
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=DG05-1500-H1-MD DG05-1500-H1-MD]
 || xx
 || 1 
 || 25 
 
 
 |- align="center"
-|| Polaris-K1
+|| ThorLabs
 |bgcolor="pink"| purchase
 || Polaris Low Drift Ø1" Kinematic Mirror Mount 
-|| [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=3912 Thorlabs]
+|| [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=3912 Polaris-K1]
 || [[File:ThorLabs_POLARIS-K1_Kinematic-Mirror-Mount_Diameter=1in.jpg|thumb|upright=0.7]]
 || 1
 || 115 
 
 
 |- align="center"
-|| Polaris-K05
+|| ThorLabs
 |bgcolor="pink"| purchase
 || Polaris Low Drift Ø1/2" Kinematic Mirror Mount
-|| [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=3912 Thorlabs]
+|| [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=3912 Polaris-K05]
 || [[File:ThorLabs_POLARIS-K05_Kinematic-Mirror-Mount_Diameter=0-5in.jpg|thumb|upright=0.7]]
 || 2
 || 115 
 
 
 |- align="center"
-|| HW-KIT1/M
+|| ThorLabs
 |bgcolor="orange"| optional purchase
 || M4 Cap Screw and Hardware Kit 
-|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=HW-KIT1/M Thorlabs]
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=HW-KIT1/M HW-KIT1/M]
 || xx
 || 1
 || 50
 
 
 |- align="center"
-|| HW-KIT2/M
+|| ThorLabs
 |bgcolor="orange"| optional purchase
 || M6 Cap Screw and Hardware Kit 
-|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=HW-KIT2/M Thorlabs]
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=HW-KIT2/M HW-KIT2/M]
 || xx
 || 1
 || 95
