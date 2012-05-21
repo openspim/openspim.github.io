@@ -35,7 +35,7 @@
 | rowspan="3"| Rail system 
 || RLA300/M
 |bgcolor="pink"| purchase  
-|| Metric Dovetail Optical Rail, 300 mm  (2)
+|| Metric Dovetail Optical Rail, 300 mm
 || 1
 || 65
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=RLA300/M Thorlabs] 
@@ -43,7 +43,7 @@
 |- align="center"
 || RLA150/M 
 |bgcolor="pink"| purchase   
-|| Metric Dovetail Optical Rail, 150 mm  (1&3)
+|| Metric Dovetail Optical Rail, 150 mm
 || 2
 || 35  
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=RLA150/M Thorlabs] 
@@ -51,7 +51,7 @@
 |- align="center"
 || RLA075/M
 |bgcolor="pink"| purchase  
-|| Metric Dovetail Optical Rail, 75 mm  (4)
+|| Metric Dovetail Optical Rail, 75 mm
 || 1
 || 25  
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=RLA075/M Thorlabs] 
@@ -93,7 +93,7 @@
 || xx 
 || xx 
 |- align="center"
-|| 15 mm spacer 
+|| 15 mm spacer for Ø1/2" spherical lens mounts
 |bgcolor="orange"| optional purchase
 || elevates the Ø1/2" lenses from the rail carrier to the desired height of 50mm off the surface of the optical breadboard
 || 4 (or 5*)  
@@ -101,9 +101,9 @@
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=SC1/M Thorlabs]
 || [[File:ThorLabs_SC1-M_Spacer_Height=15mm.jpg|thumb|upright=0.7]]
 |- align="center"
-|| 19.5 mm stilts for 1/2" mirror mounts 
+|| 19.5 mm stilts for Ø1/2" mirror mounts 
 |bgcolor="green"| self made
-|| elevates the 1/2" mirrors from the rail carrier to the desired height of 50mm off the surface of the optical breadboard
+|| elevates the Ø1/2" mirrors from the rail carrier to the desired height of 50mm off the surface of the optical breadboard
 || 2  
 || xx 
 || xx
