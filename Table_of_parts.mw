@@ -85,9 +85,9 @@
 || xx
 || xx
 |- align="center"
-|| 15 mm stilts for 1/2" spherical lens mounts 
+|| 15 mm stilts for Ø1/2" spherical lens mounts 
 |bgcolor="green"| self made
-|| elevates the 1/2" lenses from the rail carrier to the desired height of 50mm off the surface of the optical breadboard
+|| elevates the Ø1/2" lenses from the rail carrier to the desired height of 50mm off the surface of the optical breadboard
 || 4 (or 5*)  
 || xx
 || xx 
@@ -95,7 +95,7 @@
 |- align="center"
 || 15 mm spacer 
 |bgcolor="orange"| optional purchase
-|| elevates the 1/2" lenses from the rail carrier to the desired height of 50mm off the surface of the optical breadboard
+|| elevates the Ø1/2" lenses from the rail carrier to the desired height of 50mm off the surface of the optical breadboard
 || 4 (or 5*)  
 || 25 
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=SC1/M Thorlabs]
@@ -111,9 +111,9 @@
 |- align="center"
 | 6
 || Mount 
-|| 24.5 mm stilt for 1" mirror mount
+|| 24.5 mm stilt for Ø1" mirror mount
 |bgcolor="green"| self made 
-|| elevates the 1" mirror to the desired height of 50mm off the surface of the optical breadboard
+|| elevates the Ø1" mirror to the desired height of 50mm off the surface of the optical breadboard
 || 1  
 || xx 
 || xx
@@ -133,7 +133,7 @@
 | rowspan="2"| Optics 
 ||  BB1-E02
 |bgcolor="pink"| purchase
-|| 1" broadband dielectric mirror (BB1-E02) 
+|| Ø1" broadband dielectric mirror (BB1-E02) 
 || 1
 || 65
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=BB1-E02 Thorlabs]
@@ -141,7 +141,7 @@
 |- align="center"
 ||  BB05-E02
 |bgcolor="pink"| purchase
-|| 1/2" broadband dielectric mirror 
+|| Ø1/2" broadband dielectric mirror 
 || 2
 || 45
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=BB05-E02 Thorlabs]
@@ -169,7 +169,7 @@
 | rowspan="2"| Mount 
 || LMR1/M
 |bgcolor="pink"| purchase
-|| 1" optic mount (for the iris)
+|| Ø1" optic mount (for the iris)
 || 1
 || 15
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=LMR1/M Thorlabs]
@@ -177,7 +177,7 @@
 |- align="center"
 || LMR05/M
 |bgcolor="pink"| purchase
-|| 1/2" optic mount (for light sheet creation)
+|| Ø1/2" optic mount (for light sheet creation)
 || 4 (or 5*) 
 || 15
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=LMR05/M Thorlabs]
@@ -241,7 +241,7 @@
 || xx
 || xx
 |- align="center"
-|| 1"/25 mm filter holder
+|| Ø1"/Ø25 mm filter holder
 |bgcolor="yellow"| make as many as you need
 || Microscopy filter holder that slides into the tube lens spacer
 || ?
@@ -249,7 +249,7 @@
 || xx
 || xx
 |- align="center"
-|| 1 1/4"/31.5 mm filter holder
+|| Ø1 1/4"/Ø31.5 mm filter holder
 |bgcolor="yellow"| make as many as you need
 || Astronomy filter holder that slides into the tube lens spacer
 || ? 
