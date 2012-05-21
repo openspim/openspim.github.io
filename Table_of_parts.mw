@@ -65,7 +65,7 @@
 || 8 (or 9*)  
 || 20 
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=RC1 Thorlabs]
-|| [[File:RailCarrier.jpg|thumb|center|upright=0.3]]
+|| [[File:ThorLabs_RC1-M_Rail-Carrier_for_Dovetail-Optical-Rail.jpg|thumb|center|upright=0.3]]
 |- align="center"
 | rowspan="4"|5 
 | rowspan="4"| Rail system 
@@ -87,6 +87,14 @@
 |- align="center"
 || 15 mm stilts for 1/2" spherical lens mounts 
 |bgcolor="green"| self made
+|| elevates the 1/2" lenses to the desired height of 50mm off the surface of the optical breadboard
+|| 4 (or 5*)  
+|| ??
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=RC1 Thorlabs]
+|| [[File:ThorLabs_SC1-M_Spacer_Height=15mm.jpg|thumb|upright=0.7]]
+|- align="center"
+|| 15 mm spacer 
+|bgcolor="pink"| purchase
 || elevates the 1/2" lenses to the desired height of 50mm off the surface of the optical breadboard
 || 4 (or 5*)  
 || xx 
