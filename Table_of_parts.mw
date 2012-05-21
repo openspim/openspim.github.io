@@ -4,16 +4,16 @@
 ! scope="col" class="unsortable" width="150"| Name/Model #
 ! scope="col" class="unsortable" width="150"| Accessibility 
 ! scope="col" class="unsortable" width="250"| Description
-! scope="col" class="unsortable" width="80"| File/Link
-! scope="col" class="unsortable" width="120"| Image
-! scope="col" class="unsortable" width="50"| Quantity
-! scope="col" class="unsortable" width="100"| Price (EUR)
+! scope="col" class="unsortable" width="75"| File/Link
+! scope="col" class="unsortable" width="125"| Image
+! scope="col" class="unsortable" width="100"| Quantity
+! scope="col" class="unsortable" width="50"| Price (EUR)
 
 
 |- align="center"
-|| Coherent Cube 
+|| Coherent Cube Laser
 |bgcolor="pink"| purchase 
-|| <math>\lambda =</math>489 nm, P=50 mW 
+|| What ever <math>\lambda =</math> & mW is necessary for your experiments
 || [http://www.coherent.com/products/?1007/CUBE Coherent] 
 ||[[File:05.jpg|thumb|upright=0.7]]
 || 1
@@ -21,9 +21,9 @@
 
 
 |- align="center"
-|| Laser mount 
+|| Laser Heat Sink 
 |bgcolor="green"| self made 
-|| functions as heat sink and brings the laser to the desired height of 50 mm off the surface of the optical breadboard
+|| Functions as heat sink and brings the laser to the desired height of 50 mm off the surface of the optical breadboard
 || xx  
 || xx
 || 1 
