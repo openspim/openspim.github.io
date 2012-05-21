@@ -9,6 +9,7 @@
 ! scope="col" class="unsortable" width="50"| Quantity
 ! scope="col" class="unsortable" width="100"| Price (EUR)
 
+
 |- align="center"
 || Coherent Cube 
 |bgcolor="pink"| purchase 
@@ -17,6 +18,7 @@
 ||[[File:05.jpg|thumb|upright=0.7]]
 || 1
 || ~7000 
+
 
 |- align="center"
 || Laser mount 
@@ -27,6 +29,7 @@
 || 1 
 || xx
 
+
 |- align="center"
 || RLA300/M
 |bgcolor="pink"| purchase  
@@ -35,6 +38,7 @@
 || [[File:ThorLabs_RLA075-M_Meteric-Dovetail-Optical-Rail_Length=300mm.jpg|thumb|upright=0.7]]
 || 1
 || 65
+
 
 |- align="center"
 || RLA150/M 
@@ -45,6 +49,7 @@
 || 2
 || 35  
 
+
 |- align="center"
 || RLA075/M
 |bgcolor="pink"| purchase  
@@ -53,6 +58,7 @@
 || [[File:ThorLabs_RLA075-M_Meteric-Dovetail-Optical-Rail_Length=75mm.jpg|thumb|upright=0.7]]
 || 1
 || 25  
+
 
 |- align="center"
 || RC1
@@ -63,6 +69,7 @@
 || 8 (or 9*)  
 || 20 
 
+
 |- align="center"
 || 10 mm stilt for iris mount
 |bgcolor="green"| self made
@@ -71,6 +78,7 @@
 || xx
 || 1 
 || xx 
+
 
 |- align="center"
 || 13.25 mm stilt for vertical slit
@@ -81,6 +89,7 @@
 ||  1
 || xx 
 
+
 |- align="center"
 || 15 mm stilts for Ø1/2" spherical lens mounts 
 |bgcolor="green"| self made
@@ -89,6 +98,7 @@
 || xx 
 || 4 (or 5*)  
 || xx
+
 
 |- align="center"
 || SC1/M
@@ -99,6 +109,7 @@
 || 4 (or 5*)  
 || 25 
 
+
 |- align="center"
 || 19.5 mm stilts for Ø1/2" mirror mounts 
 |bgcolor="green"| self made
@@ -107,6 +118,7 @@
 || xx
 || 2  
 || xx 
+
 
 |- align="center"
 || 24.5 mm stilt for Ø1" mirror mount
@@ -117,6 +129,7 @@
 || 1  
 || xx 
 
+
 |- align="center"
 || Detection axis holder mount
 |bgcolor="green"| self made 
@@ -125,6 +138,7 @@
 || xx
 || 1  
 || xx 
+
 
 |- align="center"
 ||  BB1-E02
@@ -135,6 +149,7 @@
 || 1
 || 65
 
+
 |- align="center"
 ||  BB05-E02
 |bgcolor="pink"| purchase
@@ -143,6 +158,7 @@
 || [[File:ThorLabs_BB05-E02_Broadband-Dielectric-Mirror_Diameter=0-5in.jpg|thumb|upright=0.7]]
 || 2
 || 45
+
 
 |- align="center"
 || AC127-050-A-ML
@@ -153,6 +169,7 @@
 || 2
 || 65 
 
+
 |- align="center"
 || AC127-025-A-ML
 |bgcolor="pink"| purchase
@@ -161,6 +178,7 @@
 || [[File:ThorLabs_AC127-025-A-ML_Achromatic-Doublet_Dia=0-5in_F=25mm.jpg|thumb|upright=0.7]]
 || 2
 || 65 
+
 
 |- align="center"
 || LMR1/M
@@ -171,6 +189,7 @@
 || 1
 || 15
 
+
 |- align="center"
 || LMR05/M
 |bgcolor="pink"| purchase
@@ -179,6 +198,7 @@
 || [[File:ThorLabs_LMR05-M_Lens-Mount_Dia=0-5in.jpg|thumb|upright=0.7]] 
 || 4 (or 5*) 
 || 15
+
 
 |- align="center"
 || ACY254-050-A
@@ -189,6 +209,7 @@
 || 1 
 || 315
 
+
 |- align="center"
 || RSP1X15/M
 |bgcolor="pink"| purchase
@@ -197,6 +218,7 @@
 || [[File:ThorLabs_RSP1X15-M_Metric_Rotation-Mount_Dia=1in.jpg|thumb|upright=0.7]]
 || 1 
 || 110
+
 
 |- align="center"
 || U-TLU
@@ -207,6 +229,7 @@
 || 1 
 || ~400 
 
+
 |- align="center"
 || U-TV0.5XC-3
 |bgcolor="orange"| purchase the one you need
@@ -215,6 +238,7 @@
 || xx
 || 1 
 || ~400 
+
 
 |- align="center"
 || U-TV1 X & U-CMAD3
@@ -225,6 +249,7 @@
 || 1 
 || ~400 
 
+
 |- align="center"
 || Tube lens spacer
 |bgcolor="green"| self made
@@ -233,6 +258,7 @@
 || xx
 || 1 
 || xx 
+
 
 |- align="center"
 || Ø1"/Ø25 mm filter holder
@@ -243,6 +269,7 @@
 || ?
 || xx 
 
+
 |- align="center"
 || Ø1 1/4"/Ø31.5 mm filter holder
 |bgcolor="yellow"| make as many as you need
@@ -251,6 +278,7 @@
 || xx
 || ? 
 || xx 
+
 
 |- align="center"
 || VA100/M
@@ -261,6 +289,7 @@
 || 1 
 || 220  
 
+
 |- align="center"
 || SM1D12D
 |bgcolor="pink"| purchase
@@ -269,6 +298,7 @@
 || [[File:ThorLabs_SM1D12D_Ring-Activated-SM1-Iris-Diaphragm.jpg|thumb|center|upright=0.7]]
 || 1 
 || 55
+
 
 |- align="center"
 || Sample chamber
@@ -279,6 +309,7 @@
 || 1 
 || xx 
 
+
 |- align="center"
 || UMPLFLN 10XW
 |bgcolor="pink"| purchase
@@ -287,6 +318,7 @@
 || [[File:Olympus_UMPLFLN-10XW_10x-Water-Dippining-Objective-Lens.jpg|thumb|center|upright=0.7]]
 || 1 
 || xx 
+
 
 |- align="center"
 || UMPLFLN 20XW
@@ -297,6 +329,7 @@
 || 1 
 || xx 
 
+
 |- align="center"
 || USB-4D-Stage
 |bgcolor="pink"| purchase
@@ -305,6 +338,7 @@
 || xx
 || 1
 || ask for quote...
+
 
 |- align="center"
 || DG05-1500-H1-MD
@@ -315,6 +349,7 @@
 || 1 
 || 25 
 
+
 |- align="center"
 || Polaris-K1
 |bgcolor="pink"| purchase
@@ -323,6 +358,7 @@
 || [[File:ThorLabs_POLARIS-K1_Kinematic-Mirror-Mount_Diameter=1in.jpg|thumb|upright=0.7]]
 || 1
 || 115 
+
 
 |- align="center"
 || Polaris-K05
@@ -333,6 +369,7 @@
 || 2
 || 115 
 
+
 |- align="center"
 || HW-KIT1/M
 |bgcolor="orange"| optional purchase
@@ -342,6 +379,7 @@
 || 1
 || 50
 
+
 |- align="center"
 || HW-KIT2/M
 |bgcolor="orange"| optional purchase
@@ -350,6 +388,7 @@
 || xx
 || 1
 || 95
+
 
 |}
 
