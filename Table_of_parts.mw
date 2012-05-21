@@ -4,9 +4,9 @@
 ! scope="col" class="unsortable" width="100"| Manufacturer
 ! scope="col" class="unsortable" width="150"| Accessibility 
 ! scope="col" class="unsortable" width="250"| Description
-! scope="col" class="unsortable" width="75"| Link/Model #
+! scope="col" class="unsortable" width="125"| Link/Model #
 ! scope="col" class="unsortable" width="125"| Image
-! scope="col" class="unsortable" width="100"| Quantity
+! scope="col" class="unsortable" width="50"| Quantity
 ! scope="col" class="unsortable" width="50"| Price (EUR)
 
 
