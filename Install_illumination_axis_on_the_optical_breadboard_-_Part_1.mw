@@ -1,4 +1,5 @@
-<b><span style="color:#FF0000"> The optical breadboard </span></b> (ThorLabs Part #: MB3045/M) <b><span style="color:#FF0000"> has a depth of 300 mm and a width of 450 mm, with a grid of 12 x 18 M6 threaded holes spaced 25 mm apart from one another. We will use a coordinate system similar to a spreadsheet to make it easier to know where each component and capscrew is positioned. Starting with A1 in the upper left corner, and ending with R12 in the lower right </span></b>
+
+<b><span style="color:#FF0000"> The optical breadboard </span></b> (ThorLabs Part #: MB3045/M) <b><span style="color:#FF0000"> has a depth of 300 mm and a width of 450 mm, with a grid of 12 x 18 M6 threaded holes spaced 25 mm apart from one another. We will use a coordinate system similar to a spreadsheet (like OpenOffice Calc or Microsoft Excel) to make it easier to know where each component and capscrew is positioned. Starting with A1 in the lower right corner (as seen in the images), and ending with R12 in the upper left </span></b>
 
 Please also forgive the confusion about the Youtube videos and their corresponding images below, the documentation was done in two different locations months apart from each other and small design changes happened in between.
 
