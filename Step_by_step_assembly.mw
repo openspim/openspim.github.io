@@ -1,22 +1,6 @@
 Before you start to assemble please make sure you have all [[table of parts|needed parts]] or you know how to improvise them. The light path of our original design is 50 mm off the top surface of the ThorLabs metric optical breadboard (part #: MB3045/M) where everything is installed.
 
 
-== 4D Motors ==
-{|colspan="2"|
-Here comes the text
-|-
-|[[file:19_4d_motor.JPG|thumb|center]]
-|[[file:19_IMG_0964_new.jpg|thumb|center]]
-|}
-
-== Motor arm ==
-{|colspan="2"|
-Here comes the text
-|-
-|[[file:20_motor_arm.JPG|thumb|center]]
-|[[file:20_IMG_0994_new.jpg|thumb|center]]
-|}
-
 == Put Sample and Enjoy ==
 {|colspan="2"|
 Here comes the text
@@ -25,4 +9,4 @@ Here comes the text
 |[[file:21_IMG_1147_new.jpg|thumb|center]]
 |}
 
-[[Category:Assembly]]
+[[Category:Hardware]]
