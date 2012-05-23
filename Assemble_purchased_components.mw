@@ -115,6 +115,25 @@ Take both components out of their respective boxes, and after screwing the Ø1" 
 
 <b>Wear latex or nitril gloves</b> that comfortably fit your hands! Apply heat transfer paste to the surface of the metal heat sink block where the CUBE laser will sit (everywhere between the four M4 threaded holes). Put the M4 capscrews that came with the CUBE laser through their included washers and the top of the holes in the base plate of the CUBE laser into the heatsink. using a 3 mm hex key/driver, screw the CUBE laser down onto the surface of the heatsink where the heat transfer paste is applied. Remove excess heat transfer paste with gloves on your hands!
 
+== Assembly of OpenSPIM Chamber ==
+
+===== Objects needed =====
+
+*1x Olympus 10x/0.3 water dipping objective
+*1x Olympus 20x/0.5 water dipping objective
+*2x Machined objective holder rings 0.8"/RMS inside threading (32 tpi) and 40 mm outside diameter
+*6x M3x10 capsrcrews
+*1x Machined or 3D printed chamber base/objective holder
+*2x M6 capscrews
+*1x Machined or 3D printed sample chamber
+
+===== Tools needed =====
+
+*1x 2.5 or 3 mm hex key/driver
+*1x 5 mm hex key/driver
+
+===== [http://youtu.be/uYVoQGSC3qY How to assemble the OpenSPIM chamber] =====
+
 
 
 [[category:hardware|1]]
