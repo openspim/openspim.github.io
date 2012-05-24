@@ -8,7 +8,7 @@ This will need to be done twice:
 *1x Installed Coherent CUBE laser with heatsink
 *2x Installed 1\2" mirror mount assemblies on the dovetail rail
 *1x Installed 1" mirror mount on corner post
-*1x ThorLabs part #: <b>DG05-1500-H1-MD - Ø1/2" SM05-Mounted Frosted Glass Alignment Disk w/Ø1 mm Hole </b>
+*1x ThorLabs part #: DG05-1500-H1-MD - Ø1/2" SM05-Mounted Frosted Glass Alignment Disk w/Ø1 mm Hole
 
 ===== Tools needed =====
 
@@ -17,11 +17,11 @@ This will need to be done twice:
 
 ===== [http://youtu.be/wpbCUX2KXG4 How to do a laser alignment of the OpenSPIM's illumination axis] =====
 
-Take off all jewelry (wedding bands, watches and anything shiny)! 
+ <b>Take off all jewelry (wedding bands, watches and anything shiny)!</b>
 
 In the first go around:
 
-Power on laser. Roughly rotate, and adjust the distances to, all of the installed mirror mounts so that the laser will reflect off of the middle of the mirror surface of each assembly into the back of the illumination objective. Then using the laser alignment disk, finely center the laser through the middle of the hole in the disk along the long axis between the two 1/2" mirror mounts and the 1" mirror post so that it is centered along the entire axis. Do the same on the short perpendicular axis between the 1" mirror post and the center of the back of the illumination objective lens.
+Power on laser. Roughly rotate, and adjust the distances to, all of the installed mirror mounts so that the laser will reflect off of the middle of the mirror surface of each assembly into the back of the illumination objective. Then using the laser alignment disk, finely center the laser through the middle of the hole in the disk along the long axis between the two Ø1/2" mirror mounts and the Ø1" mirror post so that it is centered along the entire axis. Do the same on the short perpendicular axis between the Ø1" mirror post and the center of the back of the illumination objective lens.
 
 In the second go around:
 
