@@ -1,23 +1,45 @@
 After a rough [[Alignment of laser|alignment of the laser]] you can continue with the installation of the refractive optics.
 
-== Assembling Beam Expander ==
-=== First Lens 25mm in Place ===
+== Assembling beam expanding telescope ==
+=== Install the first lens of the beam expanding telescope ===
+
+===== Objects needed =====
+
+*1x 1/2" f = 25 mm spherical lens assembly on it's rail carrier
+
+===== Tools needed =====
+
+None
+
+===== [http://youtu.be/tErFX8eFffU/ How to install the large mirror mount on the corner of the optical breadboard] =====
+
+Put the 1/2" f = 25 mm spherical lens assembly on it's rail carrier on to the 300 mm dovetail rail near the laser and two 1/2" mirror assemblies with the tightening knob facing away from the laser and the lens facing the 1" mirror in the direction of the arrow on the lens housing. position it about 50 mm away from the last 1/2" mirror surface, and tighten the tightening knob so that it doesn't move along the dovetail rail.
+
 {|colspan="2"|
-Here comes the text
 |-
 |[[file:10_beamexpander_1.JPG|thumb|center]]
 |[[file:10_IMG_0819_new.jpg|thumb|center]]
 |}
 
-=== Second Lens 50mm in Place ===
+=== Install the second lens of the beam expanding telescope ===
+
+===== Objects needed =====
+
+*1x 1/2" f = 50 mm spherical lens assembly on it's rail carrier
+
+===== Tools needed =====
+
+None
+
+===== [http://youtu.be/tErFX8eFffU/ How to install the large mirror mount on the corner of the optical breadboard] =====
+
+Put the 1/2" f = 50 mm spherical lens assembly on it's rail carrier on to the 300 mm dovetail rail near the laser and behind the first 1/2" f = 25 mm spherical lens assembly in relation to the direction of the light path with the tightening knob facing away from the laser and the lens facing the 1" mirror in the direction of the arrow on the lens housing. position it about 75 mm away from the first 1/2" f = 25 mm spherical lens assembly, and tighten the tightening knob so that it doesn't move along the dovetail rail.
+
 {|colspan="2"|
-Here comes the text
 |-
 |[[file:11_beamexpander_2.JPG|thumb|center]]
 |[[file:11_IMG_0823_new.jpg|thumb|center]]
 |}
-
-
 
 == Cylindrical Lens in Place ==
 {|colspan="2"|
