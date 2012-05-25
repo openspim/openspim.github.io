@@ -52,9 +52,9 @@
 |- align="center"
 || OpenSPIM
 |bgcolor="green"| self made
-|| elevates the iris from the modified rail carrier to the desired height of 50 mm off the surface of the optical breadboard
-|| 10 mm stilt for iris mount
-|| xx
+|| elevates the iris 8.85 mm from the modified rail carrier to the desired height of 50 mm off the surface of the optical breadboard
+|| [[:File:OpenSPIM Stilt Iris.STL|.stl]]<br/>[[:File:OpenSPIM Stilt Iris.STEP|.step]]<br/>[[:File:OpenSPIM Stilt Iris.PDF|.pdf]]
+|| [[File:OpenSPIM Stilt Iris.JPG|thumb|center|upright=0.7]]
 || 1 
 || xx 
 |- align="center"
