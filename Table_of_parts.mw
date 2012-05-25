@@ -172,7 +172,7 @@
 |bgcolor="pink"| purchase 
 || Which ever <math>\lambda =</math> & mW is necessary for your experiments
 || [http://www.coherent.com/products/?1007/CUBE Cube] 
-||[[File:Coherent_CUBE.jpg|thumb|upright=0.7]]
+|| [[File:Coherent_CUBE.jpg|thumb|upright=0.7]]
 || 1
 || ~7000 
 |- align="center"
@@ -180,7 +180,7 @@
 |bgcolor="green"| self made 
 || Functions as heat sink and brings the laser to the desired height of 50 mm off the surface of the optical breadboard
 || [[:File:OpenSPIM_Cube-Laser_Heatsink.STL|.stl]]<br/>[[:File:OpenSPIM_Cube-Laser_Heatsink.STEP|.step]]<br/>[[:File:OpenSPIM_Cube-Laser_Heatsink.PDF|.pdf]]
-|| 
+|| [[File:OpenSPIM_Cube-Laser_Heatsink.JPG|thumb|upright=0.7]] 
 || 1 
 || 
 |- align="center"
