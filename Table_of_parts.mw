@@ -314,8 +314,8 @@
 |- align="center"
 || OpenSPIM
 |bgcolor="yellow"| make as many as you need
-|| Microscopy filter holder that slides into the tube lens spacer
-|| Ø1"/Ø25 mm filter holder
+[[:File:OpenSPIM 1in Micro Filter-Holder_Base.STL|Base.stl]]<br/>[[:File:OpenSPIM 1in Micro Filter-Holder_Base.STEP|Base.step]]<br/>[[:File:OpenSPIM 1in Micro Filter-Holder_Base.PDF|Base.pdf]]<br/><br/>[[:File:OpenSPIM 1in Micro Filter-Holder_Top.STL|Top.stl]]<br/>[[:File:OpenSPIM 1in Micro Filter-Holder_Top.STEP|Top.step]]<br/>[[:File:OpenSPIM 1in Micro Filter-Holder_Top.PDF|Top.pdf]]
+|| [[File:OpenSPIM 1in Micro Filter-Holder_Assembly.JPG|thumb|center|upright=0.7]]
 || xx
 || ?
 || xx 
@@ -352,7 +352,6 @@
 || 1 
 || ~400 
 |}
-
 
 == 4D Motor System Parts List ==
 {| class="wikitable sortable" border="1"
