@@ -185,7 +185,7 @@
 |}
 
 
-== Light Sheet Creation Optics List ==
+== Illumination Optics List ==
 {| class="wikitable sortable" border="1"
 |-
 ! scope="col" class="unsortable" width="100"| Manufacturer
@@ -245,7 +245,6 @@
 || 1 
 || xx 
 |}
-
 
 == Detection Axis Parts List ==
 {| class="wikitable sortable" border="1"
