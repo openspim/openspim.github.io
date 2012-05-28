@@ -1,3 +1,41 @@
+== Illumination Parts List ==
+{| class="wikitable sortable" border="1"
+|-
+! scope="col" class="unsortable" width="100"| Manufacturer
+! scope="col" class="unsortable" width="150"| Accessibility 
+! scope="col" class="unsortable" width="250"| Description
+! scope="col" class="unsortable" width="130"| File or Link/Model #
+! scope="col" class="unsortable" width="125"| Image
+! scope="col" class="unsortable" width="50"| Quantity
+! scope="col" class="unsortable" width="50"| Price (EUR)
+
+|- align="center"
+|| Coherent 
+|bgcolor="pink"| purchase 
+|| Which ever <math>\lambda =</math> & mW is necessary for your experiments
+|| [http://www.coherent.com/products/?1007/CUBE Cube] 
+|| [[File:Coherent_CUBE.jpg|thumb|upright=0.7]]
+|| 1
+|| ~7000 
+|- align="center"
+|| OpenSPIM
+|bgcolor="green"| self made 
+|| Functions as heat sink and brings the laser to the desired height of 50 mm off the surface of the optical breadboard
+|| [[:File:OpenSPIM_Cube-Laser_Heatsink.STL|.stl]]<br/>[[:File:OpenSPIM_Cube-Laser_Heatsink.STEP|.step]]<br/>[[:File:OpenSPIM_Cube-Laser_Heatsink.PDF|.pdf]]
+|| [[File:OpenSPIM_Cube-Laser_Heatsink.JPG|thumb|upright=0.7]] 
+|| 1 
+|| 
+|- align="center"
+|| ThorLabs
+|bgcolor="pink"| purchase
+|| Ø1/2" SM05-Mounted Frosted Glass Alignment Disk w/Ø1 mm Hole 
+|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=DG05-1500-H1-MD DG05-1500-H1-MD]
+|| [[File:ThorLabs_DG05-1500-H1-MD_Alignment-Disk.jpg|thumb|upright=0.7]]
+|| 1 
+|| 25 
+|}
+
+
 == Opto-mechanical parts list ==
 {| class="wikitable sortable" border="1"
 |-
@@ -144,44 +182,6 @@
 || [[File:ThorLabs_RSP1X15-M_Metric_Rotation-Mount_Dia=1in.jpg|thumb|upright=0.7]]
 || 1 
 || 110
-|}
-
-
-== Illumination Parts List ==
-{| class="wikitable sortable" border="1"
-|-
-! scope="col" class="unsortable" width="100"| Manufacturer
-! scope="col" class="unsortable" width="150"| Accessibility 
-! scope="col" class="unsortable" width="250"| Description
-! scope="col" class="unsortable" width="130"| File or Link/Model #
-! scope="col" class="unsortable" width="125"| Image
-! scope="col" class="unsortable" width="50"| Quantity
-! scope="col" class="unsortable" width="50"| Price (EUR)
-
-|- align="center"
-|| Coherent 
-|bgcolor="pink"| purchase 
-|| Which ever <math>\lambda =</math> & mW is necessary for your experiments
-|| [http://www.coherent.com/products/?1007/CUBE Cube] 
-|| [[File:Coherent_CUBE.jpg|thumb|upright=0.7]]
-|| 1
-|| ~7000 
-|- align="center"
-|| OpenSPIM
-|bgcolor="green"| self made 
-|| Functions as heat sink and brings the laser to the desired height of 50 mm off the surface of the optical breadboard
-|| [[:File:OpenSPIM_Cube-Laser_Heatsink.STL|.stl]]<br/>[[:File:OpenSPIM_Cube-Laser_Heatsink.STEP|.step]]<br/>[[:File:OpenSPIM_Cube-Laser_Heatsink.PDF|.pdf]]
-|| [[File:OpenSPIM_Cube-Laser_Heatsink.JPG|thumb|upright=0.7]] 
-|| 1 
-|| 
-|- align="center"
-|| ThorLabs
-|bgcolor="pink"| purchase
-|| Ø1/2" SM05-Mounted Frosted Glass Alignment Disk w/Ø1 mm Hole 
-|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=DG05-1500-H1-MD DG05-1500-H1-MD]
-|| [[File:ThorLabs_DG05-1500-H1-MD_Alignment-Disk.jpg|thumb|upright=0.7]]
-|| 1 
-|| 25 
 |}
 
 
