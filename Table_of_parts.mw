@@ -1,5 +1,5 @@
+== Opto-mechanical parts list ==
 {| class="wikitable sortable" border="1"
-|+ Opto-Mechanical Parts List
 |-
 ! scope="col" class="unsortable" width="100"| Manufacturer
 ! scope="col" class="unsortable" width="150"| Accessibility 
@@ -147,8 +147,8 @@
 |}
 
 
+== Illumination Parts List ==
 {| class="wikitable sortable" border="1"
-|+ Illumination Parts List
 |-
 ! scope="col" class="unsortable" width="100"| Manufacturer
 ! scope="col" class="unsortable" width="150"| Accessibility 
@@ -185,8 +185,8 @@
 |}
 
 
+== Light Sheet Creation Optics List ==
 {| class="wikitable sortable" border="1"
-|+ Light Sheet Creation Optics List
 |-
 ! scope="col" class="unsortable" width="100"| Manufacturer
 ! scope="col" class="unsortable" width="150"| Accessibility 
@@ -247,8 +247,8 @@
 |}
 
 
+== Detection Axis Parts List ==
 {| class="wikitable sortable" border="1"
-|+ Detection Axis Parts List
 |-
 ! scope="col" class="unsortable" width="100"| Manufacturer
 ! scope="col" class="unsortable" width="150"| Accessibility 
@@ -325,8 +325,8 @@
 |}
 
 
+== SPIM Chamber Parts List ==
 {| class="wikitable sortable" border="1"
-|+ SPIM Chamber Parts List
 |-
 ! scope="col" class="unsortable" width="100"| Manufacturer
 ! scope="col" class="unsortable" width="150"| Accessibility 
@@ -335,7 +335,6 @@
 ! scope="col" class="unsortable" width="125"| Image
 ! scope="col" class="unsortable" width="50"| Quantity
 ! scope="col" class="unsortable" width="50"| Price (EUR)
-
 
 |- align="center"
 || OpenSPIM
@@ -356,8 +355,8 @@
 |}
 
 
+== 4D Motor System Parts List ==
 {| class="wikitable sortable" border="1"
-|+ 4D Motor System Parts List
 |-
 ! scope="col" class="unsortable" width="100"| Manufacturer
 ! scope="col" class="unsortable" width="150"| Accessibility 
@@ -378,8 +377,8 @@
 |}
 
 
+== Optional Parts List ==
 {| class="wikitable sortable" border="1"
-|+ Optional Parts List
 |-
 ! scope="col" class="unsortable" width="100"| Manufacturer
 ! scope="col" class="unsortable" width="150"| Accessibility 
