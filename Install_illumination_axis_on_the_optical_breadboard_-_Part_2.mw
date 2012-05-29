@@ -8,7 +8,7 @@ The purpose of this simple telescope is to expand the output diameter of the las
 
 ===== Objects needed =====
 
-*1x 1/2" f = 25 mm spherical lens assembly on it's rail carrier
+*1x Ø1/2" f = 25 mm spherical lens assembly on it's rail carrier
 *1x measuring (length) device like a ruler or measuring stick/tape
 
 ===== Tools needed =====
@@ -17,7 +17,7 @@ None
 
 ===== [http://youtu.be/1CGBz9cj7UU How and where to install the beam expander on the rail system] =====
 
-Put the 1/2" f = 25 mm spherical lens assembly on it's rail carrier on to the 300 mm dovetail rail near the laser and two 1/2" mirror assemblies with the tightening knob facing away from the laser and the lens facing the 1" mirror in the direction of the arrow on the lens housing. Position it between 50 to 75 mm away from the last 1/2" mirror surface (it doesn't really matter so much as how far away the first lens is because the entry and exit beams of the beam expander telescope system will be parallel, not focused or divergent), and tighten the tightening knob so that it doesn't move along the dovetail rail.
+Put the Ø1/2" f = 25 mm spherical lens assembly on it's rail carrier on to the 300 mm dovetail rail near the laser and two 1/2" mirror assemblies with the tightening knob facing away from the laser and the lens facing the 1" mirror in the direction of the arrow on the lens housing. Position it between 50 to 75 mm away from the last Ø1/2" mirror surface (it doesn't really matter so much as how far away the first lens is because the entry and exit beams of the beam expander telescope system will be parallel, not focused or divergent), and tighten the tightening knob so that it doesn't move along the dovetail rail.
 
 {|colspan="2"|
 |-
@@ -29,7 +29,7 @@ Put the 1/2" f = 25 mm spherical lens assembly on it's rail carrier on to the 30
 
 ===== Objects needed =====
 
-*1x 1/2" f = 50 mm spherical lens assembly on it's rail carrier
+*1x Ø1/2" f = 50 mm spherical lens assembly on it's rail carrier
 *1x measuring (length) device like a ruler or measuring stick/tape
 
 ===== Tools needed =====
@@ -38,7 +38,7 @@ None
 
 ===== [http://youtu.be/1CGBz9cj7UU How and where to install the beam expander on the rail system] =====
 
-Put the 1/2" f = 50 mm spherical lens assembly on it's rail carrier on to the 300 mm dovetail rail near the laser and behind the first 1/2" f = 25 mm spherical lens assembly in relation to the direction of the light path with the tightening knob facing away from the laser and the lens facing the 1" mirror in the direction of the arrow on the lens housing. Position it about 75 mm away from the first 1/2" f = 25 mm spherical lens assembly, and tighten the tightening knob so that it doesn't move along the dovetail rail.
+Put the Ø1/2" f = 50 mm spherical lens assembly on it's rail carrier on to the 300 mm dovetail rail near the laser and behind the first Ø1/2" f = 25 mm spherical lens assembly in relation to the direction of the light path with the tightening knob facing away from the laser and the lens facing the 1" mirror in the direction of the arrow on the lens housing. Position it about 75 mm away from the first Ø1/2" f = 25 mm spherical lens assembly, and tighten the tightening knob so that it doesn't move along the dovetail rail.
 
 {|colspan="2"|
 |-
@@ -50,7 +50,7 @@ Put the 1/2" f = 50 mm spherical lens assembly on it's rail carrier on to the 30
 
 ===== Objects needed =====
 
-*1x 1" f = 50 mm cylindrical lens assembly on it's modified rail carrier
+*1x Ø1" f = 50 mm cylindrical lens assembly on it's modified rail carrier
 *1x measuring (length) devise like a ruler or measuring stick/tape
 
 ===== Tools needed =====
@@ -59,7 +59,7 @@ None
 
 ===== [http://youtu.be/jQBAK_UTM18 How and where to install the cylindrical lens assembly on the rail system] =====
 
-Install the cylindrical lens assembly on the 300 mm dovetail rail around 50 mm from the 1" mirror with the lettering of the rotating index mount facing the reflective surface of the mirror. To adjust the focus of the cylindrical lens, shine the laser at a very low intensity through the beam expanding telescope and into the cylindrical lens. Then move the cylindrical lens assembly along the axis of the 300 mm dovetail rail until you find the thinnest line in the middle of the 1" mirror. Then tighten the tightening knob so that it doesn't move along the dovetail rail. 
+Install the cylindrical lens assembly on the 300 mm dovetail rail around 50 mm from the Ø1" mirror with the lettering of the rotating index mount facing the reflective surface of the mirror. To adjust the focus of the cylindrical lens, shine the laser at a very low intensity through the beam expanding telescope and into the cylindrical lens. Then move the cylindrical lens assembly along the axis of the 300 mm dovetail rail until you find the thinnest line in the middle of the Ø1" mirror. Then tighten the tightening knob so that it doesn't move along the dovetail rail. 
 
 {|colspan="2"|
 |-
@@ -68,6 +68,17 @@ Install the cylindrical lens assembly on the 300 mm dovetail rail around 50 mm f
 |}
 
 == Install the vertical slit in it's proper place ==
+
+===== Objects needed =====
+
+*1x vertical assembly on it's rail carrier
+*1x measuring (length) devise like a ruler or measuring stick/tape
+
+===== Tools needed =====
+
+None
+
+===== [http://youtu.be/wABG9cnscIs How and where to install the vertical slit assembly on the rail system] =====
 
 Install the vertical slit assembly on the 300 mm dovetail rail 50 mm behind the cylindrical lens assembly on the other side from the mirror. You can find out where to lock it in place by looking for back reflections from the mirror through the cylindrical lens on to the closed vertical slit. Moving the slit back and forth on the dovetail rail you will find the thinnest/sharpest line of the back reflections.
 
