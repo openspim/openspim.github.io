@@ -12,7 +12,7 @@ Delay is how many microseconds separate the start of aquisition and the switchin
 This parameters are sent as serial commands to the Arduino. For example, sending the following string: 'l=0,d=1000' sets the delay to zero ms and duation to 1000 mus = 1 ms.
 
 == Arduino Wiring ==
-<span style="color:#FF0000">Rule zero of electronics: double check your wirings several times before powering up, there is no undo! When it's burned its burned!</span>
+<span style="color:#FF0000">Rule zero of electronics: check your wirings several times, and in different ways, before powering up, there is no undo! When it's burned it's burned!</span>
 
 In the following, inputs and outputs are relative to the arduino
 
@@ -30,7 +30,11 @@ It is often the case that the internal camera/laser electronics are protected ag
 To cut a long story short, you need to check whether the IO interface of the camera/laser needs to be supplied with DC current (most likely +5V). In any case you will also need to connect the GND (ground) to your 0V on the Arduino. For that you can use the +5V and 0V GND pins of the Arduino.
 It is a general rule that all grounds of communicating devices to be shorted together.
 
+<span style="color:#FF0000">Rule one of digital electronics: when in doubt about the amount of current sinked or sourced by a pin and about tolerances, it is a good idea to 1) read the manual again and check how much an output pin can source, and what is the impedance of an input pin, 2) to add a resistor (200 Ohm) in series to limit current flow, just in case... </span>
+
 == Arduino Sketch ==
+
+Below is the current Arduino sketch:
 
 <source lang="cpp">
  // OpenSPIM laser/camera synchronization based on Arduino
