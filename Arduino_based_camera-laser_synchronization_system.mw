@@ -38,8 +38,9 @@ Here we detail how to use the synchronization system for the SonyXCD cameras.
 As explained above, and as shown in the diagram below, most cameras IO interfaces
 have an optocoupler - thus you have to connect GND pins to ground and DC IN pins to +5V.
 
-This distracting detail aside, the really interesting pin is STROBE OUT which tells us when the
-camera is acquiring.  
+This distracting detail aside, the really interesting pin is STROBE OUT which is our CINT pin and 
+which tells us when the camera is acquiring. SonyXCD cameras output 0V when acquiring and +5V 
+when not. This is different from Retiga-SRV cameras for example that output the opposite signal.
 
 [[File:SonyXCD12pin.png|500px]]
 
