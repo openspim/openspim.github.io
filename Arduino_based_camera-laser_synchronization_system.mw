@@ -3,9 +3,12 @@
 We assume that the camera is controlled by the computer via the API 
 or other means and that it is configured such that one of its IO pins reports 
 the integration interval. We will call this signal CINT. 
-This pin is at 0V when not integrating and +5V when integrating. Depending on the camera model this could be reversed.
+This pin is at 0V when not integrating and +5V when integrating. Depending on the camera model this can be reversed.
 
-The laser is then synchronized to the camera. 
+We assume that the laser has a digital IO port for binary control of intensity.
+We will call this signal LT.
+The laser illumination is then synchronized to the camera integration interval by generating the appropriate LT signal 
+according to the incoming CINT signal. 
 Two variables can be adjusted: delay and duration.
 Delay is how many microseconds separate the start of aquisition and the switching of the laser to on state. And duration is, well, how long in microseconds the laser remains on.
  
