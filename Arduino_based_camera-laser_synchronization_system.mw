@@ -123,6 +123,8 @@ void setup()
   pinMode(pinCINT, INPUT);
   pinMode(pinLT, OUTPUT);
   pinMode(pinLED, OUTPUT);
+  digitalWrite(pinLT, LOFF);
+  digitalWrite(pinLED, LOW);
   Serial.println("OpenSPIM ARDUSYNC> pins configured!");
 
   //Attach the interrupts: 
