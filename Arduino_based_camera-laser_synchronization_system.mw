@@ -16,11 +16,11 @@ This parameters are sent as serial commands to the Arduino. For example, sending
 
 In the following, inputs and outputs are relative to the arduino
 
-*Camera pins:
-pinCSB --> Camera SYNC-B/Strobe pin (input)
+* Camera pins:
+** pinCSB --> Camera SYNC-B/Strobe pin (input)
 
-*Laser pins:
-pinLT 4 --> Laser Trigger (output)
+* Laser pins:
+** pinLT 4 --> Laser Trigger (output)
 
 Below is an overview diagram of the very simple wiring needed:
 [[File:OverviewCircuit.png]]
