@@ -1,3 +1,28 @@
-<b><span style="color:#FF0000"> All OpenSPIM designed parts need to be double checked for tolerances if you will be 3D printing them!!</span></b> Having a well trained machinist is an invaluable resource, we recommend that you purchase all of your parts first and then have your OpenSPIM designed parts made to fit afterwards by someone with experience!!
 
-== Arduino based camera-laser synchronization system ==
+== Principle of operation ==
+
+We assume that the camera is controlled by the computer via the API 
+or other means and that it is configured such that one of its IO pins reports 
+the integration interval. We will call this signal CINT. 
+This pin is at 0V when not integrating and +5V when integrating. Depending on the camera model this could be reversed.
+
+The laser is then synchronized to the camera. 
+Two variables can be adjusted: delay and duration.
+Delay is how many microseconds separate the start of aquisition and the switching of the laser to on state. And duration is, well, how long in microseconds the laser remains on.
+ 
+This parameters are sent as serial commands to the Arduino. For example, sending the following string: 'l=0,d=1000' sets the delay to zero ms and duation to 1000 mus = 1 ms.
+
+== Arduino Wiring ==
+
+In the following, inputs and outputs are relative to the arduino
+Camera pin:
+pinCSB --> Camera SYNC-B/Strobe pin (input)
+
+Laser pin:
+pinLT 4 --> Laser Trigger (output)
+
+[[File:Example.jpg]]
+
+== Arduino Sketch ==
+
+<b><span style="color:#FF0000">Rule zero of electronics: double check your wirings several times before powering up, there is no undo!</span>
