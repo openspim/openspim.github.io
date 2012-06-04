@@ -14,14 +14,13 @@ This parameters are sent as serial commands to the Arduino. For example, sending
 == Arduino Wiring ==
 <span style="color:#FF0000">Rule zero of electronics: check your wirings several times, and in different ways, before powering up, there is no undo! When it's burned it's burned!</span>
 
-In the following, inputs and outputs are relative to the arduino
+In the following, inputs and outputs are relative to the Arduino:
 
 * Camera pins:
 ** pinCSB --> Camera SYNC-B/Strobe pin (input)
 
 * Laser pins:
 ** pinLT 4 --> Laser Trigger (output)
-
 
 Below is an overview diagram of the very simple wiring needed:
 [[File:OverviewCircuit.png]]
@@ -32,10 +31,21 @@ It is a general rule that all grounds of communicating devices to be shorted tog
 
 <span style="color:#FF0000">Rule one of digital electronics: when in doubt about the amount of current sinked or sourced by a pin and about tolerances, it is a good idea to 1) read the manual again and check how much an output pin can source, and what is the impedance of an input pin, 2) to add a resistor (200 Ohm) in series to limit current flow, just in case... </span>
 
+
+== Camera Wiring ==
+
+Here we detail how to use the synchronization system for the SonyXCD cameras:
+
+[[File:SonyXCD12pin.png]]
+
+
+== Laser Wiring ==
+
+
+
 == Arduino Sketch ==
 
-Below is the current Arduino sketch:
-you can donload the current version [[File:here]].
+Below is the current version of the Arduino sketch:
 
 <source lang="cpp">
  // OpenSPIM laser/camera synchronization based on Arduino
