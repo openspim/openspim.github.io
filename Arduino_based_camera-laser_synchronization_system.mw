@@ -15,10 +15,11 @@ This parameters are sent as serial commands to the Arduino. For example, sending
 <b><span style="color:#FF0000">Rule zero of electronics: double check your wirings several times before powering up, there is no undo! When it's burned its burned!</span>
 
 In the following, inputs and outputs are relative to the arduino
-Camera pin:
+
+*Camera pin:
 pinCSB --> Camera SYNC-B/Strobe pin (input)
 
-Laser pin:
+*Laser pin:
 pinLT 4 --> Laser Trigger (output)
 
 [[File:OverviewCircuit.png]]
