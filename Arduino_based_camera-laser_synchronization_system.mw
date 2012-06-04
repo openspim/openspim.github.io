@@ -16,12 +16,55 @@ This parameters are sent as serial commands to the Arduino. For example, sending
 
 In the following, inputs and outputs are relative to the arduino
 
-*Camera pin:
+*Camera pins:
 pinCSB --> Camera SYNC-B/Strobe pin (input)
 
-*Laser pin:
+*Laser pins:
 pinLT 4 --> Laser Trigger (output)
 
+Below is an overview diagram of the very simple wiring needed:
 [[File:OverviewCircuit.png]]
 
+It is often the case that the internal camera/laser electronics are protected against electronic noise or damage by [http://en.wikipedia.org/wiki/Optocouplers optocouplers]. Optocouplers are essentially an optical form of [http://en.wikipedia.org/wiki/Galvanic_isolation galvanic isolation]: it's a optical bridge that lets the signal go through without any current flow. Such a device needs electric current to function, and by definition this current cannot come from the camera/laser  itself otherwise that would defeat the purpose of the optocoupler...
+To cut a long story short, you need to check whether the IO interface of the camera/laser needs to be supplied with DC current (most likely +5V). In any case you will also need to connect the GND (ground) to your 0V on the Arduino. For that you can use the +5V and 0V GND pins of the Arduino.
+It is a general rule that all grounds of communicating devices to be shorted together.
+
 == Arduino Sketch ==
+
+<source lang="cpp">
+ function A*(start,goal)
+     closedset := the empty set    // The set of nodes already evaluated.
+     openset := {start}    // The set of tentative nodes to be evaluated, initially containing the start node
+     came_from := the empty map    // The map of navigated nodes.
+     
+     g_score[start] := 0    // Cost from start along best known path.
+     // Estimated total cost from start to goal through y.
+     f_score[start] := g_score[start] + heuristic_cost_estimate(start, goal)
+     
+     while openset is not empty
+         current := the node in openset having the lowest f_score[] value
+         if current = goal
+             return reconstruct_path(came_from, goal)
+         
+         remove current from openset
+         add current to closedset
+         for each neighbor in neighbor_nodes(current)
+             if neighbor in closedset
+                 continue
+             tentative_g_score := g_score[current] + dist_between(current,neighbor)
+
+             if neighbor not in openset or tentative_g_score < g_score[neighbor] 
+                 add neighbor to openset
+                 came_from[neighbor] := current
+                 g_score[neighbor] := tentative_g_score
+                 f_score[neighbor] := g_score[neighbor] + heuristic_cost_estimate(neighbor, goal)
+
+     return failure
+
+ function reconstruct_path(came_from, current_node)
+     if came_from[current_node] is set
+         p := reconstruct_path(came_from, came_from[current_node])
+         return (p + current_node)
+     else
+         return current_node
+</source>
