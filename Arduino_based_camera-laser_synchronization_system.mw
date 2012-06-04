@@ -22,6 +22,7 @@ In the following, inputs and outputs are relative to the arduino
 * Laser pins:
 ** pinLT 4 --> Laser Trigger (output)
 
+
 Below is an overview diagram of the very simple wiring needed:
 [[File:OverviewCircuit.png]]
 
