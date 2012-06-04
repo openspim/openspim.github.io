@@ -21,6 +21,6 @@ pinCSB --> Camera SYNC-B/Strobe pin (input)
 Laser pin:
 pinLT 4 --> Laser Trigger (output)
 
-[[File:OverviewCircuit.svg]]
+[[File:OverviewCircuit.png]]
 
 == Arduino Sketch ==
