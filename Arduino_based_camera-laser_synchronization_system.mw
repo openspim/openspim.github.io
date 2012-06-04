@@ -32,39 +32,178 @@ It is a general rule that all grounds of communicating devices to be shorted tog
 == Arduino Sketch ==
 
 <source lang="cpp">
- function A*(start,goal)
-     closedset := the empty set    // The set of nodes already evaluated.
-     openset := {start}    // The set of tentative nodes to be evaluated, initially containing the start node
-     came_from := the empty map    // The map of navigated nodes.
-     
-     g_score[start] := 0    // Cost from start along best known path.
-     // Estimated total cost from start to goal through y.
-     f_score[start] := g_score[start] + heuristic_cost_estimate(start, goal)
-     
-     while openset is not empty
-         current := the node in openset having the lowest f_score[] value
-         if current = goal
-             return reconstruct_path(came_from, goal)
-         
-         remove current from openset
-         add current to closedset
-         for each neighbor in neighbor_nodes(current)
-             if neighbor in closedset
-                 continue
-             tentative_g_score := g_score[current] + dist_between(current,neighbor)
+ // OpenSPIM laser/camera synchronization based on Arduino
+// Loic Royer
 
-             if neighbor not in openset or tentative_g_score < g_score[neighbor] 
-                 add neighbor to openset
-                 came_from[neighbor] := current
-                 g_score[neighbor] := tentative_g_score
-                 f_score[neighbor] := g_score[neighbor] + heuristic_cost_estimate(neighbor, goal)
+// The principle of operation is simple:
+// We assume that the camera is controlled by the computer via the API 
+// or other means and that the SYNC-B/Strob signal reports the integration time 
+// interval. In other words the SYNC-B/Strobe pin on the camera tells us when the 
+// camera is aquiring (excluding the read-out time).
+// On the laser side, we assume that the laser is in pulse mode.
+//
+// The laser is then controlled in a "slave" mode. This program synchronizes 
+// the laser to the camera aquisition.
+// Two variables can be adjusted via a simple serial protocol: delay and duration.
+// Delay is how many microseconds between start of aquisition and laser on have elapsed,
+// and duration is, well, how long the laser is on in microseconds. 
+// sending the following string: 'l=0,d=1000' sets the delay to zero ms 
+// and duation to 1000 mus = 1 ms
 
-     return failure
+// in the following, inputs and outputs are relative to the arduino
+// Camera pins:
+//#define pinCT // Camera trigger pin (output)
+//#define pinCSA // Camera SYNC-A pin (input) 
+#define pinCSB 2// Camera SYNC-B/Strobe pin (input)
 
- function reconstruct_path(came_from, current_node)
-     if came_from[current_node] is set
-         p := reconstruct_path(came_from, came_from[current_node])
-         return (p + current_node)
-     else
-         return current_node
+// Laser pins: (Coherent laser CUBE system)
+//Important: The control box BNC connector has an input impedance of 2.2 K ohm.
+// The laser SMB connector has an input impedance of 50 ohm.
+// --> This means that a the same resistor value have to be put in series between 
+// the pin and the connector on the laser.
+
+#define pinLT 4 // Laser Trigger (BNC or SMB)
+
+// Debug: led pin 13
+#define pinLED 13
+
+// Parameters:
+unsigned long delaytime=0; 
+unsigned long duration=5000;
+
+
+// Monitored pin state:
+volatile int state = LOW;
+
+// Working variables:
+volatile unsigned long starttime;
+volatile boolean pause=false;
+
+
+void setup()
+{ 
+  Serial.begin(115200);
+  Serial.println("OpenSPIM ARDUSYNC> Connected!");
+
+  // Set up pin modes:
+  //pinMode(pinCT, OUTPUT);
+  pinMode(pinCSB, INPUT);
+  pinMode(pinLT, OUTPUT);
+  pinMode(pinLED, OUTPUT);
+  Serial.println("OpenSPIM ARDUSYNC> pins configured!");
+
+  //Attach the interrupts: 
+  // Interrupt 0 is on DIGITAL PIN 2!
+  // Interrupt 1 is on DIGITAL PIN 3!
+  // Arduino Mega has an additional four: numbers 2 (pin 21), 3 (pin 20), 4 (pin 19), and 5 (pin 18).
+  attachInterrupt(0, stateChange, CHANGE);
+  Serial.println("OpenSPIM ARDUSYNC> interrupts attached!");
+
+}
+
+void loop()                     
+{
+  if(Serial.available()>0)
+  {
+    pause = true;
+    while((delaytime=serReadInt('l'))<0);
+    while((duration=serReadInt('d'))<0);
+    Serial.println("OpenSPIM ARDUSYNC> Received parameter update.");
+    Serial.print("OpenSPIM ARDUSYNC> delaytime=");
+    Serial.print(delaytime);
+    Serial.print(" duration=");
+    Serial.println(duration);/**/
+    pause = false;
+  }
+}
+
+void stateChange()
+{
+  if(pause) return;
+  //Serial.println("change!");
+  //Serial.println(micros()-starttime);
+  state = digitalRead(pinCSB);
+  if(state==HIGH)
+  {
+    delaymicro(delaytime);
+    digitalWrite(pinLT, HIGH);
+    starttime = micros();  
+    digitalWrite(pinLED, HIGH);
+    delaymicro(duration);
+    digitalWrite(pinLT, LOW);
+    digitalWrite(pinLED, LOW);
+    //Serial.println("high");
+  }
+  else if(state==LOW)
+  {
+    digitalWrite(pinLT, LOW);
+    digitalWrite(pinLED, LOW);
+    //Serial.println("low");
+  }
+}
+
+
+// Helper functions are below:
+
+void delaymicro(long microseconds)
+{
+  if(microseconds==0) return;
+  if(microseconds>16383)
+  {
+    delay(microseconds/1000);
+    delayMicroseconds(microseconds%1000); 
+  }
+  else
+  {
+    delayMicroseconds(microseconds); 
+  }
+}
+
+boolean messageStart(char id)
+{
+  int i, serAva;                          // i is a counter, serAva hold number of serial available
+  char inputBytes [7]; 
+  if (Serial.available()>=2)               // Check to see if there are any serial input
+  {
+    delay(5);                              // Delay for terminal to finish transmitted
+    // 5mS work great for 9600 baud (increase this number for slower baud)
+    for (i=0; i<2; i++)               // Load input bytes into array
+      inputBytes[i] = Serial.read();
+    inputBytes[2] =  '\0';                 // Put NULL character at the end
+    //Serial.println(inputBytes);
+    if(inputBytes[0]==id && inputBytes[1]=='=')
+    { 
+      return true;
+    } 
+  }
+  return false;
+}
+
+long serReadInt(char id)
+{
+  //Serial.println("OpenSPIM ARDUSYNC> waiting for parameter id");
+  while(!messageStart(id));
+  //Serial.println("OpenSPIM ARDUSYNC> correct parameter id received");
+
+  int i, serAva;                          // i is a counter, serAva hold number of serial available
+  char inputBytes [7];                    // Array hold input bytes
+  char * inputBytesPtr = &inputBytes[0];  // Pointer to the first element of the array
+
+  if (Serial.available()>0)               // Check to see if there are any serial input
+  {
+    delay(5);                              // Delay for terminal to finish transmitted
+    // 5mS work great for 9600 baud (increase this number for slower baud)
+    serAva = Serial.available();           // Read number of input bytes
+    for (i=0; i<serAva; i++)               // Load input bytes into array
+    {
+      inputBytes[i] = Serial.read();
+      if(inputBytes[i]==',') break;
+    }
+    inputBytes[i] =  '\0';                 // Put NULL character at the end
+    //Serial.println(inputBytes);
+    return atoi(inputBytesPtr);            // Call atoi function and return result
+  }
+  else
+    return -1;                           // Return -1 if there is no input
+}
 </source>
