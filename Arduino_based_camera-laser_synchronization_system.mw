@@ -34,7 +34,9 @@ It is a general rule that all grounds of communicating devices to be shorted tog
 
 == Camera Wiring ==
 
-Here we detail how to use the synchronization system for the SonyXCD cameras:
+Here we detail how to use the synchronization system for the SonyXCD cameras.
+As explained above, and as shown in the diagram below, most cameras IO interfaces
+have an optocoupler. 
 
 [[File:SonyXCD12pin.png|500px]]
 
