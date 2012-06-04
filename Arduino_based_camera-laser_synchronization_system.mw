@@ -40,7 +40,9 @@ Here we detail how to use the synchronization system for the SonyXCD cameras:
 
 == Laser Wiring ==
 
-
+Wiring the laser is usually much easier, you just need a diftal IO pin
+that gives access to a binary control of the laser.
+For example, for the Coherent CUBE lasers this is called "digital enable".
 
 == Arduino Sketch ==
 
