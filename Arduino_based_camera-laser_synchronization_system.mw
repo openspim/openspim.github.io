@@ -12,7 +12,7 @@ Delay is how many microseconds separate the start of aquisition and the switchin
 This parameters are sent as serial commands to the Arduino. For example, sending the following string: 'l=0,d=1000' sets the delay to zero ms and duation to 1000 mus = 1 ms.
 
 == Arduino Wiring ==
-<b><span style="color:#FF0000">Rule zero of electronics: double check your wirings several times before powering up, there is no undo! When it's burned its burned!</span>
+<span style="color:#FF0000">Rule zero of electronics: double check your wirings several times before powering up, there is no undo! When it's burned its burned!</span>
 
 In the following, inputs and outputs are relative to the arduino
 
