@@ -36,7 +36,10 @@ It is a general rule that all grounds of communicating devices to be shorted tog
 
 Here we detail how to use the synchronization system for the SonyXCD cameras.
 As explained above, and as shown in the diagram below, most cameras IO interfaces
-have an optocoupler. 
+have an optocoupler - thus you have to connect GND pins to ground and DC IN pins to +5V.
+
+This distracting detail aside, the really interesting pin is STROBE OUT which tells us when the
+camera is acquiring.  
 
 [[File:SonyXCD12pin.png|500px]]
 
