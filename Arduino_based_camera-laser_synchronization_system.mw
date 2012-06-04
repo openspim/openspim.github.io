@@ -97,8 +97,16 @@ unsigned long delaytime=0;
 unsigned long duration=5000;
 
 
+// We define what is INT and NOINT for the camera:
+#define INT HIGH
+#define NOINT LOW 
+
+// We define what is LON and LOFF for the laser: 
+#define LON HIGH
+#define LOFF LOW 
+
 // Monitored pin state:
-volatile int state = LOW;
+volatile int state = NOINT;
 
 // Working variables:
 volatile unsigned long starttime;
@@ -148,20 +156,20 @@ void stateChange()
   //Serial.println("change!");
   //Serial.println(micros()-starttime);
   state = digitalRead(pinCINT);
-  if(state==HIGH)
+  if(state==INT)
   {
     delaymicro(delaytime);
-    digitalWrite(pinLT, HIGH);
+    digitalWrite(pinLT, LON);
     starttime = micros();  
     digitalWrite(pinLED, HIGH);
     delaymicro(duration);
-    digitalWrite(pinLT, LOW);
+    digitalWrite(pinLT, LOFF);
     digitalWrite(pinLED, LOW);
     //Serial.println("high");
   }
-  else if(state==LOW)
+  else if(state==NOINT)
   {
-    digitalWrite(pinLT, LOW);
+    digitalWrite(pinLT, LOFF);
     digitalWrite(pinLED, LOW);
     //Serial.println("low");
   }
