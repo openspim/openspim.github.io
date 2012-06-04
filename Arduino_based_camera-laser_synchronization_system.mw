@@ -63,8 +63,8 @@ Below is the current version of the Arduino sketch:
 
 // The principle of operation is simple:
 // We assume that the camera is controlled by the computer via the API 
-// or other means and that the SYNC-B/Strob signal reports the integration time 
-// interval. In other words the SYNC-B/Strobe pin on the camera tells us when the 
+// or other means and that the CINT signal reports the integration time 
+// interval. In other words the CINT pin on the camera tells us when the 
 // camera is aquiring (excluding the read-out time).
 // On the laser side, we assume that the laser is in pulse mode.
 //
@@ -78,17 +78,16 @@ Below is the current version of the Arduino sketch:
 
 // in the following, inputs and outputs are relative to the arduino
 // Camera pins:
-//#define pinCT // Camera trigger pin (output)
-//#define pinCSA // Camera SYNC-A pin (input) 
-#define pinCSB 2// Camera SYNC-B/Strobe pin (input)
+#define pinCINT 2// Camera integration signal pin (input)
 
-// Laser pins: (Coherent laser CUBE system)
-//Important: The control box BNC connector has an input impedance of 2.2 K ohm.
+// Laser pins: 
+//Important: In the case of the Coherent laser CUBE system, 
+// the control box BNC connector has an input impedance of 2.2 K ohm.
 // The laser SMB connector has an input impedance of 50 ohm.
 // --> This means that a the same resistor value have to be put in series between 
 // the pin and the connector on the laser.
 
-#define pinLT 4 // Laser Trigger (BNC or SMB)
+#define pinLT 4 // Laser Trigger pin
 
 // Debug: led pin 13
 #define pinLED 13
@@ -113,7 +112,7 @@ void setup()
 
   // Set up pin modes:
   //pinMode(pinCT, OUTPUT);
-  pinMode(pinCSB, INPUT);
+  pinMode(pinCINT, INPUT);
   pinMode(pinLT, OUTPUT);
   pinMode(pinLED, OUTPUT);
   Serial.println("OpenSPIM ARDUSYNC> pins configured!");
@@ -148,7 +147,7 @@ void stateChange()
   if(pause) return;
   //Serial.println("change!");
   //Serial.println(micros()-starttime);
-  state = digitalRead(pinCSB);
+  state = digitalRead(pinCINT);
   if(state==HIGH)
   {
     delaymicro(delaytime);
