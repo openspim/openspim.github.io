@@ -55,4 +55,42 @@ If that does not help, try to find out what's in [[#Look at the CoreLog]], and i
 
 Start Fiji, and before starting Micro-Manager use Visual Studio's ''Debug>Attach to Process...'' to attach to the process. After that, you may set breakpoints (optional) and then start Micro-Manager in Fiji.
 
+== Using Eclipse to debug MicroManager/SPIM Acquisition ==
+
+# Make sure you have Eclipse installed.
+# Add Fiji's JRE to Eclipse: 
+## Window -> Preferences; under Java, select Installed JREs and click Add...
+### Use Standard VM.
+### Set the JRE Home to fiji/java/<your OS>/jdk1.6.0_24 (or similar). Eclipse should fill in the rest.
+### Click Finish.
+## Check the checkbox next to the newly-added JRE.
+# Create a new project for Micro-Manager Studio:
+## File -> New -> Java Project...
+### Uncheck "Use Default Location"
+### Point Location to fiji/3rdparty/micromanager/mmstudio
+### Eclipse should auto-configure all sorts of useful things.
+## Click Next.
+### On the Libraries tab, click Add External JARs...
+#### From fiji/3rdparty/micromanager/dist/jars:
+####* bsh.jar
+####* commons-math-2.0.jar
+####* ij.jar
+####* MMCoreJ.jar
+####* MMAcqEngine.jar
+####* swing-layout-1.0.4.jar
+####* swingx-0.9.5.jar
+## Click Finish.
+# Create a project for SPIMAcquisition:
+## File -> New -> Java Project...
+### Uncheck "Use Default Location"
+### Point Location to fiji/3rdparty/micromanager/plugins/SPIMAcquisition
+### Let Eclipse auto-configure things.
+## Click Next.
+### On the Projects tab, click Add... and select the mmstudio project added above.
+### On the Libraries tab, click Add External JARs...
+#### From fiji/3rdparty/micromanager/dist/jars:
+####* ij.jar
+####* MMCoreJ.jar
+## Click Finish.
+
 [[Category:Software]]
