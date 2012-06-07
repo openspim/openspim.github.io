@@ -92,6 +92,11 @@ Start Fiji, and before starting Micro-Manager use Visual Studio's ''Debug>Attach
 ####* ij.jar
 ####* MMCoreJ.jar
 ## Click Finish.
+# Depending on your workspace settings, you may need to reduce the enforced JRE level for both projects:
+## Right click on each project and go to Properties.
+## Select Java Compiler.
+## Enable project-specific settings and set the Compiler Compliance Level to 1.6 (depending on the JDK used by FIJI).
+## Click Apply then OK.
 # Set up the debug configuration:
 ## Run -> Debug Configurations...
 ### Create a fresh launch configuration
