@@ -1,34 +1,8 @@
-{|
-|<b>The Idea</b>
-OpenSPIM is an <i>Open Access</i> project to build an accessible, entry level implementation of Selective Plane Illumination Microscopy (SPIM). 
-|[[Image:ERC_acronym.jpg|frameless|100px|center]]
-|-
+'''MediaWiki has been successfully installed.'''
 
-|<b>SPIM principle</b>
-SPIM is a variation of light-sheet microscopy, that uncouples the illumination and detection axes in an optical set-up allowing imaging of biological specimen with low photodamage. Optical sectioning is achieved by focusing an excitation laser beam into a thin light-sheet and illuminating only a thin section (plane) of the imaged specimen. The illuminated plane is then photographed by a CCD camera behind perpendicularly positioned detection lens that is focused to the center of the light-sheet. 3D stacks are acquired by moving the specimen through the light sheet. By mounting the sample in a rigid medium, such as agarose, and hanging it in front of the detection lens, it is possible to rotate the sample and collect 3d stacks from multiple angles (the so-called views in SPIM terminology).  
-|[[Image:SPIM_logo.jpg|frameless|150px|center|SPIM schematic]]
-|-
+Consult the [//meta.wikimedia.org/wiki/Help:Contents User's Guide] for information on using the wiki software.
 
-|<b>OpenSPIM</b>
-OpenSPIM is a SPIM set-up implementing single-sided light sheet illumination and perpendicular detection, centered around sample chamber modeled after mSPIM and using relatively inexpensive USB motors for sample positioning and rotation ([http://www.Picard-Industries.com Picard Industries]). The set-up is compressed to a minimal footprint that fits into cabin-sized luggage ([http://www.rimowa.de/main#product/929.52 Rimowa] Topas Cabin Trolly IATA) for easy transportation (the [[Media:SPIM in a suitcase.jpg|SPIM in a suitcase]] concept). The microscope is driven using [http://valelab.ucsf.edu/~MM/MMwiki/ microManager] from within [http://fiji.sc Fiji] where the acquired data can be reconstructed using dedicated SPIMage processing [http://fiji.sc/wiki/index.php/SPIM_Registration plugins]. OpenSPIM is designed to be maximally cost-effective allowing anyone to build an entry level system and further tweak it for the specific imaging needs. Parallel set-ups (SPIM farms) can be realized to enable medium throughput, long-term, time-lapse imaging. The step-by-step instructions to build, set-up and operate the OpenSPIM are the subject of this wiki. OpenSPIM aims to creates a powerful synergy between Open Software and Open Hardware that can serve as a nucleus for further development of the SPIM technology. 
-|[[Image:Solidworks build up 3fps cont.gif|frame|178px|center|OpenSPIM buildup]]
-|-
-
-|<b>SPIM application</b>
-SPIM promises to revolutionize several fields of biological research, in particular developmental and cell biology, by allowing imaging of large samples with high resolution over extended periods of time. SPIM has been used in a spectacular fashion to record the development of embryos of model organisms such as <i>Drosophila</i> and zebra fish with cellular resolution throughout the developing specimen that may consist of tens of thousands of cell (the so-called <i>in toto</i> imaging). The ability of SPIM to deliver high signal-to-noise 3D images of large specimen from different angles in an extended time-lapse is currently hard to achieve with any other microscopy technology. Since monitoring biological systems with high resolution over time is the goal of essentially all fields of biological inquiry, SPIM technology is imminently useful to biologists.
-|[[Image:Supplementary_Video_5_Drosophila_Embryogenesis.gif|frame|200px|right|SPIM recording of Drosophila embryogenesis]]
-|-
-|}
-
-= Hardware section =
-[[Step by step assembly]]
-
-[[Table_of_parts|Table of Parts]]
-
-= Software section =
-
-[[How to install]] the Micro-Manager software with SPIM support.
-
-[[How to build the MicroManager Software]] with SPIM support.
-
-[[Debugging]] when things do not work.
+== Getting started ==
+* [//www.mediawiki.org/wiki/Manual:Configuration_settings Configuration settings list]
+* [//www.mediawiki.org/wiki/Manual:FAQ MediaWiki FAQ]
+* [https://lists.wikimedia.org/mailman/listinfo/mediawiki-announce MediaWiki release mailing list]
