@@ -27,4 +27,8 @@ Call the Studio directly, without first starting ImageJ:
 
  fiji-win32 --main-class=org.micromanager.MMStudioMainFrame
 
+== I have problems! ==
+
+We have a [http://openspim.org/tickets/ ticketing system] (also known as bug tracker). Please register yourself with your correct email address to keep up-to-date on the tickets you add.
+
 [[Category:Software]]
