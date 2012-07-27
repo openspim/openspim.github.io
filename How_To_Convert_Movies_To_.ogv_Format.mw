@@ -1,18 +1,26 @@
 The OpenSPIM Wiki supports running Ogg videos embedded in the Wiki pages. Although this is the most open, yet compact video format out there, most consumer cameras do not support writing it, so you have to convert the movies before uploading them to the Wiki.
 
-= Download =
+= The easy way =
+
+Just update Fiji from the OpenSPIM update site and click the ''File>Batch Convert Movies'' menu item. It will ask you for an input folder, where it expects only movies to be converted, and an output folder, where it will put the corresponding ''.ogv'' files.
+
+= The tedious way =
+
+If you insist on using VLC manually to convert movies to ''.ogv'' format, you are certainly welcome to do that. Here is how:
+
+== Download ==
 
 First download [http://www.videolan.org/index.html VLC]:
 
 [[Image:Download-VLC.png|640px]]
 
-= Start VLC =
+== Start VLC ==
 
 Now, start it from the Windows menu (make sure to use the unskinned one):
 
 [[Image:Start-VLC.png|640px]]
 
-= Choose ''File>Convert/Save'' =
+== Choose ''File>Convert/Save'' ==
 Choose ''Convert/Save'' from the ''Media'' menu:
 
 [[Image:Start-VLC-Convert.png|640px]]
@@ -21,7 +29,7 @@ Add the file you want to convert by clicking on the ''Add' button:
 
 [[Image:VLC-Add-Files.png|640px]]
 
-== Making an ''OpenSPIM Wiki'' profile ==
+=== Making an ''OpenSPIM Wiki'' profile ===
 If you have not done so yet, create a new profile for the format required by this Wiki (it is the right-most button, indicated by the arrow):
 
 [[Image:VLC-New-Profile.png|640px]]
@@ -46,7 +54,7 @@ Typically, 8 kilohertz is not quite a pleasure to listen to, so let's go to 22 k
 
 [[Image:VLC-Audio-Samplerate.png|640px]]
 
-= Choose the Profile =
+== Choose the Profile ==
 Even when you just created a profile, this is not selected by default, so make sure that the OpenSPIM Wiki Profile is active:
 
 [[Image:VLC-Choose-Profile.png|640px]]
