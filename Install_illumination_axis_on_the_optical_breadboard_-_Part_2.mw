@@ -4,6 +4,8 @@ After a rough [[Alignment of laser|alignment of the laser]] you can continue wit
 
 The purpose of this simple telescope is to expand the output diameter of the laser from 1 mm to 2 mm. It is accomplished using a magnification of 0.5x.
 
+[[File:Installation Beam Expander.ogv]]
+
 === Install the first lens of the beam expanding telescope in it's proper place  ===
 
 ===== Objects needed =====
@@ -16,8 +18,6 @@ The purpose of this simple telescope is to expand the output diameter of the las
 None
 
 ===== How and where to install the beam expander on the rail system =====
-
-[[File:Installation_Cylindrical_Lens.ogv]]
 
 Put the Ø1/2" f = 25 mm spherical lens assembly on it's rail carrier on to the 300 mm dovetail rail near the laser and two 1/2" mirror assemblies with the tightening knob facing away from the laser and the lens facing the 1" mirror in the direction of the arrow on the lens housing. Position it between 50 to 75 mm away from the last Ø1/2" mirror surface (it doesn't really matter so much as how far away the first lens is because the entry and exit beams of the beam expander telescope system will be parallel, not focused or divergent), and tighten the tightening knob so that it doesn't move along the dovetail rail.
 
@@ -38,7 +38,7 @@ Put the Ø1/2" f = 25 mm spherical lens assembly on it's rail carrier on to the 
 
 None
 
-===== [http://youtu.be/1CGBz9cj7UU How and where to install the beam expander on the rail system] =====
+===== How and where to install the beam expander on the rail system =====
 
 Put the Ø1/2" f = 50 mm spherical lens assembly on it's rail carrier on to the 300 mm dovetail rail near the laser and behind the first Ø1/2" f = 25 mm spherical lens assembly in relation to the direction of the light path with the tightening knob facing away from the laser and the lens facing the 1" mirror in the direction of the arrow on the lens housing. Position it about 75 mm away from the first Ø1/2" f = 25 mm spherical lens assembly. Use a business card or paper to check the beam diameter from the exit of the second lens to the Ø1" mirror to see if the light deviates (either focuses or diverges). Adjust the distance between the two lenses until the beam is uniformly the same diameter all the way to the Ø1" mirror and illumination objective. Then tighten the tightening knob on the second lens so that it doesn't move along the dovetail rail.
 
@@ -49,6 +49,8 @@ Put the Ø1/2" f = 50 mm spherical lens assembly on it's rail carrier on to the 
 |}
 
 == Install the cylindrical lens in it's proper place ==
+
+[[File:Installation_Cylindrical_Lens.ogv]]
 
 ===== Objects needed =====
 
@@ -61,8 +63,6 @@ None
 
 ===== How and where to install the cylindrical lens assembly on the rail system =====
 
-[[File:Installation_Cylindrical_Lens.ogv]]
-
 Install the cylindrical lens assembly on the 300 mm dovetail rail around 50 mm from the Ø1" mirror with the lettering of the rotating index mount facing the reflective surface of the mirror. To adjust the focus of the cylindrical lens, shine the laser at a very low intensity through the beam expanding telescope and into the cylindrical lens. Then move the cylindrical lens assembly along the axis of the 300 mm dovetail rail until you find the thinnest line in the middle of the Ø1" mirror. Then tighten the tightening knob so that it doesn't move along the dovetail rail. 
 
 {|colspan="2"|
@@ -73,6 +73,8 @@ Install the cylindrical lens assembly on the 300 mm dovetail rail around 50 mm f
 
 == Install the vertical slit in it's proper place ==
 
+[[File:Assembly_Vertical-Slit-Mount_to_Rail-Carrier.ogv]]
+
 ===== Objects needed =====
 
 *1x vertical assembly on it's rail carrier
@@ -82,7 +84,7 @@ Install the cylindrical lens assembly on the 300 mm dovetail rail around 50 mm f
 
 None
 
-===== [http://youtu.be/wABG9cnscIs How and where to install the vertical slit assembly on the rail system] =====
+===== How and where to install the vertical slit assembly on the rail system =====
 
 Install the vertical slit assembly on the 300 mm dovetail rail 50 mm behind the cylindrical lens assembly on the other side from the mirror. You can find out where to lock it in place by looking for back reflections from the mirror through the cylindrical lens on to the closed vertical slit. Moving the slit back and forth on the dovetail rail you will find the thinnest/sharpest line of the back reflections.
 
@@ -98,6 +100,8 @@ The purpose of this simple telescope is to make the back focal plane (BFP) of th
 
 === Install the first lens of the BFP telescope in its proper place ===
 
+[[File:Installation Telescope Take-3.ogv]]
+
 ===== Objects needed =====
 
 *1x Ø1/2" f = 50 mm spherical lens assembly on it's rail carrier
@@ -107,7 +111,7 @@ The purpose of this simple telescope is to make the back focal plane (BFP) of th
 
 None
 
-===== [http://youtu.be/Tbt0WOJDX-4 How and where to install the telescope on the rail system] =====
+===== How and where to install the telescope on the rail system =====
 
 Put the Ø1/2" f = 50 mm spherical lens assembly on it's rail carrier on to the 150 mm dovetail rail 50 mm from the 1" mirror, the best way to do this is with a ruler or measuring stick/tape.
 
@@ -128,7 +132,7 @@ Put the Ø1/2" f = 50 mm spherical lens assembly on it's rail carrier on to the 
 
 None
 
-===== [http://youtu.be/Tbt0WOJDX-4 How and where to install the telescope on the rail system] =====
+===== How and where to install the telescope on the rail system =====
 
 Put the Ø1/2" f = 25 mm spherical lens assembly on it's rail carrier on to the 150 mm dovetail rail 75 mm away from the first lens of the BFP telescope, between it and the water dipping objective.
 
@@ -140,6 +144,8 @@ Put the Ø1/2" f = 25 mm spherical lens assembly on it's rail carrier on to the 
 
 == Install the iris in it's proper place ==
 
+[[File:Installation_Iris.ogv]]
+
 ===== Objects needed =====
 
 *1x iris assembly on it's rail carrier
@@ -149,7 +155,7 @@ Put the Ø1/2" f = 25 mm spherical lens assembly on it's rail carrier on to the 
 
 None
 
-===== [http://youtu.be/Zk653F8T23g How and where to install the iris assembly on the rail system ] =====
+===== How and where to install the iris assembly on the rail system =====
 
 Install the iris assembly on it's rail carrier on to the 150 mm dovetail rail 50 mm (in it's front focal plane) away from the first lens of the BFP telescope, two thirds of the way to the second lens (in it's back focal plane). You will easily find focus by moving the iris back and forth on the dovetail rail until you find the thinnest/sharpest image of the line (which will be flipped 90 degrees from horizontal to vertical) from the first lens.
  
