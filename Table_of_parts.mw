@@ -74,7 +74,7 @@
 |- align="center"
 || ThorLabs
 |bgcolor="pink"| purchase 
-|| The optical bread board that the OpenSPIM system is installed on
+|| The metric (M6 tapped 25 mm spacing) optical bread board that the OpenSPIM system is installed on
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=MB3045/M MB3045/M] 
 ||[[File:ThorLabs_MB3045-M_Aluminum-Breadboard_300x450x12-7mm.jpg|thumb|upright=0.7]]
 || 1
@@ -106,7 +106,7 @@
 |- align="center"
 || ThorLabs
 |bgcolor="pink"| purchase
-|| Rail carrier 1"/25 mm<br/><br/><b><span>(some will need to be modified)</span></b>
+|| Rail carrier 1"/25.4 mm<br/><br/><b><span>(some will need to be modified)</span></b>
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=RC1 RC1]
 || [[File:ThorLabs_RC1-M_Rail-Carrier_for_Dovetail-Optical-Rail.jpg|thumb|upright=0.7]]
 || 11  
@@ -122,7 +122,7 @@
 |- align="center"
 || ThorLabs
 |bgcolor="pink"| purchase
-|| Ø1" optic mount (for the iris)
+|| Ø1"/25.4 mm optic mount (for the iris)
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=LMR1/M LMR1/M]
 || [[File:ThorLabs_LMR1-M_Lens-Mount_Dia=1in.jpg|thumb|center|upright=0.7]]
 || 1
@@ -154,7 +154,7 @@
 |- align="center"
 || OpenSPIM
 |bgcolor="green"| self made
-|| elevates the Ø1/2" lenses 14.95 mm from the rail carrier to the desired height of 50 mm off the surface of the optical breadboard
+|| elevates the Ø1/2"/12.7 mm lenses 14.95 mm from the rail carrier to the desired height of 50 mm off the surface of the optical breadboard
 || [[:File:OpenSPIM_Stilt_1-2in-Lens.STL|.stl]]<br/>[[:File:OpenSPIM_Stilt_1-2in-Lens.STEP|.step]]<br/>[[:File:OpenSPIM_Stilt_1-2in-Lens.PDF|.pdf]]
 || [[File:OpenSPIM_Stilt_1-2in-Lens.JPG|thumb|center|upright=0.7]]
 || 5  
@@ -162,7 +162,7 @@
 |- align="center"
 || ThorLabs
 |bgcolor="pink"| purchase
-|| Ø1/2" optic mount (for light sheet creation)
+|| Ø1/2"/12.7 mm optic mount (for light sheet creation)
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=LMR05/M LMR05/M]
 || [[File:ThorLabs_LMR05-M_Lens-Mount_Dia=0-5in.jpg|thumb|upright=0.7]] 
 || 7 
@@ -170,7 +170,7 @@
 |- align="center"
 || OpenSPIM
 |bgcolor="green"| self made
-|| elevates the Ø1/2" mirrors 18.25 mm from the rail carrier to the desired height of 50 mm off the surface of the optical breadboard
+|| elevates the Ø1/2"/12.7 mm mirrors 22.57 mm from the rail carrier to the desired height of 50 mm off the surface of the optical breadboard
 || [[:File:OpenSPIM_Stilt_1-2in-Mirror.STL|.stl]]<br/>[[:File:OpenSPIM_Stilt_1-2in-Mirror.STEP|.step]]<br/>[[:File:OpenSPIM_Stilt_1-2in-Mirror.PDF|.pdf]]
 || [[File:OpenSPIM_Stilt_1-2in-Mirror.JPG|thumb|center|upright=0.7]]
 || 2  
@@ -178,7 +178,7 @@
 |- align="center"
 || ThorLabs
 |bgcolor="pink"| purchase
-|| Kinematic Mount for Ø12.7 mm Optics, Metric 
+|| Kinematic Mount for Ø1/2"/12.7 mm Optics, Metric 
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=KM05/M KM05/M]
 || [[File:ThorLabs KM05-M.jpg|thumb|upright=0.7]]
 || 2
@@ -186,7 +186,7 @@
 |- align="center"
 || OpenSPIM
 |bgcolor="green"| self made 
-|| elevates the Ø1" mirror 24.55 mm to the desired height of 50 mm off the surface of the optical breadboard
+|| elevates the Ø1"/25.4 mm mirror 24.55 mm to the desired height of 50 mm off the surface of the optical breadboard
 || [[:File:OpenSPIM_Stilt_1in-Mirror.STL|.stl]]<br/>[[:File:OpenSPIM_Stilt_1in-Mirror.STEP|.step]]<br/>[[:File:OpenSPIM_Stilt_1in-Mirror.PDF|.pdf]]
 || [[File:OpenSPIM_Stilt_1in-Mirror.JPG|thumb|center|upright=0.7]]
 || 1  
@@ -194,7 +194,7 @@
 |- align="center"
 || ThorLabs
 |bgcolor="pink"| purchase
-|| Ø25.4 mm Gimbal Mirror Mount, Metric
+|| Ø1"/25.4 mm Gimbal Mirror Mount, Metric
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=GM100/M GM100/M]
 || [[File:ThorLabs GM100-M.jpg|thumb|upright=0.7]]
 || 1
@@ -202,7 +202,7 @@
 |- align="center"
 || ThorLabs
 |bgcolor="pink"| purchase
-|| Metric Rotation Mount, 360° Continuous or 15° Indexed Rotation 
+|| Metric Rotation Mount for Ø1"/25.4 mm optics, 360° Continuous or 15° Indexed Rotation 
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=RSP1X15/M RSP1X15/M]
 || [[File:ThorLabs_RSP1X15-M_Metric_Rotation-Mount_Dia=1in.jpg|thumb|upright=0.7]]
 || 1 
