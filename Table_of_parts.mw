@@ -45,7 +45,7 @@
 || 30
 |- align="center"
 || ThorLabs
-|bgcolor="orange"| optional purchase<br/><br/><b><span>although highly recommended</span></b>
+|bgcolor="orange"| optional purchase<br/><br/><b><span style="color:#FF0000">although highly recommended</span></b>
 || Ø1/2" Laser Line Filter, CWL = 488 ± 2 nm, FWHM = 10 ± 2 nm <br/><br/><b><span> For use with laser clean up</span></b>
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=FL05488-10 FL05488-10]
 || [[File:ThorLabs FL05488-10.jpg|thumb|upright=0.7]]
