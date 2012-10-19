@@ -45,7 +45,7 @@
 || 30
 |- align="center"
 || ThorLabs
-|bgcolor="pink"| purchase
+|bgcolor="orange"| optional purchase
 || Ø1/2" Laser Line Filter, CWL = 488 ± 2 nm, FWHM = 10 ± 2 nm <br/><br/><b><span> For use with laser clean up</span></b>
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=FL05488-10 FL05488-10]
 || [[File:ThorLabs FL05488-10.jpg|thumb|upright=0.7]]
@@ -57,7 +57,7 @@
 || Flip Mount - Metric  <br/><br/><b><span> For use in manipulating lightsheet</span></b>
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=FM90/M FM90/M]
 || [[File:ThorLabs FM90-M.jpg|thumb|upright=0.7]]
-|| xx
+|| 2
 || 70 
 |}
 
