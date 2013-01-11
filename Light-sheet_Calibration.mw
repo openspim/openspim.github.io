@@ -7,33 +7,61 @@ File:Light Sheet Calibration-3.jpg|Bottom part, magnified
 File:Light Sheet Calibration-4.jpg|Close-up of the bottom part, magnified
 </gallery>
 
-[[File:P1070789.ogv]]
-Positioning the Sample Chamber in it's correct place.
+== protocol ==
 
-[[File:P1070791.ogv]]
-The Grid/Mirror Sample
+{| border="0" cellpadding="6" cellspacing="0"
+|- valign="top"
+| 1
+| Positioning the Sample Chamber in it's correct place.
+| text
+| [[File:P1070789.ogv|250px]]
+|- valign="top"
+| 2
+| The Grid/Mirror Sample
+| text
+| [[File:P1070791.ogv|250px]]
+|- valign="top"
+| 3
+| Positioning the Grid/Mirror Sample in X&Y
+| text
+| [[File:P1070792.ogv|250px]]
+|- valign="top"
+| 4
+| Focusing the Grid/Mirror Sample
+| text
+| [[File:P1070794.ogv|250px]]
+|- valign="top"
+| 5
+| Positioning the Grid/Mirror Sample in θ
+| text
+| [[File:P1070795.ogv|250px]]
+|- valign="top"
+| 6
+| Replace the emission filter with a ND filter.
+| text
+| [[File:P1070796.ogv|250px]]
+|- valign="top"
+| 7
+| 
+| text
+| 
+|- valign="top"
+| 8
+| 
+| text
+| 
+|-
+|}
 
-[[File:P1070792.ogv]]
-Positioning the Grid/Mirror Sample in X&Y
-
-[[File:P1070794.ogv]]
-Focusing the Grid/Mirror Sample
-
-[[File:P1070795.ogv]]
-Positioning the Grid/Mirror Sample in θ
-
-[[File:P1070796.ogv]]
-Replace the emission filter with a ND filter.
-
-[[File:P1070797p1.ogv]]
-[[File:P1070797p2.ogv]]
-[[File:P1070797p3.ogv]]
-[[File:P1070798.ogv]]
-[[File:P1070799.ogv]]
-[[File:P1070800.ogv]]
-[[File:P1070801p1.ogv]]
-[[File:P1070801p2.ogv]]
-[[File:P1070802.ogv]]
-[[File:P1070803.ogv]]
+[[File:P1070797p1.ogv|250px]]
+[[File:P1070797p2.ogv|250px]]
+[[File:P1070797p3.ogv|250px]]
+[[File:P1070798.ogv|250px]]
+[[File:P1070799.ogv|250px]]
+[[File:P1070800.ogv|250px]]
+[[File:P1070801p1.ogv|250px]]
+[[File:P1070801p2.ogv|250px]]
+[[File:P1070802.ogv|250px]]
+[[File:P1070803.ogv|250px]]
 
 [[Category:Hardware]]
