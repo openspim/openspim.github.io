@@ -7,3 +7,23 @@ Due to a bug in the HamamatsuHam driver (which is not Open Source, unfortunately
 The issue, most likely, is that Fiji reserves so much RAM for its own use that the Hamamatsu driver is unable to reserve space for its image buffers.
 
 Just go to Edit>Options>Memory & Threads... and limit the RAM Fiji uses to, say, 1GB. Restart Fiji, and all should be fine.
+
+== How to share images? ==
+
+We have a WebDAV scratch now (for Windows, please install [http://cyberduck.ch/ Cyberduck] since Windows Explorer's WebDAV support is incapable of communicating with our server, for Linux or MacOSX refer to the capabilities of Nautilus and Finder, respectively).
+
+Note, however, that Windows' network stack is not able to perform fast uploads. If you can, use Linux or MacOSX. The difference is huge: in one particular case, we measured ~300kB/sec on Windows and 17MB/sec on Linux.
+
+The scratch space is located at http://openspim.org/scratch/. For core OpenSPIM developers, there is a shared account 'webdav', a write-only account will be added soon.
+
+== How to report bugs ==
+
+We have a [http://openspim.org/tickets/ ticket system]. If you [http://openspim.org/tickets/bug_report_page.php add new tickets], please make sure to
+
+* the category is ''OpenSPIM''
+* assign the ticket to yourself if you intend to solve it
+* add a target version if you want the ticket to show up in the [http://openspim.org/tickets/roadmap_page.php roadmap]
+* add a concise summary and additional useful information in the description
+* if you need this ticket to be visible only to the core developers of OpenSPIM, mark it as 'private'
+
+Once you added a ticket, you might want to go back to it and make it a child of a goal ticket in the ''Relationship'' box.
