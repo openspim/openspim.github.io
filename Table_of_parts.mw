@@ -14,7 +14,7 @@
 |- align="center"
 || Coherent 
 |bgcolor="orange"| optional purchase 
-|| Which ever wavelengh & mW is necessary for your experiments
+|| Which ever wavelength & mW is necessary for your experiments
 || [http://www.coherent.com/products/?1007/CUBE Cube] 
 || [[File:Coherent_CUBE.jpg|thumb|upright=0.7]]
 || 1
@@ -47,7 +47,7 @@
 || [http://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=1001 ThorLabs] <br/> [http://www.semrock.com/ Semrock] <br/> [http://www.chroma.com/ Chroma] <br/> [http://www.omegafilters.com/ Omega]
 |bgcolor="orange"| optional purchase<br/><br/><b><span style="color:#FF0000">although highly recommended for any diode laser</span></b>
 || Ø1"/25.4 mm Fluorescent Microscopy Filter <br/><br/><b><span> For use with laser clean up</span></b>
-|| Make sure to get a bandpass with a narrow FWHM around the wavelength of the laser. (for example: 488/10)
+|| Make sure to get a bandpass with a narrow FWHM around the wavelength of the illumination. (for example: 488/10)
 || [[File:AHF Fluorescent-Filter.jpg|thumb|upright=0.7]]
 || xx
 || 40
