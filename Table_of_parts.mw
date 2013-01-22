@@ -45,9 +45,9 @@
 || 60
 |- align="center"
 || [http://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=1001 ThorLabs] <br/> [http://www.semrock.com/ Semrock] <br/> [http://www.chroma.com/ Chroma] <br/> [http://www.omegafilters.com/ Omega]
-|bgcolor="orange"| optional purchase<br/><br/><b><span style="color:#FF0000">although highly recommended for a <br/> <span style="color:#007FFF"> 488 nm</span> diode laser</span></b>
+|bgcolor="orange"| optional purchase<br/><br/><b><span style="color:#FF0000">although highly recommended for any diode laser</span></b>
 || Ø1"/25.4 mm Fluorescent Microscopy Filter <br/><br/><b><span> For use with laser clean up</span></b>
-|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=FL05488-10 FL05488-10]
+|| Make sure to get a bandpass with a narrow FWHM around the wavelength of the laser. (for example: 488/10)
 || [[File:AHF Fluorescent-Filter.jpg|thumb|upright=0.7]]
 || xx
 || 40
