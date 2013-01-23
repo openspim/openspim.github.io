@@ -2,6 +2,8 @@ Now that we have assembled the OpenSPIM microscope it is time to start using it.
 
 = Sample Preparation =
 
+Preparation of  [[Drosophila embryo sample preparation|Drosophila embryos]] for SPIM imaging.
+
 = Calibration =
 
 The light-sheet should be [[Light-sheet Calibration|calibrated]] in regular intervals.
