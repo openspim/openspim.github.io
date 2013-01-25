@@ -1,22 +1,61 @@
+The basic idea is to embed the Drosophila embryos into an Agarose column. For the [http://fiji.sc/SPIM_Registration SPIM registration], we embed fluorescent, sub-resolution beads, too.
+
+= Notes =
+
+We use 1-1.5% Agarose in the final mix, otherwise the optical clarity is greatly reduced. We also use standard bleach to remove the egg shell.
+
+= Walkthrough =
+
+Our flies live in custom-made cages. These are large, plastic vials with a fine grid on the bottom:
+
 [[Image:01-cage.jpg]]
+
+To get eggs of a deterministic age, we first starve the flies and then feed them yeast-based food in another cage with fresh agar in the cap:
+
 [[Image:02-food-dry.jpg]]
 [[Image:03-petri-dish.jpg]]
 [[Image:04-petri-dish-food.jpg]]
 [[Image:05-cage-on-side.jpg]]
+
+By switching the flies out of that cage after, say, two hours, the eggs are guaranteed to be at most two hours old.
+
+Now it is time to prepare the Agarose:
+
 [[Image:06-heat-agarose.jpg]]
 [[Image:07-agarose-dry.jpg]]
 [[Image:09-agarose-dissolved.jpg]]
 [[Image:09-agarose-dissolved.jpg]]
 [[Image:10-eppendorfers.jpg]]
+
+Put beads into the agarose and vortex for a good amount of time (one minute at least):
+
 [[Image:11-beads-concentrated.jpg]]
+
+Now prepare the PBS to wash the eggs in:
+
 [[Image:12-buffer.jpg]]
 [[Image:13-buffer-dish.jpg]]
+
+We will use a sieve like this to filter out the embryos after bleaching off the egg shell:
+
 [[Image:14-sieve.jpg]]
+
+We use standard bleach:
+
 [[Image:15-bleach.jpg]]
 [[Image:16-after-bleaching.jpg]]
 [[Image:17-rinse.jpg]]
+
+Now pick the embryos gently with a regular brush:
+
 [[Image:18-pick-bleached-embryos.jpg]]
+
+Put them into the Agarose with the beads:
+
 [[Image:19-into-eppendorfer.jpg]]
+
+Now put them into a capillary. You can use the capillary forces to get the embryos into the capillaries. Try to put them as central as possible for the best quality of the reconstruction:
+
 [[Image:20-capillary.jpg]]
 [[Image:21-plunger.jpg]]
 [[Image:22-cut-tip.jpg]]
