@@ -33,32 +33,8 @@
 || Ø1/2"/12.7 mm SM05-Mounted Frosted Glass Alignment Disk w/Ø1 mm Hole<br/><br/><b><span>For use in aligning the illumination beam path</span></b>
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=DG05-1500-H1-MD DG05-1500-H1-MD]
 || [[File:ThorLabs_DG05-1500-H1-MD_Alignment-Disk.jpg|thumb|upright=0.7]]
-|| 1 
+|| 2 
 || 25
-|- align="center"
-|| ThorLabs
-|bgcolor="pink"| purchase
-|| Ø1"/25.4 mm AR-Coated Absorptive Neutral Density Filter, SM1-Threaded Mount, AR coating 350-700 nm <br/><br/><b><span> For use in diminishing the intensity of the illumination source</span></b>
-|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=NE10A-A NE10A-A (10%)] <br/> [http://www.thorlabs.de/thorProduct.cfm?partNumber=NE13A-A NE13A-A (5%)] <br/> [http://www.thorlabs.de/thorProduct.cfm?partNumber=NE20A-A NE20A-A (1%)]<br/> [http://www.thorlabs.de/thorProduct.cfm?partNumber=NE30A-A NE30A-A (0.1%)]
-|| [[File:ThorLabs NE05A-A ND-Filter.jpg|thumb|upright=0.7]]
-|| 1
-|| 60
-|- align="center"
-|| [http://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=1001 ThorLabs] <br/> [http://www.semrock.com/ Semrock] <br/> [http://www.chroma.com/ Chroma] <br/> [http://www.omegafilters.com/ Omega]
-|bgcolor="orange"| optional purchase<br/><br/><b><span style="color:#FF0000">although highly recommended for any diode laser</span></b>
-|| Ø1"/25.4 mm Fluorescent Microscopy Filter <br/><br/><b><span> For use with laser clean up</span></b>
-|| Make sure to get a bandpass with a narrow FWHM around the wavelength of the illumination. (for example: 488/10)
-|| [[File:AHF Fluorescent-Filter.jpg|thumb|upright=0.7]]
-|| xx
-|| 40
-|- align="center"
-|| ThorLabs
-|bgcolor="pink"| purchase
-|| Ø1"/25.4 mm Flip Mount - Metric  <br/><br/><b><span> For use in manipulating the lightsheet: such as inserting a neutral density or cleanup filter into illumination beam path</span></b>
-|| [http://www.thorlabs.de/thorProduct.cfm?partNumber=TRF90/M TRF90/M]
-|| [[File:ThorLabs TRF90-M Filter-Flipper.jpg|thumb|upright=0.7]]
-|| 2
-|| 70 
 |}
 
 == Opto-mechanical parts list ==
