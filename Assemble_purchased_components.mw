@@ -1,34 +1,19 @@
 == Install mirrors into corresponding mirror mounts ==
 
-==== Ø1/2" mirrors into Ø1/2" mounts ====
+==== Ø1" mirrors into Ø1" mirror mount ====
 
 ===== Objects needed =====
 
-*2x ThorLabs part #: [http://www.thorlabs.de/thorProduct.cfm?partNumber=BB05-E02 BB05-E02] Ø1/2" (Ø12.7 mm) mirrors  <b><i>go into</i></b>
-*2x ThorLabs part #: [http://www.thorlabs.de/thorProduct.cfm?partNumber=KM05/M KM05/M] Ø1/2" (Ø12.7 mm) mirror mounts
+*3x ThorLabs part #: [http://www.thorlabs.de/thorProduct.cfm?partNumber=BB1-E02 BB1-E02] Ø1" (Ø25.4 mm) mirror  <b><i>goes into</i></b>
+*3x ThorLabs part #: [http://www.thorlabs.de/thorProduct.cfm?partNumber=GM100/M GM100/M] Ø1" (Ø25.4 mm) gimbal mirror mount
 
 ===== Tools needed =====
 
-*1.5 mm hex key/driver
+* 1x 2 mm hex key/driver
 
 ===== [http://youtu.be/TLWfcGkF-Rw/ How to install the mirrors into their respective mirror mounts] =====
 
-Take both components out of their respective boxes and put the mirror inside the mount with its reflective side out (on the opposite side of the steering screws), and lock it snugly in place with a 1.5 mm hex key/driver.
-
-==== Ø1" mirror into Ø1" mirror mount ====
-
-===== Objects needed =====
-
-*1x ThorLabs part #: [http://www.thorlabs.de/thorProduct.cfm?partNumber=BB1-E02 BB1-E02] Ø1" (Ø25.4 mm) mirror  <b><i>goes into</i></b>
-*1x ThorLabs part #: [http://www.thorlabs.de/thorProduct.cfm?partNumber=GM100/M GM100/M] Ø1" (Ø25.4 mm) gimbal mirror mount
-
-===== Tools needed =====
-
-* 1x SM1 Spanner Wrench (ThorLabs part #: [http://www.thorlabs.de/thorProduct.cfm?partNumber=SPW602 SPW602] or [http://www.thorlabs.de/thorProduct.cfm?partNumber=SPW606 SPW606] will work well)
-
-===== [http://youtu.be/TLWfcGkF-Rw/ How to install the mirrors into their respective mirror mounts] =====
-
-Take both components out of their respective boxes and put the mirror inside the mount with its reflective side facing the front, then using either the [http://www.thorlabs.de/thorProduct.cfm?partNumber=SPW602 SPW602] or [http://www.thorlabs.de/thorProduct.cfm?partNumber=SPW606 SPW606], screw the retaining ring that came with the GM100/M gimbal mirror mount into place from behind snugly against the back of the mirror.
+Take both components out of their respective boxes and put the mirror inside the mount with its reflective side facing the front, then tighten the setscrew to hold the mirror firmly in place.
 
 == Install lenses into corresponding fixed optical mounts ==
 
