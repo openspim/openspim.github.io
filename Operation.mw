@@ -18,6 +18,8 @@ Although once aligned the light sheet is rather stable it should be [[Light-shee
 
 We also recommend to examine the signal in the imaged specimen and tweak the light sheet using the bottom knob on the lower left corner mirror of the set-up to optimize the image quality. The knob moves the light sheet roughly parallel to the focal plane of the detection lens and thus moving it back an forth one focuses the lens into the middle of the light sheet.
 
+[[Category:Hardware]]
+
 = Acquisition =
 
 Taking a single image with the OpenSPIM.
