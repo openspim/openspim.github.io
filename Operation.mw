@@ -20,6 +20,16 @@ We also recommend to examine the signal in the imaged specimen and tweak the lig
 
 = Acquisition =
 
+Taking a single image with the OpenSPIM.
+
+Taking a stack of images with the OpenSPIM.
+
+Taking a series of single planes over time in the movies mode.
+
+Setting up a multi-view imaging of a single fixed sample.
+
+Setting up a multi-view time lapse of live sample. 
+
 [[Category:Operation]]
 
 = Data processing =
