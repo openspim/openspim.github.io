@@ -26,15 +26,6 @@
 || [[:File:OpenSPIM_Cube-Laser_Heatsink.STL|.stl]]<br/>[[:File:OpenSPIM_Cube-Laser_Heatsink.STEP|.step]]<br/>[[:File:OpenSPIM_Cube-Laser_Heatsink.PDF|.pdf]]
 || [[File:Laser heatsink.jpg|thumb|upright=0.7]] 
 || 1 
-|| 
-|- align="center"
-|| Keyspan
-|bgcolor="pink"| purchase
-|| USB to serial adapter for the laser
-|| [http://www.tripplite.com/en/products/model.cfm?txtModelID=3914 TRIPP-LITE Model-USA-19HS]
-|| [[File:Keyspan.jpg|thumb|upright=0.7]]
-|| 1 
-|| 
 |- align="center"
 | ThorLabs
 |bgcolor="pink"| purchase
@@ -370,6 +361,26 @@
 || [[File:Assembled 4d motorsystem.jpg|thumb|upright=0.7]]
 || 1
 || [http://www.picard-industries.com/contact.html Ask for quote]
+|}
+
+== Electronics ==
+{| class="wikitable sortable" border="1"
+|-
+! scope="col" class="unsortable" width="100"| Manufacturer
+! scope="col" class="unsortable" width="150"| Accessibility 
+! scope="col" class="unsortable" width="250"| Description
+! scope="col" class="unsortable" width="130"| File or Link/Model #
+! scope="col" class="unsortable" width="125"| Image
+! scope="col" class="unsortable" width="50"| Quantity
+! scope="col" class="unsortable" width="50"| Price (EUR)
+
+|- align="center"
+|| Keyspan
+|bgcolor="pink"| purchase
+|| USB to serial adapter for the laser
+|| [http://www.tripplite.com/en/products/model.cfm?txtModelID=3914 TRIPP-LITE Model-USA-19HS]
+|| [[File:Keyspan.jpg|thumb|upright=0.7]]
+|| 1 
 |}
 
 == Optional Parts List ==
