@@ -297,7 +297,7 @@
 |- align="center"
 || OpenSPIM
 |bgcolor="green"| self made
-|| The <b>infinity space tube</b> defines the distance between the detection objective and it's tube lens.
+|| The <b>infinity space tube</b> defines the distance between the detection objective and it's tube lens.<br><br>''Note: the CAD files are showing fancier version compared to the pictures''
 || [[:File:OpenSPIM_Infinity-Space.STL|.stl]]<br/>[[:File:OpenSPIM_Infinity-Space.STEP|.step]]<br/>[[:File:OpenSPIM_Infinity-Space.PDF|.pdf]]
 || [[File:Infinity space.jpg|thumb|center|upright=0.7]]
 || 1 
