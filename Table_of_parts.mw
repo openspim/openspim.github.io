@@ -284,7 +284,7 @@
 || [[:File:OpenSPIM Detection-Axis-Holder Base.STL|Base.stl]]<br/>[[:File:OpenSPIM Detection-Axis-Holder Base.STEP|Base.step]]<br/>[[:File:OpenSPIM Detection-Axis-Holder Base.PDF|Base.pdf]]<br/><br/>[[:File:OpenSPIM_Detection-Axis-Holder_Top.STL|Top.stl]]<br/>[[:File:OpenSPIM_Detection-Axis-Holder_Top.STEP|Top.step]]<br/>[[:File:OpenSPIM_Detection-Axis-Holder_Top.PDF|Top.pdf]]
 || [[File:Detectionaxis holder.jpg|thumb|center|upright=0.7]]
 || 1  
-|| xx 
+|| &nbsp;
 |- align="center"
 || OpenSPIM
 |bgcolor="green"| self made
@@ -292,14 +292,14 @@
 || [[:File:OpenSPIM_Infinity-Space.STL|.stl]]<br/>[[:File:OpenSPIM_Infinity-Space.STEP|.step]]<br/>[[:File:OpenSPIM_Infinity-Space.PDF|.pdf]]
 || [[File:Infinity space.jpg|thumb|center|upright=0.7]]
 || 1 
-|| xx 
+|| &nbsp; 
 |- align="center"
 || [http://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=1001 ThorLabs] <br/> [http://www.semrock.com/ Semrock] <br/> [http://www.chroma.com/ Chroma] <br/> [http://www.omegafilters.com/ Omega]
 |bgcolor="pink"| purchase
-|| Ø1"/25.4 mm Fluorescent Microscopy Filter <br/><br/><b><span> get a few for different experiments</span></b>
-|| Make sure to get at least one good bandpass (FWHM 30-50 nm) and a longpass that block the illumination well
+|| Ø1"/25.4 mm Fluorescent Microscopy Filter <br/><br/> Make sure to get at least one good bandpass (FWHM 30-50 nm) and a longpass that block the illumination well
+|| &nbsp;
 || [[File:AHF Fluorescent-Filter.jpg|thumb|upright=0.7]]
-|| xx
+|| &nbsp;
 || 100-300
 |- align="center"
 || OpenSPIM
@@ -307,8 +307,8 @@
 || Ø1"/Ø25.4 mm '''microscopy fluorescence emission filter holder''' that fits into OpenSPIM's infinity space <br/> <br/> Here are some companies who make Ø1"/Ø25.4 mm microscopy filters: <br/>[http://www.semrock.com/ Semrock], [http://www.chroma.com/ Chroma],<br/>[http://www.omegafilters.com/ Omega], and even [http://thorlabs.com/navigation.cfm?Guide_ID=21 ThorLabs].<br><br>''Note: the CAD files are showing fancier version compared to the pictures''
 || [[:File:OpenSPIM 1in Micro Filter-Holder_Base.STL|Base.stl]]<br/>[[:File:OpenSPIM 1in Micro Filter-Holder_Base.STEP|Base.step]]<br/>[[:File:OpenSPIM 1in Micro Filter-Holder_Base.PDF|Base.pdf]]<br/><br/>[[:File:OpenSPIM 1in Micro Filter-Holder_Top.STL|Top.stl]]<br/>[[:File:OpenSPIM 1in Micro Filter-Holder_Top.STEP|Top.step]]<br/>[[:File:OpenSPIM 1in Micro Filter-Holder_Top.PDF|Top.pdf]]
 || [[File:Filters holders.jpg|thumb|center|upright=0.7]]
-|| xx
-|| xx 
+|| &nbsp;
+|| &nbsp;
 |- align="center"
 || OpenSPIM
 |bgcolor="yellow"| make as many as you need<br/><br/><b><span style="color:#007FFF"> If you need them...</span></b>
@@ -316,7 +316,7 @@
 || [[:File:OpenSPIM_1-25in_Astro_Filter-Holder_Base.STL|Base.stl]]<br/>[[:File:OpenSPIM_1-25in_Astro_Filter-Holder_Base.STEP|Base.step]]<br/>[[:File:OpenSPIM_1-25in_Astro_Filter-Holder_Base.PDF|Base.pdf]]<br/><br/>[[:File:OpenSPIM_1-25in_Astro_Filter-Holder_Top.STL|Top.stl]]<br/>[[:File:OpenSPIM_1-25in_Astro_Filter-Holder_Top.STEP|Top.step]]<br/>[[:File:OpenSPIM_1-25in_Astro_Filter-Holder_Top.PDF|Top.pdf]]
 || [[File:Astro filterholder.jpg|thumb|center|upright=0.7]]
 || ? 
-|| xx 
+|| &nbsp;
 |- align="center"
 || Olympus
 |bgcolor="pink"| purchase
