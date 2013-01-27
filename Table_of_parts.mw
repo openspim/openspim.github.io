@@ -236,7 +236,7 @@
 |- align="center"
 || OpenSPIM
 |bgcolor="green"| self made
-|| milled '''acrylic sample chamber''' that holds the two Olympus water dipping objectives in a perpendicular arrangement to illuminate and observe the sample
+|| milled '''acrylic sample chamber''' that holds the two Olympus water dipping objectives in a perpendicular arrangement to illuminate and observe the sample<br><br>''plus two M6 x 12mm screws''
 || [[:File:OpenSPIM_SPIM-Chamber.STL|Sample Chamber.stl]]<br/>[[:File:OpenSPIM_SPIM-Chamber.STEP|Sample Chamber.step]]<br/>[[:File:OpenSPIM_SPIM-Chamber.PDF|Sample Chamber.pdf]]
 || [[File:Sample chamber.jpg|thumb|center|upright=0.7]]
 || 1 
@@ -252,7 +252,7 @@
 |- align="center"
 || OpenSPIM
 |bgcolor="green"| self made
-|| metal '''objective holder ring''' attaching the illumination and detection lens to the metal sample chamber holder.
+|| metal '''objective holder ring''' attaching the illumination and detection lens to the metal sample chamber holder.<br><br>''plus three M3 x 6mm screws for each''
 || [[:File:OpenSPIM SPIM-Chamber Objective-Ring.STL|Objective Ring.stl]]<br/>[[:File:OpenSPIM SPIM-Chamber Objective-Ring.PDF|Objective Ring.pdf]]
 || [[File:Objective ring.jpg|thumb|center|upright=0.7]]
 || 2 
