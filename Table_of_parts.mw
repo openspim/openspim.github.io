@@ -375,12 +375,40 @@
 ! scope="col" class="unsortable" width="50"| Price (EUR)
 
 |- align="center"
+|| Apple
+|bgcolor="pink"| purchase
+|| Laptop computer to operate the OpenSPIM system. We use Apple MacBook Pro running 32 bit Windows XP.
+|| [http://www.apple.com]
+|| [[File:|thumb|upright=0.7]]
+|| 1
+|- align="center"
+|| Hamamatsu
+|bgcolor="pink"| purchase
+|| Digital camera Hamamatsu Orca-ER<br><br>''Includes power supply and cables - firewire to computer.''
+|| [http://www.digitalimagingsystems.co.uk/hardware/orca_er.html]
+|| [[File:Camera plus powersupply.jpg|thumb|upright=0.7]]
+|| 1
+|- align="center"
 || Keyspan
 |bgcolor="pink"| purchase
 || USB to serial adapter for the laser
 || [http://www.tripplite.com/en/products/model.cfm?txtModelID=3914 TRIPP-LITE Model-USA-19HS]
 || [[File:Keyspan.jpg|thumb|upright=0.7]]
-|| 1 
+|| 1
+|- align="center"
+|| Piccard Industries or any electronics vendor
+|bgcolor="pink"| purchase
+|| USB cables for the 4D positioning system and USB hub (at minimum 5 USB positions)
+|| []
+|| [[File:Usb cables.jpg|thumb|upright=0.7]]
+|| 4 & 1
+|- align="center"
+|| ?
+|bgcolor="pink"| purchase
+|| USB led lamp for brightfield illumination of the sample during set-up
+|| []
+|| [[File:Usb led.jpg|thumb|upright=0.7]]
+|| 1
 |}
 
 == Optional Parts List ==
