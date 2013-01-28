@@ -16,27 +16,37 @@ Please also forgive the confusion about the Youtube videos and the corresponding
 {| class="wikitable sortable" border="1"
 |-
 ! scope="col" class="unsortable" width="100"| Step
-! scope="col" class="unsortable" width="150"| Description & Link 
+! scope="col" class="unsortable" width="150"| Description 
 ! scope="col" class="unsortable" width="250"| SolidWorks rendering
 ! scope="col" class="unsortable" width="130"| Real picture
+! scope="col" class="unsortable" width="130"| Video tutorial
 
 |- align="center"
-|| Step 1
+|| '''0'''
 || The breadboard
 |[[file:00a.jpg|thumb|center]]
 |[[file:Real 00.jpg|thumb|center]]
 |-
 |- align="center"
-|| Step 2
+|| '''1'''
 || [[Install illumination axis on the optical breadboard - Part 1#Install 1" mirror assembly and its spacer post|Install corner mirror]]
 |[[file:01a.jpg|thumb|center]]
 |[[file:Real 01.jpg|thumb|center]]
+||[[File:Assembly Large-Mirror-Mount to Optical-Breadboard.ogv|thumb]]
 |-
 |- align="center"
-|| Step 3
+|| '''2'''
 || [[Install illumination axis on the optical breadboard - Part 1#Install the CUBE laser heatsink|Install laser heatsink]]
 |[[file:02a.jpg|thumb|center]]
 |[[file:Real 02.jpg|thumb|center]]
+||[[File:Installation Laser-w-Heatsink to Optical-Breadboard Take-2.ogv|thumb]]
+|-
+|- align="center"
+|| '''3'''
+|| [[Install illumination axis on the optical breadboard - Part 1#Mount the laser on the laser heat sink|Install laser]]
+|[[file:03a.jpg|thumb|center]]
+|[[file:Real 03.jpg|thumb|center]]
+||[[File:Installing the laser onto laser base.ogv|thumb]]
 |-
 |}
 
