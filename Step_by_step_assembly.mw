@@ -12,7 +12,7 @@ Please also forgive the confusion about the Youtube videos and the corresponding
 *[[Install detection axis on the optical breadboard]]
 *[[Install the 4D motor system]]
 
-== Assembly overview in 19 simple steps==
+== Assembly overview in 20 simple steps==
 {| class="wikitable sortable" border="1"
 |-
 ! scope="col" class="unsortable" width="100"| Step
@@ -22,39 +22,53 @@ Please also forgive the confusion about the Youtube videos and the corresponding
 ! scope="col" class="unsortable" width="130"| Video tutorial
 
 |- align="center"
-|| '''0'''
-|| The breadboard
-|[[file:00a.jpg|thumb|center]]
-|[[file:Real 00.jpg|thumb|center]]
-|| &nbsp;
-|-
-|- align="center"
 || '''1'''
 || [[Install illumination axis on the optical breadboard - Part 1#Install 1" mirror assembly and its spacer post|Install corner mirror]]
-|[[file:01a.jpg|thumb|center]]
-|[[file:Real 01.jpg|thumb|center]]
+|[[file:02a.jpg|thumb|center]]
+|[[file:Real 02.jpg|thumb|center]]
 ||[[File:Assembly Large-Mirror-Mount to Optical-Breadboard.ogv|thumb]]
 |-
 |- align="center"
 || '''2'''
 || [[Install illumination axis on the optical breadboard - Part 1#Install the CUBE laser heatsink|Install laser heatsink]]
-|[[file:02a.jpg|thumb|center]]
-|[[file:Real 02.jpg|thumb|center]]
+|[[file:03a.jpg|thumb|center]]
+|[[file:Real 03.jpg|thumb|center]]
 ||[[File:Installation Laser-w-Heatsink to Optical-Breadboard Take-2.ogv|thumb]]
 |-
 |- align="center"
 || '''3'''
 || [[Install illumination axis on the optical breadboard - Part 1#Mount the laser on the laser heat sink|Install laser]]
-|[[file:03a.jpg|thumb|center]]
-|[[file:Real 03.jpg|thumb|center]]
+|[[file:04a.jpg|thumb|center]]
+|[[file:Real 04.jpg|thumb|center]]
 ||[[File:Installing the laser onto laser base.ogv|thumb]]
 |-
 |- align="center"
 || '''4'''
 || [[Install illumination axis on the optical breadboard - Part 1#Mount dovetail rails onto optical breadboard|Installing rails]]
-|[[file:04a.jpg|thumb|center]]
-|[[file:Real 04.jpg|thumb|center]]
+|[[file:05a.jpg|thumb|center]]
+|[[file:Real 05.jpg|thumb|center]]
 ||[[File:Assembly Dovetail-Rails to Optical-Breadboard.ogv|thumb]]
+|-
+|- align="center"
+|| '''5'''
+|| [[Install illumination axis on the optical breadboard - Part 1#Install both 1/2" mirror assemblies on rail system|Installing laser bouncing mirrors]]
+|[[file:06a.jpg|thumb|center]]
+|[[file:Real 06.jpg|thumb|center]]
+||[[File:Installation Small-Mirror-Assemblies to Dovetail-Rail-System.ogv|thumb]]
+|-
+|- align="center"
+|| '''6'''
+|| [[Install illumination axis on the optical breadboard - Part 1#Install the OpenSPIM chamber|Installing sample chamber]]
+|[[file:07a.jpg|thumb|center]]
+|[[file:Real 07.jpg|thumb|center]]
+||[[File:Installation SPIM-Chamber-Assembly to Dovetail-Rail-System.ogv|thumb]]
+|-
+|- align="center"
+|| '''7'''
+|| [[Alignment of laser|Align the laser]]
+|| &nbsp;
+|| &nbsp;
+||[[File:Laser Alignment.ogv|thumb]]
 |-
 |}
 
