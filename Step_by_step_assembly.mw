@@ -12,7 +12,7 @@ Please also forgive the confusion about the Youtube videos and the corresponding
 *[[Install detection axis on the optical breadboard]]
 *[[Install the 4D motor system]]
 
-== Assembly overview ==
+== Assembly overview in 19 simple steps==
 {| class="wikitable sortable" border="1"
 |-
 ! scope="col" class="unsortable" width="100"| Step
@@ -26,6 +26,7 @@ Please also forgive the confusion about the Youtube videos and the corresponding
 || The breadboard
 |[[file:00a.jpg|thumb|center]]
 |[[file:Real 00.jpg|thumb|center]]
+|| &nbsp;
 |-
 |- align="center"
 || '''1'''
@@ -47,6 +48,13 @@ Please also forgive the confusion about the Youtube videos and the corresponding
 |[[file:03a.jpg|thumb|center]]
 |[[file:Real 03.jpg|thumb|center]]
 ||[[File:Installing the laser onto laser base.ogv|thumb]]
+|-
+|- align="center"
+|| '''4'''
+|| [[Install illumination axis on the optical breadboard - Part 1#Mount dovetail rails onto optical breadboard|Installing rails]]
+|[[file:04a.jpg|thumb|center]]
+|[[file:Real 04.jpg|thumb|center]]
+||[[File:Assembly Dovetail-Rails to Optical-Breadboard.ogv|thumb]]
 |-
 |}
 
