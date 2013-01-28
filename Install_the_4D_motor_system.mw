@@ -1,10 +1,17 @@
-== 4D Motors ==
+== 4D USB motor system installation ==
+
+===== Objects needed =====
+
+===== Tools needed =====
+
+==== How to attach and position the motor system on the breadboard ====
 {|colspan="2"|
-Here comes the text
 |-
-|[[file:19_4d_motor.JPG|thumb|center]]
-|[[file:19_IMG_0964_new.jpg|thumb|center]]
+|[[file:18a.jpg|thumb|center]]
+|[[file:Real 18.jpg|thumb|center]]
 |}
+
+== [[Step by step assembly|Go back to Step by step assembly]] ==
 
 == Motor arm ==
 {|colspan="2"|
