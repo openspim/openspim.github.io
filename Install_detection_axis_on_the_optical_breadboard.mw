@@ -1,4 +1,12 @@
-== Assembly of detection axis ==
+= Assembly of detection axis =
+
+== Assembly of the tube lens ==
+
+===== Objects needed =====
+
+===== Tools needed =====
+
+==== How to assemble the detection axis ====
 
 [[File:Installation Detection-Axis Holder-Base.ogv]]
 
@@ -16,6 +24,14 @@
 |[[file:Real 15.jpg|thumb|center]]
 |}
 
+== Camera installation ==
+
+===== Objects needed =====
+
+===== Tools needed =====
+
+==== How to attach the camera to the tube lens via the C-mount and secure on the OpenSPIM breadboard ====
+
 {|colspan="2"|
 |-
 |[[file:16a.jpg|thumb|center]]
@@ -30,6 +46,13 @@
 |[[file:Real 17.jpg|thumb|center]]
 |}
 
+== 4D USB motor system installation ==
+
+===== Objects needed =====
+
+===== Tools needed =====
+
+==== How to attach and position the motor system on the breadboard ====
 {|colspan="2"|
 |-
 |[[file:18a.jpg|thumb|center]]
