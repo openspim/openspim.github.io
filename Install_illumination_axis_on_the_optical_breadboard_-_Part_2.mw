@@ -4,8 +4,6 @@ After a rough [[Alignment of laser|alignment of the laser]] you can continue wit
 
 The purpose of this simple telescope is to expand the output diameter of the laser from 1 mm to 2 mm. It is accomplished using a magnification of 0.5x.
 
-[[File:Installation Beam Expander.ogv]]
-
 === Install the first lens of the beam expanding telescope in it's proper place  ===
 
 ===== Objects needed =====
@@ -41,6 +39,8 @@ None
 ===== How and where to install the beam expander on the rail system =====
 
 Put the Ø1/2" f = 50 mm spherical lens assembly on it's rail carrier on to the 300 mm dovetail rail near the laser and behind the first Ø1/2" f = 25 mm spherical lens assembly in relation to the direction of the light path with the tightening knob facing away from the laser and the lens facing the 1" mirror in the direction of the arrow on the lens housing. Position it about 75 mm away from the first Ø1/2" f = 25 mm spherical lens assembly. Use a business card or paper to check the beam diameter from the exit of the second lens to the Ø1" mirror to see if the light deviates (either focuses or diverges). Adjust the distance between the two lenses until the beam is uniformly the same diameter all the way to the Ø1" mirror and illumination objective. Then tighten the tightening knob on the second lens so that it doesn't move along the dovetail rail.
+
+[[File:Installation Beam Expander.ogv]]
 
 {|colspan="2"|
 |-
