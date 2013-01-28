@@ -15,7 +15,7 @@ This will need to be done twice:
 *1x 1.5 mm hex key/driver
 *Nx Just a little [http://www.youtube.com/watch?v=SYzraMwM8n0 patience]
 
-===== [http://youtu.be/wpbCUX2KXG4 How to do a laser alignment of the OpenSPIM's illumination axis] =====
+===== How to do a laser alignment of the OpenSPIM's illumination axis =====
 
  <b>Take off all jewelry (wedding bands, watches and anything shiny)!</b>
 
@@ -26,6 +26,8 @@ Power on laser. Roughly rotate, and adjust the distances to, all of the installe
 In the second go around:
 
 Make sure that the laser is coming through the middle of all of the installed refractive optic lenses. use the alignment disk to verify that the laser is still in line with the correct axis.
+
+[[File:Laser Alignment.ogv]]
 
 {|colspan="2"|
 |-
