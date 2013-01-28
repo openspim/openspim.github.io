@@ -17,11 +17,13 @@ Please also forgive the confusion about the Youtube videos and their correspondi
 *1x 3 mm hex key/driver
 *1x Needle nosed pliers
 
-===== [http://youtu.be/tErFX8eFffU/ How to install the large mirror mount on the corner of the optical breadboard] =====
+===== How to install the large mirror mount on the corner of the optical breadboard =====
 
 Put the M4x50 mm capscrew through a SD1 M4 to M6 adapter, then the capscrew/adapter assembly through the <b>bottom</b> side of the optical breadboard in a corner M6 thru tap. It is easy to differentiate between the thru tap and threaded hole, because the thru tap is off the usual grid between 4 threaded holes. The bottom side is the side where you can see 2 different diameters of thru tap, the larger one that stops half way through the optical breadboard is where the SD1 washer can rest.
 
 <b><span style="color:#FF0000"> From here on out till the completion of the installation of the OpenSPIM the furthest threaded hole juxtaposed in the opposite corner to the 1" mirror post will be called A1.</span></b>
+
+[[File:Assembly_Large-Mirror-Mount_to_Optical-Breadboard.ogv]]
 
 {|colspan="2"|
 |-
