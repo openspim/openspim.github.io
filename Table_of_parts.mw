@@ -370,7 +370,7 @@
 |bgcolor="green"| self made
 || pulley system to attach to sample holder arm and rotate the sample
 || HERE COMES SOLIDWORKS
-|| WE NEED A PICTURE
+|| [[File:Pulleys.jpg|thumb|upright=0.7|center]]
 || 1 each
 || &nbsp;
 |- align="center"
@@ -378,15 +378,23 @@
 |bgcolor="pink"| purchase
 || O-ring or rubber band for the rotation pulley
 || any
-|| [[File:Assembled 4d motorsystem.jpg|thumb|upright=0.7|center]]
+|| [[File:Assembled motorsystem green top.jpg|thumb|upright=0.7|center]]
 || 1
 || &nbsp;
 |- align="center"
-|| Thorlabs
+|| OpenSPIM
+|bgcolor="pink"| purchase
+|| Ball bearing for the front part of the sample rotation pulley system.<br><br>''Shown inserted inside the sample positioning arm''
+|| &nbsp;
+|| [[File:Ballbearing pulley.jpg|thumb|upright=0.7|center]]
+|| 1 
+|| &nbsp;
+|- align="center"
+|| Newport
 |bgcolor="pink"| purchase
 || Breadboard clamps to hold the positioned motor assembly onto the breadboard
-|| HERE COMES THORLABS link
-|| WE NEED A PICTURE
+|| HERE COMES NEWPORT link
+|| [[File:Breadboard clamps.jpg|thumb|upright=0.7|center]]
 || 1 
 || &nbsp;
 |}
