@@ -51,6 +51,23 @@ Place the CUBE laser heatsink assembly so that the mounting capscrew holes/notch
 |[[file:04_IMG_0563_new.jpg|thumb|center]]
 |}
 
+== Mount the laser on the laser heat sink ==
+
+===== Objects needed =====
+
+*1x Coherent CUBE solid state laser diode
+*1x Machined metal (i.e. Aluminum) laser heatsink (that will raise the laser beam output to 50 mm off the surface of the optical breadboard)
+*4x M4 capscrews that came with the CUBE laser with their included washers.
+*1x Heat transfer paste
+
+===== Tools needed =====
+
+*1x 3 mm hex key/driver
+
+===== Directions =====
+
+<b>Wear latex or nitril gloves</b> that comfortably fit your hands! Apply heat transfer paste to the surface of the metal heat sink block where the CUBE laser will sit (everywhere between the four M4 threaded holes). Put the M4 capscrews that came with the CUBE laser through their included washers and the top of the holes in the base plate of the CUBE laser into the heatsink. using a 3 mm hex key/driver, screw the CUBE laser down onto the surface of the heatsink where the heat transfer paste is applied. Remove excess heat transfer paste with gloves on your hands!
+
 == Mount dovetail rails onto optical breadboard ==
 
 ===== Objects needed =====
