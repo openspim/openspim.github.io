@@ -18,7 +18,7 @@
 |bgcolor="pink"| purchase 
 || Whichever wavelength & mW is necessary for your experiments.<br><br>''Cube 488-50C includes laser unit, 4 M4 cap screws with smaller caps, control box, interface cable & power supply.'' 
 || [http://www.coherent.com/products/?1007/CUBE Cube 488-50C] 
-|| [[File:Laser_cube.jpg‎|thumb|upright=0.7]]
+|| [[File:Laser_cube.jpg‎|thumb|upright=0.7|center]]
 || 1
 || ~7000 
 |- align="center"
@@ -26,7 +26,7 @@
 |bgcolor="green"| self made 
 || Functions as heat sink and brings the laser to the desired height of 50 mm off the surface of the optical breadboard<br/><br/><b><span style="color:#FF0000"> Must be made out of a heat conducting material!!</span></b> We use Aluminum.
 || [[:File:OpenSPIM_Cube-Laser_Heatsink.STL|.stl]]<br/>[[:File:OpenSPIM_Cube-Laser_Heatsink.STEP|.step]]<br/>[[:File:OpenSPIM_Cube-Laser_Heatsink.PDF|.pdf]]
-|| [[File:Laser heatsink.jpg|thumb|upright=0.7]] 
+|| [[File:Laser heatsink.jpg|thumb|upright=0.7|center]] 
 || 1 
 ||  &nbsp;
 |- align="center"
@@ -34,7 +34,7 @@
 |bgcolor="pink"| purchase
 || Ø1/2"/12.7 mm SM05-Mounted Frosted Glass Alignment Disk w/Ø1 mm Hole<br/><br/><b><span>For use in aligning the illumination beam path</span></b>
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=DG05-1500-H1-MD DG05-1500-H1-MD]
-|| [[File:ThorLabs_DG05-1500-H1-MD_Alignment-Disk.jpg|thumb|upright=0.7]]
+|| [[File:ThorLabs_DG05-1500-H1-MD_Alignment-Disk.jpg|thumb|upright=0.7|center]]
 || 2 
 || 25
 |}
