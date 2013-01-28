@@ -13,20 +13,28 @@ Please also forgive the confusion about the Youtube videos and the corresponding
 *[[Install the 4D motor system]]
 
 == Assembly overview ==
-
-{|colspan="2"|
+{| class="wikitable sortable" border="1"
 |-
+! scope="col" class="unsortable" width="100"| Step
+! scope="col" class="unsortable" width="150"| Description & Link 
+! scope="col" class="unsortable" width="250"| SolidWorks rendering
+! scope="col" class="unsortable" width="130"| Real picture
+
+|- align="center"
 || Step 1
 || The breadboard
 |[[file:00a.jpg|thumb|center]]
 |[[file:Real 00.jpg|thumb|center]]
 |-
+|- align="center"
 || Step 2
-|| [[#Install 1" mirror assembly and its spacer post]]
+|| [[Install illumination axis on the optical breadboard - Part 1#Install 1" mirror assembly and its spacer post|Install corner mirror]]
 |[[file:01a.jpg|thumb|center]]
 |[[file:Real 01.jpg|thumb|center]]
 |-
+|- align="center"
 || Step 3
+|| [[Install illumination axis on the optical breadboard - Part 1#Install the CUBE laser heatsink|Install laser heatsink]]
 |[[file:02a.jpg|thumb|center]]
 |[[file:Real 02.jpg|thumb|center]]
 |-
