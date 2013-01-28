@@ -74,25 +74,6 @@ Align the rotation using a 1.3 mm hex key/driver by loosening the two screws on 
 
 [[File:Assembly Cylindrical-Lens-w-Rail-Mount.ogv]]
 
-== Screw iris into corresponding fixed optical mount ==
-
-==== Ø1" iris into Ø1" fixed optical mount ====
-
-===== Objects needed =====
-
-*1x ThorLabs part #: SM1D12D  Ø1" Ring-Activated SM1 Iris Diaphragm <b><i>threads into</i></b>
-*1x ThorLabs part #: LMR1/M  Ø1" holding mount
-
-===== Tools needed =====
-
-none
-
-===== How to install the iris into its optical mount =====
-
-Take both components out of their respective boxes, and after screwing the Ø1" external threaded ring in, screw the iris diaphragm inside the mount all the way back until it is flush with the mount.
-
-[[File:Assembly Iris-to-Mount.ogv]]
-
 == Mount the laser on the laser heat sink ==
 
 ===== Objects needed =====
