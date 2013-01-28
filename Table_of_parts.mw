@@ -54,7 +54,7 @@
 |bgcolor="pink"| purchase 
 || The metric (M6 tapped 25 mm spacing) optical bread board that the OpenSPIM system is installed on
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=MB3045/M MB3045/M] 
-||[[File:ThorLabs_MB3045-M_Aluminum-Breadboard_300x450x12-7mm.jpg|thumb|upright=0.7]]
+||[[File:ThorLabs_MB3045-M_Aluminum-Breadboard_300x450x12-7mm.jpg|thumb|upright=0.7|center]]
 || 1
 || 185
 |- align="center"
@@ -62,7 +62,7 @@
 |bgcolor="pink"| purchase  
 || Metric Dovetail Optical Rail, 300 mm<br><br>''plus two M6 x 12mm cap screws from screw set''
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=RLA300/M RLA300/M] 
-|| [[File:ThorLabs_RLA075-M_Meteric-Dovetail-Optical-Rail_Length=300mm.jpg|thumb|upright=0.7]]
+|| [[File:ThorLabs_RLA075-M_Meteric-Dovetail-Optical-Rail_Length=300mm.jpg|thumb|upright=0.7|center]]
 || 1
 || 65
 |- align="center"
@@ -70,7 +70,7 @@
 |bgcolor="pink"| purchase   
 || Metric Dovetail Optical Rail, 150 mm<br><br>''plus two M6 x 12mm cap screws from screw set for each''
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=RLA150/M RLA150/M ] 
-|| [[File:ThorLabs_RLA075-M_Meteric-Dovetail-Optical-Rail_Length=150mm.jpg|thumb|upright=0.7]]
+|| [[File:ThorLabs_RLA075-M_Meteric-Dovetail-Optical-Rail_Length=150mm.jpg|thumb|upright=0.7|center]]
 || 2
 || 35  
 |- align="center"
@@ -78,7 +78,7 @@
 |bgcolor="pink"| purchase  
 || Metric Dovetail Optical Rail, 75 mm<br><br>''plus two M6 x 12mm cap screws from screw set''
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=RLA075/M RLA075/M] 
-|| [[File:ThorLabs_RLA075-M_Meteric-Dovetail-Optical-Rail_Length=75mm.jpg|thumb|upright=0.7]]
+|| [[File:ThorLabs_RLA075-M_Meteric-Dovetail-Optical-Rail_Length=75mm.jpg|thumb|upright=0.7|center]]
 || 1
 || 25  
 |- align="center"
@@ -86,7 +86,7 @@
 |bgcolor="pink"| purchase
 || Rail carrier 1"/25.4 mm
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=RC1 RC1]
-|| [[File:ThorLabs_RC1-M_Rail-Carrier_for_Dovetail-Optical-Rail.jpg|thumb|upright=0.7]]
+|| [[File:ThorLabs_RC1-M_Rail-Carrier_for_Dovetail-Optical-Rail.jpg|thumb|upright=0.7|center]]
 || 8  
 || 20 
 |- align="center"
@@ -94,7 +94,7 @@
 |bgcolor="yellow"| modify
 || Modified Rail carrier 15.4 mm <br/><br/> made from one of the RC1's
 || [[:File:MODIFIED ThorLabs RC1-M Rail-Carrier for Dovetail-Optical-Rail.PDF|.pdf]]
-|| [[File:MODIFIED ThorLabs RC1-M Rail-Carrier for Dovetail-Optical-Rail-1.jpg|thumb|upright=0.7]]
+|| [[File:MODIFIED ThorLabs RC1-M Rail-Carrier for Dovetail-Optical-Rail-1.jpg|thumb|upright=0.7|center]]
 || 1  
 ||  &nbsp;
 |- align="center"
@@ -102,7 +102,7 @@
 |bgcolor="green"| self made
 || elevates the vertical slit 13.17 mm from the rail carrier to the desired height of 50 mm off the surface of the optical breadboard
 || [[:File:OpenSPIM_Stilt_Vertical-slit.STL|.stl]]<br/>[[:File:OpenSPIM_Stilt_Vertical-slit.STEP|.step]]<br/>[[:File:Vertical-slit rail-carrier stilt 13-17mm.PDF|.pdf]]
-|| [[File:OpenSPIM_Stilt_Vertical-slit.JPG|thumb|center|upright=0.7]]
+|| [[File:OpenSPIM_Stilt_Vertical-slit.JPG|thumb|center|upright=0.7|center]]
 ||  1
 ||  &nbsp;
 |- align="center"
@@ -110,7 +110,7 @@
 |bgcolor="pink"| purchase
 || Adjustable mechanical slit
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=VA100/M VA100/M]
-|| [[File:ThorLabs_VA100-M_Adjustable-Mechanical-Slit_Metric.jpg|thumb|upright=0.7]]
+|| [[File:ThorLabs_VA100-M_Adjustable-Mechanical-Slit_Metric.jpg|thumb|upright=0.7|center]]
 || 1 
 || 220  
 |- align="center"
@@ -118,7 +118,7 @@
 |bgcolor="green"| self made
 || elevates the Ø1/2"/12.7 mm lenses 14.95 mm from the rail carrier to the desired height of 50 mm off the surface of the optical breadboard
 || [[:File:OpenSPIM_Stilt_1-2in-Lens.STL|.stl]]<br/>[[:File:OpenSPIM_Stilt_1-2in-Lens.STEP|.step]]<br/>[[:File:OpenSPIM_Stilt_1-2in-Lens.PDF|.pdf]]
-|| [[File:OpenSPIM_Stilt_1-2in-Lens.JPG|thumb|center|upright=0.7]]
+|| [[File:OpenSPIM_Stilt_1-2in-Lens.JPG|thumb|center|upright=0.7|center]]
 || 6  
 ||  &nbsp;
 |- align="center"
@@ -126,7 +126,7 @@
 |bgcolor="pink"| purchase
 || Ø1/2"/12.7 mm optic mount (for light sheet creation)
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=LMR05/M LMR05/M]
-|| [[File:ThorLabs_LMR05-M_Lens-Mount_Dia=0-5in.jpg|thumb|upright=0.7]] 
+|| [[File:ThorLabs_LMR05-M_Lens-Mount_Dia=0-5in.jpg|thumb|upright=0.7|center]] 
 || 6 
 || 15
 |- align="center"
@@ -134,7 +134,7 @@
 |bgcolor="green"| self made
 || elevates the Ø1"/25.4 mm Polaris mirror mounts 5.5 mm from the rail carrier to the desired height of 50 mm off the surface of the optical breadboard
 || [[:File:OpenSPIM_Stilt_1-2in-Mirror.STL|.stl]]<br/>[[:File:OpenSPIM_Stilt_1-2in-Mirror.STEP|.step]]<br/>[[:File:Mirror rail-carrier stilt 5-5mm.PDF|.pdf]]
-|| [[File:OpenSPIM_Stilt_1-2in-Mirror.JPG|thumb|center|upright=0.7]]
+|| [[File:OpenSPIM_Stilt_1-2in-Mirror.JPG|thumb|center|upright=0.7|center]]
 || 2  
 ||  &nbsp;
 |- align="center"
@@ -142,7 +142,7 @@
 |bgcolor="green"| self made 
 || elevates the Ø1"/25.4 mm mirror mount 24.55 mm to the desired height of 50 mm off the surface of the optical breadboard
 || [[:File:OpenSPIM_Stilt_1in-Mirror.STL|.stl]]<br/>[[:File:OpenSPIM_Stilt_1in-Mirror.STEP|.step]]<br/>[[:File:OpenSPIM_Stilt_1in-Mirror.PDF|.pdf]]
-|| [[File:OpenSPIM_Stilt_1in-Mirror.JPG|thumb|center|upright=0.7]]
+|| [[File:OpenSPIM_Stilt_1in-Mirror.JPG|thumb|center|upright=0.7|center]]
 || 1  
 ||  &nbsp;
 |- align="center"
@@ -150,7 +150,7 @@
 |bgcolor="pink"| purchase
 || Metric Rotation Mount for Ø1"/25.4 mm optics, 360° Continuous or 15° Indexed Rotation 
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=RSP1X15/M RSP1X15/M]
-|| [[File:ThorLabs_RSP1X15-M_Metric_Rotation-Mount_Dia=1in.jpg|thumb|upright=0.7]]
+|| [[File:ThorLabs_RSP1X15-M_Metric_Rotation-Mount_Dia=1in.jpg|thumb|upright=0.7|center]]
 || 1 
 || 110
 |- align="center"
@@ -158,7 +158,7 @@
 |bgcolor="pink"| purchase
 || POLARIS-K1 - PolarisTM Low Drift Ø1" Kinematic Mirror Mount  
 || [http://thorlabs.com/thorProduct.cfm?partNumber=POLARIS-K1 POLARIS-K1]<br/>[http://thorlabs.com/thorProduct.cfm?partNumber=POLARIS-K1-H POLARIS-K1-H] 
-|| [[File:ThorLabs POLARIS-K1 Kinematic-Mirror-Mount Diameter=1in.jpg|thumb|upright=0.7]]
+|| [[File:ThorLabs POLARIS-K1 Kinematic-Mirror-Mount Diameter=1in.jpg|thumb|upright=0.7|center]]
 || 3 
 || 115
 |}
