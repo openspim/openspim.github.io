@@ -11,7 +11,7 @@
 
 * 1x 2 mm hex key/driver
 
-===== How to install the mirrors into their respective mirror mounts =====
+===== How to install the mirrors into their respective mirror mounts =====            
 
 Take both components out of their respective boxes and put the mirror inside the mount with its reflective side facing the front, then tighten the setscrew to hold the mirror firmly in place.<br><br>
 ''Note that our OpenSPIM system in Dresden uses only the larger mirrors.''
@@ -98,8 +98,8 @@ Put both O-rings into their places in the sample chamber where the objectives wi
 
 [[File:Assembly_SPIM-Chamber.ogv]]
 
-=== [[Install assembled ThorLabs components on rail carriers| Next steps]] ===
+[[Install assembled ThorLabs components on rail carriers| Next steps]]
 
-== Go back to [[Step by step assembly]] == 
+Go back to [[Step by step assembly]] 
 
 [[Category:Assembly|1]]
