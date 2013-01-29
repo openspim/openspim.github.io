@@ -25,21 +25,21 @@ The basic idea is to embed the Drosophila embryos into an Agarose column. For th
 
 = Embryo collection =
 
-1. Set up a cage with a fly strain expressing fluorescent marker during Drosophila embyronic development. For example Histone-YFP fusion that will mark all nuclei.
+1. Flies are attracted by the smell of fruit and eat yeast. In order to make them lay a lot of eggs in a way that they can be easily harvested we will use agar plates with apple juice (flies like it) smeared with freshly prepared yeast paste.
+
+[[Image:04-petri-dish-food.jpg|thumb]]
+
+The apple juice plates should be available in any Drosophila lab. Yeast can be easily prepared by mixing dry bakers yeast with a bit of water in a plastic beaker and mold it with a metal spatula into a thick paste. Don't make the paste too watery otherwise flies will stick to it. Keep the yeast paste in the fridge in a large glass beaker covered with aluminum foil.
+
+2. Next we set up a cage with a fly strain expressing fluorescent marker during Drosophila embryonic development. For example Histone-YFP fusion that will mark all nuclei. The bottom of the cage will be the apple juice plate with yeast paste. Put as many flies as you can find, but they should not be too crowded, i.e. having to crawl on top of each other. It will take some time for the flies to acclimatize to the cage (roughly one day) before they start laying eggs in earnest.
 [[Image:01-cage.jpg|thumb]]
 
-2. 
+3. In order to get embryos of a specific age, it is necessary to go through the so called '''pre-lays'''. Flies tend to hold developing embryos in their oviducts before depositing them. Fresh food stimulates egg laying. Therefore in the morning we will exchange the apple juice plate twice in one hour interval to clear the embryos held by the mothers overnight.
 
+4. The next apple juice plate will contain embryos that we want to image. If the cage is very crowded with healthy young flies (less then one week old), there will be plenty of embryos on the plate after one hour of collection. If the flies are old or sparse, we can let them lay for longer periods. For His-YFP flies it makes sense to start imaging them in SPIM starting at about 2 hours of development. Therefore if we collect from properly pre-laid productive cage for one hour, in another hour most of the embryos will be at the blastoderm stage of embryogenesis, ready to be imaged. In order to image later stages of development, the plate with embryos needs to be appropriately aged in a 25C incubator.
 
+5. . 
 
-To get eggs of a deterministic age, we first starve the flies and then feed them yeast-based food in another cage with fresh agar in the cap:
-
-[[Image:02-food-dry.jpg]]
-[[Image:03-petri-dish.jpg]]
-[[Image:04-petri-dish-food.jpg]]
-[[Image:05-cage-on-side.jpg]]
-
-By switching the flies out of that cage after, say, two hours, the eggs are guaranteed to be at most two hours old.
 
 Now it is time to prepare the Agarose:
 
