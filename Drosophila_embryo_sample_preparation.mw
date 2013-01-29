@@ -109,19 +109,34 @@ The idea is to mix the embryos with the bead solution, add agarose and suck the 
 
 :''The exact amount to beads should be titrated for optimal performance of the registration algorithm. Both too few and too many beads will cause the reconstruction to fail. We suspect that the bead stock solutions used by different labs will be different and so the amounts described here should be considered only a rough guides. See more details on how many beads are optimal in the software section.''
 
-4. Pick the freshly bleached embryos from the plastic sieve with a fine wet brush and transfer them to the vortexed bead solution in PBST by dipping the brush in the liquid. 
+5. Insert metal plungers into several glass capillaries so that the tip of the plunger sticks out from the end of the capillary. 
+
+:''For Drosophila embryos we use XXX diameter capillaries and a straight metal plunger. For larger samples special plungers with a plastic tip fitting tightly inside a larger diameter capillary must be used. 
+
+6. Pick the freshly bleached embryos from the plastic sieve with a fine wet brush and transfer them to the vortexed bead solution in PBST by dipping the brush in the liquid. 
 
 :''This is best done under the dissecting stereoscope, the embryos tend to stick to the brush. Its easier with an excess of embryos. One should aim for roughly 100-200 embryos - some embryos will stick to the walls (despite the detergent) and so the more the better.''
 
+7. Remove the 2% agarose solution from the heat block and aspirate 500ul into a P1000 blue tip.
 
+:''Check that the tip is not hot by touching it with bare hands''
+
+8. Add the agarose to the bead solution with embryos (final concentration is 1%) and mix by inverting several times.
+
+7. Use the plunger equipped glass capillary to suck the agarose solution with the embryos inside.
+
+:''This is easier said than done. One has to do it relatively fast because the agarose is quickly solidifying as it was just mixed with the room temperature bead solution. The embryos are tiny, barely visible. Ideally single embryos with their anterior posterior axis aligned with the axis of the capillary should be in the middle of the agarose column. It is somewhat easier to do under the dissecting microscope. Importantly do not make the agarose column too long, the longer it is the more it will shrink and cause drift during imaging. It is better to prepare several capillaries with plungers and put about 5 embryos in each of them.'' '''Innovation of this finicky procedure are very welcome!!!'''
+
+8. Let the agarose solidify for about 5 minutes at room temperature and then dip them agarose end first into glass bottle with water.
+
+:''In this state the embryos will survive for some time. It is the same environment in which they will be images in OpenSPIM. Note however that this is by no means a natural environment for Drosophila embryos. They have been dechorionated, moved around with the brush, mixed with warm agarose. Inside the capillary, in agarose, in water their supply of oxygen is limited and so their survival is not guaranteed. We recommend to proceed immediately to imaging after mounting and not rely on aging the embryos under these very unnatural conditions.''
 
 <gallery widths=215px>
-Image:18-pick-bleached-embryos.jpg
-Image:19-into-eppendorfer.jpg
-Image:20-capillary.jpg
-Image:21-plunger.jpg
-Image:22-cut-tip.jpg
-Image:23-into-capillary.jpg
+Image:18-pick-bleached-embryos.jpg|Picking the bleached embryos from the plastic sieve
+Image:19-into-eppendorfer.jpg|Dipping the embryos in the bead solution
+Image:20-capillary.jpg|glass capillary
+Image:21-plunger.jpg|plunger with plastic tip fit for capillary diameter
+Image:23-into-capillary.jpg|The art of pulling embryos into the capillary with the plunger
 </gallery>
 
 = Further reading =
