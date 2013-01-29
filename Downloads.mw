@@ -36,4 +36,8 @@ To create a hardware configuration to use, go to ''Tools>Hardware Configuration 
 
 Once the hardware configuration has been loaded, the OpenSPIM plugin can be opened using ''Plugins>Acquire SPIM image''. At this point, µManager's ''Snap/Live Window'' will be opened along with the OpenSPIM GUI.
 
+= And now? =
+
+Now that everything is installed and configured, let's [[Operation|go & do something with it]].
+
 [[Category:Software]]
