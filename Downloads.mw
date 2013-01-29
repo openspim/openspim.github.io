@@ -1,3 +1,37 @@
+= Prerequisites =
+
+You need a Windows XP 32-bit computer to run the OpenSPIM software.
+
+Most of the drivers are shipped within [http://micro-manager.org/ µManager], bundled in our OpenSPIM software. However, some µManager drivers require separate installations, in the case of the OpenSPIM version 1.0 setup, the camera driver.
+
+== Camera Driver ==
+
+Theoretically, OpenSPIM works with all cameras supported by [http://micro-manager.org/ µManager]. However, OpenSPIM version 1.0 refers to the setup that has a Hamamatsu Orca camera. For such a setup, you need to [http://www.dcamapi.com/ download and install the DCAM driver].
+
+If you have a QImaging camera, [http://www.qimaging.com/support/downloads/ download and install the QImaging drivers].
+
+= Installing the OpenSPIM/Fiji package =
+
 This is [http://fiji.sc/ Fiji] package updated with the OpenSPIM [http://fiji.sc/Update_Sites update site]: ''http://openspim.org/update/'', as of January 28th, 2013:
 
 [http://openspim.org/downloads/OpenSPIM-win32-20130128.zip OpenSPIM-win32-20130128.zip]
+
+After unpacking it onto the ''Desktop'':
+# Launch Fiji: in the ''Fiji.app/'' folder, open ''ImageJ-win32.exe''.
+# Update Fiji (and OpenSPIM & µManager): ''Help>Update Fiji''.
+# Install the camera driver (see below).
+# Run Micro-Manager: ''Plugins>Micro-Manager>Micro-Manager Studio''.
+
+= Initial hardware configuration =
+
+When Micro-Manager is first started, it will prompt the user to select a hardware configuration       
+(defaulting to ''none'').
+
+To create a hardware configuration to use, go to ''Tools>Hardware Configuration Wizard...'' and select ''Create new configuration.''
+
+# From the Available Devices list, expand CoherentCube and add the CorentCube Laser device. Select the appropriate serial port and RS 232 settings and click OK. Ensure the BaudRate property is at least 19200, or the computer will not be able to communicate with the laser.
+# From the HamamatsuHam category in the Available Devices list, add the HamamatsuHam_DCAM device. No further configuration is needed for the camera.
+# Finally, from the OpenSPIM category, add in turn the twister, Z stage, and XY stage devices. The software will attempt to guess the correct serial numbers for the motors; these should be verified and corrected as necessary.
+# Once these five devices have been added, click Next. On the following page, default devices are specified. The camera and shutter should already be set to HamamatsuHam_DCAM and CoherentCube, respectively, but the user will need to set the default focus stage to Picard Z Stage. Leaving Auto-shutter enabled, click Next. The laser does not require a delay, so the setup can advance without any changes on this page. As there are no state devices to set up, the following page can also be skipped. On the final page, the user can specify a file to which the configuration will be saved before finishing the wizard.
+
+Once the hardware configuration has been loaded, the OpenSPIM plugin can be opened using ''Plugins>Acquire SPIM image''. At this point, µManager's ''Snap/Live Window'' will be opened along with the OpenSPIM GUI.
