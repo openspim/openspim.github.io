@@ -2,9 +2,16 @@
 
 ===== Objects needed =====
 
+*1x detection axis holder base. 
+*2x M6 x 25 mm capscrews
+
 ===== Tools needed =====
 
+* 1x 5 mm hex key/driver
+
 ==== How to assemble the detection axis ====
+
+Place the detection axis holder base along the J column of M6 tapped holes, and line up the through holes with rows 2 & 4. Using the 5mm hex key/driver and the capscrews, screw the capscrews into the optical breadboard in both J2 & J4.
 
 [[File:Installation Detection-Axis Holder-Base.ogv]]
 
