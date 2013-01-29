@@ -1,5 +1,7 @@
 == Assembly of detection axis ==
 
+=== Installing the detection axis holder base ===
+
 ===== Objects needed =====
 
 *1x detection axis holder base. 
@@ -9,7 +11,7 @@
 
 * 1x 5 mm hex key/driver
 
-==== How to assemble the detection axis ====
+==== How and where to install the detection axis holder base ====
 
 Place the detection axis holder base along the J column of M6 tapped holes, and line up the through holes with rows 2 & 4. Using the 5mm hex key/driver and the capscrews, screw the capscrews into the optical breadboard in both J2 & J4.
 
@@ -20,6 +22,24 @@ Place the detection axis holder base along the J column of M6 tapped holes, and 
 |[[file:14a.jpg|thumb|center]]
 |[[file:Real 14.jpg|thumb|center]]
 |}
+
+
+=== Installing the detection axis assembly
+
+===== Objects needed =====
+
+*1x Infinity spacer tube
+*1x Olympus U-TLU tubelens
+*1x Olympus C-mount (either the U-TV0.5XC-3 or U-TV1 X & U-CMAD3)
+
+===== Tools needed =====
+
+* 1x 1.5 mm hex key/driver
+* 1x 3 mm hex key/driver
+
+==== How and where to assemble the detection axis assembly ====
+
+Take the infinity spacer tube with it's fully round open end and place it on the dovetail side on the Olympus U-TLU tubelens. Then using a 1.5 mm hex key/driver, screw the three opposing (120 degree apart) setscrews around the dovetail to fasten the two pieces together. Attach the Olympus C-mount to the tubelens and tighten it with the 3 mm hex key/driver.
 
 [[File:Installation_Detection-Axis_Take-2.ogv]]
 
