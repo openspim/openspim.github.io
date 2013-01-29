@@ -62,3 +62,7 @@ There are two ways, really. The Fiji way:
 Call the Studio directly, without first starting ImageJ:
 
  fiji-win32 --main-class=org.micromanager.MMStudioMainFrame
+
+== Can I run OpenSPIM with Windows 7 or 8? ==
+
+At the time of writing, only Windows XP is supported, because there are problems with the [http://www.dcamapi.com/ DCAM driver]. In our tests, it would install, but µManager was not able to find the camera on Windows 7.
