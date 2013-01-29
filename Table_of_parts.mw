@@ -369,7 +369,7 @@
 || OpenSPIM
 |bgcolor="green"| self made
 || pulley system to attach to sample holder arm and rotate the sample
-|| HERE COMES SOLIDWORKS
+|| [[:File:OpenSPIM Sample Pulley.STL|.stl]]<br>[[:File:OpenSPIM Sample Pulley.PDF|.pdf]]<br><br>[[:File:OpenSPIM Motor Pully.STL|.stl]]<br>[[:File:OpenSPIM Motor Pully.PDF|.pdf]]
 || [[File:Pulleys.jpg|thumb|upright=0.7|center]]
 || 1 each
 || &nbsp;
@@ -393,10 +393,10 @@
 || Newport
 |bgcolor="pink"| purchase
 || Breadboard clamps to hold the positioned motor assembly onto the breadboard
-|| HERE COMES NEWPORT link
+|| [http://search.newport.com/?x2=sku&q2=BC-5 BC-5]
 || [[File:Breadboard clamps.jpg|thumb|upright=0.7|center]]
-|| 1 
-|| &nbsp;
+|| 1
+|| 9
 |}
 
 == Electronics ==
