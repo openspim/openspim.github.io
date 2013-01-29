@@ -1,3 +1,5 @@
+''Note: This protocol is very detailed, suitable for researchers who do not necessarily have experience with handling Drosophila and performing wet-lab experiments.
+
 The basic idea is to embed the Drosophila embryos into an Agarose column. For the [http://fiji.sc/SPIM_Registration SPIM registration], we embed fluorescent, sub-resolution beads, too.
 
 ==== Materials need ====
