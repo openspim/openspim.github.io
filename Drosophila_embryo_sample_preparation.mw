@@ -1,14 +1,34 @@
 The basic idea is to embed the Drosophila embryos into an Agarose column. For the [http://fiji.sc/SPIM_Registration SPIM registration], we embed fluorescent, sub-resolution beads, too.
 
-= Notes =
+==== Materials need ====
 
-We use 1-1.5% Agarose in the final mix, otherwise the optical clarity is greatly reduced. We also use standard bleach to remove the egg shell.
+* apple juice plates
+* fly cages
+* dry yeast
+* household bleach
+* plastic sieves
+* paint brush
+* low melting point agarose
+* glass capilaries
+* metal plungers
+* fluorescent beads
+* eppendorf tubes
+* glass bottle with blue cap
 
-= Walkthrough =
+==== Equipment needed ====
 
-Our flies live in custom-made cages. These are large, plastic vials with a fine grid on the bottom:
+* heat block with shaking
+* vortex
+* microwave
 
-[[Image:01-cage.jpg]]
+= Embryo collection =
+
+1. Set up a cage with a fly strain expressing fluorescent marker during Drosophila embyronic development. For example Histone-YFP fusion that will mark all nuclei.
+[[Image:01-cage.jpg|thumb]]
+
+2. 
+
+
 
 To get eggs of a deterministic age, we first starve the flies and then feed them yeast-based food in another cage with fresh agar in the cap:
 
