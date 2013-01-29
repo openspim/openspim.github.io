@@ -18,6 +18,7 @@ The basic idea is to embed the Drosophila embryos into an Agarose column. For th
 * glass bottle with blue cap, glass beakers
 * metal spatulas
 * white plastic weighing baskets
+* PBST (Phosphate buffered saline) with 0.1% Tween or Triton
 
 ==== Equipment needed ====
 
@@ -27,33 +28,40 @@ The basic idea is to embed the Drosophila embryos into an Agarose column. For th
 
 = Embryo collection =
 
-1. Flies are attracted by the smell of fruit and eat yeast. In order to make them lay a lot of eggs in a way that they can be easily harvested we will use agar plates with apple juice (flies like it) smeared with freshly prepared yeast paste.
-
-[[Image:04-petri-dish-food.jpg|thumb]]
+1. Flies are attracted by the smell of fruit and eat yeast. In order to make them lay a lot of eggs in a way that they can be easily harvested we will use agar plates with apple juice smeared with freshly prepared yeast paste.
 
 The apple juice plates should be available in any Drosophila lab. Yeast can be easily prepared by mixing dry bakers yeast with a bit of water in a plastic beaker and mold it with a metal spatula into a thick paste. Don't make the paste too watery otherwise flies will stick to it. Keep the yeast paste in the fridge in a large glass beaker covered with aluminum foil.
 
 2. Next we set up a cage with a fly strain expressing fluorescent marker during Drosophila embryonic development. For example Histone-YFP fusion that will mark all nuclei. The bottom of the cage will be the apple juice plate with yeast paste. Put as many flies as you can find, but they should not be too crowded, i.e. having to crawl on top of each other. It will take some time for the flies to acclimatize to the cage (roughly one day) before they start laying eggs in earnest.
-[[Image:01-cage.jpg|thumb]]
 
 3. In order to get embryos of a specific age, it is necessary to go through the so called '''pre-lays'''. Flies tend to hold developing embryos in their oviducts before depositing them. Fresh food stimulates egg laying. Therefore in the morning we will exchange the apple juice plate twice in one hour interval to clear the embryos held by the mothers overnight.
 
 4. The next apple juice plate will contain embryos that we want to image. If the cage is very crowded with healthy young flies (less then one week old), there will be plenty of embryos on the plate after one hour of collection. If the flies are old or sparse, we can let them lay for longer periods. For His-YFP flies it makes sense to start imaging them in SPIM starting at about 2 hours of development. Therefore if we collect from properly pre-laid productive cage for one hour, in another hour most of the embryos will be at the blastoderm stage of embryogenesis, ready to be imaged. In order to image later stages of development, the plate with embryos needs to be appropriately aged in a 25C incubator.
 
-5. . 
+5. ''Drosophila'' embryos are covered with a non-transparent chorion which has to be removed for live imaging. '''Dechorionation''' is done by treating the embryo with 50% solution of house hold bleach for exactly two minutes. The easiest way to do this is to pour 50% bleach directly onto the apple juice plate (it is good to remove any dead flies and the excess of yeast in the middle). Then gently scrape the surface of the plate with a fine brush to loosen the embryos. For the next two minutes occasionally gently shake the plate by hand to move the embryos around in the bleach. Finally after the timer goes of, pour the bleach embryo slurry over the kitchen sink into a plastic sieve. Wash the embryos under cold tap water or by spraying with a plastic squirt until the smell of the bleach goes away (2-3 minutes). Finally rinse the embryos by dipping the plastic sieve several times into three white plastic weighing baskets filled with water. Leave the sieve in the last basket. 
 
+6. The embryos should be examined under the microscope. They will be mostly floating on the surface of the water or stuck to the walls of the sieve. If dechorionation was sufficient embryos will look like smooth prolonged ovoids lacking the characteristic dorsal appendages. Embryos can be left in this state for about half an hour, but they should not dry.
+ 
+{| 
+||[[Image:04-petri-dish-food.jpg|thumb|apple juice plate with yeast paste]]
+||[[Image:01-cage.jpg|thumb|fly cage with flies]]
+||[[Image:14-sieve.jpg|thumb|plastic sieve for embryo collection]]
+||[[Image:17-rinse.jpg|thumb|rinsing with plastic squirt bottle, the tap or distilled water from the faucet is fine too]]
+||[[Image:16-after-bleaching.jpg|thumb|final rinse in water]]
+|}
 
-Now it is time to prepare the Agarose:
+= Preparation of agarose =
 
-[[Image:06-heat-agarose.jpg]]
-[[Image:07-agarose-dry.jpg]]
-[[Image:09-agarose-dissolved.jpg]]
-[[Image:09-agarose-dissolved.jpg]]
-[[Image:10-eppendorfers.jpg]]
-
-Put beads into the agarose and vortex for a good amount of time (one minute at least):
-
+[[Image:06-heat-agarose.jpg|thumb]]
+[[Image:07-agarose-dry.jpg|thumb]]
+[[Image:09-agarose-dissolved.jpg|thumb]]
+[[Image:09-agarose-dissolved.jpg|thumb]]
+[[Image:10-eppendorfers.jpg|thumb]]
 [[Image:11-beads-concentrated.jpg]]
+
+= Embryo mounting =
+
+
 
 Now prepare the PBS to wash the eggs in:
 
@@ -62,13 +70,13 @@ Now prepare the PBS to wash the eggs in:
 
 We will use a sieve like this to filter out the embryos after bleaching off the egg shell:
 
-[[Image:14-sieve.jpg]]
+
 
 We use standard bleach:
 
 [[Image:15-bleach.jpg]]
-[[Image:16-after-bleaching.jpg]]
-[[Image:17-rinse.jpg]]
+
+
 
 Now pick the embryos gently with a regular brush:
 
@@ -88,4 +96,5 @@ Now put them into a capillary. You can use the capillary forces to get the embry
 = Further reading =
 
 See also the description of the protocols in the [[File:Preibisch-Protocols.pdf|PhD thesis]] of [http://fly.mpi-cbg.de/~preibisch/ Stephan Preibisch].
+
 [[Category:Operation]]
