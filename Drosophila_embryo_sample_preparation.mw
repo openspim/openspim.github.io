@@ -76,12 +76,46 @@ Image:09-agarose-dissolved.jpg
 Image:06-heat-agarose.jpg
 </gallery>
 
-= Embryo mounting =
+= Preparation of the bead solution  =
+
+First we need to prepare a working stock solution of beads by diluting the concentrated bead solution 1000 times with PBS. This is done only once and will last for a very long time.
+
+1. Pipet 10 ml of PBS in orange capped 15 ml falcon tube.
+
+2. Vortex on maximum setting the concentrated bead stock for at least 1 minute to disperse the beads.
+
+3. Pipet with P20 and yellow tip 10ul of the concentrate bead stock into the 10ml of PBS, close and vortex again.
+
+4. Store the working bead stock wrapped in alluminium foil at 4C.
 
 <gallery widths=215px>
-Image:11-beads-concentrated.jpg
 Image:12-buffer.jpg
-Image:13-buffer-dish.jpg
+Image:11-beads-concentrated.jpg
+</gallery>
+
+= What beads to use? =
+
+What beads to use depends very much on the imaged sample and the emission filters used in the imaging set-up. Generally the beads must be visible but should not be the brightest signal in the image. If your fluorescent signal is very strong you can use beads that emit in the same area of the spectrum as your fluorescent protein (i.e. green 488nm beads combined with GFP). If the signal is however weak use beads that are suboptimal for the emission spectrum of the imaged sample. For instance weak GFP signal should be combined with red beads. The rational is that the beads are very strong and will bleed through to the green channel especially at higher laser powers and when using a long-pass filter (collects all fluorescence above a certain wavelength). For His-YFP we routinely use red fluorescent beads combined with the long-pass filter.
+
+= Mounting of the embryos = 
+
+The idea is to mix the embryos with the bead solution, add agarose and suck the embryos inside a glass capillary. 
+
+1. Pipet 500ul of PBST into 1.5ml eppendorf tube using a 1000ml Pipetmen with a blue tip.
+
+2. '''Vortex''' the working stock solution of beads (1:1000 see above) for '''1 minute''' at the maximum setting to disperse the beads.
+
+3. Pipet 20ul of the working bead stock into the 500ul of PBST and '''vortex''' the eppendorf tube for one minute.
+
+:''The exact amount to beads should be titrated for optimal performance of the registration algorithm. Both too few and too many beads will cause the reconstruction to fail. We suspect that the bead stock solutions used by different labs will be different and so the amounts described here should be considered only a rough guides. See more details on how many beads are optimal in the software section.''
+
+4. Pick the freshly bleached embryos from the plastic sieve with a fine wet brush and transfer them to the vortexed bead solution in PBST by dipping the brush in the liquid. 
+
+:''This is best done under the dissecting stereoscope, the embryos tend to stick to the brush. Its easier with an excess of embryos. One should aim for roughly 100-200 embryos - some embryos will stick to the walls (despite the detergent) and so the more the better.''
+
+
+
+<gallery widths=215px>
 Image:18-pick-bleached-embryos.jpg
 Image:19-into-eppendorfer.jpg
 Image:20-capillary.jpg
