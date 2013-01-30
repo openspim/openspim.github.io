@@ -143,11 +143,19 @@ The idea is to mix the embryos with the bead solution, add agarose and suck the 
 :''In this state the embryos will survive for some time. It is the same environment in which they will be imaged in OpenSPIM. Note however that this is by no means a natural environment for Drosophila embryos. They have been dechorionated, moved around with the brush, mixed with warm agarose. Inside the capillary, in agarose, in water their supply of oxygen is limited and so their survival is not guaranteed. We recommend to proceed immediately to imaging after mounting and not rely on aging the embryos under these very unnatural conditions.''
 
 <gallery widths=215px>
-Image:18-pick-bleached-embryos.jpg|Picking the bleached embryos from the plastic sieve
-Image:19-into-eppendorfer.jpg|Dipping the embryos in the bead solution
-Image:20-capillary.jpg|glass capillary
-Image:21-plunger.jpg|plunger with plastic tip fit for capillary diameter
-Image:23-into-capillary.jpg|The art of pulling embryos into the capillary with the plunger
+Image: Sample holders.jpg | glass capillaries for Drosophila embryos
+Image: Sample holder and needles.jpg | glass capillaries with full metal plungers
+Image:20-capillary.jpg|glass capillary for larger sample
+Image:21-plunger.jpg|plunger with plastic tip fit for larger capillary diameter
+Image:18-pick-bleached-embryos.jpg | picking the bleached embryos from the plastic sieve
+Image: Picking.jpg | picking the bleached embryos from the plastic sieve under the microscope
+Image:19-into-eppendorfer.jpg | dipping the embryos in the bead solution
+Image: Placing.jpg | The art of pulling embryos into the capillary with the plunger under the microscope
+Image:23-into-capillary.jpg | the art of pulling embryos into the capillary with the plunger
+Image:Chamber.jpg| embryos inside the capillary - the new sample mounting paradigm
+Image:Chamber in water.jpg | capillaries with embryos dipped in water
+Image:Ingenious sampleholder parts.jpg | the very simple sample holder fashioned from a modified plastic syringe 
+Image:Ingenious sampleholder.jpg | capillary with embryos inside the OpenSPIM sample holder
 </gallery>
 
 = Further reading =
