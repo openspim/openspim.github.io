@@ -1,0 +1,27 @@
+OpenSPIM's software is embedded into [http://micro-manager.org/ µManager] and [http://fiji.sc/ Fiji].
+
+Our modifications are maintained on [https://github.com/openspim/micromanager/ GitHub]. The additional vendor libraries are maintained in our [https://github.com/openspim/3rdpartypublic fork] of µManager's ''3rdpartypublic'' repository of binary libraries and documentation.
+
+= Overview of the OpenSPIM software =
+
+OpenSPIM's additions and enhancements to µManager are divided into three parts:
+
+* additional hardware drivers
+* some plugins (mainly the GUI, but also time-lapse acqusition)
+* some cleanups
+
+== Additional hardware drivers ==
+
+We added an ''OpenSPIM'' driver (called ''DeviceAdapter'' by µManager). This driver is written in C++, like all DeviceAdapters in µManager and lives in the [https://github.com/openspim/micromanager/tree/openspim/DeviceAdapters/OpenSPIM/ ''DeviceAdapters/OpenSPIM/''] subdirectory. It implements an XY stage, the Z stage and another stage for the rotation device (called ''twister'' by Picard systems).
+
+Our [https://github.com/openspim/micromanager/tree/openspim/DeviceAdapters/dc1394/ ''dc1394'' driver] adaptation for 32-bit Windows has been [https://github.com/openspim/micromanager/commits/svn/git-svn/DeviceAdapters/dc1394 merged upstream] and [https://github.com/openspim/micromanager/commit/1301411b14d35ede4f46b71e39574b86086517f3 integrated into the default Windows 32-bit build].
+
+== OpenSPIM plugins ==
+
+The majority of the OpenSPIM software is implemented as the ''OpenSPIM plugin'' for µManager. It is written in Java and lives in the [https://github.com/openspim/micromanager/tree/openspim/plugins/SPIMAcquisition ''plugins/SPIMAcquisition/''] subdirectory.
+
+Included is a hack that allows us to intercept user input to µManager's live window so that holding down the ''Alt'' key and moving the mouse horizontally will rotate the sample -- if the rotation axis has been calibrated properly, the plugin will compensate X and Z so that the rotation is in effect around the center of the field of view rather than the physical rotational axis.
+
+Due to µManager's incomprehensible decision to switch its acquisition engine -- a rather central and important component -- away from Java in favor of the rather obscure lange Clojure, thereby precluding virtually all biologists and even the vast majority of software developers, we had to reinvent the acquisition engine.
+
+Simply reusing the default acquisition engine is not possible since the SPIM principle calls for an *additional* coordinate measured in degrees, not micrometers. Our acquisition source code lives in the [https://github.com/openspim/micromanager/tree/openspim/plugins/SPIMAcquisition/spim/progacq ''spim.progacq''] package of the ''SPIMAcquisition'' plugin.
