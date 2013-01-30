@@ -16,24 +16,7 @@
 Place the detection axis holder base along the J column of M6 tapped holes, and line up the through holes with rows 2 & 4. Using the 5mm hex key/driver and the capscrews, screw the capscrews into the optical breadboard in both J2 & J4.
 
 [[File:Installation Detection-Axis Holder-Base.ogv]]
-== Camera installation ==
 
-===== Objects needed =====
-
-*1x Digital Camera (i.e. Hamamatsu Orca ER)
-
-===== Tools needed =====
-
-*1x 3 mm hex key/driver
-
-==== How to attach the camera to the tube lens via the C-mount and secure on the OpenSPIM breadboard ====
-
-Depending on the size of the camera chosen for the system, it may be necessary to take off the C-mount using the 3 mm hex key/driver. Either way, screw the camera on to the c-mount attaching it to the detection axis.
-
-{|colspan="2"|
-|-
-|[[file:16a.jpg|thumb|center]]
-|[[file:Real 16.jpg|thumb|center]]
 {|colspan="2"|
 |-
 |[[file:14a.jpg|thumb|center]]
