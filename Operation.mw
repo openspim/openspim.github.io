@@ -20,6 +20,28 @@ We also recommend to examine the signal in the imaged specimen and tweak the lig
 
 [[Category:Hardware]]
 
+= Software =
+
+[[Image:Stagecontrols.png|480px|right]]
+
+== Stage Control ==
+
+Controlling the stage is accomplished primarily through µManager's live window: after [[Pixel Calibration|a pixel size has been provided]], the user can simply click and drag across the display to change the view accordingly. The scroll wheel is used for depth/focus movement. The OpenSPIM software provides an additional dimension of control in the rotational motor: holding the Alt key while moving the mouse side-to-side will cause the sample to be rotated about a previously-determined axis.
+
+Alternatively, the stage controls tab of the OpenSPIM plugin can be used to move to specific locations.
+
+== Time Lapses ==
+
+The acquisition tab makes recording a time lapse of any number of views simple: the user navigates the 4D stage to each view they wish to record and marks that location, specifying the depth and step size of the stack (if applicable).
+
+After choosing any desired options (i.e. enabling anti-drift or continuous acquisition) and specifying a directory in which to save the acquired OME images, a checkbox will enable the time-lapse controls.
+
+There, the user specifies a desired interval between the beginning of each series, and the number of series to acquire.
+
+Once everything is set up, clicking ''Oh Snap!'' will begin the acquisition.
+
+[[Image:Spimgui acquiring.png|480px|left]]
+
 = Acquisition =
 
 Taking a single image with the OpenSPIM.
