@@ -180,8 +180,22 @@ Image:Ingenious sampleholder parts.jpg | the very simple sample holder fashioned
 Image:Ingenious sampleholder.jpg | capillary with embryos inside the OpenSPIM sample holder
 </gallery>
 
-= Further reading =
+= OpenSPIM sample holder =
 
-See also the description of the protocols in the [[File:Preibisch-Protocols.pdf|PhD thesis]] of [http://fly.mpi-cbg.de/~preibisch/ Stephan Preibisch].
+Finally, right before imaging mount capillary into the custom made OpenSPIM sample holder. This sample holder epitomises the OpenSPIM principles, its as simple as it gets.
+
+1. Take a 1ml plastic syringe, remove the plunger and strip the black rubber piece from it (do that with two syringes since we need two of those black rubber pieces). 
+2. Cut the syringe at the level of 0.5ml with a sharp knife. 
+3. Punch a hole into the bottom of the two rubber pieces stripped off the syringe plunger. 
+4. Push the capillary with embryos into the first rubber piece until it reaches just below the orange stripe. Insert this assembly into the syringe as if it were a plunger. Now push the second black rubber piece through the other side of the glass capillary sticking out of the syringe and push it all the way into the opening of the syringe. 
+5. Adjust the capillary so that it sticks out of the syringe about 1 centimeter, the orange band should be just above the second rubber piece at the other end of the syringe. It is easier to push the capillary through the rubber pieces when they are wet. 
+
+The result is an extremely robust OpenSPIM sample holder for just a few euros.
+
+<gallery widths=250px>
+File:8 Sample Holder.ogv | Preparation of the sample holder
+File:9_Sample_Holder.ogv | Assembly of the sample holder
+File:10_Sample_holder.ogv | Inserting capillary into sample holder
+</gallery>
 
 [[Category:Operation]]
