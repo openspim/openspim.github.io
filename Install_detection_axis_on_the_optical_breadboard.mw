@@ -53,9 +53,15 @@ Take the infinity spacer tube with it's fully round open end and place it on the
 
 ===== Objects needed =====
 
+*1x Digital Camera (i.e. Hamamatsu Orca ER)
+
 ===== Tools needed =====
 
+*1 3 mm hex key/driver
+
 ==== How to attach the camera to the tube lens via the C-mount and secure on the OpenSPIM breadboard ====
+
+Depending on the size of the camera chosen for the system, it may be necessary to take off the C-mount using the 3 mm hex key/driver. Either way, screw the camera on to the c-mount attaching it to the detection axis.
 
 {|colspan="2"|
 |-
