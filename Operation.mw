@@ -22,6 +22,8 @@ We also recommend to examine the signal in the imaged specimen and tweak the lig
 
 = Software =
 
+Please make sure that you have [[Downloads#Initial_hardware_configuration|configured the hardware]] properly before trying to acquire images.
+
 [[Image:Stagecontrols.png|480px|right]]
 
 == Stage Control ==
