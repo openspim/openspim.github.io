@@ -108,4 +108,9 @@ Start Fiji, and before starting Micro-Manager use Visual Studio's ''Debug>Attach
 ####* MMAcqEngine.jar
 ### Click Apply.
 ## Click Debug to make sure everything works.
+
+= Further reading =
+
+[[A birds-eye view of the OpenSPIM source code]]
+
 [[Category:Software]]
