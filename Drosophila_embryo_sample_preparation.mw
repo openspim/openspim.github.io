@@ -154,6 +154,15 @@ The idea is to mix the embryos with the bead solution, add agarose and suck the 
 
 :''In this state the embryos will survive for some time. It is the same environment in which they will be imaged in OpenSPIM. Note however that this is by no means a natural environment for Drosophila embryos. They have been dechorionated, moved around with the brush, mixed with warm agarose. Inside the capillary, in agarose, in water their supply of oxygen is limited and so their survival is not guaranteed. We recommend to proceed immediately to imaging after mounting and not rely on aging the embryos under these very unnatural conditions.''
 
+'''Videos'''
+
+<gallery widths=215px>
+File: 5 Collection.ogv | A video tutorial on embryo collection from plastic sieves
+File: 6 Capillaries.ogv | A video tutorial on capillaries and plungers
+File: 7_Loading.ogv | A tutorial on loading the embryos into capillaries without microscope
+</gallery>
+
+'''Images'''
 <gallery widths=215px>
 Image: Sample holders.jpg | glass capillaries for Drosophila embryos
 Image: Sample holder and needles.jpg | glass capillaries with full metal plungers
@@ -170,10 +179,6 @@ Image:Chamber in water.jpg | capillaries with embryos dipped in water
 Image:Ingenious sampleholder parts.jpg | the very simple sample holder fashioned from a modified plastic syringe 
 Image:Ingenious sampleholder.jpg | capillary with embryos inside the OpenSPIM sample holder
 </gallery>
-
-9. Finally, right before imaging mount capillary into the custom made OpenSPIM sample holder.
-
-:''This sample holder epitomises the OpenSPIM principles, its as simple as it gets. Take a 1ml plastic syringe, remove the plunger and strip the black rubber piece from it (do that with two syringes since we need two of those black rubber pieces). Cut the syringe at the level of 0.5ml with a sharp knife. Punch a hole into the bottom of the two rubber pieces stripped off the syringe plunger. Push the capillary with embryos into the first rubber piece until it reaches just below the orange stripe. Insert this assembly into the syringe as if it were a plunger. Now push the second black rubber piece through the other side of the glass capillary sticking out of the syringe and push it all the way into the opening of the syringe. Adjust the capillary so that it sticks out of the syringe about 1 centimeter, the orange band should be just above the second rubber piece at the other end of the syringe. It is easier to push the capillary through the rubber pieces when they are wet. The result is an extremely robust OpenSPIM sample holder for just a few euros.''
 
 = Further reading =
 
