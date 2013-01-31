@@ -1,6 +1,7 @@
 As a central feature for virtually all imaging, specifying a pixel's physical dimensions is handled within µManager:
 
 == Determining the Pixel Size ==
+[[File:Pixel-size-calibration-1-2.png|400px|thumb|right|Determining motor step size in pixels]]
 First, we need to actually calculate the pixel size.
 # Load a sample into the system. Beads may be easiest, though anything with well-defined features will do.
 # Using the motor navigation in µManager's Live Window, locate any such feature.
@@ -12,6 +13,7 @@ First, we need to actually calculate the pixel size.
 # The value to use for your pixel size will be (10 motor steps) / (X pixels). (The observant will note that this is not, in fact, in pixels/µm (unless the stage moves in precisely 1 µm steps). As of OpenSPIM 1.0, the motor locations are displayed and manipulated in motor steps rather than µm; as a result, although the units are incorrect, the behavior is as desired.)
 
 == Updating µManager's Configuration ==
+[[File:Pixel-size-calibration-3.png|400px|thumb|right|Entering the pixel step size]]
 Now we'll enter the value into µManager's configuration. Click Tools -> Pixel Size calibration
 # The OpenSPIM plugin will have automatically provided a 'calibration' called (descriptively) "Uncalibrated" which sets a pixel to be 1 µm. This is to ensure that µManager's built-in Live Window panning (which requires an active pixel size calibration) works with minimal configuration. Select it, then click Edit.
 # Re-labelling the configuration will help identify it, but isn't required.
