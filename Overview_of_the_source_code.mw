@@ -64,4 +64,4 @@ By profiling the acquisition code, it was discovered that the process of writing
 
 === OME-TIFF ===
 
-As most datasets are far too large to store in memory, we wrote the ''OMETIFFHandler'' class to handle output from acquisition. As an open file format designed for microscopy, OME-TIFF was the logical choice. The files are written using the Bio-Formats library (with some temporary modifications to account for some unusual issues we encountered; see our [[http://github.com/openspim/bioformats|Bio-Formats]] fork).
+As most datasets are far too large to store in memory, we wrote the ''OMETIFFHandler'' class to handle output from acquisition. As an open file format designed for microscopy, OME-TIFF was the logical choice. The files are written using the Bio-Formats library (with some temporary modifications to account for some unusual issues we encountered; see our [http://github.com/openspim/bioformats Bio-Formats] fork).
