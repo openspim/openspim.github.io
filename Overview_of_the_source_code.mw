@@ -16,10 +16,40 @@ We added an ''OpenSPIM'' driver (called ''DeviceAdapter'' by µManager). This dr
 
 Our [https://github.com/openspim/micromanager/tree/openspim/DeviceAdapters/dc1394/ ''dc1394'' driver] adaptation for 32-bit Windows has been [https://github.com/openspim/micromanager/commits/svn/git-svn/DeviceAdapters/dc1394 merged upstream] and [https://github.com/openspim/micromanager/commit/1301411b14d35ede4f46b71e39574b86086517f3 integrated into the default Windows 32-bit build].
 
-== OpenSPIM plugins ==
+== OpenSPIM plugin ==
 
 The majority of the OpenSPIM software is implemented as the ''OpenSPIM plugin'' for µManager. It is written in Java and lives in the [https://github.com/openspim/micromanager/tree/openspim/plugins/SPIMAcquisition ''plugins/SPIMAcquisition/''] subdirectory.
 
-Included is a hack that allows us to intercept user input to µManager's live window so that holding down the ''Alt'' key and moving the mouse horizontally will rotate the sample -- if the rotation axis has been calibrated properly, the plugin will compensate X and Z so that the rotation is in effect around the center of the field of view rather than the physical rotational axis.
+=== Stage control ===
 
-Extending the default acquisition engine is difficult, due to µManager's acquisition engine having been implemented in the rather obscure language Clojure. This precludes the addition of features such as an additional dimension (the angle), anti-drift and OME-TIFF output. As such, we had to reinvent the acquisition engine in pure Java; our source code lives in the [https://github.com/openspim/micromanager/tree/openspim/plugins/SPIMAcquisition/spim/progacq ''spim.progacq''] package of the ''SPIMAcquisition'' plugin and we welcome enhancements (a port to Clojure is not an enhancement, by the way).
+Since the stage has no physical knobs you can turn to position the sample, we needed to implement our own, fine control. It is available in the [[Operation#Stage_Control|''Stage Controls'']] tab of the OpenSPIM GUI and implemented in the ''SPIMAcquisition'' class, using a couple of additional classes to implement recurring GUI elements, e.g. ''IntegerField'', ''IntegerSlideField'', ''MotorSlider'' and ''MappedMotorSlider''.
+
+=== Live Window hack ===
+
+The OpenSPIM plugin also uses a hack that allows us to intercept user input to µManager's Live Window so that holding down the ''Alt'' key and moving the mouse horizontally will rotate the sample -- if the rotation axis has been calibrated properly, the plugin will compensate X and Z so that the rotation is in effect around the center of the field of view rather than the physical rotational axis.
+
+=== Acquisition engine ===
+
+Extending the default acquisition engine is difficult, due to µManager's acquisition engine having been reimplemented in the rather obscure language Clojure. This precludes the addition of features such as an additional dimension (the angle), anti-drift and OME-TIFF output. As such, we had to reinvent the acquisition engine in pure Java; our source code lives in the [https://github.com/openspim/micromanager/tree/openspim/plugins/SPIMAcquisition/spim/progacq ''spim.progacq''] package of the ''SPIMAcquisition'' plugin and we welcome enhancements (a port to Clojure is not an enhancement, by the way).
+
+=== Calibration of the rotational axis ===
+
+Obviously, it is very rare that the rotation axis defined by the Picard twister happens to coincide with the center of our specimen. To that end, we implemented two calibration methods to determine the physical rotation axis (implemented in the ''SPIMAutoCalibrator'' and ''SPIMManualCalibrator'' classes). This allows us to simulate a rotation around the center of the field of view by compensating for the location of the real axis using the X and Z motors. For additional eye-candy (which turned out to be quite useful for debugging) we can visualize the calibration steps using Fiji's [http://fiji.sc/3D_Viewer 3D Viewer].
+
+=== Anti-Drift ===
+
+In real life, there is always a little drift, whether it be the Agarose column stretching due to its own weight or the specimen moving on its own accord or something else yet. Obviously, we need to address that drift for long-term time-lapse recordings.
+
+After testing quite a couple of methods, we settled for the following strategy: while saving the files (so as to interfere as little as possible with the acquisition process), we calculate XY, XZ and ZY projections on the fly. By using the phase correlation provided by the [https://github.com/imagej/imglib/ ImgLib] library included in Fiji, we get two values for X, Y and Z drift, each. We average those values to initialize the drift correction.
+
+For manual inspection -- and for interactive correction, should the phase correlation fail -- we show the overlayed projections in a window where the user can correct them using the arrow and page up/down keys.
+
+Both the phase correlation and the GUI of the anti-drift are implemented in the ''ProjDiffAntiDrift'' class.
+
+=== Asynchronous writing ===
+
+''AsyncOutputWrapper''
+
+=== OME-TIFF ===
+
+''OMETIFFHandler''
