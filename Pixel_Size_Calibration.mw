@@ -14,9 +14,9 @@ First, we need to actually calculate the pixel size.
 
 == Updating µManager's Configuration ==
 [[File:Pixel-size-calibration-3.png|400px|thumb|right|Entering the pixel step size]]
-Now we'll enter the value into µManager's configuration. Click Tools -> Pixel Size calibration
+Now we'll enter the value into µManager's configuration. Click ''Tools>Pixel Size calibration''
 # The OpenSPIM plugin will have automatically provided a 'calibration' called (descriptively) "Uncalibrated" which sets a pixel to be 1 µm. This is to ensure that µManager's built-in Live Window panning (which requires an active pixel size calibration) works with minimal configuration. Select it, then click Edit.
 # Re-labelling the configuration will help identify it, but isn't required.
 # In the window that appears, replace the Pixel Size value (1.0) with the number calculated above.
 # Click OK.
-Finally, click Tools -> Save configuration settings as... and overwrite the current configuration file.
+# Finally, click ''Tools>Save configuration settings as...'' and overwrite the current configuration file.
