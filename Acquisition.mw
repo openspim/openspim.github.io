@@ -1,8 +1,6 @@
-The process of acquiring images ranges from snapping a single image to recording overnight (or longer) time lapses of samples from N different angles.
+The process of acquiring images ranges from snapping a single image to recording overnight (or longer) time lapses of samples from N different angles. See [[#Acquisition Controls|Acquisition Controls]] for detailed descriptions of the controls.
 
 == Acquiring a Single Image ==
-[[Image:Spimgui acquiring.png|480px|right]] 
-
 To acquire a single image using the OpenSPIM plugin:
 # Navigate the 4D stage to the location you want to image (see [[Operation]] for details).
 # Set Stack Depth to 0. This will limit the position to a single plane. (You should not need to change the Step Size.)
@@ -57,7 +55,8 @@ The acquisition tab makes recording a time lapse of any number of views simple: 
 # Enable the time controls, then specify an interval and count.
 # Once everything is set up, click ''Oh Snap!'' to begin the acquisition.
 
-== Acquisition Options ==
+== Acquisition Controls ==
+[[Image:spimgui-acquiring-annotated.png|480px|right]] 
 
 ;(1) Positions List
 :This table shows the list of stacks of images to acquire. Each timepoint will consist of the images recorded at each position in this list (as well as the Z slices described by the MATLAB range in the final column).
