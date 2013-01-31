@@ -2,6 +2,18 @@ OpenSPIM's software is embedded into [http://micro-manager.org/ µManager] and [
 
 Our modifications are maintained on [https://github.com/openspim/micromanager/ GitHub]. The additional vendor libraries are maintained in our [https://github.com/openspim/3rdpartypublic fork] of µManager's ''3rdpartypublic'' repository of binary libraries and documentation.
 
+= Overview of the µManager source code =
+
+µManager is divided into the following parts:
+
+# the core. Written in C++, lives in ''MMCore/''. Has basic helper functions (logging, library loading, etc).
+# the device base. Also written in C++, lives in ''MMDevice/''. Has the abstract definitions of the devices µManager understands.
+# the device drivers. They live in ''DeviceAdapters/'' and most of them require additional third-party libraries from the hardware vendors.
+# the Java binding. Uses [http://www.swig.org SWIG] to define the interface to MMCore, lives in ''MMCoreJ_wrap/''.
+# the ImageJ plugin ''Micro-Manager Studio''. Written in Java, lives in ''mmstudio/''.
+# the µManager plugins. These implement the interface ''org.micromanager.api.MMPlugin'' and must reside inside .jar files in ''<ij.dir>/mmplugins/'' after being compiled. The sources live in ''plugins/<jarname>/''.
+# the 3rd-party libraries. Some of those are helpfully made public by the hardware vendors and live in the directory ''../3rdpartypublic/'', i.e. '''outside''' the µManager source code. Those libraries which non-disclosure agreements or similar niceties prevent from being redistributed live in ''../3rdparty/''. Evidently, the µManager developers have an internal repository for this, as do the Dresden and Madison OpenSPIM developers.
+
 = Overview of the OpenSPIM software =
 
 OpenSPIM's additions and enhancements to µManager are divided into three parts:
