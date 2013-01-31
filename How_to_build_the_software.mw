@@ -8,7 +8,7 @@ If you have access to the OpenSPIM DropBox, just download & run the [https://dl-
 
 If you do not have access to the DropBox, please follow the following instructions.
 
-= Manual setup =
+= Obtaining the source code (manually) =
 
 <span style='color:red;'>First, make sure you have your camera driver installed!</span>
 
@@ -28,13 +28,13 @@ Wherever you like, e.g. in your home directory, call these commands:
 # cd 3rdpartypublic
 # git checkout -t origin/openspim
 
-== Building Micro-Manager ==
+= Building Micro-Manager =
 
 First, <u>make sure</u> that the environment variable ''JAVA_HOME'' is set and points to a valid JDK (you can add environment variables by right-clicking on the "Start" menu button, choosing "Open Windows Explorer", opening the context menu of "My Computer", selecting "Properties" and in the "Advanced mode" click on the "Environment variables" button. You need to restart the Visual Studio after adding the environment variable).
 
 After installing [http://msdn.microsoft.com/en-us/express/future/bb421473 Visual Studio Express 2008], continue as described on the [http://valelab.ucsf.edu/~MM/MMwiki/index.php/Building_MM_on_Windows uManager Wiki].
 
-=== Why Microsoft Visual C++? ===
+== Why Microsoft Visual C++? ==
 
 There exists  a free and Open Source alternative to Microsoft Visual C++: [http://gcc.gnu.org/ GNU C++].
 
