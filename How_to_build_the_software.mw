@@ -34,6 +34,12 @@ First, <u>make sure</u> that the environment variable ''JAVA_HOME'' is set and p
 
 After installing [http://msdn.microsoft.com/en-us/express/future/bb421473 Visual Studio Express 2008], continue as described on the [http://valelab.ucsf.edu/~MM/MMwiki/index.php/Building_MM_on_Windows uManager Wiki].
 
+=== Why Microsoft Visual C++? ===
+
+There exists  a free and Open Source alternative to Microsoft Visual C++: [http://gcc.gnu.org/ GNU C++].
+
+Unfortunately, it is impossible to build µManager on Windows with the GNU C++ compiler. The reason is that Microsoft Visual C++ uses an Application Binary Interface (''ABI'') which predates, and is incompatible with, the standard defined by the C++ consortium, but GNU C++ abides by the standard. All of the shared libraries provided by vendors were compiled for Microsoft Visual C++, though, so linking using GNU C++ is impossible.
+
 = Debugging =
 
 == Look at the CoreLog ==
