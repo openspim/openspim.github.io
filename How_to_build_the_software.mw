@@ -1,34 +1,33 @@
 This page just explains how to build the software needed for OpenSPIM. For an overview of the source code, please have a look at [[Overview_of_the_source_code|this page]].
 
-= Obtaining the source code (easy way) =
+= Obtaining the source code =
+
+== The easy way ==
 
 <span style='color:red;'>First, make sure you have your camera driver installed!</span>
 
 Download & run the [http://openspim.org/downloads/msysGit-netinstall-openspim.exe OpenSPIM development environment installer]. This will set up everything you need and perform the initial build.
 
-= Obtaining the source code (manually) =
+== Manually ==
 
 <span style='color:red;'>First, make sure you have your camera driver installed!</span>
 
-== You need Git ==
+=== You need Git ===
 
 First of all, you need to make sure that you have the version control software [http://git-scm.com Git] installed. If in doubt, just install [http://msysgit.github.com/ Git for Windows].
 
-== Cloning the Micro-Manager and support sources ==
+=== Cloning the Micro-Manager and support sources ===
 
 Wherever you like, e.g. in your home directory, call these commands:
 
-# git clone git://fiji.sc/micromanager1.4 micromanager
-# cd micromanager
-# git checkout -t origin/openspim
-# cd ..
-# git clone git://fiji.sc/mmanager-3rdparty 3rdpartypublic
-# cd 3rdpartypublic
-# git checkout -t origin/openspim
+# git clone git://github.com/openspim/micromanager
+# git clone git://github.com/openspim/3rdpartypublic
+
+=== Setting JAVA_HOME ===
+
+<u>Make sure</u> that the environment variable ''JAVA_HOME'' is set and points to a valid JDK (you can add environment variables by right-clicking on the "Start" menu button, choosing "Open Windows Explorer", opening the context menu of "My Computer", selecting "Properties" and in the "Advanced mode" click on the "Environment variables" button. You need to restart the Visual Studio after adding the environment variable).
 
 = Building Micro-Manager =
-
-First, <u>make sure</u> that the environment variable ''JAVA_HOME'' is set and points to a valid JDK (you can add environment variables by right-clicking on the "Start" menu button, choosing "Open Windows Explorer", opening the context menu of "My Computer", selecting "Properties" and in the "Advanced mode" click on the "Environment variables" button. You need to restart the Visual Studio after adding the environment variable).
 
 After installing [http://msdn.microsoft.com/en-us/express/future/bb421473 Visual Studio Express 2008], continue as described on the [http://valelab.ucsf.edu/~MM/MMwiki/index.php/Building_MM_on_Windows uManager Wiki].
 
