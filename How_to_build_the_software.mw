@@ -1,12 +1,10 @@
 This page just explains how to build the software needed for OpenSPIM. For an overview of the source code, please have a look at [[Overview_of_the_source_code|this page]].
 
-= QuickStart =
+= Obtaining the source code (easy way) =
 
 <span style='color:red;'>First, make sure you have your camera driver installed!</span>
 
-If you have access to the OpenSPIM DropBox, just download & run the [https://dl-web.dropbox.com/get/Software&Drivers/Windows/32%20bit/OpenSPIM%20development%20environment/msysGit-netinstall-openspim.exe OpenSPIM development environment installer]. This will set up everything you need and perform the initial build.
-
-If you do not have access to the DropBox, please follow the following instructions.
+Download & run the [http://openspim.org/downloads/msysGit-netinstall-openspim.exe OpenSPIM development environment installer]. This will set up everything you need and perform the initial build.
 
 = Obtaining the source code (manually) =
 
