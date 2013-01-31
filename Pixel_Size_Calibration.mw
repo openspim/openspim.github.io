@@ -4,7 +4,7 @@ As a central feature for virtually all imaging, specifying a pixel's physical di
 ## Load a sample into the system. Beads may be easiest, though anything with well-defined features will do.
 ## Using the motor navigation in µManager's Live Window, locate any such feature.
 ## Using Fiji's magnification tool, zoom in to allow for precise placement of a ROI.
-## Using the line ROI tool, drag a line from a recognizable point on the future to the right (its precise endpoint will be moved momentarily).
+## Using the line ROI tool, drag a line from a recognizable point on the feature to the right of it (the line's precise endpoint will be moved momentarily).
 ## Press the left arrow key. This will instruct µManager to move the stage by 10 steps.
 ## While moving the endpoint of the line ROI to the new location of the feature, pay attention to Fiji's status bar: it displays the current length of the line.
 ## Once the line is spanning the distance the feature moved, record this distance as X pixels.
