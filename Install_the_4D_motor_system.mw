@@ -10,6 +10,8 @@
 
 ==== How to attach and position the motor system on the breadboard ====
 
+Place the assembled 4D motor system into the empty middle section of the optical breadboard with the Z-motor axis parallel with the detection axis. The sample arm should be in such a position that the ball bearing hole is over top from the sample chamber. Making sure that the motors are in their fully retracted positions, place the center of the sample arm's ball bearing hole directly over a position that is about 1.5-2.0 mm behind the focal planes of both the illumination and detection lenses (both have a focal plane of 3.5 mm from the front of both lenses). 
+
 [[File:Installation_4D-Motors.ogv]]
 
 {|colspan="2"|
