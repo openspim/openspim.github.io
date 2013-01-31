@@ -25,7 +25,7 @@ We also recommend to examine the signal in the imaged specimen and tweak the lig
 
 == Start-Up ==
 
-# Launch the software using the 32-bit executable available for your system. (For Mac OS, you should be able to launch Fiji by opening the Fiji.app folder in Finder.)
+# Launch Fiji using Fiji.app/ImageJ-win32.exe.
 # Once Fiji has started, you can open µManager Studio from Plugins -> Micro-Manager -> Micro-Manager Studio.
 ## If this is the first time you've launched µManager, you will have to [[Downloads#Initial_hardware_configuration|configure the hardware]] to continue.
 # From µManager, click Plugins -> Acquire SPIM image to launch the OpenSPIM plugin.
