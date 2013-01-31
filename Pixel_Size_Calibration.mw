@@ -1,17 +1,20 @@
 As a central feature for virtually all imaging, specifying a pixel's physical dimensions is handled within µManager:
 
-# First, we need to actually determine the pixel size.
-## Load a sample into the system. Beads may be easiest, though anything with well-defined features will do.
-## Using the motor navigation in µManager's Live Window, locate any such feature.
-## Using Fiji's magnification tool, zoom in to allow for precise placement of a ROI.
-## Using the line ROI tool, drag a line from a recognizable point on the feature to the right of it (the line's precise endpoint will be moved momentarily).
-## Press the left arrow key. This will instruct µManager to move the stage by 10 steps.
-## While moving the endpoint of the line ROI to the new location of the feature, pay attention to Fiji's status bar: it displays the current length of the line.
-## Once the line is spanning the distance the feature moved, record this distance as X pixels.
-## The value to use for your pixel size will be (10 motor steps) / (X pixels). (The observant will note that this is not, in fact, in pixels/µm (unless the stage moves in precisely 1 µm steps). As of OpenSPIM 1.0, the motor locations are displayed and manipulated in motor steps rather than µm; as a result, although the units are incorrect, the behavior is as desired.)
-# Now we'll enter the value into µManager's configuration. Click Tools -> Pixel Size calibration
-## The OpenSPIM plugin will have automatically provided a 'calibration' called (descriptively) "Uncalibrated" which sets a pixel to be 1 µm. This is to ensure that µManager's built-in Live Window panning (which requires an active pixel size calibration) works with minimal configuration. Select it, then click Edit.
-## Re-labelling the configuration will help identify it, but isn't required.
-## In the window that appears, replace the Pixel Size value (1.0) with the number calculated above.
-## Click OK.
-# Click Tools -> Save configuration settings as... and overwrite the current configuration file.
+== Determining the Pixel Size ==
+First, we need to actually calculate the pixel size.
+# Load a sample into the system. Beads may be easiest, though anything with well-defined features will do.
+# Using the motor navigation in µManager's Live Window, locate any such feature.
+# Using Fiji's magnification tool, zoom in to allow for precise placement of a ROI.
+# Using the line ROI tool, drag a line from a recognizable point on the feature to the right of it (the line's precise endpoint will be moved momentarily).
+# Press the left arrow key. This will instruct µManager to move the stage by 10 steps.
+# While moving the endpoint of the line ROI to the new location of the feature, pay attention to Fiji's status bar: it displays the current length of the line.
+# Once the line is spanning the distance the feature moved, record this distance as X pixels.
+# The value to use for your pixel size will be (10 motor steps) / (X pixels). (The observant will note that this is not, in fact, in pixels/µm (unless the stage moves in precisely 1 µm steps). As of OpenSPIM 1.0, the motor locations are displayed and manipulated in motor steps rather than µm; as a result, although the units are incorrect, the behavior is as desired.)
+
+== Updating µManager's Configuration ==
+Now we'll enter the value into µManager's configuration. Click Tools -> Pixel Size calibration
+# The OpenSPIM plugin will have automatically provided a 'calibration' called (descriptively) "Uncalibrated" which sets a pixel to be 1 µm. This is to ensure that µManager's built-in Live Window panning (which requires an active pixel size calibration) works with minimal configuration. Select it, then click Edit.
+# Re-labelling the configuration will help identify it, but isn't required.
+# In the window that appears, replace the Pixel Size value (1.0) with the number calculated above.
+# Click OK.
+Finally, click Tools -> Save configuration settings as... and overwrite the current configuration file.
