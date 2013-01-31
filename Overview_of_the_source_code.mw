@@ -60,7 +60,7 @@ Both the phase correlation and the GUI of the anti-drift are implemented in the 
 
 === Asynchronous writing ===
 
-''AsyncOutputWrapper''
+By profiling the acquisition code, it was discovered that the process of writing out each slice to its appropriate file took nearly 60% of the total acquisition time. To remedy this, asynchronous output handling was added by way of the ''AsyncOutputWrapper'' class. This class wraps any other output handler (most usefully, the OME-TIFF output handler) and rather than writing each image as it is recorded, the slices are queued up and handled by a separate thread. This allows the motor movements and acquisition to resume while the file is written in the downtime (i.e. in between time points).
 
 === OME-TIFF ===
 
