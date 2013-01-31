@@ -100,3 +100,6 @@ The acquisition tab makes recording a time lapse of any number of views simple: 
 :If specified, this will override µManager's default timeout (5 seconds). It should only be enabled if you encounter "device timeout" errors (i.e. if the stage has to move a long distance, but its velocity is too low to cover that distance in five seconds).
 ;(19) Oh Snap!
 :Pressing this button starts the acquisition. While the acquisition is running, this button will read "Abort!" and can be pressed to cancel an acquisition.
+
+[[Category:Software]]
+[[Category:Operation]]
