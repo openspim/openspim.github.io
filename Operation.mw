@@ -32,33 +32,63 @@ Controlling the stage is accomplished primarily through µManager's live window:
 
 Alternatively, the stage controls tab of the OpenSPIM plugin can be used to move to specific locations.
 
-== Time Lapses ==
+== Acquisition ==
 
-The acquisition tab makes recording a time lapse of any number of views simple: the user navigates the 4D stage to each view they wish to record and marks that location, specifying the depth and step size of the stack (if applicable).
+Acquisition is handled primarily through the appropriately-named Acquisition tab.
 
-After choosing any desired options (i.e. enabling anti-drift or continuous acquisition) and specifying a directory in which to save the acquired OME images, a checkbox will enable the time-lapse controls.
+=== Acquiring a Single Image ===
 
-There, the user specifies a desired interval between the beginning of each series, and the number of series to acquire.
+To acquire a single image using the OpenSPIM plugin, navigate the 4D stage to the location you want to image. Beneath the "Stack at this Z plus:" button are two spinners: the left spinner controls the stack depth (in motor steps), and the right controls the step size (also in motor steps). Set the stack depth (the first box) to 0 and click "Stack at this Z plus:" to add the location to the positions list. (Of course, µManager provides its own single-image recording in the form of the Snap button on the live window.)
 
-Once everything is set up, clicking ''Oh Snap!'' will begin the acquisition.
+Once you've added the location of the image you wish to take, you can specify an output directory (if you would prefer the image go straight to an OME-TIFF, rather than be opened in Fiji). Finally, click ''Oh Snap!'' to take the image. (The various options for acquisition have no effect on single planes, with the exception of "Snap Continuously" which should not be checked. For a description of the various options, see [[#Acquisition Options|Acquisition Options]].)
 
-[[Image:Spimgui acquiring.png|480px|left]]
+[[Image:Spimgui acquiring.png|480px|left]] 
+=== Acquiring a Stack ===
 
-= Acquisition =
+Acquiring a single stack is very similar to acquiring a single position, beginning by navigating to the place the stack should begin. Specify the depth of the stack in motor steps in the left spinner and the number of motor steps between each slice in the right spinner, then click "Stack at this Z plus:" to add the stack to the positions list. 
 
-Taking a single image with the OpenSPIM.
+=== Single-Plane Time Lapse ===
 
-Taking a stack of images with the OpenSPIM.
+To acquire a time lapse of a single plane, set up the recording exactly as if you were going to record only one image. Then enable the Time box and specify a delay (0 seconds is allowed) and a repetition count. Once these options are set, and optionally after specifying an output directory, click ''Oh Snap!'' to begin.
 
-Taking a series of single planes over time in the movies mode.
+=== Multi-View Imaging of a Fixed Sample ===
 
-Setting up a multi-view imaging of a single fixed sample.
+To record multiple views of a fixed sample, the user navigates the 4D stage to each view they wish to record and marks that location, specifying the depth and step size of the stack (as appropriate). After choosing an output directory, click ''Oh Snap!'' to begin the multi-view imaging.
 
-Setting up a multi-view time lapse of live sample. 
+=== Multi-View Time Lapses ===
+
+The acquisition tab makes recording a time lapse of any number of views simple: Simply set up a multi-view acquisition as described above, then after choosing any desired options (i.e. enabling anti-drift or continuous acquisition) and specifying a directory in which to save the acquired OME images, a checkbox will enable the time-lapse controls. There, the user specifies a desired interval between the beginning of each series, and the number of series to acquire. Once everything is set up, clicking ''Oh Snap!'' will begin the acquisition.
+
+=== Acquisition Options ===
+
+;Set z-stage velocity
+:This option can control the speed of the focus motor, to allow for more careful positioning at the expense of additional time for the motor to move.
+;Z settle time (ms)
+:Specifying a time interval here will cause each movement of the stage to be followed by the given delay, to prevent jitter. This will also add time to acquisitions.
+;Snap Continuously
+:Rather than take precisely one image each time the motor reaches a position (either in the list, or at a slice within a stack), if this is checked the camera will record images constantly while the stage moves. (In between time-points, the acquisition will stop.) This can cause blurry images, however, since the stage is often moving while the camera exposes.
+;Use Anti-Drift
+:In long-term, multi-view time lapses, a common problem is the shrinking of the agarose column containing the sample. Enabling this option will activate interactive anti-drift, to combat this. See [[Anti-Drift]].
+;Update Live View
+:If enabled, every time the camera takes an image it will update the live window. This can make identifying a shifting sample easy, but may also increase acquisition time.
+;Lase Full Stack
+:By default, the laser will blink for each slice in a stack. Enabling this will cause the laser to remain on for the entire stack, then turn off in between time points. This speeds up acquisition, but can cause bleaching.
+;Output directory
+:If a directory is given, the acquired images will be written out as an OME-TIFF dataset. Otherwise, the images will be stored in memory and opened in Fiji after acquisition. Outside of testing acquisition, it is strongly recommended that an output directory be specified.
+;Asynchronous Output
+:Rather than writing out each slice as soon as it is taken, if this is checked the images will be buffered and written out as soon as the program finds time. This can greatly speed up acquisition, but if an acquisition fails or is aborted, the metadata in the stored images will be inconsistent.
+;Time
+:If the checkbox is enabled, a time-lapse will be recorded.
+:;Interval
+::The number of seconds between the ideal start of each time lapse. If acquiring a sequence (the entire positions list) takes less time than this interval, the system will wait until the remaining time has elapsed.
+:;Count
+::The number of sequences to record. Each sequence will record the entire positions list.
+;Device Timeout
+:If specified, this will override µManager's default timeout (5 seconds). It should only be enabled if you encounter "device timeout" errors (i.e. if the stage has to move a long distance, but its velocity is too low to cover that distance in five seconds).
 
 [[Category:Operation]]
 
-= Data processing =
+== Data processing ==
 
 Preprocessing of OpenSPIM ome.tiff stacks for multi-view reconstruction.
 
