@@ -113,7 +113,12 @@ Put both O-rings into their places in the sample chamber where the objectives wi
 
 ===== How to assemble the OpenSPIM 4D positioning system =====
 
-Text
+Install the ball bearing system into the end of the sample arm where the hole is drilled, make the hole just a few 10's of microns smaller than the outside diameter of the ball bearing system and that it is flush with the bottom face of the sample arm.
+
+Then attach the arm to the system by aligning the holes on the arm that will fit the capscrew heads into them with the M3 threaded holes in the plate attached to the Y motor. 
+
+Attach the motor pulley to the motor by tightening it down with a M2.5 set screw to the motor shaft, and drop the sample pulley into the 12 mm ball bearing hole on the sample arm. Finally use a rubber band or large diameter small gauge o-ring to go around both pulleys.
+
 [[File:Motor assembly.ogv]]
 
 [[Install assembled ThorLabs components on rail carriers| Next steps]]
