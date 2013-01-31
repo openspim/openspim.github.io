@@ -48,6 +48,8 @@ When prototyping, it is best to start out with Beanshell scripts and once things
 
 To provide ease of transition between scripting and plugin coding, we do the following in the OpenSPIM plugin: we have two fields, unsurprisingly called ''mmc'' and ''gui'', which are initialized in the ''setApp()'' method.
 
+= Debugging =
+
 See [[FAQ#Debugging|the Frequently Asked Questions]].
 
 = Further reading =
