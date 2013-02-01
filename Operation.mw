@@ -41,7 +41,7 @@ Now you are ready to [[Acquisition| acquire]] images. Please follow these step-b
 
 [[Category:Operation]]
 
-== Data processing ==
+= Data processing =
 
 Preprocessing of OpenSPIM ome.tiff stacks for multi-view reconstruction.
 
