@@ -31,12 +31,13 @@ Next please follow the instructions to [[Downloads#Initial_hardware_configuratio
 
 Make yourself familiar with the operation of the OpenSPIM [[OpenSPIM stage control|stage control]]
 
-[[Acquisition]] is handled primarily through the appropriately-named tab; see the [[Acquisition]] page for step-by-step tutorials.
+Now you are ready to [[Acquisition| acquire]] images. Please follow these step-by-step tutorials.
 
 * [[Acquisition#Acquiring a Single Image|Acquiring a Single Image]]
 *[[Acquisition#Acquiring a Stack|Acquiring a Stack]]
 *[[Acquisition#Single-Plane Time Lapse|Single-Plane Time Lapse]]
 *[[Acquisition#Multi-View Imaging of a Fixed Sample|Multi-View Imaging of a Fixed Sample]]
+*[[Acquisition#Multi-View Time Lapses|Multi-View Time Lapse imaging of Live Sample]]
 
 [[Category:Operation]]
 
