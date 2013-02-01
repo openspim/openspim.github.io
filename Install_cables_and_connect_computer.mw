@@ -1,8 +1,8 @@
+
+=== How to connect the camera, camera controller and computer together  ===
+
 ==== Objects needed ====
 
-*1x UBB hub with at least 5 positions
-*4x USB Type A plug to Mini Type B plug cables
-*2x USB Type A plug to Type B plug cables
 *1x Firewire Type 1 plug to Type B plug cable
 *1x Hamamatsu Orca ER D50 to D50 serial cable
 
@@ -10,19 +10,39 @@
 
 none
 
-==== How to connect the camera, camera controller and computer together  ====
+==== Description ====
 
 The Hamamatsu Orca ER camera controller communicates with the computer via Firewire. Connect the Firewire Type 1 plug into the camera controller and the Type B on the other end into the computer. Next, connect the camera controller to the camera via the D50 serial cable.
 
 [[File:Camera_cables.ogv]]
 
-==== How to connect the computer, USB hub, motor system and computer together ====
+=== How to connect the computer, USB hub, motor system and computer together ===
+
+==== Objects needed ====
+
+*1x UBB hub with at least 5 positions
+*4x USB Type A plug to Mini Type B plug cables
+*2x USB Type A plug to Type B plug cables
+
+==== Tools needed ====
+
+none
+
+==== Description ====
 
 Use one of the two USB Type A plug to Type B plug, and connect the Type B plug to the USB hub, then plug the Type A plug into the computer. Plug all 4 Type A to Mini Type B plugs, with the Type A side, to the USB hub. The other end of the cable can be inserted into the Mini Type B jack on the motor system.
 
 [[File:Motor_cables.ogv]]
 
-==== How to connect the laser ====
+=== How to connect the laser ===
+
+
+==== Objects needed ====
+
+==== Tools needed ====
+
+
+==== Description ====
 
 Connect the D15 Interface Cable to the back of the Coherent CUBE laser and fasten it with the two notched hand screws. Three of the four cables coming out of the D15 plug will be used: the power cable, the control cable, and the serial cable. First, connect in the power supply to the power cable via their respective two prong connectors. Then, connect the control box to the control cable with it's five prong connectors. Finally, connect the Keyspan Tripplite USA-19-HS USB to Serial converter to the D9 connector.
 
