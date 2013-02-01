@@ -4,6 +4,11 @@ The flexibility of light sheet microscopes such as OpenSPIM allows for different
 
 {| border="0" cellpadding="6" cellspacing="0"
 |- valign="top"
+! 
+! illumination/detection
+! dimensions
+! preview
+|- valign="top"
 | '''1I 1D'''
 | single-sided illumination and detection
 | x mm
