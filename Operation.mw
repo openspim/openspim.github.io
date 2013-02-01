@@ -21,7 +21,7 @@ We also recommend to examine the signal in the imaged specimen and tweak the lig
 [[Category:Hardware]]
 
 = Software =
-[[Image:Stagecontrols.png|thumb|right]]
+[[Image:Stagecontrols.png|thumb|right|Screenshot of OpenSPIM stage control]]
 
 OpenSPIM relies on [http://valelab.ucsf.edu/~MM/MMwiki/ microManager] run under [http://fiji.sc Fiji]. Make sure you [[Downloads|Download and Install]] all the required components.
 
