@@ -1,0 +1,6 @@
+
+# Launch Fiji using Fiji.app/ImageJ-win32.exe.
+# Once Fiji has started, you can open µManager Studio from Plugins -> Micro-Manager -> Micro-Manager Studio.
+## If this is the first time you've launched µManager, you will have to [[Downloads#Initial_hardware_configuration|configure the hardware]] to continue.
+# From µManager, click Plugins -> Acquire SPIM image to launch the OpenSPIM plugin.
+## The Live Window will open automatically if it is not already open.
