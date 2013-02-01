@@ -31,7 +31,10 @@ Please make sure that you have [[Downloads#Initial_hardware_configuration|config
 
 [[Acquisition]] is handled primarily through the appropriately-named tab; see the [[Acquisition]] page for step-by-step tutorials.
 
-
+* [[Acquisition#Acquiring a Single Image|Acquiring a Single Image]]
+*[[Acquisition#Acquiring a Stack|Acquiring a Stack]]
+*[[Acquisition#Single-Plane Time Lapse|Single-Plane Time Lapse]]
+*[[Acquisition#Multi-View Imaging of a Fixed Sample|Multi-View Imaging of a Fixed Sample]]
 
 [[Category:Operation]]
 
