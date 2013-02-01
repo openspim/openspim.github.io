@@ -20,7 +20,7 @@ The Hamamatsu Orca ER camera controller communicates with the computer via Firew
 
 ==== Objects needed ====
 
-*1x UBB hub with at least 5 positions
+*1x USB hub with at least 5 positions
 *4x USB Type A plug to Mini Type B plug cables
 
 ==== Tools needed ====
