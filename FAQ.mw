@@ -67,6 +67,10 @@ Call the Studio directly, without first starting ImageJ:
 
 At the time of writing, only Windows XP is supported, because there are problems with the [http://www.dcamapi.com/ DCAM driver]. In our tests, it would install, but µManager was not able to find the camera on Windows 7.
 
+== How can I build the OpenSPIM software myself? ==
+
+Please have a look at [[How_to_build_the_software#The_easy_way|this page]].
+
 = Debugging =
 
 == Look at the CoreLog ==
