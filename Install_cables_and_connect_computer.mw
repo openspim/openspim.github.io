@@ -1,4 +1,6 @@
 ==== Objects needed ====
+
+*1x UBB hub with at least 5 positions
 *4x USB Type A plug to Mini Type B plug cables
 *2x USB Type A plug to Type B plug cables
 *1x Firewire Type 1 plug to Type B plug cable
@@ -8,11 +10,15 @@
 
 none
 
-==== How to connect the the camera  ====
+==== How to connect the camera, camera controller and computer together  ====
+
+The Hamamatsu Orca ER camera controller communicates with the computer via Firewire. Connect the Firewire Type 1 plug into the camera controller and the Type B on the other end into the computer. Next, connect the camera controller to the camera via the D50 serial cable.
 
 [[File:Camera_cables.ogv]]
 
-==== How to connect the motors ====
+==== How to connect the computer, USB hub, motor system and computer together ====
+
+Use one of the two USB Type A plug to Type B plug, and connect the Type B plug to the USB hub, then plug the Type A plug into the computer. Plug all 4 Type A to Mini Type B plugs, with the Type A side, to the USB hub. The other end of the cable can be inserted into the Mini Type B jack on the motor system.
 
 [[File:Motor_cables.ogv]]
 
