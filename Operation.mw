@@ -6,7 +6,7 @@ The basic principles of sample preparation for SPIM differs from traditional mic
 
 For the purpose of making registration easier, we mix the sub-resolution fluorescent beads into the specimen containing agarose slurry and use them as fiduciary markers to align the different SPIM views. The software to do that is available in [http://fiji.sc Fiji]. 
 
-Preparation of  [[Drosophila embryo sample preparation|'''Drosophila embryos''']] forOpenSPIM imaging.
+Preparation of  [[Drosophila embryo sample preparation|'''Drosophila embryos''']] for OpenSPIM imaging.
 
 There are many other strategies to mount SPIM samples using FEP tubes, hooks or agarose baskets. '''Here is the place for your contributions!'''
 
