@@ -22,6 +22,8 @@ After unpacking it onto the ''Desktop'':
 # Install the camera driver (see below).
 # Run Micro-Manager: ''Plugins>Micro-Manager>Micro-Manager Studio''.
 
+'''Note:''' if you are interested in building the software from scratch so you can modify it to your heart's extent, please have a look at [[How_to_build_the_software#The_easy_way|this page]].
+
 = Initial hardware configuration =
 
 When Micro-Manager is first started, it will prompt the user to select a hardware configuration       
