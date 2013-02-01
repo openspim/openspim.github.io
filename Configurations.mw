@@ -1,6 +1,26 @@
 The flexibility of light sheet microscopes such as OpenSPIM allows for different configurations. The standard setup consists of one illumination arm ("1I") and one detection arm ("1D"). One can add a second illumination arm ("2I") to improve the homogeneity of the light sheet illumination and/or to reduce the need for rotation. A second detection arm ("2D") enables the simultaneous acquisition from both sides.
-== 1I 1D ==
-== 2I 1D ==
-== 2D 2D ==
+
+== overview of possible configurations ==
+
+{| border="0" cellpadding="6" cellspacing="0"
+|- valign="top"
+| '''1I 1D'''
+| single-sided illumination and detection
+| x mm
+| [[File:|250px]]
+|- valign="top"
+| '''2I 1D'''
+| double-sided illumination, single-sided detection
+| x mm
+| [[File:|250px]]
+|- valign="top"
+| '''2I 2D'''
+| double-sided illumination and detection
+| x mm
+| [[File:|250px]]
+|-
+|}
+
+== high-throughput / multi-sample configurations ==
 
 [[category:hardware]]
