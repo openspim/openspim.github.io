@@ -6,7 +6,7 @@ This page just explains how to build the software needed for OpenSPIM. For an ov
 
 <span style='color:red;'>First, make sure you have your camera driver installed!</span>
 
-Download & run the [http://openspim.org/downloads/msysGit-netinstall-openspim.exe OpenSPIM development environment installer]. This will set up everything you need and perform the initial build.
+Download & run the [http://openspim.org/downloads/OpenSPIM-dev-env-20130201.exe OpenSPIM development environment installer] (it is actually a self-extracting archive, you can use [http://7-zip.org 7-Zip] to extract the [http://openspim.org/downloads/OpenSPIM-dev-env-20130201.7z archive] instead if you feel uncomfortable with an installer). This will set up everything you need and perform the initial build.
 
 == Manually ==
 
