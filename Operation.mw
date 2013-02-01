@@ -27,12 +27,11 @@ We also recommend to examine the signal in the imaged specimen and tweak the lig
 
 [[OpenSPIM stage control]]
 
-
-== Acquisition ==
-
 Please make sure that you have [[Downloads#Initial_hardware_configuration|configured the hardware]] properly before trying to acquire images.
 
-Acquisition is handled primarily through the appropriately-named tab; see the [[Acquisition]] page for step-by-step tutorials.
+[[Acquisition]] is handled primarily through the appropriately-named tab; see the [[Acquisition]] page for step-by-step tutorials.
+
+
 
 [[Category:Operation]]
 
