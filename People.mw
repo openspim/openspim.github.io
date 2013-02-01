@@ -1,31 +1,35 @@
-{| border="0" cellpadding="20" cellspacing="0" 
-|-
-| [[Image:Pavel.jpg|frame|left|Pavel Tomancak]] 
+{| border="0" cellpadding="6" cellspacing="0"
+|- valign="top"
+| <gallery>File:Pavel.jpg|'''Pavel Tomancak'''</gallery>
 | [http://www.mpi-cbg.de/research/research-groups/pavel-tomancak.html Research Group Leader] at the MPI-CBG in Dresden. Provides ideas, concepts, research questions and funding.
-|-
-| [[Image:Jan.jpg|frame|left|Jan Huisken]] 
-| [http://www.mpi-cbg.de/research/research-groups/jan-huisken.html Research Group Leader] at the MPI-CBG in Dresden. Provides SPIM expertise and general support for the OpenSPIM project.
-|-
-| [[Image:PeterGPitrone.png|frame|left|Peter Gabriel Pitrone]] 
+|- valign="top"
+| <gallery>Image:Jan.jpg|'''Jan Huisken'''</gallery>
+| [http://www.mpi-cbg.de/huisken Research Group Leader] at the MPI-CBG in Dresden. 
+|- valign="top"
+| <gallery>Image:PeterGPitrone.png|'''Peter Gabriel Pitrone'''</gallery>
 | Microscopy technician in the [http://www.mpi-cbg.de/research/research-groups/pavel-tomancak.html Tomancak lab]. Designed and built the OpenSPIM.
-|-
-| [[Image:kevin_eliceiri.jpg|frame|left|Kevin Eliceiri]]  
+|- valign="top"
+| <gallery>Image:kevin_eliceiri.jpg|'''Kevin Eliceiri'''</gallery>
 | Director of [http://loci.wisc.edu/ LOCI] University of Madison. Collaborator and provides live cell imaging expertise on Open SPIM project.
-|-
-| [[Image:Johannes.jpg|frame|left|Johannes Schindelin]]  
+|- valign="top"
+| <gallery>Image:Johannes.jpg|'''Johannes Schindelin'''</gallery>
 | Senior Programmer at [http://loci.wisc.edu/ LOCI] University of Madison. Wrote the microManager OpenSPIM steering interface. Develops and maintains [http://fiji.sc Fiji].
-|-
-| [[Image:lukestuyvenberg.jpeg|frame|left|Luke Stuyvenberg]]  
-| Student Programmer at [http://loci.wisc.edu/ LOCI] University of Madison. Works on the microManager OpenSPIM steering interface. 
-|-
-| [[Image:Vineeth.jpg|frame|left|Vineeth Surendranath]] 
-| PhD student in the [http://www.mpi-cbg.de/research/research-groups/pavel-tomancak.html Tomancak lab]. In charge of the photography for the OpenSPIM project. 
-|-
-| [[Image:Students.jpg|left|200px|Sonal, Sukhdeep Singh, Steve Simmert]]
-| Sukhdeep Singh, Sonal, Steve Simmert - PhD students at the [http://www.biotec.tu-dresden.de/ BIOTEC] in Dresden. Put together the OpenSPIM Wiki during the 2011 pre-doc course in the Tomancak lab. 
-|-
-| [[Image:Stephan_P.jpg|frame|left|[http://fly.mpi-cbg.de/preibisch  Stephan Preibisch]]]
+|- valign="top"
+| <gallery>Image:lukestuyvenberg.jpeg|'''Luke Stuyvenberg'''</gallery>
+| Student Programmer at [http://loci.wisc.edu/ LOCI] University of Madison. Works on the microManager OpenSPIM steering interface.
+|- valign="top"
+| <gallery>File:Mw.jpg|'''Michael Weber'''</gallery>
+| PhD student in the lab of [http://www.mpi-cbg.de/huisken Jan Huisken]. Provides feedback and SolidWorks renderings.
+|- valign="top"
+| <gallery>Image:Vineeth.jpg|'''Vineeth Surendranath'''</gallery>
+| PhD student in the [http://www.mpi-cbg.de/research/research-groups/pavel-tomancak.html Tomancak lab]. In charge of the photography for the OpenSPIM project.
+|- valign="top"
+| <gallery>Image:Stephan_P.jpg|'''Stephan Preibisch'''</gallery>
 | Former PhD student in Tomancak lab now post-doc in [http://research.janelia.org/myers/ Gene Myers group]. Develops SPIM related image processing approaches for Fiji. 
+|- valign="top"
+| <gallery>Image:Students.jpg|'''Sonal, Sukhdeep Singh, Steve Simmert'''</gallery>
+| PhD students at the [http://www.biotec.tu-dresden.de/ BIOTEC] in Dresden. Put together the OpenSPIM Wiki during the 2011 pre-doc course in the Tomancak lab.
+|-
 |}
 
 [[Category:People]]
