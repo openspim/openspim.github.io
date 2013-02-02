@@ -1,37 +1,49 @@
-{|
-|<b>The Idea</b>
+[[Image:Mpi-cbg-logo.gif|frameless|150px|right]]
+<b>The Idea</b>
+
 OpenSPIM is an <i>Open Access</i> project to build an accessible, entry level implementation of Selective Plane Illumination Microscopy (SPIM).
-|[[Image:Mpi-cbg-logo.gif|frameless|150px|center]]
-|-
 
-|<b>SPIM principle</b>
-SPIM is a variation of light-sheet microscopy, that uncouples the illumination and detection axes in an optical set-up allowing imaging of biological specimen with low photodamage. Optical sectioning is achieved by focusing an excitation laser beam into a thin light-sheet and illuminating only a thin section (plane) of the imaged specimen. The illuminated plane is then photographed by a CCD camera behind perpendicularly positioned detection lens that is focused to the center of the light-sheet. 3D stacks are acquired by moving the specimen through the light sheet. By mounting the sample in a rigid medium, such as agarose, and hanging it in front of the detection lens, it is possible to rotate the sample and collect 3d stacks from multiple angles (the so-called views in SPIM terminology).  
-|[[Image:SPIM_logo.jpg|frameless|150px|center|SPIM schematic]]
-|-
+[[Image:SPIM_logo.jpg|frameless|150px|left|SPIM schematic]]
+<b>SPIM principle</b>
 
-|<b>OpenSPIM</b>
-OpenSPIM is a SPIM set-up implementing single-sided light sheet illumination and perpendicular detection, centered around sample chamber modeled after mSPIM and using relatively inexpensive USB motors for sample positioning and rotation ([http://www.Picard-Industries.com Picard Industries]). The set-up is compressed to a minimal footprint that fits into cabin-sized luggage ([http://www.rimowa.de/main#product/929.52 Rimowa] Topas Cabin Trolly IATA) for easy transportation (the [[Media:SPIM in a suitcase.jpg|SPIM in a suitcase]] concept). The microscope is driven using [http://valelab.ucsf.edu/~MM/MMwiki/ microManager] from within [http://fiji.sc Fiji] where the acquired data can be reconstructed using dedicated SPIMage processing [http://fiji.sc/wiki/index.php/SPIM_Registration plugins]. OpenSPIM is designed to be maximally cost-effective allowing anyone to build an entry level system and further tweak it for the specific imaging needs. Parallel set-ups (SPIM farms) can be realized to enable medium throughput, long-term, time-lapse imaging. The step-by-step instructions to build, set-up and operate the OpenSPIM are the subject of this wiki. OpenSPIM aims to creates a powerful synergy between Open Software and Open Hardware that can serve as a nucleus for further development of the SPIM technology. 
-|[[Image:Solidworks build up 3fps cont.gif|frame|178px|center|OpenSPIM buildup]]
-|-
+The SPIM technology offers fast, optically-sectioning, minimally-invasive acquisition of fluorescing specimen. It achieves that by focusing a thin light-sheet into the specimen, taking two-dimensional images of the illuminated slice. Three-dimensional stacks are obtained by moving the specimen orthogonal to the light-sheet between consecutive images. By mounting the sample in a rigid medium, e.g. Agarose, and hanging it into the sample chamber, it is possible to rotate the sample and collect 3d stacks from multiple angles.
 
-|<b>SPIM application</b>
+<b>OpenSPIM</b>
+
+OpenSPIM is a platform to build, adapt and enhance SPIM technology. It is designed to be as accessible as possible:
+[[Image:Solidworks build up 3fps cont.gif|frame|178px|right|OpenSPIM buildup]]
+* [[Step by step assembly|detailed, easy-to-follow build instructions]]
+* [[Table of parts|off-the-self components and 3D-printed parts]]
+* [[:File:Step_by_step_high_res_photo_3fps.gif|modular design]]
+* [[:Category:Hardware|completely open blueprints]]
+* [[:Category:Software|completely Open Source]]
+
+The build instructions are intended to allow scientists without prior knowledge in building optical systems to make their own OpenSPIM set-up. If a 3D printer is not readily available, the parts are designed to be easily machined by any competent work shop. The set-up is small enough to fit inside a [[Media:SPIM in a suitcase.jpg|suitcase]]. The software is built on top of the Open Source projects [http://micro-manager.org µManager] and [http://fiji.sc/ Fiji].
+
+OpenSPIM is designed to be maximally cost-effective allowing anyone to build an entry level system and further tweak it for the specific imaging needs. Parallel set-ups ([[:File:2I_1D_OpenSPIM_farm_02.jpg|SPIM farms]]) can be realized to enable medium throughput, long-term, time-lapse imaging.
+
+OpenSPIM aims to creates a powerful synergy between Open Software and Open Hardware that can serve as a nucleus for further development of the SPIM technology. 
+
+[[Image:Supplementary_Video_5_Drosophila_Embryogenesis.gif|frame|200px|left|SPIM recording of Drosophila embryogenesis]]
+<b>SPIM application</b>
+
 SPIM promises to revolutionize several fields of biological research, in particular developmental and cell biology, by allowing imaging of large samples with high resolution over extended periods of time. SPIM has been used in a spectacular fashion to record the development of embryos of model organisms such as <i>Drosophila</i> and zebra fish with cellular resolution throughout the developing specimen that may consist of tens of thousands of cell (the so-called <i>in toto</i> imaging). The ability of SPIM to deliver high signal-to-noise 3D images of large specimen from different angles in an extended time-lapse is currently hard to achieve with any other microscopy technology. Since monitoring biological systems with high resolution over time is the goal of essentially all fields of biological inquiry, SPIM technology is imminently useful to biologists.
-|[[Image:Supplementary_Video_5_Drosophila_Embryogenesis.gif|frame|200px|right|SPIM recording of Drosophila embryogenesis]]
-|-
 
-| colspan="2" align="right" |Partners and funding: [[Image:LOCI_logo.jpg|frameless|200px]] [[Image:ERC_acronym.jpg|frameless|100px]]
-|-
-|}
+Partners and funding: [[Image:LOCI_logo.jpg|frameless|200px]] [[Image:ERC_acronym.jpg|frameless|100px]]
 
 = Timeline =
 
-We are aware that quite a few scientists are keen on building their own OpenSPIM setup. Please be patient, though: we still need to sort out a couple of issues such as making proper tutorials how to prepare samples and calibrate the system. Also, we want to make sure that the instructions how to make your own OpenSPIM are complete...
+We are currently finishing the review of this Wiki to ensure that all instructions are complete and correct. If you would like to be notified when the Wiki will be open to the public, please [mailto:openspim@openspim.org send us a mail].
 
-If you would like to be notified when we are finished with that part, please [mailto:openspim@openspim.org send us a mail].
+= Building your own OpenSPIM =
+
+* [[Table_of_parts|Table of Parts]]
+* [[Step by step assembly]]
+* [[How to install]] the Micro-Manager software with SPIM support.
 
 = OpenSPIM images =
 
-<gallery widths=400px>
+<gallery widths=320px>
 File:Combined_HisYFP.ogv|Histone-YFP from gastrulation to beginning of muscle contraction from ventral, lateral and dorsal view
 File:Csp video lateral ventral frontal.ogv|Expression pattern of Csp-sGFP recorded with OpenSPIM
 File:HisYFP ventral 180tp.ogv|His-YFP embryo imaged from gastrulation until muscle contractions in late embryogenesis - ventral view
@@ -43,15 +55,4 @@ File:Gastrulation Drosophila OpenSPIM.ogv|''Drosophila'' gastrulation timelapse 
 FIle:Video 35frames.tif mirrored.ogv|''Drosophila'' gastrulation timelapse 5 views every 5 minutes (HisYFP)
 </gallery>
 
-= Hardware section =
-[[Step by step assembly]]
-
-[[Table_of_parts|Table of Parts]]
-
-= Software section =
-
-[[How to install]] the Micro-Manager software with SPIM support.
-
-[[How to build the MicroManager Software]] with SPIM support.
-
-[[Debugging]] when things do not work.
+See [[Gallery#OpenSPIM_data|more]].
