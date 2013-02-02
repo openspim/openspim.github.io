@@ -33,6 +33,10 @@ Wherever you like, e.g. in your home directory, call these commands:
 # git clone git://github.com/openspim/micromanager
 # git clone git://github.com/openspim/3rdpartypublic
 
+=== Install Microsoft Visual Studio ===
+
+You need a copy of the Microsoft Visual Studio. Please follow the instructions on the [http://valelab.ucsf.edu/~MM/MMwiki/index.php/Building_MM_on_Windows µManager Wiki].
+
 === Setting JAVA_HOME ===
 
 <u>Make sure</u> that the environment variable ''JAVA_HOME'' is set and points to a valid JDK (you can add environment variables by right-clicking on the "Start" menu button, choosing "Open Windows Explorer", opening the context menu of "My Computer", selecting "Properties" and in the "Advanced mode" click on the "Environment variables" button. You need to restart the Visual Studio after adding the environment variable).
