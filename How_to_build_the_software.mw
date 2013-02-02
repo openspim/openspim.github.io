@@ -31,7 +31,15 @@ Wherever you like, e.g. in your home directory, call these commands:
 
 = Building Micro-Manager =
 
-After installing [http://msdn.microsoft.com/en-us/express/future/bb421473 Visual Studio Express 2008], continue as described on the [http://valelab.ucsf.edu/~MM/MMwiki/index.php/Building_MM_on_Windows uManager Wiki].
+After installing [http://msdn.microsoft.com/en-us/express/future/bb421473 Visual Studio Express 2008], start the development environment via the ''OpenSPIM Dev Env'' desktop icon created by the development environment installer. Launch ''Visual Studio'' by calling
+
+ vcexpress.sh
+
+and then open the µManager project via ''File>Open>Project/Solution...''. The file to load is located in ''<development-environment>\src\micromanager\MMCoreJ_wrap'' and is called ''MMCoreJ_wrap.sln'' (there is a "solution" and a "project", you want the "solution"). If you only have Visual Studio Express 2010, you might want to load ''MMCoreJ_wrapvc10.sln'' instead.
+
+Build all of the software by clicking on ''Build>Build Solution'' or by pressing the F7 key.
+
+For full details, see the instructions on the [http://valelab.ucsf.edu/~MM/MMwiki/index.php/Building_MM_on_Windows µManager Wiki].
 
 == Why Microsoft Visual C++? ==
 
