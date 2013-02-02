@@ -1,3 +1,4 @@
+[[Image:Combined_OpenSPIM_buildup_looped.gif|frame|200px|center|OpenSPIM buildup SolidWorks and real]]
 Before you start to assemble please make sure you have all [[table of parts|needed parts]] or you know how to improvise them. The light path of our original design is 50 mm off the top surface of the ThorLabs metric optical breadboard (part #: MB3045/M) where everything is installed.
 
 <b><span style="color:#FF0000"> The optical breadboard has a depth of 300 mm and a width of 450 mm, with a grid of 12 x 18 M6 threaded holes spaced 25 mm apart from one another. We will use a coordinate system similar to a spreadsheet </span></b>(like OpenOffice Calc or Microsoft Excel)<b><span style="color:#FF0000"> to make it easier to know where each component and capscrew is positioned. Starting with A1 in the upper left corner </span></b>(as seen in the images)<b><span style="color:#FF0000">, and ending with R12 in the lower right.</span></b>
