@@ -20,6 +20,8 @@ It will also install the ''OpenSPIM Dev Env'' shortcut on your desktop so you ca
 
 <span style='color:red;'>First, make sure you have your camera driver installed!</span>
 
+'''Note:''' this section is intended primarily to describe what the [[#The easy way|development environment installer]] does. However, you are welcome to follow these steps, if you really must.
+
 === You need Git ===
 
 First of all, you need to make sure that you have the version control software [http://git-scm.com Git] installed. If in doubt, just install [http://msysgit.github.com/ Git for Windows].
