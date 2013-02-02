@@ -55,9 +55,11 @@ For full details, see the instructions on the [http://valelab.ucsf.edu/~MM/MMwik
 
 == Why Microsoft Visual C++? ==
 
-There exists  a free and Open Source alternative to Microsoft Visual C++: [http://gcc.gnu.org/ GNU C++].
+There exists an alternative to Microsoft Visual C++ which is not only free, but also Open Source: [http://gcc.gnu.org/ GNU C++].
 
 Unfortunately, it is impossible to build µManager on Windows with the GNU C++ compiler. The reason is that Microsoft Visual C++ uses an Application Binary Interface (''ABI'') which predates, and is incompatible with, the standard defined by the C++ consortium, but GNU C++ abides by the standard. All of the shared libraries provided by vendors were compiled for Microsoft Visual C++, though, so linking using GNU C++ is impossible.
+
+'''Note:''' even if µManager requires Microsoft Visual Studio, it is sufficient to use [http://www.microsoft.com/visualstudio/eng/downloads the Express version], i.e. the free-of-cost one.
 
 = µManager scripting/plugins =
 
