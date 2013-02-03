@@ -25,8 +25,7 @@ File:Light Sheet Calibration-4.jpg|Close-up of the bottom part, magnified
 |- valign="top"
 | '''1'''
 | '''Determine sample chamber position.'''
-| text
-|}
+| First one must align the OpenSPIM chamber along the detection axis until it is in line with the illumination axis. This assures that the laser is roughly entering in the middle of the back aperture of the 10x/0.3 NA water dipping illumination objective lens. One can see the effects on the light sheet position very easily by observing how the light exits the front of the objective lens into the water. Try and get it to come out parallel to the illumination axis, and perpendicular to the detection axis.
 | [[File:P1070789.ogv|250px]]
 |- valign="top"
 | '''2'''
