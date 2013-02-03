@@ -2,7 +2,7 @@
 |-
 ||<b>The Idea</b>
 OpenSPIM is an <i>Open Access</i> platform for '''Selective Plane Illumination Microscopy''' (''SPIM'').
-|align="center"| &nbsp;
+|align="center" rowspan="3"|[[Image:SPIM_logo.jpg|frameless|200px|SPIM schematic]]
 
 |-
 ||&nbsp;
@@ -10,7 +10,6 @@ OpenSPIM is an <i>Open Access</i> platform for '''Selective Plane Illumination M
 
 ||<b>SPIM principle</b>
 The SPIM technology offers fast, optically-sectioning, minimally-invasive 3D acquisition of fluorescing specimen over time. It achieves that by focusing a thin laser light-sheet into the specimen, taking two-dimensional images of the illuminated slice with a perpendicularly positioned detector (CCD camera). Three-dimensional stacks are obtained by moving the specimen orthogonal to the light-sheet between consecutive images. By mounting the sample in a rigid medium, e.g. agarose, and hanging it into the sample chamber in front of the detection lens, it is possible to rotate the sample and collect 3d stacks from multiple angles (views).
-|align="center"|[[Image:SPIM_logo.jpg|frameless|140px|SPIM schematic]]
 
 |-
 ||&nbsp;
@@ -29,7 +28,7 @@ OpenSPIM is designed to be maximally cost-effective allowing anyone to build an 
 
 OpenSPIM aims to creates a powerful synergy between Open Software and Open Hardware that can serve as a nucleus for further development of the SPIM technology. 
 
-|align="center"| [[Image:Solidworks build up 3fps cont.gif|frame|200px|OpenSPIM buildup]]
+|align="center"| [[Image:Combined buildup small gif vert.gif|frame|OpenSPIM buildup]]
 
 |-
 ||&nbsp;
