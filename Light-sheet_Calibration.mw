@@ -34,14 +34,10 @@ File:Light Sheet Calibration-4.jpg|Close-up of the bottom part, magnified
 | [[File:P1070791.ogv|250px]]
 | [[File:P1070792.ogv|250px]]
 |- valign="top"
-| '''4'''
-| '''Focus the grid/mirror sample.'''
-| text
+| '''3'''
+| '''Focus the grid/mirror sample, and position it in θ.'''
+| Once the grid/mirror sample has been roughly positioned in front of the detection objective, bring it in to focus with the Z-axis of the USB-4D-Stage. After it is in focus and known to be roughly flat across the field of view, rotate it 45 degrees toward the illumination objective. Finally position the sample and focus on a feature on the patterned grid/mirror. This 45 degree orientation makes it possible to bounce the laser coming out of the illumination objective directly into the detection objective.
 | [[File:P1070794.ogv|250px]]
-|- valign="top"
-| '''5'''
-| '''Position the grid/mirror sample in θ.'''
-| text
 | [[File:P1070795.ogv|250px]]
 |- valign="top"
 | '''6'''
