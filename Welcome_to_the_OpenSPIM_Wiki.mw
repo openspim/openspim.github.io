@@ -3,11 +3,17 @@
 ||<b>The Idea</b>
 OpenSPIM is an <i>Open Access</i> platform for '''Selective Plane Illumination Microscopy''' (''SPIM'').
 |align="center"| &nbsp;
+
 |-
+||&nbsp;
+|-
+
 ||<b>SPIM principle</b>
 The SPIM technology offers fast, optically-sectioning, minimally-invasive 3D acquisition of fluorescing specimen over time. It achieves that by focusing a thin laser light-sheet into the specimen, taking two-dimensional images of the illuminated slice with a perpendicularly positioned detector (CCD camera). Three-dimensional stacks are obtained by moving the specimen orthogonal to the light-sheet between consecutive images. By mounting the sample in a rigid medium, e.g. agarose, and hanging it into the sample chamber in front of the detection lens, it is possible to rotate the sample and collect 3d stacks from multiple angles (views).
-|align="center"|[[Image:SPIM_logo.jpg|frameless|150px|SPIM schematic]]
+|align="center"|[[Image:SPIM_logo.jpg|frameless|140px|SPIM schematic]]
 
+|-
+||&nbsp;
 |-
 
 ||<b>OpenSPIM</b><br><br>OpenSPIM is a platform to build, adapt and enhance SPIM technology. It is designed to be as accessible as possible:
@@ -26,15 +32,20 @@ OpenSPIM aims to creates a powerful synergy between Open Software and Open Hardw
 |align="center"| [[Image:Solidworks build up 3fps cont.gif|frame|200px|OpenSPIM buildup]]
 
 |-
+||&nbsp;
+|-
 
 ||<b>SPIM application</b>
 SPIM promises to revolutionize several fields of biological research, in particular developmental and cell biology, by allowing imaging of large samples with high resolution over extended periods of time. SPIM has been used in a spectacular fashion to record the development of embryos of model organisms such as <i>Drosophila</i> and zebra fish with cellular resolution throughout the developing specimen that may consist of tens of thousands of cell (the so-called <i>in toto</i> imaging). The ability of SPIM to deliver high signal-to-noise 3D images of large specimen from different angles in an extended time-lapse is currently hard to achieve with any other microscopy technology. Since monitoring biological systems with high resolution over time is the goal of essentially all fields of biological inquiry, SPIM technology is imminently useful to biologists.
 |align="center"|[[Image:Supplementary_Video_5_Drosophila_Embryogenesis.gif|frame|200px|right|SPIM recording of Drosophila embryogenesis]]
 
 |-
+||&nbsp;
+|-
 
 ||Partners and funding: [[Image:Mpi-cbg-logo.gif|frameless|150px]] [[Image:LOCI_logo.jpg|frameless|200px]] [[Image:ERC_acronym.jpg|frameless|100px]]
 |}
+
 = Timeline =
 
 We are currently finishing the review of this Wiki to ensure that all instructions are complete and correct. If you would like to be notified when the Wiki will be open to the public, please [mailto:openspim@openspim.org send us a mail].
