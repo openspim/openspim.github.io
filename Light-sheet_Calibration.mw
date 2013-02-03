@@ -1,4 +1,4 @@
-== material ==
+== Materials ==
 
 ===== Objects needed =====
 
@@ -19,13 +19,14 @@ File:Light Sheet Calibration-3.jpg|Bottom part, magnified
 File:Light Sheet Calibration-4.jpg|Close-up of the bottom part, magnified
 </gallery>
 
-== protocol ==
+== Method ==
 
 {| border="0" cellpadding="6" cellspacing="0"
 |- valign="top"
 | '''1'''
 | '''Determine sample chamber position.'''
 | text
+|}
 | [[File:P1070789.ogv|250px]]
 |- valign="top"
 | '''2'''
