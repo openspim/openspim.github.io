@@ -40,9 +40,9 @@ File:Light Sheet Calibration-4.jpg|Close-up of the bottom part, magnified
 | [[File:P1070794.ogv|250px]]
 | [[File:P1070795.ogv|250px]]
 |- valign="top"
-| '''6'''
+| '''4'''
 | '''Replace the emission filter with a ND filter.'''
-| text
+| A ND filter should be used in either the illumination path or detection path due to the high power of the laser. The intensity of the light could damage the system's camera or over-saturate the image.  
 | [[File:P1070796.ogv|250px]]
 |- valign="top"
 | '''7'''
