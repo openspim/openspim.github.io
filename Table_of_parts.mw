@@ -92,7 +92,7 @@
 |- align="center"
 || OpenSPIM
 |bgcolor="green"| self made
-|| elevates the center of the vertical slit 13.17 mm from the rail carrier to the desired height of 50 mm off the surface of the optical breadboard <br><br> ''plus 1x M4x23* mm capscrew''<br><br> ''*cut a M4x25 mm down to size''
+|| elevates the center of the vertical slit 13.17 mm from the rail carrier to the desired height of 50 mm off the surface of the optical breadboard <br><br> ''plus 1x M4x23* mm capscrew''<br><br> '''*cut a M4x25 mm down to size'''
 || [[:File:OpenSPIM_Stilt_Vertical-slit.STL|13.17 mm.stl]]<br/>[[:File:OpenSPIM_Stilt_Vertical-slit.STEP|13.17 mm.step]]<br/>[[:File:Vertical-slit rail-carrier stilt 13-17mm.PDF|13.17 mm.pdf]]
 || [[File:OpenSPIM_Stilt_Vertical-slit.JPG|thumb|center|upright=0.7|center]]
 ||  1
