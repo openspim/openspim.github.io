@@ -124,7 +124,7 @@
 |- align="center"
 || OpenSPIM
 |bgcolor="green"| self made
-|| elevates the center of the Ø1" (25.4 mm) Polaris mirror mounts 5.5 mm from the rail carrier to the desired height of 50 mm off the surface of the optical breadboard <br><br> ''plus 1x M4x10 mm capscrew''
+|| elevates the center of the Ø1" (25.4 mm) Polaris mirror mounts 5.5 mm from the rail carrier to the desired height of 50 mm off the surface of the optical breadboard <br><br> ''plus 2x M4x20 mm capscrews and 2x M4 nuts''
 || [[:File:OpenSPIM_Stilt_1-2in-Mirror.STL|5.5 mm.stl]]<br/>[[:File:OpenSPIM_Stilt_1-2in-Mirror.STEP|5.5 mm.step]]<br/>[[:File:Mirror rail-carrier stilt 5-5mm.PDF|5.5 mm.pdf]]
 || [[File:OpenSPIM_Stilt_1-2in-Mirror.JPG|thumb|center|upright=0.7|center]]
 || 2  
