@@ -146,14 +146,6 @@
 || 1  
 ||  &nbsp;
 |- align="center"
-|| ThorLabs
-|bgcolor="pink"| purchase
-|| POLARIS-K1 - PolarisTM Low Drift Ø1" Kinematic Mirror Mount  
-|| [http://thorlabs.com/thorProduct.cfm?partNumber=POLARIS-K1 POLARIS-K1]<br/>[http://thorlabs.com/thorProduct.cfm?partNumber=POLARIS-K1-H POLARIS-K1-H] 
-|| [[File:ThorLabs POLARIS-K1 Kinematic-Mirror-Mount Diameter=1in.jpg|thumb|upright=0.7|center]]
-|| 3 
-|| 115
-|- align="center"
 || OpenSPIM
 |bgcolor="green"| self made 
 || elevates the center of the Ø1" (25.4 mm) mirror mount 24.55 mm to the desired height of 50 mm off the surface of the optical breadboard
@@ -161,6 +153,14 @@
 || [[File:OpenSPIM_Stilt_1in-Mirror.JPG|thumb|center|upright=0.7|center]]
 || 1  
 ||  &nbsp;
+|- align="center"
+|| ThorLabs
+|bgcolor="pink"| purchase
+|| POLARIS-K1 - PolarisTM Low Drift Ø1" Kinematic Mirror Mount  
+|| [http://thorlabs.com/thorProduct.cfm?partNumber=POLARIS-K1 POLARIS-K1]<br/>[http://thorlabs.com/thorProduct.cfm?partNumber=POLARIS-K1-H POLARIS-K1-H] 
+|| [[File:ThorLabs POLARIS-K1 Kinematic-Mirror-Mount Diameter=1in.jpg|thumb|upright=0.7|center]]
+|| 3 
+|| 115
 |}
 
 == Illumination Axis Optical Components List ==
