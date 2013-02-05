@@ -68,7 +68,7 @@
 |- align="center"
 || ThorLabs
 |bgcolor="pink"| purchase   
-|| Metric Dovetail Optical Rail, 150 mm<br><br>''plus two M6 x 12mm cap screws from screw set for each''
+|| Metric Dovetail Optical Rail, 150 mm<br><br>''plus (at least) two M6 x 12mm cap screws from screw set for each''
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=RLA150/M RLA150/M ] 
 || [[File:ThorLabs_RLA075-M_Meteric-Dovetail-Optical-Rail_Length=150mm.jpg|thumb|upright=0.7|center]]
 || 2
@@ -92,7 +92,7 @@
 |- align="center"
 || OpenSPIM
 |bgcolor="green"| self made
-|| elevates the center of the vertical slit 13.17 mm from the rail carrier to the desired height of 50 mm off the surface of the optical breadboard
+|| elevates the center of the vertical slit 13.17 mm from the rail carrier to the desired height of 50 mm off the surface of the optical breadboard <br><br> ''plus 1x M4x23* mm capscrew''<br><br> ''*cut a M4x25 mm down to size''
 || [[:File:OpenSPIM_Stilt_Vertical-slit.STL|13.17 mm.stl]]<br/>[[:File:OpenSPIM_Stilt_Vertical-slit.STEP|13.17 mm.step]]<br/>[[:File:Vertical-slit rail-carrier stilt 13-17mm.PDF|13.17 mm.pdf]]
 || [[File:OpenSPIM_Stilt_Vertical-slit.JPG|thumb|center|upright=0.7|center]]
 ||  1
@@ -108,7 +108,7 @@
 |- align="center"
 || OpenSPIM
 |bgcolor="green"| self made
-|| elevates the center of the Ø1/2" (12.7 mm) lenses 14.95 mm from the rail carrier to the desired height of 50 mm off the surface of the optical breadboard <br><br> ''Note: One could also buy a pack or two of [http://www.thorlabs.de/thorProduct.cfm?partNumber=SC1/M SC1/M]'s and trim off 0.05 mm, but it might not be such an easy task''
+|| elevates the center of the Ø1/2" (12.7 mm) lenses 14.95 mm from the rail carrier to the desired height of 50 mm off the surface of the optical breadboard <br><br> ''plus 6x M4x25 mm capscrews''<br><br> ''Note: One could also buy a pack or two of [http://www.thorlabs.de/thorProduct.cfm?partNumber=SC1/M SC1/M]'s and trim off 0.05 mm, but it might not be such an easy task''
 || [[:File:OpenSPIM_Stilt_1-2in-Lens.STL|14.95 mm.stl]]<br/>[[:File:OpenSPIM_Stilt_1-2in-Lens.STEP|14.95 mm.step]]<br/>[[:File:OpenSPIM_Stilt_1-2in-Lens.PDF|14.95 mm.pdf]]
 || [[File:OpenSPIM_Stilt_1-2in-Lens.JPG|thumb|center|upright=0.7|center]]
 || 6  
