@@ -116,7 +116,7 @@
 |- align="center"
 || ThorLabs
 |bgcolor="pink"| purchase
-|| Ø1/2" (Ø12.7 mm) optic mount (for light sheet creation)
+|| Ø1/2" (Ø12.7 mm) optic mount
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=LMR05/M LMR05/M]
 || [[File:ThorLabs_LMR05-M_Lens-Mount_Dia=0-5in.jpg|thumb|upright=0.7|center]] 
 || 6 
@@ -124,7 +124,7 @@
 |- align="center"
 || OpenSPIM
 |bgcolor="green"| self made
-|| The '''RC1 Ø1" mirror stilt'''elevates the center of the Ø1" (Ø25.4 mm) Polaris mirror mounts 5.5 mm from the rail carrier to the desired height of 50 mm off the surface of the optical breadboard <br><br> ''plus 1x M4 x 20 mm capscrews and 1x M4 nut for each''
+|| The '''RC1 Ø1" mirror stilt''' elevates the center of the Ø1" (Ø25.4 mm) Polaris mirror mounts 5.5 mm from the rail carrier to the desired height of 50 mm off the surface of the optical breadboard <br><br> ''plus 1x M4 x 20 mm capscrews and 1x M4 nut for each''
 || [[:File:OpenSPIM_Stilt_1-2in-Mirror.STL|5.5 mm.stl]]<br/>[[:File:OpenSPIM_Stilt_1-2in-Mirror.STEP|5.5 mm.step]]<br/>[[:File:Mirror rail-carrier stilt 5-5mm.PDF|5.5 mm.pdf]]
 || [[File:OpenSPIM_Stilt_1-2in-Mirror.JPG|thumb|center|upright=0.7|center]]
 || 2  
