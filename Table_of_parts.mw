@@ -84,19 +84,11 @@
 |- align="center"
 || ThorLabs
 |bgcolor="pink"| purchase
-|| Rail carrier 1" (25.4 mm)<br><br>''comes with 1 [http://www.thorlabs.de/thorProduct.cfm?partNumber=SD1 SD1], but it couldn't hurt to buy more...''
+|| Rail carrier 1" (25.4 mm)<br><br>''comes with 1 [http://www.thorlabs.de/thorProduct.cfm?partNumber=SD1 SD1], but it couldn't hurt to buy one pack of 10''
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=RC1 RC1]
 || [[File:ThorLabs_RC1-M_Rail-Carrier_for_Dovetail-Optical-Rail.jpg|thumb|upright=0.7|center]]
 || 8  
 || 20 
-|- align="center"
-|| ThorLabs
-|bgcolor="yellow"| modify
-|| Modified Rail carrier 15.4 mm <br/><br/> made from one of the RC1's
-|| [[:File:MODIFIED ThorLabs RC1-M Rail-Carrier for Dovetail-Optical-Rail.PDF|RC1 mod.pdf]]
-|| [[File:MODIFIED ThorLabs RC1-M Rail-Carrier for Dovetail-Optical-Rail-1.jpg|thumb|upright=0.7|center]]
-|| 1  
-||  &nbsp;
 |- align="center"
 || OpenSPIM
 |bgcolor="green"| self made
@@ -138,14 +130,6 @@
 || 2  
 ||  &nbsp;
 |- align="center"
-|| OpenSPIM
-|bgcolor="green"| self made 
-|| elevates the center of the Ø1" (25.4 mm) mirror mount 24.55 mm to the desired height of 50 mm off the surface of the optical breadboard
-|| [[:File:OpenSPIM_Stilt_1in-Mirror.STL|24.55 mm.stl]]<br/>[[:File:OpenSPIM_Stilt_1in-Mirror.STEP|24.55 mm.step]]<br/>[[:File:OpenSPIM_Stilt_1in-Mirror.PDF|24.55 mm.pdf]]
-|| [[File:OpenSPIM_Stilt_1in-Mirror.JPG|thumb|center|upright=0.7|center]]
-|| 1  
-||  &nbsp;
-|- align="center"
 || ThorLabs
 |bgcolor="pink"| purchase
 || Metric Rotation Mount for Ø1" (25.4 mm) optics, 360° Continuous or 15° Indexed Rotation 
@@ -155,12 +139,28 @@
 || 110
 |- align="center"
 || ThorLabs
+|bgcolor="yellow"| modify
+|| Modified Rail carrier 15.4 mm <br/><br/> made from one of the RC1's
+|| [[:File:MODIFIED ThorLabs RC1-M Rail-Carrier for Dovetail-Optical-Rail.PDF|RC1 mod.pdf]]
+|| [[File:MODIFIED ThorLabs RC1-M Rail-Carrier for Dovetail-Optical-Rail-1.jpg|thumb|upright=0.7|center]]
+|| 1  
+||  &nbsp;
+|- align="center"
+|| ThorLabs
 |bgcolor="pink"| purchase
 || POLARIS-K1 - PolarisTM Low Drift Ø1" Kinematic Mirror Mount  
 || [http://thorlabs.com/thorProduct.cfm?partNumber=POLARIS-K1 POLARIS-K1]<br/>[http://thorlabs.com/thorProduct.cfm?partNumber=POLARIS-K1-H POLARIS-K1-H] 
 || [[File:ThorLabs POLARIS-K1 Kinematic-Mirror-Mount Diameter=1in.jpg|thumb|upright=0.7|center]]
 || 3 
 || 115
+|- align="center"
+|| OpenSPIM
+|bgcolor="green"| self made 
+|| elevates the center of the Ø1" (25.4 mm) mirror mount 24.55 mm to the desired height of 50 mm off the surface of the optical breadboard
+|| [[:File:OpenSPIM_Stilt_1in-Mirror.STL|24.55 mm.stl]]<br/>[[:File:OpenSPIM_Stilt_1in-Mirror.STEP|24.55 mm.step]]<br/>[[:File:OpenSPIM_Stilt_1in-Mirror.PDF|24.55 mm.pdf]]
+|| [[File:OpenSPIM_Stilt_1in-Mirror.JPG|thumb|center|upright=0.7|center]]
+|| 1  
+||  &nbsp;
 |}
 
 == Illumination Axis Optical Components List ==
