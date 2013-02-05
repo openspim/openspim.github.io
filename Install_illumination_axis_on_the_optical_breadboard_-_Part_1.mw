@@ -50,7 +50,9 @@ Put the M4 x 45 mm capscrew through a SD1 M4 to M6 adapter, then the capscrew/ad
 
 ===== How and where to install the laser with heatsink on the optical breadboard =====
 
-Place the CUBE laser heatsink assembly so that the mounting capscrew holes/notches are at D8, D10, H8 & H10 on the optical breadboard respectively. Using a 5 mm hex key/driver, screw the heatsink down to the optical breadboard using M6x25 mm capscrews. 
+Place the laser heatsink so that the mounting capscrew holes/notches are at D8, D10, H8 & H10 on the optical breadboard respectively. Using a 5 mm hex key/driver, screw the heatsink down to the optical breadboard using M6x25 mm capscrews. 
+
+Apply heat transfer paste to the top of the heatsink, and install the CUBE laser on top of the heat sink with the four M4 capscrews that came with it.
 
 ''Note that in this video the laser is already bolted onto the heatsink.''
 [[File:Installation_Laser-w-Heatsink_to_Optical-Breadboard_Take-2.ogv]]
