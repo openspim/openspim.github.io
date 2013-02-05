@@ -360,7 +360,7 @@
 |- align="center"
 || [http://www.picard-industries.com/ Picard-Industries]
 |bgcolor="pink"| purchase
-|| compact 4 axis motor assembly USB-4D-Stage from Picard-Industries<br><br>''Includes 4 motors assembled on a base plate, sample positioning arm, 5 M3 screws to bolt the sample positioning arm onto the motor assembly''
+|| compact 4 axis motor assembly '''USB-4D-Stage''' from Picard-Industries<br><br>''Includes 4 motors assembled on a base plate, sample positioning arm, 5 M3 screws to bolt the sample positioning arm onto the motor assembly''
 || USB-4D-Stage
 || [[File:4d motorsystem.jpg|thumb|upright=0.7|center]]
 || 1
@@ -368,7 +368,7 @@
 |- align="center"
 || OpenSPIM
 |bgcolor="green"| self made
-|| pulley system to attach to sample holder arm and rotate the sample
+|| '''pulley system''' to attach to sample holder arm and rotate the sample
 || [[:File:OpenSPIM Sample Pulley.STL|sample.stl]]<br>[[:File:OpenSPIM Sample Pulley.PDF|sample.pdf]]<br><br>[[:File:OpenSPIM Motor Pully.STL|motor.stl]]<br>[[:File:OpenSPIM Motor Pully.PDF|motor.pdf]]
 || [[File:Pulleys.jpg|thumb|upright=0.7|center]]
 || 1 each
@@ -384,7 +384,7 @@
 |- align="center"
 || OpenSPIM
 |bgcolor="pink"| purchase
-|| Ball bearing for the front part of the sample rotation pulley system.<br><br>''Shown inserted inside the sample positioning arm''
+|| '''Ball bearing system''' for the front part of the sample rotation pulley system.<br><br>''Note: shown inserted inside the sample positioning arm''
 || [http://de.rs-online.com/web/p/kugellager/4090057/ NSK 6001Z]
 || [[File:Ballbearing pulley.jpg|thumb|upright=0.7|center]]
 || 1 
@@ -392,7 +392,7 @@
 |- align="center"
 || ThorLabs
 |bgcolor="pink"| purchase
-|| Breadboard clamps to hold the positioned motor assembly onto the breadboard<br><br>Variable Height Clamp, Metric, M6 Tapped 
+|| '''Breadboard clamps''' to hold the positioned motor assembly onto the breadboard<br><br>Variable Height Clamp, Metric, M6 Tapped 
 || [http://www.thorlabs.de/thorProduct.cfm?partNumber=CL3/M CL3/M 2"]<br><br>[http://www.thorlabs.de/thorProduct.cfm?partNumber=CL2/M CL2/M 3"]
 || [[File:Table Clamp.jpg|thumb|upright=0.7|center]]
 || 2-3
