@@ -413,7 +413,7 @@
 |- align="center"
 || Apple
 |bgcolor="pink"| purchase
-|| Laptop computer to operate the OpenSPIM system. We use Apple MacBook Pro with effectively 4GB of RAM and 256GB SSS hard drive running 32 bit Windows XP. ''Note:We are forced to use Windows due to availability of drivers.''
+|| Laptop '''computer''' to operate the OpenSPIM system. We use Apple MacBook Pro with effectively 4GB of RAM and 256GB SSS hard drive running 32 bit Windows XP. ''Note: We are forced to use Windows due to availability of drivers, and the MacBook Pro for it's firewire jack''
 || [http://www.apple.com Mac Book Pro]
 || [[File:Computer.jpg|thumb|upright=0.7|center]]
 || 1
@@ -421,7 +421,7 @@
 |- align="center"
 || Hamamatsu
 |bgcolor="pink"| purchase
-|| Digital camera Hamamatsu Orca-ER<br><br>''Includes power supply and cables - firewire to computer.''
+|| '''Digital camera Hamamatsu Orca-ER'''<br><br>''Includes power supply and cables - firewire to computer.''
 || [http://www.digitalimagingsystems.co.uk/hardware/orca_er.html Hamamatsu Orca-ER]
 || [[File:Camera plus powersupply.jpg|thumb|upright=0.7|center]]
 || 1
@@ -429,7 +429,7 @@
 |- align="center"
 || Keyspan
 |bgcolor="pink"| purchase
-|| USB to serial adapter for the laser
+|| '''USB to serial adaptor''' for the laser
 || [http://www.tripplite.com/en/products/model.cfm?txtModelID=3914 TRIPP-LITE Model-USA-19HS]
 || [[File:Keyspan.jpg|thumb|upright=0.7|center]]
 || 1
@@ -437,7 +437,7 @@
 |- align="center"
 || any electronics vendor
 | bgcolor="pink"| purchase
-|| USB cables for the 4D positioning system and USB hub (at minimum 5 USB positions)
+|| '''USB cables''' for the 4D positioning system and USB hub (at minimum 5 USB positions)
 || &nbsp;
 || [[File:Usb cables.jpg|thumb|upright=0.7|center]]
 || 4 & 1
@@ -445,7 +445,7 @@
 |- align="center"
 || any electronics vendor
 |bgcolor="pink"| purchase
-|| USB led lamp for brightfield illumination of the sample during set-up
+|| USB led '''lamp''' for brightfield illumination of the sample during set-up
 || [http://www.conrad.de/ce/de/product/775534/USB-LED-LAMPE-SCHWANENHALS-MIT-1-LED/SHOP_AREA_40124&promotionareaSearchDetail=005 Conrad electronics] 
 || [[File:Usb led.jpg|thumb|upright=0.7|center]]
 || 1
