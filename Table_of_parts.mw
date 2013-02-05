@@ -283,7 +283,7 @@
 |- align="center"
 || OpenSPIM
 |bgcolor="green"| self made 
-|| The <b>detection axis holder</b> holds everything behind the detection objective to the camera at the desired height of 50 mm off the surface of the optical breadboard.<br><br>''plus two M5 x 50mm and two M6 x 25mm screws''
+|| The '''detection axis holder''' holds everything behind the detection objective to the camera at the desired height of 50 mm off the surface of the optical breadboard.<br><br>''plus two M5 x 50mm and two M6 x 25mm screws''
 || [[:File:OpenSPIM Detection-Axis-Holder Base.STL|Base.stl]]<br/>[[:File:OpenSPIM Detection-Axis-Holder Base.STEP|Base.step]]<br/>[[:File:OpenSPIM Detection-Axis-Holder Base.PDF|Base.pdf]]<br/><br/>[[:File:OpenSPIM_Detection-Axis-Holder_Top.STL|Top.stl]]<br/>[[:File:OpenSPIM_Detection-Axis-Holder_Top.STEP|Top.step]]<br/>[[:File:OpenSPIM_Detection-Axis-Holder_Top.PDF|Top.pdf]]
 || [[File:Detectionaxis holder.jpg|thumb|center|upright=0.7|center]]
 || 1  
@@ -291,7 +291,7 @@
 |- align="center"
 || OpenSPIM
 |bgcolor="green"| self made
-|| The <b>infinity space tube</b> defines the distance between the detection objective and it's tube lens.<br><br>''plus three M2.5 x 6mm setscrews 120 degrees opposed to each other''
+|| The '''infinity space tube''' defines the distance between the detection objective and it's tube lens.<br><br>''plus three M2.5 x 6mm setscrews 120 degrees opposed to each other''
 || [[:File:OpenSPIM_Infinity-Space.STL|infinity.stl]]<br/>[[:File:OpenSPIM_Infinity-Space.STEP|infinity.step]]<br/>[[:File:OpenSPIM_Infinity-Space.PDF|infinity.pdf]]
 || [[File:Infinity space.jpg|thumb|center|upright=0.7|center]]
 || 1 
@@ -299,7 +299,7 @@
 |- align="center"
 || [http://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=1001 ThorLabs] <br/> [http://www.semrock.com/ Semrock] <br/> [http://www.chroma.com/ Chroma] <br/> [http://www.omegafilters.com/ Omega]
 |bgcolor="pink"| purchase
-|| Ø1"/25.4 mm Fluorescent Microscopy Filter <br/><br/> Make sure to get at least one good bandpass (FWHM 30-50 nm) and a longpass that block the illumination well
+|| Ø1"/25.4 mm '''Fluorescent Microscopy Filter''' <br><br> Make sure to get at least one good bandpass (FWHM 30-50 nm) and a longpass that block the illumination well
 || &nbsp;
 || [[File:AHF Fluorescent-Filter.jpg|thumb|upright=0.7|center]]
 || &nbsp;
@@ -307,7 +307,7 @@
 |- align="center"
 || OpenSPIM
 |bgcolor="green"| self made
-|| Ø1"/Ø25.4 mm '''microscopy fluorescence emission filter holder''' that fits into OpenSPIM's infinity space <br/> <br/> Here are some companies who make Ø1"/Ø25.4 mm microscopy filters: <br/>[http://www.semrock.com/ Semrock], [http://www.chroma.com/ Chroma],<br/>[http://www.omegafilters.com/ Omega], and even [http://thorlabs.com/navigation.cfm?Guide_ID=21 ThorLabs].<br><br>''Note: the CAD files are showing fancier version compared to the pictures''
+|| Ø1"/Ø25.4 mm '''microscopy fluorescence emission filter holder''' that fits into OpenSPIM's infinity space <br><br> Here are some companies who make Ø1" (Ø25.4 mm) microscopy filters: <br> [http://www.semrock.com/ Semrock], <br> [http://www.chroma.com/ Chroma], <br> [http://www.omegafilters.com/ Omega], <br> and even [http://thorlabs.com/navigation.cfm?Guide_ID=21 ThorLabs]. <br><br>''Note: the CAD files are showing fancier version compared to the pictures''
 || [[:File:OpenSPIM 1in Micro Filter-Holder_Base.STL|Base.stl]]<br/>[[:File:OpenSPIM 1in Micro Filter-Holder_Base.STEP|Base.step]]<br/>[[:File:OpenSPIM 1in Micro Filter-Holder_Base.PDF|Base.pdf]]<br/><br/>[[:File:OpenSPIM 1in Micro Filter-Holder_Top.STL|Top.stl]]<br/>[[:File:OpenSPIM 1in Micro Filter-Holder_Top.STEP|Top.step]]<br/>[[:File:OpenSPIM 1in Micro Filter-Holder_Top.PDF|Top.pdf]]
 || [[File:Filters holders.jpg|thumb|center|upright=0.7|center]]
 || 2
@@ -315,7 +315,7 @@
 |- align="center"
 || OpenSPIM
 |bgcolor="green"| self made
-|| Ø1 1/4"/Ø31.5 mm '''astronomy filter''' holder that fits into OpenSPIM's infinity space<br><br>''Note: the CAD files are showing fancier version compared to the pictures''
+|| Ø1 1/4" (Ø31.5 mm) '''astronomy filter holder''' that fits into OpenSPIM's infinity space <br><br>''Note: the CAD files are showing fancier version compared to the pictures''
 || [[:File:OpenSPIM_1-25in_Astro_Filter-Holder_Base.STL|Base.stl]]<br/>[[:File:OpenSPIM_1-25in_Astro_Filter-Holder_Base.STEP|Base.step]]<br/>[[:File:OpenSPIM_1-25in_Astro_Filter-Holder_Base.PDF|Base.pdf]]<br/><br/>[[:File:OpenSPIM_1-25in_Astro_Filter-Holder_Top.STL|Top.stl]]<br/>[[:File:OpenSPIM_1-25in_Astro_Filter-Holder_Top.STEP|Top.step]]<br/>[[:File:OpenSPIM_1-25in_Astro_Filter-Holder_Top.PDF|Top.pdf]]
 || [[File:Astro filterholder.jpg|thumb|center|upright=0.7|center]]
 || 2 
@@ -323,7 +323,7 @@
 |- align="center"
 || Olympus
 |bgcolor="pink"| purchase
-|| Tube lens for detection objective
+|| '''Tube lens''' for detection objective
 || [http://www.olympusamerica.com/seg_section/files/scientific_component_guide.pdf U-TLU (page36)]
 || [[File:Olympos tubelenss.jpg|thumb|upright=0.7|center]]
 || 1 
@@ -331,7 +331,7 @@
 |- align="center"
 || Olympus
 |bgcolor="pink"| purchase
-|| 1x magnifying camera mount
+|| 1x magnifying '''camera mount'''
 || [http://www.olympusamerica.com/seg_section/files/scientific_component_guide.pdf U-TV1 X & U-CMAD3 (page37)]
 || [[File:OneX c-mount.jpg|thumb|center|upright=0.7|center]]
 || 1 
@@ -339,7 +339,7 @@
 |- align="center"
 || Olympus
 |bgcolor="pink"| purchase 
-|| 0.5x magnifying camera mount
+|| 0.5x magnifying '''camera mount'''
 || [http://www.olympusamerica.com/seg_section/files/scientific_component_guide.pdf U-TV0.5XC-3 (page 36)]
 || [[File:Point5X.jpg|thumb|center|upright=0.7|center]]
 || 1 
