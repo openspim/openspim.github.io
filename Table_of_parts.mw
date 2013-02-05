@@ -24,7 +24,7 @@
 |- align="center"
 || OpenSPIM
 |bgcolor="green"| self made 
-|| Functions as '''heat sink''' and brings the laser to the desired height of 50 mm off the surface of the optical breadboard<br/><br/><b><span style="color:#FF0000"> Must be made out of a heat conducting material!!</span></b> We use Aluminum.
+|| The '''heat sink''' brings the laser to the desired height of 50 mm off the surface of the optical breadboard<br/><br/><b><span style="color:#FF0000"> Must be made out of a heat conducting material!!</span></b> We use Aluminum.
 || [[:File:OpenSPIM_Cube-Laser_Heatsink.STL|Heatsink.stl]]<br/>[[:File:OpenSPIM_Cube-Laser_Heatsink.STEP|Heatsink.step]]<br/>[[:File:OpenSPIM_Cube-Laser_Heatsink.PDF|Heatsink.pdf]]
 || [[File:Laser heatsink.jpg|thumb|upright=0.7|center]] 
 || 1 
