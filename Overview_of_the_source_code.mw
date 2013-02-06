@@ -42,7 +42,7 @@ The OpenSPIM plugin also uses a hack that allows us to intercept user input to �
 
 === Acquisition engine ===
 
-Extending the default acquisition engine is difficult, due to µManager's acquisition engine having been implemented in the rather obscure language Clojure. This precludes the addition of features such as an additional dimension (the angle), anti-drift and OME-TIFF output. As such, we had to reinvent the acquisition engine in pure Java; our source code lives in the [https://github.com/openspim/micromanager/tree/openspim/plugins/SPIMAcquisition/spim/progacq ''spim.progacq''] package of the ''SPIMAcquisition'' plugin and we welcome enhancements (a port to Clojure is not an enhancement, by the way).
+Extending the default acquisition engine is difficult, due to µManager's acquisition engine having been implemented in the rather obscure language Clojure. This precludes the addition of features such as an additional dimension (the angle), anti-drift and OME-TIFF output. As such, we had to reinvent the acquisition engine in pure Java; our source code lives in the [https://github.com/openspim/micromanager/tree/openspim/plugins/SPIMAcquisition/spim/progacq ''spim.progacq''] package of the ''SPIMAcquisition'' plugin and we welcome enhancements (excepting only a port to Clojure).
 
 === Calibration of the rotational axis ===
 
