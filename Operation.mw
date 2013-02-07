@@ -23,15 +23,15 @@ We also recommend examining the signal in the imaged specimen and tweaking the l
 = Software =
 [[Image:Stagecontrols.png|thumb|right|Screenshot of OpenSPIM stage control]]
 
-OpenSPIM relies on [http://valelab.ucsf.edu/~MM/MMwiki/ µManager] run under [http://fiji.sc Fiji]. Make sure you [[Downloads|download and install]] all the required components.
+OpenSPIM relies on [http://valelab.ucsf.edu/~MM/MMwiki/ µManager] run under [http://fiji.sc Fiji]. Make sure you [[Downloads|'''download and install''']] all the required components.
 
-Next please follow the instructions to [[Downloads#Initial_hardware_configuration|configure the hardware]] properly before trying to acquire images.
+Next, please follow the instructions to [[Downloads#Initial_hardware_configuration|'''configure the hardware''']] properly before trying to acquire images.
 
 [[OpenSPIM Software start up|Start up]] the OpenSPIM µManager plugin.
 
 Make yourself familiar with the operation of the OpenSPIM [[OpenSPIM stage control|stage control]]
 
-Now you are ready to [[Acquisition| acquire]] images. Please follow these step-by-step tutorials.
+Now you are ready to [[Acquisition|acquire]] images. Please follow these step-by-step tutorials:
 
 * [[Acquisition#Acquiring a Single Image|Acquiring a Single Image]]
 * [[Acquisition#Acquiring a Stack|Acquiring a Stack]]
