@@ -19,7 +19,7 @@ At this point, the user can make whatever changes they like:
 
 If the current view starts to be acquired again (because the other views have all been acquired in the background and the next timepoint has begun), the offset will automatically be accepted as though the user had pressed Enter.
 
-The goal of the interactive control is to align the green image with the crosshairs (representing the center of the stack to be acquired) in such a way that the entirety of the
+The goal of the interactive control is to align the green image with the crosshairs (representing the center of the stack to be acquired) in such a way that the entirety of the sample's image in green is within the borders of each projection. This will make sure the motors are positioned correctly the next time the stack is acquired.
 
 [[Category:Software]]
 [[Category:Operation]]
