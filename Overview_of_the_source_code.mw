@@ -24,7 +24,7 @@ OpenSPIM's additions and enhancements to µManager are divided into three parts:
 
 == Additional hardware drivers ==
 
-We added an ''OpenSPIM'' driver (called ''DeviceAdapter'' by µManager). This driver is written in C++, like all DeviceAdapters in µManager, and lives in the [https://github.com/openspim/micromanager/tree/openspim/DeviceAdapters/OpenSPIM/ ''DeviceAdapters/OpenSPIM/''] subdirectory. It implements an XY stage, the Z stage and another 'stage' for the rotation device (called ''twister'' by Picard systems).
+We added an ''OpenSPIM'' driver (called ''DeviceAdapter'' by µManager). This driver is written in C++, like all DeviceAdapters in µManager, and lives in the [https://github.com/openspim/micromanager/tree/openspim/DeviceAdapters/OpenSPIM/ ''DeviceAdapters/OpenSPIM/''] subdirectory. It implements an XY stage, a Z stage and another 'stage' for the rotation device (called ''twister'' by Picard systems).
 
 Our [https://github.com/openspim/micromanager/tree/openspim/DeviceAdapters/dc1394/ ''dc1394'' driver] adaptation for 32-bit Windows has been [https://github.com/openspim/micromanager/commits/svn/git-svn/DeviceAdapters/dc1394 merged upstream] and [https://github.com/openspim/micromanager/commit/1301411b14d35ede4f46b71e39574b86086517f3 integrated into the default Windows 32-bit build].
 
