@@ -7,7 +7,7 @@ The OpenSPIM plugin implements an interactive anti-drift strategy that combines 
 
 == Automatic Processing ==
 
-As each stack is acquired, its slices are averaged together in three dimensions to yield three average-projections: XY, XZ, and ZY. Before the anti-drift GUI is displayed to the user, each of these projections is phase-correlated to the projection saved by the last time this same view was processed. After this, the GUI is displayed, with the phase-correlation offset already applied.
+As each stack is acquired, its slices are averaged together in three dimensions to yield three average-projections: XY, XZ, and ZY. Before the anti-drift GUI is displayed to the user, each of these projections is phase-correlated to the projection saved from the last time this same view was processed. Then the determined offset is applied and the GUI is displayed until the next time this view is to be imaged (or until the user dismisses it).
 
 == Interactive Control ==
 
