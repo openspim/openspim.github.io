@@ -12,11 +12,11 @@ There are many other strategies to mount SPIM samples using FEP tubes, hooks or 
 
 = Calibration =
 [[Image:1I 1D OpenSPIM.png|thumb|OpenSPIM rendering with laser on]]
-Before using the OpenSPIM the light sheet needs to be  [[Light-sheet Calibration|'''aligned''']]. It means that the light sheet needs to be shaped by the optics of the system to be parallel to the imaging plane of the camera, perpendicular to the detection axis, as thin as possible, uniform across the field of view and most importantly in focus with the detection objective. Since the procedure is rather involved we provide a series of detailed videos that illustrate the process. Innovations are welcome.
+Before using the OpenSPIM the light sheet needs to be  [[Light-sheet Calibration|'''aligned''']]. This means that the light sheet needs to be shaped by the optics of the system to be parallel to the imaging plane of the camera, perpendicular to the detection axis, as thin as possible, uniform across the field of view and, most importantly, in focus with the detection objective. Since the procedure is rather involved, we provide a series of detailed videos that illustrate the process. Innovations are welcome.
 
-Although once aligned the light sheet is rather stable it should be [[Light-sheet Calibration|'''aligned''']] in regular intervals or whenever the image quality or point spread function of the beads looks suboptimal.
+Although the light sheet is rather stable once aligned, it should be [[Light-sheet Calibration|'''aligned''']] at regular intervals or whenever the image quality or point spread function of the beads looks suboptimal.
 
-We also recommend to examine the signal in the imaged specimen and tweak the light sheet using the bottom knob on the lower left corner mirror of the set-up to optimize the image quality. The knob moves the light sheet roughly parallel to the focal plane of the detection lens and thus moving it back and forth focuses the lens into the middle of the light sheet.
+We also recommend examining the signal in the imaged specimen and tweaking the light sheet using the bottom knob on the lower left corner mirror of the set-up to optimize the image quality. The knob moves the light sheet roughly parallel to the focal plane of the detection lens, and thus moving it back and forth focuses the lens into the middle of the light sheet.
 
 [[Category:Hardware]]
 
