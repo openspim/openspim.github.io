@@ -2,7 +2,7 @@ Now that we have assembled the OpenSPIM microscope it is time to start using it.
 
 = Sample Preparation =
 [[File:Pulling embryos into capillary.ogv|thumb|Pulling Drosophila embryos in agarose inside a glass capilary (''with some priceless random audio'')]]
-The basic principles of sample preparation for SPIM differs from traditional microscopy technologies. There are no glass slides and coverslips. Instead the sample needs to be suspended in a water filled chamber in front of the lens so that it can be rotated. This is usually achieved by embedding the sample in a low melting point (LMP) agarose inside a glass capillary equipped with a plunger. For imaging, the agarose column with the specimen is pushed out of the capillary using the plunger to hang in front of the lens.
+The basic principles of sample preparation for SPIM differs from traditional microscopy technologies. There are no glass slides or coverslips. Instead, the sample needs to be suspended in a water filled chamber in front of the lens so that it can be rotated. This is usually achieved by embedding the sample in a low melting point (LMP) agarose inside a glass capillary equipped with a plunger. For imaging, the agarose column with the specimen is pushed out of the capillary using the plunger to hang in front of the lens.
 
 For the purpose of making registration easier, we mix the sub-resolution fluorescent beads into the specimen containing agarose slurry and use them as fiduciary markers to align the different SPIM views. The software to do that is available in [http://fiji.sc Fiji]. 
 
