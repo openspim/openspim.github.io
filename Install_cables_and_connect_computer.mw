@@ -48,7 +48,7 @@ Use the USB Type A plug to Type B plug and connect the Type B plug to the USB hu
 
 Connect the D15 Interface Cable to the back of the Coherent CUBE laser and fasten it with the two notched "thumb" screws finger tight. Three of the four cables coming out of the D15 plug will be used: the power cable, the control cable, and the serial cable. First, connect in the power supply to the power cable via their respective two prong connectors (making sure that you connect them together correctly with the right orientation), connect the power supply to the mains lead using the correct plug for your respective country. Then, connect the control box to the control cable with it's five prong connectors (again making sure the orientation is correct). Finally, connect the Keyspan Tripplite USA-19-HS USB to Serial converter to the D9 RS232 connector. Using a a Type A plug to Type B plug USB cable, connect the Type B jack into the converters Type B jack. Then connect the Type A plug into the USB hub's Type A jack.
 
-[[File:Laser_cables.ogv]]
+[[File:Connecting the laser to the computer.ogv]]
 
 
 [[Step by step assembly|Go back to Step by step assembly]]
