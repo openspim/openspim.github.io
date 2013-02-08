@@ -3,17 +3,17 @@ Here comes pictures of the OpenSPIM unit and data acquired on it.
 == OpenSPIM data ==
 
 <gallery widths=320px>
-File:Combined_HisYFP.ogv|Histone-YFP from gastrulation to beginning of muscle contraction from ventral, lateral and dorsal view
-File:Csp video lateral ventral frontal.ogv|Expression pattern of Csp-sGFP recorded with OpenSPIM
-File:HisYFP ventral 180tp.ogv|His-YFP embryo imaged from gastrulation until muscle contractions in late embryogenesis - ventral view
-File:Single-slice.png | A slice through a ''Drosophila'' embryo expressing HisYFP in all cells - unprocessed
-File:0-5xScale Fused.ogv | A montage of a developing zebra fish
-File:Drosophila blastoderm 6views OpenSPIM.ogv |''Drosophila'' embryo expressing HisYfp in all cells, blastoderm stage 6 views, deconvolved
-File:Drosophila postgastrulation 8views OpenSPIM.ogv|''Drosophila'' embryo expressing HisYFP in all cells, post gastrulation 8 views, deconvolved
+File:Supplementary Video 5.ogv|Histone-YFP from gastrulation to beginning of muscle contraction from ventral, lateral and dorsal view
+File:Supplementary Video 6.ogv|Expression pattern of Csp-sGFP recorded with OpenSPIM
+File:Combined decon labeled.ogv|Drosophila blastoderm stage embryo - deconvolved
+File:Combined fused labeled.ogv|Drosophila blastoderm stage embryo - fused using content based fusion
 File:Gastrulation Drosophila OpenSPIM.ogv|''Drosophila'' gastrulation timelapse 5 views every 6 minutes (HisYFP)
 FIle:Video 35frames.tif mirrored.ogv|''Drosophila'' gastrulation timelapse 5 views every 5 minutes (HisYFP)
-File:2012-12-06 BF-GFP Heart.ogv|Heart imaging of a 48 hour old Zebrafish embryo with GFP expressed in the heart tissue and excited by a 488 nm laser (with brightfield illumination to give a general idea of morphology
-FIle:2012-12-06 GFP Heart.ogv|Heart imaging of a 48 hour old Zebrafish embryo with GFP expressed in the heart tissue
+File:HisYFP ventral 180tp.ogv|His-YFP embryo imaged from gastrulation until muscle contractions in late embryogenesis - ventral view
+File:Single-slice.png | A slice through a ''Drosophila'' embryo expressing HisYFP in all cells - unprocessed
+File:Zebrafish fused max gamma0.8.png | Multi-position z-stack of a living 48 hpf Tg(Bactin:H2A-EGFP) zebrafish, stitched using the Grid/Collection Plugin in Fiji. Maximum intensity projection, gamma 0.8.
+File:0-5xScale Fused.ogv | Multi-position z-stack of a living 48 hpf Tg(Bactin:H2A-EGFP) zebrafish, stitched using the Grid/Collection Plugin in Fiji. Stack video.
+File:Supplementary Video 2.ogv|Beating heart of a 48 hpf Tg(cmlc2:EGFP) zebrafish. Left: overlay of transmitted light and fluorescence signal. Right: fluorescence signal.
 </gallery>
 
 == OpenSPIM concept configurations ==
