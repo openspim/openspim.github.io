@@ -2,6 +2,8 @@ Here comes pictures of the OpenSPIM unit and data acquired on it.
 
 == OpenSPIM data ==
 
+=== Fruit fly ===
+
 <gallery widths=320px>
 File:Supplementary Video 5.ogv|Histone-YFP from gastrulation to beginning of muscle contraction from ventral, lateral and dorsal view
 File:Supplementary Video 6.ogv|Expression pattern of Csp-sGFP recorded with OpenSPIM
@@ -11,6 +13,11 @@ File:Gastrulation Drosophila OpenSPIM.ogv|''Drosophila'' gastrulation timelapse 
 FIle:Video 35frames.tif mirrored.ogv|''Drosophila'' gastrulation timelapse 5 views every 5 minutes (HisYFP)
 File:HisYFP ventral 180tp.ogv|His-YFP embryo imaged from gastrulation until muscle contractions in late embryogenesis - ventral view
 File:Single-slice.png | A slice through a ''Drosophila'' embryo expressing HisYFP in all cells - unprocessed
+</gallery>
+
+=== Zebrafish ===
+
+<gallery widths=320px>
 File:Zebrafish fused max gamma0.8.png | Multi-position z-stack of a living 48 hpf Tg(Bactin:H2A-EGFP) zebrafish, stitched using the Grid/Collection Plugin in Fiji. Maximum intensity projection, gamma 0.8.
 File:0-5xScale Fused.ogv | Multi-position z-stack of a living 48 hpf Tg(Bactin:H2A-EGFP) zebrafish, stitched using the Grid/Collection Plugin in Fiji. Stack video.
 File:Supplementary Video 2.ogv|Beating heart of a 48 hpf Tg(cmlc2:EGFP) zebrafish. Left: overlay of transmitted light and fluorescence signal. Right: fluorescence signal.
