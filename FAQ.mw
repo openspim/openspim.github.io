@@ -30,6 +30,10 @@ We have a [http://openspim.org/tickets/ ticket system]. If you [http://openspim.
 
 Once you added a ticket, you might want to go back to it and make it a child of a goal ticket in the ''Relationship'' box.
 
+== Are there similar Open Access projects for life sciences? ==
+
+[[FAQ#Other_Open_Access_projects|Yes!]]
+
 = Software =
 
 == How do I autostart µManager when Fiji starts? ==
