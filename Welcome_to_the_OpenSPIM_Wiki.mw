@@ -23,7 +23,7 @@ The SPIM technology offers fast, optically-sectioning, minimally-invasive 3D acq
 
 OpenSPIM is a platform to build, adapt and enhance SPIM technology. It is designed to be as accessible as possible:
 * [[Step by step assembly|detailed, easy-to-follow build instructions]]
-* [[Table of parts|off-the-self components and 3D-printed parts]]
+* [[Table of parts|off-the-shelf components and 3D-printed parts]]
 * [[:File:Combined OpenSPIM buildup looped.gif|Modular]] and [[Configurations|extensible]] design
 * [[:Category:Hardware|completely open blueprints]]
 * [[:Category:Software|completely Open Source]]
