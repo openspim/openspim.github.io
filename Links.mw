@@ -9,3 +9,7 @@ apply equally well to hardware.
 </blockquote>
 
 * Karl Bellve's [https://github.com/kbellve/pgFocus "pretty good focus"] project is an Open Access design for an automatic stage focusing device. It is intended to [http://valelab.ucsf.edu/~MM/MMwiki/index.php/PgFocus integrate nicely] with µManager, just like OpenSPIM.
+
+= µManager components of interest to OpenSPIM setups =
+
+* [http://valelab.ucsf.edu/~MM/MMwiki/index.php/Hardware-based_synchronization hardware-based synchronization between the camera and the laser]
