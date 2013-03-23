@@ -87,6 +87,9 @@ Whatever you do, first have a look at the file CoreLog<date>.txt, located in Fij
 # If you copied the driver from an independent micro-manager installation, make sure the micromanager version the driver comes from corresponds to  version embedded into OpenSpim. 
 # Use the [http://www.dependencywalker.com/ Dependency Walker] to detect missing dependencies
 
+== The driver for my hardware is not listed in OpenSPIM, but it supported by micro-manager ==
+In ''theory'' any hardware supported by micro-manager should work in OpenSPIM. If the driver for your hardware is not listed in OpenSPIM, you can add it to the OpenSPIM driver list by copying the ''.dll'' to the ''/mm/Win32/'' folder. Watch out that the versions of micro-manager from which the drivers originates and the version of OpenSPIM your are using are compatible. For instance, OpenSPIM-20130131 is built on [http://valelab.ucsf.edu/~MM/MMwiki/index.php/Micro-Manager_Version_Archive micro-manager v1.4.9]
+
 == Micro-Manager just crashes when I connect <device> ==
 
 Micro-Manager's memory management is not very safe on the driver side. Try to start Fiji with less memory reserved for Java, e.g. ''--mem=512m''.
