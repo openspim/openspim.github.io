@@ -16,13 +16,17 @@ This is a [http://fiji.sc/ Fiji] package updated with the OpenSPIM [http://fiji.
 
 [http://openspim.org/downloads/OpenSPIM-20130131.zip OpenSPIM-20130131.zip]
 
+
+
 After unpacking it onto the ''Desktop'':
 # Launch Fiji: in the ''Fiji.app/'' folder, open ''ImageJ-win32.exe''.
 # Update Fiji (and OpenSPIM & µManager): ''Help>Update Fiji''.
 # Install the camera driver (see below).
 # Run Micro-Manager: ''Plugins>Micro-Manager>Micro-Manager Studio''.
 
-'''Note:''' if you are interested in building the software from scratch so you can modify it to your heart's extent, please have a look at [[How_to_build_the_software#The_easy_way|this page]].
+'''Note 1:''' if you are interested in building the software from scratch so you can modify it to your heart's extent, please have a look at [[How_to_build_the_software#The_easy_way|this page]].
+
+'''Note 2:''' OpenSPIM ships with compiled and tested versions of only ''some'' micro-manager hardware drivers.
 
 = Initial hardware configuration =
 
