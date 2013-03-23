@@ -26,7 +26,7 @@ After unpacking it onto the ''Desktop'':
 
 '''Note 1:''' if you are interested in building the software from scratch so you can modify it to your heart's extent, please have a look at [[How_to_build_the_software#The_easy_way|this page]].
 
-'''Note 2:''' OpenSPIM ships with compiled and tested versions of only ''some'' micro-manager hardware drivers.
+'''Note 2:''' OpenSPIM ships with compiled and tested versions of only ''some'' micro-manager hardware drivers. To add your other hardware
 
 = Initial hardware configuration =
 
