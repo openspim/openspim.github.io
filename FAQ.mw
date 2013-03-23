@@ -84,6 +84,7 @@ Whatever you do, first have a look at the file CoreLog<date>.txt, located in Fij
 == When Micro-Manager does not list the driver ==
 
 # Make sure the .dll is present in ''dist/mm/Win32/''
+# If you copied the driver from an independent micro-manager installation, make sure the micromanager version the driver comes from corresponds to  version embedded into OpenSpim. 
 # Use the [http://www.dependencywalker.com/ Dependency Walker] to detect missing dependencies
 
 == Micro-Manager just crashes when I connect <device> ==
