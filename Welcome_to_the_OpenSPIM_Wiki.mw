@@ -1,6 +1,11 @@
 {|
 |-
-||<b>The Idea</b>
+||
+<div cellspacing="5" style="width: 31em; font-size: 90%; text-align:left; float:right; position:relative; border:2px; border-style:solid;">
+<b>News</b><br />
+<listnews/>
+</div>
+<b>The Idea</b>
 OpenSPIM is an <i>Open Access</i> platform for applying and enhancing '''Selective Plane Illumination Microscopy''' (''SPIM'').
 <blockquote>
 We hope that OpenSPIM in its radical openness will demonstrate that the benefits brought to science by the Open Source approach apply equally well to hardware.
@@ -55,10 +60,6 @@ SPIM promises to revolutionize several fields of biological research, in particu
 |}
 
 __NOTOC__
-
-= News =
-
-* [[2013-04-07_-_Open_SPIM_in_South_Africa|2013-04-07 - Open SPIM in South Africa]]
 
 = Building your own OpenSPIM =
 
