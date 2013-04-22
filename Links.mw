@@ -12,6 +12,8 @@ apply equally well to hardware.
 
 * A [http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0059840 paper] on 3D-printable optical components.
 
+* [https://sites.google.com/site/openspinmicroscopy/ OpenSPIN] a sister project for DLSM and OPT imaging.
+
 = µManager components of interest to OpenSPIM setups =
 
 * [http://valelab.ucsf.edu/~MM/MMwiki/index.php/Hardware-based_synchronization hardware-based synchronization between the camera and the laser]
