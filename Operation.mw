@@ -45,7 +45,7 @@ Now you are ready to [[Acquisition|'''acquire''']] images. Please follow these s
 
 Preprocessing of OpenSPIM ome.tiff stacks for multi-view reconstruction.
 
-Registration of multi-view OpenSPIM acquisition using bead based registration pluign in Fiji.
+Registration of multi-view OpenSPIM acquisition using bead based registration plugin in Fiji.
 
 Fusion of registered multi-view OpenSPIM data into s a single output image using content based fusion or multi-view deconvolution.
 
@@ -54,5 +54,7 @@ Processing of long-term time lapse data.
 Viewing the registered fused data and rendering of movies using Fiji's 3D viewer.
 
 Tips and tricks.
+
+If you have a cluster available, you could imitate the way the Tomancak group executes [http://fiji.sc/SPIM_Registration_on_cluster SPIM Registration on their cluster].
 
 [[Category:Software]]
