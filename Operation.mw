@@ -43,17 +43,21 @@ Now you are ready to [[Acquisition|'''acquire''']] images. Please follow these s
 
 = Data processing =
 
-Preprocessing of OpenSPIM ome.tiff stacks for multi-view reconstruction.
+The raw multi-view OpenSPIM data need to be processed in order to achieve ''in toto'' imaging of large biological sample. We describe here the steps of the SPIMage processing pipeline as implemented in Fiji.  The processing involves saving the data in a format accessible by Fiji's SPIM registration plugins, registration of the views using beads as fiduciary markers, fusion of the data from different views into a single output image (potentially by employing multi-view deconvolution), stabilisation of the time-lapse data by registration across time-points using the segmented beads, exploration of the raw and fused data in space and time and finally 3D rendering for presentation purposes.
 
-Registration of multi-view OpenSPIM acquisition using bead based registration plugin in Fiji.
+[[Raw_data|'''Download sample data]] from Dresden OpenSPIM.
 
-Fusion of registered multi-view OpenSPIM data into s a single output image using content based fusion or multi-view deconvolution.
+[[Pre-processing|'''Pre-processing''']] of OpenSPIM ome.tiff stacks for multi-view reconstruction.
 
-Processing of long-term time lapse data.
+[[Registration|'''Registration''']] of multi-view OpenSPIM acquisition using bead based registration plugin in Fiji.
 
-Viewing the registered fused data and rendering of movies using Fiji's 3D viewer.
+[[Fusion|'''Fusion''']] of registered multi-view OpenSPIM data into s a single output image using content based fusion or multi-view deconvolution.
 
-Tips and tricks.
+[[Timelapse_Registration|'''Time lapse registration''']] of long-term time lapse data.
+
+[[Browsing|'''Browsing''']] of OpenSPIM data with Fiji's BigDataViewer (coming soon).
+
+[[3D_rendering|'''3D rendering''']] of fused OpenSPIM data.
 
 If you have a cluster available, you could imitate the way the Tomancak group executes [http://fiji.sc/SPIM_Registration_on_cluster SPIM Registration on their cluster].
 
