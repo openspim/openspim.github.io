@@ -8,7 +8,7 @@ File:Supplementary Video 5.ogv|Histone-YFP from gastrulation to beginning of mus
 
 The entire multi-view time-lapse consists of 235 time points and the raw acquired ome.tiffs add up to 173 GB. Therefore, for the purposes of our tutorial we will be using the first 11 time-points of the time series.
 
-'''DOWNLOAD''' the ''2.3 GB'' tar archive from here  PLACE THE TAR.GZ here
+[http://openspim.org/downloads/OpenSPIM_Drosophila_11tp.ome.tiff.tar.gz '''DOWNLOAD'''] the ''2.3 GB'' zipped tar archive.
 
 The tarball can be simply expanded into a working directory using 
 
