@@ -9,3 +9,13 @@ File:Supplementary Video 5.ogv|Histone-YFP from gastrulation to beginning of mus
 The entire multi-view time-lapse consists of 235 time points and the raw acquired ome.tiffs add up to 173 GB. Therefore, for the purposes of our tutorial we will be using the first 11 time-points of the time series.
 
 DOWNLOAD the 2.3 GB tar archive from here  PLACE THE TAR.GZ here
+
+The tarball can be simply expanded into a working directory using 
+
+ tar -xvzf OpenSPIM_Drosophila_10tp.ome.tiff.tar.gz
+
+Each view consists of a stack of 51 images (imaged planes through the specimen 6 microns apart) saved as '''spim_TLtt_Anglea.ome.tiff''' where '''tt''' refers to zero padded time-points (01 - 235) and '''a''' refers to the five acquisition angles (0-4).
+
+[[File:Montage maxproj tp0 5 10.jpg|thumb|400px|right|Max intensity projections 5 views (columns) from 3 timepoints (0,5,10 rows) from sample OpenSPIM Dresden data]]
+
+On the right we show maximum intensity projections for three time-points (row) for each view (columns) separately. Note the bead surrounding the sample, the bead free space outside the agarose column and the embryo specimen. In the first view of the first time point the embryp is partly outside the field of view. This is a feature not a bug. In OpenSPIM we set-up the angles quickly and approximately and adjust them after the acquisition of the first time-points. As one can see for time-points 5 and 10 the embryo is centered in the middle of the field of view.
