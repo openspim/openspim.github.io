@@ -20,5 +20,7 @@ Each view consists of a stack of 51 images (imaged planes through the specimen 6
 
 On the right we show maximum intensity projections for three time-points (rows) for each view (columns) separately. Note the beads surrounding the sample, the bead-free space outside the agarose column and the embryo specimen. In the first view of the first time point the embryo is partly outside the field of view. This is a feature not a bug. In OpenSPIM we set-up the angles quickly and approximately and adjust them after the acquisition of the first time-points. As one can see for time-points ''5'' and ''10'' the embryo is centered in the middle of the field of view.
 
+Now that we have some sample data we can continue on in the SPIMage processing pipeline to the, hopefully temporary, [[Pre-processing|'''pre-processing''']] step.
+
 [[Category:Operation]]
 [[Category:Software]]
