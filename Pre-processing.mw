@@ -7,19 +7,15 @@ The 11 multi-view time-points of a ''Drosophila'' embryogenesis time-lapse [[Raw
 In order to use the OpenSPIM ome.tiff data in [http://fiji.sc Fiji] we need to save them as regular tiffs. We will take this as an opportunity to introduce the powerful [http://fiji.sc/Introduction_into_Macro_Programming ImageJ macro language] that is very suitable to achieve such tasks with minimal programming experience. The following ImageJ macro was recorded in Fiji and edited in the [http://fiji.sc/Script_Editor Script Editor plugin].
 
 <source lang="java">
-for ( t = 1; t <= 89; t++ )
+for ( t = 0; t <= 11; t++ )
 {
 	for ( a = 0; a <= 4; a++ )
 	{
-		if (t < 10) {
-			open("D:\\PAvel\\OpenSPIM\\Csp_26_01\\restart\\spim_TL0" + t +"_Angle" + a +".ome.tiff");
-			saveAs("Tiff", "D:\\PAvel\\OpenSPIM\\Csp_26_01\\tifs\\spim_TL0" + t +"_Angle" + a +".tif");
-			close();
-		} else {
-			open("D:\\PAvel\\OpenSPIM\\Csp_26_01\\restart\\spim_TL" + t +"_Angle" + a +".ome.tiff");
-			saveAs("Tiff", "D:\\PAvel\\OpenSPIM\\Csp_26_01\\tifs\\spim_TL" + t +"_Angle" + a +".tif");
-			close();
-		}
+		open("/home/tomancak/Desktop/OpenSPIM_for_website/spim_TL" + IJ.pad(t, 2) +"_Angle" + a +".ome.tiff");
+		saveAs("Tiff", "/home/tomancak/Desktop/OpenSPIM_for_website/tiffs/spim_TL" + IJ.pad(t, 2) +"_Angle" + a +".tif");
+		close();
 	}
 }
 </source>
+
+for windows \\D:\\PAvel\\OpenSPIM\\Csp_26_01\\restart\\spim_TL" + IJ.pad(t, 2) +"_Angle" + a +".ome.tiff
