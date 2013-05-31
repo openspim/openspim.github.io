@@ -22,6 +22,8 @@ The outer loop increments the time-points (we use built in ImageJ zero padding f
 
 ''Note: On a Windows machine the directory path would like this : C:\\home\\tomancak\\Desktop\\OpenSPIM_for_website\\''
 
+[[File:Script editor screenshot.jpg|thumb|400px|right|Screenshot of Fiji Script Editor with re-saving ImageJ macro]]
+
 The easiest way to run the macro is to launch the ''Script Editor'' plugin (press letter '''l''' on the keyboard to launch Fiji [http://fiji.sc/Using_the_Command_Launcher Command Finder] and then type Script Editor then click on ''RUN''). Paste the macro in the Script Editor. Select ImageJ macro from Language menu - this will result in helpful syntax highlighting. If necessary modify the numbers in the loops to reflect the number of time-points ('''t''') and angles ('''a''') in your time series. Save the macro or simply run it.
 
 It is a macro, therefore it will show every image it opens temporarily before saving and closing it. The downside of this is that the computer cannot be used for anything else during that operation.
