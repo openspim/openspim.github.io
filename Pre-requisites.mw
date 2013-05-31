@@ -1,0 +1,11 @@
+= Basic requirements for SPIMage processing =
+
+'''Hardware requirements'''
+
+OpenSPIM image processing involves computationally relatively expensive steps particularly due to the size of the imaged dataset. Typical acquisition will consist of multiple views  100-400 MB each. Those large images have to be at least temporarily held in memory, usually in multiple copies and therefore we recommend to '''invest in RAM'''. 
+
+Most of the code involved in SPIMage processing is in Java and is multi-threaded, therefore investing in '''multi-core processors''' is also advisable.
+
+The output of the SPIMage processing may increase the already substantial total raw data volume and so it is prudent to plan for '''ample hard drive''' space.
+
+Multi-view deconvolution, 3d rendering and in general visualisation of SPIM data is placing high demands on graphics hardware (GPU). We recommend to invest in [http://www.nvidia.de/object/cuda_home_new.html '''CUDA capable graphics cards'''] such as NVIDIA Tesla or Quadro or GeForce.
