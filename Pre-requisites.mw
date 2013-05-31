@@ -9,3 +9,15 @@ Most of the code involved in SPIMage processing is in Java and is multi-threaded
 The output of the SPIMage processing may increase the already substantial total raw data volume and so it is prudent to plan for '''ample hard drive''' space.
 
 Multi-view deconvolution, 3d rendering and in general visualisation of SPIM data is placing high demands on graphics hardware (GPU). We recommend to invest in [http://www.nvidia.de/object/cuda_home_new.html '''CUDA capable graphics cards'''] such as NVIDIA Tesla or Quadro or GeForce.
+
+Moving SPIM amount of data to and from the computer takes time and every network bottleneck between the end points should be removed starting with '''10GigaBit Network Interface'''.
+
+The processing described in this tutorial is performed on the following hardware configuration:
+
+ Processor : '''Two Intel Xeon Processor E5-2630''' ('''Six Core, 2.30GHz Turbo''', 15MB, 7.2 GT/s) 
+ Memory : '''128GB''' (16x8GB) 1600MHz DDR3 ECC RDIMM
+ Hard Drive : '''4x2TB''' 3.5inch Serial ATA (7.200 Rpm) Hard Drive
+ HDD Controller : PERC H310 SATA/SAS Controller for Dell Precision
+ HDD Configuration : C1 SATA 3.5inch, 1-4 Hard Drives
+ Graphics : '''Dual 2 GB NVIDIA Quadro 4000''' (2cards w/ 2DP & 1DVI-I each) (2DP-DVI & 2DVI-VGA adapter) (MRGA17H)
+ Network : Intel X520-T2 Dual Port '''10GbE Network Interface Card'''
