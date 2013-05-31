@@ -1,3 +1,25 @@
 = Pre-processing of OpenSPIM data =
 
-to be continued
+The 11 multi-view time-points of a ''Drosophila'' embryogenesis time-lapse [[Raw_data|'''downloaded''']] on the previous page are files saved directly from the OpenSPIM plugin during acquisition as [http://www.openmicroscopy.org/site/support/ome-model/ome-tiff/ OME Tiffs]. Unfortunately, the current SPIM registration plugins are not able to open the files due to metadata conflicts. 
+
+''Note: This is hopefully a temporary situation which will be remedied in the future and make the following pre-processing step obsolete. Please realize that Fiji, OpenSPIM and OME are large Open Source projects that need to communicate to make things like this work. Typically no-one is directly paid for this type of work and everyone is busy with what they are paid for doing. Nevertheless, it is our priority to make the handling of OpenSPIM data in Fiji as smooth as possible''
+
+In order to use the OpenSPIM ome.tiff data in [http://fiji.sc Fiji] we need to save them as regular tiffs. We will take this as an opportunity to introduce the powerful [http://fiji.sc/Introduction_into_Macro_Programming ImageJ macro language] that is very suitable to achieve such tasks with minimal programming experience. The following ImageJ macro was recorded in Fiji and edited in the [http://fiji.sc/Script_Editor Script Editor plugin].
+
+<source lang="java">
+for ( t = 1; t <= 89; t++ )
+{
+	for ( a = 0; a <= 4; a++ )
+	{
+		if (t < 10) {
+			open("D:\\PAvel\\OpenSPIM\\Csp_26_01\\restart\\spim_TL0" + t +"_Angle" + a +".ome.tiff");
+			saveAs("Tiff", "D:\\PAvel\\OpenSPIM\\Csp_26_01\\tifs\\spim_TL0" + t +"_Angle" + a +".tif");
+			close();
+		} else {
+			open("D:\\PAvel\\OpenSPIM\\Csp_26_01\\restart\\spim_TL" + t +"_Angle" + a +".ome.tiff");
+			saveAs("Tiff", "D:\\PAvel\\OpenSPIM\\Csp_26_01\\tifs\\spim_TL" + t +"_Angle" + a +".tif");
+			close();
+		}
+	}
+}
+</source>
