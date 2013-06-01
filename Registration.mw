@@ -1,3 +1,7 @@
 = Bead Based Registration =
 
-The first step in the SPIMage processing pipeline, after [[Pre-processing|re-saving the ome.tiffs as .tif]], is to '''register''' the views within each timepoint. We will use for that the [http://fiji.sc/SPIM_Registration ''bead based registration''] plug-in in Fiji. The principles of the plug-in are described on the Fiji wiki page [http://fiji.sc/SPIM_Registration_Method SPIM registration method] while the parameters are discussed in [http://fiji.sc/SPIM_Bead_Registration SPIM bead registration].
+The first step in the SPIMage processing pipeline, after [[Pre-processing|re-saving the ome.tiffs as .tif]], is to '''register''' the views within each timepoint. We will use for that the [http://fiji.sc/SPIM_Registration ''bead based registration''] plug-in in Fiji. The principles of the plug-in are described on the Fiji wiki page [http://fiji.sc/SPIM_Registration_Method SPIM registration method] while the parameters are discussed in [http://fiji.sc/SPIM_Bead_Registration SPIM bead registration]. Here we present a step by step recipe for performing the bead based registration on OpenSPIM data.
+
+[[File:Spim plugin menu.jpg|thumb|200px|right|Screenshot of SPIM registration section of Fiji plugin menu]]
+
+First we start the plugin from '''Plugins->SPIM Registration->Bead based registration''' (or pressing letter '''l''' and typing SPIM etc.).
