@@ -7,7 +7,7 @@ The 11 multi-view time-points of a ''Drosophila'' embryogenesis time-lapse [[Raw
 In order to use the OpenSPIM ome.tiff data in [http://fiji.sc Fiji] we need to save them as '''regular tiffs'''. We will take this as an opportunity to introduce the powerful [http://fiji.sc/Introduction_into_Macro_Programming ImageJ macro language] that is very suitable to achieve such tasks with minimal programming experience. The following ImageJ macro was recorded in Fiji and edited in the [http://fiji.sc/Script_Editor Script Editor plugin].
 
 <source lang="java">
-for ( t = 0; t <= 11; t++ )
+for ( t = 0; t < 11; t++ )
 {
 	for ( a = 0; a <= 4; a++ )
 	{
