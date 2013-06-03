@@ -16,4 +16,6 @@ In the following window we choose '''single channel registration''' and select b
 
 In most cases '''Difference of Mean''' will be sufficient for registration of OpenSPIM data and so we will choose this option.
 |-
+|[[File:Registration screen2.jpg|thumb|400px|right|Screenshot of second dialog of the bead based registration plugin]]
+Some text tbd.
 |}
