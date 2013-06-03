@@ -2,10 +2,18 @@
 
 The first step in the SPIMage processing pipeline, after [[Pre-processing|re-saving the ome.tiffs as .tif]], is to '''register''' the views within each timepoint. We will use for that the [http://fiji.sc/SPIM_Registration ''bead based registration''] plug-in in Fiji. The principles of the plug-in are described on the Fiji wiki page [http://fiji.sc/SPIM_Registration_Method SPIM registration method] while the parameters are discussed in [http://fiji.sc/SPIM_Bead_Registration SPIM bead registration]. Here we present a step by step recipe for performing the bead based registration on OpenSPIM data.
 
-[[File:Spim plugin menu.jpg|thumb|400px|right|Screenshot of SPIM registration section of Fiji plugin menu]]
-
+{|
+|-
+|[[File:Spim plugin menu.jpg|thumb|400px|right|Screenshot of SPIM registration section of Fiji plugin menu]]
 First we start the plugin from '''Plugins->SPIM Registration->Bead based registration''' (or pressing letter '''l''' and typing SPIM etc.).
 
-[[File:Registration screen1.jpg|thumb|400px|right|Screenshot of the first dialog of the bead based registration plugin]]
 
-In the following window we choose '''single channel registration''' and select between two methods of localising the beads.
+''Note that all SPIM related plugins are conveniently grouped in the plugins submenu SPIM Registration. Later on we will see how to use [[Fusion|Multi-view fusion]] to combine registered views into single output image and [[Fusion#deconvolution|Multi-view Deconvolution]] for deconvolution mediated fusion which enhances image contrast and in some cases improves resolution. The plugins are linked to each other and share many parameters. I.e. if we first run registration and select the appropriate directories with data, these fields will be pre-filled for fusion unless, of course, we have restarted Fiji in the meantime.   
+ 
+|-
+|[[File:Registration screen1.jpg|thumb|400px|right|Screenshot of the first dialog of the bead based registration plugin]]
+In the following window we choose '''single channel registration''' and select between two methods of localising the beads. '''Difference-of-Gaussian''' ([http://en.wikipedia.org/wiki/Blob_detection DoG]) is more precise however slower compared to '''Difference of Mean''' which takes advantage of [http://fiji.sc/Integral_Image_Filters integral images]. 
+
+In most cases '''Difference of Mean''' will be sufficient for registration of OpenSPIM data and so we will choose this option.
+|-
+|}
