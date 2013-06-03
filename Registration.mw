@@ -12,9 +12,11 @@ First we start the plugin from '''Plugins->SPIM Registration->Bead based registr
  
 |-
 |[[File:Registration screen1.jpg|thumb|400px|right|Screenshot of the first dialog of the bead based registration plugin]]
-In the following window we choose '''single channel registration''' and select between two methods of localising the beads. '''Difference-of-Gaussian''' ([http://en.wikipedia.org/wiki/Blob_detection DoG]) is more precise however slower compared to '''Difference of Mean''' which takes advantage of [http://fiji.sc/Integral_Image_Filters integral images]. 
+In the following window we choose '''Single channel''' registration and select between two methods of localising the beads. '''Difference-of-Gaussian''' ([http://en.wikipedia.org/wiki/Blob_detection DoG]) is more precise however slower compared to '''Difference of Mean''' which takes advantage of [http://fiji.sc/Integral_Image_Filters integral images]. 
 
 In most cases '''Difference of Mean''' will be sufficient for registration of OpenSPIM data and so we will choose this option.
+
+Click '''OK''' to continue to the second dialog.
 |-
 |[[File:Registration screen2.jpg|thumb|400px|right|Screenshot of second dialog of the bead based registration plugin]]
 Some text tbd.
