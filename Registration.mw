@@ -357,12 +357,14 @@ At this point we have registered data for one time-point ('''5'''). We have not 
 
 Nevertheless for the sample data we can just as well apply the parameters (threshold) to all timepoints in the series. As before we launch the '''Bead based registration''' plugin, leave the parameters in the first dialog unchanged and modify the second dialog as follows:
 
-
-In the field '''Timepoints to process''' we fill '''0-10''' which encompasses all timepoints in the sample timelapse. Under '''Bead brightness''' pull down we will select the '''Advanced''' option and click '''Ok'''. 
-----
 {|
 |-
 |
+[[File:Screenshot-reg-dialog1-version1.png|thumb|200px|right|SPIM registration dialog for per-timepoint registration of entire time-series]]
+In the field '''Timepoints to process''' we fill '''0-10''' which encompasses all timepoints in the sample timelapse. Under '''Bead brightness''' pull down we will select the '''Advanced''' option and click '''OK'''. 
+|-
+|
+----
 [[File:Screenshot-Select Integral Image Parameters.png|thumb|400px|right|Direct entry segmentation parameters dialog]]
 A different intermediate dialog pops-up allowing us to directly enter the segmentation parameters. We enter '''0.01''' in the '''threshold''' field and click '''OK'''.
 
