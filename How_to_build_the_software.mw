@@ -43,11 +43,11 @@ You need a copy of the Microsoft Visual Studio. Please follow the instructions o
 
 = Building Micro-Manager =
 
-After installing [http://msdn.microsoft.com/en-us/express/future/bb421473 Visual Studio Express 2008], start the development environment via the ''OpenSPIM Dev Env'' desktop icon created by the development environment installer. Launch ''Visual Studio'' by calling
+After installing [http://msdn.microsoft.com/en-us/express/future/bb421473 Visual C++ Express 2010], start the development environment via the ''OpenSPIM Dev Env'' desktop icon created by the development environment installer. Launch ''Visual Studio'' by calling
 
  vcexpress.sh
 
-and then open the µManager project via ''File>Open>Project/Solution...''. The file to load is located in ''<development-environment>\src\micromanager\MMCoreJ_wrap'' and is called ''MMCoreJ_wrap.sln'' (there is a "solution" and a "project", you want the "solution"). If you only have Visual Studio Express 2010, you might want to load ''MMCoreJ_wrapvc10.sln'' instead or if it fails, open the ''MMCoreJ_wrap.sln'' and let Visual Studio Express 2010 handle the conversion.
+and then open the µManager project via ''File>Open>Project/Solution...''. The file to load is located in ''<development-environment>\src\micromanager\MMCoreJ_wrap'' and is called ''MMCoreJ_wrap_v10.sln'' (there is a "solution" and a "project", you want the "solution"; please be sure to open ''MMCoreJ_wrap'''_v10'''.sln'').
 
 Build all of the software by clicking on ''Build>Build Solution'' or by pressing the F7 key.
 
