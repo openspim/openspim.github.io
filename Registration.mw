@@ -369,7 +369,7 @@ In the field '''Timepoints to process''' we fill '''0-10''' which encompasses al
 A different intermediate dialog pops-up allowing us to directly enter the segmentation parameters. We enter '''0.01''' in the '''threshold''' field and click '''OK'''.
 
 
-A long stream of output in '''Log''' ensues while all 11 timepoints are consecutively processed. The registration of the time series took about '''6 minutes''' and generated 3 x 11 = 33 files in the ''/registration'' directory.
+A long stream of output in [[Media:Registration_Log_series.pdf|'''Log''']] ensues while all 11 timepoints are consecutively processed. The registration of the time series took about '''6 minutes''' and generated 3 x 11 = 33 files in the ''/registration'' directory.
 |-
 |
 ----
