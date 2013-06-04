@@ -349,3 +349,5 @@ The raw data together with the three files in the ''/registration'' directory fo
 The [[Fusion|fusion]] and [[Fusion#Deconvolution|deconvolution]] plugins take the raw data and apply the transformation from the registration files to continue the SPIMage processing. The entire unit can be moved to another location in the file system (the registration directory has to remain a subdirectory of where the raw data reside and keep its name). 
 
 Before we continue with the pipeline we need to make some decisions regarding the processing of the timelapse data.
+
+== Cross-road in SPIM plugins ==
