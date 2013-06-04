@@ -355,4 +355,12 @@ Before we continue with the pipeline we need to make some decisions regarding th
 At this point we have registered data for one time-point ('''5'''). We have not yet seen the data though since the output are the human unreadable transformation matrices. We can either decide to trust the log files and go ahead and apply the same parameters to the rest of the time-points in our sample OpenSPIM timelapse and perform the [[Timelapse_Registration|'''timelapse registration''']] or we continue playing with our one registered timepoint, [[Fusion|'''fuse it''']], evaluate the results and then return to processing the rest of the timelapse.
 
 
-Both avenues are possible in the SPIMage processing pipeline.
+Both avenues are possible in the SPIMage processing pipeline. We recommend to first perform image [[Fusion|''fusion'']] on one timepoint, evaluate the results and then return to the registration.
+
+
+Nevertheless for the sample data we can just as well apply the parameters (threshold) to all timepoints in the series. As before we launch the '''Bead based registration''' plugin, leave the parameters in the first dialog unchanged and modify the second dialog as follows:
+
+
+In the field '''Timepoints to process''' we fill '''0-11''' which encompasses all timepoints in the sample timelapse.
+
+Under '''Bead brightness''' pull down we will select the '''Advanced''' option and click '''Ok'''. An different intermediate dialog pops-up allowing us to directly enter the segmentation parameters. We enter '''0.01''' in the '''threshold''' field and click '''ok'''.
