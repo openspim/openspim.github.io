@@ -21,5 +21,22 @@ In most cases '''Difference of Mean''' will be sufficient for registration of Op
 Click '''OK''' to continue to the second dialog.
 |-
 |[[File:Registration screen2.jpg|thumb|400px|right|Screenshot of second dialog of the bead based registration plugin]]
-Some text tbd.
+In the top part of the dialog we will point the plugin to where the data reside and define the naming scheme of the files.
+
+
+Click '''Browse''' to locate the directory with the ''.tif'' files generated in the [[Pre-processing|previous]] step of the pipeline.
+
+
+Enter the pattern of the files, where '''tt''' is a zero padded place holder for timepoints and '''a''' a zero padded placeholder for angles/views. If we have a three digit series (000 - 100) we use '''{ttt}'''; in case of our sample data that range from 0 to 10 we need '''tt''' as timepoint placeholder. 
+
+''Importantly, do not forget to adjust the extension to .tif. This is a common mistake at the default extension is for historical reason .lsm - a format used to store data from the Zeiss SPIM demonstrator.''
+
+
+We will initially optimize the registration using timepoint '''5'''. To register all time-points in the timeseries we would enter '''0-10'''. The range does not need to start with 0 or 1. Discontinuous series is also possible, for example '''1,5,10'''.
+
+
+Finally we specify the '''Angles to process''', in our case '''0-4''' (0.1.2.3.4 = 5 angles). Any comma separated list will do, for instance '''60,180, 235'''.
+
+
+
 |}
