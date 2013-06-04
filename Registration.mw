@@ -206,7 +206,7 @@ The number of true correspondances is the best indicator of registration success
 
  Fixing tile spim_TL05_Angle0.tif (id = 0)
 
-The '''Angle0''' has been selected as a reference. It is the first Angle we specified in the '''Angles to process''' field in the second SPIM registration dialog. The reference view can be changed by changing the order of angles - for example '''3,0-2,4'''. This angle will not undergo any transformation, all other angles will be transformed with respect to it. 
+The '''Angle0''' has been selected as a reference. It is the first Angle we specified in the '''Angles to process''' field in the second SPIM registration dialog. The reference view can be changed by changing the order of angles - for example '''3,0-2,4''' will set the reference view to Angle3. This angle will not undergo any transformation, all other angles will be transformed with respect to it. 
 
  Successfully optimized configuration of 5 tiles after 258 iterations:
    average displacement: 1.169px
@@ -215,28 +215,30 @@ The '''Angle0''' has been selected as a reference. It is the first Angle we spec
 
 
 
-Optimizer Matrices
-spim_TL05_Angle0.tif (id = 0):
-Transformation:
-3d-affine: (1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0)
-Scaling: (1.0, 1.0, 1.0)
-spim_TL05_Angle1.tif (id = 1):
-Transformation:
-3d-affine: (0.40029413, -0.017728202, -0.94824606, 647.0399, -0.025776416, 0.99945474, -0.028035998, 78.98084, 0.91382235, 0.015030926, 0.32484454, -485.3402)
-Scaling: (1.0410335704042355, 0.9563661799258112, 1.0012564667399522)
-spim_TL05_Angle2.tif (id = 2):
-Transformation:
-3d-affine: (-0.7431537, -0.042439252, -0.6486701, 1351.3088, -0.04479293, 0.9994802, -0.011400312, 103.38013, 0.62969136, 0.0018952899, -0.80743754, -48.216476)
-Scaling: (0.97164466699547, 1.039995886748908, 0.9993666835629822)
-spim_TL05_Angle3.tif (id = 3):
-Transformation:
-3d-affine: (-0.86488324, -0.03760272, 0.5719731, 1263.6525, -0.0322361, 0.9994662, 0.0067903697, 75.966225, -0.5214333, -0.025284931, -0.83718777, 856.8579)
-Scaling: (1.0407955347327127, 1.0029041568010506, 0.9802812833830724)
-spim_TL05_Angle4.tif (id = 4):
-Transformation:
-3d-affine: (0.5062743, -0.0048624836, 0.857942, 126.564545, -0.0015900917, 1.0001556, -0.0052930415, 78.1325, -0.828062, -0.02390239, 0.56586677, 652.8654)
-Scaling: (0.9650266222266568, 1.0369083125363359, 0.9963691154426817)
-(Tue Jun 04 18:20:45 CEST 2013): Finished Registration
-Finished processing.
+ Optimizer Matrices
+ spim_TL05_Angle0.tif (id = 0):
+ Transformation:
+ 3d-affine: (1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0)
+ Scaling: (1.0, 1.0, 1.0)
+ spim_TL05_Angle1.tif (id = 1):
+ Transformation:
+ 3d-affine: (0.40029413, -0.017728202, -0.94824606, 647.0399, -0.025776416, 0.99945474, -0.028035998, 78.98084, 0.91382235, 0.015030926, 0.32484454, -485.3402)
+ Scaling: (1.0410335704042355, 0.9563661799258112, 1.0012564667399522)
+
+ spim_TL05_Angle2.tif (id = 2):
+ Transformation:
+ 3d-affine: (-0.7431537, -0.042439252, -0.6486701, 1351.3088, -0.04479293, 0.9994802, -0.011400312, 103.38013, 0.62969136, 0.0018952899, -0.80743754, -48.216476)
+ Scaling: (0.97164466699547, 1.039995886748908, 0.9993666835629822)
+ spim_TL05_Angle3.tif (id = 3):
+ Transformation:
+ 3d-affine: (-0.86488324, -0.03760272, 0.5719731, 1263.6525, -0.0322361, 0.9994662, 0.0067903697, 75.966225, -0.5214333, -0.025284931, -0.83718777, 856.8579)
+ Scaling: (1.0407955347327127, 1.0029041568010506, 0.9802812833830724)
+ spim_TL05_Angle4.tif (id = 4):
+ Transformation:
+ 3d-affine: (0.5062743, -0.0048624836, 0.857942, 126.564545, -0.0015900917, 1.0001556, -0.0052930415, 78.1325, -0.828062, -0.02390239, 0.56586677, 652.8654)
+ Scaling: (0.9650266222266568, 1.0369083125363359, 0.9963691154426817)
+ 
+ (Tue Jun 04 18:20:45 CEST 2013): Finished Registration
+ Finished processing.
 
 == Output ==
