@@ -40,6 +40,7 @@ Finally we specify the '''Angles to process''', in our case '''0-4''' (0.1.2.3.4
 
 In the second section of the dialog we need to initially pay attention only to the parameters affecting the initial segmentation of the bead. '''Bead Brightness"' is a pull down menu offering 6 options.
 
+
 * ''Very weak'' - the threshold for bead detection set to 0.02 (typically when the beads emit in a different wavelength compared to sample, i.e. red green beads for red fluorescent sample)
 * ''Weak'' - the threshold for bead detection set to 0.02
 * ''Comparable to sample'' - the threshold for bead detection set to 0.02 (typically when using beads emitting in the same wavelength as the sample, i.e. green beads and GFP in the samole)
@@ -47,10 +48,12 @@ In the second section of the dialog we need to initially pay attention only to t
 * ''Advanced'' - the threshold for bead detection can be set manually in the following dialog
 * ''Interactive'' - the threshold can be manually adjusted based on visualization of bead detection on a user selected timepoint
 
+
 In out initial run we will select the option '''Interactive''' to play around with the threshold that is best suited for our data.
 
 
 The '''Subpixel localization''' is a pull down menu offering three option for localising the beads
+
 
 * ''3-dimensional quadratic fit (all detections)'' - fastest, but least precise option, sufficient for OpenSPIM data
 * ''Gauss-fit (true correspondances)'' - more precise but slower, limited only to true correspondances for performance reasons.
@@ -59,5 +62,16 @@ The '''Subpixel localization''' is a pull down menu offering three option for lo
 We will select '''3-dimensional quadratic fit''' for our sample OpenSPIM data.
 
 
+For OpenSPIM data it is very importnat to select the '''Specify calibration manually''' checkbox and enter the '''xy''' and '''z''' resolution. For the sample OpenSPIM data discussed here the following parameters work.
+
+
+* ''xy resolution (um/px)'' = '''0.645''' - this is dictated by the optics of the detection path of OpenSPIM and the size of the pixels on the CCD camera).
+* ''z resolution (un/px)'' = '''6'''  - the step size of the motors on OpenSPIM are 1.5 um and we sued 4 z steps between planes when acquiring the sample data, i.e. 4 x 1.5 = 6 um).
+
+
+''Note that the important number here is the ration between the z and xy resolutions. In the case of sample data it is 6/0.645 = 9.3023. We could also express the ration as xy = 1 and z = 9.3023''
+
+
+ That's it, we can for now safely ignore the remaining options of the dialog and proceed by clicking '''OK'''
  
 |}
