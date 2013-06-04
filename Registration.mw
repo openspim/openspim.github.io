@@ -261,3 +261,91 @@ The actual result of SPIM registration are these formidable looking 3x4 '''affin
 The global optimization took only 5 seconds, showing that the most computationally expensive step of the registration pipeline is the segmentation of beads. If we were to use more precise and slower bead segmentation algoritm (DoG and Gauss-fit) the registration could take several minutes. With Difference-of-Mean and quadratic fit we were able to accomplish the registration in '''50 seconds'''.
 
 == Output ==
+
+The log output described in the previous section allows us to monitor the progress of the registration and if necessary optimize the parameters or diagnose problems. The true output of the registration that will be used in the [[Fusion|Fusion]] step are three files per view created by the plugin in the '''registration''' directory'''.
+
+ registration/spim_TL05_Angle0.tif.beads.txt
+ registration/spim_TL05_Angle0.tif.dim
+ registration/spim_TL05_Angle0.tif.registration
+ registration/spim_TL05_Angle1.tif.beads.txt
+ registration/spim_TL05_Angle1.tif.dim
+ registration/spim_TL05_Angle1.tif.registration
+ registration/spim_TL05_Angle2.tif.beads.txt
+ registration/spim_TL05_Angle2.tif.dim
+ registration/spim_TL05_Angle2.tif.registration
+ registration/spim_TL05_Angle3.tif.beads.txt
+ registration/spim_TL05_Angle3.tif.dim
+ registration/spim_TL05_Angle3.tif.registration
+ registration/spim_TL05_Angle4.tif.beads.txt
+ registration/spim_TL05_Angle4.tif.dim
+ registration/spim_TL05_Angle4.tif.registration
+ 
+The content of the files for Angle1 are available here
+
+* [[Media:Spim TL05 Angle1.tif.registration.pdf|spim_TL05_Angle1.tif.registration]]
+* [[Media:Spim_TL05_Angle1.tif.pdf|spim_TL05_Angle1.tif.dim]]
+* [[Media:Spim TL05 Angle1.tif.beads.pdf|spim_TL05_Angle1.tif.beads.txt]]
+
+The ''spim_TL05_Angle1.tif.registration'' contains information about the registration statistics such as number of detection, bead candidates, corresponding bead descriptors etc. and the affine matrices in the following form
+
+ m00: 0.40029413
+ m01: -0.017728202
+ m02: -0.94824606
+ m03: 647.0399
+ m10: -0.025776416
+ m11: 0.99945474
+ m12: -0.028035998
+ m13: 78.98084
+ m20: 0.91382235
+ m21: 0.015030926
+ m22: 0.32484454
+ m23: -485.3402
+ m30: 0
+ m31: 0
+ m32: 0
+ m33: 1
+ model: AffineModel3D
+
+The  ''spim_TL05_Angle1.tif.dim'' contains information about the dimensions of the input image stacks
+
+ image width: 1344
+ image height: 1024
+ image depth: 51
+
+and ''spim_TL05_Angle1.tif.beads.txt'' contains a long list of all detections and their properties (showing the first few lines below):
+
+ ID	ViewID	Lx	Ly	Lz	Wx	Wy	Wz	Weight	DescCorr	RansacCorr
+ 0	1	408.13684	118.505554	3.1183574	408.13684	118.505554	3.1183574	0.0	0	0
+ 1	1	95.8529	429.66003	3.4262538	95.8529	429.66003	3.4262538	0.0	0	0
+ 2	1	71.95479	802.522	8.498448	71.95479	802.522	8.498448	0.0	0	0
+ 3	1	408.45068	769.5576	9.81232	408.45068	769.5576	9.81232	0.0	188:4;	188:4;
+ 4	1	960.3512	603.2773	10.9592	960.3512	603.2773	10.9592	0.0	0	0
+ 5	1	840.4799	555.54315	14.765049	840.4799	555.54315	14.765049	0.0	0	0
+ 6	1	816.0067	102.64633	16.194763	816.0067	102.64633	16.194763	0.0	377:3;647:0;	647:0;377:3;
+
+The raw data together with the three files in the ''/registration'' directory form a unit which together represents the results of the registration pipeline. 
+
+ spim_TL05_Angle0.tif
+ spim_TL05_Angle1.tif
+ spim_TL05_Angle2.tif
+ spim_TL05_Angle3.tif
+ spim_TL05_Angle4.tif
+ registration/spim_TL05_Angle0.tif.beads.txt
+ registration/spim_TL05_Angle0.tif.dim
+ registration/spim_TL05_Angle0.tif.registration
+ registration/spim_TL05_Angle1.tif.beads.txt
+ registration/spim_TL05_Angle1.tif.dim
+ registration/spim_TL05_Angle1.tif.registration
+ registration/spim_TL05_Angle2.tif.beads.txt
+ registration/spim_TL05_Angle2.tif.dim
+ registration/spim_TL05_Angle2.tif.registration
+ registration/spim_TL05_Angle3.tif.beads.txt
+ registration/spim_TL05_Angle3.tif.dim
+ registration/spim_TL05_Angle3.tif.registration
+ registration/spim_TL05_Angle4.tif.beads.txt
+ registration/spim_TL05_Angle4.tif.dim
+ registration/spim_TL05_Angle4.tif.registration 
+
+The [[Fusion|fusion]] and [[Fusion#Deconvolution|deconvolution]] plugins take the raw data and apply the transformation from the registration files to continue the SPIMage processing. The entire unit can be moved to another location in the file system (the registration directory has to remain a subdirectory of where the raw data reside and keep its name). 
+
+Before we continue with the pipeline we need to make some decisions regarding the processing of the timelapse data.
