@@ -229,19 +229,19 @@ The '''Angle0''' has been selected as a reference. It is the first Angle we spec
    minimal displacement: 1.052px
    maximal displacement: 1.346px
 
-Here the plugin reports results of [http://fiji.sc/SPIM_Registration_Method#Global_Optimization global optimization]. The '''average displacement''' is a good measure of the registration success. the lower the better. However it should be noted that it refers only to displacement of truly corresponding beads and thus the number is somewhat dependent on the number f true correspondances. The average for smaller number of beads will be lower but that does not necessarily mean that the registration is better. We will return to the issue of registration evaluation in the [[Fusion|'''Fusion section''']] of this tutorial.
+Here the plugin reports results of [http://fiji.sc/SPIM_Registration_Method#Global_Optimization global optimization]. The '''average displacement''' is a good measure of the registration success. the lower the better. However it should be noted that it refers only to displacement of truly corresponding beads and thus the number is somewhat dependent on the number of true correspondances. The average for smaller number of beads will be lower but that does not necessarily mean that the registration is better. We will return to the issue of registration evaluation in the [[Fusion|'''Fusion section''']] of this tutorial.
 
  Optimizer Matrices
  spim_TL05_Angle0.tif (id = 0):
  Transformation:
- 3d-affine: (1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0)
+ 3d-affine: <font color=red>(1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0)</font>
  Scaling: (1.0, 1.0, 1.0)
  spim_TL05_Angle1.tif (id = 1):
  Transformation:
  3d-affine: (0.40029413, -0.017728202, -0.94824606, 647.0399, -0.025776416, 0.99945474, -0.028035998, 78.98084, 0.91382235, 0.015030926, 0.32484454, -485.3402)
  Scaling: (1.0410335704042355, 0.9563661799258112, 1.0012564667399522)
 
-The actual result of SPIM registration are these formidable looking 3x4 affine transformation matrices. This is linear algebra and there is no gentler way to break into it than the [https://www.khanacademy.org/math/linear-algebra Khan Academy]. As you can see the first matrix is mostly zeros apart form the ones for scale along the x, y and z axis, this is the so -called identity matrix for the reference view that, as we mentioned before, will not be transformed. The second matrix for Angle1 describes the affine transformation that will transform the raw data of that view to the position in the world coordinate space of Angle0 that minimizes the displacement of corresponding bead descriptors. The Scalings are close to 1 indicating that our z-scaling factor 9.3023 was correct.
+The actual result of SPIM registration are these formidable looking 3x4 '''affine transformation matrices'''. This is linear algebra and there is no gentler way to break into it than the [https://www.khanacademy.org/math/linear-algebra Khan Academy]. As you can see, the first matrix is mostly zeros apart from the ones for scale along the x, y and z axis, this is the so-called identity matrix for the reference view that, as we mentioned before, will not be transformed. The second matrix for Angle1 describes the affine transformation that will transform the raw data of that view to the position in the world coordinate space of Angle0 that minimizes the displacement of corresponding bead descriptors. The Scalings are close to 1 indicating that our z-scaling factor 9.3023 was correct.
 
  spim_TL05_Angle2.tif (id = 2):
  Transformation:
