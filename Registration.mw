@@ -2,6 +2,8 @@
 
 The first step in the SPIMage processing pipeline, after [[Pre-processing|re-saving the ome.tiffs as .tif]], is to '''register''' the views within each timepoint. We will use for that the [http://fiji.sc/SPIM_Registration ''bead based registration''] plug-in in Fiji. The principles of the plug-in are described on the Fiji wiki page [http://fiji.sc/SPIM_Registration_Method SPIM registration method] while the parameters are discussed in [http://fiji.sc/SPIM_Bead_Registration SPIM bead registration]. Here we present a step by step recipe for performing the bead based registration on OpenSPIM data.
 
+== Input ==
+
 {|
 |-
 |[[File:Spim plugin menu.jpg|thumb|400px|right|Screenshot of SPIM registration section of Fiji plugin menu]]
@@ -38,12 +40,12 @@ We will initially optimize the registration using timepoint '''5'''. To register
 Finally we specify the '''Angles to process''', in our case '''0-4''' (0.1.2.3.4 = 5 angles). Any comma separated list will do, for instance '''60,180, 235'''.
 
 
-In the second section of the dialog we need to initially pay attention only to the parameters affecting the initial segmentation of the bead. '''Bead Brightness"' is a pull down menu offering 6 options.
+In the second section of the dialog we need to initially pay attention only to the parameters affecting the initial segmentation of the bead. '''Bead Brightness''' is a pull down menu offering 6 options.
 
 
 * ''Very weak'' - the threshold for bead detection set to 0.02 (typically when the beads emit in a different wavelength compared to sample, i.e. red green beads for red fluorescent sample)
 * ''Weak'' - the threshold for bead detection set to 0.02
-* ''Comparable to sample'' - the threshold for bead detection set to 0.02 (typically when using beads emitting in the same wavelength as the sample, i.e. green beads and GFP in the samole)
+* ''Comparable to sample'' - the threshold for bead detection set to 0.02 (typically when using beads emitting in the same wavelength as the sample, i.e. green beads and GFP in the sample)
 * ''Strong'' - the threshold for bead detection set to 0.02
 * ''Advanced'' - the threshold for bead detection can be set manually in the following dialog
 * ''Interactive'' - the threshold can be manually adjusted based on visualization of bead detection on a user selected timepoint
@@ -52,7 +54,7 @@ In the second section of the dialog we need to initially pay attention only to t
 In out initial run we will select the option '''Interactive''' to play around with the threshold that is best suited for our data.
 
 
-The '''Subpixel localization''' is a pull down menu offering three option for localising the beads
+The '''Subpixel localization''' is a pull down menu offering three option for more-or-less precisely localising the beads
 
 
 * ''3-dimensional quadratic fit (all detections)'' - fastest, but least precise option, sufficient for OpenSPIM data
@@ -72,6 +74,11 @@ For OpenSPIM data it is very importnat to select the '''Specify calibration manu
 ''Note that the important number here is the ration between the z and xy resolutions. In the case of sample data it is 6/0.645 = 9.3023. We could also express the ration as xy = 1 and z = 9.3023''
 
 
- That's it, we can for now safely ignore the remaining options of the dialog and proceed by clicking '''OK'''
+That's it, we can for now safely ignore the remaining options of the dialog and proceed by clicking '''OK'''
  
 |}
+
+== Run ==
+
+
+== Output ==
