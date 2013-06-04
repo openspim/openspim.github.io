@@ -12,11 +12,7 @@ Just go to Edit>Options>Memory & Threads... and limit the RAM Fiji uses to, say,
 
 == How to share images? ==
 
-We have a WebDAV scratch now (for Windows, please install [http://cyberduck.ch/ Cyberduck] since Windows Explorer's WebDAV support is incapable of communicating with our server, for Linux or MacOSX refer to the capabilities of Nautilus and Finder, respectively).
-
-Note, however, that Windows' network stack is not able to perform fast uploads. If you can, use Linux or MacOSX. The difference is huge: in one particular case, we measured ~300kB/sec on Windows and 17MB/sec on Linux.
-
-The scratch space is located at http://openspim.org/scratch/. For core OpenSPIM developers, there is a shared account 'webdav', a write-only account will be added soon.
+We use [http://labs.bittorrent.com/experiments/sync.html BitTorrent Sync] to have a shared directory of images and stuff. After installing BitTorrent Sync, you will need to add a folder using this "secret": ''fUS9i4Ps/g+MLohUPun1rEfK8b0A+ABQitckZiONwPZK5BPm1N/wYg==''
 
 == How to report bugs ==
 
