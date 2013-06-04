@@ -14,6 +14,10 @@ Just go to Edit>Options>Memory & Threads... and limit the RAM Fiji uses to, say,
 
 We use [http://labs.bittorrent.com/experiments/sync.html BitTorrent Sync] to have a shared directory of images and stuff. After installing BitTorrent Sync, you will need to add a folder using this "secret": ''fUS9i4Ps/g+MLohUPun1rEfK8b0A+ABQitckZiONwPZK5BPm1N/wYg==''
 
+== How to share scripts/macros? ==
+
+The ideal way, of course, is to add a Wiki page to this Wiki. However, if you want to work on a macro together with somebody else, the easiest way is to use kind of a [http://demo.firepad.io/#openspim shared clipboard].
+
 == How to report bugs ==
 
 We have a [http://openspim.org/tickets/ ticket system]. If you [http://openspim.org/tickets/bug_report_page.php add new tickets], please make sure to
