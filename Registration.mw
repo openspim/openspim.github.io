@@ -13,7 +13,8 @@ First we start the plugin from '''Plugins->SPIM Registration->Bead based registr
 ''Note that all SPIM related plugins are conveniently grouped in the plugins submenu SPIM Registration. Later on we will see how to use [[Fusion|Multi-view fusion]] to combine registered views into single output image and [[Fusion#deconvolution|Multi-view Deconvolution]] for deconvolution mediated fusion which enhances image contrast and in some cases improves resolution. The plugins are linked to each other and share many parameters. I.e. if we first run registration and select the appropriate directories with data, these fields will be pre-filled for fusion unless, of course, we have restarted Fiji in the meantime.   
  
 |-
-|----[[File:Registration screen1.jpg|thumb|400px|right|Screenshot of the first dialog of the bead based registration plugin]]
+|
+----[[File:Registration screen1.jpg|thumb|400px|right|Screenshot of the first dialog of the bead based registration plugin]]
 In the following window we choose '''Single channel''' registration and select between two methods of localising the beads. '''Difference-of-Gaussian''' ([http://en.wikipedia.org/wiki/Blob_detection DoG]) is more precise however slower compared to '''Difference of Mean''' which takes advantage of [http://fiji.sc/Integral_Image_Filters integral images]. 
 
 
