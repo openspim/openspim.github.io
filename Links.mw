@@ -14,6 +14,8 @@ apply equally well to hardware.
 
 * [https://sites.google.com/site/openspinmicroscopy/ OpenSPIN] a sister project for DLSM and OPT imaging.
 
+* [http://code.google.com/p/msim/ MSIM], a "dual view" light-sheet microscopy system, with [http://code.google.com/p/msim/source/browse/ parts of the code written in Python] (but also requiring [http://imagej.net/ ImageJ] and Piotr Wendykier's [http://sites.google.com/site/piotrwendykier/software/deconvolution/paralleliterativedeconvolution Parallel Iterative Deconvolution plugin]) and instructions [http://code.google.com/p/msim/wiki/Building_your_own_MSIM how to build one].
+
 = µManager components of interest to OpenSPIM setups =
 
 * [http://valelab.ucsf.edu/~MM/MMwiki/index.php/Hardware-based_synchronization hardware-based synchronization between the camera and the laser]
