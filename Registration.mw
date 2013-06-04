@@ -108,5 +108,8 @@ Once we identify a reasonable threshold we can click '''Done''' and start the re
 
 == Run ==
 
+[[FIle:Registration Log.png|thumb|400px|right|Screenshot of a Registration log window]] 
+
+The output of the registration plugin is not visual, it is limited to text messages in Fiji's '''Log window'''. However understanding the meaning of these messages is very important for optimization of the registration. The complete output of the registration of time-point 5 from OpenSPIM sample data is available [[File:here]]. Below we comment on the most important messages appearing in the output.
 
 == Output ==
