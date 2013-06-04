@@ -351,3 +351,8 @@ The [[Fusion|fusion]] and [[Fusion#Deconvolution|deconvolution]] plugins take th
 Before we continue with the pipeline we need to make some decisions regarding the processing of the timelapse data.
 
 == Cross-road in SPIM plugins ==
+
+At this point we have registered data for one time-point ('''5''') . We have not yet seen the data though since the output are the human unreadable transformation matrices. We can either decide to trust the log files and go ahead and apply the same parameters to the rest of the time-points our sample OpenSPIM timelapse and perform the [[Timelapse_Registration|timelapse registration]] or we continue playing with our one registered timepoint, [[Fusion|fuse it]], evaluate the results and then return to processing the rest of the timelapse.
+
+
+Both avenues are possible in the SPIMage processing pipeline.
