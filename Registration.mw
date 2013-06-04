@@ -38,5 +38,26 @@ We will initially optimize the registration using timepoint '''5'''. To register
 Finally we specify the '''Angles to process''', in our case '''0-4''' (0.1.2.3.4 = 5 angles). Any comma separated list will do, for instance '''60,180, 235'''.
 
 
+In the second section of the dialog we need to initially pay attention only to the parameters affecting the initial segmentation of the bead. '''Bead Brightness"' is a pull down menu offering 6 options.
 
+* ''Very weak'' - the threshold for bead detection set to 0.02 (typically when the beads emit in a different wavelength compared to sample, i.e. red green beads for red fluorescent sample)
+* ''Weak'' - the threshold for bead detection set to 0.02
+* ''Comparable to sample'' - the threshold for bead detection set to 0.02 (typically when using beads emitting in the same wavelength as the sample, i.e. green beads and GFP in the samole)
+* ''Strong'' - the threshold for bead detection set to 0.02
+* ''Advanced'' - the threshold for bead detection can be set manually in the following dialog
+* ''Interactive'' - the threshold can be manually adjusted based on visualization of bead detection on a user selected timepoint
+
+In out initial run we will select the option '''Interactive''' to play around with the threshold that is best suited for our data.
+
+
+The '''Subpixel localization''' is a pull down menu offering three option for localising the beads
+
+* ''3-dimensional quadratic fit (all detections)'' - fastest, but least precise option, sufficient for OpenSPIM data
+* ''Gauss-fit (true correspondances)'' - more precise but slower, limited only to true correspondances for performance reasons.
+* ''Gauss-fit (all detections)'' - the slowest option where Gauss fitting is applied to all bead detections which can be many and it can take a while.
+
+We will select '''3-dimensional quadratic fit''' for our sample OpenSPIM data.
+
+
+ 
 |}
