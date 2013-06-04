@@ -88,8 +88,19 @@ We will leave '''Affine''' as a useful and, in fact, necessary default for OpenS
 That's it, we can for now safely ignore the remaining options of the dialog and proceed by clicking '''OK'''.
 |-
 |
-----[[File:Screenshot-Select view to analyze.png|thumb|400px|Dialog for selection of data file (view) for Interactive bead segmentation.]]
+----[[File:Screenshot-Select view to analyze.png|thumb|400px|right|Dialog for selection of data file (view) for Interactive bead segmentation.]]
 Since we have selected the '''Bead brightness->Interactive''' the next dialog will ask us to select a time-point to perform the segmentation optimization on. Click '''Browse''' and locate the file ''spim_TL05_Angle0.tif'' and then press '''OK'''.
+|-
+|
+----
+[[File:Interactive segmentation.png|thumb|400px|right|Desktop showing windows opened during interactive segmentation.]]
+After a short delay two windows will pop-up. In the browseable '''stack window''' the view selected in the previous step is shown and beads segmented using the current parameters are highlighted with small green circles. The parameters can be interactively changed in the '''Adjust Difference-of-Mean Values''' window. 
+
+
+Typically we only need to play with the '''Threshold'''. The lower the threshold the more 'beads' are segmented. The goal here is to find a threshold where most beads are detected - ideally only once. We can examine the performance of a particular threshold by browsing through the stack and zooming in and out using the Fiji toolbar tools. We want to avoid the situation where several detections are shown for what appears to be a single bead and conversely when clearly visible beads are not detected at all. You will notice that the detections (the green circles) are not limited to beads but occur also around the nuclei inside the sample. As we will see later, these detection are spurious, not repeatable between views, and do not compromise the registration process. The search for the optimal threshold can be made easier by adjusting the contrast of the stack to see the beads better (window in the lower left corner, press '''CTRL-SHIFT-C''' and click on '''Auto''').
+
+
+Once we identify a reasonable threshold we can click '''Done''' and start the registration process with the selected threshold.
 |}
 
 == Run ==
