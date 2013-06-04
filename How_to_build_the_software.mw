@@ -8,7 +8,7 @@ This page just explains how to build the software needed for OpenSPIM. For an ov
 
 You first need to install [http://msdn.microsoft.com/en-us/windows/desktop/aa904949 the newest Microsoft SDK] and then [http://go.microsoft.com/?linkid=9709949 Microsoft Visual Studio Express 2010] (see [[#Why_Microsoft_Visual_C.2B.2B.3F|this link]] to find out why).
 
-Download & run the [http://openspim.org/downloads/OpenSPIM-dev-env-20130201.exe OpenSPIM development environment installer] (it is actually a self-extracting archive, you can use [http://7-zip.org 7-Zip] to extract the [http://openspim.org/downloads/OpenSPIM-dev-env-20130201.7z archive] instead if you feel uncomfortable with an installer).
+Download & run the [http://openspim.org/downloads/OpenSPIM-dev-env-20130604.exe OpenSPIM development environment installer] (it is actually a self-extracting archive, you can use [http://7-zip.org 7-Zip] to extract the [http://openspim.org/downloads/OpenSPIM-dev-env-20130604.7z archive] instead if you feel uncomfortable with an installer).
 
 This will set up everything you need and perform the initial build.
 
