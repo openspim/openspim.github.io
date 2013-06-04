@@ -352,15 +352,28 @@ Before we continue with the pipeline we need to make some decisions regarding th
 
 == Cross-road in SPIM plugins ==
 
-At this point we have registered data for one time-point ('''5'''). We have not yet seen the data though since the output are the human unreadable transformation matrices. We can either decide to trust the log files and go ahead and apply the same parameters to the rest of the time-points in our sample OpenSPIM timelapse and perform the [[Timelapse_Registration|'''timelapse registration''']] or we continue playing with our one registered timepoint, [[Fusion|'''fuse it''']], evaluate the results and then return to processing the rest of the timelapse.
-
-
-Both avenues are possible in the SPIMage processing pipeline. We recommend to first perform image [[Fusion|''fusion'']] on one timepoint, evaluate the results and then return to the registration.
+At this point we have registered data for one time-point ('''5'''). We have not yet seen the data though since the output are the human unreadable transformation matrices. We can either decide to trust the log files and go ahead and apply the same parameters to the rest of the time-points in our sample OpenSPIM timelapse and perform the [[Timelapse_Registration|'''timelapse registration''']] or we continue playing with our one registered timepoint, [[Fusion|'''fuse it''']], evaluate the results and then return to processing the rest of the timelapse. Both avenues are possible in the SPIMage processing pipeline. We recommend to first perform image [[Fusion|'''fusion''']] on one timepoint, evaluate the results and then return to the registration.
 
 
 Nevertheless for the sample data we can just as well apply the parameters (threshold) to all timepoints in the series. As before we launch the '''Bead based registration''' plugin, leave the parameters in the first dialog unchanged and modify the second dialog as follows:
 
 
-In the field '''Timepoints to process''' we fill '''0-11''' which encompasses all timepoints in the sample timelapse.
+In the field '''Timepoints to process''' we fill '''0-10''' which encompasses all timepoints in the sample timelapse. Under '''Bead brightness''' pull down we will select the '''Advanced''' option and click '''Ok'''. 
+----
+{|
+|-
+|
+[[File:Screenshot-Select Integral Image Parameters.png|thumb|400px|right|Direct entry segmentation parameters dialog]]
+A different intermediate dialog pops-up allowing us to directly enter the segmentation parameters. We enter '''0.01''' in the '''threshold''' field and click '''OK'''.
 
-Under '''Bead brightness''' pull down we will select the '''Advanced''' option and click '''Ok'''. An different intermediate dialog pops-up allowing us to directly enter the segmentation parameters. We enter '''0.01''' in the '''threshold''' field and click '''ok'''.
+
+A long stream of output in '''Log''' ensues while all 11 timepoints are consecutively processed. The registration of the time series took about '''6 minutes''' and generated 3 x 11 = 33 files in the ''/registration'' directory.
+|-
+|
+----
+[[File:Screenshot-registration results.png|thumb|400px|right|Plot of registration results for OpenSPIM sample data.]]
+The plugin plots the average, minimal and maximal displacement of corresponding bead descriptors as well as the RANSAC ratio of inliers (true/all correspondances) for all time-points.
+
+
+For such a small timelapse it is perfectly feasible to perform registration on a single computer consecutively. For longer timelapses we recommend using a cluster computer as described [http://fiji.sc/SPIM_Registration_on_cluster#Registration here].
+|}
