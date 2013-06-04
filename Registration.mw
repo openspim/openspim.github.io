@@ -13,7 +13,7 @@ First we start the plugin from '''Plugins->SPIM Registration->Bead based registr
 ''Note that all SPIM related plugins are conveniently grouped in the plugins submenu SPIM Registration. Later on we will see how to use [[Fusion|Multi-view fusion]] to combine registered views into single output image and [[Fusion#deconvolution|Multi-view Deconvolution]] for deconvolution mediated fusion which enhances image contrast and in some cases improves resolution. The plugins are linked to each other and share many parameters. I.e. if we first run registration and select the appropriate directories with data, these fields will be pre-filled for fusion unless, of course, we have restarted Fiji in the meantime.   
  
 |-
-|[[File:Registration screen1.jpg|thumb|400px|right|Screenshot of the first dialog of the bead based registration plugin]]
+|----[[File:Registration screen1.jpg|thumb|400px|right|Screenshot of the first dialog of the bead based registration plugin]]
 In the following window we choose '''Single channel''' registration and select between two methods of localising the beads. '''Difference-of-Gaussian''' ([http://en.wikipedia.org/wiki/Blob_detection DoG]) is more precise however slower compared to '''Difference of Mean''' which takes advantage of [http://fiji.sc/Integral_Image_Filters integral images]. 
 
 
@@ -22,7 +22,8 @@ In most cases '''Difference of Mean''' will be sufficient for registration of Op
 
 Click '''OK''' to continue to the second dialog.
 |-
-|[[File:Registration screen2.jpg|thumb|400px|right|Screenshot of second dialog of the bead based registration plugin]]
+|
+----[[File:Registration screen2.jpg|thumb|400px|right|Screenshot of second dialog of the bead based registration plugin]]
 In the top part of the dialog we will point the plugin to where the data reside and define the naming scheme of the files.
 
 
@@ -67,15 +68,27 @@ We will select '''3-dimensional quadratic fit''' for our sample OpenSPIM data.
 For OpenSPIM data it is very importnat to select the '''Specify calibration manually''' checkbox and enter the '''xy''' and '''z''' resolution. For the sample OpenSPIM data discussed here the following parameters work.
 
 
-* ''xy resolution (um/px)'' = '''0.645''' - this is dictated by the optics of the detection path of OpenSPIM and the size of the pixels on the CCD camera).
-* ''z resolution (un/px)'' = '''6'''  - the step size of the motors on OpenSPIM are 1.5 um and we sued 4 z steps between planes when acquiring the sample data, i.e. 4 x 1.5 = 6 um).
+* ''xy resolution (um/px)'' = '''0.645''' - this is dictated by the optics of the detection path of OpenSPIM and the size of the pixels on the CCD camera.
+* ''z resolution (un/px)'' = '''6'''  - the step size of the motors on OpenSPIM are 1.5 um and we sued 4 z steps between planes when acquiring the sample data, i.e. 4 x 1.5 = 6 um.
 
 
-''Note that the important number here is the ration between the z and xy resolutions. In the case of sample data it is 6/0.645 = 9.3023. We could also express the ration as xy = 1 and z = 9.3023''
+''Note that the important number here is the ration between the z and xy resolutions. In the case of OpenSPIM sample data it is 6/0.645 = 9.3023. We could also express the ratio as xy = 1 and z = 9.3023. The 9.0323 or z-scaling is an important number to remember and write down. We will need it during all subsequent steps.''
 
 
-That's it, we can for now safely ignore the remaining options of the dialog and proceed by clicking '''OK'''
- 
+Finally we will examine the pull down menu '''Transformation model''' that offer three options
+
+* ''Translation'' - uses transformation model that takes into account only translation between views (nto particularly useful for multi-view OpenSPIM data).
+* ''Rigid'' - included additionally rotation
+* ''Affine'' - includes scaling and shearing (necessary for OpenSPIM data due to aberrations introduced by difraction index mismatch between water and agarose).
+
+
+We will leave '''Affine''' as a useful and, in fact, necessary default for OpenSPIM data.
+
+That's it, we can for now safely ignore the remaining options of the dialog and proceed by clicking '''OK'''.
+|-
+|
+----[[File:Screenshot-Select view to analyze.png|thumb|400px|Dialog for selection of data file (view) for Interactive bead segmentation.]]
+Since we have selected the '''Bead brightness->Interactive''' the next dialog will ask us to select a time-point to perform the segmentation optimization on. Click '''Browse''' and locate the file ''spim_TL05_Angle0.tif'' and then press '''OK'''.
 |}
 
 == Run ==
