@@ -107,17 +107,33 @@ Once we identify a reasonable threshold we can click '''Done''' and start the re
 |}
 
 == Run ==
+{|
 
 [[FIle:Registration Log.png|thumb|400px|right|Screenshot of a Registration log window]] 
 
 The output of the registration plugin is not visual, it is limited to text messages in Fiji's '''Log''' window. However understanding the meaning of these messages is very important for optimization of the registration. The complete output of the registration of time-point 5 from OpenSPIM sample data is available [[Media:Registration Log.pdf|'''here''']]. Below we comment on the most important messages appearing in the output.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  Loading /home/tomancak/Desktop/OpenSPIM_for_website/tiffs//spim_TL05_Angle0.tif
  r1 = 2.0
  r2 = 3.0
- threshold = 0.010126623325049877
+ threshold = <font color=red>0.010126623325049877</font>
 
-Here are the parameters determined during the Interactive segmentation session described in the previous step.
+Here are the parameters (particularly the threshold) determined during the Interactive segmentation session described in the previous step.
 
  Version 0.55
  (Tue Jun 04 18:19:55 CEST 2013): Starting Bead Extraction
@@ -128,9 +144,9 @@ Here are the parameters determined during the Interactive segmentation session d
  (Tue Jun 04 18:19:58 CEST 2013): Computing Difference-of-Mean
  (Tue Jun 04 18:20:00 CEST 2013): Extracting peaks
  (Tue Jun 04 18:20:02 CEST 2013): Subpixel localization using quadratic n-dimensional fit
- Found peaks (possible beads): 1023 in view spim_TL05_Angle0.tif
+ Found peaks (possible beads): <font color=red>1023</font> in view spim_TL05_Angle0.tif
 
-Processing of the first view ''spim_TL05_Angle0.tif'' started at 18:19:55 and ended 18:20:02, i.e. it took 7 seconds to find bead candidates for one view. The plugin reports '''1023''' possible beads. These include the detections inside the specimen. Only small percentage of these detections will be actually used in the registration (for details see [http://fiji.sc/SPIM_Registration_Method#Bead_Segmentation SPIM registration method].
+Processing of the first view ''spim_TL05_Angle0.tif'' started at 18:19:55 and ended 18:20:02, i.e. it took 7 seconds to find bead candidates for one view. The plugin reports '''1023''' possible beads. These include the detections inside the specimen. Only small percentage of these detections will be actually used in the registration (for details see [http://fiji.sc/SPIM_Registration_Method#Bead_Segmentation SPIM registration method]).
 
  (Tue Jun 04 18:20:02 CEST 2013): Starting Integral Image based DOM Bead Extraction for spim_TL05_Angle1.tif
  (Tue Jun 04 18:20:02 CEST 2013): Opening Image
@@ -202,18 +218,18 @@ Overall we found '''true correspondances''' in all pairs of view. This is not ab
  The total number of correspondence candidates was: 299
  The total number of true correspondences is: <font color=red>282</font>
 
-The number of true correspondances is the best indicator of registration success, the bigger the better. We can optimize the bead segmentation by trial and error, testing different thresholds, until the number of true correspondances does not change anymore.
+The '''number of true correspondances''' is the best indicator of registration success, the bigger the better. We can optimize the bead segmentation by trial and error, testing different thresholds, until the number of true correspondances does not change anymore.
 
  Fixing tile spim_TL05_Angle0.tif (id = 0)
 
-The '''Angle0''' has been selected as a reference. It is the first Angle we specified in the '''Angles to process''' field in the second SPIM registration dialog. The reference view can be changed by changing the order of angles - for example '''3,0-2,4''' will set the reference view to Angle3. This angle will not undergo any transformation, all other angles will be transformed with respect to it. 
+The '''Angle0''' has been selected as a reference. It is the first Angle we specified in the '''Angles to process''' field in the second SPIM registration dialog. The reference view can be changed by changing the order of angles - for example '''3,0-2,4''' will set the reference view to Angle3. This angle will not undergo any transformation, all other angles will be transformed relative to it. 
 
  Successfully optimized configuration of 5 tiles after 258 iterations:
    average displacement: 1.169px
    minimal displacement: 1.052px
    maximal displacement: 1.346px
 
-
+Here the plugin reports results of [http://fiji.sc/SPIM_Registration_Method#Global_Optimization global optimization]. The '''average displacement''' is a good measure of the registration success. the lower the better. However it should be noted that it refers only to displacement of truly corresponding beads and thus the number is somewhat dependent on the number f true correspondances. The average for smaller number of beads will be lower but that does not necessarily mean that the registration is better. We will return to the issue of registration evaluation in the [[Fusion|'''Fusion section''']] of this tutorial.
 
  Optimizer Matrices
  spim_TL05_Angle0.tif (id = 0):
@@ -224,6 +240,8 @@ The '''Angle0''' has been selected as a reference. It is the first Angle we spec
  Transformation:
  3d-affine: (0.40029413, -0.017728202, -0.94824606, 647.0399, -0.025776416, 0.99945474, -0.028035998, 78.98084, 0.91382235, 0.015030926, 0.32484454, -485.3402)
  Scaling: (1.0410335704042355, 0.9563661799258112, 1.0012564667399522)
+
+The actual result of SPIM registration are these formidable looking 3x4 affine transformation matrices. This is linear algebra and there is no gentler way to break into it than the [https://www.khanacademy.org/math/linear-algebra Khan Academy]. As you can see the first matrix is mostly zeros apart form the ones for scale along the x, y and z axis, this is the so -called identity matrix for the reference view that, as we mentioned before, will not be transformed. The second matrix for Angle1 describes the affine transformation that will transform the raw data of that view to the position in the world coordinate space of Angle0 that minimizes the displacement of corresponding bead descriptors. The Scalings are close to 1 indicating that our z-scaling factor 9.3023 was correct.
 
  spim_TL05_Angle2.tif (id = 2):
  Transformation:
@@ -237,8 +255,9 @@ The '''Angle0''' has been selected as a reference. It is the first Angle we spec
  Transformation:
  3d-affine: (0.5062743, -0.0048624836, 0.857942, 126.564545, -0.0015900917, 1.0001556, -0.0052930415, 78.1325, -0.828062, -0.02390239, 0.56586677, 652.8654)
  Scaling: (0.9650266222266568, 1.0369083125363359, 0.9963691154426817)
- 
- (Tue Jun 04 18:20:45 CEST 2013): Finished Registration
+ (Tue Jun 04 <font color=red>18:20:45</font> CEST 2013): Finished Registration
  Finished processing.
+
+The global optimization took only 5 seconds, showing that the most computationally expensive step of the registration pipeline is the segmentation of beads. If we were to use more precise and slower bead segmentation algoritm (DoG and Gauss-fit) the registration could take several minutes. With Difference-of-Mean and quadratic fit we were able to accomplish the registration in '''50 seconds'''.
 
 == Output ==
