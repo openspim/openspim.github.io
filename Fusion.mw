@@ -17,6 +17,8 @@ Content based multi-view fusion requires significant [[Pre-requisites|computatio
 
 == First approximate run ==
 
+The purpose of this run is to get to the output fused data as quickly as possible in order to evaluate them and decide on how to continue.
+
 === Input ===
 {|
 |-
