@@ -10,7 +10,7 @@ The first step in the SPIMage processing pipeline, after [[Pre-processing|re-sav
 First we start the plugin from '''Plugins->SPIM Registration->Bead based registration''' (or pressing letter '''l''' and typing SPIM etc.).
 
 
-''Note that all SPIM related plugins are conveniently grouped in the plugins submenu SPIM Registration. Later on we will see how to use [[Fusion|Multi-view fusion]] to combine registered views into single output image and [[Fusion#deconvolution|Multi-view Deconvolution]] for deconvolution mediated fusion which enhances image contrast and in some cases improves resolution. The plugins are linked to each other and share many parameters. I.e. if we first run registration and select the appropriate directories with data, these fields will be pre-filled for fusion unless, of course, we have restarted Fiji in the meantime.   
+''Note that all SPIM related plugins are conveniently grouped in the plugins submenu SPIM Registration. Later on we will see how to use [[Fusion|Multi-view fusion]] to combine registered views into a single output image and [[Fusion#deconvolution|Multi-view Deconvolution]] for deconvolution mediated fusion which enhances image contrast and in some cases improves resolution. The plugins are linked to each other and share many parameters. I.e. if we first run registration and select the appropriate directories with data, these fields will be pre-filled for fusion unless, of course, we have restarted Fiji in the meantime.   
  
 |-
 |
@@ -45,15 +45,15 @@ Finally we specify the '''Angles to process''', in our case '''0-4''' (0.1.2.3.4
 In the second section of the dialog we need to initially pay attention only to the parameters affecting the initial segmentation of the bead. '''Bead Brightness''' is a pull down menu offering 6 options.
 
 
-* ''Very weak'' - the threshold for bead detection set to 0.02 (typically when the beads emit in a different wavelength compared to sample, i.e. red green beads for red fluorescent sample)
+* ''Very weak'' - the threshold for bead detection set to 0.0025 (typically when the beads emit in a different wavelength compared to sample, i.e. red green beads for red fluorescent sample)
 * ''Weak'' - the threshold for bead detection set to 0.02
-* ''Comparable to sample'' - the threshold for bead detection set to 0.02 (typically when using beads emitting in the same wavelength as the sample, i.e. green beads and GFP in the sample)
-* ''Strong'' - the threshold for bead detection set to 0.02
+* ''Comparable to sample'' - the threshold for bead detection set to 0.075 (typically when using beads emitting in the same wavelength as the sample, i.e. green beads and GFP in the sample)
+* ''Strong'' - the threshold for bead detection set to 0.25
 * ''Advanced'' - the threshold for bead detection can be set manually in the following dialog
 * ''Interactive'' - the threshold can be manually adjusted based on visualization of bead detection on a user selected timepoint
 
 
-In out initial run we will select the option '''Interactive''' to play around with the threshold that is best suited for our data.
+In our initial run we will select the option '''Interactive''' to play around with the threshold that is best suited for our data.
 
 
 The '''Subpixel localization''' is a pull down menu offering three option for more-or-less precisely localising the beads
