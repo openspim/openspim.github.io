@@ -1,6 +1,6 @@
 = Basic requirements for SPIMage processing =
 
-'''Hardware requirements'''
+== Hardware requirements ==
 
 OpenSPIM image processing involves computationally relatively expensive steps particularly due to the size of the imaged dataset. Typical acquisition will consist of multiple views  100-400 MB each. Those large images have to be at least temporarily held in memory, usually in multiple copies and therefore we recommend to '''invest in RAM'''. 
 
@@ -32,3 +32,7 @@ This is clearly a monster and it is not cheap (roughly 5000 Euros). Fortunately 
 One can of course get by with an even lesser computer and the Fiji SPIM code offers several work arounds to be able to process on large SPIM data without the higher end hardware. BUT IT WILL TAKE TIME. Investing into a decent computer (Mac or PC) is a good idea.
 
 One way to truly speed up OpenSPIMage processing is to perform it '''in parallel on a cluster computer'''. Since this is outside the scope to this tutorial we refer users to the [http://fiji.sc/SPIM_Registration_on_cluster SPIM registration on a cluster] recipes on the Fiji wiki.
+
+== Software requirements ==
+
+All we need is love, I mean, [http://fiji.sc Fiji].
