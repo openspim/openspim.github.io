@@ -50,9 +50,12 @@ On our 128GB computer we can '''Process All views in parallel''' we have enough 
 
 '''Blending''', '''Content based weights''' and '''Content based weights (fast approximate)''' are options that take time and so we leave the checkboxes '''unclicked''' for this initial quick run. We will return to them later when discussing the [[Fusion#Final_run|'''final run''']].
 
+
 Importantly, to speed up the processing we enter '''4''' into the '''Downsample output image n-times'''.
 
-We will leave the '''cropping''' fields at 0 (we return them in the chapter [[Fusion#Cropping|'''cropping''']].
+
+We will leave the '''cropping''' fields at 0 (we return them in the chapter [[Fusion#Cropping|'''cropping''']]).
+
 
 Finally, the last pull down menu '''Fused image output''' allows us to choose to either
 
