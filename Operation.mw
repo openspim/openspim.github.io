@@ -45,6 +45,8 @@ Now you are ready to [[Acquisition|'''acquire''']] images. Please follow these s
 
 The raw multi-view OpenSPIM data need to be processed in order to achieve ''in toto'' imaging of large biological sample. We describe here the steps of the SPIMage processing pipeline as implemented in Fiji.  The processing involves saving the data in a format accessible by Fiji's SPIM registration plugins, registration of the views using beads as fiduciary markers, fusion of the data from different views into a single output image (potentially by employing multi-view deconvolution), stabilisation of the time-lapse data by registration across time-points using the segmented beads, exploration of the raw and fused data in space and time and finally 3D rendering for presentation purposes.
 
+*[[Pre-requisites|'''System requirements''']] for SPIMage processing
+
 *[[Raw_data|'''Download sample data]] from Dresden's OpenSPIM.
 
 *[[Pre-processing|'''Pre-processing''']] of OpenSPIM ome.tiff stacks for multi-view reconstruction.
