@@ -9,7 +9,11 @@
 
 The content based multi-view fusion evaluates local information entropy in the areas where several views overlap and combines the views by enhancing  the low entropy information from the view containing useful data while suppressing the high entropy noise from the blurred data in other views. The principles of the method are discussed in depth [http://fiji.sc/SPIM_Registration_Method#Image_Fusion_and_blending '''here'''] and the parameters of the Fiji plugin implementing the method are described [http://fiji.sc/Multi-View_Fusion '''here''']. As before we enhance these technical description with tutorial style walk through using the [[Raw_data|sample OpenSPIM data]]. 
 
-Content based multi-view fusion requires significant [[Pre-requisites|computational resources]]. 
+Content based multi-view fusion requires significant [[Pre-requisites|computational resources]]. The input raw data stacks are large and when they are transformed to the position where they overlap, the bounding box of the output volume can become several fold larger. To process on such large volumes can take significant amount of time and it may fail due to insufficient memory even on the largest computer systems (we did experience out of memory exceptions on a system with 128GB of RAM!). Therefore we will proceed sequentially, minimising the memory footprint.
+
+* first we will fuse '''four times down-sampled''' data with all computationally demanding options turned off - see [[Fusion#First_approximate_run|'''First approximate run''']].
+* next we will '''crop''' the output volume to include only the specimen - see [[Fusion#Cropping|'''Cropping''']].
+* finally we will fuse the '''cropped''' volume with all options turned on - see [[Fusion#Final_run|'''Final run''']].
 
 == First approximate run ==
 
