@@ -73,7 +73,7 @@ For OpenSPIM data it is very important to select the '''Specify calibration manu
 * ''z resolution (un/px)'' = '''6'''  - the step size of the motors on OpenSPIM are 1.5 um and we sued 4 z steps between planes when acquiring the sample data, i.e. 4 x 1.5 = 6 um.
 
 
-''Note that the important number here is the ration between the z and xy resolutions. In the case of OpenSPIM sample data it is 6/0.645 = 9.3023. We could also express the ratio as xy = 1 and z = 9.3023. The 9.0323 or z-scaling is an important number to remember and write down. It will also be stored as the value in the *.registration.txt files as discussed below. We will need it during all subsequent steps.''
+''Note that the important number here is the ration between the z and xy resolutions. In the case of OpenSPIM sample data it is 6/0.645 = 9.3023. We could also express the ratio as xy = 1 and z = 9.3023. The 9.0323 or z-scaling is an important number to remember and write down. It will also be stored as the value in the *.registration files as discussed below. We will need it during all subsequent steps.''
 
 
 Finally we will examine the pull down menu '''Transformation model''' that offer three options
