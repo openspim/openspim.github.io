@@ -26,7 +26,10 @@ The outer loop increments the time-points (we use built in ImageJ zero padding f
 
 The easiest way to run the macro is to launch the ''Script Editor'' plugin (press letter '''l''' on the keyboard to launch Fiji [http://fiji.sc/Using_the_Command_Launcher Command Finder] and then type Script Editor, then click on ''RUN''). Paste the macro in the Script Editor. Select ImageJ macro from Language menu - this will result in helpful syntax highlighting. If necessary modify the numbers in the loops to reflect the '''input/output directory''', the number of time-points ('''t''') and angles ('''a''') in your time series. Save the macro or simply run it.
 
-It is a macro, therefore it will show every image it opens temporarily before saving and closing it. The downside of this is that the computer cannot be used for anything else during that operation.
+It is a macro, therefore it will show every image it opens temporarily before saving and closing it. The downside of this is that the computer cannot be used for anything else during that operation. If you wish to run the plugin faster without showing the images, the this as a first line to the macro:
+<source lang="java">
+setBatchMode( true );
+</source>
 
 The end result of running the macro will be 55 new files (11 time-points x 5 angles) in the directory ''tiffs/''. These are regular tif files that we can use for [[Registration|'''bead based registration''']] in Fiji.
 
