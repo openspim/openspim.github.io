@@ -37,13 +37,13 @@ The second dialog should look familiar. In fact if you have run the [[Registrati
 |
 ----
 [[File:dummy|thumb|400px|right|Screenshot of the first fusion dialog]]
-The main dialog of Content based fusion plugin starts with a pull-down '''Registration of channel 0'''. This pull down should have only a single option available '''Individual registration to channel 0'''. Later on, after we perform [[Timelapse_registration|timelapse registration]] there will be other possibilities. For now it is sufficient to know that this field refers to the ''.registration'' file in the ''/registration'' directory that contains the [[Registration#output|registration results]] (affine transformation matrices). The files need to exist in that directory otherwise the fusion will fail.
+The main dialog of Content based fusion plugin starts with a pull-down '''Registration of channel 0'''. This pull down should have only a single option available '''Individual registration to channel 0'''. Later on, after we perform [[Timelapse_Registration|timelapse registration]] there will be other possibilities. For now it is sufficient to know that this field refers to the ''.registration'' files in the ''/registration'' directory that contains the [[Registration#output|registration results]] (affine transformation matrices). The files need to exist in that directory otherwise the fusion will fail.
 
 
 Second field '''Fusion Method''' can be left as deafult, we want to fuse into a single image.
 
 
-On our 128GB computer we can '''Process All views in parallel''' we have enough memory. However if you are using a lesser computer and getting the so-called 'Java heap space'' exception after launching fusion, you need to choose to process 2 or maybe only one view in parallel. ''Note that this is unlilkely to be a problem if you follow this tutorial since we will downsample the image four times, making it rather small - see below''.
+On our 128GB computer we can '''Process All views in parallel''' we have enough memory. However if you are using a lesser computer and getting the so-called ''Java heap space'' exception after launching fusion, you need to choose to process '''2''' or maybe only '''one view''' in parallel. ''Note that this is unlilkely to be a problem if you follow this tutorial since we will downsample the image four times, making it rather small - see below''.
 
 
 
