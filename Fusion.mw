@@ -113,6 +113,8 @@ Now here is the action, the plugin loads the images, fuses them without doing an
 
 === Output ===
 
+At end of the run a new window pops up. Now we finally see our registered OpenSPIM data albeit heavily downsampled.
+
 == Cropping ==
 
 == Final run ==
