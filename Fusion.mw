@@ -116,8 +116,8 @@ Now here is the action, the plugin loads the images, fuses them without doing an
 
 A new window will pop-up. This is the '''Output''' that we will discuss in the next section.
 
-=== Output ===
-
+=== Output and Evaluation ===
+[[File:Screenshot-Fused spim TL5.png|thumb|400px|right|4 times downsampled fusion output, auto contrast adjusted]]
 At end of the '''Run''' a new window pops up. Now we finally see our registered OpenSPIM data albeit heavily downsampled.
 
 == Cropping ==
