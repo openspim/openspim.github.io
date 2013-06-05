@@ -115,7 +115,7 @@ A new window will pop-up. This is the output that we will discuss in the next se
 
 === Output ===
 
-At end of the run a new window pops up. Now we finally see our registered OpenSPIM data albeit heavily downsampled.
+At end of the '''Run''' a new window pops up. Now we finally see our registered OpenSPIM data albeit heavily downsampled.
 
 == Cropping ==
 
