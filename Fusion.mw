@@ -40,13 +40,26 @@ The second dialog should look familiar. In fact if you have run the [[Registrati
 The main dialog of Content based fusion plugin starts with a pull-down '''Registration of channel 0'''. This pull down should have only a single option available '''Individual registration to channel 0'''. Later on, after we perform [[Timelapse_Registration|timelapse registration]] there will be other possibilities. For now it is sufficient to know that this field refers to the ''.registration'' files in the ''/registration'' directory that contains the [[Registration#Output|registration results]] (affine transformation matrices). The files need to exist in that directory otherwise the fusion will fail.
 
 
-Second field '''Fusion Method''' can be left as deafult, we want to fuse into a single image.
+Second field '''Fusion Method''' can be left as default, we want to fuse the data into a single image.
 
 
 On our 128GB computer we can '''Process All views in parallel''' we have enough memory. However if you are using a lesser computer and getting the so-called ''Java heap space'' exception after launching fusion, you need to choose to process '''2''' or maybe only '''one view''' in parallel. ''Note that this is unlilkely to be a problem if you follow this tutorial since we will downsample the image four times, making it rather small - see below''.
 
 
+'''Blending''', '''Content based weights''' and '''Content based weights (fast approximate)''' are options that take time and so we leave the checkboxes '''unclicked''' for this initial quick run. We will return to them later when discussing the [[Fusion#Final_run|'''final run''']].
 
+Importantly, to speed up the processing we enter '''4''' into the '''Downsample output image n-times'''.
+
+We will leave the '''cropping''' fields at 0 (we return them in the chapter [[Fusion#Cropping|'''cropping''']].
+
+Finally, the last pull down menu '''Fused image output''' allows us to choose to either
+
+* ''Display only'' - simply display the output without saving
+* ''Save 2d-slices, all in one directory'' - save the output volume into a single directory one image per slice. ''Note that when processing long-term time-lapse this can amount to literally hundreds of thousands of images, it has benefits in terms of loading the data into Fiji as virtual stack, but your file system may not like it, thus...
+* ''Save 2d-slices, one directory per timepoint'' - is a more sensible option, it will put all slices for one timepoint into a directory named by the timepoint index, i.e. for timepoint 5 it will be directory '''output/5'''
+
+
+We are ready to launch the fusion by clicking '''OK'''.
 |}
 
 ===  Run ===
