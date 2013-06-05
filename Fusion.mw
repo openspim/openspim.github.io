@@ -117,8 +117,33 @@ Now here is the action, the plugin loads the images, fuses them without doing an
 A new window will pop-up. This is the '''Output''' that we will discuss in the next section.
 
 === Output and Evaluation ===
+{|
+|-
+|colspan="3"|
 [[File:Screenshot-Fused spim TL5.png|thumb|400px|right|4 times downsampled fusion output, auto contrast adjusted]]
 At end of the '''Run''' a new window pops up. Now we finally see our registered OpenSPIM data albeit heavily downsampled.
+
+
+This is not exactly what we hoped for, there are lines and grey boxes everywhere and the resolution is poor. This is because we downsampled and turned off all fusion bells and whistles. When we scroll through the stack we nonetheless can see that the 5 views making up this timepoint have indeed been registered as there are no obvious discontinuities in the data and the entire embryo is covered. 
+
+
+We are looking at the data from the point of view of the reference view (in this case Angle0). This view hasn't been transformed, we are looking at the data as they were acquired, downsampled and degraded by averaging in the blurred data from other views (we did no content based weightening).
+|-
+|We will use this initial output to demonstrate the fundamental principle of the bead based multi-view registration. Lets turn this stack to look at it along the rotation axis. We do that by running '''Plugins->Transform->TransformJ->TransfromJ Turn''' and turning the fusion output stack around the '''x''' axis by '''90 degrees'''.
+|[[File:Screenshot-TransformJ.png|thumb|200px|right|Run TransformJ Turn command]]
+|[[File:Screenshot-TransformJ-Turn.png|thumb|150px|right|Turn by 90 degrees around the x axis]]
+
+
+
+|-
+|
+When we now navigate through the turned stack we are looking approximately alongside the rotation axis. We see how the five individual view stacks overlap in the output volume and how the bounding box of that volume becomes consequently large.
+
+
+We see also the elongated '''Point Spread Function''' ('''PSF'''s) of the beads. These axially elongated PSFs cross forming beautiful stars. Their presence around the specimen indicates that the registration was successful. 
+|[[File:Screenshot-Fused spim TL5 turned.png|200px|right|Turned fusion output stack - looking roughly alongside the rotation axis]]
+|[[File:Screenshot-Fused spim TL5 turned psf.png|200px|right|Turned fusion output stack - looking roughly alongside the rotation axis]]
+|}
 
 == Cropping ==
 
