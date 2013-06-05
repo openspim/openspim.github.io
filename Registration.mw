@@ -286,7 +286,7 @@ The content of the files for Angle1 are available here
 * [[Media:Spim_TL05_Angle1.tif.pdf|spim_TL05_Angle1.tif.dim]]
 * [[Media:Spim TL05 Angle1.tif.beads.pdf|spim_TL05_Angle1.tif.beads.txt]]
 
-The ''spim_TL05_Angle1.tif.registration'' contains information about the registration statistics such as number of detection, bead candidates, corresponding bead descriptors etc. and the affine matrices in the following form
+The ''spim_TL05_Angle1.tif.registration'' contains information about the registration statistics such as number of detections, bead candidates, corresponding bead descriptors, the z-stretching used for the registration, etc. and the affine matrices in the following form
 
  m00: 0.40029413
  m01: -0.017728202
@@ -305,6 +305,8 @@ The ''spim_TL05_Angle1.tif.registration'' contains information about the registr
  m32: 0
  m33: 1
  model: AffineModel3D
+ ...
+ z-scaling: 9.0323
 
 The  ''spim_TL05_Angle1.tif.dim'' contains information about the dimensions of the input image stacks
 
