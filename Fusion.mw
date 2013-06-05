@@ -7,7 +7,9 @@
 
 = Content Based Fusion =
 
-The content based multi-view fusion evaluates local information entropy in the areas where several views overlap and combines the views by enhancing  the low entropy information from the view containing useful data while suppressing the high entropy noise from the blurred data in other views. The principles of the method 
+The content based multi-view fusion evaluates local information entropy in the areas where several views overlap and combines the views by enhancing  the low entropy information from the view containing useful data while suppressing the high entropy noise from the blurred data in other views. The principles of the method are discussed in depth [http://fiji.sc/SPIM_Registration_Method#Image_Fusion_and_blending '''here'''] and the parameters of the Fiji plugin implementing the method are described [http://fiji.sc/Multi-View_Fusion '''here''']. As before we enhance these technical description with tutorial style walk through using the [[Raw_data|sample OpenSPIM data]]. 
+
+
 
 == First approximate run ==
 
