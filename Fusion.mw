@@ -7,6 +7,8 @@
 
 = Content Based Fusion =
 
+The content based multi-view fusion evaluates local information entropy in the areas where several views overlap and combines the views by enhancing  the low entropy information from the view containing useful data while suppressing the high entropy noise from the blurred data in other views. The principles of the method 
+
 == First approximate run ==
 
 === Input ===
