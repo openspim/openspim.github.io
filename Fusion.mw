@@ -111,7 +111,7 @@ Here we see the benefits of downsampling, the full resolution output image would
 
 Now here is the action, the plugin loads the images, fuses them without doing any entropy evaluation, closes the input images and displays the output. Since we are working with 4 times down-sampled data it all takes only seconds.
 
-A new window will pop-up. This is the output that we will discuss in the next section.
+A new window will pop-up. This is the '''Output''' that we will discuss in the next section.
 
 === Output ===
 
