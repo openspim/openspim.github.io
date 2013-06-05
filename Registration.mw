@@ -376,7 +376,7 @@ A long stream of output in [[Media:Registration_Log_series.pdf|'''Log''']] ensue
 |
 ----
 [[File:Screenshot-registration results.png|thumb|400px|right|Plot of registration results for OpenSPIM sample data.]]
-The plugin plots the average, minimal and maximal displacement of corresponding bead descriptors as well as the RANSAC ratio of inliers (true/all correspondances) for all time-points.
+The plugin plots the average, minimal and maximal displacement of corresponding bead descriptors as well as the RANSAC ratio of inliers (true/all correspondances) for all time-points. If you selected ''Manual (interactive)'' for the reference time-point, you will have to click using the mouse onto your time-point of choice that all others will be registered to. If you choose ''Automatic'', the plugin will choose the time-point with the lowest error and highest number of inliers. Selecting ''Manually (specify)'' you will be queried for your choice of the reference time-point before the registration starts. This latter choice is especially useful for completely automatic processing, e.g. on a cluster.
 
 
 For such a small timelapse it is perfectly feasible to perform registration on a single computer consecutively. For longer timelapses we recommend using a cluster computer as described [http://fiji.sc/SPIM_Registration_on_cluster#Registration here].
