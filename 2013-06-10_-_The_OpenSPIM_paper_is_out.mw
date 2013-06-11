@@ -1,5 +1,10 @@
-[http://www.nature.com/nmeth/journal/vaop/ncurrent/full/nmeth.2507.html Our paper] got published in Nature Methods, back to back with the [http://www.nature.com/nmeth/journal/vaop/ncurrent/full/nmeth.2508.html OpenSpinMicroscopy paper]. It is now a very short correspondence.
+[http://www.nature.com/nmeth/journal/vaop/ncurrent/full/nmeth.2507.html OpenSPIM] was published in Nature Methods, back to back with a paper on a similar project - the [http://www.nature.com/nmeth/journal/vaop/ncurrent/full/nmeth.2508.html OpenSpinMicroscopy]. 
 
-If you are interested in the <b>full-length</b>, original paper, please find it [http://arxiv.org/abs/1302.1987 on arXiv].
+For more details see also our much longer pre-print [http://arxiv.org/abs/1302.1987 on arXiv].
+
+After you build an OpenSPIM and do something cool with it please remember to cite us!
+
+Pitrone P. G., Schindelin J., Stuyvenberg L., Preibisch S., Weber M.; Eliceiri K. W., Huisken J., Tomancak P.  (2013) '''OpenSPIM: an open access light sheet microscopy platform'''
+''Nat. Methods'' in press
 
 [[Category:News]]
