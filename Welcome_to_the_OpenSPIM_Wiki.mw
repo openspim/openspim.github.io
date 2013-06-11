@@ -5,7 +5,7 @@
 <b>News</b><br />
 <listnews/>
 </div>
-<b>The Idea</b>
+<b>The Idea</b><br>
 OpenSPIM is an <i>Open Access</i> platform for applying and enhancing '''Selective Plane Illumination Microscopy''' (''SPIM'').
 <blockquote>
 We hope that OpenSPIM in its radical openness will demonstrate that the benefits brought to science by the Open Source approach apply equally well to hardware.
