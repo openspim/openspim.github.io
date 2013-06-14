@@ -147,6 +147,19 @@ We see also the elongated '''Point Spread Function''' ('''PSF'''s) of the beads.
 
 == Cropping ==
 
+In the next step of the fusion pipeline we will crop the output image as much as possible. Why? You may have noticed that the bounding box of the fused image is actually rather large (4 x 384x282x367). This is because we have rotated the input image stacks in 3d and the resulting cubic volume has to include them all. Saving output images in this form would increase the storage requirements by orders of magnitude. To reduce the storage footprint we will use this initial run of fusion to define a volume that fits the specimen most efficiently. It will also reduce memory requirements allowing us to run the fusion with full resolution images.
+
+
+''Note that in reality it makes sense to define the crop volume only after the [[Timelapse_Registration|time-lapse registration]], because that will be the final output of the pipeline and the crop area has to be defined relative to that registration. However to preserve linearity we will describe cropping here.
+
+
+{|
+|-
+|
+[[File:Macro recorder.png|thumb|400px|Screenshot of macro recorder, showing where to find it in Fiji menus and the recorder window which has just recorded the running of the macro recorder command (little recursion)]]
+Before you start cropping start a macro recorder. '''Macro recorder''' will open a window that will report the parameters of commands we run in Fiji. We will need it to note the coordinates of the bounding box.
+|}
+
 == Final run ==
 
 = Deconvolution =
