@@ -211,7 +211,7 @@ Start once again the '''Plugins->SPIM registration->Multi-view fusion''' plugin 
 [[File:Screenshot-Multi-view fusion-dialog2.png|thumb|200px|right|Screenshot of the second fusion dialog]]
 |-
 |
-Next we will specify some new parameters for fusion. We will use the individual registration beacuse that is the only one we have (unless we have run [[Timelapse_Registration|time series registration]] before). We want to fuse into a single output image and we will this time process '''two views in parallel''' (On our super-duper computer we have enough memory to do them all at once, but it is not a realistic situation). 
+Next we will specify some new parameters for fusion. We will use the individual registration beacuse that is the only one we have (unless we have run [[Timelapse_Registration|'''time series registration''']] before). We want to fuse into a single output image and we will this time process '''two views in parallel''' (On our super-duper computer we have enough memory to do them all at once, but it is not a realistic situation). 
 
 
 Click the '''Blending''' checkbox to turn on blending of intensities at the borders between views (otherwise there would be a visible line where one view abruptly ends).
@@ -223,7 +223,7 @@ Select '''Content based weigths (fast, approximate)''' over the full ''Content b
 This time we will '''not downsample''' at all - 1 or 0 both signify this.
 
 
-Next we fill specify the cropping parameters. Alas these numbers on the screenshot do not look familiar. This is because we collected number in the previous [[Fusion#Cropping|cropping]] section on '''four times downsampled''' data. Therefore we have to multiply these number by a factor of '''four''' like this:
+Next we fill specify the cropping parameters. Alas these numbers on the screenshot do not look familiar. This is because we collected numbers in the previous [[Fusion#Cropping|'''cropping''']] section on '''four times downsampled''' data. Therefore we have to multiply these number by a factor of '''four''' like this:
 
 
 * offset x : 109 x 4 = 436
@@ -234,13 +234,12 @@ Next we fill specify the cropping parameters. Alas these numbers on the screensh
 * size z   : (240-120) x 4 = 480    (note that for z we substract the bottom z-index 120 from the top z index 240)
 
 
-Finally we decide to '''save the data''' one directory per time-point and click '''OK''' to start processing.
+Finally we decide to '''save the data one directory per time-point''' and click '''OK''' to start processing.
 | colspan="2"|
 [[File:Final_run1.png|thumb|400px|Screenshot of main fusion dialog with fusion parameters enabled and crop area filled, no downsampling]]
 |}
 
 Lets annotate the output in the '''Log''' windows to understand what is going on
-
 
  (Sun Jun 16 19:54:30 CEST 2013): Starting Bead Extraction
  Read 1046 beads for spim_TL05_Angle0.tif (id = 0)
@@ -258,9 +257,7 @@ Lets annotate the output in the '''Log''' windows to understand what is going on
  Cropped image size: <font color=re>552x688x480</font>
  Needs <font color=red>695 MB</font> of RAM
 
-We have reduced th memory requirements by cropping more then ten fold (from 9.6 GB to about 0.6 GB).
-
-
+We have reduced the memory requirements by cropping more then ten fold (from 9.6 GB to about 0.6 GB).
 
  Location of pixel (0,0,0) in global coordinates is: (436.0, 212.0, -5.139496)
  (Sun Jun 16 19:54:30 CEST 2013): Reserving memory for fused image.
@@ -325,14 +322,13 @@ The directory contains at the moment a single subdirectory named ''5/'' because 
  .
  .
 
+That directory contains a series of ''tifs'' each representing one plane of the fused output volume. 480 files in total. These images can be opened in Fiji using '''File->Import->Image sequence''' or the entire directory can be simply dragged and dropped into onto Fiji's main window. 
 
-That directory contains a series of ''tifs'' each representing one plane of the fused output volume. 480 files in total. These images can be opened in Fiji using '''File->Import->Image sequence''' or the entire directory can be simply dropped into onto Fiji's main window. 
+[[File:Montage fusion.png|thumb|left|600px|Slices through the fused full resolution output volume (step 80)]]
 
-[[File:Montage fusion.png|thumb|left|1100px|Slices through the fused full resolution output volume (step 80)]]
+There are other ways to look at the data as we will see in the [[Browsing|'''browsing''']] section. Note that the fused data are looking perhaps slightly worse compared to the raw data. This is primarily caused by two factors. First the content based fusion combined sharp and blurred information from different views by entropy based weightening and this is not perfect (see the next section [[Fusion#Deconvolution|'''deconvolution''']] for a more advanced fusion approach). Second the embyro is alive and it moves, particularly at this stage of development (gastrulation) the movement is quite fast and it is not quite matched by the acquisition speed of OpenSPIM. I.e. by the time we acquire the fifth view that overlaps with the first views the cells may have moved. The only way to overcome that is to build a faster microscope or slow development down by lowering temperature.
 
-There are other ways to look at the data as we will see in the [[Browsing|browsing]] section. Note that the fused data are looking perhaps slightly worse compared to the raw data. This is primarily caused by two factors. First the content based fusion combined sharp and blurred information from different views by entropy based weightening this is not perfect (see the next section [[Fusion#Deconvolution]] for a more advanced fusion approach). Second the embyro is alive and it moves, particularly at this stage of development (gastrulation) the movement is quite fast and it is not quite matched by the acquisition speed of OpenSPIM. I.e. by the time we acquire the fifth view that overlaps with the first views the cells may have moved. The only way to overcome that is to build a faster microscope or slow development down by lowering temperature.
-
-Anyway, this is the final step of [[Fusion#Content_based_fusion|content based fusion]] of a single time-point. From here you can either continue to explore the deconvolution based fusion (right below) or you should switch to [[Timelapse_Registration|time series registration]] which is the next step of the SPIMage processing pipeline.
+Anyway, this is the final step of [[Fusion#Content_based_fusion|content based fusion]] of a single time-point. From here you can either continue to explore the deconvolution based fusion (right below) or you should switch to [[Timelapse_Registration|'''time series registration''']] which is the next step of the SPIMage processing pipeline.
 
 = Deconvolution =
 
