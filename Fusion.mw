@@ -33,12 +33,12 @@ In the first dialog we will accept the default '''Single channel''' channel type
 |-
 |
 ----
-[[File:Screenshot-Multi-view fusion-dialog2.png|thumb|400px|right|Screenshot of the first fusion dialog]]
+[[File:Screenshot-Multi-view fusion-dialog2.png|thumb|400px|right|Screenshot of the second fusion dialog]]
 The second dialog should look familiar. In fact if you have run the [[Registration|'''registration''']] of timepoint '''5''' before it should be pre-filled with all the necessary data (SPIM data directory, Pattern of SPIM file, Time-points to process and Angles to process). See [[Registration|registrarion]] tutorial for details on the fields. To proceed with fusion of time-point 5 click '''Ok'''.
 |-
 |
 ----
-[[File:Screenshot-Multi-View Fusion-main-dialog.png|thumb|400px|right|Screenshot of the first fusion dialog]]
+[[File:Screenshot-Multi-View Fusion-main-dialog.png|thumb|400px|right|Screenshot of the main fusion dialog]]
 The main dialog of Content based fusion plugin starts with a pull-down '''Registration of channel 0'''. This pull down should have only a single option available '''Individual registration to channel 0'''. Later on, after we perform [[Timelapse_Registration|timelapse registration]] there will be other possibilities. For now it is sufficient to know that this field refers to the ''.registration'' files in the ''/registration'' directory that contains the [[Registration#Output|registration results]] (affine transformation matrices). The files need to exist in that directory otherwise the fusion will fail.
 
 
