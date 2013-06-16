@@ -156,8 +156,33 @@ In the next step of the fusion pipeline we will crop the output image as much as
 {|
 |-
 |
-[[File:Macro recorder.png|thumb|400px|Screenshot of macro recorder, showing where to find it in Fiji menus and the recorder window which has just recorded the running of the macro recorder command (little recursion)]]
 Before you start cropping start a macro recorder. '''Macro recorder''' will open a window that will report the parameters of commands we run in Fiji. We will need it to note the coordinates of the bounding box.
+| colspan="2" |
+[[File:Macro recorder.png|thumb|400px|Screenshot of macro recorder, showing where to find it in Fiji menus and the recorder window which has just recorded the running of the macro recorder command (little recursion)]]
+|-
+|
+To define the crop area we click on the '''rectangle tool''' in the main Fiji window and make a rectangle around the contrast adjusted fused data. Move up and down through the z stack to make sure that the rectangle includes all the data. Modify the size of the rectangle by dragging the tiny boxes on the rectangle. Make the rectangle tight around the data but leave a few pixels buffer zone. Note that everytime you adjust the rectangle a new command get recorded in the '''Recorder''' window, such as '''makeRectangle(109, 53, 138, 172);'''. The numbers have the following meaning:
+
+* 109 - x coordinate (offset from upper left corner along the x axis)
+* 53 - y coordinate (offset from upper left corner along the y axis)
+* 138 - width of the rectangle
+* 172 - height of the rectangle
+
+''Note that we will need those numbers - so either write them down or keep the Recorder window open, which is the point of running it in the first place.
+
+
+Now we run the '''Crop''' function from the Fiji menus which will crop the image to the size of the placed rectangle.
+|
+[[File:Crop2.png|thumb|200px|Screenshot of using rectangular tool adjust xy cropping area, note the macro recorded coordinates]]
+[[File:Crop3.png|thumb|200px|Running crop command from Fiji menu]]
+|[[File:Crop4.png|thumb|200px|bla]]
+|-
+|
+Text
+| colspan = "2" |
+[[File:Crop5.png|thumb|200px|bla]]
+[[File:Crop6.png|thumb|200px|bla]]
+[[File:Crop7.png|thumb|200px|bla]]
 |}
 
 == Final run ==
