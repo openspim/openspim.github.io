@@ -332,6 +332,8 @@ Anyway, this is the final step of [[Fusion#Content_based_fusion|content based fu
 
 = Deconvolution =
 
+Deconvolution is still work in progress. Although it is already available in Fiji, it has not yet been published and it is not properly documented. I will skip it for now.
+
 == Scaling of input data ==
 
 == Debug run ==
