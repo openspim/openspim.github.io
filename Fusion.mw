@@ -184,6 +184,7 @@ The cropped image is still too big in the z-direction. Once again move the z-sli
 * 120 - offset from the bottom of the stack to the bottom of the specimen (the part away from you)
 * 240 - offset from the bottom of the stack to the top of the specimen (the part closer to you)
 
+
 We are done with cropping, we can now proceed to run the fusion one more time with all the bells and whistles turned on taking advantage of the crop parameters to reduce the memory requirements.
 |
 [[File:Crop5.png|thumb|200px|Running the duplicate command from Fiji menus]]
