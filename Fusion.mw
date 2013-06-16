@@ -195,6 +195,25 @@ We are done with cropping, we can now proceed to run the fusion one more time wi
 
 == Final run ==
 
+{|
+|-
+|
+We are ready to fuse the data at full resolution. Start once again the '''Plugins->SPIM registration->Multi-view fusion''' plugin and click through the first two windows, the parameters should be pre-filled (unless you restarted Fiji in the meantime). 
+
+
+''We are still working only with the time-point number five''.
+|
+[[File:Screenshot-fusion-pluginselection.png|thumb|200px|right|Launching content based multi-view fusion]]
+|
+[[File:Screenshot-Multi-view fusion-dialog1.png|thumb|200px|right|Screenshot of the first fusion dialog]]
+[[File:Screenshot-Multi-view fusion-dialog2.png|thumb|200px|right|Screenshot of the second fusion dialog]]
+|-
+|
+
+|
+
+|}
+
 = Deconvolution =
 
 == Scaling of input data ==
