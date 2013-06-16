@@ -211,8 +211,32 @@ Start once again the '''Plugins->SPIM registration->Multi-view fusion''' plugin 
 [[File:Screenshot-Multi-view fusion-dialog2.png|thumb|200px|right|Screenshot of the second fusion dialog]]
 |-
 |
+Next we will specify some new parameters for fusion. We will use the individual registration beacuse that is the only one we have (unless we have run [[Timelapse_regitration|time series registration]] before). We want to fuse into a single output image and we will this time process '''two views in parallel''' (On our super-duper computer we have enough memory to do them all at once, but it is not a realistic situation). 
 
-|
+
+Click the '''Blending''' checkbox to turn on blending of intensities at the borders between views (otherwise there would be a visible line where one view abruptly ends).
+
+
+Select '''Content based weigths (fast, approximate)''' over the full ''Content based weights'', the difference is negligible and this will compute significantly faster. 
+
+
+This time we will '''not downsample''' at all - 1 or 0 both signify this.
+
+
+Next we fill specify the cropping parameters. Alas these numbers on the screenshot do not look familiar. This is because we collected number in the previous [[Fusion#Cropping|cropping]] section on '''four times downsampled''' data. Therefore we have to multiply these number by a factor of '''four''' like this:
+
+
+* offset x : 109 x 4 = 436
+* offset y : 53 x 4 = 212
+* offset z : 120 x 4 = 480
+* size x   : 138 x 4 = 552
+* size y   : 172 x 4 = 688
+* size z   : (240-120) x 4 = 480    (note that for z we substract the bottom z-index 120 from the top z index 240)
+
+
+Finally we decide to '''save the data''' one directory per time-point and click '''OK''' to start processing.
+| colspan="2"|
+[[File:Final_run1.png|thumb|400px|Screenshot of main fusion dialog with fusion parameters enabled and crop area filled, no downsampling]]
 
 |}
 
