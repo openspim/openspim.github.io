@@ -195,10 +195,12 @@ We are done with cropping, we can now proceed to run the fusion one more time wi
 
 == Final run ==
 
+Now that we figured out the minimal crop area we will fuse the data at full resolution.
+
 {|
 |-
 |
-We are ready to fuse the data at full resolution. Start once again the '''Plugins->SPIM registration->Multi-view fusion''' plugin and click through the first two windows, the parameters should be pre-filled (unless you restarted Fiji in the meantime). 
+Start once again the '''Plugins->SPIM registration->Multi-view fusion''' plugin and click through the first two windows, the parameters should be pre-filled (unless you restarted Fiji in the meantime). 
 
 
 ''We are still working only with the time-point number five''.
