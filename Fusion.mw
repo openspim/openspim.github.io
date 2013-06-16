@@ -175,7 +175,7 @@ Now we run the '''Crop''' function from the Fiji menus which will crop the image
 |
 [[File:Crop2.png|thumb|200px|Screenshot of using rectangular tool adjust xy cropping area, note the macro recorded coordinates]]
 [[File:Crop3.png|thumb|200px|Running crop command from Fiji menu]]
-|[[File:Crop4.png|thumb|200px|bla]]
+|[[File:Crop4.png|thumb|200px|Output volume cropped in xy]]
 |-
 |
 The cropped image is still too big in the z-direction. Once again move the z-slider up and down to determine at which z-index the data start and end. Remember the two z-indices (for this data roughly 120 and 240). Now to also record them we will run the command '''Duplicate''' stack from Fiji menus and fill in the numbers as shown on the screenshots to the right. Running the command will duplicate the stack and make it as small as possible without discarding any data. The range will also be recorded in the recorder as highlighted: 
