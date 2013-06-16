@@ -211,7 +211,7 @@ Start once again the '''Plugins->SPIM registration->Multi-view fusion''' plugin 
 [[File:Screenshot-Multi-view fusion-dialog2.png|thumb|200px|right|Screenshot of the second fusion dialog]]
 |-
 |
-Next we will specify some new parameters for fusion. We will use the individual registration beacuse that is the only one we have (unless we have run [[Timelapse_regitration|time series registration]] before). We want to fuse into a single output image and we will this time process '''two views in parallel''' (On our super-duper computer we have enough memory to do them all at once, but it is not a realistic situation). 
+Next we will specify some new parameters for fusion. We will use the individual registration beacuse that is the only one we have (unless we have run [[Timelapse_Registration|time series registration]] before). We want to fuse into a single output image and we will this time process '''two views in parallel''' (On our super-duper computer we have enough memory to do them all at once, but it is not a realistic situation). 
 
 
 Click the '''Blending''' checkbox to turn on blending of intensities at the borders between views (otherwise there would be a visible line where one view abruptly ends).
@@ -237,8 +237,102 @@ Next we fill specify the cropping parameters. Alas these numbers on the screensh
 Finally we decide to '''save the data''' one directory per time-point and click '''OK''' to start processing.
 | colspan="2"|
 [[File:Final_run1.png|thumb|400px|Screenshot of main fusion dialog with fusion parameters enabled and crop area filled, no downsampling]]
-
 |}
+
+Lets annotate the output in the '''Log''' windows to understand what is going on
+
+
+ (Sun Jun 16 19:54:30 CEST 2013): Starting Bead Extraction
+ Read 1046 beads for spim_TL05_Angle0.tif (id = 0)
+ Read 1172 beads for spim_TL05_Angle1.tif (id = 1)
+ Read 1009 beads for spim_TL05_Angle2.tif (id = 2)
+ Read 1039 beads for spim_TL05_Angle3.tif (id = 3)
+ Read 1212 beads for spim_TL05_Angle4.tif (id = 4)
+ (Sun Jun 16 19:54:30 CEST 2013): Finished Bead Extraction
+ (Sun Jun 16 19:54:30 CEST 2013): Starting Registration
+ (Sun Jun 16 19:54:30 CEST 2013): Finished Registration
+ (Sun Jun 16 19:54:30 CEST 2013): Starting Fusion
+ Dimension of final output image:
+ From : (0.0, 0.0, -485.1395) to (1535.1057, 1127.0483, 984.4027)
+ Size: (1535.1057, 1127.0483, 1469.5422) needs <font color=red>9699 MB</font> of RAM
+ Cropped image size: <font color=re>552x688x480</font>
+ Needs <font color=red>695 MB</font> of RAM
+
+We have reduced th memory requirements by cropping more then ten fold (from 9.6 GB to about 0.6 GB).
+
+
+
+ Location of pixel (0,0,0) in global coordinates is: (436.0, 212.0, -5.139496)
+ (Sun Jun 16 19:54:30 CEST 2013): Reserving memory for fused image.
+ (Sun Jun 16 19:54:30 CEST 2013): Unloading source images.
+ (Sun Jun 16 19:54:30 CEST 2013): Computing output image (Channel 0).
+ (Sun Jun 16 19:54:30 CEST 2013): <font color=red>Loading view: spim_TL05_Angle0.tif</font>
+ (Sun Jun 16 19:54:32 CEST 2013): <font color=red>Loading view: spim_TL05_Angle1.tif</font>
+ (Sun Jun 16 19:54:34 CEST 2013): Init isolated weighteners for views 0 to 1: (Average approximated Entropy using Integral images)
+ Computing Average approximated Entropy using Integral images for spim_TL05_Angle0.tif (id = 0)
+ Computing Average approximated Entropy using Integral images for spim_TL05_Angle1.tif (id = 1)
+ (Sun Jun 16 19:54:34 CEST 2013): Computing Integral Image
+ (Sun Jun 16 19:54:34 CEST 2013): Computing Integral Image
+ Initialize combined weighteners for for views 0 to 1 (Blending) (24 threads)
+ (Sun Jun 16 19:54:37 CEST 2013): Starting fusion for: spim_TL05_Angle0.tif
+ (Sun Jun 16 19:54:37 CEST 2013): Starting fusion for: spim_TL05_Angle1.tif
+ (Sun Jun 16 19:55:00 CEST 2013): <font color=red>Loading view: spim_TL05_Angle2.tif</font>
+ (Sun Jun 16 19:55:02 CEST 2013): <font color=red>Loading view: spim_TL05_Angle3.tif</font>
+ (Sun Jun 16 19:55:04 CEST 2013): Init isolated weighteners for views 2 to 3: (Average approximated Entropy using Integral images)
+ Computing Average approximated Entropy using Integral images for spim_TL05_Angle2.tif (id = 2)
+ Computing Average approximated Entropy using Integral images for spim_TL05_Angle3.tif (id = 3)
+ (Sun Jun 16 19:55:04 CEST 2013): Computing Integral Image
+ (Sun Jun 16 19:55:04 CEST 2013): Computing Integral Image
+ Initialize combined weighteners for for views 2 to 3 (Blending) (24 threads)
+ (Sun Jun 16 19:55:07 CEST 2013): Starting fusion for: spim_TL05_Angle2.tif
+ (Sun Jun 16 19:55:07 CEST 2013): Starting fusion for: spim_TL05_Angle3.tif
+
+We decided to fuse two view at once and so we need altogether three rounds of sequential processing (0,1 followed by 2,3 and 5 below)
+
+ (Sun Jun 16 19:55:28 CEST 2013): <font color=red>Loading view: spim_TL05_Angle4.tif</font>
+ (Sun Jun 16 19:55:30 CEST 2013): Init isolated weighteners for views 4 to 4: (Average approximated Entropy using Integral images)
+ Computing Average approximated Entropy using Integral images for spim_TL05_Angle4.tif (id = 4)
+ (Sun Jun 16 19:55:30 CEST 2013): Computing Integral Image
+ Initialize combined weighteners for for views 4 to 4 (Blending) (24 threads)
+ (Sun Jun 16 19:55:32 CEST 2013): Starting fusion for: spim_TL05_Angle4.tif
+ Computing final output image (Channel 0).
+ (Sun Jun 16 19:55:52 CEST 2013): Done computing output image (Channel 0).
+ (Sun Jun 16 19:55:56 CEST 2013): Finished Fusion
+ Finished processing.
+
+The whole process took about 1.5 minutes. Now lets have a look at where to find the oputput.
+
+The output goes by default to a subdirectory ''/output'' in the directory where we have the raw data.
+
+ cd output/
+ ls
+ 5
+
+The directory contains at the moment a single subdirectory named ''5/'' because we fused timepoint number 5 and said to save each time-point to its own directory.
+
+ cd 5/
+ ls -1
+ img_tl5_ch0_z000.tif
+ img_tl5_ch0_z001.tif
+ img_tl5_ch0_z002.tif
+ img_tl5_ch0_z003.tif
+ img_tl5_ch0_z004.tif
+ img_tl5_ch0_z005.tif
+ img_tl5_ch0_z006.tif
+ img_tl5_ch0_z007.tif
+ img_tl5_ch0_z008.tif
+ img_tl5_ch0_z009.tif
+ .
+ .
+
+
+That directory contains a series of ''tifs'' each representing one plane of the fused output volume. 480 files in total. These images can be opened in Fiji using '''File->Import->Image sequence''' or the entire directory can be simply dropped into onto Fiji's main window. 
+
+[[File:Montage fusion.png|thumb|left|1100px|Slices through the fused full resolution output volume (step 80)]]
+
+There are other ways to look at the data as we will see in the [[Browsing|browsing]] section. Note that the fused data are looking perhaps slightly worse compared to the raw data. This is primarily caused by two factors. First the content based fusion combined sharp and blurred information from different views by entropy based weightening this is not perfect (see the next section [[Fusion#Deconvolution]] for a more advanced fusion approach). Second the embyro is alive and it moves, particularly at this stage of development (gastrulation) the movement is quite fast and it is not quite matched by the acquisition speed of OpenSPIM. I.e. by the time we acquire the fifth view that overlaps with the first views the cells may have moved. The only way to overcome that is to build a faster microscope or slow development down by lowering temperature.
+
+Anyway, this is the final step of [[Fusion#Content_based_fusion|content based fusion]] of a single time-point. From here you can either continue to explore the deconvolution based fusion (right below) or you should switch to [[Timelapse_Registration|time series registration]] which is the next step of the SPIMage processing pipeline.
 
 = Deconvolution =
 
