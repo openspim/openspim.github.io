@@ -178,11 +178,18 @@ Now we run the '''Crop''' function from the Fiji menus which will crop the image
 |[[File:Crop4.png|thumb|200px|bla]]
 |-
 |
-Text
-| colspan = "2" |
-[[File:Crop5.png|thumb|200px|bla]]
-[[File:Crop6.png|thumb|200px|bla]]
-[[File:Crop7.png|thumb|200px|bla]]
+The cropped image is still too big in the z-direction. Once again move the z-slider up and down to determine at which z-index the data start and end. Remember the two z-indices (for this data roughly 120 and 240). Now to also record them we will run the command '''Duplicate''' stack from Fiji menus and fill in the numbers as shown on the screenshots to the right. Running the command will duplicate the stack and make it as small as possible without discarding any data. The range will also be recorded in the recorder as highlighted: 
+
+
+* 120 - offset from the bottom of the stack to the bottom of the specimen (the part away from you)
+* 240 - offset from the bottom of the stack to the top of the specimen (the part closer to you)
+
+We are done with cropping, we can now proceed to run the fusion one more time with all the bells and whistles turned on taking advantage of the crop parameters to reduce the memory requirements.
+|
+[[File:Crop5.png|thumb|200px|Running the duplicate command from Fiji menus]]
+[[File:Crop6.png|thumb|200px|Filling in the z-index of the bottom and end the top of the specimen]]
+|
+[[File:Crop7.png|thumb|200px|Duplicated fully cropped output stack and the recorded duplicate command range]]
 |}
 
 == Final run ==
