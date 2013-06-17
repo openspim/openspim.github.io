@@ -257,10 +257,13 @@ We have seen in the [[Fusion|'''fusion part''']] of the tutorial how it is neces
 |In the next dialog we will modify the '''Timepoint to process''' to 0-10.
 |colspan="2"|[[File:TLreg fusion.png|thumb|400px|right|Screenshot of the second fusion dialog]]
 |-
-|In the main dialog the important thing to remember is to choose the correct registration file. In the first pull down menu '''Registration for channel 0''' select '''Registration of channel 0 to timepoint 6'''. The remaining parameters remain the same (for details see [[Fusion#Input|'''fusion''']].
-
-
-
+|In the main dialog the important thing to remember is to choose the correct registration file. In the first pull down menu '''Registration for channel 0''' select '''Time-point registration (reference=6) of channel 0'''. The remaining parameters remain the same (for details see [[Fusion#Input|'''fusion''']]).
 |colspan="2"|
-[[File:|thumb|400px|right|Screenshot of the second fusion dialog]]
+[[File:TL reg fusion main.png|thumb|400px|right|Screenshot of the second fusion dialog]]
 |}
+
+
+[[File:Combined tl output.png|thumb|400px|right|Comparison of maximum intensity projections before (top row) and after (bottom row) timelapse registration for time-point 0,5 and 10 of OpenSPIM sample data]]
+Lets now examine how the time-lapse registration changed the output. As we saw in the [[Raw_data|'''raw data''']] the first angle of the first time point was way off the field of view. If we do not apply the timelapse registration the first time-point will be registered but shifted with respect to the rest of the time-lapse (see picture top row). After the timelapse registration the embryos are well aligned across time-points (bottom row). 
+
+We have now '''FINISHED''' with the SPIMage processing pipeline. We registered all time points across space and time and we fused them all at full resolution. The results are in ''/registration'' and ''/output'' directories. In the next section of this tutorial we will learn how to '''[[Browsing|'''browse''']] the raw, registered and fused data in various ways.
