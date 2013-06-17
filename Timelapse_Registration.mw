@@ -14,6 +14,15 @@ As before we walk through the set-up of plugin input, annotate the output and lo
 
 == Input ==
 
+{|
+|-
+|We start by going back to registration plugin, '''Plugins->SPIM registration->Bead-based registration''', and keep the same parameters as before in the first dialog ('''Single channel''' and '''Difference-of-Mean''').
+||[[File:Spim plugin menu.jpg|thumb|200px|right|Screenshot of SPIM registration section of Fiji plugin menu]]
+|[[File:Registration screen1.jpg|thumb|200px|right|Screenshot of the first dialog of the bead based registration plugin]]
+|-
+|Next comes the main window and time for LUNCH.
+|}
+
 == Run ==
 
 == Output ==
