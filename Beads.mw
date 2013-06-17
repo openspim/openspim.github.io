@@ -2,7 +2,9 @@ This page is about fluorescent beads, used as fiduciary markers for multi-view r
 == Estapor Fluorescent Microspheres ==
 * [http://www.estapor.com/estapor/en/fluorescent_microspheres/fluorescent_microspheres/19.html website]
 * stock concentration for SPIM: 14 µl 0.5 µm beads in 14 ml medium (sample dependent, e.g. PBS/T for fruit fly, E3 for zebrafish)
+=== tips & tricks ===
 * extended vortexing and/or treatment in ultrasonic bath is crucial for homogeneous bead distribution and successful bead detection
+* evaluate the bead concentration in agarose w/o specimen
 === F-XC050 ===
 * diameter 0.5 µm
 * "green" emission (see spectra)
