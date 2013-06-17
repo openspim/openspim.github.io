@@ -212,7 +212,7 @@ The 10 views are thrown together in one pile and correspondances for all pair-wi
  3d-affine: (0.5076602, -0.0047055706, 0.86028206, 70.25545, -0.0016549313, 0.9997853, 0.003312394, 149.69363, -0.82133454, -0.023289602,  0.56215394, 807.2336)
  Scaling: (0.961987733549366, 1.0320840492530776, 0.9989707811248745)
 
-Finally the global optimization is run and we get the transformation matrices for all 10 views involved. The Angle0 of TL06 serves as a reference frame to which all other time-points are registered. Note that al angles get new transformation matrices since they are now registered in the context of a global optimization run on 10 angles (5 reference and 5 time-point specific. 
+Finally the global optimization is run and we get the transformation matrices for all 10 views involved. The Angle0 of TL06 serves as a reference frame to which all other time-points are registered. Note that all angles get new transformation matrices since they are now registered in the context of a global optimization run on 10 angles (5 reference and 5 time-point specific. 
 
 
 This process is repeated for every time-point in the time series, i.e. 11 times for the sample data.
