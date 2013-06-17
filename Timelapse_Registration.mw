@@ -1,3 +1,11 @@
 = Timelapse Registration =
 
-Timelapse registration is necessary because the imaged specimen may, and in most cases will, drift over a long acquistion period. In OpenSPIM this situation is typically exaggregated because a) we set-up the imaging angles quickly and approximately, relying on later re-adjustment based on imaging result (thus the first time-point are usually quite off with respect to the rest of the time lapse - see [[http://openspim.org/Raw_data|raw data]], b).... JY came
+Timelapse registration is necessary because the imaged specimen may, and in most cases will, drift over a long acquistion period. In OpenSPIM this situation is typically exaggregated because 
+
+a) we set-up the imaging angles quickly and approximately, relying on later re-adjustment based on imaging result (thus the first time-point are usually quite off with respect to the rest of the time lapse - see for [[Raw_data|sample raw data]]), 
+
+b) the motors precision is limited.
+
+The pre-requisite for time-series registration is to perform all individual time-point registrations, particularly the segmentation of the beads. 
+
+''Note that it is possible to do time-series registration also directly, i.e. segment the beads and do time-series registration in one setp, however this is not a typical workflow.''
