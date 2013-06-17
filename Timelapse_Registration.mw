@@ -6,6 +6,16 @@ a) we set-up the imaging angles quickly and approximately, relying on later re-a
 
 b) the motors precision is limited.
 
-The pre-requisite for time-series registration is to perform all individual time-point registrations, particularly the segmentation of the beads. 
+The pre-requisite for time-series registration is to perform [[Registration#Cross-road_in_SPIM_plugins|'''all individual time-point registrations''']], particularly the segmentation of the beads. 
 
 ''Note that it is possible to do time-series registration also directly, i.e. segment the beads and do time-series registration in one step, however this is not a typical workflow.''
+
+As before we walk through the set-up of plugin input, annotate the output and look into the new registration files created.
+
+== Input ==
+
+== Run ==
+
+== Output ==
+
+= Fusion of timelapse data =
