@@ -246,7 +246,7 @@ We will now proceed to fuse the data using this new timelapse registration and c
 
 = Fusion of timelapse data =
 
-We have seen in the [[Fusion|'''fusion part''']] of the tutorial how it is necessary to [[Fusion#First_run|first run fusion]] on downsampled data, define the [[Fusion#Cropping|cropping]] area and then re-run the pipeline with full resolution data using all time-points. To simplify we will skip here the steps required for defining the cropping area. It is important to note that this has to be done again as we need to define the '''crop area relative to the new timelapse registration'''. Below we show how to run the fusion on the timelapse registered data at full resolution across all time-points.
+We have seen in the [[Fusion|'''fusion part''']] of the tutorial how it is necessary to [[Fusion#First_run|first run fusion]] on downsampled data, define the [[Fusion#Cropping|cropping]] area and then [[Fusion#Final_run|re-run]] the pipeline with full resolution data. To simplify, we will skip here the steps required for defining the cropping area. It is important to note that this has to be done again as we need to define the '''crop area relative to the new timelapse registration'''. Below we show how to run the fusion on the timelapse registered data at full resolution across all time-points.
 
 {|
 |-
