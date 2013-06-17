@@ -219,4 +219,29 @@ This process is repeated for every time-point in the time series, i.e. 11 times 
 
 == Output ==
 
+The output is, similarly to individual time-point registration, a series of text files in the ''/registration'' directory.
+
+ cd registration/
+ ls
+ spim_TL00_Angle0.tif.beads.txt
+ spim_TL00_Angle0.tif.dim
+ spim_TL00_Angle0.tif.registration
+ <font color=red>spim_TL00_Angle0.tif.registration.to_6</font>
+ spim_TL00_Angle1.tif.beads.txt
+ spim_TL00_Angle1.tif.dim
+ spim_TL00_Angle1.tif.registration
+ <font color=red>spim_TL00_Angle1.tif.registration.to_6</font>
+ spim_TL00_Angle2.tif.beads.txt
+ spim_TL00_Angle2.tif.dim
+ spim_TL00_Angle2.tif.registration
+ <font color=red>spim_TL00_Angle2.tif.registration.to_6</font>
+ .
+ .
+ .
+
+The new files end with the suffix ''.to_6'' indicating that these are time-lapse registration files to the reference time-point number 6. The content of the files is equivalent to the ''.registration'' file disussed in the [[Registration#Output|registration section]], however the matrices are different.
+
+
+We will now proceed to fuse the data using this new timelapse registration and compare the output to the individual per time-point registrations.
+
 = Fusion of timelapse data =
