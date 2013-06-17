@@ -20,7 +20,7 @@ As before we walk through the set-up of plugin input, annotate the output and lo
 |[[File:Spim plugin menu.jpg|thumb|200px|right|Screenshot of SPIM registration section of Fiji plugin menu]]
 |[[File:Registration screen1.jpg|thumb|200px|right|Screenshot of the first dialog of the bead based registration plugin]]
 |-
-|The main dialog is the same as the one we used in indvidual time-point registration. The top set of parameters specifying file location and format should be pre-filled. We need to only change the '''Timpoints to process''' to '''0-10'''.
+|The main dialog is the same as the one we used in indvidual time-point registration. The top set of parameters specifying file location and format should be pre-filled. We need to only change the '''Timepoints to process''' to '''0-10'''.
 
 
 Next we click the checkbox '''Load segmented beads''' which signifies that the plugin should simply look into the [[Registration#Cross-road_in_SPIM_plugins|previously established]] ''[[Registration#Output|.beads.txt]]'' files in the ''/registration'' subfolder and load them. This will happen very fast compared to re-segmenting the beads. All parameters for bead segmentation are ignored.
@@ -35,11 +35,11 @@ We will use the '''affine''' transformation model.
 The option '''Re-use per timepoint registration''' should be clicked. I am actually not sure what it does, but I assume that it will load the transformation models determined in the per time-point registration and use them as a starting point. 
 
 
-Finally, we must decide how will the reference time-point be determined. Reference time-point is the time-point to which all others will be registered, see [http://fiji.sc/wiki/index.php/SPIM_Bead_Registration#How_timelapse_registration_works for detailed explanation]. We have three option for how to choose it:
+Finally, we must decide how will the reference time-point be determined. Reference time-point is the time-point to which all others will be registered, see [http://fiji.sc/wiki/index.php/SPIM_Bead_Registration#How_timelapse_registration_works here for detailed explanation]. We have three option for how to choose it:
 
 
 * Manually (interactive) - for this option we will be presented with a graph summarizing the registration error for each individual time-point and we will be able to choose one by clicking on the graph (see below)
-* Manually (specify) - here we simply enter the index of s reference time-point, for example in the middle of the time-series
+* Manually (specify) - here we simply enter the index of a reference time-point, for example in the middle of the time-series
 * Automatically - the plugin will settle on a reference time-point automatically, choosing the one with the lowest registration error (average bead displacement)
 
 
@@ -48,14 +48,14 @@ We choose '''Manually (interactive)''' and continue by pressing '''OK'''.
 | colspan= "2"|[[File:TLreg1.png|thumb|400px|right|Main window of bead-based registration set-up for timelapse]]
 |-
 |
-There is some output in the '''Log''' window which we will discuss momentarily. Then a new window pops up summarizing the registration errors of the individual time-point registrations. Wiht mouse click on the time-point which you want to choose as reference. Good options are :
+There is some output in the '''Log''' window which we will discuss momentarily. Then a new window pops up summarizing the registration errors of the individual time-point registrations. Click with the mouse on the time-point which you want to choose as reference. Good options are :
 
 
 * a time-point in the middle of the time-series
 * a time-point with low registration error
 
 
-''Note that for long time-series where the specimen changes size the registration  of time-points far away from the reference may be suboptimal. In that case we recommend splitting the time-series into several independent segments and register separately to the middle time-point of each segment. The entire time series can thne be stablized using Fiji's '''Descriptor based registration'''. The description of this complex situation goes beyond the scope of this tutorial.''
+''Note that for long time-series where the specimen changes size, the registration  of time-points far away from the reference may be suboptimal. In that case we recommend splitting the time-series into several independent segments and register separately to the middle time-point of each segment. The entire time series can then be stablized using Fiji's '''Descriptor based registration'''. The description of this complex situation goes beyond the scope of this tutorial.''
 
 
 We click on time-point number '''6''' and the time-series registration commences.
