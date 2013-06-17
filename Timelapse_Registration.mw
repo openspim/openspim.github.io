@@ -239,7 +239,7 @@ The output is, similarly to individual time-point registration, a series of text
  .
  .
 
-The new files end with the suffix ''.to_6'' indicating that these are time-lapse registration files to the reference time-point number 6. The content of the files is equivalent to the ''.registration'' file disussed in the [[Registration#Output|registration section]], however the matrices are different.
+The new files end with the suffix ''.to_6'' indicating that these are time-lapse registration files to the reference time-point number 6. The content of the files is equivalent to the ''.registration'' file discussed in the [[Registration#Output|registration section]], however the matrices are different.
 
 
 We will now proceed to fuse the data using this new timelapse registration and compare the output to the individual per time-point registrations.
