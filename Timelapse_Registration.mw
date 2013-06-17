@@ -64,7 +64,7 @@ We click on time-point number '''6''' and the time-series registration commences
 
 == Run ==
 
-The output of timelapse registration rolls by quickly throuhg the '''Log''' window. All we are doing is read text files (bead positions) and running the registration, which as we saw before, is quick. The entire output can be downloaded [[Media:TLreg log.pdf|here]]. 
+The output of timelapse registration rolls by quickly through the '''Log''' window. All we are doing is read text files (bead positions) and running the registration, which as we saw before, is quick. The entire output can be downloaded [[Media:TLreg log.pdf|here]]. 
 
 
  Version 0.55
@@ -91,7 +91,7 @@ The output of timelapse registration rolls by quickly throuhg the '''Log''' wind
  .
  .
 
-First we load the previously segmented beads and execute the per time-point registration (this is doen solely for the purpose of getting the data for the graph of registration errors). After that the graphical overview of registration errors pops up as described above. Clicking time-point 6 triggers the next barrage of output:
+First we load the previously segmented beads and execute the per time-point registration (this is done solely for the purpose of getting the data for the graph of registration errors). After that the graphical overview of registration errors pops up as described above. Clicking time-point 6 triggers the next barrage of output:
 
  (Mon Jun 17 15:37:43 CEST 2013): Loading reference timepoint information Reference ViewStructure Timepoint 6
  Read 1012 beads for spim_TL06_Angle0.tif (id = 0)
@@ -159,7 +159,7 @@ Once again the beads are loaded from files in ''/registration'' folder, this tim
  The total number of correspondence candidates was: <font color=red>1388</font>
  The ratio is: <font color=red>96%</font>
 
-The 10 views are thrown together in one pile and correspondances for all pair-wise combinations are established. See [[Registration#output|here for more detailed discussion. Most view pairs have correspondances apart from TL00_Angle1 and TL06_Angle0. Altogether we the two sets of angles across two timepoints are tied together by 1332 correspondances and the RANSAC inlier ratio is excellent - 96%. ''Note that this is particularly possible for Drosophila which does not grow across time displacing the beads.''
+The 10 views are thrown together in one pile and correspondances for all pair-wise combinations are established. See [[Registration#Output|here]] for more detailed discussion. Most view pairs have correspondances apart from TL00_Angle1 and TL06_Angle0. Altogether the two sets of angles across two timepoints are tied together by 1332 correspondances and the RANSAC inlier ratio is excellent - 96%. ''Note that this is particularly possible for Drosophila which does not grow across time displacing the beads.''
 
  Fixing tile spim_TL06_Angle0.tif (id = 0)
  Fixing tile spim_TL06_Angle1.tif (id = 1)
@@ -212,7 +212,7 @@ The 10 views are thrown together in one pile and correspondances for all pair-wi
  3d-affine: (0.5076602, -0.0047055706, 0.86028206, 70.25545, -0.0016549313, 0.9997853, 0.003312394, 149.69363, -0.82133454, -0.023289602,  0.56215394, 807.2336)
  Scaling: (0.961987733549366, 1.0320840492530776, 0.9989707811248745)
 
-Finally the global optimization is run and we get the transformation matrices for all 10 views involved. The Angle0 of TL06 serves as a reference frame to which all other time-points are registered. Note that all angles get new transformation matrices since they are now registered in the context of a global optimization run on 10 angles (5 reference and 5 time-point specific. 
+Finally the global optimization is run and we get the transformation matrices for all 10 views involved. The Angle0 of TL06 serves as a reference frame to which all other time-points are registered. Note that all angles get new transformation matrices since they are now registered in the context of a global optimization run on 10 angles (5 reference and 5 time-point specific). 
 
 
 This process is repeated for every time-point in the time series, i.e. 11 times for the sample data.
