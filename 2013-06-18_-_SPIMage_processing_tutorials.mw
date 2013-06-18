@@ -14,6 +14,6 @@ The pipeline is relatively linear as described above, we highlight the steps whe
 Theoretical principles of the methods involved are best described on the [http://fiji.sc/SPIM_Registration SPIM pages of Fiji wiki].
 
   
-The description of several steps of the SPIMage processing pipeline are still in the works. Particularly [[Fusion#Deconvolution|'''Multi-view deconvolution''']], [[Browsing|'''data viewing''']] and [[3D_rendering|'''3D rendering''']]. Stay tuned.
+The description of several steps of the SPIMage processing pipeline are still in the works. Particularly [[Fusion#Deconvolution|'''multi-view deconvolution''']], [[Browsing|'''data viewing''']] and [[3D_rendering|'''3D rendering''']]. Stay tuned.
 
 [[Category:News]]
