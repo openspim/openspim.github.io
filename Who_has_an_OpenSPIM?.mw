@@ -10,5 +10,7 @@ Feel free to edit this page with information about your system! (If you do not h
 * [http://loci.wisc.edu/ The Laboratory of Optical and Computational Instrumentation (LOCI)] run by [http://loci.wisc.edu/people/kevin-eliceiri Kevin Eliceiri] at the University Wisconsin-Madison
 
 = Heidelberg, Germany =
-* [http://www.cos.uni-heidelberg.de/index.php/a.maizel?l=_e Maizel] and [http://www.cos.uni-heidelberg.de/index.php/s.lemke?l=_e Lemke] groups at the Center for Organismal Studies of the Heidelberg University.
- More details and pictures about our system can be found here.
+* [http://www.cos.uni-heidelberg.de/index.php/a.maizel?l=_e Maizel] and [http://www.cos.uni-heidelberg.de/index.php/s.lemke?l=_e Lemke] groups at the [http://www.cos.uni-heidelberg.de/?l=_e Center for Organismal Studies] of the Heidelberg University.
+[[File:COS HD OpenSPIM 1.JPG|200px|thumb|right|COS Heidelberg OpenSPIM]]
+* This setup slightly differs from the specifications of OpenSPIM v1.0. In particular we use a  [http://www.cobolt.se/mld488nm.html Cobolt laser], Nikon lenses and an [http://www.hamamatsucameras.com/flash4/l Orca4], the whole running under Windows7 Pro.
+* More details and pictures about our system can be found here.
