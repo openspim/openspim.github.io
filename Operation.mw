@@ -12,6 +12,8 @@ Preparation of [[Polychaete embryo prep|'''polychaete embryos''']].
 
 There are many other strategies to mount SPIM samples using FEP tubes, hooks or agarose baskets. '''Here is the place for your contributions!'''
 
+* '''[http://www.dkfz.de/Macromol/quickfit/beadscan.html gel for beadscans and Matlab script to evaluate them]'''. Using this you can estimate the size of the PSF of your microscope
+
 = Calibration =
 [[Image:1I 1D OpenSPIM.png|thumb|OpenSPIM rendering with laser on]]
 Before using the OpenSPIM the light sheet needs to be  [[Light-sheet Calibration|'''aligned''']]. This means that the light sheet needs to be shaped by the optics of the system to be parallel to the imaging plane of the camera, perpendicular to the detection axis, as thin as possible, uniform across the field of view and, most importantly, in focus with the detection objective. Since the procedure is rather involved, we provide a series of detailed videos that illustrate the process. Innovations are welcome.
