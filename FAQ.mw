@@ -149,7 +149,7 @@ Start Fiji, and before starting Micro-Manager use Visual Studio's ''Debug>Attach
 ### For the Main class, click ''Search...'' and find ''ij.ImageJ''
 ### On the Arguments tab, under VM arguments, pass the following: <code>-Dplugin.dir=fiji/3rdparty/micromanager/bin_Win32</code> (modifying as appropriate).
 ### On the Classpath tab, select SPIMAcquisition, then Add External JARs...
-#### From fiji/3rdparty/micromanager/dist/jars:
+#### From fiji/3rdparty/micromanager/bin_Win32/jars:
 ####* MMAcqEngine.jar
 ### Click Apply.
 ## Click Debug to make sure everything works.
