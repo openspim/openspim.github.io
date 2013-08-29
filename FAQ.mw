@@ -102,6 +102,8 @@ Start Fiji, and before starting Micro-Manager use Visual Studio's ''Debug>Attach
 
 == Using Eclipse to debug MicroManager/SPIM Acquisition ==
 
+=== Option 1: Eclipse-only ===
+
 # Make sure you have [http://www.eclipse.org/ Eclipse] installed.
 # Add Fiji's JRE to Eclipse: 
 ## Window -> Preferences; under Java, select Installed JREs and click Add...
@@ -153,3 +155,12 @@ Start Fiji, and before starting Micro-Manager use Visual Studio's ''Debug>Attach
 ####* MMAcqEngine.jar
 ### Click Apply.
 ## Click Debug to make sure everything works.
+
+=== Option 2: Eclipse and Maven ===
+# Follow steps 1-3 above. Additionally install [http://eclipse.org/m2e/ m2e] for Maven support in Eclipse .
+# Import the SPIMAcquisition Maven project
+## File -> Import...
+## Select Maven -> Existing Maven projects
+## Browse to ''micromanager/plugins/SPIMAcquisition'' and let m2e work.
+## Click Finish
+# Continue on steps 5 and 6 above.
