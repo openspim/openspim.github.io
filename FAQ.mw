@@ -128,7 +128,7 @@ Start Fiji, and before starting Micro-Manager use Visual Studio's ''Debug>Attach
 # Create a project for SPIMAcquisition:
 ## File -> New -> Java Project...
 ### Uncheck "Use Default Location"
-### Point Location to ''/src/fiji/3rdparty/micromanager/plugins/SPIMAcquisition''
+### Point Location to ''/src/fiji/3rdparty/micromanager/plugins/SPIMAcquisition/src/main/java''
 ### Let Eclipse auto-configure things.
 ## Click Next.
 ### On the Projects tab, click Add... and select the mmstudio project added above.
