@@ -3,7 +3,7 @@ As a central feature for virtually all imaging, specifying a pixel's physical di
 == Determining the Pixel Size ==
 
 === Using the Pixel Size Calibrator Tool ===
-The SPIM Acquisition plugin comes with a pixel size calibration tool, accessed through the stage controls tab of the GUI. It is designed for use with a microscope calibration size or similar well-defined structure. When you open it, it will make a copy of the current view in the live window as scratch space. There are two options for determining the pixel size:
+The SPIM Acquisition plugin comes with a pixel size calibration tool, accessed through the stage controls tab of the GUI. It is designed for use with a microscope calibration slide/fragment or similar well-defined structure. When you open it, it will make a copy of the current live view image as a new window. There are two options for determining the pixel size:
 
 ==== 1. Ruler Mode ====
 If the only known physical distance is between two largely arbitrary points on the view, use ruler mode.
