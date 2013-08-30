@@ -63,7 +63,8 @@ The acquisition tab makes recording a time lapse of any number of views simple: 
 ;(2) Insert Current Position
 :Clicking this button will add a row to the end of the table with only the current position; i.e. when acquiring, a single slice will be taken at the given location.
 ;(3) Delete Selected Rows
-:Clicking this will remove any currently-highlighted rows from the table. You can select multiple rows by shift-clicking (to select a range) or control-clicking (to select ;(4) ;(4) Stack at this Z plus
+:Clicking this will remove any currently-highlighted rows from the table. You can select multiple rows by shift-clicking (to select a range) or control-clicking (to select individual rows).
+;(4) Stack at this Z plus
 :Clicking this button will add a row to the end of the table with the current position of the stage motors and the stack dimensions/step size as entered.
 ;(5) Stack Depth
 :Any stacks added by the "Stack at this Z plus" button will be this deep.
