@@ -67,9 +67,9 @@ The acquisition tab makes recording a time lapse of any number of views simple: 
 ;(4) Stack at this Z plus
 :Clicking this button will add a row to the end of the table with the current position of the stage motors and the stack dimensions/step size as entered.
 ;(5) Stack Depth
-:Any stacks added by the "Stack at this Z plus" button will be this deep.
+:Any stacks added by the "Stack at this Z plus" button will be this deep, in um.
 ;(6) Step Size
-:Stacks added by the "Stack at this Z plus" button will advance the motor by this many steps in between each slice.
+:Stacks added by the "Stack at this Z plus" button will advance the motor by this many um in between each slice.
 ;(7) Estimates
 :This text displays the estimated size of the output dataset, and the available storage space (in RAM or on disk, depending on whether or not the output directory is empty).
 ;(8) Laser power
