@@ -70,7 +70,6 @@ The acquisition tab makes recording a time lapse of any number of views simple: 
 :Any stacks added by the "Stack at this Z plus" button will be this deep.
 ;(6) Step Size
 :Stacks added by the "Stack at this Z plus" button will advance the motor by this many steps in between each slice.
-individual rows).
 ;(7) Estimates
 :This text displays the estimated size of the output dataset, and the available storage space (in RAM or on disk, depending on whether or not the output directory is empty).
 ;(8) Laser power
