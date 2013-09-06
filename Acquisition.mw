@@ -13,7 +13,7 @@ To acquire a single image using the OpenSPIM plugin:
 
 Acquiring a single stack is very similar to acquiring a single position.
 # Begin by navigating to the place the stack should begin.
-# Specify the Stack Depth in um, and the Step Size (also in um).
+# Specify the Stack Depth in μm, and the Step Size (also in μm).
 # Click ''Stack at this Z plus:'' to add the stack to the positions list.
 # Configure whichever settings are desired:
 ## The ''Set Z-stage velocity'' and Z settle time controls may be useful for reducing jitter.
