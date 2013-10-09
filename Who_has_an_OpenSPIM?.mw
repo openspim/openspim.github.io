@@ -14,3 +14,9 @@ Feel free to edit this page with information about your system! (If you do not h
 [[File:COS HD OpenSPIM 1.JPG|200px|thumb|right|COS Heidelberg OpenSPIM]]
 * This setup slightly differs from the specifications of OpenSPIM v1.0. In particular we use a  [http://www.cobolt.se/mld488nm.html Cobolt laser], Nikon lenses and an [http://www.hamamatsucameras.com/flash4/l Orca4], the whole running under Windows7 Pro.
 * More details and pictures about the [[COS Heidelberg OpenSPIM]].
+
+= Cambridge, UK =
+* The [http://www.damtp.cam.ac.uk/user/gold/?l=_e Goldstein] group in the [http://www.damtp.cam.ac.uk/?l=_e Department of Applied Mathematics and Theoretical Physics] at the University of Cambridge. 
+[[File:FirstVolvoxProjection.jpg|200px|thumb|right|Volvox colony imaged with the Goldstein lab OpenSPIM]]
+* We used a periscope to divert existing green and blue laser lines, and included a Thorlabs [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=927?l shutter] in the beam path. We also use a Photometrics [http://www.photometrics.com/products/ccdcams/coolsnap-myo.php:l  Coolsnap Myo]. 
+* More pictures to come!
