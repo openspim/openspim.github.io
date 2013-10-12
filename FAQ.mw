@@ -2,11 +2,7 @@
 
 == I get the error that a core property is read-only? ==
 
-Due to a bug in the HamamatsuHam driver (which is not Open Source, unfortunately, otherwise we could try to fix things), the error messages are not quite stellar. They are even outright misleading.
-
-The issue, most likely, is that Fiji reserves so much RAM for its own use that the Hamamatsu driver is unable to reserve space for its image buffers.
-
-Just go to Edit>Options>Memory & Threads... and limit the RAM Fiji uses to, say, 1GB. Restart Fiji, and all should be fine.
+Please make sure to run an up-to-date installation (you can call the updater via ''Help>Update Fiji''). There was a bug in the HamamatsuHam driver that has been fixed in the meantime (many thanks to Patrick Gregorio of Hamamatsu who helped us a lot to resolve this issue).
 
 = Community =
 
