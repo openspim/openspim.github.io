@@ -1,23 +1,11 @@
 = OpenSPIM publications =
 
 Pitrone P. G., Schindelin J., Stuyvenberg L., Preibisch S., Weber M.; Eliceiri K. W., Huisken J., Tomancak P.  (2013) '''OpenSPIM: an open access light sheet microscopy platform'''
-''Nat. Methods'' in press [[Media:Nmeth.2507.pdf|PDF]] doi: 10.1038/nmeth.2507, [[Media:Nmeth.2507-S1.pdf|Supplement]]. See also the [http://arxiv.org/abs/1302.1987 directors' cut].
+''Nat. Methods'' in press [[Media:Nmeth.2507.pdf|PDF]] doi: 10.1038/nmeth.2507, [[Media:Nmeth.2507-S1.pdf|Supplement]]. See also the [[http://arxiv.org/abs/1302.1987 directors' cut].
 
 Costa A., Candeo A., Fieramonti L., Valentini G., Bassi A. (2013) '''Calcium Dynamics in Root Cells of Arabidopsis thaliana Visualized with Selective Plane Illumination Microscopy'''
 [http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0075646 ''PLoS ONE 8(10)'']  doi:10.1371/journal.pone.0075646.
 
-Zhengyi Yang, Martynas Prokopas, Jonathan Nylk, Clara Coll-Lladó, Frank J. Gunn-Moore, David E. K. Ferrier, Tom Vettenburg, and Kishan Dholakia (2014), '''A compact Airy beam light sheet microscope with a tilted cylindrical lens''' [http://www.opticsinfobase.org/boe/abstract.cfm?URI=boe-5-10-3434 ''Biomed. Opt. Express 5, 3434-3442] doi:10.1364/BOE.5.003434.
-
-Stephanie Höhn, Aurelia R. Honerkamp-Smith, Pierre A. Haas, Philipp Khuc Trong, and Raymond E. Goldstein (2015) '''Dynamics of a Volvox Embryo Turning Itself Inside Out ''' [http://www.damtp.cam.ac.uk/user/gold/pdfs/inversion.pdf ''Physical Review Letters 114, 178101'']
-
-= OpenSPIM-based setups =
-
-Stefaniuk ''et al'' (2016) '''Light-sheet microscopy imaging of a whole cleared rat brain with Thy1-GFP transgene'''  [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4911560/ ''Scientific Reports''] ''doi: 10.1038/srep28209''
-
-Yang ''et al'' (2016) '''A compact light-sheet microscope for the study of the mammalian central nervous system''' [http://www.nature.com/articles/srep26317 ''Scientific Reports'']  ''doi:10.1038/srep26317''
-
 = Related publications =
 
-Gualda, E. J., Vale, T., Almada, P., Feijó, J. A., Martins, G. G., & Moreno, N. (2013). [http://www.nature.com/nmeth/journal/v10/n7/full/nmeth.2508.html '''OpenSpinMicroscopy: an open-source integrated microscopy platform''']. Nature methods. doi: 10.1038/nmeth.2508
-
-Greger, K., Swoger, J., Stelzer, E. H. K. [http://scitation.aip.org/content/aip/journal/rsi/78/2/10.1063/1.2428277 '''Basic building units and properties of a fluorescence single plane illumination microscope''']  Rev. Sci. Instrum. 78, 023705 (2007); http://dx.doi.org/10.1063/1.2428277 (a technical paper about SPIM containing a detailed description of the setup)
+Gualda, E. J., Vale, T., Almada, P., Feijó, J. A., Martins, G. G., & Moreno, N. (2013). [http://www.nature.com/nmeth/journal/v10/n7/full/nmeth.2508.html '''OpenSpinMicroscopy: an open-source integrated microscopy platform'''. Nature methods. doi: 10.1038/nmeth.2508
