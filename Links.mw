@@ -8,7 +8,7 @@ that the benefits brought to science by the Open Source approach
 apply equally well to hardware.
 </blockquote>
 
-* Karl Bellve's [https://github.com/kbellve/pgFocus "pretty good focus"] project is an Open Access design for an automatic stage focusing device. It is intended to [http://valelab.ucsf.edu/~MM/MMwiki/index.php/PgFocus integrate nicely] with µManager, just like OpenSPIM.
+* Karl Bellve's [https://github.com/kbellve/pgFocus "pretty good focus"] project is an Open Access design for an automatic stage focusing device. It is intended to [http://micro-manager.org/wiki/PgFocus integrate nicely] with µManager, just like OpenSPIM.
 
 * A [http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0059840 paper] on 3D-printable optical components.
 
