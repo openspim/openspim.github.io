@@ -62,8 +62,8 @@ A simple means to achieve this goal is by defining the beam height before starti
 === Kinematic mirror mounts ===
 [[File:Spimoptics kinematicmirrormount.svg|thumb|300px|kinemtic mirror mount]]
 The mirrors in the openSPIM are all mounted in kinematic mirror mounts. These mounts allow to flap the mirror around two perpendicular axes:
-# Moving knob SB will flap the mirror around the axis defined by knobs ST and SC.
-# Moving knob ST will flap the mirror around the axis defined by knobs SB and SC.
+# Moving knob SB will flap the mirror around the axis defined by knobs ST and SC. This will move the beam left/right (green line).
+# Moving knob ST will flap the mirror around the axis defined by knobs SB and SC. This will move the beam up/down (blue line).
 # The mirror may be shifted, if all knobs are moved (bottom right in figure).
 '''Note''' that with these mirror mounts the rotation axis of the mirror is NOT IN THE CENTER of the mirror. So flapping a mirror will always lead to a parallel shift of the reflected beam, as the reflection point moves (see bottom left figure).
 Due to the size of the mirror mount the shift of the reflection point is typically not very large and can be mostly neglected.
