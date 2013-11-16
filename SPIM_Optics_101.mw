@@ -1,10 +1,62 @@
-This set of pages is intended to assemble a short introduction to the necessary principles of optics that allow you to understand how a SPIM works. This should also help when building, modifying or aligning a SPIM. It is distributed over several subpages, each covering a special topic:
+This page is intended to assemble a short introduction to the necessary principles of optics that allow you to understand how a SPIM works. This should also help when building, modifying or aligning a SPIM.
 
-# '''[[SPIM Optics 101/Theoretical basics]]''': Introduces basics of optics (geometric optic, gaussian beams, ...)
-## [[SPIM_Optics_101/Theoretical_basics#Geometric_Optics|Geometric Optics]]
-## [[SPIM_Optics_101/Theoretical_basics#Gaussian_Beam_Optics|Gaussian Beams]]
-# '''[[SPIM Optics 101/Practical Hints]]''': gives general hints and tips, when setting up optics.
-# '''[[Laser Safety]]
-'''
+== Theoretical basics ==
+''This chapter will assemble some simple optical principles that should help you to align a SPIM. Most of these rules are approximations, that are typically well fulfilled for small angles. If you want a more thorough introuction, look into any optics textbook.''
+=== Mirrors ===
+Mirrors are shiny surfaces that reflect a beam of light. The reflection is defined by the reflection law, which states the angle of the incident and the surface normal &alpha;<sub>i</sub> equals the angle &alpha;<sub>e</sub> of the exiting beam and the surface normal. This situation is illustrated in the next figure.
+<center>[[File:Spimoptics mirror.png]]</center>
 
-[[Category:SPIM Optics 101]]
+=== Lenses and parallel light ===
+[https://en.wikipedia.org/wiki/Lens_%28optics%29 Lenses] are curved glass surfaces that refract the light and focus a beam of parallel light onto a spot, called the focus F. The distance between the lens and the focus is called focal length ''f''.
+<center>[[File:Spimoptics lens.png]]</center>
+If the parallel light beam enters the lens under an angle &phi;, as in the image below, the focus F will be shifted perpendcular to the optical axis by a distance ''&Delta;x'' (Note: A shift on a flat plane is the ideal case, which is nearly true for small shifts. For real lenses and larger shifts the shifted focus will move on a sphere centered in the center of the lens). The shift is given by a simple relation:
+::'''''&Delta;x = f&middot;''tan''(&phi;)'''''
+<center>[[File:Spimoptics lensangled.png]]</center>
+
+=== Telescopes ===
+
+
+=== Infinity Microscope ===
+
+== Practical Hints ==
+=== Laser Safety ===
+The lasers used in openSPIMs are typically [https://en.wikipedia.org/wiki/Laser_safety#Class_3B class 3b], which means they are dangerous to the eye. This classification means that direct exposure of the eye by the laser is harmfull and will destroy your retina ("might burn a small hole/blind spot"). This is also true for any reflections from shiny surfaces (rings, bracelets, watches, belt buckles, tools, ...). Diffuse reflections, i.e. reflections from matte surfaces such as paper, anodized aluminum etc., are generally not dangerous. 
+
+So when aligning an optical system you should follow some simple rules to increase your safety:
+# You are also responsible for the safety of anybody else in the same room, so warn everybody, when you use a laser and tell them what to watch out for.
+# Remove any jewelry from your hands (ring, watches, bracelets, ...), best even cover your belt buckle with your clothes.
+# Wear laser safety glasses (although they might be uncomfortable or at times unpracticable).
+# When aligning, reduce the laser power to a safe setting (i.e. <1mW, where your eye will typically close quick enough to prevent any damage).
+# Don't look directly into the beam or the end of an optical fiber ('' ... with your remaining eye ;-)'').
+# Before entering an optical setup with a shiny tool (e.g. an spanners and wrenches) or a new optical element: block the laser and/or make sure you cannot be hit by a stray beam.
+# Keep the optical beams in one plane (and predictable ... see next paragraph), which makes it easy to shield them off.
+# If possible, lead the laser beams inside an enlosure.
+
+'''Disclaimer:''' This list of rules is in no way complete or guarantees that nobody gets harmed! But following them should prevent most accidents.
+
+=== Beam plane ===
+'''Typically all optical beams of a setup should be in one plane parallel to the table top.'''
+
+This principle makes the whole setup predictable and safe, as everybody always knows where to expect (possibly dangerous) light. Also it makes it easier to install laser shielding (e.g. a wall around the setup). 
+
+A simple means to achieve this goal is by defining the beam height before starting to build the setup. This can be done by mounting an iris or alignment disc with its hole on the desired beam hight. Then this tool can be used for any further alignment.
+
+=== Kinematic mirror mounts ===
+[[File:Spimoptics kinematicmirrormount.svg|thumb|300px|kinemtic mirror mount]]
+The mirrors in the openSPIM are all mounted in kinematic mirror mounts. These mounts allow to flap the mirror around two perpendicular axes:
+# Moving knob SB will flap the mirror around the axis defined by knobs ST and SC.
+# Moving knob ST will flap the mirror around the axis defined by knobs SB and SC.
+# The mirror may be shifted, if all knobs are moved (bottom right in figure).
+'''Note''' that with these mirror mounts the rotation axis of the mirror is NOT IN THE CENTER of the mirror. So flapping a mirror will always lead to a parallel shift of the reflected beam, as the reflection point moves (see bottom left figure).
+Due to the size of the mirror mount the shift of the reflection point is typically not very large and can be mostly neglected.
+
+=== Aligning a laser beam in space ===
+[[File:Spimoptics alignmentinspace.svg|thumb|400px|alignment of a laser beam in space]]
+Each laser beam (in space) is defined by four free parameters (a osition x,y on a plane in space and a direction defined by two angles). This can be seen in the figure (A) on the right, where all beams hit the same point on a plane (2), but only the green beam is parallel to the z-axis. So to align a laser beam in space (e.g. parallel to an optical rail, as in the openSPIM), it needs to go through two points in space (e.g. two alignment discs or irises).
+
+Figure (B) on the right shows a typical setup to align a laser beam in space. It uses two mirrors M1 and M2 (on kinematic mounts, i.e. with two degrees of freedom each) and two alignment dics or irises (targets T1 and T2). In the openSPIM this appears e.g. with the two mirrors directly behind the laser, which allow to align the beam parallel to the optical rails. To align the beam, follow these steps:
+# Roughly align the mirrors, so the beam is not too far from its ideal position.
+# Align mirror M1, so the mirror passes T1. Now it will maybe NOT pass T2
+# Use mirror M2 to make the beam hit T2 (which might make the beam miss T1). If you uses irises, open up iris T1, so the beam passes until T2.
+# Return to step 2 and iterate this process until the beam passes thorugh the centers of T1 and T2.
+The crucial point here is to use the first mirror to align on the first target and the second mirror for the second target.
