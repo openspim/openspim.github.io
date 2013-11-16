@@ -12,8 +12,26 @@ Mirrors are shiny surfaces that reflect a beam of light. The reflection is defin
 If the parallel light beam enters the lens under an angle &phi;, as in the image below, the focus F will be shifted perpendcular to the optical axis by a distance ''&Delta;x'' (Note: A shift on a flat plane is the ideal case, which is nearly true for small shifts. For real lenses and larger shifts the shifted focus will move on a sphere centered in the center of the lens). The shift is given by a simple relation:
 ::'''''&Delta;x = f&middot;''tan''(&phi;)'''''
 <center>[[File:Spimoptics lensangled.png]]</center>
+Another basic rule of optics states that:
+:'''Every beam path in an optical setup is reversible.'''
+This means, e.g. for a lens, that it may either focus parallel light into a single spot, or alternatively collimate the light from a point source, which is put into the focus. In the latter case the situation above is simply reversed (i.e. flip the image horicontally):
+<center>[[File:Spimoptics lensreversed.png]]</center>
+Shifting the lightsource then also changes the angle &phi; under which the light leaves the lens.
+
+<small>In terms of [https://en.wikipedia.org/wiki/Fourier_optics fourier optics], this finding makes a lens a fourier transformator, as it changes from a position (space) to an angle space, or back. </small>
 
 === Telescopes ===
+Now we combine two lenses with focal lengths ''f'' anf ''f''' to form a telescope. A telescope is an optical assembly, where the the lenses are placed a distance ''f+f''' apart. It can be used to expand or decrease the diameter of a beam of light.
+<center>[[File:Spimoptics telescope.png]]</center>
+As can be seen, the size of the incident parallel light beam is expanded by a factor ''M'' (magnification):
+::'''''M = D' / D = f' / f '''''
+This can be understood, using the principle of reversability of optical beams (see above). The focus of the first lens can be seen as a point source for the second lens. The magnification is simply given by geometry.
+
+To calculate the exit angle &phi;' for a given incident angle &phi;, we can use the tangent law above:
+::''&Delta;x=f&middot;''tan''(&phi;)=f'&middot;''tan''(&phi;')''
+and therefore:
+::'''tan''(&phi;')/''tan''(&phi;) = f/f' = 1/M '''''
+
 
 
 === Infinity Microscope ===
@@ -60,3 +78,9 @@ Figure (B) on the right shows a typical setup to align a laser beam in space. It
 # Use mirror M2 to make the beam hit T2 (which might make the beam miss T1). If you uses irises, open up iris T1, so the beam passes until T2.
 # Return to step 2 and iterate this process until the beam passes thorugh the centers of T1 and T2.
 The crucial point here is to use the first mirror to align on the first target and the second mirror for the second target.
+
+
+=== Estimating the focal length of a lens ===
+There is an easy way to estimate the focal length of a lens. You will need a far away lightsource (e.g. a lamp at the other end of the room) and a white wall or sheet of paper. 
+# Hold the lens a short distance in front of the paper or wall and change the distance until you see a sharp image of the lightsource. 
+# Now measure the distance between the lens and the screen. This distance will roughly equal the focal length. The estimate is the better, the smaller the focal length is, compared to the distance to the light source.
