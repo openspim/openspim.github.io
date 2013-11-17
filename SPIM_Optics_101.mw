@@ -20,6 +20,15 @@ Shifting the lightsource then also changes the angle &phi; under which the light
 
 <small>In terms of [https://en.wikipedia.org/wiki/Fourier_optics fourier optics], this finding makes a lens a fourier transformator, as it changes from a position (space) to an angle space, or back. </small>
 
+
+=== Imaging with a lens ===
+In the section above, we looked at what a lens does to parallel light, or to point sources in the focal plane. These two cases are the most important ones, when it comes to understanding the optics of openSPIM. But for the sake of completeness, we will also give the "standard sketch" of imaging with a lens:
+<center>[[File:Spimoptics lensimaging.png]]</center>
+Here an object of height ''G'' is positioned a distance ''g'' away from a lens (focal length ''f<g''). Then a sharp image of height ''H'' is formed a distance ''h>f'' in front of the lens. For the size of the image and the distances holds the '''[https://en.wikipedia.org/wiki/Lens_%28optics%29#Imaging_properties lens formula]''' (an approximation for thin lenses!):
+::''''' 1/f = 1/G + 1/H'''''
+The image is [https://en.wikipedia.org/wiki/Magnification#Calculating_the_magnification_of_optical_systems magnified] by a factor ''M'':
+::''''' M = h/g = H/G = f/(f-G)'''''
+
 === Telescopes ===
 Now we combine two lenses with focal lengths ''f'' anf ''f''' to form a telescope. A telescope is an optical assembly, where the the lenses are placed a distance ''f+f''' apart. It can be used to expand or decrease the diameter of a beam of light.
 <center>[[File:Spimoptics telescope.png]]</center>
@@ -35,6 +44,18 @@ and therefore:
 
 
 === Infinity Microscope ===
+Now we take a second look at an assembly of two lenses, now forming an infinity microscope (which we use in the openSPIM to image the specimen onto the camera). Most of todays scientific grade fluorescence microscopes use this "infinity optics" principle:
+# The fluorescing sample is placed in the focal plane of the '''[https://en.wikipedia.org/wiki/Objective_%28optics%29 objective lens]'''. Each point (fluorophore) in the sample can then be seen as a pointsource of light. The objective lens then converts the light from each of these points (at position ''x'') into a parallel beam of light, exiting the objective under different angles ''&phi;(x)''.
+# A second lens (called '''tube lens''') then converts these parallel beams back into an image in its focal plane, where the camera is placed. Alteratively an [https://en.wikipedia.org/wiki/Eyepiece eyepiece] can be used as a loupe to observe this image with the eye.
+The whole setup looks like this:
+<center>[[File:Spimoptics infinitymicroscope.png]]</center>
+The magnification ''M=x'/x'' can again be easily calculated using the tangent law for lenses, stated above. From
+::''x = f<sub>O</sub>&middot;''tan''(&phi;(x))'' and ''x'= f<sub>TL</sub>&middot;''tan''(&phi;(x))''
+follows that:
+::'''''M = x'/x = f<sub>TL</sub>/f<sub>O</sub>'''''
+Note that we never used the distance between the objective and tube lens. In fact this distance does not play a major role for the imaging in an infinity microscope <small>(If it is too long, the parallel beams expand too much and you will loose intensity in the image)</small>. 
+
+The space between the objective and tube lens is called '''"infinity space"''', because the image is focused "in infinity" here (i.e. we have parallel beams of light). The advantage of this is, that we can easily introduce any plane optical elements (fluorescence filter, dichroic mirrors ...) without disturbing the optical properties of the microscope.
 
 == Practical Hints ==
 === Laser Safety ===
