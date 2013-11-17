@@ -60,7 +60,7 @@ This principle makes the whole setup predictable and safe, as everybody always k
 A simple means to achieve this goal is by defining the beam height before starting to build the setup. This can be done by mounting an iris or alignment disc with its hole on the desired beam hight. Then this tool can be used for any further alignment.
 
 === Kinematic mirror mounts ===
-[[File:Spimoptics kinematicmirrormount.svg|thumb|300px|kinemtic mirror mount]]
+[[File:Spimoptics kinematicmirrormount.png|thumb|300px|kinemtic mirror mount]]
 The mirrors in the openSPIM are all mounted in kinematic mirror mounts. These mounts allow to flap the mirror around two perpendicular axes:
 # Moving knob SB will flap the mirror around the axis defined by knobs ST and SC. This will move the beam left/right (green line).
 # Moving knob ST will flap the mirror around the axis defined by knobs SB and SC. This will move the beam up/down (blue line).
@@ -69,7 +69,7 @@ The mirrors in the openSPIM are all mounted in kinematic mirror mounts. These mo
 Due to the size of the mirror mount the shift of the reflection point is typically not very large and can be mostly neglected.
 
 === Aligning a laser beam in space ===
-[[File:Spimoptics alignmentinspace.svg|thumb|400px|alignment of a laser beam in space]]
+[[File:Spimoptics alignmentinspace.png|thumb|400px|alignment of a laser beam in space]]
 Each laser beam (in space) is defined by four free parameters (a osition x,y on a plane in space and a direction defined by two angles). This can be seen in the figure (A) on the right, where all beams hit the same point on a plane (2), but only the green beam is parallel to the z-axis. So to align a laser beam in space (e.g. parallel to an optical rail, as in the openSPIM), it needs to go through two points in space (e.g. two alignment discs or irises).
 
 Figure (B) on the right shows a typical setup to align a laser beam in space. It uses two mirrors M1 and M2 (on kinematic mounts, i.e. with two degrees of freedom each) and two alignment dics or irises (targets T1 and T2). In the openSPIM this appears e.g. with the two mirrors directly behind the laser, which allow to align the beam parallel to the optical rails. To align the beam, follow these steps:
