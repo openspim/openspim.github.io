@@ -7,6 +7,6 @@ Hardware:
 
 Software:
 
-* Windows XP (the Orca does not work with Windows 7 so far)
+* Windows (both XP and 7 are fine; needed for the Picard Stage and the Hammamatsu Orca camera)
 * Fiji
 * µManager
