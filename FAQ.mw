@@ -65,7 +65,7 @@ Call the Studio directly, without first starting ImageJ:
 
 == Can I run OpenSPIM with Windows 7 or 8? ==
 
-At the time of writing, only Windows XP is supported, because there are problems with the [http://www.dcamapi.com/ DCAM driver]. In our tests, it would install, but µManager was not able to find the camera on Windows 7.
+At the time of writing, we know that the Hammamatsu camera works with both Windows XP and Windows 7 using the [http://www.dcamapi.com/ DCAM driver].
 
 == How can I build the OpenSPIM software myself? ==
 
