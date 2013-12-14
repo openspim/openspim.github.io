@@ -54,3 +54,6 @@ follows that:
 Note that we never used the distance between the objective and tube lens. In fact this distance does not play a major role for the imaging in an infinity microscope <small>(If it is too long, the parallel beams expand too much and you will loose intensity in the image)</small>. 
 
 The space between the objective and tube lens is called '''"infinity space"''', because the image is focused "in infinity" here (i.e. we have parallel beams of light). The advantage of this is, that we can easily introduce any plane optical elements (fluorescence filter, dichroic mirrors ...) without disturbing the optical properties of the microscope.
+
+
+[[Category:SPIM Optics 101]]
