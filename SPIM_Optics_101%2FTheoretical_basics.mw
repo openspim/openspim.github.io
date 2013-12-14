@@ -56,4 +56,9 @@ Note that we never used the distance between the objective and tube lens. In fac
 The space between the objective and tube lens is called '''"infinity space"''', because the image is focused "in infinity" here (i.e. we have parallel beams of light). The advantage of this is, that we can easily introduce any plane optical elements (fluorescence filter, dichroic mirrors ...) without disturbing the optical properties of the microscope.
 
 
+== Gaussian Beam Optics ==
+So far we covered basic geometric optics, i.e. light was thought of as (infinitely thin) rays in space (or a whole bunch of these). Now we look at a more realistic model, where light is described as beams with a lateral intensity distribution. We will only cover basic principles of Gaussian beams, as they are the most common optical beams and have direct application in SPIM microscopy. More details can be found e.g. in the Wikipedia articles below or the references at the end of this page:
+
+
+
 [[Category:SPIM Optics 101]]
