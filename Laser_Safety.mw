@@ -9,7 +9,7 @@ So when aligning an optical system you should follow some simple rules to increa
 # When aligning, reduce the laser power to a safe setting (i.e. <1mW, which is generally considered safe in the visible range).
 # Don't look directly into the beam or the end of an optical fiber ('' ... with your remaining eye ;-)'').
 # Before entering an optical setup with a shiny tool (e.g. an spanners and wrenches) or a new optical element: block the laser and/or make sure you cannot be hit by a stray beam.
-# Keep the optical beams in one plane (and predictable ... see next paragraph), which makes it easy to shield them off.
+# Keep the optical beams in one plane (and therefore predictable), which makes it easy to shield them off. If possible put up a poster with the optical setup next to the SPIM, so people can look up what that thingy on the table is and how it works.
 # If possible, lead the laser beams inside an enlosure.
 # The lasers have to be marked with the appropriate [https://en.wikipedia.org/wiki/Laser_safety#Class_3B warning signs]. Also the room should be marked outside with a warning sign and at least this information: (max.) laser class, laser wavelength, laser power.
 # Note that in some countries (e.g. germany) you need a laser safety officier in your university/company/institute/... when operating lasers of classes 3R, 3B and 4. Otherwise there might be no insurance against accidents with laser radiataion. Find out who that is and show him your setup.
