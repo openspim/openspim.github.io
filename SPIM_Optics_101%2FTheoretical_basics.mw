@@ -57,8 +57,35 @@ The space between the objective and tube lens is called '''"infinity space"''', 
 
 
 == Gaussian Beam Optics ==
+=== Definition of Gaussian Beams ===
 So far we covered basic geometric optics, i.e. light was thought of as (infinitely thin) rays in space (or a whole bunch of these). Now we look at a more realistic model, where light is described as beams with a lateral intensity distribution. We will only cover basic principles of Gaussian beams, as they are the most common optical beams and have direct application in SPIM microscopy. More details can be found e.g. in the Wikipedia articles below or the references at the end of this page:
+* [https://en.wikipedia.org/wiki/Gaussian_beam Gaussian Beam]
+* [https://en.wikipedia.org/wiki/Gaussian_optics Gaussian Optics]
+
+The following shows the intensity distribution of a gaussian beam behind a lens. The yellow lines show the rays of geometric optics.
+<center>[[File:GaussBeam.png]]</center>
+As you can see, the intensity has a maximum with a certain width in the focus. Laterally the beam shows a 2D gaussian profile. The intensity distribution in the whole beam can be described as a Gaussian function with position-dependent width ''w(z)'':
+:[[File:Gaussianbeam intensity.png]]
+with ''z''-position dependent beam width: 
+:[[File:Gaussianbeam w.png]] 
+and the Rayleigh length or depth of focus (&lambda; is the wavelength of the light)
+:[[File:Gaussianbeam zr.png]]
+The intensity ''I(r,z)'' is plotted in the image above, the meaning of the quantities is shown in the next image:
+<center>[[File:Gaussbeam focus.png]]</center>
+The description of a laser focus with Gaussian optics is valid for low NA lenses (typically NA<<1). For high NA lenses (as e.g. the projection and detection objective in an openSPIM) it is still a good approximation, although the focus will actually look more complex (e.g. with sidelobes). Especially the relation for the depth of focus
+:[[File:Gaussianbeam zr.png]]
+still describes the lightsheet of the openSPIM. The most important consequence of this equation for us is, that the width of the lightsheet ''w<sub>0</sub>'' and the depth of focus ''z<sub>R</sub>'' are interrelated:
+::'''The thinner the lightsheet is, the shorter it's depth of focus, i.e. the area, where its width does not change strongly, which can therefore be used for imaging.'''
 
 
+=== Beam Divergence and Numerical Aperture ===
+Another parameter, important for a Gaussian beam is it's opening angle &theta;<sub>0</sub>, which is approximately given in radians by:
+:'''&theta;<sub>0</sub> = &lambda; / (&pi;&middot;w<sub>0</sub>)'''
+If the Gaussian beam is focused by a lens of given numerical aperture NA, then we have:
+:'''NA = n&middot;sin(&theta;<sub>0</sub>)'''
+where ''n'' is the refractive index of the medium in which the beam is focused (e.g. ''n=1'' for air or ''n=1.33'' for water). The numerical apperture of a lens is also given by it's diameter ''d'' and focal length ''f'':
+:'''NA = f / d'''
+
+== References ==
 
 [[Category:SPIM Optics 101]]
