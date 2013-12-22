@@ -58,7 +58,7 @@ The space between the objective and tube lens is called '''"infinity space"''', 
 
 == Gaussian Beam Optics ==
 === Definition of Gaussian Beams ===
-So far we covered basic geometric optics, i.e. light was thought of as (infinitely thin) rays in space (or a whole bunch of these). Now we look at a more realistic model, where light is described as beams with a lateral intensity distribution. We will only cover basic principles of Gaussian beams, as they are the most common optical beams and have direct application in SPIM microscopy. More details can be found e.g. in the Wikipedia articles below or the references at the end of this page:
+So far we covered basic geometric optics, i.e. light was thought of as (infinitely thin) rays in space (or a whole bunch of these). Now we look at a more realistic model, where light is described as beams with a lateral intensity distribution. We will only cover basic principles of Gaussian beams, as they are the most common optical beams and have direct application in SPIM microscopy. The light exiting a laser is typically a Gaussian beam (then also called TEM00 mode) and the lightsheet can be approximated as one. More details can be found e.g. in the Wikipedia articles below or the references at the end of this page:
 * [https://en.wikipedia.org/wiki/Gaussian_beam Gaussian Beam]
 * [https://en.wikipedia.org/wiki/Gaussian_optics Gaussian Optics]
 
@@ -66,7 +66,7 @@ The following shows the intensity distribution of a gaussian beam behind a lens.
 <center>[[File:GaussBeam.png]]</center>
 As you can see, the intensity has a maximum with a certain width in the focus. Laterally the beam shows a 2D gaussian profile. The intensity distribution in the whole beam can be described as a Gaussian function with position-dependent width ''w(z)'':
 :[[File:Gaussianbeam intensity.png]]
-with ''z''-position dependent beam width: 
+Here ''z'' is the position along the direction of propagation and ''r'' is the lateral position. A typical laser beam rotationally symmetric, so ''r'' is the distance from the beam center (''r²=x²+y²''). When the lightsheet should be described, the Gaussian beam is no longer rotationally symmetric, but we can set ''r=y'' or ''r=x''. The ''z''-position dependent beam width ''w(z)'' is defined as:: 
 :[[File:Gaussianbeam w.png]] 
 and the Rayleigh length or depth of focus (&lambda; is the wavelength of the light)
 :[[File:Gaussianbeam zr.png]]
@@ -76,7 +76,6 @@ The description of a laser focus with Gaussian optics is valid for low NA lenses
 :[[File:Gaussianbeam zr.png]]
 still describes the lightsheet of the openSPIM. The most important consequence of this equation for us is, that the width of the lightsheet ''w<sub>0</sub>'' and the depth of focus ''z<sub>R</sub>'' are interrelated:
 ::'''The thinner the lightsheet is, the shorter it's depth of focus, i.e. the area, where its width does not change strongly, which can therefore be used for imaging.'''
-
 
 === Beam Divergence and Numerical Aperture ===
 Another parameter, important for a Gaussian beam is it's opening angle &theta;<sub>0</sub>, which is approximately given in radians by:
