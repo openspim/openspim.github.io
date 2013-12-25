@@ -1,5 +1,13 @@
+<center>'''Note:''' ''This chapter will assemble some simple optical principles that should help you to align a SPIM. Most of these rules are approximations, that are typically well fulfilled for small angles. If you want a more thorough introuction, look into any optics textbook.''</center>
+
 == Geometric Optics ==
-''This chapter will assemble some simple optical principles that should help you to align a SPIM. Most of these rules are approximations, that are typically well fulfilled for small angles. If you want a more thorough introuction, look into any optics textbook.''
+We will start by briefly introducing some principles of [https://en.wikipedia.org/wiki/Geometric_optics geometric optics], where light is thought of as an infinitely thin ray, or a bunch of rays. Each ray starts at a certain point (e.g. a lightsource) and progresses into space ad infinitum, or until it hits a surface. At the surface (or interface between two media/materials) it may be:
+* absorbed (i.e. vanishes)
+* [https://en.wikipedia.org/wiki/Reflection_%28physics%29 reflected], i.e. leaves the surface under an exit angle, which equals the incident angle (see [[SPIM_Optics_101/Theoretical_basics#Mirrors|Mirrors]] below)
+* [https://en.wikipedia.org/wiki/Refraction refracted], i.e. is split into a reflected ray and a second ray penetrating the material, possibly changing directions. For the reflected ray, the exit angle &theta;<sub>e</sub> again equals the incident angle &theta;<sub>i</sub>, whereas for the refracted ray, the exit angle &theta;<sub>r</sub> is given by Snell's law and the refractive indices ''n<sub>1</sub>'' and ''n<sub>2</sub>'' of the two materials: 
+::'''sin(&theta;<sub>i</sub>) / sin(&theta;<sub>r</sub>) = n<sub>2</sub> / n<sub>1</sub>'''
+
+
 === Mirrors ===
 Mirrors are shiny surfaces that reflect a beam of light. The reflection is defined by the reflection law, which states the angle of the incident and the surface normal &alpha;<sub>i</sub> equals the angle &alpha;<sub>e</sub> of the exiting beam and the surface normal. This situation is illustrated in the next figure.
 <center>[[File:Spimoptics mirror.png]]</center>
@@ -103,6 +111,11 @@ Also the are estimates, rigorously valid only in the regime of small opening ang
 :''FWHM=0.51&middot;&lambda;/NA'' or accordingly ''w<sub>0</sub>=0.74&middot;&lambda;/NA'' 
 for the resolution of a fluorescence microscopy (point source) can be used (see e.g. [https://en.wikipedia.org/wiki/Optical_resolution Wikipedia: Optical resolution] or [https://de.wikipedia.org/wiki/Aufl%C3%B6sung_%28Mikroskopie%29 Microscope Resolution in the german Wikipedia] for further details).
 
-== References ==
+== Literature ==
+Here we list some textbooks and journal articles, you might want to read for further information:
+* Textbooks:
+** Bahaa E. Saleh and Malvin Carl Teich. ''Fundamentals of photonics.'', New York: Wiley, 1991.
+* journal articles:
+** K. Greger, J. Swoger, E. H. Stelzer: "Basic building units and properties of a fluorescence single plane illumination microscope". In: ''Review of scientific instruments.'' '''78'''(2), 2007, p. 023705, PMID 17578115.
 
 [[Category:SPIM Optics 101]]
