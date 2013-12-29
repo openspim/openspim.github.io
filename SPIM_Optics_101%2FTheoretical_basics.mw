@@ -102,7 +102,7 @@ So e.g. for a NA=0.03 projection lens, we get a focus size at &lambda;=488nm in 
 The numerical apperture of a lens is also determined by it's diameter ''d'' and focal length ''f'':
 :'''NA = d / (2&middot;f)'''
 Note however that the diameter ''d'' is not necessarily the true diameter of the lens. If the light beam before the lens is smaller than the lens's diameter, the effective NA of the lens is reduced accordingly. So if e.g. only half the diameter of an NA0.03 lens is illuminated (full illumination, see above), it's effective NA is reduced by a factor of 2 to NA=0.015. Then we get for the focus width and Rayleigh length:
-:''w<sub>0,NA0.15</sub> = 1.33&middot;0.488µm / (&pi;&middot;0.015) = 13.8µm'' and ''z<sub>R</sub>=12µm''
+:''w<sub>0,NA0.015</sub> = 1.33&middot;0.488µm / (&pi;&middot;0.015) = 13.8µm'' and ''z<sub>R</sub>=1221µm''
 
 ''Note:'' The beam widths ''w<sub>0</sub>'' derived in the last paragraph give the length over which the intensity drops to 1/e²=13.5% of the center intensity. Often the full width at half maximum (FWHM) is used as a measure of beam width. These two can be interconverted:
 :'''FWHM = w<sub>0</sub>&middot;ln(2) = w<sub>0</sub>&middot;0.693'''
