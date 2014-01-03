@@ -5,18 +5,24 @@ Feel free to edit this page with information about your system! (If you do not h
 * [http://www.mpi-cbg.de/research/research-groups/pavel-tomancak.html Tomancak group] at the Max-Planck Institute of molecular Cell Biology and Genetics]
 
 = Madison, WI, USA =
-[[File:LOCI-Setup.jpg|200px|thumb|right|LOCI's L-SPIM]]
+[[File:LOCI-Setup.jpg|300px|thumb|right|LOCI's L-SPIM]]
 
-[http://loci.wisc.edu/ The Laboratory of Optical and Computational Instrumentation (LOCI)] run by [http://loci.wisc.edu/people/kevin-eliceiri Kevin Eliceiri] at the University Wisconsin-Madison. It uses a Coherent Cube laser and a Hamamatsu Orca R^2 camera.
+[http://loci.wisc.edu/ The Laboratory of Optical and Computational Instrumentation (LOCI)] run by [http://loci.wisc.edu/people/kevin-eliceiri Kevin Eliceiri] at the University Wisconsin-Madison. It uses a Coherent Cube laser and a Hamamatsu Orca R^2 camera, being controlled by a 32-bit Windows XP computer.
+
+The OpenSPIM software was developed in this lab by Johannes Schindelin and Luke Stuyvenberg, and tested and refined with the help of Julie Last and Jayne Squirrel (see the [[People]] page for details), using that setup. The source code is hosted on [https://github.com/openspim/micromanager GitHub].
+
+<br /><br /><br />
 
 = Heidelberg, Germany =
+[[File:COS HD OpenSPIM 1.JPG|300px|thumb|right|COS Heidelberg OpenSPIM]]
 * [http://www.cos.uni-heidelberg.de/index.php/a.maizel?l=_e Maizel] and [http://www.cos.uni-heidelberg.de/index.php/s.lemke?l=_e Lemke] groups at the [http://www.cos.uni-heidelberg.de/?l=_e Center for Organismal Studies] of the Heidelberg University.
-[[File:COS HD OpenSPIM 1.JPG|200px|thumb|right|COS Heidelberg OpenSPIM]]
 * This setup slightly differs from the specifications of OpenSPIM v1.0. In particular we use a  [http://www.cobolt.se/mld488nm.html Cobolt laser], Nikon lenses and an [http://www.hamamatsucameras.com/flash4/l Orca4], the whole running under Windows7 Pro.
 * More details and pictures about the [[COS Heidelberg OpenSPIM]].
 
+<br /><br /><br /><br />
+
 = Cambridge, UK =
+[[File:FirstVolvoxProjection.jpg|300px|thumb|right|<i>Volvox carteri</i> colony imaged with the Goldstein lab OpenSPIM]]
 * The [http://www.damtp.cam.ac.uk/user/gold/?l=_e Goldstein] group in the [http://www.damtp.cam.ac.uk/?l=_e Department of Applied Mathematics and Theoretical Physics] at the University of Cambridge. 
-[[File:FirstVolvoxProjection.jpg|200px|thumb|right|<i>Volvox carteri</i> colony imaged with the Goldstein lab OpenSPIM]]
 * We used a periscope to divert existing green and blue laser lines, and included a Thorlabs [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=927?l shutter] in the beam path. We also use a Photometrics [http://www.photometrics.com/products/ccdcams/coolsnap-myo.php:l  Coolsnap Myo]. 
 * More pictures to come!
