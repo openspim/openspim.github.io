@@ -5,9 +5,13 @@ Feel free to edit this page with information about your system! (If you do not h
 * [http://www.ipt.fraunhofer.de/en/Businessunits/LifeSciencesEngineering.html Life Sciences Engineering Business Unit] at the Fraunhofer Institute for Production Technology IPT.
 * Our OpenSPIM design has a temperature controlled sample chamber for long-term experiments and uses a timing belt for precise sample rotation. 
 
+<br clear="all" />
+
 = Dresden, Germany =
 
 * [http://www.mpi-cbg.de/research/research-groups/pavel-tomancak.html Tomancak group] at the Max-Planck Institute of molecular Cell Biology and Genetics.
+
+<br clear="all" />
 
 = Madison, WI, USA =
 [[File:LOCI-Setup.jpg|300px|thumb|right|LOCI's L-SPIM]]
@@ -16,7 +20,7 @@ Feel free to edit this page with information about your system! (If you do not h
 
 * The OpenSPIM software was developed in this lab by Johannes Schindelin and Luke Stuyvenberg, and tested and refined with the help of Julie Last and Jayne Squirrel (see the [[People]] page for details), using that setup. The source code is hosted on [https://github.com/openspim/micromanager GitHub].
 
-<br /><br /><br />
+<br clear="all" />
 
 = Heidelberg, Germany =
 [[File:COS HD OpenSPIM 1.JPG|300px|thumb|right|COS Heidelberg OpenSPIM]]
@@ -24,10 +28,12 @@ Feel free to edit this page with information about your system! (If you do not h
 * This setup slightly differs from the specifications of OpenSPIM v1.0. In particular we use a  [http://www.cobolt.se/mld488nm.html Cobolt laser], Nikon lenses and an [http://www.hamamatsucameras.com/flash4/l Orca4], the whole running under Windows7 Pro.
 * More details and pictures about the [[COS Heidelberg OpenSPIM]].
 
-<br /><br /><br /><br />
+<br clear="all" />
 
 = Cambridge, UK =
 [[File:FirstVolvoxProjection.jpg|300px|thumb|right|<i>Volvox carteri</i> colony imaged with the Goldstein lab OpenSPIM]]
 * The [http://www.damtp.cam.ac.uk/user/gold/?l=_e Goldstein] group in the [http://www.damtp.cam.ac.uk/?l=_e Department of Applied Mathematics and Theoretical Physics] at the University of Cambridge. 
 * We used a periscope to divert existing green and blue laser lines, and included a Thorlabs [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=927?l shutter] in the beam path. We also use a Photometrics [http://www.photometrics.com/products/ccdcams/coolsnap-myo.php:l  Coolsnap Myo]. 
 * More pictures to come!
+
+<br clear="all" />
