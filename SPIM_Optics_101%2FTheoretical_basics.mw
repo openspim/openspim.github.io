@@ -40,9 +40,9 @@ Now we combine two lenses with focal lengths <i>f</i> and <i>f'</i> to form a te
 <center>[[File:Spimoptics telescope.png]]</center>
 As can be seen, the size of the incident parallel light beam is expanded by a factor ''M'' (magnification):
 ::'''''M = D' / D = f' / f '''''
-This can be understood, using the principle of reversibility of optical beams (see above). The focus of the first lens can be seen as a point source for the second lens. The magnification is simply given by geometry.
+This can be understood using the principle of reversibility of optical beams (see above). The focus of the first lens can be seen as a point source for the second lens. The magnification is simply given by geometry.
 
-To calculate the exit angle &phi;' for a given incident angle &phi;, we can use the tangent law above:
+To calculate the exit angle &phi;' for a given incident angle &phi; we can use the tangent law above:
 ::''&Delta;x=f&middot;''tan''(&phi;)=f'&middot;''tan''(&phi;')''
 and therefore:
 ::'''tan''(&phi;')/''tan''(&phi;) = f/f' = 1/M '''''
