@@ -13,9 +13,9 @@ Mirrors are shiny surfaces that reflect a beam of light. The reflection is defin
 <center>[[File:Spimoptics mirror.png]]</center>
 
 === Lenses and parallel light ===
-[https://en.wikipedia.org/wiki/Lens_%28optics%29 Lenses] are curved glass surfaces that refract the light and focus a beam of parallel light onto a single spot called the focus ''F''. The distance between the lens and the focus is called focal length ''f''.
+[https://en.wikipedia.org/wiki/Lens_%28optics%29 Lenses] are curved glass surfaces that refract the light and focus a beam of parallel light onto a single spot called the focus F. The distance between the lens and the focus is called focal length ''f''.
 <center>[[File:Spimoptics lens.png]]</center>
-If the parallel light beam enters the lens under an angle &phi;, as in the image below, the focus ''F'' will be shifted perpendicularly to the optical axis by a distance ''&Delta;x'' (Note: A shift on a flat plane is the ideal case -- which is nearly true for small shifts. For real lenses and larger shifts the shifted focus will move on a sphere centered in the center of the lens). The shift is given by a simple relation:
+If the parallel light beam enters the lens under an angle &phi;, as in the image below, the focus F will be shifted perpendicularly to the optical axis by a distance ''&Delta;x'' (Note: A shift on a flat plane is the ideal case -- which is nearly true for small shifts. For real lenses and larger shifts the shifted focus will move on a sphere centered in the center of the lens). The shift is given by a simple relation:
 ::'''''&Delta;x = f&middot;''tan''(&phi;)'''''
 <center>[[File:Spimoptics lensangled.png]]</center>
 Another basic rule of optics states that:
