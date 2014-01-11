@@ -36,7 +36,7 @@ The image is [https://en.wikipedia.org/wiki/Magnification#Calculating_the_magnif
 ::''''' M = h/g = H/G = f/(f-G)'''''
 
 === Telescopes ===
-Now we combine two lenses with focal lengths ''f'' and ''f''' to form a telescope. A telescope is an optical assembly where the the lenses are placed a distance ''f+f''' apart. It can be used to expand or narrow the diameter of a beam of light.
+Now we combine two lenses with focal lengths <i>f</i> and <i>f'</i> to form a telescope. A telescope is an optical assembly where the the lenses are placed a distance ''f+f''' apart. It can be used to expand or narrow the diameter of a beam of light.
 <center>[[File:Spimoptics telescope.png]]</center>
 As can be seen, the size of the incident parallel light beam is expanded by a factor ''M'' (magnification):
 ::'''''M = D' / D = f' / f '''''
@@ -46,8 +46,6 @@ To calculate the exit angle &phi;' for a given incident angle &phi;, we can use 
 ::''&Delta;x=f&middot;''tan''(&phi;)=f'&middot;''tan''(&phi;')''
 and therefore:
 ::'''tan''(&phi;')/''tan''(&phi;) = f/f' = 1/M '''''
-
-
 
 === Infinity Microscope ===
 Now we take a second look at an assembly of two lenses, now forming an infinity microscope (which we use in the OpenSPIM to image the specimen onto the camera). Most of today's scientific grade fluorescence microscopes use this "infinity optics" principle:
