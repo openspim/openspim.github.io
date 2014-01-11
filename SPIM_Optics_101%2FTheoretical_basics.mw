@@ -36,7 +36,7 @@ The image is [https://en.wikipedia.org/wiki/Magnification#Calculating_the_magnif
 ::''''' M = h/g = H/G = f/(f-G)'''''
 
 === Telescopes ===
-Now we combine two lenses with focal lengths <i>f</i> and <i>f'</i> to form a telescope. A telescope is an optical assembly where the the lenses are placed a distance ''f+f''' apart. It can be used to expand or narrow the diameter of a beam of light.
+Now we combine two lenses with focal lengths <i>f</i> and <i>f'</i> to form a telescope. A telescope is an optical assembly where the lenses are placed a distance ''f+f''' apart. It can be used to expand or narrow the diameter of a beam of light.
 <center>[[File:Spimoptics telescope.png]]</center>
 As can be seen, the size of the incident parallel light beam is expanded by a factor ''M'' (magnification):
 ::'''''M = D' / D = f' / f '''''
