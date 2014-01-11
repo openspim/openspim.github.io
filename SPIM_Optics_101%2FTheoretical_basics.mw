@@ -1,34 +1,34 @@
-<center>'''Note:''' ''This chapter will assemble some simple optical principles that should help you to align a SPIM. Most of these rules are approximations, that are typically well fulfilled for small angles. If you want a more thorough introuction, look into any optics textbook.''</center>
+<center>'''Note:''' ''This chapter describes some simple optical principles that should help you to align a SPIM. Most of these rules are approximations that are typically quite accurate for small angles. For a more thorough introduction it is recommended to read any established optics textbook.''</center>
 
 == Geometric Optics ==
-We will start by briefly introducing some principles of [https://en.wikipedia.org/wiki/Geometric_optics geometric optics], where light is thought of as an infinitely thin ray, or a bunch of rays. Each ray starts at a certain point (e.g. a lightsource) and progresses into space ad infinitum, or until it hits a surface. At the surface (or interface between two media/materials) it may be:
+We will start by briefly introducing some principles of [https://en.wikipedia.org/wiki/Geometric_optics geometric optics] where light is thought of as an infinitely thin ray, or a bunch of rays. Each ray starts at a certain point (e.g. a light source) and progresses into space ad infinitum or until it hits a surface. At the surface (or interface between two media/materials) it may be:
 * absorbed (i.e. vanishes)
-* [https://en.wikipedia.org/wiki/Reflection_%28physics%29 reflected], i.e. leaves the surface under an exit angle, which equals the incident angle (see [[SPIM_Optics_101/Theoretical_basics#Mirrors|Mirrors]] below)
-* [https://en.wikipedia.org/wiki/Refraction refracted], i.e. is split into a reflected ray and a second ray penetrating the material, possibly changing directions. For the reflected ray, the exit angle &theta;<sub>e</sub> again equals the incident angle &theta;<sub>i</sub>, whereas for the refracted ray, the exit angle &theta;<sub>r</sub> is given by Snell's law and the refractive indices ''n<sub>1</sub>'' and ''n<sub>2</sub>'' of the two materials: 
+* [https://en.wikipedia.org/wiki/Reflection_%28physics%29 reflected], i.e. leaves the surface under an exit angle which equals the incident angle (see [[#Mirrors|Mirrors]] below)
+* [https://en.wikipedia.org/wiki/Refraction refracted], i.e. is split into a reflected ray and a second ray penetrating the material, possibly changing directions. For the reflected ray, the exit angle &theta;<sub>e</sub> again equals the incident angle &theta;<sub>i</sub>, whereas for the refracted ray the exit angle &theta;<sub>r</sub> is given by [http://en.wikipedia.org/wiki/Snell%27s_Law Snell's law] and the refractive indices ''n<sub>1</sub>'' and ''n<sub>2</sub>'' of the two materials: 
 ::'''sin(&theta;<sub>i</sub>) / sin(&theta;<sub>r</sub>) = n<sub>2</sub> / n<sub>1</sub>'''
 
 
 === Mirrors ===
-Mirrors are shiny surfaces that reflect a beam of light. The reflection is defined by the reflection law, which states the angle of the incident and the surface normal &alpha;<sub>i</sub> equals the angle &alpha;<sub>e</sub> of the exiting beam and the surface normal. This situation is illustrated in the next figure.
+Mirrors are shiny surfaces that reflect a beam of light. The reflection is defined by the reflection law, which states the angle of the incident and the surface normal &alpha;<sub>i</sub> equals the angle &alpha;<sub>e</sub> of the exiting beam and the surface normal:
 <center>[[File:Spimoptics mirror.png]]</center>
 
 === Lenses and parallel light ===
-[https://en.wikipedia.org/wiki/Lens_%28optics%29 Lenses] are curved glass surfaces that refract the light and focus a beam of parallel light onto a spot, called the focus F. The distance between the lens and the focus is called focal length ''f''.
+[https://en.wikipedia.org/wiki/Lens_%28optics%29 Lenses] are curved glass surfaces that refract the light and focus a beam of parallel light onto a single spot called the focus ''F''. The distance between the lens and the focus is called focal length ''f''.
 <center>[[File:Spimoptics lens.png]]</center>
-If the parallel light beam enters the lens under an angle &phi;, as in the image below, the focus F will be shifted perpendcular to the optical axis by a distance ''&Delta;x'' (Note: A shift on a flat plane is the ideal case, which is nearly true for small shifts. For real lenses and larger shifts the shifted focus will move on a sphere centered in the center of the lens). The shift is given by a simple relation:
+If the parallel light beam enters the lens under an angle &phi;, as in the image below, the focus ''F'' will be shifted perpendicularly to the optical axis by a distance ''&Delta;x'' (Note: A shift on a flat plane is the ideal case -- which is nearly true for small shifts. For real lenses and larger shifts the shifted focus will move on a sphere centered in the center of the lens). The shift is given by a simple relation:
 ::'''''&Delta;x = f&middot;''tan''(&phi;)'''''
 <center>[[File:Spimoptics lensangled.png]]</center>
 Another basic rule of optics states that:
 :'''Every beam path in an optical setup is reversible.'''
-This means, e.g. for a lens, that it may either focus parallel light into a single spot, or alternatively collimate the light from a point source, which is put into the focus. In the latter case the situation above is simply reversed (i.e. flip the image horicontally):
+This means, e.g. for a lens, that it may either focus parallel light into a single spot, or alternatively collimate the light from a point source which is put into the focus. In the latter case the situation above is simply reversed (i.e. flip the image horizontally):
 <center>[[File:Spimoptics lensreversed.png]]</center>
-Shifting the lightsource then also changes the angle &phi; under which the light leaves the lens.
+Shifting the light source then also changes the angle &phi; under which the light leaves the lens.
 
-<small>In terms of [https://en.wikipedia.org/wiki/Fourier_optics fourier optics], this finding makes a lens a fourier transformator, as it changes from a position (space) to an angle space, or back. </small>
+<small>In terms of [https://en.wikipedia.org/wiki/Fourier_optics Fourier optics], this finding makes a lens a Fourier transformer as it changes from a position (space) to an angle space, or vice versa. </small>
 
 
 === Imaging with a lens ===
-In the section above, we looked at what a lens does to parallel light, or to point sources in the focal plane. These two cases are the most important ones, when it comes to understanding the optics of openSPIM. But for the sake of completeness, we will also give the "standard sketch" of imaging with a lens:
+In the section above, we looked at what a lens does to parallel light or to point sources in the focal plane. These two cases are the most important ones when it comes to understanding the optics of OpenSPIM. But for the sake of completeness, we will also give the "standard sketch" of imaging with a lens:
 <center>[[File:Spimoptics lensimaging.png]]</center>
 Here an object of height ''G'' is positioned a distance ''g'' away from a lens (focal length ''f<g''). Then a sharp image of height ''H'' is formed a distance ''h>f'' in front of the lens. For the size of the image and the distances holds the '''[https://en.wikipedia.org/wiki/Lens_%28optics%29#Imaging_properties lens formula]''' (an approximation for thin lenses!):
 ::''''' 1/f = 1/G + 1/H'''''
@@ -36,11 +36,11 @@ The image is [https://en.wikipedia.org/wiki/Magnification#Calculating_the_magnif
 ::''''' M = h/g = H/G = f/(f-G)'''''
 
 === Telescopes ===
-Now we combine two lenses with focal lengths ''f'' anf ''f''' to form a telescope. A telescope is an optical assembly, where the the lenses are placed a distance ''f+f''' apart. It can be used to expand or decrease the diameter of a beam of light.
+Now we combine two lenses with focal lengths ''f'' and ''f''' to form a telescope. A telescope is an optical assembly where the the lenses are placed a distance ''f+f''' apart. It can be used to expand or narrow the diameter of a beam of light.
 <center>[[File:Spimoptics telescope.png]]</center>
 As can be seen, the size of the incident parallel light beam is expanded by a factor ''M'' (magnification):
 ::'''''M = D' / D = f' / f '''''
-This can be understood, using the principle of reversability of optical beams (see above). The focus of the first lens can be seen as a point source for the second lens. The magnification is simply given by geometry.
+This can be understood, using the principle of reversibility of optical beams (see above). The focus of the first lens can be seen as a point source for the second lens. The magnification is simply given by geometry.
 
 To calculate the exit angle &phi;' for a given incident angle &phi;, we can use the tangent law above:
 ::''&Delta;x=f&middot;''tan''(&phi;)=f'&middot;''tan''(&phi;')''
@@ -50,69 +50,69 @@ and therefore:
 
 
 === Infinity Microscope ===
-Now we take a second look at an assembly of two lenses, now forming an infinity microscope (which we use in the openSPIM to image the specimen onto the camera). Most of todays scientific grade fluorescence microscopes use this "infinity optics" principle:
-# The fluorescing sample is placed in the focal plane of the '''[https://en.wikipedia.org/wiki/Objective_%28optics%29 objective lens]'''. Each point (fluorophore) in the sample can then be seen as a pointsource of light. The objective lens then converts the light from each of these points (at position ''x'') into a parallel beam of light, exiting the objective under different angles ''&phi;(x)''.
-# A second lens (called '''tube lens''') then converts these parallel beams back into an image in its focal plane, where the camera is placed. Alteratively an [https://en.wikipedia.org/wiki/Eyepiece eyepiece] can be used as a loupe to observe this image with the eye.
+Now we take a second look at an assembly of two lenses, now forming an infinity microscope (which we use in the OpenSPIM to image the specimen onto the camera). Most of today's scientific grade fluorescence microscopes use this "infinity optics" principle:
+# The fluorescing sample is placed in the focal plane of the '''[https://en.wikipedia.org/wiki/Objective_%28optics%29 objective lens]'''. Each point (fluorophore) in the sample can then be seen as a point source of light. The objective lens then converts the light from each of these points (at position ''x'') into a parallel beam of light, exiting the objective under different angles ''&phi;(x)''.
+# A second lens (called '''tube lens''') then converts these parallel beams back into an image in its focal plane, where the camera is placed. Alternatively an [https://en.wikipedia.org/wiki/Eyepiece eyepiece] can be used as a "magnifying glass" to observe this image by eye.
 The whole setup looks like this:
 <center>[[File:Spimoptics infinitymicroscope.png]]</center>
-The magnification ''M=x'/x'' can again be easily calculated using the tangent law for lenses, stated above. From
+The magnification ''M=x'/x'' can again be easily calculated using the tangent law for lenses stated above. From
 ::''x = f<sub>O</sub>&middot;''tan''(&phi;(x))'' and ''x'= f<sub>TL</sub>&middot;''tan''(&phi;(x))''
 follows that:
 ::'''''M = x'/x = f<sub>TL</sub>/f<sub>O</sub>'''''
 Note that we never used the distance between the objective and tube lens. In fact this distance does not play a major role for the imaging in an infinity microscope <small>(If it is too long, the parallel beams expand too much and you will loose intensity in the image)</small>. 
 
-The space between the objective and tube lens is called '''"infinity space"''', because the image is focused "in infinity" here (i.e. we have parallel beams of light). The advantage of this is, that we can easily introduce any plane optical elements (fluorescence filter, dichroic mirrors ...) without disturbing the optical properties of the microscope.
+The space between the objective and tube lens is called '''"infinity space"''', because the image is focused "in infinity" here (i.e. we have parallel beams of light). The advantage of this is that we can easily introduce any planar optical elements (fluorescence filter, dichroic mirrors ...) without disturbing the optical properties of the microscope.
 
 
 == Gaussian Beam Optics ==
 === Definition of Gaussian Beams ===
-So far we covered basic geometric optics, i.e. light was thought of as (infinitely thin) rays in space (or a whole bunch of these). Now we look at a more realistic model, where light is described as beams with a lateral intensity distribution. We will only cover basic principles of Gaussian beams, as they are the most common optical beams and have direct application in SPIM microscopy. The light exiting a laser is typically a Gaussian beam (then also called TEM00 mode) and the lightsheet can be approximated as one. More details can be found e.g. in the Wikipedia articles below or the references at the end of this page:
+So far we covered basic geometric optics, i.e. light was thought of as (infinitely thin) rays in space (or a whole bunch of these). Now we look at a more realistic model, where light is described as beams with a lateral intensity distribution. We will only cover basic principles of Gaussian beams, as they are the most common optical beams and have direct application to SPIM. The light exiting a laser is typically a Gaussian beam (then also called TEM00 mode) and the light sheet can be approximated as one. More details can be found e.g. in the Wikipedia articles below or the references at the end of this page:
 * [https://en.wikipedia.org/wiki/Gaussian_beam Gaussian Beam]
 * [https://en.wikipedia.org/wiki/Gaussian_optics Gaussian Optics]
 
-The following shows the intensity distribution of a gaussian beam behind a lens. The yellow lines show the rays of geometric optics.
+The following shows the intensity distribution of a Gaussian beam behind a lens. The yellow lines show the rays of geometric optics.
 <center>[[File:GaussBeam.png]]</center>
-As you can see, the intensity has a maximum with a certain width in the focus. Laterally the beam shows a 2D gaussian profile. The intensity distribution in the whole beam can be described as a Gaussian function with position-dependent width ''w(z)'':
+As you can see, the intensity has a maximum with a certain width in the focus. Laterally the beam shows a 2D Gaussian profile. The intensity distribution in the whole beam can be described as a Gaussian function with position-dependent width ''w(z)'':
 :[[File:Gaussianbeam intensity.png]]
-Here ''z'' is the position along the direction of propagation and ''r'' is the lateral position. A typical laser beam rotationally symmetric, so ''r'' is the distance from the beam center (''r²=x²+y²''). When the lightsheet should be described, the Gaussian beam is no longer rotationally symmetric, but we can set ''r=y'' or ''r=x''. The ''z''-position dependent beam width ''w(z)'' is defined as:: 
+Here ''z'' is the position along the direction of propagation and ''r'' is the lateral position. A typical laser beam is rotationally symmetric, thus ''r'' is the distance from the beam center (''r²=x²+y²''). When the light sheet should be described, the Gaussian beam is no longer rotationally symmetric but we can set ''r=y'' or ''r=x'', respectively. The ''z''-position dependent beam width ''w(z)'' is defined as:: 
 :[[File:Gaussianbeam w.png]] 
-and the Rayleigh length or depth of focus (&lambda; is the wavelength of the light)
+with the Rayleigh length or depth of focus (&lambda; is the wavelength of the light) defined as:
 :[[File:Gaussianbeam zr.png]]
-This variable describes on the one Hand the range after which the center intensity ''I(0,z)'' has dropped to half it's maximum value and on the other hand the ''z''-range, over which the light cone does not expand strongly (''w(z<sub>R</sub>)=1.44&middot;w<sub>0</sub>''). The intensity ''I(r,z)'' is plotted in the image above, the meaning of the quantities is shown in the next image:
+This variable describes the range after which the center intensity ''I(0,z)'' has dropped to half its maximum value on the one hand and on the other hand the ''z''-range through which the light cone does not expand strongly (''w(z<sub>R</sub>)=1.44&middot;w<sub>0</sub>''). The intensity ''I(r,z)'' is plotted in the image above, the meaning of the quantities is shown in the next image:
 <center>[[File:Gaussbeam focus.png]]</center>
-The description of a laser focus with Gaussian optics is valid for low NA lenses (typically NA<<1). For high NA lenses (as e.g. the projection and detection objective in an openSPIM) it is still a good approximation, although the focus will actually look more complex (e.g. with sidelobes). Especially the relation for the depth of focus
+The description of a laser focus with Gaussian optics is valid for low NA lenses (typically NA<<1). For high NA lenses (as e.g. the projection and detection objective in an OpenSPIM) it is still a good approximation, although the focus will actually look more complex (e.g. with side lobes). Especially the relation for the depth of focus
 :[[File:Gaussianbeam zr.png]]
-still describes the lightsheet of the openSPIM. The most important consequence of this equation for us is, that the width of the lightsheet ''w<sub>0</sub>'' and the depth of focus ''z<sub>R</sub>'' are interrelated:
-::'''The thinner the lightsheet is, the shorter it's depth of focus, i.e. the area, where its width does not change strongly, which can therefore be used for imaging.'''
+still describes the light sheet of the OpenSPIM. The most important consequence of this equation for us is, that the width of the light sheet ''w<sub>0</sub>'' and the depth of focus ''z<sub>R</sub>'' are interrelated:
+::'''The thinner the light sheet is, the shorter its depth of focus, i.e. the area in which its width does not change strongly, and which can therefore be used for imaging.'''
 
 === Beam Divergence and Numerical Aperture ===
 
-Another parameter, important for a Gaussian beam is it's opening angle &theta;<sub>0</sub>, which is approximately given in radians by:
+Another parameter important for a Gaussian beam is its opening angle &theta;<sub>0</sub> which is approximately given in radians by:
 :'''&theta;<sub>0</sub> = &lambda; / (&pi;&middot;w<sub>0</sub>)'''
-If the Gaussian beam is focused by a lens of given numerical aperture NA, then we have:
+If the Gaussian beam is focused by a lens of a given numerical aperture NA we then have:
 :'''NA = n&middot;sin(&theta;<sub>0</sub>)'''
-where ''n'' is the refractive index of the medium in which the beam is focused (e.g. ''n=1'' for air or ''n=1.33'' for water). Combining these two equations we can also estimate the minimal size of focus that can be achieved with a given lens (of given NA). We use the paraxial approximation, which basically states that the angles ''&theta;<sub>0</sub>'' are small (compared to 1) and therefore ''&theta;<sub>0</sub>=''sin''(&theta;<sub>0</sub>)''. Then we get:
+where ''n'' is the refractive index of the medium in which the beam is focused (e.g. ''n=1'' for air or ''n=1.33'' for water). Combining these two equations we can also estimate the minimal size of focus that can be achieved with a given lens (of given NA). We use the paraxial approximation which basically states that the angles ''&theta;<sub>0</sub>'' are small (compared to 1) and therefore ''&theta;<sub>0</sub>=''sin''(&theta;<sub>0</sub>)''. Then we get:
 :''NA/n = &lambda; / (&pi;&middot;w<sub>0</sub>)''
 which yields:
 :'''w<sub>0</sub> = n&middot;&lambda; / (&pi;&middot;NA) = 0.32&middot;n&middot;&lambda; / (&pi;&middot;NA)'''
 So e.g. for a NA=0.03 projection lens, we get a focus size at &lambda;=488nm in water (n=1.33) of:
-:''w<sub>0,NA0.03</sub> = 1.33&middot;0.488µm / (&pi;&middot;0.03) = 6.9µm''. The accordingt Rayleigh length is ''z<sub>R</sub>=306µm''
+:''w<sub>0,NA0.03</sub> = 1.33&middot;0.488µm / (&pi;&middot;0.03) = 6.9µm''. The according Rayleigh length is ''z<sub>R</sub>=306µm''
 
 [[File:Lens na.png|thumb]]
-The numerical apperture of a lens is also determined by it's diameter ''d'' and focal length ''f'':
+The numerical aperture of a lens is also determined by its diameter ''d'' and focal length ''f'':
 :'''NA = d / (2&middot;f)'''
-Note however that the diameter ''d'' is not necessarily the true diameter of the lens. If the light beam before the lens is smaller than the lens's diameter, the effective NA of the lens is reduced accordingly. So if e.g. only half the diameter of an NA0.03 lens is illuminated (full illumination, see above), it's effective NA is reduced by a factor of 2 to NA=0.015. Then we get for the focus width and Rayleigh length:
+Note however that the diameter ''d'' is not necessarily the true diameter of the lens. If the light beam before the lens is smaller than the lens' diameter, the effective NA of the lens is reduced accordingly. So if e.g. only half the diameter of an NA0.03 lens is illuminated (full illumination, see above), its effective NA is reduced by a factor of 2 to NA=0.015. Then we get the following focus width and Rayleigh length:
 :''w<sub>0,NA0.015</sub> = 1.33&middot;0.488µm / (&pi;&middot;0.015) = 13.8µm'' and ''z<sub>R</sub>=1221µm''
 
-''Note:'' The beam widths ''w<sub>0</sub>'' derived in the last paragraph give the length over which the intensity drops to 1/e²=13.5% of the center intensity. Often the full width at half maximum (FWHM) is used as a measure of beam width. These two can be interconverted:
+''Note:'' The beam widths ''w<sub>0</sub>'' derived in the last paragraph give the length over which the intensity drops to 1/e²=13.5% of the center intensity. Often the full width at half maximum (FWHM) is used as a measure of beam width. These two are equivalent and can be converted from one to the other using this equation:
 :'''FWHM = w<sub>0</sub>&middot;ln(2) = w<sub>0</sub>&middot;0.693'''
 
-Also the are estimates, rigorously valid only in the regime of small opening angles &theta;<<1 or NA<<1.  In the openSPIM they can directly be used for the relais telescope lenses of f=25mm and f=50mm used to increase/decrease the size of the laser beam (diameter typically ''w<sub>0</sub>=1''mm, so NA=0.01-0.02). For the projection lens, creating the lightsheet, or the detection objective, diffraction effects have to be taken into account. Here estimates like
+The following approximations are very useful but only rigorously valid for small opening angles &theta;<<1 or NA<<1. In the OpenSPIM they can directly be used for the relais telescope lenses of f=25mm and f=50mm used to increase/decrease the size of the laser beam (diameter typically ''w<sub>0</sub>=1''mm, so NA=0.01-0.02). For the projection lens, creating the light sheet, or the detection objective, diffraction effects have to be taken into account. Here estimates like
 :''FWHM=0.51&middot;&lambda;/NA'' or accordingly ''w<sub>0</sub>=0.74&middot;&lambda;/NA'' 
 for the resolution of a fluorescence microscopy (point source) can be used (see e.g. [https://en.wikipedia.org/wiki/Optical_resolution Wikipedia: Optical resolution] or [https://de.wikipedia.org/wiki/Aufl%C3%B6sung_%28Mikroskopie%29 Microscope Resolution in the german Wikipedia] for further details).
 
 == Literature ==
-Here we list some textbooks and journal articles, you might want to read for further information:
+You might want to read the following textbooks and journal articles for further information:
 * Textbooks:
 ** Bahaa E. Saleh and Malvin Carl Teich. ''Fundamentals of photonics.'', New York: Wiley, 1991.
 * journal articles:
