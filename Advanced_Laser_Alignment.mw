@@ -70,7 +70,7 @@ During this step, we'll put in the second two-lens system and again compensate f
 ## Once this is done, use the corner mirror's horizontal adjustment to optimize the beam waist.
 ## Restore the vertical centering (same as above).
 
-* After this step, you can replace the cylindrical lens on the optical axis. Although it should be focused on the corner mirror, and the first lens of the second (BFP) system should have a focal point in the same place, the position of the cylindrical lens makes little apparent difference.
+* After this step, you can replace the cylindrical lens on the optical axis. Although it should be focused on the corner mirror, and the first lens of the second (BFP) system should have a focal point in the same place, this doesn't seem to be an absolute requirement -- the position of the cylindrical lens makes little apparent difference.
 * Once the cylindrical lens is in place, the view through the live window will be mostly useless: you will be looking at a sheet of light, parallel to the camera's chip.
 ** However, physical inspection of the sample chamber should show the sheet sharply narrowing near the center of the field of view, then expanding to as many as two or three centimeters on the far side of the chamber.
 
@@ -91,15 +91,25 @@ In this step, we'll observe the light sheet directly and finish adjusting it, th
 ## Using the software, move the stage to focus on the grid.
 ## Adjust the angle until the grid lines are equally out of focus across the camera's field of view.
 ##* It may help to focus on the grid in between angular adjustments: look for sections of grid lines growing unfocused as they progress to the left or right.
-## Optionally zero the rotational motor; this way, the following rotation is as simple as entering (-)45 in the stage controls window.
-##* This function is not yet implemented in the OpenSPIM software, but must be performed using the Picard Twister control software. It is safe to do this while MM/OpenSPIM is running.
+##* Optionally zero the rotational motor; this way, the following rotation is as simple as entering (-)45 in the stage controls window.
+##** This function is not yet implemented in the OpenSPIM software, but may be performed using the Picard Twister control software. It is safe to do this while MM/OpenSPIM is running.
 ## Rotate the stage 45 degrees to reflect the laser light down the detection axis.
 ##* Be careful the rotation is in the correct direction. Watch the sample as you rotate it through 45 degrees and make sure the mirrored surface is now 45 degrees between the two objective lenses.
 ## Refocus on one of the grid lines. The grid to the left and right of center will be unfocused; this is expected as the grid's surface is no longer parallel to the focal plane.
 # Step the laser up in power slowly, until the light sheet is visible.
 #* Try 0.1 mW steps, starting from 0.5 mW. OpenSPIM 1.0's 488nm Cube gives best results at around 0.91 mW. (The second decimal place may not display, but the Coherent Cube recognizes it correctly.)
-# Adjust the final lens in the sequence back and forth along its rail
+# Adjust the corner mirror's horizontal controls to center the sheet on the center of the image.
+#* It may be useful to create a reticle as before, but with the height and width swapped to give a vertical rectangle.
+# Adjust the final lens in the sequence back and forth along its rail to focus the light sheet.
+#* Keep an eye on the 'max' statistic in Micro-Manager. If you begin to saturate the camera, lower the laser power and/or reduce the exposure.
+#* The first beam expander also contributes to the focus, and may require fine-tuning.
+# The light sheet diverges in either direction from the middle; the vertical slit must be narrowed to counteract this.
+## Take a Z- or X- stack of the mirror surface and observe the beam's divergence at the edges of the field of view.
+## Narrow the vertical slit until the light sheet is reasonably consistent across the camera's view.
+##* As the slit narrows, the centered beam will widen and lose amplitude.
+
+* You'll have to make a qualitative judgment about the consistency of the light-sheet vs. its width. A narrow slit will cause a wider light sheet, but it won't change as dramatically across the view of the camera.
+* Keep in mind that if the light sheet is very wide at the edges of the view, this will illuminate out-of-focus parts of the sample.
 
 = TODO =
-# Finish the 'Refining the Light Sheet' section.
 # Add pictures of expected results at important locations.
