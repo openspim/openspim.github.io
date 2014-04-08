@@ -1,9 +1,24 @@
+Zebrafish embryos should be mounted according to the imaging needs, e.g.:
+# for short-term imaging: in 1.5% agarose inside a glass capillary, pushed out for imaging (the classic approach)
+# for long-term imaging: in 0.1% agarose inside a polymer (FEP) tube
+# for long-term cardiac imaging: in 3% methylcellulose inside a polymer (FEP) tube
+
 <gallery>
-File:Capillary-vs-tube2.png
+File:Capillary-vs-tube2.png|two ways of mounting Zebrafish embryos; left: w/ FEP tube, right: w/o
 </gallery>
 
-* [http://www.jove.com/video/51119/multilayer-mounting-for-long-term-light-sheet-microscopy-of-zebrafish Multilayer Mounting for Long-term Light Sheet Microscopy of Zebrafish] (external JoVE video article)
-* [http://dev.biologists.org/content/139/17/3242.abstract Multilayer mounting enables long-term imaging of zebrafish development in a light sheet microscope] (external Development article)
+== Short-term imaging ==
+The method of choice mounting Zebrafish embryos is very similar to the one for [[Drosophila_embryo_sample_preparation#Mounting_of_the_embryos|mounting Drosophila embryos]]. Prepare low-melting point agarose in fish medium (E3, without Methylene Blue) at a final concentration of 1.5%. Add fluorescent beads if required. Melt it at 70 deg Celsius and keep it at 38 deg Celsius. Transfer a Zebrafish embryo of choice to the agarose and take it up with a glass capillary (inner diameter around 1 mm) and a plunger. Let the agarose solidify and keep the embryo in the capillary submerged in fish medium. For imaging, push out the part of the agarose which contains the embryo.
+
+<gallery>
+File:Embedding glass-capillary.png
+</gallery>
+
+== Long-term imaging ==
+
+
+== Long-term cardiac imaging ==
+
 
 == material ==
 
@@ -53,5 +68,9 @@ File:Sample_uptake03.JPG
 File:Syringe_fep_attached.JPG
 File:vortex.JPG
 </gallery>
+
+== external links ==
+* [http://www.jove.com/video/51119/multilayer-mounting-for-long-term-light-sheet-microscopy-of-zebrafish Multilayer Mounting for Long-term Light Sheet Microscopy of Zebrafish] (external "JoVE" video article)
+* [http://dev.biologists.org/content/139/17/3242.abstract Multilayer mounting enables long-term imaging of zebrafish development in a light sheet microscope] (external "Development" article)
 
 [[Category:Operation]]
