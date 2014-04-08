@@ -33,6 +33,12 @@ File:Sample_uptake01.JPG|transfer a Zebrafish embryo of choice from the dish...
 File:Sample_uptake02.JPG|... to the melted Agarose
 </gallery>
 
+=== modification: FEP tube as additional support ===
+
+<gallery>
+File:Fep-prep.JPG|FEP tubes w/ Zebrafish embryos in 1.5% agarose
+</gallery>
+
 == Long-term imaging ==
 The limitations of mounting a zebrafish embryo in 1.5% agarose can be overcome by using a lower concentration of agarose plus a transparent solid support. To achieve unpersuaded image quality, the refractive index of the support has to match that of the medium. A good choice is FEP ([http://en.wikipedia.org/wiki/Fluorinated_ethylene_propylene fluorinated ethylene propylene]). This polymer has a refractive index close to the one of water, and can be ordered as tube in various diameters right from the shelf. For imaging, the Zebrafish embryo is kept inside the cleaned and coated tube, embedded in 0.1% agarose with some Tricaine.
 
@@ -50,30 +56,49 @@ File:Embedding fep-tube.png
 * Tricaine (Aldrich)
 
 === procedure ===
+==== prepare agarose ====
+* + prepare agarose plates
+* + prepare methylcellulose
 
 <gallery>
-File:Heat-block_70.JPG
-File:vortex.JPG
-File:Heat-block_38.JPG
+File:Heat-block_70.JPG|melt the agarose at 70 deg Celsius
+File:vortex.JPG|vortex the agarose
+File:Heat-block_38.JPG|keep the agarose at 38 deg Celsius
+</gallery>
+
+==== prepare syringes w/ FEP tubes ====
+* + clean tubes
+* + coat tubes w/ methylcellulose
+
+<gallery>
 File:Syringe_unpacked.JPG|B. Braun Omnifix F Solo 1 ml Syringe w/ attached needle
-File:Fep_pipette.JPG
-File:Fep_needle01.JPG
-File:Fep_needle02.JPG
-File:Syringe_fep_attached.JPG
-File:Dechorionation_macro.JPG
-File:Dechorionation_micro02.JPG
-File:Sample_uptake01.JPG
-File:Sample_uptake02.JPG
-File:Sample_uptake03.JPG
-File:Fep_with-fish_macroA.JPG
-File:Fep_with-fish_macroB.JPG
-File:Fep_with-fish_micro.JPG
-File:Fep-prep.JPG
-File:Fep_cut.JPG
-File:Fep_plugA.JPG
-File:Fep_plugB.JPG
-File:Fep_with-fish_cutted_micro.JPG
-File:Fep_zeiss-holder.JPG
+File:Fep_pipette.JPG|take a cleaned FEP tube...
+File:Fep_needle01.JPG|... and attach it...
+File:Fep_needle02.JPG|... to the needle
+File:Syringe_fep_attached.JPG|syringe w? needle and FEP tube
+</gallery>
+
+==== select Zebrafish embryos ====
+
+<gallery>
+File:Dechorionation_macro.JPG|dechorionation I
+File:Dechorionation_micro02.JPG|dechorionation II
+</gallery>
+
+==== mounting ====
+
+<gallery>
+File:Sample_uptake01.JPG|transfer a Zebrafish embryo of choice from the dish...
+File:Sample_uptake02.JPG|... to the melted Agarose
+File:Sample_uptake03.JPG|take up the embryo into the FEP tube
+File:Fep_with-fish_macroA.JPG|FEP w/ Zebrafish embryo
+File:Fep_with-fish_macroB.JPG|check the orientation of the embryo in the tube
+File:Fep_with-fish_micro.JPG|Zebrafish embryo in FEP tube
+File:Fep_cut.JPG|
+File:Fep_plugA.JPG|
+File:Fep_plugB.JPG|
+File:Fep_with-fish_cutted_micro.JPG|
+File:Fep_zeiss-holder.JPG|
 </gallery>
 
 == Long-term cardiac imaging ==
