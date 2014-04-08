@@ -25,6 +25,11 @@ File:Embedding glass-capillary.png
 Prepare low-melting point agarose in fish medium (E3, without Methylene Blue) at a final concentration of 1.5%. Add fluorescent beads if required. Melt it at 70 deg Celsius and keep it at 38 deg Celsius. Transfer a Zebrafish embryo of choice to the agarose and take it up with a glass capillary (inner diameter around 1 mm) and a plunger. Let the agarose solidify and keep the embryo in the capillary submerged in fish medium. For imaging, push out the part of the agarose which contains the embryo. If required, add Tricaine to the imaging chamber.
 
 == Long-term imaging ==
+The limitations of mounting a zebrafish embryo in 1.5% agarose can be overcome by using a lower concentration of agarose plus a transparent solid support. To achieve unpersuaded image quality, the refractive index of the support has to match that of the medium. A good choice is FEP ([http://en.wikipedia.org/wiki/Fluorinated_ethylene_propylene fluorinated ethylene propylene]). This polymer has a refractive index close to the one of water, and can be ordered as tube in various diameters right from the shelf. For imaging, the Zebrafish embryo is kept inside the cleaned and coated tube, embedded in 0.1% agarose with some Tricaine.
+
+<gallery>
+File:Embedding fep-tube.png
+</gallery>
 
 === material ===
 * FEP tubes (Bola S1815-04, inner diameter 0.8 mm, outer diameter 1.6 mm)
@@ -38,6 +43,11 @@ Prepare low-melting point agarose in fish medium (E3, without Methylene Blue) at
 === procedure ===
 
 == Long-term cardiac imaging ==
+
+
+<gallery>
+File:Embedding fep-tube.png
+</gallery>
 
 === material ===
 
