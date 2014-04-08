@@ -8,35 +8,47 @@ File:Capillary-vs-tube2.png|two ways of mounting Zebrafish embryos; left: w/ FEP
 </gallery>
 
 == Short-term imaging ==
-The method of choice mounting Zebrafish embryos is very similar to the one for [[Drosophila_embryo_sample_preparation#Mounting_of_the_embryos|mounting Drosophila embryos]]. Prepare low-melting point agarose in fish medium (E3, without Methylene Blue) at a final concentration of 1.5%. Add fluorescent beads if required. Melt it at 70 deg Celsius and keep it at 38 deg Celsius. Transfer a Zebrafish embryo of choice to the agarose and take it up with a glass capillary (inner diameter around 1 mm) and a plunger. Let the agarose solidify and keep the embryo in the capillary submerged in fish medium. For imaging, push out the part of the agarose which contains the embryo.
+The method of choice mounting Zebrafish embryos is very similar to the one for [[Drosophila_embryo_sample_preparation#Mounting_of_the_embryos|mounting Drosophila embryos]]. It is simple and straight-forward, but restricts the embryo from growing. This limits the usable time frame for imaging to about 1-2 hours from the mounting.
 
 <gallery>
 File:Embedding glass-capillary.png
 </gallery>
 
+=== material ===
+* glass capillaries 20 µl black (Brand 701904) (accessory/spare part for [http://catalog.brand.de/index.php?encrypt=0&ID_O_TREE_GROUP=466&chapter=466&ID_O_PRODUCT=488&begin=0&sLanguage=English&start_infoblock=1 Transferpettor])
+* Teflon-coated plungers 10µl/Dig.25µl (Brand 701932)
+* low-melting-point agarose (Sigma)
+* E3 (Nüsslein-Volhard and Dahm, 2002)
+* Tricaine (Aldrich)
+
+=== procedure ===
+Prepare low-melting point agarose in fish medium (E3, without Methylene Blue) at a final concentration of 1.5%. Add fluorescent beads if required. Melt it at 70 deg Celsius and keep it at 38 deg Celsius. Transfer a Zebrafish embryo of choice to the agarose and take it up with a glass capillary (inner diameter around 1 mm) and a plunger. Let the agarose solidify and keep the embryo in the capillary submerged in fish medium. For imaging, push out the part of the agarose which contains the embryo. If required, add Tricaine to the imaging chamber.
+
 == Long-term imaging ==
 
+=== material ===
+* FEP tubes (Bola S1815-04, inner diameter 0.8 mm, outer diameter 1.6 mm)
+* B. Braun [http://www.bbraun.com/cps/rde/xchg/bbraun-com/hs.xsl/products.html?prid=PRID00000578 Omnifix F Solo 1 ml Syringe]
+* B. Braun needle (100 Sterican, blunt)
+* low-melting-point agarose (Sigma)
+* methylcellulose (Sigma)
+* E3 (Nüsslein-Volhard and Dahm, 2002)
+* Tricaine (Aldrich)
+
+=== procedure ===
 
 == Long-term cardiac imaging ==
 
+=== material ===
 
-== material ==
-
-* 1 M NaOH (Merck)
-* 0.5 M NaOH
-* double-distilled H2O
-* 70% ethanol
-* syringe filter (Millex-HV PVDF 0.45 µm)
 * FEP tubes (Bola S1815-04, inner diameter 0.8 mm, outer diameter 1.6 mm)
-* glass capillaries 20 µl black (Brand 701904) (accessory/spare part for [http://catalog.brand.de/index.php?encrypt=0&ID_O_TREE_GROUP=466&chapter=466&ID_O_PRODUCT=488&begin=0&sLanguage=English&start_infoblock=1 Transferpettor])
-* Teflon-coated plungers 10µl/Dig.25µl (Brand 701932)
 * B. Braun [http://www.bbraun.com/cps/rde/xchg/bbraun-com/hs.xsl/products.html?prid=PRID00000578 Omnifix F Solo 1 ml Syringe]
 * B. Braun needle (100 Sterican, blunt)
-* Low-melting-point agarose (Sigma)
 * methylcellulose (Sigma)
 * E3 (Nüsslein-Volhard and Dahm, 2002)
-* ultrasonicator
 * Tricaine (Aldrich)
+
+=== procedure ===
 
 <gallery>
 File:Fep_cable-drum.JPG|Bola S1815-04 FEP tube
@@ -69,6 +81,21 @@ File:Sample_uptake03.JPG
 File:Syringe_fep_attached.JPG
 File:vortex.JPG
 </gallery>
+
+== cleaning of FEP tubes ==
+
+=== material ===
+* FEP tubes (Bola S1815-04, inner diameter 0.8 mm, outer diameter 1.6 mm)
+* ultrasonicator
+* 1 M NaOH (Merck)
+* 0.5 M NaOH
+* double-distilled H2O
+* 70% ethanol
+* syringe filter (Millex-HV PVDF 0.45 µm)
+* B. Braun [http://www.bbraun.com/cps/rde/xchg/bbraun-com/hs.xsl/products.html?prid=PRID00000578 Omnifix F Solo 1 ml Syringe]
+* B. Braun needle (100 Sterican, blunt)
+
+=== procedure ===
 
 == external links ==
 * [http://www.jove.com/video/51119/multilayer-mounting-for-long-term-light-sheet-microscopy-of-zebrafish Multilayer Mounting for Long-term Light Sheet Microscopy of Zebrafish] (external "JoVE" video article)
