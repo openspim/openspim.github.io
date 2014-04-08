@@ -10,9 +10,14 @@
 
 ===== How to make the test grid =====
 
-To calibrate the light-sheet, a broken-up test slide such as [http://www.edmundoptics.com/testing-targets/test-targets/resolution-test-targets/opal-glass-ronchi-ruling-slides/2838 this one] can be used. Typically, you would glue it to a sample holder (for which we use a Braun Omnifix-F 1 ml syringe):
+To calibrate the light-sheet, a broken-up test slide such as
+* [http://www.edmundoptics.com/testing-targets/test-targets/resolution-test-targets/opal-glass-ronchi-ruling-slides/2838 Edmund Optics Opal Glass Ronchi Ruling Slide]
+* [http://www.edmundoptics.com/testing-targets/test-targets/image-analysis-test-targets/multi-grid-standard-stage-micrometer/58-607 Edmund Optics Multi-Grid Standard Stage Micrometer]
+can be used. Typically, you would glue it to a sample holder (for which we use a Braun Omnifix-F 1 ml syringe):
 
 <gallery>
+File:Edmundoptics 58607.jpg|calibration slide 58607 from Edmund Optics
+File:Edmundoptics 58607_broken.jpg|slide after "extraction" of the 2.0mm (100μm divisions) part
 File:Light Sheet Calibration-1.jpg|Overview of the sample holder & grid
 File:Light Sheet Calibration-2.jpg|Close-up to the bottom part
 File:Light Sheet Calibration-3.jpg|Bottom part, magnified
