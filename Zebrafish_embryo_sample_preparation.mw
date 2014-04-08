@@ -24,6 +24,15 @@ File:Embedding glass-capillary.png
 === procedure ===
 Prepare low-melting point agarose in fish medium (E3, without Methylene Blue) at a final concentration of 1.5%. Add fluorescent beads if required. Melt it at 70 deg Celsius and keep it at 38 deg Celsius. Transfer a Zebrafish embryo of choice to the agarose and take it up with a glass capillary (inner diameter around 1 mm) and a plunger. Let the agarose solidify and keep the embryo in the capillary submerged in fish medium. For imaging, push out the part of the agarose which contains the embryo. If required, add Tricaine to the imaging chamber.
 
+<gallery>
+File:Heat-block_38.JPG|keep the agarose at 38 deg Celsius
+File:vortex.JPG|vortex the agarose
+File:Dechorionation_macro.JPG|dechorionation I
+File:Dechorionation_micro02.JPG|dechorionation II
+File:Sample_uptake01.JPG|transfer a Zebrafish embryo of choice from the dish...
+File:Sample_uptake02.JPG|... to the melted Agarose
+</gallery>
+
 == Long-term imaging ==
 The limitations of mounting a zebrafish embryo in 1.5% agarose can be overcome by using a lower concentration of agarose plus a transparent solid support. To achieve unpersuaded image quality, the refractive index of the support has to match that of the medium. A good choice is FEP ([http://en.wikipedia.org/wiki/Fluorinated_ethylene_propylene fluorinated ethylene propylene]). This polymer has a refractive index close to the one of water, and can be ordered as tube in various diameters right from the shelf. For imaging, the Zebrafish embryo is kept inside the cleaned and coated tube, embedded in 0.1% agarose with some Tricaine.
 
@@ -41,6 +50,31 @@ File:Embedding fep-tube.png
 * Tricaine (Aldrich)
 
 === procedure ===
+
+<gallery>
+File:Heat-block_70.JPG
+File:vortex.JPG
+File:Heat-block_38.JPG
+File:Syringe_unpacked.JPG|B. Braun Omnifix F Solo 1 ml Syringe w/ attached needle
+File:Dechorionation_macro.JPG
+File:Dechorionation_micro02.JPG
+File:Sample_uptake01.JPG
+File:Sample_uptake02.JPG
+File:Sample_uptake03.JPG
+File:Fep_cut.JPG
+File:Fep_needle01.JPG
+File:Fep_needle02.JPG
+File:Fep_pipette.JPG
+File:Fep_plugA.JPG
+File:Fep_plugB.JPG
+File:Fep_with-fish_cutted_micro.JPG
+File:Fep_with-fish_macroA.JPG
+File:Fep_with-fish_macroB.JPG
+File:Fep_with-fish_micro.JPG
+File:Fep_zeiss-holder.JPG
+File:Syringe_fep_attached.JPG
+File:Fep-prep.JPG
+</gallery>
 
 == Long-term cardiac imaging ==
 
@@ -60,33 +94,6 @@ File:Embedding fep-tube.png
 
 === procedure ===
 
-
-== multilayer mounting ==
-
-<gallery>
-File:Syringe_unpacked.JPG|B. Braun Omnifix F Solo 1 ml Syringe w/ attached needle
-File:Fep-prep.JPG
-File:Dechorionation_macro.JPG
-File:Dechorionation_micro02.JPG
-File:Fep_cut.JPG
-File:Fep_needle01.JPG
-File:Fep_needle02.JPG
-File:Fep_pipette.JPG
-File:Fep_plugA.JPG
-File:Fep_plugB.JPG
-File:Fep_with-fish_cutted_micro.JPG
-File:Fep_with-fish_macroA.JPG
-File:Fep_with-fish_macroB.JPG
-File:Fep_with-fish_micro.JPG
-File:Fep_zeiss-holder.JPG
-File:Heat-block_38.JPG
-File:Heat-block_70.JPG
-File:Sample_uptake01.JPG
-File:Sample_uptake02.JPG
-File:Sample_uptake03.JPG
-File:Syringe_fep_attached.JPG
-File:vortex.JPG
-</gallery>
 
 == cleaning of FEP tubes ==
 
