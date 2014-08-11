@@ -70,69 +70,68 @@
 |  valign="top" | '''Emmanuel Reynaud''' ''From Arabidopsis to Zebrafish: the ABC of sample preparation for light-sheet microscopy''
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>9:30 - 10:00</p>
-|  valign="top" | <p class="technical"><span class="style1">Corinne Lorenzo</span><em>Benchmarking   for imaging high scattering<br>
-tissues by using light-sheet microscopy</em></p>
+|  valign="top" | 9:30 - 10:00
+|  valign="top" | '''Corinne Lorenzo''' ''Benchmarking for imaging high scattering tissues by using light-sheet microscopy''
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>10:15 - 12:00</p>
-|  valign="top" | <p class="Practical"> Concurrent introduction to   the available lightsheet set-ups III</p>
+|  valign="top" | 10:15 - 12:00
+|  valign="top" | Concurrent introduction to   the available lightsheet set-ups III
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>12:00 - 13:00</p>
-|  valign="top" | <p class="break">lunch</p>
+|  valign="top" | 12:00 - 13:00
+|  valign="top" | lunch
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>13:00 - 15:00</p>
-|  valign="top" | <p class="Practical"> Concurrent introduction to   the available lightsheet set-ups IV</p>
+|  valign="top" | 13:00 - 15:00
+|  valign="top" | Concurrent introduction to   the available lightsheet set-ups IV
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>15:00 - 15:30</p>
-|  valign="top" | <p class="break">Coffee break</p>
+|  valign="top" | 15:00 - 15:30
+|  valign="top" | Coffee break
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>15:30 - 17:30</p>
-|  valign="top" | <p class="Practical"> Concurrent introduction to   the available lightsheet set-ups V</p>
+|  valign="top" | 15:30 - 17:30
+|  valign="top" | Concurrent introduction to   the available lightsheet set-ups V
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>17:30 - 19:30</p>
-|  valign="top" | <p class="break">Dinner (outside the MPI-CBG)</p>
+|  valign="top" | 17:30 - 19:30
+|  valign="top" | Dinner (Greek restaurant Delphi)
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>19:30 - 20.15</p>
-|  valign="top" | <p class="Scientific"><span class="style1">Corinne Lorenzo</span><em>Development of   3D imaging of large spheroid tumor models using light-sheet microscopy</em></p>
+|  valign="top" | 19:30 - 20.15
+|  valign="top" | '''Corinne Lorenzo''' ''Development of   3D imaging of large spheroid tumor models using light-sheet microscopy''
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>20:15 - 21:15</p>
-|  valign="top" | <p class="Scientific"> Short talks by participants</p>
+|  valign="top" | 20:15 - 21:15
+|  valign="top" | Short talks by participants
 |- 
-|  valign="top" class="programmedate" id="aug21" | <p>Thursday 21 August</p>
-|  valign="top" | <p>9:00 - 9:30</p>
-|  valign="top" | <p class="technical"><span class="style1">Johannes Schindelin</span><em>Introduction to Fiji</em></p>
-|- 
-|  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>9:30 - 10:00</p>
-|  valign="top" | <p class="technical"><span class="style1">Stephan Preibisch</span> / <em>LSFM   multi-view registration</em></p>
+|  valign="top" class="programmedate" id="aug21" | Thursday 21 August
+|  valign="top" | 9:00 - 9:30
+|  valign="top" | '''Johannes Schindelin''' ''Introduction to Fiji''
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>10:30 - 12:00</p>
-|  valign="top" | <p class="Practical"><span class="style1">Pavel Tomancak &amp; Stephan   Preibisch &amp; Johannes Schindelin</span><em>SPIM image processing in Fiji</em></p>
+|  valign="top" | 9:30 - 10:00
+|  valign="top" | '''Stephan Preibisch''' ''LSFM multi-view registration
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>12:00 - 13:00</p>
-|  valign="top" | <p class="break">lunch</p>
+|  valign="top" | 10:30 - 12:00
+|  valign="top" | '''Pavel Tomancak, Stephan Preibisch, Johannes Schindelin''' ''SPIM image processing in Fiji''
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>13:00 - 15:00</p>
-|  valign="top" | <p class="Practical"> Practical on processing SPIM data   acquired on days 1 and 2</p>
+|  valign="top" | 12:00 - 13:00
+|  valign="top" | lunch
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>15:00 - 15:30</p>
-|  valign="top" | <p class="break">Coffee break</p>
+|  valign="top" | 13:00 - 15:00
+|  valign="top" | Practical on processing SPIM data   acquired on days 1 and 2
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>15:30 - 17:30</p>
-|  valign="top" | <p class="Practical"> Practical on processing SPIM data   acquired on days 1 and 2</p>
+|  valign="top" | 15:00 - 15:30
+|  valign="top" | Coffee break
+|- 
+|  valign="top" class="programmedate" | &nbsp;
+|  valign="top" | 15:30 - 17:30
+|  valign="top" | Practical on processing SPIM data acquired on days 1 and 2</p>
 |- 
 |  valign="top" class="programmedate" | &nbsp;
 |  valign="top" | <p>17:30 - 18:30</p>
