@@ -1,7 +1,7 @@
 <p>[[#aug20|20 August]] | [[#aug21|21 August]] | [[#aug22|22 August]] | [[#aug23|23 August]] | [[#aug24|24 August]] | [[#aug25|25 August]] | [[#aug26|26 August]] | [[#aug27|27 August]] | [[#aug28|28 August]] | [[#aug29|29 August]] </p>
 
 {|  border="1" cellspacing="1" cellpadding="1" 
-|  width="162" valign="top" class="programmedate" | <p>MONDAY 18 AUGUST</p>
+|  width="162" valign="top" class="programmedate" | MONDAY 18 AUGUST
 |  width="107" valign="top" | 18:00 - 18:30
 |  width="553" valign="top" | '''Pavel Tomancak''' ''Opening Address''
 |- 
@@ -13,7 +13,7 @@
 |  valign="top" | 20:00 - 22:00
 |  valign="top" | Welcome dinner &amp; poster session
 |- 
-|  valign="top" class="programmedate" | <p>TUESDAY 19 AUGUST</p>
+|  valign="top" class="programmedate" | TUESDAY 19 AUGUST
 |  valign="top" | 9:00 - 9:30
 |  valign="top" | '''Ernst Stelzer''' ''An introduction   to the optical theory of conventional, confocal, two-photon and   light-sheet-based fluorescence microscopy''
 |- 
@@ -103,7 +103,7 @@
 |- 
 |  valign="top" class="programmedate" | &nbsp;
 |  valign="top" | 20:15 - 21:15
-|  valign="top" | Short talks by participants
+|  valign="top" | Short talks by participants (6 * 10 minutes)
 |- 
 |  valign="top" class="programmedate" id="aug21" | Thursday 21 August
 |  valign="top" | 9:00 - 9:30
@@ -111,7 +111,7 @@
 |- 
 |  valign="top" class="programmedate" | &nbsp;
 |  valign="top" | 9:30 - 10:00
-|  valign="top" | '''Stephan Preibisch''' ''LSFM multi-view registration
+|  valign="top" | '''Stephan Preibisch''' ''LSFM multi-view registration''
 |- 
 |  valign="top" class="programmedate" | &nbsp;
 |  valign="top" | 10:30 - 12:00
@@ -123,7 +123,7 @@
 |- 
 |  valign="top" class="programmedate" | &nbsp;
 |  valign="top" | 13:00 - 15:00
-|  valign="top" | Practical on processing SPIM data   acquired on days 1 and 2
+|  valign="top" | Practical on processing SPIM data acquired on days 1 and 2
 |- 
 |  valign="top" class="programmedate" | &nbsp;
 |  valign="top" | 15:00 - 15:30
@@ -131,58 +131,58 @@
 |- 
 |  valign="top" class="programmedate" | &nbsp;
 |  valign="top" | 15:30 - 17:30
-|  valign="top" | Practical on processing SPIM data acquired on days 1 and 2</p>
+|  valign="top" | Practical on processing SPIM data acquired on days 1 and 2
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>17:30 - 18:30</p>
-|  valign="top" | <p class="break">Dinner</p>
+|  valign="top" | 17:30 - 18:30
+|  valign="top" | Dinner
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>19:00 - 19:45</p>
-|  valign="top" | <p class="Scientific"><span class="style1">Olaf Ronnenberger</span><em>Registration   techniques, rotation invariant landmark detection and multi-view attenuation   correction</em></p>
+|  valign="top" | 19:00 - 19:45
+|  valign="top" | '''Olaf Ronnenberger''' ''Registration   techniques, rotation invariant landmark detection and multi-view attenuation correction''
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>20:00 - 20:40</p>
-|  valign="top" | <p class="Scientific">Short talks by participants</p>
+|  valign="top" | 20:00 - 20:40
+|  valign="top" | Short talks by participants (4 * 10 minutes)
 |- 
-|  valign="top" class="programmedate" id="aug22" | <p>Friday 22 August</p>
-|  valign="top" | <p>entire day</p>
-|  valign="top" | <p>Excursion to Jena, visit to Carl Zeiss Factory and   Planetarium in Jena</p>
+|  valign="top" class="programmedate" id="aug22" | Friday 22 August
+|  valign="top" | entire day
+|  valign="top" | Excursion to Jena, visit to Carl Zeiss Factory and Planetarium in Jena
 |- 
-|  valign="top" class="programmedate" id="aug23" | <p>Saturday 23 August</p>
-|  valign="top" | <p>9:00 - 9:30</p>
-|  valign="top" | <p class="technical"><span class="style1">Lars Hufnagel </span><em>Multi-directional light-sheet microscopy</em></p>
-|- 
-|  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>9:30 - 10:00 </p>
-|  valign="top" | <p class="technical"><span class="style1">Scott Fraser</span><em>Two-photon light-sheet   microscopy</em></p>
+|  valign="top" class="programmedate" id="aug23" | Saturday 23 August
+|  valign="top" | 9:00 - 9:30
+|  valign="top" | '''Caren Norden''' ''Multi-directional light-sheet microscopy''
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>10:00 - 10:30</p>
-|  valign="top" | <p class="technical"> Group meeting</p>
+|  valign="top" | 9:30 - 10:00
+|  valign="top" | '''Scott Fraser''' ''Two-photon light-sheet microscopy''
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>10:30 - 12:00</p>
-|  valign="top" | <p class="Practical">Student projects</p>
+|  valign="top" | 10:00 - 10:30
+|  valign="top" | Group meeting
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>12:00 - 13:00</p>
-|  valign="top" | <p class="break">lunch</p>
+|  valign="top" | 10:30 - 12:00
+|  valign="top" | Student projects
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>13:00 - 14:00</p>
-|  valign="top" | <p class="Voluntary"><span class="style1">Jan Peychl</span><em>Basics of light   microscopy</em></p>
+|  valign="top" | 12:00 - 13:00
+|  valign="top" | lunch
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>13:00 - 17:30</p>
-|  valign="top" | <p class="Voluntary"> Student projects</p>
+|  valign="top" | 13:00 - 14:00
+|  valign="top" | '''Jan Peychl''' ''Basics of light microscopy''
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>17:30 - 19:30</p>
-|  valign="top" | <p class="break">Dinner (outside the MPI-CBG)</p>
+|  valign="top" | 13:00 - 17:30
+|  valign="top" | Student projects
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>19:30 - 20:15</p>
+|  valign="top" | 17:30 - 19:30
+|  valign="top" | Dinner (Pizzeria Fantina)
+|- 
+|  valign="top" class="programmedate" | &nbsp;
+|  valign="top" | <p>19:30 - 20:15
 |  valign="top" | <p class="Scientific"><span class="style1">Scott Fraser</span>  TBD</p>
 |- 
 |  valign="top" class="programmedate" | &nbsp;
@@ -194,29 +194,24 @@
 |  valign="top" | <p>projects</p>
 |- 
 |  valign="top" class="programmedate" id="aug24" | <p>Sunday 24 August</p>
-|  valign="top" | <p>9:00 - 9:45</p>
-|  valign="top" | <p class="technical"><span class="style1">Fernando Amat</span><em>Computational   Methods for Cell Lineage
-Reconstruction</em></p>
+|  valign="top" | 11:00 - 11:30
+|  valign="top" | '''Fernando Amat''' ''Computational Methods for Cell Lineage Reconstruction''
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>10:00 - 10:30</p>
-|  valign="top" | <p class="technical"><span class="style1">Jim Swoger </span><em>Attenuation Correction in Light Sheet Microscopy</em></p>
+|  valign="top" | 11:30 - 12:00
+|  valign="top" | '''Jim Swoger''' ''Attenuation Correction in Light Sheet Microscopy''
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>10:30 - 12:00</p>
-|  valign="top" | <p class="Practical">Student projects</p>
+|  valign="top" | 12:00 - 13:00
+|  valign="top" | lunch
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>12:00 - 13:00</p>
-|  valign="top" | <p class="break">lunch</p>
+|  valign="top" | 13:00 - 14:00
+|  valign="top" | '''Christopher Schmied & Pavel Tomancak''' ''Processing SPIM data on a cluster''
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>13:00 - 14:00</p>
-|  valign="top" | <p class="Voluntary"><span class="style1">Pavel Tomancak</span><em>Processing SPIM data on a cluster</em></p>
-|- 
-|  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>13:00 - 18:00</p>
-|  valign="top" | <p class="Practical">Student projects</p>
+|  valign="top" | 13:00 - 18:00
+|  valign="top" | Student projects
 |- 
 |  valign="top" class="programmedate" | &nbsp;
 |  valign="top" | <p>18:00 - 19:00</p>
