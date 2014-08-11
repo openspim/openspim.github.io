@@ -1,455 +1,448 @@
 <p>[[#aug20|20 August]] | [[#aug21|21 August]] | [[#aug22|22 August]] | [[#aug23|23 August]] | [[#aug24|24 August]] | [[#aug25|25 August]] | [[#aug26|26 August]] | [[#aug27|27 August]] | [[#aug28|28 August]] | [[#aug29|29 August]] </p>
 
 {|  border="1" cellspacing="1" cellpadding="1" 
-|  width="162" valign="top" class="programmedate" colspan="3"| MONDAY 18 AUGUST
-|-
-|
+|  width="162" valign="top" class="programmedate" colspan="2"| MONDAY 18 AUGUST
+|- 
 |  width="107" valign="top" | 18:00 - 18:30
 |  width="553" valign="top" | '''Pavel Tomancak''' ''Opening Address''
-|- 
-|  valign="top" class="programmedate" | &nbsp;
+|-
 |  valign="top" | 18:30 - 19:30
 |  valign="top" | '''Ernst Stelzer''' ''A general introduction to   light-sheet-based fluorescence microscopy''
-|- 
-|  valign="top" class="programmedate" | &nbsp;
+|-
 |  valign="top" | 20:00 - 22:00
 |  valign="top" | Welcome dinner &amp; poster session
 |- 
-|  valign="top" class="programmedate" colspan="3"| TUESDAY 19 AUGUST
+|  valign="top" class="programmedate" colspan="2"| TUESDAY 19 AUGUST
 |-
-|
 |  valign="top" | 9:00 - 9:30
 |  valign="top" | '''Ernst Stelzer''' ''An introduction   to the optical theory of conventional, confocal, two-photon and   light-sheet-based fluorescence microscopy''
 |- 
-|  valign="top" class="programmedate" | &nbsp;
 |  valign="top" | 9:30 - 10:00
 |  valign="top" | '''Jan Huisken''' ''Cameras for   light-sheet microscopy''
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 10:15 - 11:00
 |  valign="top" | '''Pavel Tomancak''' ''Introduction to wiki editing groups 1 and 2''
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 10:15 - 11:00
 |  valign="top" | '''Emmanuel Reynaud''' ''Sample   preparation groups 3 and 4''
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 11:00 - 12:00
 |  valign="top" | '''Pavel Tomancak''' ''Introduction to wiki editing groups 3 and 4''
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 11:00 - 12:00
 |  valign="top" | '''Emmanuel Reynaud''' ''Sample   preparation groups 1 and 2''
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 12:00 - 13:00
 |  valign="top" | lunch
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 13:00 - 15:00
 |  valign="top" | Concurrent introduction to   the available lightsheet set-ups I
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 15:00 - 15:30
 |  valign="top" | Coffee break
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 15:30 - 17:30
 |  valign="top" | Concurrent introduction to   the available lightsheet set-ups II
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 17:30 - 18:30
 |  valign="top" | Dinner (at the Institute)
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 19:00 - 19:45
 |  valign="top" | '''Jan Huisken''' ''Applications of light-sheet microscopy in developmental biology''
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 20:00 - 21:00
 |  valign="top" | Short talks by participants (6 * 10 minutes)
 |- 
-|  valign="top" class="programmedate" id="aug20" colspan="3"| Wednesday 20 August
+|  valign="top" class="programmedate" id="aug20" colspan="2"| WEDNESDAY 20 August
 |-
-|
 |  valign="top" | 9:00 - 9:30
 |  valign="top" | '''Emmanuel Reynaud''' ''From Arabidopsis to Zebrafish: the ABC of sample preparation for light-sheet microscopy''
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 9:30 - 10:00
 |  valign="top" | '''Corinne Lorenzo''' ''Benchmarking for imaging high scattering tissues by using light-sheet microscopy''
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 10:15 - 12:00
 |  valign="top" | Concurrent introduction to   the available lightsheet set-ups III
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 12:00 - 13:00
 |  valign="top" | lunch
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 13:00 - 15:00
 |  valign="top" | Concurrent introduction to   the available lightsheet set-ups IV
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 15:00 - 15:30
 |  valign="top" | Coffee break
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 15:30 - 17:30
 |  valign="top" | Concurrent introduction to   the available lightsheet set-ups V
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 17:30 - 19:30
 |  valign="top" | Dinner ([http://www.delphi-dresden.de/ Greek restaurant Delphi])
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 19:30 - 20.15
 |  valign="top" | '''Corinne Lorenzo''' ''Development of   3D imaging of large spheroid tumor models using light-sheet microscopy''
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 20:15 - 21:15
 |  valign="top" | Short talks by participants (6 * 10 minutes)
 |- 
-|  valign="top" class="programmedate" id="aug21" colspan="3"| Thursday 21 August
+|  valign="top" class="programmedate" id="aug21" colspan="2"| THURSDAY 21 August
 |-
-|
 |  valign="top" | 9:00 - 9:30
 |  valign="top" | '''Johannes Schindelin''' ''Introduction to Fiji''
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 9:30 - 10:00
 |  valign="top" | '''Stephan Preibisch''' ''LSFM multi-view registration''
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 10:30 - 12:00
 |  valign="top" | '''Pavel Tomancak, Stephan Preibisch, Johannes Schindelin''' ''SPIM image processing in Fiji''
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 12:00 - 13:00
 |  valign="top" | lunch
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 13:00 - 15:00
 |  valign="top" | Practical on processing SPIM data acquired on days 1 and 2
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 15:00 - 15:30
 |  valign="top" | Coffee break
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 15:30 - 17:30
 |  valign="top" | Practical on processing SPIM data acquired on days 1 and 2
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 17:30 - 18:30
 |  valign="top" | Dinner
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 19:00 - 19:45
 |  valign="top" | '''Olaf Ronnenberger''' ''Registration   techniques, rotation invariant landmark detection and multi-view attenuation correction''
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 20:00 - 20:40
 |  valign="top" | Short talks by participants (4 * 10 minutes)
 |- 
-|  valign="top" class="programmedate" id="aug22" colspan="3"| Friday 22 August
+|  valign="top" class="programmedate" id="aug22" colspan="2"| FRIDAY 22 August
 |-
-|
+
 |  valign="top" | entire day
 |  valign="top" | Excursion to Jena, visit to Carl Zeiss Factory
 |- 
-|  valign="top" class="programmedate" id="aug23" colspan="3"| Saturday 23 August
+|  valign="top" class="programmedate" id="aug23" colspan="2"| SATURDAY 23 August
 |-
-|
+
 |  valign="top" | 9:00 - 9:30
 |  valign="top" | '''Caren Norden''' ''The advantages of SPIM microscopy to study retinal morphogenesis in the developing zebrafish embryo''
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 9:30 - 10:00
 |  valign="top" | '''Scott Fraser''' ''Two-photon light-sheet microscopy''
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 10:00 - 10:30
 |  valign="top" | Group meeting
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 10:30 - 12:00
 |  valign="top" | Student projects
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 12:00 - 13:00
 |  valign="top" | lunch
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 13:00 - 14:00
 |  valign="top" | '''Jan Peychl''' ''Basics of light microscopy''
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 13:00 - 17:30
 |  valign="top" | Student projects
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 17:30 - 19:30
 |  valign="top" | Dinner ([http://www.pizzeria-fantina.de/ Pizzeria Fantina])
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 19:30 - 20:15
 |  valign="top" | Scott Fraser TBD
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 20:30 - 21:00
 |  valign="top" | Group meeting
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 21:00 - … 
 |  valign="top" | projects & beer
 |- 
-|  valign="top" class="programmedate" id="aug24" colspan="3"| Sunday 24 August
+|  valign="top" class="programmedate" id="aug24" colspan="2"| SUNDAY 24 August
 |-
-|
+
 |  valign="top" | 11:00 - 11:30
 |  valign="top" | '''Fernando Amat''' ''Computational Methods for Cell Lineage Reconstruction''
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 11:30 - 12:00
 |  valign="top" | '''Jim Swoger''' ''Attenuation Correction in Light Sheet Microscopy''
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 12:00 - 13:00
 |  valign="top" | lunch
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 13:00 - 14:00
 |  valign="top" | '''Christopher Schmied & Pavel Tomancak''' ''Processing SPIM data on a cluster''
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 13:00 - 18:00
 |  valign="top" | Student projects
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | 18:00 - 19:00
 |  valign="top" | Dinner ([http://www.aslankebaphaus.de/ Aslan Kebab House])
 |- 
-|  valign="top" class="programmedate" | &nbsp;
+
 |  valign="top" | &nbsp;
 |  valign="top" | '''Jim Swoger''' ''Light Sheet Microscopy for Systems Immunology''
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 19:30 - 20:15
 |  valign="top" | '''Emmanuel Reynaud''' ''A light-sheet   view on biodiversity''
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 20:30 - 21:00
 |  valign="top" | Group meeting
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 21:00 - … 
 |  valign="top" | projects & beer
 |- 
-|  valign="top" class="programmedate" id="aug25" colspan="3"| Monday 25 August
+|  valign="top" class="programmedate" id="aug25" colspan="2"| MONDAY 25 August
 |-
-|
+
 |  valign="top" | 9:00 - 9:30
 |  valign="top" | '''Eric Betzig''' ''Bessel beam based   SI SPIM - principles''
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 9:30 - 10:00
 |  valign="top" | '''Nicola Maghelli''' ''Bessel beam   based SI SPIM - practical experiences''
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 10:00 - 10:30
 |  valign="top" | Group meeting
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 10:30 - 12:00
 |  valign="top" | Student projects
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 12:00 - 13:00
 |  valign="top" | lunch
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 13:00 - 14:00
 |  valign="top" | '''Johannes Schindelin''' ''Macro, scripting, Java in Fiji crash course''
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 13:00 - 18:00
 |  valign="top" | Student projects
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 18:00 - 19:00
 |  valign="top" | Dinner
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 19:00 - 19:45
 |  valign="top" | '''Eric Betzig''' ''Imaging the   three-dimensional dynamics of thick fluorescent specimens at the diffraction   limit and beyond''
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 20:00 - 20:30
 |  valign="top" | Group meeting
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 20:30 - 21:30
 |  valign="top" | Inverse poster session (participants present other people's posters for the newly arriving instructors)
 |- 
-|  valign="top" class="programmedate" id="aug26" colspan="3"| Tuesday August 26
+|  valign="top" class="programmedate" id="aug26" colspan="2"| TUESDAY August 26
 |-
-|
+
 |  valign="top" | 9:00 - 9:30
 |  valign="top" | '''Emilio Gualda''' ''OpenSPINMicroscopy''
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 9:30 - 10:00
 |  valign="top" | '''Pavel Tomancak''' ''OpenSPIM''
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 10:00 - 10:30
 |  valign="top" | Group meeting
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 10:30 - 12:00
 |  valign="top" | Student projects
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 12:00 - 13:00
 |  valign="top" | lunch
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 13:00 - 14:00
 |  valign="top" | '''Loic Royer''' ''Open Source electronics in microscopy''
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 13:00 - 17:30
 |  valign="top" | Student projects
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 17:30 - 19:30
 |  valign="top" | Dinner ([http://www.faehrgarten.de/ Fahrgarten])
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 19:30 - 20:15
 |  valign="top" | TBD
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 20:30 - 21:00
 |  valign="top" | Group meeting
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 21:00 - … 
 |  valign="top" | projects & beer
 |- 
-|  valign="top" class="programmedate" id="aug27" colspan="3"| Wednesday 27 August
+|  valign="top" class="programmedate" id="aug27" colspan="2"| WEDNESDAY 27 August
 |-
-|
+
 |  valign="top" | 9:00 - 9:30
 |  valign="top" | '''Tobias Pietzsch''' ''Visualization and tracking of terabyte data sets''
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 9:30 - 10:00
 |  valign="top" | '''Stephan Preibisch''' ''LSFM   multi-view deconvolution''
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 10:00 - 10:30
 |  valign="top" | Group meeting
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 10:30 - 12:00
 |  valign="top" | Student projects
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 12:00 - 13:00
 |  valign="top" | lunch
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 13:00 - 14:00
 |  valign="top" | '''Jeff Oegema''' ''IT of data storage & compression''
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 13:00 - 18:00
 |  valign="top" | Student projects
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 18:00 - 19:00
 |  valign="top" | Dinner
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 19:00 - 19:45
 |  valign="top" | '''Hans-Ulrich Dodt''' ''Ultramicroscopy of cleared samples''
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 20:00 - 20:30
 |  valign="top" | Group meeting
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 21:00 - … 
 |  valign="top" | projects & beer
 |- 
-|  valign="top" class="programmedate" id="aug28" colspan="3"| Thursday 28 August
+|  valign="top" class="programmedate" id="aug28" colspan="2"| THURSDAY 28 August
 |-
-|
+
 |  valign="top" | 9:00 - 9:30
 |  valign="top" | '''Michael Weber''' ''High Speed Light-Sheet Microscopy''
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 9:30 - 10:00
 |  valign="top" | '''Michaela Mickoleit''' ''High-speed   cardiac imaging in zebrafish''
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 10:00 - 10:30
 |  valign="top" | Group meeting
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 10:30 - 12:00
 |  valign="top" | Student projects
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 12:00 - 13:00
 |  valign="top" | lunch
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 13:30 - 14:00
 |  valign="top" | '''Suzanne Eaton''' ''Imaging and quantitative analysis of Drosophila wing morphogenesis''
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 14:00 - 14:30
 |  valign="top" | '''Elisabeth Knust''' ''Epithelial   morphogenesis in the Drosophila embryo''
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 14:30 - 15:00
 |  valign="top" | '''Mihail Sarov''' ''Imaging   morphogenesis and patterns of gene expression in C. elegans embryo and larva''
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 15:00 - 17:00
 |  valign="top" | Final presentation preparation
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 17:00 - 17:45
 |  valign="top" | '''Gene Myers''' ''From light-sheets to models''
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 18:00 - 22:00
 |  valign="top" | Gala Dinner (Hotel Andreas)
 |- 
-|  valign="top" class="programmedate" id="aug29" colspan="3"| Friday August 29
+|  valign="top" class="programmedate" id="aug29" colspan="2"| FRIDAY August 29
 |-
-|
+
 |  valign="top" | 9:00 - 12:00
 |  valign="top" | Final presentation preparation
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 12:00 - 13:00
 |  valign="top" | lunch
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 13:00 - 16:00
 |  valign="top" | Final presentations (open to CBG public)
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 16:00 - 17:00
 |  valign="top" | Wrap up and best wiki award
 |- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
+
 |  valign="top" | 17:00 - 
 |  valign="top" | Barbecue & party
 |}
