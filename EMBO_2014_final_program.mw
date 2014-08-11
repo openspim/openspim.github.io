@@ -1,19 +1,13 @@
-<p>[[#aug20|20 August]]  [[#aug21|21 August]]  [[#aug22|22 August]] [[#aug23|23 August]] [[#aug24|24 August]] [[#aug25|25 August]] [[#aug26|26 August]] [[#aug27|27 August]]  [[#aug28|28 August]] [[#aug29|29 August]] </p>
+<p>[[#aug20|20 August]] | [[#aug21|21 August]] | [[#aug22|22 August]] | [[#aug23|23 August]] | [[#aug24|24 August]] | [[#aug25|25 August]] | [[#aug26|26 August]] | [[#aug27|27 August]] | [[#aug28|28 August]] | [[#aug29|29 August]] </p>
 
-{|  width="865" border="1" 
-|  width="197" class="Practical" | <p>Green = Practical introduction session &amp; Practical session</p>
-|  width="235" class="Scientific" | <p>Purple = Scientific lecture session &amp; Application talks session</p>
-|  width="232" class="technical" | <p>Blue = Technical lecture session </p>
-|  width="173" class="Voluntary" | <p>Pink = Voluntary lecture session</p>
-|}<p>&nbsp;</p><p>&nbsp;</p>
-{|  border="1" cellspacing="0" cellpadding="0" 
+{|  border="1" cellspacing="1" cellpadding="1" 
 |  width="162" valign="top" class="programmedate" | <p>MONDAY 18 AUGUST</p>
-|  width="107" valign="top" | <p>18:00-18:30</p>
-|  width="553" valign="top" | <p><span class="style1">Pavel Tomancak</span> Opening Address</p>
+|  width="107" valign="top" | 18:00 - 18:30
+|  width="553" valign="top" | '''Pavel Tomancak''' ''Opening Address''
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>18:30 - 19:30</p>
-|  valign="top" | <p class="Keynote">Keynote lecture /<span class="style1"> Ernst Stelzer</span><em>A general introduction to   light-sheet-based fluorescence microscopy</em></p>
+|  valign="top" | 18:30 - 19:30
+|  valign="top" | '''Ernst Stelzer''' ''A general introduction to   light-sheet-based fluorescence microscopy''
 |- 
 |  valign="top" class="programmedate" | &nbsp;
 |  valign="top" | <p>20:00 - 22:00</p>
@@ -21,7 +15,7 @@
 |- 
 |  valign="top" class="programmedate" | <p>TUESDAY 19 AUGUST</p>
 |  valign="top" | <p>9:00 - 9:30<br></p>
-|  valign="top" | <p class="technical"><span class="style1">Ernst Stelzer </span><em>An introduction   to the optical theory of conventional, confocal, two-photon and   light-sheet-based fluorescence microscopy</em></p>
+|  valign="top" | <p class="technical"><span class="style1">Ernst Stelzer </span><em> An introduction   to the optical theory of conventional, confocal, two-photon and   light-sheet-based fluorescence microscopy</em></p>
 |- 
 |  valign="top" class="programmedate" | &nbsp;
 |  valign="top" | <p>9:30 - 10:00 </p>
