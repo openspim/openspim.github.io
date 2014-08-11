@@ -151,7 +151,7 @@
 |- 
 |  valign="top" class="programmedate" id="aug23" | Saturday 23 August
 |  valign="top" | 9:00 - 9:30
-|  valign="top" | '''Caren Norden''' ''Multi-directional light-sheet microscopy''
+|  valign="top" | '''Caren Norden''' ''The advantages of SPIM microscopy to study retinal morphogenesis in the developing zebrafish embryo''
 |- 
 |  valign="top" class="programmedate" | &nbsp;
 |  valign="top" | 9:30 - 10:00
@@ -182,18 +182,18 @@
 |  valign="top" | Dinner (Pizzeria Fantina)
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>19:30 - 20:15
-|  valign="top" | <p class="Scientific"><span class="style1">Scott Fraser</span>  TBD</p>
+|  valign="top" | 19:30 - 20:15
+|  valign="top" | Scott Fraser TBD
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>20:30 - 21:00</p>
-|  valign="top" | <p class="Scientific"> Group meeting</p>
+|  valign="top" | 20:30 - 21:00
+|  valign="top" | Group meeting
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>21:00 - … </p>
-|  valign="top" | <p>projects</p>
+|  valign="top" | 21:00 - … 
+|  valign="top" | projects & beer
 |- 
-|  valign="top" class="programmedate" id="aug24" | <p>Sunday 24 August</p>
+|  valign="top" class="programmedate" id="aug24" | Sunday 24 August
 |  valign="top" | 11:00 - 11:30
 |  valign="top" | '''Fernando Amat''' ''Computational Methods for Cell Lineage Reconstruction''
 |- 
@@ -214,160 +214,158 @@
 |  valign="top" | Student projects
 |- 
 |  valign="top" class="programmedate" | &nbsp;
-|  valign="top" | <p>18:00 - 19:00</p>
-|  valign="top" | <p class="break">Dinner</p>
+|  valign="top" | 18:00 - 19:00
+|  valign="top" | Dinner
 |- 
 |  valign="top" class="programmedate" | &nbsp;
 |  valign="top" | &nbsp;
-|  valign="top" | <p><span class="style1">Jim Swoger</span><em> Light Sheet Microscopy for Systems Immunology</em></p>
+|  valign="top" | '''Jim Swoger''' ''Light Sheet Microscopy for Systems Immunology''
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>19:30 - 20:15</p>
-|  valign="top" | <p class="Scientific"><span class="style1">Emmanuel Reynaud</span><em>A light-sheet   view on biodiversity</em></p>
+|  valign="top" | 19:30 - 20:15
+|  valign="top" | '''Emmanuel Reynaud''' ''A light-sheet   view on biodiversity''
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>20:30 - 21:00</p>
-|  valign="top" | <p class="Scientific">  Group meeting</p>
+|  valign="top" | 20:30 - 21:00
+|  valign="top" | Group meeting
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>21:00 - … </p>
-|  valign="top" | <p>projects</p>
+|  valign="top" | 21:00 - … 
+|  valign="top" | projects & beer
 |- 
-|  valign="top" class="programmedate" id="aug25" | <p>Monday 25 August </p>
-|  valign="top" | <p>9:00 - 9:30</p>
-|  valign="top" | <p class="technical"><span class="style1">Eric Betzig</span><em>Bessel beam based   SI SPIM - principles</em></p>
-|- 
-|  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>9:30 - 10:00 </p>
-|  valign="top" | <p class="technical"><span class="style1">Nicola Maghelli</span><em>Bessel beam   based SI SPIM - practical
-experiences</em></p>
+|  valign="top" class="programmedate" id="aug25" | Monday 25 August
+|  valign="top" | 9:00 - 9:30
+|  valign="top" | '''Eric Betzig''' ''Bessel beam based   SI SPIM - principles''
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>10:00 - 10:30</p>
-|  valign="top" | <p class="technical"> Group meeting</p>
+|  valign="top" | 9:30 - 10:00
+|  valign="top" | '''Nicola Maghelli''' ''Bessel beam   based SI SPIM - practical experiences''
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>10:30 - 12:00</p>
-|  valign="top" | <p class="Practical">  Student projects</p>
+|  valign="top" | 10:00 - 10:30
+|  valign="top" | Group meeting
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>12:00 - 13:00</p>
-|  valign="top" | <p class="break">lunch</p>
+|  valign="top" | 10:30 - 12:00
+|  valign="top" | Student projects
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>13:00 - 14:00</p>
-|  valign="top" | <p class="Voluntary"><span class="style1">Johannes Schindelin </span><em>Macro,   scripting, Java in Fiji crash course</em></p>
+|  valign="top" | 12:00 - 13:00
+|  valign="top" | lunch
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>13:00 - 18:00</p>
-|  valign="top" | <p class="Practical"> Student projects</p>
+|  valign="top" | 13:00 - 14:00
+|  valign="top" | '''Johannes Schindelin''' ''Macro, scripting, Java in Fiji crash course''
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>18:00 - 19:00</p>
-|  valign="top" | <p class="break">Dinner</p>
+|  valign="top" | 13:00 - 18:00
+|  valign="top" | Student projects
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>19:00 - 19:45</p>
-|  valign="top" | <p class="Scientific"><span class="style1">Eric Betzig </span><em>Imaging the   three-dimensional dynamics of thick fluorescent specimens at the diffraction   limit and beyond</em></p>
+|  valign="top" | 18:00 - 19:00
+|  valign="top" | Dinner
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>20:00 - 20:30</p>
-|  valign="top" | <p class="Scientific"> Group meeting</p>
+|  valign="top" | 19:00 - 19:45
+|  valign="top" | '''Eric Betzig''' ''Imaging the   three-dimensional dynamics of thick fluorescent specimens at the diffraction   limit and beyond''
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>20:30 - 21:30</p>
-|  valign="top" | <p>Inverse poster session (participants present other people's   posters for the newly arriving instructors)</p>
-|- 
-|  valign="top" class="programmedate" id="aug26" | <p>Tuesday August 26</p>
-|  valign="top" | <p>9:00 - 9:30</p>
-|  valign="top" | <p class="technical"><span class="style1">Emilio Gualda</span><em>OpenSPINMicroscopy</em></p>
+|  valign="top" | 20:00 - 20:30
+|  valign="top" | Group meeting
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>9:30 - 10:00 </p>
-|  valign="top" | <p><span class="style1">  Pavel Tomancak  </span><em>OpenSPIM</em></p>
+|  valign="top" | 20:30 - 21:30
+|  valign="top" | Inverse poster session (participants present other people's posters for the newly arriving instructors)
+|- 
+|  valign="top" class="programmedate" id="aug26" | Tuesday August 26
+|  valign="top" | 9:00 - 9:30
+|  valign="top" | '''Emilio Gualda''' ''OpenSPINMicroscopy''
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>10:00 - 10:30</p>
-|  valign="top" | <p class="technical">  Group meeting</p>
+|  valign="top" | 9:30 - 10:00
+|  valign="top" | '''Pavel Tomancak''' ''OpenSPIM''
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>10:30 - 12:00</p>
-|  valign="top" | <p class="Practical">  Student projects</p>
+|  valign="top" | 10:00 - 10:30
+|  valign="top" | Group meeting
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>12:00 - 13:00</p>
-|  valign="top" | <p class="break">lunch</p>
+|  valign="top" | 10:30 - 12:00
+|  valign="top" | Student projects
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>13:00 - 14:00</p>
-|  valign="top" | <p class="Voluntary"><span class="style1">Loic Royer</span><em>Open Source   electronics in microscopy</em></p>
+|  valign="top" | 12:00 - 13:00
+|  valign="top" | lunch
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>13:00 - 17:30</p>
-|  valign="top" | <p class="Practical">  Student projects</p>
+|  valign="top" | 13:00 - 14:00
+|  valign="top" | '''Loic Royer''' ''Open Source electronics in microscopy''
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>17:30 - 19:30</p>
-|  valign="top" | <p class="break">Dinner (outside the MPI-CBG)</p>
+|  valign="top" | 13:00 - 17:30
+|  valign="top" | Student projects
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>19:30 - 20:15</p>
-|  valign="top" | <p class="Scientific"><span class="style1">Lars Hufnagel</span><em>Bioimaging   across scales with light-sheet
-microscopy</em></p>
+|  valign="top" | 17:30 - 19:30
+|  valign="top" | Dinner (Fahrgarten)
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>20:30 - 21:00</p>
-|  valign="top" | <p class="Scientific">  Group meeting</p>
+|  valign="top" | 19:30 - 20:15
+|  valign="top" | TBD
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>21:00 - … </p>
-|  valign="top" | <p>projects</p>
-|- 
-|  valign="top" class="programmedate" id="aug27" | <p>Wednesday 27 August </p>
-|  valign="top" | <p>9:00 - 9:30</p>
-|  valign="top" | <p class="technical"><span class="style1">Tobias Pietzsch</span><em>Visualization   and tracking of terabyte data sets</em></p>
+|  valign="top" | 20:30 - 21:00
+|  valign="top" | Group meeting
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>9:30 - 10:00 </p>
-|  valign="top" | <p class="technical"><span class="style1">Stephan Preibisch</span><em>LSFM   multi-view deconvolution</em></p>
+|  valign="top" | 21:00 - … 
+|  valign="top" | projects & beer
+|- 
+|  valign="top" class="programmedate" id="aug27" | Wednesday 27 August
+|  valign="top" | 9:00 - 9:30
+|  valign="top" | '''Tobias Pietzsch''' ''Visualization and tracking of terabyte data sets''
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>10:00 - 10:30</p>
-|  valign="top" | <p class="technical"> Group meeting</p>
+|  valign="top" | 9:30 - 10:00
+|  valign="top" | '''Stephan Preibisch''' ''LSFM   multi-view deconvolution''
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>10:30 - 12:00</p>
-|  valign="top" | <p class="Practical">Student projects</p>
+|  valign="top" | 10:00 - 10:30
+|  valign="top" | Group meeting
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>12:00 - 13:00</p>
-|  valign="top" | <p class="break">lunch</p>
+|  valign="top" | 10:30 - 12:00
+|  valign="top" | Student projects
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>13:00 - 14:00</p>
-|  valign="top" | <p class="Voluntary"><span class="style1">Jeff Oegema</span><em>IT of data storage   &amp; compression</em></p>
+|  valign="top" | 12:00 - 13:00
+|  valign="top" | lunch
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>13:00 - 18:00</p>
-|  valign="top" | <p class="Practical"> Student projects</p>
+|  valign="top" | 13:00 - 14:00
+|  valign="top" | '''Jeff Oegema''' ''IT of data storage & compression''
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>18:00 - 19:00</p>
-|  valign="top" | <p class="break">Dinner </p>
+|  valign="top" | 13:00 - 18:00
+|  valign="top" | Student projects
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>19:00 - 19:45</p>
-|  valign="top" | <p class="Scientific"><span class="style1">Hans-Ulrich Dodt </span><em>Ultramicroscopy of cleared samples</em></p>
+|  valign="top" | 18:00 - 19:00
+|  valign="top" | Dinner
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>20:00 - 20:30</p>
-|  valign="top" | <p class="Scientific">Group meeting</p>
+|  valign="top" | 19:00 - 19:45
+|  valign="top" | '''Hans-Ulrich Dodt''' ''Ultramicroscopy of cleared samples''
 |- 
 |  valign="top" class="programmedate" | <p>&nbsp;</p>
-|  valign="top" | <p>21:00 - … </p>
-|  valign="top" | <p>projects</p>
+|  valign="top" | 20:00 - 20:30
+|  valign="top" | Group meeting
 |- 
-|  valign="top" class="programmedate" id="aug28" | <p>Thursday 28 August </p>
+|  valign="top" class="programmedate" | <p>&nbsp;</p>
+|  valign="top" | 21:00 - … 
+|  valign="top" | projects & beer
+|- 
+|  valign="top" class="programmedate" id="aug28" | Thursday 28 August
 |  valign="top" | <p>9:00 - 9:30</p>
 |  valign="top" | <p class="technical"><span class="style1">Michael Weber</span><em>High Speed   Light-Sheet Microscopy</em></p>
 |- 
