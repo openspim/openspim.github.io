@@ -1,7 +1,9 @@
 <p>[[#aug20|20 August]] | [[#aug21|21 August]] | [[#aug22|22 August]] | [[#aug23|23 August]] | [[#aug24|24 August]] | [[#aug25|25 August]] | [[#aug26|26 August]] | [[#aug27|27 August]] | [[#aug28|28 August]] | [[#aug29|29 August]] </p>
 
 {|  border="1" cellspacing="1" cellpadding="1" 
-|  width="162" valign="top" class="programmedate" | MONDAY 18 AUGUST
+|  width="162" valign="top" class="programmedate" colspan="3"| MONDAY 18 AUGUST
+|-
+|
 |  width="107" valign="top" | 18:00 - 18:30
 |  width="553" valign="top" | '''Pavel Tomancak''' ''Opening Address''
 |- 
@@ -13,7 +15,9 @@
 |  valign="top" | 20:00 - 22:00
 |  valign="top" | Welcome dinner &amp; poster session
 |- 
-|  valign="top" class="programmedate" | TUESDAY 19 AUGUST
+|  valign="top" class="programmedate" colspan="3"| TUESDAY 19 AUGUST
+|-
+|
 |  valign="top" | 9:00 - 9:30
 |  valign="top" | '''Ernst Stelzer''' ''An introduction   to the optical theory of conventional, confocal, two-photon and   light-sheet-based fluorescence microscopy''
 |- 
@@ -65,7 +69,9 @@
 |  valign="top" | 20:00 - 21:00
 |  valign="top" | Short talks by participants (6 * 10 minutes)
 |- 
-|  valign="top" class="programmedate" id="aug20" | Wednesday 20 August
+|  valign="top" class="programmedate" id="aug20" colspan="3"| Wednesday 20 August
+|-
+|
 |  valign="top" | 9:00 - 9:30
 |  valign="top" | '''Emmanuel Reynaud''' ''From Arabidopsis to Zebrafish: the ABC of sample preparation for light-sheet microscopy''
 |- 
@@ -105,7 +111,9 @@
 |  valign="top" | 20:15 - 21:15
 |  valign="top" | Short talks by participants (6 * 10 minutes)
 |- 
-|  valign="top" class="programmedate" id="aug21" | Thursday 21 August
+|  valign="top" class="programmedate" id="aug21" colspan="3"| Thursday 21 August
+|-
+|
 |  valign="top" | 9:00 - 9:30
 |  valign="top" | '''Johannes Schindelin''' ''Introduction to Fiji''
 |- 
@@ -145,11 +153,15 @@
 |  valign="top" | 20:00 - 20:40
 |  valign="top" | Short talks by participants (4 * 10 minutes)
 |- 
-|  valign="top" class="programmedate" id="aug22" | Friday 22 August
+|  valign="top" class="programmedate" id="aug22" colspan="3"| Friday 22 August
+|-
+|
 |  valign="top" | entire day
 |  valign="top" | Excursion to Jena, visit to Carl Zeiss Factory and Planetarium in Jena
 |- 
-|  valign="top" class="programmedate" id="aug23" | Saturday 23 August
+|  valign="top" class="programmedate" id="aug23" colspan="3"| Saturday 23 August
+|-
+|
 |  valign="top" | 9:00 - 9:30
 |  valign="top" | '''Caren Norden''' ''The advantages of SPIM microscopy to study retinal morphogenesis in the developing zebrafish embryo''
 |- 
@@ -193,7 +205,9 @@
 |  valign="top" | 21:00 - … 
 |  valign="top" | projects & beer
 |- 
-|  valign="top" class="programmedate" id="aug24" | Sunday 24 August
+|  valign="top" class="programmedate" id="aug24" colspan="3"| Sunday 24 August
+|-
+|
 |  valign="top" | 11:00 - 11:30
 |  valign="top" | '''Fernando Amat''' ''Computational Methods for Cell Lineage Reconstruction''
 |- 
@@ -233,7 +247,9 @@
 |  valign="top" | 21:00 - … 
 |  valign="top" | projects & beer
 |- 
-|  valign="top" class="programmedate" id="aug25" | Monday 25 August
+|  valign="top" class="programmedate" id="aug25" colspan="3"| Monday 25 August
+|-
+|
 |  valign="top" | 9:00 - 9:30
 |  valign="top" | '''Eric Betzig''' ''Bessel beam based   SI SPIM - principles''
 |- 
@@ -277,7 +293,9 @@
 |  valign="top" | 20:30 - 21:30
 |  valign="top" | Inverse poster session (participants present other people's posters for the newly arriving instructors)
 |- 
-|  valign="top" class="programmedate" id="aug26" | Tuesday August 26
+|  valign="top" class="programmedate" id="aug26" colspan="3"| Tuesday August 26
+|-
+|
 |  valign="top" | 9:00 - 9:30
 |  valign="top" | '''Emilio Gualda''' ''OpenSPINMicroscopy''
 |- 
@@ -321,7 +339,9 @@
 |  valign="top" | 21:00 - … 
 |  valign="top" | projects & beer
 |- 
-|  valign="top" class="programmedate" id="aug27" | Wednesday 27 August
+|  valign="top" class="programmedate" id="aug27" colspan="3"| Wednesday 27 August
+|-
+|
 |  valign="top" | 9:00 - 9:30
 |  valign="top" | '''Tobias Pietzsch''' ''Visualization and tracking of terabyte data sets''
 |- 
@@ -365,7 +385,9 @@
 |  valign="top" | 21:00 - … 
 |  valign="top" | projects & beer
 |- 
-|  valign="top" class="programmedate" id="aug28" | Thursday 28 August
+|  valign="top" class="programmedate" id="aug28" colspan="3"| Thursday 28 August
+|-
+|
 |  valign="top" | 9:00 - 9:30
 |  valign="top" | '''Michael Weber''' ''High Speed Light-Sheet Microscopy''
 |- 
@@ -409,7 +431,9 @@
 |  valign="top" | 18:00 - 22:00
 |  valign="top" | Gala Dinner (Hotel Andreas)
 |- 
-|  valign="top" class="programmedate" id="aug29" | <p>Friday August 29</p>
+|  valign="top" class="programmedate" id="aug29" colspan="3"| Friday August 29
+|-
+|
 |  valign="top" | 9:00 - 12:00
 |  valign="top" | Final presentation preparation
 |- 
