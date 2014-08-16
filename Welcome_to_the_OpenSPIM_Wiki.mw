@@ -1,21 +1,15 @@
 {|
 |-
 ||
-<div cellspacing="5" style="width: 430px; font-size: 90%; text-align:left; float:right; position:relative; border:0px;">
-The Twitter feed for the [[EMBO_practical_course_Light_sheet_microscopy|EMBO Course]]<br />
-<include iframe width="400" height="600" src="http://openspim.org/twitter-feed.html" frameborder="0" />
-</div>
-<div cellspacing="5" style="width: 31em; font-size: 90%; text-align:left; float:left; position:relative; border:2px; border-style:solid;">
+<div cellspacing="5" style="width: 31em; font-size: 90%; text-align:left; float:right; position:relative; border:2px; border-style:solid;">
 <b>News</b><br />
 <listnews/>
 </div>
-<div cellspacing="5" style="width: 31em; float:left; position:relative; border:0px;">
 <b>The Idea</b><br>
 OpenSPIM is an <i>Open Access</i> platform for applying and enhancing '''Selective Plane Illumination Microscopy''' (''SPIM'').
 <blockquote>
 We hope that OpenSPIM in its radical openness will demonstrate that the benefits brought to science by the Open Source approach apply equally well to hardware.
 </blockquote>
-</div>
 ||&nbsp;
 
 |-
