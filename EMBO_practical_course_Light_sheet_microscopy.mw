@@ -1,3 +1,6 @@
+<div style="float: right; top: -10px;">
+<include iframe width="500" height="300" src="http://openspim.org/twitter-feed.html" frameborder="0" /> 
+</div>
 [[Image:EMBO PracticalCourse stamp web DARK.jpg|frameless|left|100px]]
 Light-sheet microscopy is an emerging technology that enables imaging of biological specimens with minimal photo-damage. It opens new avenues to study cell biological and developmental processes with unprecedented imaging speed. It also facilitates systems biology approaches by quantitative imaging of entire living systems. Light-sheet microscopy has only recently left the optical tables of technology developers and became more broadly available through commercial and open-access platforms. This [http://events.embo.org/14-lsm/index.html EMBO Practical Course] will comprehensively introduce the light sheet microscopy paradigm to the new generation of scientists.
 
@@ -8,7 +11,6 @@ Light-sheet microscopy is an emerging technology that enables imaging of biologi
 |rowspan="2" style="height:200px; width:200px; background-color:#EB391B; text-align:center;"|[[EMBO 2014 Organizers|<span style="font-size:200%">'''Organizers'''</span>]]
 |rowspan="2" style="height:200px; width:200px; background-color:#6EB005; text-align:center;"|[[EMBO 2014 Speakers|<span style="font-size:200%">'''Speakers'''</span>]]
 |style="width:200px; text-align:center;"|[[Team_Lucifer|<span style="font-size:200%">'''Team Lucifer'''</span>]]
-|rowspan="5" style="width:300px; text-align:center;"|Twitter feed for the course:<br /><include iframe width="300" height="420" src="http://openspim.org/twitter-feed.html" frameborder="0" /> 
 |-
 |rowspan="1" style="width:200px; text-align:center;"|[[EMBO_instrument_schedule|<span style="font-size:200%">'''Instrument schedule'''</span>]]
 |style="width:300px; text-align:center;"|[[Team_Clarity|<span style="font-size:200%">'''Team Clarity'''</span>]]
