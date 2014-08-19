@@ -12,9 +12,7 @@ none
 
 ==== Description ====
 
-The Hamamatsu Orca ER camera controller communicates with the computer via Firewire. Connect the Firewire Type 1 plug into the camera controller's Type 1 jack and the Type B plug on the other end into the computer's Type B jack. Next, connect the camera controller to the camera via the D50 serial cable.
-
-[[File:Connecting the camera.ogv]]
+The Hamamatsu ORCA-Flash4.0 LT camera directly communicates with the computer via USB 3.0. Connect the USB 3.0 Type B plug into the camera and the Type A plug on the other end into the computer's Type A USB jack.
 
 === How to connect the USB hub, motor system and computer together ===
 
