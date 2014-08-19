@@ -1,59 +1,70 @@
-LISH Alphabet
+= LISH Alphabet =
 
-2p-SPIM (2010), 2PE-SPIM (2013)
-AO-SPIM (2012)
-B 
-Confocal light sheet microscopy (CLSM) (2012)
-DSLM (2008), DSLM-SI (2010)
-EzDSLM (2012)
-FLIM-SPIM (2011)
-G 
-HR-OPFOS (2009), HILO highly inclined laminated optical sheet 
-iSPIM (diSPIM) (inverted, 2011), IML-SPIM (2013), iSPIM (inclined, 2012)
-J
-K
-Light Sheet Z.1, LSFM, LISH, prism-coupled light-sheet Bayesian microscopy (LSBM, 2013).
-mSPIM (2007), MuVi-SPIM (2012), MISERB (2010), MLSM (2014)
-N
-OPFOS (1993), OCPI (2008), OPM (2008), OpenSPIM (2013), OPTiSPIM (2014), Oblique Light Sheet Microscopes (OLSM) (2012)
-PLIF (2009)
-Q
-R Reflected light-sheet microscopy (RLSM, 2013), 
-SPIM (selective or single, 2004), SPIM-SI (2007), SPIM-FCS (2010), SPIM-FCCS (2014), STED-SPIM (2011), SiMView (2012)
-TSLM (2002), TSLIM (2009)
-UM (2007)
-V
-WAO-SPIM (2012)
-X
-Y
-Z
+* 2p-SPIM (2010),
+* 2PE-SPIM (2013)
+* AO-SPIM (2012)
+* Confocal light sheet microscopy (CLSM) (2012)
+* DSLM (2008),
+* DSLM-SI (2010)
+* EzDSLM (2012)
+* FLIM-SPIM (2011)
+* HR-OPFOS (2009),
+* HILO highly inclined laminated optical sheet 
+* iSPIM (diSPIM) (inverted, 2011),
+* IML-SPIM (2013),
+* iSPIM (inclined, 2012)
+* Light Sheet Z.1,
+* LSFM,
+* LISH, prism-coupled light-sheet Bayesian microscopy (LSBM, 2013).
+* mSPIM (2007),
+* MuVi-SPIM (2012),
+* MISERB (2010),
+* MLSM (2014)
+* OPFOS (1993),
+* OCPI (2008),
+* OPM (2008),
+* OpenSPIM (2013),
+* OPTiSPIM (2014),
+* Oblique Light Sheet Microscopes (OLSM) (2012)
+* PLIF (2009)
+* Reflected light-sheet microscopy (RLSM, 2013), 
+* SPIM (selective or single, 2004),
+* SPIM-SI (2007),
+* SPIM-FCS (2010),
+* SPIM-FCCS (2014),
+* STED-SPIM (2011),
+* SiMView (2012)
+* TSLM (2002),
+* TSLIM (2009)
+* UM (2007)
+* WAO-SPIM (2012)
 
-Date of appearance:
+= Date of appearance: =
 
-OPFOS (1993)
-TSLM (2002)
-SPIM (selective or single, 2004)
-mSPIM (2007) SPIM-SI (2007) UM (1903, 2007)
-DSLM (2008) OCPI (2008), OPM (2008),
-HR-OPFOS (2009) PLIF (2009) TSLIM (2009)
-2p-SPIM (2010) DSLM-SI (2010) MISERB (2010) SPIM-FCS (2010)
-FLIM-SPIM (2011) iSPIM (diSPIM) (inverted, 2011) STED-SPIM (2011) 
-AO-SPIM (2012) (CLSM) (2012) EzDSLM (2012) iSPIM (inclined, 2012) MuVi-SPIM (2012) Oblique Light Sheet Microscopes (OLSM) (2012) WAO-SPIM (2012) SiMView (2012) Light Sheet Z.1 (2012)
-2PE-SPIM (2013) IML-SPIM (2013) OpenSPIM (2013), RLSM (2013), LSBM (2013),
-MLSM (2014) OPTiSPIM (2014) SPIM-FCCS (2014)
+* OPFOS (1993)
+* TSLM (2002)
+* SPIM (selective or single, 2004)
+* mSPIM (2007) SPIM-SI (2007) UM (1903, 2007)
+* DSLM (2008) OCPI (2008), OPM (2008),
+* HR-OPFOS (2009) PLIF (2009) TSLIM (2009)
+* 2p-SPIM (2010) DSLM-SI (2010) MISERB (2010) SPIM-FCS (2010)
+* FLIM-SPIM (2011) iSPIM (diSPIM) (inverted, 2011) STED-SPIM (2011) 
+* AO-SPIM (2012) (CLSM) (2012) EzDSLM (2012) iSPIM (inclined, 2012) MuVi-SPIM (2012) Oblique Light Sheet Microscopes (OLSM) (2012) WAO-SPIM (2012) SiMView (2012) Light Sheet Z.1 (2012)
+* 2PE-SPIM (2013) IML-SPIM (2013) OpenSPIM (2013), RLSM (2013), LSBM (2013),
+* MLSM (2014) OPTiSPIM (2014) SPIM-FCCS (2014)
 
-Alphabet score (overall) 
+= Alphabet score (overall) =
 
-S (40) Sheet 
-M (38) Microscopy
-I (34) Illumination
-P (26) Plane, Planar
-L (18) Light
-O (11) Oblique, Orthogonal
-E (8) 
-T (6)
-C (5), D (5), F (5), 
-H (4), 
-U (3), R (3),
-A (2), V (2), W (2), Z (2), 2 (2), B (),
-N (1), G (1),
+# S (40) Sheet 
+# M (38) Microscopy
+# I (34) Illumination
+# P (26) Plane, Planar
+# L (18) Light
+# O (11) Oblique, Orthogonal
+# E (8) 
+# T (6)
+# C (5), D (5), F (5), 
+# H (4), 
+# U (3), R (3),
+# A (2), V (2), W (2), Z (2), 2 (2), B (),
+# N (1), G (1),
