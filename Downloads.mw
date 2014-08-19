@@ -6,7 +6,7 @@ Most of the drivers are shipped within [http://micro-manager.org/ µManager], bu
 
 == Camera Driver ==
 
-Theoretically, OpenSPIM works with all cameras supported by [http://micro-manager.org/ µManager]. However, OpenSPIM version 1.0 refers to the setup that has a Hamamatsu Orca camera. For such a setup, you need to [http://www.dcamapi.com/ download and install the DCAM driver].
+Theoretically, OpenSPIM works with all cameras supported by [http://micro-manager.org/ µManager]. However, OpenSPIM version 1.0 refers to the setup that has a [http://www.hamamatsu.com/eu/en/community/life_science_camera/index.html Hamamatsu ORCA] camera. For such a setup, you need to [http://www.dcamapi.com/ download and install the DCAM driver].
 
 If you have a QImaging camera, [http://www.qimaging.com/support/downloads/ download and install the QImaging drivers].
 
