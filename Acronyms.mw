@@ -72,3 +72,105 @@
 # U (3), R (3),
 # A (2), V (2), W (2), Z (2), 2 (2), B (),
 # N (1), G (1),
+
+= Distance score =
+
+[[File:Spim_twopi.png|300px|right|thumb]]
+
+Calculated with [http://en.wikipedia.org/wiki/Levenshtein_distance Levenshtein_distance]: minimum number of single-character edits (i.e. insertions, deletions or substitutions) required to change one word into the other. Root acronym was set to '''OPFOS''' (oldest).
+
+{| class="wikitable" border="1" style="text-align:center;"
+! Distance to OPFOS !! Acronym
+|-
+|rowspan="2"| 3
+| HR_OPFOS
+|-
+| OPM
+|-
+|rowspan="6"| 4
+| HILO
+|-
+| LSFM
+|-
+| OCPI
+|-
+| OLSM
+|-
+| PLIF
+|-
+| SPIM
+|-
+|rowspan="14"| 5
+| CLSM
+|-
+| DSLM
+|-
+| iSPIM
+|-
+| LISH
+|-
+| LSBM
+|-
+| mSPIM
+|-
+| MLSM
+|-
+| OPTiSPIM
+|-
+| RLSM
+|-
+| SPIM_SI
+|-
+| SPIM_FCS
+|-
+| TSLM
+|-
+| TSLIM
+|-
+| UM
+|-
+|rowspan="8"| 6
+| 2PE_SPIM
+|-
+| AO_SPIM
+|-
+| DSLM_SI
+|-
+| EzDSLM
+|-
+| diSPIM
+|-
+| MISERB
+|-
+| OpenSPIM
+|-
+| SPIM_FCCS
+|-
+|rowspan="4"| 7
+| 2p_SPIM
+|-
+| IML_SPIM
+|-
+| SiMView
+|-
+| WAO_SPIM
+|-
+|rowspan="6"| 8
+| FLIM_SPIM
+|-
+| MuVi_SPIM
+|-
+| L_OpenSPIM
+|-
+| T_OpenSPIM
+|-
+| X_OpenSPIM
+|-
+| STED_SPIM
+|-
+|rowspan="1"| 10
+| OpenSPIM_Farm
+|-
+|rowspan="1"| 14
+| Light_Sheet_Z_1
+|}
