@@ -10,6 +10,10 @@ File:Capillary-vs-tube2.png
 
 == Material ==
 
+<gallery>
+File:Small agarose mc tricaine.png
+</gallery>
+
 === list ===
 {| border="1" cellpadding="6" cellspacing="0"
 |-
@@ -127,11 +131,8 @@ File:Small agarose plate.png|pour 2 agarose aliquots into a 35 mm plastic dish
 === prepare methylcellulose ===
 
 
-=== clean FEP tubes ===
+=== clean & cut FEP tubes ===
 
-# wear gloves!
-# (ddH2O got autoclaved and devolatilize)
-# (70% EtOH got devolatilize)
 # flush tubes with 1 M NaOH, use syringe with attached needle 
 # transfer flushed tubes to fresh Falcon with 0.5 M NaOH, use forceps
 # put the Falcon in an ultrasonic bath for 10 min
@@ -140,25 +141,32 @@ File:Small agarose plate.png|pour 2 agarose aliquots into a 35 mm plastic dish
 # flush the tubes with 70% EtOH
 # transfer the tubes to a fresh Falcon with 70% EtOH
 # put the Falcon in an ultrasonic bath for 10 min
+# cut the tube to small pieces of appropriate length
 # transfer the tubes to a fresh Falcon with ddH2O for storage
 
 <gallery>
 File:Small fep flush.png|flush the FEP tube w/ NaOH/EtOH/ddH2O
+File:Small fep cut.png|cut the tube to small pieces of appropriate length
 </gallery>
 
 === prepare syringes w/ FEP tubes ===
+* take a cleaned and cut FEP tube and carefully attach it to the needle
+* do not touch the part of the tube that will later be used for imaging
 
 <gallery>
 File:Syringe_unpacked.JPG|B. Braun Omnifix F Solo 1 ml Syringe w/ attached needle
-File:Fep_pipette.JPG|take a cleaned FEP tube...
+File:Fep_pipette.JPG|take a cleaned & cut FEP tube...
 File:Fep_needle01.JPG|... and attach it...
 File:Fep_needle02.JPG|... to the needle
 File:Syringe_fep_attached.JPG|syringe w/ needle and FEP tube
 </gallery>
 
-=== coat tubes w/ methylcellulose ===
+=== coat tubes w/ methyl cellulose ===
+* slowly take up 3% methyl cellulose with a needle-attached FEP tube
+* slowly push out the methyl cellulose and discard it
+* immediately proceed with mounting
 
-== Prepare Zebrafish embryos ==
+== prepare Zebrafish embryos ==
 
 <gallery>
 File:Dechorionation_macro.JPG|dechorionation I
@@ -183,9 +191,9 @@ File:Sample_uptake02.JPG|... to the melted Agarose
 
 == Short-term imaging II: FEP tube as additional support ==
 
-=== procedure ===
-
 <gallery>
+File:Embedding glass-capillary.png
+File:Embedding fep-tube.png
 File:Fep-prep.JPG|FEP tubes w/ Zebrafish embryos in 1.5% agarose
 </gallery>
 
@@ -195,8 +203,6 @@ The limitations of mounting a zebrafish embryo in 1.5% agarose can be overcome b
 <gallery>
 File:Embedding fep-tube.png
 </gallery>
-
-=== procedure ===
 
 <gallery>
 File:Sample_uptake01.JPG|transfer a Zebrafish embryo of choice from the dish...
@@ -217,8 +223,6 @@ File:Fep_zeiss-holder.JPG|
 <gallery>
 File:Embedding fep-tube.png
 </gallery>
-
-=== procedure ===
 
 <gallery>
 File:Sample_uptake01.JPG|transfer a Zebrafish embryo of choice from the dish...
