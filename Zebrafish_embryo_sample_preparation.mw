@@ -8,6 +8,13 @@ Follow the [[Zebrafish_embryo_sample_preparation#external_links|external links]]
 File:Capillary-vs-tube2.png
 </gallery>
 
+== Prepare Zebrafish embryos ==
+
+<gallery>
+File:Dechorionation_macro.JPG|dechorionation I
+File:Dechorionation_micro02.JPG|dechorionation II
+</gallery>
+
 == Short-term imaging ==
 The method of choice mounting Zebrafish embryos is very similar to the one for [[Drosophila_embryo_sample_preparation#Mounting_of_the_embryos|mounting Drosophila embryos]]. It is simple and straight-forward, but restricts the embryo from growing. This limits the usable time frame for imaging to about 1-2 hours from the mounting.
 
@@ -114,7 +121,45 @@ File:Embedding fep-tube.png
 * Tricaine (Aldrich)
 
 === procedure ===
+==== prepare agarose ====
 
+==== prepare agarose plates ====
+
+==== prepare methylcellulose ====
+
+<gallery>
+File:Heat-block_70.JPG|melt the agarose at 70 deg Celsius
+File:vortex.JPG|vortex the agarose
+File:Heat-block_38.JPG|keep the agarose at 38 deg Celsius
+</gallery>
+
+==== prepare syringes w/ FEP tubes ====
+* + clean tubes
+* + coat tubes w/ methylcellulose
+
+<gallery>
+File:Syringe_unpacked.JPG|B. Braun Omnifix F Solo 1 ml Syringe w/ attached needle
+File:Fep_pipette.JPG|take a cleaned FEP tube...
+File:Fep_needle01.JPG|... and attach it...
+File:Fep_needle02.JPG|... to the needle
+File:Syringe_fep_attached.JPG|syringe w/ needle and FEP tube
+</gallery>
+
+==== mounting ====
+
+<gallery>
+File:Sample_uptake01.JPG|transfer a Zebrafish embryo of choice from the dish...
+File:Sample_uptake02.JPG|... to the melted Agarose
+File:Sample_uptake03.JPG|take up the embryo into the FEP tube
+File:Fep_with-fish_macroA.JPG|FEP w/ Zebrafish embryo
+File:Fep_with-fish_macroB.JPG|check the orientation of the embryo in the tube
+File:Fep_with-fish_micro.JPG|Zebrafish embryo in FEP tube
+File:Fep_cut.JPG|
+File:Fep_plugA.JPG|
+File:Fep_plugB.JPG|
+File:Fep_with-fish_cutted_micro.JPG|
+File:Fep_zeiss-holder.JPG|
+</gallery>
 
 == external links ==
 * [http://www.jove.com/video/51119/multilayer-mounting-for-long-term-light-sheet-microscopy-of-zebrafish Multilayer Mounting for Long-term Light Sheet Microscopy of Zebrafish] (external "JoVE" video article)
