@@ -148,4 +148,7 @@
 |-
 !align=left|bpeek pid
 |monitor job ''pid'' state
+|-
+!align=left|bpeek -f pid
+|real time monitor job ''pid'' state
 |}
