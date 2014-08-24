@@ -147,5 +147,5 @@
 |kill all jobs submitted by the current user
 |-
 !align=left|bpeek pid
-|monitor job 'pid' state
+|monitor job ''pid'' state
 |}
