@@ -207,24 +207,32 @@
 |  valign="top" class="programmedate" id="aug24" colspan="2"| SUNDAY 24 August
 |-
 
-|  valign="top" | 11:00 - 11:30
+|  valign="top" | 11:00 - 11:45
 |  valign="top" | '''Fernando Amat''' ''Computational Methods for Cell Lineage Reconstruction''
 |- 
 
-|  valign="top" | 11:30 - 12:00
+|  valign="top" | 11:45 - 12:15
 |  valign="top" | '''Jim Swoger''' ''Attenuation Correction in Light Sheet Microscopy''
 |- 
 
-|  valign="top" | 12:00 - 13:00
+|  valign="top" | 12:15 - 12:30
+|  valign="top" | group meeting
+|- 
+
+|  valign="top" | 12:30 - 13:30
 |  valign="top" | lunch
 |- 
 
-|  valign="top" | 13:00 - 14:00
+|  valign="top" | 13:30 - 14:30
 |  valign="top" | '''Christopher Schmied & Pavel Tomancak''' ''Processing SPIM data on a cluster''
 |- 
 
 |  valign="top" | 13:00 - 18:00
 |  valign="top" | Student projects
+|- 
+
+|  valign="top" | 15:00 - 18:00
+|  valign="top" | Olaf Ronnberger & Fernando Amat demo of registration/segmentation/tracking software
 |- 
 
 |  valign="top" | 18:00 - 20:00
