@@ -1,5 +1,36 @@
 ==Projects==
-1.<br>
+===Studying MCF-10A morphogenesis in 3D cell culture===
+
+====Imaging a fixed, large spheroid (&oslash; &asymp; 500 µm) on Zeiss Lightsheet Z.1====
+
+* '''Sample preparation'''
+  
+We used a cell line expressing GFP-tagged histone 2B. The spheroid was embedded together with beads in 1.5 % agarose in a glass capillary (black label).
+
+* '''Imaging'''
+** 1 timepoint, 6 angles, dual-side illumination
+** excitation: 488 nm
+** detection: 20x ...
+
+* '''Results'''
+  
+After approximately 2 h 6 min (2 h to set up the acquisition, 6 min to run it) we had a nice 36 GB data set. Post-processing in progress, images will follow...
+
+====Outlook: Overnight time-lapse imaging of living, 4-days-old spheroids (&oslash; &asymp; 50 µm) on Zeiss Lightsheet Z.1====
+
+* '''Sample preparation'''
+  
+H2B-GFP cells were additionally labelled with the live-dye SiR-tubulin ([http://www.nature.com/nmeth/journal/v11/n7/full/nmeth.2972.html Lukinavičius et al. 2014]). They were embedded as single cells in Matrigel and injected into chambers made of either 1 % Gelrite or 1.5 % agarose. We incubated the chambers, and for the past four days the cells have been proliferating and forming small spheroids.
+
+* '''Imaging'''
+
+TBD
+
+* '''Results'''
+
+TBD
+
+
 2.<br>
 3.<br>
 4.<br>
