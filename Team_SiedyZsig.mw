@@ -56,14 +56,14 @@ neural behaviour during early acute inflammation.
 ====Imaging & Results====
 '''Myers' SPIM<br>
 *Objective lens: 40x 0.8 N.A. Water dipping, NIKON
-*Area: 331x331µm sq, 1µm x 100 Z stacks/time point
-*Excitation: 488nm, <2mW, exposure for 16 msec in average
+*Area: 331x331µm sq, 1µm x 100 Z stacks/time point, Single angle
+*Excitation: 488nm, <2mW, exposure for 16 msec in average, single side illumination
 *Time-lapse: Every 10min for 24hr
 
 '''Open SPIM<br>
 *Objective lens: 40x 0.8N.A. Water dipping, 
-*Area: 26 x 22mm sq, µm x 134 Z stacks/time point
-*Excitation: 488nm, <
+*Area: 26 x 22mm sq, µm x 134 Z stacks/time point, Single angle
+*Excitation: 488nm, <, single side illumination
 *Time-lapse: Every 10min for 24hr
 
 
