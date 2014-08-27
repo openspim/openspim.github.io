@@ -45,7 +45,7 @@ neural behaviour during early acute inflammation.
 '''Sample used
 *3 days post fertilization
 *PTU treated: to inhibit pigmentation
-*Expressing HuC-GFP: marking neuron
+*Expressing HuC-GFP or Ras-GFP: labeling neuron or cellular membrane, respectively
 1. The zebrafish are anesthetized with tricane (200µg/mL) and embedded into FEP tubes filled with 0.1% agarose containing tricane.<br>
 2. A tube was mechanically attached to a metal-based sample holder.<br>
 3. By confining area of light sheet illumination with high-power two-photon laser, we succeeded to make well-targeted injury as shown on the right.<br>
