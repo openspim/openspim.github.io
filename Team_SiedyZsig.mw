@@ -40,9 +40,14 @@ Considering highly dynamic property of the immune cells that are known to partic
 neural behaviour during early acute inflammation.
 
 
-====Sample preparation====
+====Sample Preparation and Laser Ablation====
 [[File:Spim_ablation.ogv|200px|thumb|right|test laser ablation of the zebrafish brain expressing a fluorescent membrane marker]]
-1. The PTU-treated zebrafish larvae (3dpf) that express GFP-HuC (marker of neuron) are anesthetized with tricane (200µg/mL) and embedded into FEP tubes filled with 0.1% agarose containing tricane.<br>
+'''*Sample used
+  *3 days post fertilization
+  *PTU treated: to inhibit pigmentation
+  *Expressing HuC-GFP: marking neuron
+  
+1. The zebrafish are anesthetized with tricane (200µg/mL) and embedded into FEP tubes filled with 0.1% agarose containing tricane.<br>
 2. A tube was mechanically attached to a metal-based sample holder and then it was applied for two-photon light sheet microscopy @Myers SPIM.<br>
 3. By confining area of light sheet illumination with high-power two-photon laser, we succeeded to make well-targeted injury as shown on the right.<br>
 4. Imaging was done using Myers SPIM and Open-SPIM.<br>
