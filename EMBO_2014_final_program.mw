@@ -1,16 +1,16 @@
 <p>[[#aug20|20 August]] | [[#aug21|21 August]] | [[#aug22|22 August]] | [[#aug23|23 August]] | [[#aug24|24 August]] | [[#aug25|25 August]] | [[#aug26|26 August]] | [[#aug27|27 August]] | [[#aug28|28 August]] | [[#aug29|29 August]] </p>
 
 {|  border="1" cellspacing="1" cellpadding="1" 
-|  width="162" valign="top" class="programmedate" colspan="2"| MONDAY 18 AUGUST
+|  valign="top" class="programmedate" colspan="2"| MONDAY 18 AUGUST
 |- 
-|  width="107" valign="top" | 16:00 - 18:00
-|  width="553" valign="top" | Registration
+|  valign="top" | 16:00 - 18:00
+|  valign="top" | Registration
 |- 
-|  width="107" valign="top" | 17:00 - 18:00
-|  width="553" valign="top" | Guided tour of the MPI-CBG
+|  valign="top" | 17:00 - 18:00
+|  valign="top" | Guided tour of the MPI-CBG
 |- 
-|  width="107" valign="top" | 18:00 - 18:30
-|  width="553" valign="top" | '''Pavel Tomancak''' ''Opening Address''
+|  valign="top" | 18:00 - 18:30
+|  valign="top" | '''Pavel Tomancak''' ''Opening Address''
 |-
 |  valign="top" | 18:30 - 19:30
 |  valign="top" | '''Ernst Stelzer''' ''A general introduction to   light-sheet-based fluorescence microscopy''
