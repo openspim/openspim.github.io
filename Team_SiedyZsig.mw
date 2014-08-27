@@ -53,10 +53,18 @@ neural behaviour during early acute inflammation.
 *Laser power: <600mW
 *Wave length: 920 nm
 *Duration: <2 sec
-====Imaging====
+====Imaging & Results====
 '''Myers' SPIM<br>
-'''Open SPIM<br>
+*Objective lens: 40x 0.8 N.A. Water dipping, NIKON
+*Area: 331x331µm sq, 1µm x 100 Z stacks/time point
+*Excitation: 488nm, <2mW, exposure for 16 msec in average
+*Time-lapse: Every 10min for 24hr
 
+'''Open SPIM<br>
+*Objective lens: 40x 0.8N.A. Water dipping, 
+*Area: 26 x 22mm sq, µm x 134 Z stacks/time point
+*Excitation: 488nm, <
+*Time-lapse: Every 10min for 24hr
 
 
 <br>
