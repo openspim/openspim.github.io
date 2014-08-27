@@ -42,19 +42,17 @@ neural behaviour during early acute inflammation.
 
 ====Sample Preparation and Laser Ablation====
 [[File:Spim_ablation.ogv|200px|thumb|right|test laser ablation of the zebrafish brain expressing a fluorescent membrane marker]]
-'''*Sample used
-  *3 days post fertilization
-  *PTU treated: to inhibit pigmentation
-  *Expressing HuC-GFP: marking neuron
-  
+'''Sample used
+*3 days post fertilization
+*PTU treated: to inhibit pigmentation
+*Expressing HuC-GFP: marking neuron
 1. The zebrafish are anesthetized with tricane (200µg/mL) and embedded into FEP tubes filled with 0.1% agarose containing tricane.<br>
-2. A tube was mechanically attached to a metal-based sample holder and then it was applied for two-photon light sheet microscopy @Myers SPIM.<br>
+2. A tube was mechanically attached to a metal-based sample holder.<br>
 3. By confining area of light sheet illumination with high-power two-photon laser, we succeeded to make well-targeted injury as shown on the right.<br>
-4. Imaging was done using Myers SPIM and Open-SPIM.<br>
-'''*Parameters for laser ablation<br>
-  *Laser power: <600mW<br>
-  *Wave length: 920 nm<br>
-  *Duration: <2 sec<br>
+'''Parameters for laser ablation<br>
+*Laser power: <600mW
+*Wave length: 920 nm
+*Duration: <2 sec
 
 
 
