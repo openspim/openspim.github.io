@@ -40,15 +40,17 @@ Considering highly dynamic property of the immune cells that are known to partic
 neural behaviour during early acute inflammation.
 
 
-====Material & Method====
-1. The zebrafish larvae (3dpf) that express GFP-HuC (marker of neuron) are anesthetized with tricane (200µg/mL) and embedded into FEP tubes filled with 1.5% agarose containing tricane. (Fig.2-1-1)<br>
-2. Tube  is mechanically attached to a metal-based sample holder and then applied for two-photon light sheet microscopy.<br>
-3. By confining area of light sheet illumination of high-power 2P laser, we make well-targeted injury (Fig.2-1-2).<br>
-*Laser power: <700mW<br>
-*Wave length: 950 nm<br>
-*Duration: <2 sec<br>
-[[File:Spim_ablation.ogv|200px|thumb]test laser ablation of the zebrafish brain]]]
-4. 
+====Sample preparation====
+[[File:Spim_ablation.ogv|200px|thumb|right|test laser ablation of the zebrafish brain expressing a fluorescent membrane marker]]
+1. The PTU-treated zebrafish larvae (3dpf) that express GFP-HuC (marker of neuron) are anesthetized with tricane (200µg/mL) and embedded into FEP tubes filled with 0.1% agarose containing tricane.<br>
+2. A tube was mechanically attached to a metal-based sample holder and then it was applied for two-photon light sheet microscopy @Myers SPIM.<br>
+3. By confining area of light sheet illumination with high-power two-photon laser, we succeeded to make well-targeted injury as shown on the right.<br>
+4. Imaging was done using Myers SPIM and Open-SPIM.
+'''*Parameters for laser ablation<br>
+  *Laser power: <600mW<br>
+  *Wave length: 920 nm<br>
+  *Duration: <2 sec<br>
+
 
 
 <br>
