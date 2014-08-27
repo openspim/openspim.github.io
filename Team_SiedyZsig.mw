@@ -45,7 +45,7 @@ neural behaviour during early acute inflammation.
 1. The PTU-treated zebrafish larvae (3dpf) that express GFP-HuC (marker of neuron) are anesthetized with tricane (200µg/mL) and embedded into FEP tubes filled with 0.1% agarose containing tricane.<br>
 2. A tube was mechanically attached to a metal-based sample holder and then it was applied for two-photon light sheet microscopy @Myers SPIM.<br>
 3. By confining area of light sheet illumination with high-power two-photon laser, we succeeded to make well-targeted injury as shown on the right.<br>
-4. Imaging was done using Myers SPIM and Open-SPIM.
+4. Imaging was done using Myers SPIM and Open-SPIM.<br>
 '''*Parameters for laser ablation<br>
   *Laser power: <600mW<br>
   *Wave length: 920 nm<br>
