@@ -41,12 +41,14 @@ TBD
 *PTU treated: to inhibit pigmentation
 *Expressing HuC-GFP or Ras-GFP: labeling neuron or cellular membrane, respectively
 1. The zebrafish are anesthetized with tricane (200µg/mL) and embedded into FEP tubes (inner and outer diameters: 0.8mm and 1.6mm, respectively)filled with 0.1% agarose containing tricane.<br>
-2. A tube was mechanically attached to a metal-based sample holder.<br>
-3. By confining area of light sheet illumination with high-power two-photon laser, we succeeded to make well-targeted injury as shown on the right.<br>
+2. A tube was fixed to a metal-based sample holder with adhesive tape.<br>
+3. To make the nearest access of the laser to the brain, the tube was rotated dorsal-side upright (see the scheme).<br>
+4. By confining area of light sheet illumination with high-power two-photon laser, we succeeded to make well-targeted injury as shown on the right.<br>
 '''Parameters for laser ablation<br>
 *Laser power: <600mW
 *Wave length: 920 nm
 *Duration: <2 sec
+
 ====Imaging & Results====
 '''Myers' SPIM<br>
 *Objective lens: 40x 0.8 N.A. Water dipping, NIKON
