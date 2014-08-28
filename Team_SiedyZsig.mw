@@ -68,7 +68,7 @@ TBD
 ====Initial question and approach====
 Can we image the full periphery of an organism without generating a huge amount of data that require extensive post processing time to be reconstruct? One idea is to perform the imaging around the main axis of the body, like camembert slices (figure 1). To keep the time resolution high and the time to set up the experiment reasonable the acquisition of the stacks would need to require only the rotation motor and not the translation ones but that means that the main axis of the embryo must be align with the one of the rotation motor.
 
-[[File:idea.jpg|figure 1|200px]]
+[[File:idea.jpg|figure 1|300px]]
 
 
 To align the capillary and the motor axis 3D printers would give us a precision lower than 10 µm and to center the embryo in the agarose tube my idea is to us hydrodynamic forces. Indeed the mounting of the embryo in the agarose happens at [http://en.wikipedia.org/wiki/Stokes_flow#cite_note-Kirby-2/ low Reynolds number] , therefore a Poiseuille flow is established in the capillary during the aspiration of the embryo, i.e. the speed of the fluid is maximal at the center of the canal and null on the side. In theory due to the [http://en.wikipedia.org/wiki/Drag_(physics) hydrodynamic drag], for an embryo with high aspect ratio like drosophila one of the equilibrium position in this parabolic flow is at the center of the capillary with its long axis parallel to the flow. The idea is to temper the capillary containing the agarose and the sample while the flow is still running to freeze the sample in position.
