@@ -60,14 +60,14 @@ The movie shows the brain shrank soon after the ablation and tissue components r
 
 <br><br><br>
 ====Open-SPIM====
+[[File:temporal_color.ogv|200px|thumb|right|development of the central nervous system in zebrafish larvae]]
+[[File:color_column.png|200px|thumb|right|color column of the movie, showing depth of the each fluorescent beads]]
 '''Sample Preparation and Laser Ablation
 *3 days post fertilization
 *PTU treated: to inhibit pigmentation
 *Expressing HuC-GFP: labeling neuron
 
-'''Open SPIM<br>
-[[File:temporal_color.ogv|200px|thumb|right|development of the central nervous system in zebrafish larvae]]
-[[File:color_column.png|200px|thumb|right|color column of the movie, showing depth of the each fluorescent beads]]
+'''Imaging and Result<br>
 *Objective lens: 20x 0.8N.A. Water dipping, 
 *Area: 26 x 22mm sq, µm x 134 Z stacks/time point, Single angle
 *Excitation: 488nm, <, single side illumination
