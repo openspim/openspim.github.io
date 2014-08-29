@@ -60,7 +60,7 @@ The movie shows the brain shrank soon after the ablation and tissue components r
 
 ====Open-SPIM====
 [[File:temporal_color.ogv|200px|thumb|right|development of the central nervous system in zebrafish larvae]]
-[[File:color_column.jpeg|200px|thumb|right|color spectrum of the movie, showing depth of the each fluorescent beads. 1 frame=1µm]]
+[[File:color_column.jpg|200px|thumb|right|color spectrum of the movie, showing depth of the each fluorescent beads. 1 frame=1µm]]
 '''Sample Preparation and Laser Ablation
 *3 days post fertilization
 *PTU treated: to inhibit pigmentation
@@ -92,6 +92,7 @@ To show the depth of each Z stack, temporal colour code will be useful
 '''Time Stamp
 To show each time points on                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           9time-lapse data, time stamp is required.
 *Image>Stacks>Time Stamper
+*Special thanks to Olivieer
 
 
 
