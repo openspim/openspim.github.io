@@ -76,7 +76,6 @@ Unfortunately we could not find an injured spot with this sample. When we were t
 
 '''Data Processing Procedure
 Since we could not register the images in a way the majority of the people does, probably because of high rate of compaction of neuron in the brain, we took another way of processing. This might be a unique case, thus, I would like to report here what steps we followed.<br>
-<br>
 '''Concatenation of the images
 *Open all the tif images that you would like to make into time-lapse.
 *Image>Stacks>Tools>Concatenate>All Open Windows
@@ -91,7 +90,7 @@ To show the depth of each Z stack, temporal colour code will be useful
 *Image>Hyperstacks>Temporal-Color code
 *LUT = Spectrum
 '''Time Stamp
-To show each time points, time stamp is required.
+To show each time points on                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           9time-lapse data, time stamp is required.
 *Image>Stacks>Time Stamper
 
 
