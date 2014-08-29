@@ -35,7 +35,6 @@ TBD
 --------
 === Brain reaction to the two-photon laser-induced ablation in the zebrafish larvae ===
 ====Sample Preparation and Laser Ablation====
-[[File:Spim_ablation.ogv|200px|thumb|right|test laser ablation of the zebrafish brain expressing a fluorescent membrane marker]]
 [[File:sample_mounted.png|200px|thumb|sample holder]]
 [[File:sample_on_holder.png|200px|thumb|scheme for sample orientation]]
 '''Sample used
@@ -53,17 +52,21 @@ TBD
 
 ====Imaging & Results====
 '''Myers' SPIM<br>
+[[File:Spim_ablation.ogv|200px|thumb|left|test laser ablation of the zebrafish brain expressing a fluorescent membrane marker]]
 *Objective lens: 40x 0.8 N.A. Water dipping, NIKON
 *Area: 331x331µm sq, 1µm x 100 Z stacks/time point, Single angle
 *Excitation: 488nm, <2mW, exposure for 16 msec in average, single side illumination
-*Time-lapse: Every 10min for 24hr
+*Time-lapse: Every 10min for 12hr
+*Special thanks to Nicola
 
 '''Open SPIM<br>
-*Objective lens: 40x 0.8N.A. Water dipping, 
+[[File:temporal_color.ogv|200px|thumb|left|development of the central nervous system in zebrafish larvae]]
+[[File:color_column.png|200px|thumb|center|color column of the movie, showing depth of the each fluorescent beads]]
+*Objective lens: 20x 0.8N.A. Water dipping, 
 *Area: 26 x 22mm sq, µm x 134 Z stacks/time point, Single angle
 *Excitation: 488nm, <, single side illumination
 *Time-lapse: Every 10min for 24hr
-
+*Special thanks to Pete
 
 --------
 
