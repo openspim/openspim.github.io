@@ -45,6 +45,7 @@ In this course I would like to observe neuron dynamics in the zebrafish brain af
 *3 days post fertilization
 *PTU treated: to inhibit pigmentation
 *Expressing Ras-GFP: labeling cellular membrane
+*Special thanks to Jaroslav
 1. The zebrafish are anesthetized with tricane (200µg/mL) and embedded into FEP tubes (inner and outer diameters: 0.8mm and 1.6mm, respectively)filled with 0.1% agarose containing tricane.<br>
 2. A tube was fixed to a metal-based sample holder with adhesive tape as shown in the picture on right.<br>
 3. To make the nearest access of the laser to the brain, the tube was rotated dorsal-side upright (see the scheme).<br>
@@ -78,8 +79,8 @@ The movie shows the brain shrank soon after the ablation and tissue components r
 *Special thanks to Pete
 Unfortunately we could not find an injured spot with this sample. When we were trying to make an injury, we could not define ROI well because, somehow, this transgenic line emitted very blur fluorescence. It might be because of the highly-compacted population of the neurons in the brain. In this time-lapse movie, neurons are coloured according to the depth of them within the sample. The movie shows dynamics of neurons over developmental stages at single-cell level. During imaging the fish moved and the focusing Z positions were shifted. This movement is most likely due to the development not voluntary movement. This is inevitable when working with zebrafish larvae, therefore, It would be solved by better manipulation of data processing or development of a new function of 4D-SPIM stage coupled with the camera, for instance, auto-chasing of a certain remarkable structure in the specimen.<br>
 
-'''Data Processing Procedure<br>
-Since we could not register the images in a way the majority of the people does, probably because of high level of neuron compaction in the brain, we took another way of processing. This might be a unique case, thus, I would like to report here what steps we followed.<br>
+===Data Processing Procedure===<br>
+Since we could not register the images from Open-SPIM in a way the majority of the people does, probably because of high level of neuron compaction in the brain, we took another way of processing. This might be a unique case, thus, I would like to report here what steps we followed.*Special thanks to Olivieer<br>
 '''Concatenation of the images
 *Open all the tif images that you would like to make into time-lapse.
 *Image>Stacks>Tools>Concatenate>All Open Windows
@@ -96,7 +97,7 @@ To show the depth of each Z stack, temporal colour code will be useful
 '''Time Stamp
 To show each time points on                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           9time-lapse data, time stamp is required.
 *Image>Stacks>Time Stamper
-*Special thanks to Olivieer
+
 
 
 
