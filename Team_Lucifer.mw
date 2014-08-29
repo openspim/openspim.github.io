@@ -1,6 +1,6 @@
 The name "lucifer" is from Latin "bearer of light".
 
-=Early Zebrafish development=
+=Kirti Prakash: Early Zebrafish development=
 
 Specification of Primordial Germ Cells (PGCs) in Zebrafish has 2 modes: one through maternal cytoplasmic inheritance of ‘germ plasm’  and this is common in most invertebrates and non-mammalians. The second is through induction of pluripotent epiblast cells during gastrulation and is common to mammals. 
 The common denominator in most organisms is the migration of PGCs to genital ridge, further proliferation and differentiation. 
@@ -23,7 +23,7 @@ File:pgcs_temporal_code.png|[[User:Kirti|Temporal color code]]
 ===Temporal color encoding of bucky ball movement===
 [[File:balbiani_temporal_color.ogv|640px]]
 
-=SPIM for 3D tissue engineering imaging=
+=Edite Figueiras: SPIM for 3D tissue engineering imaging=
 
 In Tissue Engineering (TE) research field there is a need of 3D non-destructive imaging techniques capable of rendering images over time to investigate cells differentiation and proliferation; dynamics of the cell behaviors; cells interactions with each other and with the biomaterial; etc. In this project I want to answer to the questions:
 Can I use SPIM to image TE based in hydrogels?
@@ -59,15 +59,15 @@ File:Neurons_2_3D.ogv|[[User:Edite|3D visualization of TE construct of alginate 
 
 I imaged 1.5 mm thick samples of TE constructs of alginate hydrogel with neurons. There is a degradation of the images with the increasing of the depth.
 
-=Plants=
-
-=''Tribolium castaneum'' extraembryonic membranes=
+=Maarten Hilbrant: Imaging ''Tribolium castaneum'' extraembryonic membranes=
 
 ==Sample preparation==
 
 ==Image acquisition==
 
 ==Data analysis==
+
+=Juraj Sekereš: Plants=
 
 <gallery>
 File:segmenationvsbeadregistration.png|segmentation-based registration outperforms bead-based registration
