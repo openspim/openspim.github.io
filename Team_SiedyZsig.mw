@@ -34,7 +34,7 @@ TBD
 
 --------
 ===Imaging of the two-photon laser-induced brain ablation in the zebrafish larvae===
-====Two-photon laser-induced brain ablation====
+====Myers' SPIM====
 '''Sample Preparation and Laser Ablation
 [[File:sample_mounted.png|200px|thumb|sample holder]]
 [[File:sample_on_holder.png|200px|thumb|scheme for sample orientation]]
@@ -45,21 +45,21 @@ TBD
 2. A tube was fixed to a metal-based sample holder with adhesive tape as shown in the picture on right.<br>
 3. To make the nearest access of the laser to the brain, the tube was rotated dorsal-side upright (see the scheme).<br>
 4. By confining area of light sheet illumination with high-power two-photon laser, we succeeded to make well-targeted injury as shown on the right.<br>
-'''Parameters for laser ablation<br>
+'''Parameters for laser ablation<br>[[File:Spim_ablation.ogv|200px|thumb|right|laser ablation of the zebrafish brain expressing a fluorescent membrane marker]]
 *Laser power: <600mW
 *Wave length: 920 nm
 *Duration: <2 sec
 
 '''Imaging and result
-[[File:Spim_ablation.ogv|200px|thumb|right|test laser ablation of the zebrafish brain expressing a fluorescent membrane marker]]
 *Objective lens: 40x 0.8 N.A. Water dipping, NIKON
 *Area: 331x331µm sq, 1µm x 100 Z stacks/time point, Single angle
 *Excitation: 488nm, <2mW, exposure for 16 msec in average, single side illumination
 *Time-lapse: Every 10min for 12hr
 *Special thanks to Nicola
+The movie shows the brain shrank soon after the ablation and tissue components running out of the injured tissue were captured. After shrinkage the brain bunched up due to either development or tissue elasticity of the brain as often referred as sponge-like structure. Observation of the other brain hemisphere with lower magnification will define the cause of this morphological change.
 
-<br><br><br><br>
-====Early development of the central nervous system====
+<br><br><br>
+====Open-SPIM====
 '''Sample Preparation and Laser Ablation
 *3 days post fertilization
 *PTU treated: to inhibit pigmentation
