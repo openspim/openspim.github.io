@@ -158,7 +158,7 @@ We used 2dpf zebrafish embryo: Casper Tg(kdrl:GFP) expressing vascular-specific 
 
 
 ====1.4.2 Data acquisition and processing====
-To investigate vein structure we used Zeiss LZ.1 Light sheet microscope. In order to image whole fish, image was acquired with 5 separate (semi-manually selected) tiles and 20 x obj lens.
+To investigate vein structure we used Zeiss LZ.1 Light sheet microscope. In order to image whole fish, image was acquired with 5 separate (semi-manually selected) tiles function, 20 x obj lens, two sides illumination, one side detection.
 Data Processing Procedure: 42GB data was analysed with use of Reconstruction of Multiview Microscopy Data (ImageJ plugin developed by Stephan Preibisch). For registation we used beads based system followed by deconvolution and fusion (fiji plugin fiusion). For 3D animation we use Fiji plugin 3D multiview. Because of problems with huge data handling size of the image was reduced 2x.
 
 Special thanks to Stephan Preibisch, Michaela Mickoleit, Jaroslav Icha, Olivier Burri, Kirti Prakash and Daniele Soroldoni,
