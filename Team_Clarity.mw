@@ -25,7 +25,14 @@ My aim was to use Light Sheet Microscopy to resolve the three-dimensional struct
 
 Unfortunately, due to the scaffold design and limitations of the objective lens, the conventional mounting technique using FEP-tubes or agarose was not applicable. Therefor the sample has been mounted on a [[User:Burri#Sample_holder_for_donut-shaped_samples|double-hook]] and imaged from multiple views. The obtained multiview images were then reconstructed in Fiji.
 
+[[Ultra_Hook2.jpg]]
+Sketch of the mounting technique to image scaffolds in a Zeiss Lightsheet.Z1
+
 Due to the large amount of data (approx. 100GB for 6 views) and the fact that the scaffolds contain no beeds, reconstruction of the multiview images in Fiji is complicated and still in progress!
+
+[[Composite projections 1.jpg]]
+Tissue grown in a circular pore.
+
 
 [[File:Tissue_Growth_Movie.ogv]]
 
