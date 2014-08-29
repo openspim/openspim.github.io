@@ -85,7 +85,7 @@ Since we could not register the images from Open-SPIM in a way the majority of t
 '''Concatenation of the images
 *Open all the tif images that you would like to make into time-lapse.
 *Image>Stacks>Tools>Concatenate>All Open Windows
-*The resulting file contains the Z-stacks and the time points, however, it does not have two channels that are for Z-projection and time lapse.
+*The resulting file contains the Z-stacks and the time points, however, it does not have two channels that are for Z-stack and time lapse.
 '''Hyperstacking into a 4D image
 *Image>Hyperstacks>Stack to Hyperstack
 *Order:default, Channels: # of colours, Slices: # of Z stacks, Frames: # of time points
