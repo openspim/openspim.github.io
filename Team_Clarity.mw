@@ -7,6 +7,7 @@
 === Mice development ===
 
 === Branching organs ===
+Goal: 3D Life imaging of the thick, uncleared embryonic tissue with the  light sheet microscopy.
 
 Mouse embryonic kidneys at E11.5, E12 and E12.5 were imaged with Zeiss Lightsheet  Z.1. Light sheet microscopy provides a cellular resolution at the organ scale. 
 
@@ -14,6 +15,8 @@ Mouse embryonic kidneys at E11.5, E12 and E12.5 were imaged with Zeiss Lightshee
 
 Optical sectioning of embryonic mouse kidney with OpenSPIM.
 [[File:Kidney slice.png]]
+
+Take home message: commercial and home build light sheet microscopes can be used to image embryonic organ explants, however two photon and active optics might be necessary to fight scattering.
 
 === Investigation of 3d tissue growth using Light Sheet Microscopy ===
 
