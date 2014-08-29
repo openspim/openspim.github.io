@@ -33,7 +33,7 @@ TBD
 
 
 --------
-=== The two-photon laser-induced brain ablation and early development of the central nervous system in the zebrafish larvae ===
+===Imaging of the two-photon laser-induced brain ablation in the zebrafish larvae===
 ====Two-photon laser-induced brain ablation====
 '''Sample Preparation and Laser Ablation
 [[File:sample_mounted.png|200px|thumb|sample holder]]
@@ -51,7 +51,7 @@ TBD
 *Duration: <2 sec
 
 '''Imaging and result
-[[File:Spim_ablation.ogv|200px|thumb|left|test laser ablation of the zebrafish brain expressing a fluorescent membrane marker]]
+[[File:Spim_ablation.ogv|200px|thumb|right|test laser ablation of the zebrafish brain expressing a fluorescent membrane marker]]
 *Objective lens: 40x 0.8 N.A. Water dipping, NIKON
 *Area: 331x331µm sq, 1µm x 100 Z stacks/time point, Single angle
 *Excitation: 488nm, <2mW, exposure for 16 msec in average, single side illumination
@@ -66,13 +66,15 @@ TBD
 *Expressing HuC-GFP: labeling neuron
 
 '''Open SPIM<br>
-[[File:temporal_color.ogv|200px|thumb|left|development of the central nervous system in zebrafish larvae]]
-[[File:color_column.png|200px|thumb|center|color column of the movie, showing depth of the each fluorescent beads]]
+[[File:temporal_color.ogv|200px|thumb|right|development of the central nervous system in zebrafish larvae]]
+[[File:color_column.png|200px|thumb|right|color column of the movie, showing depth of the each fluorescent beads]]
 *Objective lens: 20x 0.8N.A. Water dipping, 
 *Area: 26 x 22mm sq, µm x 134 Z stacks/time point, Single angle
 *Excitation: 488nm, <, single side illumination
 *Time-lapse: Every 10min for 18.5hr
 *Special thanks to Pete
+
+<br><br><br><br><br><br>
 
 --------
 
