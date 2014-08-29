@@ -67,6 +67,14 @@ I imaged 1.5 mm thick samples of TE constructs of alginate hydrogel with neurons
 
 ==Data analysis==
 
+<gallery>
+
+File:Registration_objects.png|objects detected to perform segmentation-based multiview registration
+
+File:segmenationvsbeadregistration.png|segmentation-based registration outperforms bead-based registration
+
+</gallery>
+
 =Juraj Sekereš: Plant cell morphogenesis=
 
 = First days =
