@@ -23,3 +23,94 @@ File:Schindelin.jpg|[[User:Dscho|Johannes Schindelin]]
 T configuration dual excitation (488, 561) microscope
 
 [[File: ospim.jpg|thumb|Workflow]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=Yong's Projects at the 2014 EMBO LSM Practical Course=
+
+==Project A: Image Zebrafish Brain via Ptf1a-GFP==
+
+'''Pancreas transcription factor 1 subunit alpha (Ptf1a)''' is a protein that in humans is encoded by the PTF1A gene. This gene encodes a protein that is a component of the pancreas transcription factor 1 complex (PTF1) and is known to have a role in mammalian pancreatic development. Ptf1a is also shown to play an important role in the neurogenesis of different central nervous system structures. In particular, Ptf1a is important for the generation of many inhibitory (primarily γ-aminobutyric acid (GABA)-ergic) interneurons in different areas, such as the spinal cord and cerebellum. In this project, we imaged a transgenic zebrafish line expressing fluorescent Ptf1a-GFP fused proteins, with an emphasize on the structures in the brain.
+
+{| class="wikitable"
+|+ align="left" | Overview of zebrafishes expressing Ptf1a-GFP.
+|-
+| [[File:Zebrafish_PTF1A_GFP_Large_FOV_YongWang.jpg|thumb|x200px|Large FOV]]
+| [[File:Zebrafish_PTF1A_GFP_Small_FOV_YongWang.jpg|thumb|x200px|Small FOV]]
+|-
+| colspan="2" | [[File:Zebrafish PTF1A GFP Small FOV Live 400px.ogv|thumb|center|660px|Video showing heart-beating of live zebrafish sample]]
+|-
+|}
+The major locations of cells expressing Ptf1a-GFP are at the regions of hindbrain, retina, and pancreas.
+
+
+{| class="wikitable"
+|+ align="left" | Imaging of a zebrafish expressing Ptf1a-GFP by Zeiss Lightsheet Z.1.
+|-
+| rowspan="2" | [[File:Zebrafish PTF GFP Fused 0.1X RotY Cropped 280px.ogv|thumb|center|x700px|Reconstructed whole fish (stitching)]]
+| [[File:Zebrafish PTF GFP 20X SV 0.2X Cropped 1000px.ogv|thumb|center|400px|Zoom-in at the hindbrain (20X)]]
+|-
+| [[File:Zebrafish PTF GFP 50X 0.2X Cropped.ogv|thumb|center|400px|Zoom-in at one side of the hindbrain (50X)]]
+|-
+|}
+
+{| class="wikitable"
+|+ align="left" | Intensity map for estimating the expression level of Ptf1a-GFP in the hindbrain of zebrafish.
+|-
+| [[File:Zebrafish PTF GFP 20X SV 0.2X IntensityMapped.ogv|thumb|center|360px|Hindbrain (20X)]]
+| [[File:Zebrafish PTF GFP 50X 0.2X IntensityMapped.ogv|thumb|center|360px|Hindbrain (50X)]]
+|-
+|}
+
+
+
+
+{| class="wikitable"
+|+ align="left" | Multi-view Reconstruction (7 angles)
+|-
+| [[File:Zebrafish PFT GFP MV Fused 0.5X RotY Cropped 700px.ogv|thumb|center|500px|Multi-view]]
+|-
+|}
+
+
+{| class="wikitable"
+|+ align="left" | 3D distribution of the expression level of Ptf1a-GFP in the head of zebrafish.
+|-
+| [[File:Zebrafish PFT GFP MV Fused 0.5X RotY IntensityMapped.ogv|thumb|center|750px|Intensity distribution]]
+|-
+|}
+
+
+{| class="wikitable"
+|+ align="left" | Timeplase of the hindbrain development (Huisken SPIM3)
+|-
+|[[File:Zebrafish PTF GFP Timelapse 001.ogv|thumb|x200px|View A]]
+|[[File:Zebrafish PTF GFP Timelapse 002.ogv|thumb|x200px|View B]] 
+|[[File:Zebrafish PTF GFP Timelapse 003.ogv|thumb|x200px|View C]]
+|-
+|}
+
+==Project B: Image Zebrafish Brain via HuC-GFP==
+
+{| class="wikitable"
+|+ align="left" | Imaging of a zebrafish expressing HuC-GFP by Zeiss Lightsheet Z.1.
+|-
+| rowspan="2" | [[File:Zebrafish HUC GFP Fused 0.2X RotY Cropped 500px.ogv|thumb|center|300px|Reconstructed whole fish]]
+| [[File:Zebrafish HUC GFP Tile 1 0.5X RotY Cropped.ogv|thumb|center|400px|Head]]
+|-
+| [[File:Zebrafish HUC GFP Tile 1 0.5X RotY IntensityMapped.ogv|thumb|center|400px|Expression level]]
+|-
+|}
