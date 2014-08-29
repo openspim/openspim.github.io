@@ -12,6 +12,8 @@ Mouse embryonic kidneys at E11.5, E12 and E12.5 were imaged with Zeiss Lightshee
 
 [[File:KidneyE12p5.ogv|480px]]
 
+Optical sectioning of embryonic mouse kidney with OpenSPIM.
+
 === Investigation of 3d tissue growth using Light Sheet Microscopy ===
 
 My aim was to use Light Sheet Microscopy to resolve the three-dimensional structure of fixed tissues grown in transparent straight sided pores of controlled shape. The transparent scaffolds have two different circular pore sizes and are fabricated with the aid of rapid-prototyping. Pre-osteoblast (MC3T3-E1) Cells were then seeded on top of the scaffolds and cultured in a cell culture media for up to 28 days. The grown tissue has been fixed at certain time-points and, in order to quantify the volumetric distribution of the tissue, the scaffolds were mounted in a sample holder for subsequent visualization with a Light Sheet Microscope. In addition to straight sided pores that possess a zero gaussian curvature, I also performed experiments with non-zero gaussian curvature pores to explore the impact of 3D curvature on tissue production. 
