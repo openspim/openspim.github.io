@@ -7,13 +7,13 @@
 === Mice development ===
 
 === Branching organs ===
-Goal: 3D Life imaging of the thick, uncleared embryonic tissue with the  light sheet microscopy.
+"Goal": 3D Life imaging of the thick, uncleared embryonic tissue with the  light sheet microscopy.
 
-Mouse embryonic kidneys at E11.5, E12 and E12.5 were imaged with Zeiss Lightsheet  Z.1. Light sheet microscopy provides a cellular resolution at the organ scale. 
+Mouse embryonic kidneys at E11.5, E12 and E12.5 were imaged with Zeiss Lightsheet Z.1. Light sheet microscopy provides a cellular resolution at the organ scale.  Green and red depict renal epithelium and mesenchyme.  
 
 [[File:KidneyE12p5.ogv|480px]]
 
-Optical sectioning of embryonic mouse kidney with OpenSPIM.
+Optical sectioning of embryonic mouse kidney with OpenSPIM. Greyscale depicts e-cadherin staining in the epithelium.  
 
 [[File:Kidney slice.png]]
 
