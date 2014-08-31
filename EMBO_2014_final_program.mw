@@ -1,7 +1,7 @@
 <p>[[#aug20|20 August]] | [[#aug21|21 August]] | [[#aug22|22 August]] | [[#aug23|23 August]] | [[#aug24|24 August]] | [[#aug25|25 August]] | [[#aug26|26 August]] | [[#aug27|27 August]] | [[#aug28|28 August]] | [[#aug29|29 August]] </p>
 
 {|  border="1" cellspacing="1" cellpadding="1" 
-|  valign="top" class="programmedate" colspan="2"| MONDAY 18 AUGUST
+|  valign="top" style="background: #C0C0C0 " class="programmedate" colspan="3"| MONDAY 18 AUGUST
 |- 
 |  valign="top" | 16:00 - 18:00
 |  valign="top" | Registration
@@ -18,7 +18,7 @@
 |  valign="top" | 20:00 - 22:00
 |  valign="top" | Welcome dinner &amp; poster session
 |- 
-|  valign="top" class="programmedate" colspan="2"| TUESDAY 19 AUGUST  ''chair Jan Peychl''
+|  valign="top" class="programmedate" style="background: #C0C0C0 " colspan="3"| TUESDAY 19 AUGUST  ''chair Jan Peychl''
 |-
 |  valign="top" | 9:00 - 9:30
 |  valign="top" | '''Ernst Stelzer''' ''An introduction   to the optical theory of conventional, confocal, two-photon and   light-sheet-based fluorescence microscopy''
@@ -70,7 +70,7 @@
 |  valign="top" | 20:00 - 21:00
 |  valign="top" | Short talks by participants (6 * 10 minutes)
 |- 
-|  valign="top" class="programmedate" id="aug20" colspan="2"| WEDNESDAY 20 August  ''chair Jan Huisken''
+|  valign="top" class="programmedate" id="aug20" style="background: #C0C0C0 " colspan="3"| WEDNESDAY 20 August  ''chair Jan Huisken''
 |-
 |  valign="top" | 9:00 - 9:30
 |  valign="top" | '''Emmanuel Reynaud''' ''From Arabidopsis to Zebrafish: the ABC of sample preparation for light-sheet microscopy''
@@ -113,7 +113,7 @@
 |  valign="top" | 20:15 - 21:15
 |  valign="top" | Short talks by participants (6 * 10 minutes)
 |- 
-|  valign="top" class="programmedate" id="aug21" colspan="2"| THURSDAY 21 August ''chair Emmanuel Reynaud''
+|  valign="top" class="programmedate" id="aug21" style="background: #C0C0C0" colspan="3"| THURSDAY 21 August ''chair Emmanuel Reynaud''
 |-
 |  valign="top" | 9:00 - 9:30
 |  valign="top" | '''Johannes Schindelin''' ''Introduction to Fiji''
@@ -157,13 +157,13 @@
 |  valign="top" | 20:00 - 20:40
 |  valign="top" | Short talks by participants (4 * 10 minutes)
 |- 
-|  valign="top" class="programmedate" id="aug22" colspan="2"| FRIDAY 22 August
+|  valign="top" class="programmedate" id="aug22" style="background: #C0C0C0" colspan="3"| FRIDAY 22 August
 |-
 
 |  valign="top" | entire day
 |  valign="top" | Excursion to Jena, visit to Carl Zeiss Factory
 |- 
-|  valign="top" class="programmedate" id="aug23" colspan="2"| SATURDAY 23 August ''chair Pavel Tomancak''
+|  valign="top" class="programmedate" id="aug23" style="background: #C0C0C0" colspan="3"| SATURDAY 23 August ''chair Pavel Tomancak''
 |-
 
 |  valign="top" | 9:00 - 9:30
@@ -209,7 +209,7 @@
 |  valign="top" | 21:00 - … 
 |  valign="top" | projects & beer
 |- 
-|  valign="top" class="programmedate" id="aug24" colspan="2"| SUNDAY 24 August ''chair Pavel Tomancak (again...)''
+|  valign="top" class="programmedate" id="aug24" style="background: #C0C0C0" colspan="3"| SUNDAY 24 August ''chair Pavel Tomancak (again...)''
 |-
 
 |  valign="top" | 11:00 - 11:45
@@ -253,7 +253,7 @@
 |  valign="top" | 21:00 - … 
 |  valign="top" | projects & beer
 |- 
-|  valign="top" class="programmedate" id="aug25" colspan="2"| MONDAY 25 August
+|  valign="top" class="programmedate" id="aug25" style="background: #C0C0C0" colspan="3"| MONDAY 25 August
 |-
 
 |  valign="top" | 9:00 - 9:30
@@ -322,7 +322,7 @@
 |  valign="top" | 20:30 - 21:30
 |  valign="top" | Inverse poster session (participants present other people's posters for the newly arriving instructors)
 |- 
-|  valign="top" class="programmedate" id="aug26" colspan="2"| TUESDAY August 26
+|  valign="top" class="programmedate" id="aug26" style="background: #C0C0C0" colspan="3"| TUESDAY August 26
 |-
 
 |  valign="top" | 9:00 - 9:30
@@ -370,7 +370,7 @@
 |  valign="top" | 21:00 - … 
 |  valign="top" | projects & beer
 |- 
-|  valign="top" class="programmedate" id="aug27" colspan="2"| WEDNESDAY 27 August
+|  valign="top" class="programmedate" id="aug27" style="background: #C0C0C0" colspan="3"| WEDNESDAY 27 August
 |-
 
 |  valign="top" | 9:00 - 9:30
@@ -417,7 +417,7 @@
 |  valign="top" | 21:00 - … 
 |  valign="top" | projects & beer
 |- 
-|  valign="top" class="programmedate" id="aug28" colspan="2"| THURSDAY 28 August
+|  valign="top" class="programmedate" id="aug28" style="background: #C0C0C0" colspan="3"| THURSDAY 28 August
 |-
 
 |  valign="top" | 9:00 - 9:30
@@ -459,7 +459,7 @@
 |  valign="top" | 18:00 - 22:00
 |  valign="top" | Gala Dinner (Hotel Andreas)
 |- 
-|  valign="top" class="programmedate" id="aug29" colspan="2"| FRIDAY August 29
+|  valign="top" class="programmedate" id="aug29" style="background: #C0C0C0" colspan="3"| FRIDAY August 29
 |-
 
 |  valign="top" | 9:00 - 12:00
