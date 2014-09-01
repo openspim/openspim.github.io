@@ -1,0 +1,27 @@
+=Imaging ''Tribolium castaneum'' extraembryonic membranes=
+
+==Methods==
+
+===Sample preparation===
+
+===Image acquisition===
+
+===Data analysis===
+
+<gallery>
+
+File:Registration_objects.png|objects detected to perform segmentation-based multiview registration
+
+File:segmenationvsbeadregistration.png|segmentation-based registration outperforms bead-based registration
+
+</gallery>
+
+==Results==
+
+===First experiment===
+
+<gallery>
+
+File:TP35_AverageBasedProjection.jpg|Average Intensity Projection of time point 35
+
+</gallery>
