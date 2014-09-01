@@ -1,0 +1,35 @@
+=Edite Figueiras: SPIM for 3D tissue engineering imaging=
+
+In Tissue Engineering (TE) research field there is a need of 3D non-destructive imaging techniques capable of rendering images over time to investigate cells differentiation and proliferation; dynamics of the cell behaviors; cells interactions with each other and with the biomaterial; etc. In this project I want to answer to the questions:
+Can I use SPIM to image TE based in hydrogels?
+Can the samples be prepared inside FEP tubes?
+How deep I can image inside the gel without loosing resolution?
+
+==TE constructs of Gellan Gum with adipose stem cells==
+
+===The inlfuence of the FEP tubes===
+<gallery>
+File:Neurons1_maxProjection.png|[[User:Edite|Gellan Gum with adipose stem cells inside FEP tubes.]]
+File:Neurons3_maxProjection.png|[[User:Edite|Gellan Gum with adipose stem cells outside FEP tubes.]]
+</gallery>
+
+I imaged TE constructs of Gellan Gum with adipose stem cells inside and outside FEP tubes. The images are less blurry when the tube is not used, but Gellan Gum also affects the images.
+
+==TE constructs of alginate with neurons==
+
+===The influence of the tubes thickness===
+
+<gallery>
+File:Neurons_2_Maximum_intensity_projection.png|[[User:Edite|Gellan Gum with adipose stem cells inside FEP tubes.]]
+File:Neurons_6_Maximum_intensity_projection.png|[[User:Edite|Gellan Gum with adipose stem cells outside FEP tubes.]]
+</gallery>
+
+I imaged TE construct of alginate hydrogel with neurons with different thickness FEP tubes. Better quality images were obtained with the thinner FEP tube.
+
+===The influence of the sample thickness===
+
+<gallery>
+File:Neurons_2_3D.ogv|[[User:Edite|3D visualization of TE construct of alginate hydrogel with neurons.]]
+</gallery>
+
+I imaged 1.5 mm thick samples of TE constructs of alginate hydrogel with neurons. There is a degradation of the images with the increasing of the depth.
