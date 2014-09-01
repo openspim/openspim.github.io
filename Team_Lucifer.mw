@@ -1,106 +1,17 @@
-<blockquote>
-“The lowest knowledge in light sheet is reserved for those who maintain their neutrality in times of wiki (editing) crisis.”  Adapted from Dante's Divine Comedy
-</blockquote>
+{|- class="wikitable" 20px style="margin: 1em auto 1em auto;" 
 
-=Kirti Prakash: Early Zebrafish development=
+|rowspan="2" style="height:200px; width:200px; background-color:#660000; text-align:center;"|[[EarlyZebrafishDevelopment|<span style="font-size:150%">'''Early Zebrafish Development'''</span>]]
+|rowspan="2" style="height:200px; width:200px; background-color:#EB391B; text-align:center;"|[[3D_Tissue_Engineering|<span style="font-size:150%">'''SPIM for 3D tissue engineering imaging'''</span>]]
+|-
+|-
+|-
+|rowspan="2" style="height:200px; width:200px; background-color:#FF6600; text-align:center;"|[[TriboliumExtraembryonicMembranes|<span style="font-size:150%">'''Tribolium castaneum extraembryonic development'''</span>]]
+|rowspan="2" style="height:200px; width:200px; background-color:#FFFF00; text-align:center;"|[[PlantCellMorphogenesis|<span style="font-size:150%">'''Plant cell morphogenesis'''</span>]]
 
-Specification of Primordial Germ Cells (PGCs) in Zebrafish has 2 modes: one through maternal cytoplasmic inheritance of ‘germ plasm’  and this is common in most invertebrates and non-mammalians. The second is through induction of pluripotent epiblast cells during gastrulation and is common to mammals. 
-The common denominator in most organisms is the migration of PGCs to genital ridge, further proliferation and differentiation. 
-
-==Plan for the course==
-We have two transgenic lines. We want to investigate the earlier stages when this phenotype is caused, and we think light-sheet microscopy would be a great tool to study this, since other microscopes often require dechorionation which is quite difficult at these early stages and can easily harm the embryo. 
-
-
-1. PGC-EGFP: Marks the first PGCs (3-4hpf visible for the first time) 
-	 - described in Blaser et al 2005
-
-2. Buc-EGFP: Bucky Ball protein tagged with GFP. 
-	- described in Bontems et al. 2009
+|}
 
 
-==Migration of PGC-EGFP towards genital ridge==
-[[File:PGCs_final.ogv|640px]]
 
-
-===Tracking the migration===
-<gallery>
-File:MIP_PGCs.png|[[User:Kirti|Maximum intensity projection]]
-File:pgcs_temporal_code.png|[[User:Kirti|Temporal color code]]
-</gallery>
-
-
-==Localisation of Buc-EGFP to the cleavage planes==
-Buc is maternally deposited and this protein will be localizing to the cleavage planes directly after fertilization and can be imaged right after fertilization
-[[File:balbiani_final_movie.ogv|640px]]
-
-===Temporal color encoding of bucky ball movement===
-[[File:balbiani_temporal_color.ogv|640px]]
-
-=Edite Figueiras: SPIM for 3D tissue engineering imaging=
-
-In Tissue Engineering (TE) research field there is a need of 3D non-destructive imaging techniques capable of rendering images over time to investigate cells differentiation and proliferation; dynamics of the cell behaviors; cells interactions with each other and with the biomaterial; etc. In this project I want to answer to the questions:
-Can I use SPIM to image TE based in hydrogels?
-Can the samples be prepared inside FEP tubes?
-How deep I can image inside the gel without loosing resolution?
-
-==TE constructs of Gellan Gum with adipose stem cells==
-
-===The inlfuence of the FEP tubes===
-<gallery>
-File:Neurons1_maxProjection.png|[[User:Edite|Gellan Gum with adipose stem cells inside FEP tubes.]]
-File:Neurons3_maxProjection.png|[[User:Edite|Gellan Gum with adipose stem cells outside FEP tubes.]]
-</gallery>
-
-I imaged TE constructs of Gellan Gum with adipose stem cells inside and outside FEP tubes. The images are less blurry when the tube is not used, but Gellan Gum also affects the images.
-
-==TE constructs of alginate with neurons==
-
-===The influence of the tubes thickness===
-
-<gallery>
-File:Neurons_2_Maximum_intensity_projection.png|[[User:Edite|Gellan Gum with adipose stem cells inside FEP tubes.]]
-File:Neurons_6_Maximum_intensity_projection.png|[[User:Edite|Gellan Gum with adipose stem cells outside FEP tubes.]]
-</gallery>
-
-I imaged TE construct of alginate hydrogel with neurons with different thickness FEP tubes. Better quality images were obtained with the thinner FEP tube.
-
-===The influence of the sample thickness===
-
-<gallery>
-File:Neurons_2_3D.ogv|[[User:Edite|3D visualization of TE construct of alginate hydrogel with neurons.]]
-</gallery>
-
-I imaged 1.5 mm thick samples of TE constructs of alginate hydrogel with neurons. There is a degradation of the images with the increasing of the depth.
-
-=Maarten Hilbrant: Imaging ''Tribolium castaneum'' extraembryonic membranes=
-
-==Methods==
-
-===Sample preparation===
-
-===Image acquisition===
-
-===Data analysis===
-
-<gallery>
-
-File:Registration_objects.png|objects detected to perform segmentation-based multiview registration
-
-File:segmenationvsbeadregistration.png|segmentation-based registration outperforms bead-based registration
-
-</gallery>
-
-==Results==
-
-===First experiment===
-
-<gallery>
-
-File:TP35_AverageBasedProjection.jpg|Average Intensity Projection of time point 35
-
-</gallery>
-
-=Juraj Sekereš: Plant cell morphogenesis=
 
 =Microscopy setups used during the course=
 == OpenSPIM ==
@@ -138,10 +49,10 @@ Further info on the [[Zeiss_Lightsheet_Z.1|Zeiss Lightsheet Z.1]]
 =The light seekers=
 
 <gallery>
+File:Prakash.jpg|[[User:Kirti|Kirti Prakash]]
+File:Figueiras.jpg|[[User:Edite|Edite Figueiras]]
 File:Hilbrant.jpg|[[User:Maarten|Maarten Hilbrant]]
 File:Sekeres.jpg|[[User:Juraj|Juraj Sekereš]]
-File:Figueiras.jpg|[[User:Edite|Edite Figueiras]]
-File:Prakash.jpg|[[User:Kirti|Kirti Prakash]]
 </gallery>
 
 =The Charons=
