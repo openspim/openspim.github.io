@@ -5,7 +5,7 @@
 
 * '''Sample preparation'''
   
-We used a cell line expressing GFP-tagged histone 2B. The spheroid was embedded together with beads in 1.5 % agarose in a glass capillary (black label).
+We used a cell line expressing GFP-tagged histone 2B. The spheroid was embedded together with beads in 1 % agarose in a glass capillary (black label).
 
 * '''Imaging'''
 ** 1 timepoint, 6 angles, dual-side illumination
@@ -14,7 +14,11 @@ We used a cell line expressing GFP-tagged histone 2B. The spheroid was embedded 
 
 * '''Results'''
   
-After approximately 2 h 6 min (2 h to set up the acquisition, 6 min to run it) we had a nice 36 GB data set. Post-processing in progress, images will follow...
+After approximately 2 h 6 min (2 h to set up the acquisition, 6 min to run it) we had a nice 36 GB data set. 
+
+Fortunately we decided not to fuse the two illuminations online during acquisition, but to keep them separate: We compared a simple fusion of the two unregistered illuminations for one angle to the result after performing a nuclei-based registration. Indeed the two views were shifted in z (detection direction) by &asymp; 10 µm&mdash;a nice example for large samples causing aberrations.
+
+Finally we registered all 12 views with nuclei and fused them. An additional deconvolution using beads to determine the PSF produced an even crisper image. However, we had to crop the image (and consequently cut part of the spheroid) in order to limit the required memory to the 108 GB RAM available.
 
 ====Outlook: Overnight time-lapse imaging of living, 4-days-old spheroids (&oslash; &asymp; 50 µm) on Zeiss Lightsheet Z.1====
 
