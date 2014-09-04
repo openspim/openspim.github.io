@@ -41,7 +41,7 @@ My aim was to use Light Sheet Microscopy to resolve the three-dimensional struct
 
 Unfortunately, due to the scaffold design and limitations of the objective lens, the conventional mounting technique using FEP-tubes or agarose was not applicable. Therefor the sample has been mounted on a [[User:Burri#Sample_holder_for_donut-shaped_samples|double-hook]] and imaged from multiple views. The obtained multiview images were then reconstructed in Fiji.
 
-Due to the large amount of data (approx. 100GB for 6 views) and the fact that the scaffolds contain no beeds, reconstruction of the multiview images in Fiji is complicated and still in progress!
+Due to the large amount of data (approx. 100GB for 6 views) and the fact that the scaffolds do not contain beads, reconstruction of the multiview images in Fiji is complicated and still in progress!
 
 [[File:Ultra_Hook2.jpg|480px]]
 
@@ -49,7 +49,7 @@ Sketch of the mounting technique to image scaffolds in a Zeiss Lightsheet.Z1
 
 [[File:Composite projections 1.jpg|480px]]
 
-Tissue grown in a circular pore.
+Tissue grown in a circular pore. The pore size is 2mm.
 
 [[File:Maximum projection tissue.jpg|480px]]
 
@@ -57,7 +57,7 @@ Maximum projection of tissue grown in a circular pore obtained with Zeiss Lights
 
 [[File:Tissue_Growth_Movie.ogv]]
 
-Images were obtained using a Zeiss Lightsheet.Z1 Microscope with a 5x objective lens and reconstructed in Fiji.
+3D reconstruction of multiview images obtained with a Zeiss Lightsheet.Z1 Microscope. The 3D image has been reconstructed in Fiji. Cell-nuclei are depicted in blue and actin in magenta. Note that the presented 3D reconstruction of the multiview images is still in progress.
 
 === Development of bryozoans and brachiopods ===
 
