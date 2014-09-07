@@ -26,13 +26,27 @@ TBD: I tried to image them in the ''Scanned Lightsheet SPIM'' (Meyers SPIM) sinc
 
 [[File:Bryomov.ogv|400px|none|thumb|Live bryozoan embryo under Scanned Lightsheet SPIM.]]
 
+* FIG: Gaussian vs si
+* MOV: stack gaussian vs si
+* MOV: timelapse
 
 == Fixed bryozoan embryos and larvae ==
 
 * Myers
+** FIG: 16cell gaussian vs gaussian+SI
+** MOV: 3D model
+** FIG: larva gaussian vs si vs bessel
+** FIG: larva 2 stainings
+
 * Zeiss
+** FIG: 7 angles + fused
+** MOV: fused 3d projection
 
 == Fixed brachiopod larvae ==
 
 * OpenSPIM
+** FIG: larva on openspim (L and T)
 * Zeiss
+** FIG: 7 angles + fused
+** MOV: fused 3d projection
+** FIG: tutorial on contentbased registration
