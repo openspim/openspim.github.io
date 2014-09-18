@@ -74,6 +74,7 @@ Please have a look at [[How_to_build_the_software#The_easy_way|this page]].
 == Micro-Manager runs and loads my configuration, but the OpenSPIM plugin won't start, what should I do? ==
 
 Try zeroing the positions of all the stages, especially the twister.  You can do this either by opening the Picard software (USB 4D-Stage Version 1.0) and clicking "All Home" and also "Set Zero" for the twister, or you can do it in Micro-Manager by doing the following: 
+
 - Launch Micro-Manager.
 - Click Tools -> Script Panel.
 - Type or copy/paste the following (If you did not use the default 
@@ -84,7 +85,7 @@ mmc.setPosition("Picard Twister", 0);
 
 - Press enter. 
 
-And repeat for the X, Y, and Z stages.
+If this doesn't correct the problem, repeat for the X, Y, and Z stages.
 
 = Debugging =
 
