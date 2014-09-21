@@ -1,12 +1,13 @@
 {|- class="wikitable" 20px style="margin: 1em auto 1em auto;" 
+|rowspan="2" style="height:200px; width:200px; background-color:#660000; text-align:center;"|[[Microscope Description|<span style="font-size:150%">'''Microscope Description'''</span>]]
 
-|rowspan="2" style="height:200px; width:200px; background-color:#660000; text-align:center;"|[[EarlyZebrafishDevelopment|<span style="font-size:150%">'''Early Zebrafish Development'''</span>]]
+|rowspan="2" style="height:200px; width:200px; background-color:#AA0000; text-align:center;"|[[EarlyZebrafishDevelopment|<span style="font-size:150%">'''Early Zebrafish Development'''</span>]]
 |rowspan="2" style="height:200px; width:200px; background-color:#EB391B; text-align:center;"|[[3D_Tissue_Engineering|<span style="font-size:150%">'''SPIM for 3D tissue engineering imaging'''</span>]]
 |-
 |-
 |-
 |rowspan="2" style="height:200px; width:200px; background-color:#FF6600; text-align:center;"|[[TriboliumExtraembryonicMembranes|<span style="font-size:150%">'''Tribolium castaneum extraembryonic development'''</span>]]
-|rowspan="2" style="height:200px; width:200px; background-color:#FFFF00; text-align:center;"|[[PlantCellMorphogenesis|<span style="font-size:150%">'''Plant cell morphogenesis'''</span>]]
+|rowspan="2" style="height:200px; width:200px; background-color:#FF8800; text-align:center;"|[[PlantCellMorphogenesis|<span style="font-size:150%">'''Plant cell morphogenesis'''</span>]]
 
 |}
 
