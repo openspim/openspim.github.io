@@ -26,6 +26,9 @@ Unfortunately, we only managed to acquire a small time-lapse from an embryo that
 
 [[File:Bryomov.ogv|500px|none|thumb|Live bryozoan embryo under Scanned Lightsheet SPIM. 201 planes were acquired every 10s for 48 timepoints and excited with 515 nm laser. Z-stacks were focused with Fiji > Time Lapse > Gaussian-based stack focuser.]]
 
+[[File:Fig_live_gauss_si.png|300px|thumb|Comparison between gaussian beam without (A) and with (B) structured illumination in a live bryozoan embryo. Scale bars = 10 µm]]
+
+
 * FIG: Gaussian vs si
 * MOV: stack gaussian vs si
 * MOV: timelapse
