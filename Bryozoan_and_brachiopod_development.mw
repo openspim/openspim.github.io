@@ -22,15 +22,13 @@ I collected fertilized eggs by scrapping the surface of ripe zooids. Eggs were a
 
 === Imaging ===
 
-[[File:Fig_live_gauss_si.png|400px|thumb|Comparison between gaussian beam without (A) and with (B) structured illumination in a live bryozoan embryo. Scale bars = 10 µm]]
+[[File:Fig_live_gauss_si.png|400px|thumb|Comparison between gaussian beam without (A) and with (B) structured illumination in a live bryozoan embryo. Maximum intensity projections. Scale bars = 10 µm]]
 
-Unfortunately, we only managed to acquire a small time-lapse from an embryo that was not healthy.
+[[File:Live_gauss_si.ogv|400px|thumb|Slice-by-slice comparison between gaussian beam without (A) and with (B) structured illumination in a live bryozoan embryo. Scale bars = 10 µm]]
 
 [[File:Bryomov.ogv|500px|none|thumb|Live bryozoan embryo under Scanned Lightsheet SPIM. 201 planes were acquired every 10s for 48 timepoints and excited with 515 nm laser. Z-stacks were focused with Fiji > Time Lapse > Gaussian-based stack focuser.]]
 
-
-* MOV: stack gaussian vs si
-* MOV: timelapse
+Unfortunately, we only managed to acquire a small time-lapse from an embryo that was not healthy.
 
 == Fixed bryozoan embryos and larvae ==
 
