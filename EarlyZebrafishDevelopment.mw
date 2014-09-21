@@ -8,15 +8,16 @@ We have two transgenic lines. We want to investigate the earlier stages when thi
 
 
 1. PGC-EGFP: Marks the first PGCs (3-4hpf visible for the first time) 
-	 - sample preparation described in Blaser et al 2005
+	 - sample preparation described in Blaser et al. 2005
 
 2. Buc-EGFP: Bucky Ball protein tagged with GFP. 
 	- sample preparation described in Bontems et al. 2009
 
+==Microscope description==
+We used four lens (water, 10x/0.3 objectives) SPIM setup in Jan Huisken lab. The details of SPIM setup and analysis are described in Schmid et al. 2013.
 
 ==Migration of PGC-EGFP towards genital ridge==
 [[File:PGCs_final.ogv|640px]]
-
 
 ===Tracking the migration===
 <gallery>
@@ -31,3 +32,6 @@ Buc is maternally deposited and this protein will be localizing to the cleavage 
 
 ===Temporal color encoding of bucky ball movement===
 [[File:balbiani_temporal_color.ogv|640px]]
+
+==Acknowledgements==
+I thank Gopi Shah for teaching the basics of sample preparation, mounting and for the analysis.
