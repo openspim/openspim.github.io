@@ -32,11 +32,14 @@ TBD: I tried to image them in the ''Scanned Lightsheet SPIM'' (Meyers SPIM) sinc
 
 == Fixed bryozoan embryos and larvae ==
 
-* Myers
-** FIG: 16cell gaussian vs gaussian+SI
+=== Multi-modal scanned lightsheet SPIM (Myers SPIM) ===
+
+[[File:Fig_gauss_si_bessel.png|600px|thumb|none|Comparison of different laser patterns in fixed bryozoan embryos. A, B Maximum intensity projection of a 16 cell stage embryo imaged with gaussian beam without (A) and with (B) structured illumination. C, D, E Maximum intensity projection of a late gastrula stage. Insets show a detail of the nuclei. C Gaussian beam. D Gaussian beam and structured illumination. E Bessel beam and structured illumination. Scale bars = 10 µm ]]
+
 ** MOV: 3D model
-** FIG: larva gaussian vs si vs bessel
 ** FIG: larva 2 stainings
+
+
 
 * Zeiss
 ** FIG: 7 angles + fused
