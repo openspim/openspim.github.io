@@ -20,6 +20,8 @@ Our colleagues in Bergen prepared an emergency second shipment, this time with c
 
 I collected fertilized eggs by scrapping the surface of ripe zooids. Eggs were activated with 0.1 mM EDTA at 12 °C for 2 hours. The few embryos that started cleaving were transferred to a 4-well plate with 5µg/mL FM 4-64 solution in sea water. After 15 min I put the embryos in a round coverslip coated with poly-l-lysine and mounted on the sample holder of the ''Multi-modal scanned lightsheet SPIM'' (Meyers SPIM). I chose this scope because it has temperature control in the chamber (15 °C) and is adapted to small samples.
 
+<div style="clear:both;"></div>
+
 === Imaging ===
 
 [[File:Fig_live_gauss_si.png|400px|thumb|Comparison between gaussian beam without (A) and with (B) structured illumination in a live bryozoan embryo. Maximum intensity projections. Scale bars = 10 µm]]
