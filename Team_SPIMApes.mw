@@ -117,3 +117,49 @@ The major locations of cells expressing Ptf1a-GFP are at the regions of hindbrai
 =Marketa's Project=
 Primordium development in hypocotyl explants.
 Microscope: mDSLM. Objective: 40x/0.75W
+
+=Emese's Project=
+==Clearing and imaging primate cortical tissue==
+
+=== Clearing technique ===
+
+For clearing the brains I used the [http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0033916 DBE] technique. It worked very well on the primate cortical tissue. I tried only this method.
+
+[[File: Picture1.jpg|thumb| Uncleared and cleared (DBE) corical tissue ]]
+
+=== Microscopes used at the course ===
+
+* [http://www.zeiss.com/microscopy/en_de/products/imaging-systems/lightsheet-z-1.html#Highlights LSM Z1]
+
+On this microscope you allowed to image only uncleared tissue and the size of your sample is limited. 
+
+''Question1'': How deep can the lightsheet penetrate in the uncleared tissue?
+
+''Sample'': Cortical tissue with somatostatin labeled interneurons, embedded in 1% agarose.
+
+We used 20x objective and tried single and dual sided illumination too. The penetration of the lightsheet was around 60 um. 
+
+[[File: som_single.avi|thumb| Somatostatin labeled interneurons in the primate cortex. Single sided illumination. 20x]]
+[[File: som_dual.avi|thumb| Somatostatin labeled interneurons in the primate cortex. Dual sided illumination. 20x ]]
+
+
+''Question2'': How deep can the antibodies penetrate? What can we achieve with thinner samples?
+
+''Sample'': 100 um thick cortical tissue labeled with 3 interneuron markers, embedded in 1% agarose.
+
+We used 20x objective and dual sided illumination. All of the antibodies penetrated through the sample. This is a nice way to investigate the presence and distribution of these internurons in the cortex. 
+
+[[File: pv_depth.jpg|thumb| Parvalbumin labeled interenurons in the primate cortex. Color coding shows the depth. 20x]]
+[[File: 3intn.jpg|thumb| Parvalbumin (green), calretinin (purple) and somatostatin (blue) labeled interenurons in the primate cortex. 20x]]
+
+
+* [http://www.lavisionbiotec.com/files/Ultramicroscope.pdf Ultramicroscope]
+
+This technique was develpoed for imaging big samples. The highest magnification we could get was 5x objective with 2x zoom.
+
+''Question'': What can you see in the cleared tissue?
+''Sample'': DBE cleared cortical tissue.
+With this technique we imaged a big (2x2,5x1 mm) DBE cleared cortical tissue. We found only a few labeled cells. The poor staining may have caused by the antibody penetration or/and the clearing.
+
+[[File: Um1.jpg|thumb| One overview plane of the cortical tissue. 10x]]
+[[File: Um2.jpg|thumb| 2 parvalbumin labeled cells. 10x]]
