@@ -238,7 +238,7 @@
 |- align="center"
 || OpenSPIM
 |bgcolor="green"| self made
-|| '''metal holder''' for the acrylic sample chamber
+|| '''metal holder''' for the acrylic sample chamber (Note:both stl and pdf don't contain dimensions for the M3 holes)
 || [[:File:OpenSPIM_SPIM-Chamber_Holder.STL|Chamber Holder.stl]]<br/>[[:File:OpenSPIM_SPIM-Chamber_Holder.STEP|Chamber Holder.step]]<br/>[[:File:OpenSPIM_SPIM-Chamber_Holder.PDF|Chamber Holder.pdf]]
 || [[File:Sample chamber holder.jpg|thumb|center|upright=0.7]]
 || 1 
