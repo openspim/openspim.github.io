@@ -46,10 +46,12 @@ Unfortunately, we only managed to acquire a small time-lapse from an embryo that
 
 === Zeiss Lightsheet Z.1 ===
 
+[[File:3D_MOV_bryo_fused1.ogv|300px|thumb|3D projection of a bryozoan larva. Image is the result of seven stacks captured at different angles, registered and fused without using beads.]]
+
 [[File:Fig_bryo_7angles.png|600px|thumb|none|Multiview acquisition of a bryozoan larva (cyphonautes) with a nuclear (sytox green in magenta) and actin (phalloidin in green) staining. A Angle 0°. B Angle 51°. C Angle 103°. C Angle 154°. D Angle 206°. E Angle 257°. F Angle 309°. G Seven views fused with a content-based registration of both channels. Scale bar = 10 µm.]]
 
-
-** MOV: fused 3d projection
+[[File:Fig_bryo_reg.png|600px|thumb|none|Visualization of multiple views of a bryozoan larva during registration steps. Each angle has a different color viewed on the BigDataViewer. A Original orientation of the multiple view stacks. In order to facilitate the content-based registration (without beads) the views need to be at the same orientation. A transformation was applied to the Y axis to place each view at the same orientation. B Multiple views after transformation. All stacks are oriented in the same manner. C Result of the registration step with the different views combined into a single fused stack.
+]]
 
 == Fixed brachiopod larvae ==
 
