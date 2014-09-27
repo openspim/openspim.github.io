@@ -62,27 +62,7 @@ Maximum projection of tissue grown in a circular pore obtained with Zeiss Lights
 
 3D reconstruction of multiview images obtained with a Zeiss Lightsheet.Z1 Microscope. The 3D image has been reconstructed in Fiji. Cell-nuclei are depicted in blue and actin in magenta. Note that the presented 3D reconstruction of the multiview images is still in progress.
 
-=== Development of bryozoans and brachiopods ===
-
-* [[Bryozoan and brachiopod development]]
-
-==== Live samples ====
-
-Colonies of ''Membranipora membranacea'' were shipped twice from Bergen, Norway. In both cases colonies arrived dead or mostly-dead. However, I managed to scrape better-looking embryos from inside the zooids. Some embryos got activated and started cleaving. I tried to image them in the ''Scanned Lightsheet SPIM'' (Meyers SPIM) since it has temperature control in the chamber and is adapted to small samples. Embryos were stained with a membrane marker (FM 4-64). Unfortunately, we only manage to acquire a small time-lapse from an embryo that was not healthy:
-
-[[File:Bryomov.ogv|400px|Live bryozoan embryo under Scanned Lightsheet SPIM.]]
-
-==== Fixed samples ====
-
-===== Bryozoa =====
-
-{|- class="wikitable" 20px style="margin: 1em auto 1em auto;" 
-|style="width:400px;"|[[File:Bryozoa_embryo_max.png|400px]] Z-projection of a bryozoan embryo fixed and stained with sytox green (nuclei). Sample mounted on a circular coverslip coated with poly-l-lysine and imaged in a Scanned Lightsheet SPIM using a gaussian beam.
-|style="width:400px;"|[[File:MAX_Mmem_1_SI.png|400px]] Lateral view of a cyphonautes larva of a bryozoan. Anterior is left. Green is actin and magenta is nuclei. Scanned Lightsheet with structured illumination.
-|style="width:400px;"|[[File:MAX_Mmem_2_SI.png|400px]] Posterior view of a cyphonautes larva of a bryozoan. Anterior is left. Green is actin and magenta is nuclei. Scanned Lightsheet with structured illumination.
-|}
-
-===== Brachiopoda =====
+{{:Bryozoan_and_brachiopod_development#Fixed_brachiopod_larvae}}
 
 ==Team members==
 
