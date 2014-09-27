@@ -1,12 +1,10 @@
-== Projects ==
-
 '''Our first try: 3D Reconstraction of Drosophila Embryo.'''
 
 [[File:Movie_gif.ogv|320px]]
 
-=== Mouse Development ===
+== Mouse Development ==
 
-====Work plan during the course====
+===Work plan during the course===
 1) Samples of different sizes: 500(L)x300(R) um to 1(L)x0.7(R) cm including- Mouse embryos at different developmental stages (E10.5, E11.5, E12.5 & E13.5) & Brain, Lung & Heart of E18.5 embryo
 2) A variety of signal intensity (expression levels, stability, etc…) – Different “labeling” patterns:  membrane GFP in all tissues in the context of an intact embryo or dissected embryonic organs, Cytoplasmic GFP in scattered cells  at different regions of the embryo & Cytoplasmic GFP expressed exclusively in PGCs
 3) Samples of different morphology: opaque, transparent, branched, auto-fluorescent, etc…)
@@ -18,11 +16,7 @@
 Ultra microscope – Cleared E13.5 mouse embryo:
 
 
-
-
-
-
-=== Branching organs ===
+== Branching organs ==
 "Goal": 3D Life imaging of the thick, uncleared embryonic tissue with the  light sheet microscopy.
 
 Mouse embryonic kidneys at E11.5, E12 and E12.5 were imaged with Zeiss Lightsheet Z.1. Light sheet microscopy provides a cellular resolution at the organ scale.  Green and red depict renal epithelium and mesenchyme.  
@@ -35,7 +29,7 @@ Optical sectioning of embryonic mouse kidney with OpenSPIM. Greyscale depicts e-
 
 Take home message: commercial and home build light sheet microscopes can be used to image embryonic organ explants, however two photon and active optics might be necessary to fight scattering.
 
-=== Investigation of 3d tissue growth using Light Sheet Microscopy ===
+== Investigation of 3d tissue growth using Light Sheet Microscopy ==
 
 My aim was to use Light Sheet Microscopy to resolve the three-dimensional structure of fixed tissues grown in transparent straight sided pores of controlled shape. The transparent scaffolds have two different circular pore sizes and are fabricated with the aid of rapid-prototyping. Pre-osteoblast (MC3T3-E1) Cells were then seeded on top of the scaffolds and cultured in a cell culture media for up to 28 days. The grown tissue has been fixed at certain time-points and, in order to quantify the volumetric distribution of the tissue, the scaffolds were mounted in a sample holder for subsequent visualization with a Light Sheet Microscope.
 
