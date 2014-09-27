@@ -44,6 +44,8 @@ Unfortunately, we only managed to acquire a small time-lapse from an embryo that
 
 [[File:Fig_cyphonautes_scanned.png|600px|thumb|none|Maximum intensity projections of two cyphonautes larvae of a bryozoan under the Multi-modal scanned lightsheet SPIM. A, D Nuclei stained with Sytox Green. B, E Actin stained with Phalloidin Alexa647. C, F Merge of the correspondent images to the left showing the nuclei (magenta) and actin (green). Scale bars = 10 µm ]]
 
+'''Acknowledgements:''' Loïc Royer and Nicola Maghelli for helping with the mounting and driving the scope.
+
 === Zeiss Lightsheet Z.1 ===
 
 [[File:3D_MOV_bryo_fused1.ogv|300px|thumb|3D projection of a bryozoan larva. Image is the result of seven stacks captured at different angles, registered and fused without using beads.]]
@@ -53,6 +55,8 @@ Unfortunately, we only managed to acquire a small time-lapse from an embryo that
 [[File:Fig_bryo_reg.png|600px|thumb|none|Visualization of multiple views of a bryozoan larva during registration steps. Each angle has a different color viewed on the BigDataViewer. A Original orientation of the multiple view stacks. In order to facilitate the content-based registration (without beads) the views need to be at the same orientation. A transformation was applied to the Y axis to place each view at the same orientation. B Multiple views after transformation. All stacks are oriented in the same manner. C Result of the registration step with the different views combined into a single fused stack.
 ]]
 
+'''Acknowledgements:''' Stephan Preibisch for the help with the Multiview Registration and Tobias Pietzsch for the help with the BigDataViewer.
+
 == Fixed brachiopod larvae ==
 
 === Zeiss Lightsheet Z.1 ===
@@ -60,3 +64,5 @@ Unfortunately, we only managed to acquire a small time-lapse from an embryo that
 [[File:Fig_brach_7angles.png|600px|thumb|none|Multiview acquisition of a brachiopod larva with a nuclear staining (sytox green). A Angle 0°. B Angle 51°. C Angle 103°. D Angle 154°. E Angle 206°. F Angle 257°. G Angle 309°. H Seven views fused with a content-based registration of both channels. Scale bar = 10 µm.]]
 
 [[File:Fig_brach_reg.png|600px|thumb|none|Visualization of multiple views of a brachiopod larva during registration steps. Each angle has a different color viewed on the BigDataViewer. A Original orientation of the multiple view stacks. In order to facilitate the content-based registration (without beads) the views need to be at the same orientation. A transformation was applied to the Y axis to place each view at the same orientation. B Multiple views after transformation (left). All stacks are oriented in the same manner and have been colored individually (right). C Result of the registration step with the different views combined into a single fused stack.]]
+
+'''Acknowledgements:''' Stephan Preibisch for the help with the Multiview Registration and Tobias Pietzsch for the help with the BigDataViewer. Jaroslav Icha for the help in the image acquisition and processing with the Z.1.
