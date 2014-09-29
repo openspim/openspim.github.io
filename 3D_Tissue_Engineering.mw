@@ -17,19 +17,40 @@ I imaged TE constructs of Gellan Gum with adipose stem cells inside and outside 
 
 ==TE constructs of alginate with neurons==
 
-===The influence of the tubes thickness===
+Rat primary cortical neurons derived and encapsulated in alginate hydrogel, maintained in culture for 5 days, stained with calcein AM (Invitrogen) and ﬁxed in 4% formaline. 
 
-<gallery>
-File:Neurons_2_Maximum_intensity_projection.png|[[User:Edite|Gellan Gum with adipose stem cells inside FEP tubes.]]
-File:Neurons_6_Maximum_intensity_projection.png|[[User:Edite|Gellan Gum with adipose stem cells outside FEP tubes.]]
-</gallery>
+===Samples fixed in FEP tubes with 0.5 mm===
 
-I imaged TE construct of alginate hydrogel with neurons with different thickness FEP tubes. Better quality images were obtained with the thinner FEP tube.
+'''Image parameters
+*Dimensions (um): x- 487; y - 487; z - 341
+*Objective: 10X, NA = 1
+*Light Sheet thickness: 4.77 um
+*Illumination wavelenght: 488 nm
 
-===The influence of the sample thickness===
+[[File:Neurons_2MAXprojection.png|500px|thumb|none| Maximum intensity projection. ]]
 
-<gallery>
-File:Neurons_2_3D.ogv|[[User:Edite|3D visualization of TE construct of alginate hydrogel with neurons.]]
-</gallery>
+[[File:Neurons_2modificada.ogv|500px|thumb|none| Video of the stack. ]]
 
-I imaged 1.5 mm thick samples of TE constructs of alginate hydrogel with neurons. There is a degradation of the images with the increasing of the depth.
+[[File:Neurons2_3D.ogv|400px|thumb|none| 3D video. ]]
+
+
+===Samples fixed in FEP tubes with 0.2 mm===
+
+'''Image parameters
+*Dimensions (um): x- 438; y - 438; z - 838
+*Objective: 10X, NA = 1
+*Light Sheet thickness: 4.52 um
+*Illumination wavelenght: 488 nm
+
+[[File:Neurons_6MAX.png|500px|thumb|none| Maximum intensity projection. ]]
+
+[[File:Neurons_6modificada.ogv|500px|thumb|none| Video of the stack. ]]
+
+[[File:Neurons_6_3D.ogv|500px|thumb|none| 3D video. ]]
+
+
+'''Conclusions
+From the images obtained, it can be clearly seen that better quality images were obtained with the thinner FEP tube. In the videos of the stacks we can also clearly see that there is a degradation of the images with the increasing of the depth (this videos start from the deepest image). 
+
+'''Acknowledgements
+I want to thank you to my collaborators that provide me the samples I imaged during this course, mainly, Gemma Palazzolo, Janne Koivisto and Jyrki Sivula. I also want to thank to the organizers and all the Instructors of the EMBO practical course.
