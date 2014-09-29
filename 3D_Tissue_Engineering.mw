@@ -5,16 +5,6 @@ Can I use SPIM to image TE based in hydrogels?
 Can the samples be prepared inside FEP tubes?
 How deep I can image inside the gel without loosing resolution?
 
-==TE constructs of Gellan Gum with adipose stem cells==
-
-===The inlfuence of the FEP tubes===
-<gallery>
-File:Neurons1_maxProjection.png|[[User:Edite|Gellan Gum with adipose stem cells inside FEP tubes.]]
-File:Neurons3_maxProjection.png|[[User:Edite|Gellan Gum with adipose stem cells outside FEP tubes.]]
-</gallery>
-
-I imaged TE constructs of Gellan Gum with adipose stem cells inside and outside FEP tubes. The images are less blurry when the tube is not used, but Gellan Gum also affects the images.
-
 ==TE constructs of alginate with neurons==
 
 Rat primary cortical neurons derived and encapsulated in alginate hydrogel, maintained in culture for 5 days, stained with calcein AM (Invitrogen) and ﬁxed in 4% formaline. 
@@ -49,6 +39,15 @@ Rat primary cortical neurons derived and encapsulated in alginate hydrogel, main
 [[File:Neurons_6_3D.ogv|500px|thumb|none| 3D video. ]]
 
 
+==TE constructs of Gellan Gum with adipose stem cells==
+
+===The inlfuence of the FEP tubes===
+<gallery>
+File:Neurons1_maxProjection.png|[[User:Edite|Gellan Gum with adipose stem cells inside FEP tubes.]]
+File:Neurons3_maxProjection.png|[[User:Edite|Gellan Gum with adipose stem cells outside FEP tubes.]]
+</gallery>
+
+I imaged TE constructs of Gellan Gum with adipose stem cells inside and outside FEP tubes. The images are less blurry when the tube is not used, but Gellan Gum also affects the images.
 ==Conclusions==
 Although the TE constructs of alginate with neurons were not in good conditions (they were prepared 1 month before the imaging, and they were lost during the shipment for several days what resulted in the sedimentation of the neurons) and the stain used was not specific for the dendrites, the images look promising.
 From the images obtained, it can be clearly seen that better quality images were obtained with the thinner FEP tube. In the videos of the stacks we can also clearly see that there is a degradation of the images with the increasing of the depth (this videos start from the deepest image). 
