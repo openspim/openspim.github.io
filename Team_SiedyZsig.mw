@@ -1,4 +1,6 @@
 ==Projects==
+[[File:Fusion.ogv|200 px|thumb|Fusion of 12 registered views]] [[File:Deconvolution.ogv|200 px|thumb|Deconvolution of 12 registered views]]
+
 ===Studying MCF-10A morphogenesis in 3D cell culture===
 
 ====Imaging a fixed, large spheroid (&oslash; &asymp; 500 µm) on Zeiss Lightsheet Z.1====
@@ -20,23 +22,22 @@ Fortunately we decided not to fuse the two illuminations online during acquisiti
 
 Finally we registered all 12 views with nuclei and fused them. An additional deconvolution using beads to determine the PSF produced an even crisper image. However, we had to crop the image (and consequently cut part of the spheroid) in order to limit the required memory to the 108 GB RAM available.
 
-====Outlook: Overnight time-lapse imaging of living, 4-days-old spheroids (&oslash; &asymp; 50 µm) on Zeiss Lightsheet Z.1====
+====Overnight time-lapse imaging of living, 4-days-old spheroids (&oslash; &asymp; 50 µm) on Zeiss Lightsheet Z.1====
 
 * '''Sample preparation'''
   
-H2B-GFP cells were additionally labelled with the live-dye SiR-tubulin ([http://www.nature.com/nmeth/journal/v11/n7/full/nmeth.2972.html Lukinavičius et al. 2014]). They were embedded as single cells in Matrigel and injected into chambers made of either 1 % Gelrite or 1.5 % agarose. We incubated the chambers, and for the past four days the cells have been proliferating and forming small spheroids.
+H2B-GFP cells were additionally labelled with the live-dye SiR-tubulin ([http://www.nature.com/nmeth/journal/v11/n7/full/nmeth.2972.html Lukinavičius et al. 2014]). They were embedded as single cells in Matrigel and injected into chambers made of either 1 % Gelrite or 1.5 % agarose. We incubated the chambers and let the cells proliferate and form small spheroids for four days.
+
+In a second attempt we seeded single cells in Matrigel into FEP tubes, but they died of oxygen deficiency very quickly.
 
 * '''Imaging'''
 
-TBD
-
-* '''Results'''
-
-TBD
+Unfortunately the Gelrite/agarose chambers were too thick compared to the working distance of the imaging objective. Thus we could not take any images of living spheroids.
 
 
 
 --------
+
 ===Imaging of the two-photon laser-induced brain ablation in the zebrafish larvae===
 ====introduction and overview====
 I am interested in tissue regeneration in the zebrafish, especially brain regeneration after traumatic injury. In my PhD, I focus on immune cells that are main players in the inflammation because we characterized acute inflammation as a positive regulator of the brain regeneration. Considering dynamic property of those cells and days-long process of inflammation, obtaining spatio-temporal information microscopy in which specimen gets minimum photo-toxicity and photo-bleaching is an attracting topic of research. Therefore, we decided to study dynamics of immune cells by SPIM. <br>
