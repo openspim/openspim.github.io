@@ -1,5 +1,5 @@
 =Background=
-[[File:Tribolium.png|180px|thumb|right|Fig 1. The red flour beetle ''Tribolium castaneum'']]
+[[File:Tribolium.png|160px|thumb|right|Fig 1. The red flour beetle ''Tribolium castaneum'']]
 Embryonic development of most pterygote (winged) insects includes the formation and morphogenesis of two distinct extraembryonic epithelial sheets: the serosa and the amnion (reviewed in [[#Panfilio2008 |Panfilio 2008]] and [[#SchmidtOtt_etal_2010|Schmidt-Ott et al. 2010]]). In ''Drosophila'' these tissues are secondarily reduced and have evolved into what is called the amnioserosa. Therefore, despite extensive literature on the ''Drosophila'' amnioserosa (e.g. [[#Lynch_etal_2013|Lynch et al 2013]]), other insect models such as the red flour beetle ''Tribolium castaneum'' (Fig. 1) need to be explored in order to further our understanding of the development and evolution of insect extraembryonic membranes.
 
 
@@ -14,11 +14,9 @@ Live imaging of ''Tribolium'' using conventional microscopy generally involves f
 
 =Experiments=
 
-==Five angle multiview time lapse on the Zeiss Lightsheet Z.1 ==
+==Five angle multiview time lapse==
 [[File:embedded_embryo1.png|100px|thumb|right|Fig 2. Embryo embedded with its main body axis parallel to the axis of rotation]]
-This experiment was performed using the F1 progeny of a cross between female G12424 and male G04609 beetles, kept at 32 degrees according to [http://wwwuser.gwdg.de/~gbucher1/tribolium-castaneum-beetle-book1.pdf standard methods]. One live embryo, at about 50hrs AEL, was embedded in 1% LM agarose in 1x PBS in a glass capillary (red label). It was then imaged on a Zeiss Lightsheet Z.1 using the 20x/1.0 detection objective, zoom factor 0.6x, with dual side illumination. Fusion of both illuminations was performed within the ZEN 2014 application ("live fusion"). The embryo was rotated around its main body axis in order to record five different angles, equally spaced over 360 degrees [Figure 2].In total, 73 time points were imaged at 10 minute intervals. The resulting dataset had a total size of about 470 GB.
-
-
+This experiment was performed using the F1 progeny of a cross between female G12424 and male G04609 beetles, kept at 32 degrees according to [http://wwwuser.gwdg.de/~gbucher1/tribolium-castaneum-beetle-book1.pdf standard methods]. One live embryo, at about 50hrs AEL, was embedded in 1% LM agarose in a glass capillary (red label). It was then imaged on a Zeiss Lightsheet Z.1 using the 20x/1.0 detection objective, zoom factor 0.6x, with dual side illumination. Fusion of both illuminations was performed within the ZEN 2014 application ("live fusion"). The embryo was rotated around its main body axis in order to record five different angles, equally spaced over 360 degrees [Figure 2]. For each angle, a z-stack was collected ranging from just outside the embryo up to centre of the embryo. In other words, each stack covered about halve the embryo. In total, 73 time points were imaged at 5 minute intervals. Each angle and each time point were recorded as separate files. The resulting dataset had a total size of about 470 GB.
 
 
 
@@ -27,13 +25,44 @@ This experiment was performed using the F1 progeny of a cross between female G12
 
 ===Data analysis===
 
-[[File:DataAnalysisWorkflow.png|160|thumb|right|Fig 3. Workflow diagram]]
-[[File:TP35_5views.png|160|thumb|right|Fig 4. Five different views]]
+[[File:TP35_5views.png|160|thumb|right|Fig 3. Maximum intensity projection of five different angles at time point 35]]
+[[File:Bead_based_registration.png|160|thumb|right|Fig 4. Screenshots of BigDataViewer illustrating poor bead-based multiview registration]]
+[[File:Segmentation_based_registration.png|160|thumb|right|Fig 5. Segmentation based registration worked better for this dataset]]
 
-Data analysis was performed with Fiji. The first step was therefore to convert the Zeiss proprietary format .czi to .tif [Fig. 3]. 
+
+
+Data analysis was performed using Fiji plugins [http://fiji.sc/Multiview-Reconstruction Multiview-Reconstruction] and [http://fiji.sc/BigDataViewer BigDataViewer]. Initial analysis was done on time point 35, which would later serve as a reference time point for the whole time lapse. As a first step, files were converted from .czi to .tif, and maximum intensity projections were made for each of the five views [Fig. 3]. 
+
+Next, beads were detected and used to register the stacks taken from different angles. Subsequently, the BigDataViewer plugin was used to visualize the registration. When different view colors are set for the different angles, it becomes apparent that the bead based registration did not perform perfectly: beads are registered well, but the different views of the embryo appear slightly non-overlapping [Fig. 4]. Segmentation based registration turned out to be clearly better for this dataset [Fig. 5]. 
+
+
+
 
 
 (to be continued)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 =Literature=
 
