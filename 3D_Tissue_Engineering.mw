@@ -41,13 +41,31 @@ Rat primary cortical neurons derived and encapsulated in alginate hydrogel, main
 
 ==TE constructs of Gellan Gum with adipose stem cells==
 
-===The inlfuence of the FEP tubes===
-<gallery>
-File:Neurons1_maxProjection.png|[[User:Edite|Gellan Gum with adipose stem cells inside FEP tubes.]]
-File:Neurons3_maxProjection.png|[[User:Edite|Gellan Gum with adipose stem cells outside FEP tubes.]]
-</gallery>
+===Sample fixed in FEP tubes with 0.5 mm===
 
-I imaged TE constructs of Gellan Gum with adipose stem cells inside and outside FEP tubes. The images are less blurry when the tube is not used, but Gellan Gum also affects the images.
+'''Image parameters
+*Dimensions (um): x- 552; y - 552; z - 59
+*Objective: 10X, NA = 1
+*Light Sheet thickness: 5.07 um
+*Illumination wavelenght: 488 and 561 nm
+
+[[File:Neurons1_maxProjection.png|500px|thumb|none| Maximum intensity projection.]]
+
+[[File:Neurons1Modificada3D.ogv|500px|thumb|none| 3D video.]]
+
+
+===Sample imaged without the FEP tube===
+
+'''Image parameters
+*Dimensions (um): x- 1226; y - 1226; z - 731
+*Objective: 10X, NA = 1
+*Light Sheet thickness: 6.11 um
+*Illumination wavelenght: 488 and 561 nm
+
+[[File:Neurons3_maxProjection.png|500px|thumb|none| Maximum intensity projection. ]]
+
+[[File:Neurons3_3D.ogv|500px|thumb|none| 3D video. ]]
+
 ==Conclusions==
 Although the TE constructs of alginate with neurons were not in good conditions (they were prepared 1 month before the imaging, and they were lost during the shipment for several days what resulted in the sedimentation of the neurons) and the stain used was not specific for the dendrites, the images look promising.
 From the images obtained, it can be clearly seen that better quality images were obtained with the thinner FEP tube. In the videos of the stacks we can also clearly see that there is a degradation of the images with the increasing of the depth (this videos start from the deepest image). 
