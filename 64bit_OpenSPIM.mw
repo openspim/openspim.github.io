@@ -12,7 +12,7 @@ In the meantime, you can get a nightly build. Please be aware that this build mi
 
 For using Andor's sCMOS cameras, take the following steps:
 
-* install Andor's Driver Pack (get it [http://www.andor.com/downloads?src=micro here] to the directory where you put mFiji
+* install Andor's Driver Pack (get it [http://www.andor.com/downloads?src=micro here] to the directory where you put mFiji)
 * disable C-states in BIOS
 * in _Control Center > Power Options > PCI express_ disable _Link state power management_
 * reboot your computer and turn the camera on and off again
