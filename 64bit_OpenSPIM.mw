@@ -1,10 +1,18 @@
-As of April 27th, there is an official (but untested) 64-bit version of the OpenSPIM package [[Downloads|available for download]].
+We are currently refactoring the OpenSPIM plugin, so it works on recent MicroManager versions and 64bit Windows. After this is completed, OpenSPIM will only be a plugin and no specifically-tailored version of MicroManager will be needed.
 
-== Use with Andor sCMOS (Neo and Zyla) ==
+In the meantime, you can get a nightly build. Please be aware that this build might be not as stable as the already released OpenSPIM version.
+
+# Installation
+
+* make sure you have the latest JRE for Java 8 (find it at http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
+* get the mFiji (MicroManager paired with Fiji) build from http://www.mpi-cbg.de/~gunther/OpenSPIM/mFiji.zip and extract it to some folder on your harddisk
+* get the OpenSPIM plugin from http://www.mpi-cbg.de/~gunther/OpenSPIM/SPIMacquisition.jar and copy it to the _mmplugins/_ folder beneath the mFiji folder 
+
+# Use with Andor sCMOS (Neo and Zyla)
 
 For using Andor's sCMOS cameras, take the following steps:
 
-* install Andor's Driver Pack (get it [http://www.andor.com/downloads?src=micro here] to the directory where you put mFiji)
+* install Andor's Driver Pack (get it [http://www.andor.com/downloads?src=micro here] to the directory where you put mFiji
 * disable C-states in BIOS
 * in _Control Center > Power Options > PCI express_ disable _Link state power management_
 * reboot your computer and turn the camera on and off again
