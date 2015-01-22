@@ -2,13 +2,13 @@ We are currently refactoring the OpenSPIM plugin, so it works on recent MicroMan
 
 In the meantime, you can get a nightly build. Please be aware that this build might be not as stable as the already released OpenSPIM version.
 
-# Installation
+== Installation ==
 
 * make sure you have the latest JRE for Java 8 (find it at http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
 * get the mFiji (MicroManager paired with Fiji) build from http://www.mpi-cbg.de/~gunther/OpenSPIM/mFiji.zip and extract it to some folder on your harddisk
 * get the OpenSPIM plugin from http://www.mpi-cbg.de/~gunther/OpenSPIM/SPIMacquisition.jar and copy it to the _mmplugins/_ folder beneath the mFiji folder 
 
-# Use with Andor sCMOS (Neo and Zyla)
+== Use with Andor sCMOS (Neo and Zyla) ==
 
 For using Andor's sCMOS cameras, take the following steps:
 
