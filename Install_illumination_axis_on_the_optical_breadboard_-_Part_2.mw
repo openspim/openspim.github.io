@@ -100,6 +100,10 @@ Install the vertical slit assembly on the 300 mm dovetail rail 50 mm behind the 
 
 The purpose of this simple telescope is to make the back focal plane (BFP) of the water dipping illumination objective conjugate to the 1" mirror. It is accomplished using a magnification of 2x. It also makes adjusting the light sheet much easier than mounting the cylindrical lens directly to the back of the objective, by adjusting the mirror you adjust where the light sheet is at by a turn of a knob (or three...).
 
+'''Note 1''': it is important that the lenses of this telescope are placed at correct distances from the cylindrical lens and the objective. The beam has to be focused to a horizontal line exactly on the BFP of the microscope objective. Only this way a thin light sheet with a constant height will be generated after the objective.
+
+'''Note 2''': if you are using a different objective and you are not sure about the correct distances, you can use the following trick: remove the cylindrical lens and install the second lens of the BFP. Adjust the distance between the lens and the objective so that a perfectly collimated round beam exits the objective. This is the case only if the lens is exactly one focal length from the BFP of the objective.
+
 === Install the first lens of the BFP telescope in its proper place ===
 
 ===== Objects needed =====
