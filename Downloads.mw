@@ -28,6 +28,8 @@ After unpacking it onto the ''Desktop'':
 
 '''Note 2:''' OpenSPIM ships with compiled and tested versions of only ''some'' micro-manager hardware drivers. To add your other hardware, look at  [[FAQ#Debugging|this page]].
 
+'''Note 3:''' For a 64-bit version, see [[64bit_OpenSPIM|here]].
+
 = Initial hardware configuration =
 
 When Micro-Manager is first started, it will prompt the user to select a hardware configuration       
