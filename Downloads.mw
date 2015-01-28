@@ -1,6 +1,6 @@
 = Prerequisites =
 
-You need a Windows XP 32-bit computer to run the OpenSPIM software. Windows 7 and 8 are unfortunately [[FAQ#Can_I_run_OpenSPIM_with_Windows_7_or_8.3F|'''not''' supported]] as of OpenSPIM version 1.0.
+You need a Windows XP 32-bit computer to run the OpenSPIM software. Windows 7 and 8 are unfortunately [[FAQ#Can_I_run_OpenSPIM_with_Windows_7_or_8.3F|'''not''' supported]] as of OpenSPIM version 1.0. (for 64 bit, see [[64bit_OpenSPIM|here]]).
 
 Most of the drivers are shipped within [http://micro-manager.org/ µManager], bundled in our OpenSPIM software. However, some µManager drivers require separate installations (such as, in the case of the OpenSPIM version 1.0 setup, the camera driver).
 
