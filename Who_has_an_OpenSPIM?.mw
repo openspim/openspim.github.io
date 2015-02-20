@@ -48,10 +48,10 @@ Feel free to edit this page with information about your system! (If you do not h
 
 = Berlin, Germany =
 [[File:OpenSPIM_Berlin_top_view.png|300px|thumb|right|OpenSPIM at Humboldt University Berlin]]
-* The Scholtz group at the [https://www2.hu-berlin.de/biologie/zoologie?l=_e Humboldt University Berlin]. 
-* We are interested in morphogenetic processes during early development of arthropods like the water flea Daphnia magna or the woodlouse Porcellio scaber and use the OpenSPIM system for live imaging experiments. We implemented a Coherent Obis 561 nm laser and a Hamamatsu OrcaFlash4 sCMOS camera. The sample chamber is already made for dualside-illumination (2x 10x illumination and 16x detection), at the moment it only has one side illumination. Additionally we integrated a Nikon-module that allows us to change magnification (1x, 1,25x, 1,5x, 2x) easily.
-
-*More pictures to come!
+* The Scholtz group at the [http://www2.hu-berlin.de/biologie/zoologie/carsten_wolff/carsten.html?l=_e Humboldt University Berlin]. 
+* I am interested in morphogenetic processes during early development of arthropods like the water flea Daphnia magna, the woodlouse Porcellio scaber or the beachhopper Parhyale hawaiensis. Using the SPIM technique for live imaging experiments enables us to observe dynamic and complex processes like gastrulation and beginning morphogenesis. 
+* We implemented a Coherent Obis 561 nm laser and a Hamamatsu OrcaFlash4 sCMOS camera into the OpenSPIM system. The system runs at the moment with just one-side illumination. However, the sample chamber is already made for dual-side illumination (2x 10x illumination and 16x detection). Additionally we integrated a Nikon-module that allows us to increases our range of magnification (1x, 1,25x, 1,5x, 2x).
+* More pictures to come!
 
 <br clear="all" />
 
