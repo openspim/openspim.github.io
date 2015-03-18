@@ -3,9 +3,9 @@
 
 == Setup ==
 
-* install JDK 8 from http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-* install the latest Fiji version ''without JRE'' from http://fiji.sc
-* of course, install IntelliJ from http://jetbrains.com
+* install JDK 8 (or earlier, JDK 6 is best if you want to be compatible with all OpenSPIM installations) from http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+* install the latest Fiji version ''without JRE'' from http://fiji.sc/Downloads#Fiji
+* install IntelliJ from http://jetbrains.com
 * start Fiji and add the MicroManager-dev update site via ''Help > Update... > Manage Update Sites > Add'' - the address of the update site is http://sites.imagej.net/Micro-Manager-dev/
 * restart Fiji to install the MicroManager components fully.
 
