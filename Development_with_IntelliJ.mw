@@ -13,9 +13,9 @@
 
 * acquire the SPIMAcquisition source code via git clone from https://github.com/openspim/spimacquisition
 * import the folder you just cloned into IntelliJ as a Maven project.
-* in the Module settings (reachable via right-click on the project or by pressing `F4`), add both directories `[Fiji]/jars` and `[Fiji]/plugins/Micro-Manager` to ''Global Libraries''.
+* in the Module settings (reachable via right-click on the project or by pressing <code>F4</code>), add both directories <code>[Fiji]/jars</code> and <code>[Fiji]/plugins/Micro-Manager</code> to ''Global Libraries''.
 * in the Module settings, go to ''Artifacts'' and add a ''JAR'' artifact with ''From modules with dependencies''. Choose SPIMacquisition as main class.
-* the module is now ready to build - click _Build > Make Project_ or _Build > Build artefacts..._ - the output JAR will be put in the folder ''out/artifacts/SPIMacquisition_JAR'' with the name `SPIMacquisition.jar` - you can copy this file then to `[Fiji]/mmplugins` and use it in MicroManager
+* the module is now ready to build - click ''Build > Make Project'' or ''Build > Build artefacts...'' - the output JAR will be put in the folder <code>out/artifacts/SPIMacquisition_JAR</code> with the name <code>SPIMacquisition.jar</code> - you can copy this file then to <code>[Fiji]/mmplugins</code> and use it in MicroManager.
 
 
 == Debugging with IntelliJ and VisualVM ==
