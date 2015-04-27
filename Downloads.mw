@@ -12,10 +12,10 @@ If you have a QImaging camera, [http://www.qimaging.com/support/downloads/ downl
 
 = Installing the OpenSPIM/Fiji package =
 
-This is a [http://fiji.sc/ Fiji] package updated with the OpenSPIM [http://fiji.sc/Update_Sites update site]: ''http://openspim.org/update/'', as of April 26th, 2015:
+This is a [http://fiji.sc/ Fiji] package updated with the OpenSPIM [http://fiji.sc/Update_Sites update site]: ''http://openspim.org/update/'', as of April 27th, 2015:
 
-[http://openspim.org/downloads/OpenSPIM-20150426.zip OpenSPIM-20150426.zip]
-
+[http://openspim.org/downloads/OpenSPIM-20150426.zip OpenSPIM-20150426.zip (32-bit)] 
+[http://openspim.org/downloads/OpenSPIM-20150427.zip OpenSPIM-20150427.zip (64-bit)] 
 
 
 After unpacking it onto the ''Desktop'':
@@ -24,11 +24,7 @@ After unpacking it onto the ''Desktop'':
 # Install the camera driver (see below).
 # Run Micro-Manager: ''Plugins>Micro-Manager>Micro-Manager Studio''.
 
-'''Note 1:''' if you are interested in building the software from scratch so you can modify it to your heart's extent, please have a look at [[How_to_build_the_software#The_easy_way|this page]].
-
-'''Note 2:''' OpenSPIM ships with compiled and tested versions of only ''some'' micro-manager hardware drivers. To add your other hardware, look at  [[FAQ#Debugging|this page]].
-
-'''Note 3:''' For a 64-bit version, see [[64bit_OpenSPIM|here]].
+'''Note:''' if you are interested in building the software from scratch so you can modify it to your heart's extent, please have a look at [[How_to_build_the_software#The_easy_way|this page]].
 
 = Initial hardware configuration =
 
