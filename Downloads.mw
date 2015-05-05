@@ -1,6 +1,20 @@
-= Prerequisites =
+= Installing the OpenSPIM/Fiji package =
 
-You need a Windows XP 32-bit computer to run the OpenSPIM software. Windows 7 and 8 are unfortunately [[FAQ#Can_I_run_OpenSPIM_with_Windows_7_or_8.3F|'''not''' supported]] as of OpenSPIM version 1.0. (for 64 bit, see [[64bit_OpenSPIM|here]]).
+This is a [http://fiji.sc/ Fiji] package updated with the OpenSPIM [http://fiji.sc/Update_Sites update site]: ''http://openspim.org/update/'', as of April 27th, 2015:
+
+[http://openspim.org/downloads/OpenSPIM-20150426.zip OpenSPIM-20150426.zip (32-bit)] 
+[http://openspim.org/downloads/OpenSPIM-20150427.zip OpenSPIM-20150427.zip (64-bit)] 
+
+Installation:
+# Download and unpack the right (32bit/64bit) OpenSPIM-... .zip 
+# Launch Fiji: in the ''OpenSPIM.app/'' folder, open ''ImageJ-win32.exe'' (or ''-win64.exe'').
+# Update Fiji (and OpenSPIM & µManager): ''Help>Update Fiji'' (or simply choose ''Yes, please'' if you are asked to update).
+# Install the camera driver if needed (see below).
+# Run Micro-Manager: ''Plugins>Micro-Manager>Micro-Manager Studio''.
+
+'''Note:''' if you are interested in building the software from scratch so you can modify it to your heart's extent, please have a look at [[How_to_build_the_software#The_easy_way|this page]].
+
+= Drivers =
 
 Most of the drivers are shipped within [http://micro-manager.org/ µManager], bundled in our OpenSPIM software. However, some µManager drivers require separate installations (such as, in the case of the OpenSPIM version 1.0 setup, the camera driver).
 
@@ -9,22 +23,6 @@ Most of the drivers are shipped within [http://micro-manager.org/ µManager], bu
 Theoretically, OpenSPIM works with all cameras supported by [http://micro-manager.org/ µManager]. However, OpenSPIM version 1.0 refers to the setup that has a [http://www.hamamatsu.com/eu/en/community/life_science_camera/index.html Hamamatsu ORCA] camera. For such a setup, you need to [http://www.dcamapi.com/ download and install the DCAM driver].
 
 If you have a QImaging camera, [http://www.qimaging.com/support/downloads/ download and install the QImaging drivers].
-
-= Installing the OpenSPIM/Fiji package =
-
-This is a [http://fiji.sc/ Fiji] package updated with the OpenSPIM [http://fiji.sc/Update_Sites update site]: ''http://openspim.org/update/'', as of April 27th, 2015:
-
-[http://openspim.org/downloads/OpenSPIM-20150426.zip OpenSPIM-20150426.zip (32-bit)] 
-[http://openspim.org/downloads/OpenSPIM-20150427.zip OpenSPIM-20150427.zip (64-bit)] 
-
-
-After unpacking it onto the ''Desktop'':
-# Launch Fiji: in the ''Fiji.app/'' folder, open ''ImageJ-win32.exe''.
-# Update Fiji (and OpenSPIM & µManager): ''Help>Update Fiji''.
-# Install the camera driver (see below).
-# Run Micro-Manager: ''Plugins>Micro-Manager>Micro-Manager Studio''.
-
-'''Note:''' if you are interested in building the software from scratch so you can modify it to your heart's extent, please have a look at [[How_to_build_the_software#The_easy_way|this page]].
 
 = Initial hardware configuration =
 
