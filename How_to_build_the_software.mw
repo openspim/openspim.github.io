@@ -49,7 +49,7 @@ After installing [http://msdn.microsoft.com/en-us/express/future/bb421473 Visual
 
  vcexpress.sh
 
-and then open the µManager project via ''File>Open>Project/Solution...''. The file to load is located in ''<development-environment>\src\micromanager\MMCoreJ_wrap'' and is called ''MMCoreJ_wrap_v10.sln'' (there is a "solution" and a "project", you want the "solution"; please be sure to open ''MMCoreJ_wrap'''_v10'''.sln'').
+and then open the µManager project via ''File>Open>Project/Solution...''. The file to load is located in ''<development-environment>\src\micromanager'' and is called ''micromanager.sln''.
 
 Build all of the software by clicking on ''Build>Build Solution'' or by pressing the F7 key.
 
