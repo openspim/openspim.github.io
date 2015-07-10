@@ -1,3 +1,5 @@
+OpenSPIM's software is based on the [http://fiji.sc/ Fiji], [http://imagej.net ImageJ] and [http://micro-manager.org Micro-Manager] projects. Micro-Manager is backed by the [https://open-imaging.com/ OpenImaging] company.
+
 = Sample preparation =
 
 * Emmanuel Reynaud's [http://www2.bioch.ox.ac.uk/microngroup/resources/lightsheet_sample_prep.pdf Light-sheet sample preparation white paper]
