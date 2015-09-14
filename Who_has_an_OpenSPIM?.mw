@@ -67,3 +67,12 @@ Feel free to edit this page with information about your system! (If you do not h
 * More pictures to come!
 
 <br clear="all" />
+
+= Oulu, Finland =
+[[File:OpenSPIM_Oulu_top_view.jpg|300px|thumb|right|OpenSPIM at the University of Oulu.]]
+* The [http://www.oulu.fi/biocenter/lm Light Microscopy Core Facility, at the Biocenter Oulu and the University of Oulu].
+* Modified T-SPIM: dual side illumination with Vortran Stradus 488nm and 561nm lasers, ScopeLed G180 for bright field/transmitted light imaging, Olympus UMPLFLN 20X/0.5 W and Olympus LUMPLFLN 40X/0.8 W detection objectives, Hamamatsu ORCA-Flash 4.0 V2 camera.
+* Temperature, CO2 and O2 controlled liquid exchange/perfusion system for live cell imaging.
+* OpenSPIM has been used for live cell imaging: different cell types and spheroids in different 3D culture matrices, e.g. in Matrigel, collagen, myogel and fibrin mounted inside FEP tubes, and also for imaging living mouse skin cancer biopsies. It has also been used for whole mount stained and/or transgenic (expressing tdTomato, GFP, mCherry…) fixed samples, typically mouse embryonic kidneys, pieces of adult mouse tissues like heart, liver, fat, lung etc. 
+
+<br clear="all" />
