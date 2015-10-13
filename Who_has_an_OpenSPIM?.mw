@@ -76,3 +76,19 @@ Feel free to edit this page with information about your system! (If you do not h
 * OpenSPIM has been used for live cell imaging: different cell types and spheroids in different 3D culture matrices, e.g. in Matrigel, collagen, myogel and fibrin mounted inside FEP tubes, and also for imaging living mouse skin cancer biopsies. It has also been used for whole mount stained and/or transgenic (expressing tdTomato, GFP, mCherry…) fixed samples, typically mouse embryonic kidneys, pieces of adult mouse tissues like heart, liver, fat, lung etc. 
 
 <br clear="all" />
+
+= Indianapolis, IN, USA =
+[[File:OpenSPIM_IUSM_LCDs.jpg|300px|thumb|right|OpenSPIM at IUSM.]]
+[[File:OpenSPIM_IUSM_Chamber_illuminated.jpg|300px|thumb|right|IU OpenSPIM chamber with oblique illumination.]]
+* The [http://web.medicine.iupui.edu/icbm/ Indiana Center for Biological Microscopy at Indiana University School of Medicine].
+* We extended the base L-SPIM design for use in a core facility by including additional excitation wavelengths and support for live imaging.  We are imaging with an ORCA Flash 4.0 v2 using CameraLink.
+* To support more fluorophores we incorporated five laser lines (442, 488, 514, 568 and 647 nm) with AOTF modulation controlled via an [https://www.arduino.cc Arduino] based [http://www.ti.com/product/tlv5618a 6 channel  DAC].  Emission wavelength filtering is with a workhorse [http://www.sutter.com/IMAGING/lambda102.html Sutter Lambda 10-2].  Multichannel acquisition is fully controlled (AOTF, filter wheels, etc) by a custom version of the SPIM Acquisition Plugin and derivations of the Arduino device adapter for MicroManager.  To assess laser power, a motorized mirror and ThorLabs detector have been incorporated prior to beam shaping.
+*To support live imaging we have incorporated a perfusion and temperature control system into the standard L-SPIM chamber(no drilling etc.) built with off-the-shelf components (shout-out to [http://www.adafruit.com Adafruit] and [http://www.sparkfun.com Sparkfun]).  It is Arduino based and relies on a bunch of pumps and thermistors.  MicroManager integration and a CO2 loop is in the works (anyone with experience implementing [http://www.mouser.com/ProductDetail/Amphenol-Advanced-Sensors/T6615-50K/?qs=sGAEpiMZZMvhkhGuTKDegrl2ezYd2qTk amphenol CO2 sensors]?).
+* Our OpenSPIM is fully contained to simplify laser safety. To facilitate alignment and sample positioning a secondary camera driven by a [https://www.raspberrypi.org RaspberryPi] provides a live image of the chamber with oblique RGB LED illumination from an Arduino and PWM via the 16 channel [http://playground.arduino.cc/Learning/TLC5940 TLC5940].
+* To aid in sample positioning a knob bar is under development with four free-turning knobs-one for each axis with position feed-back.
+* IU OpenSPIM has been used for imaging of Zebrafish (live heart-beat and fixed and cleared tissue), organoids, and tissue samples including rat kidneys-most in FEP tubing.  It has also been a testbed for new technologies and methodologies.  
+
+
+*Links to schematics, Arduino firmware, PCB designs, MicroManager device adapters coming soon!
+
+<br clear="all" />
