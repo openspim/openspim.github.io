@@ -7,7 +7,7 @@ Strategies to implement a proper brightfield illumination in an OpenSPIM.
 * 20 cent green diode
 * Arduino
 * 10K potentiometer
-* 100 Ohm  esistor
+* 100 Ohm  resistor
 
 === setup & wiring ===
 
