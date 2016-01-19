@@ -25,6 +25,7 @@ Theoretically, OpenSPIM works with all cameras supported by [http://micro-manage
 If you have a QImaging camera, [http://www.qimaging.com/support/downloads/ download and install the QImaging drivers].
 
 = Initial hardware configuration =
+
 When Micro-Manager is first started, it will prompt the user to select a hardware configuration       
 (defaulting to ''none'').
 
