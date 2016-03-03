@@ -1,1 +1,15 @@
-This page concerns optical tissue clearing and imaging in a SPIM setup.
+This page concerns optical tissue clearing (that is, rendering it transparent in order to image deeper) and imaging in a setup based on OpenSPIM.
+
+=Tissue clearing=
+
+
+
+=Immersion media=
+
+Generally cleared tissue has a higher refractive index than water. To prevent losing focus when moving the sample, you have to use immersion medium with the same RI as the sample.
+
+=Objectives & chambers =
+
+Optimally, an immersion objective matched to the tisse refractive index should be used. Such objectives exist (by Zeiss, Olympus and Leica at the time of writing), but are very expensive.
+
+=Sample mounting=
