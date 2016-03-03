@@ -10,6 +10,6 @@ Generally cleared tissue has a higher refractive index than water. To prevent lo
 
 =Objectives & chambers =
 
-Optimally, an immersion objective matched to the tissue refractive index should be used. Such objectives exist (by Zeiss, Olympus and Leica at the time of writing), but are very expensive.
+Optimally, an immersion objective matched to the tissue refractive index should be used. Such objectives exist (by Zeiss, Olympus and Leica at the time of writing), but are very expensive. Long working distance air and water objectives can be used as well, but their performance will be somewhat limited by aberrations. Keep in mind that working distance changes if the immersion medium RI changes - this has to be taken into account when designing the setup.
 
 =Sample mounting=
