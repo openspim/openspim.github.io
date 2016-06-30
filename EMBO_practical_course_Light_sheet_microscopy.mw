@@ -1,5 +1,5 @@
 <div style="float: right; top: -10px;">
-<include iframe width="500" height="300" src="http://openspim.org/twitter-feed.html" frameborder="0" /> 
+{{#widget:twitter|id=500671904034725888|hashtag=LISH2014|width=150}}
 <center>[https://storify.com/tomancak/embo-practical-course-on-light-sheet-microscopy#publicize Storified twitter feed]</center>
 </div>
 [[Image:EMBO PracticalCourse stamp web DARK.jpg|frameless|left|100px]]
