@@ -92,3 +92,13 @@ Feel free to edit this page with information about your system! (If you do not h
 *Links to schematics, Arduino firmware, PCB designs, MicroManager device adapters coming soon!
 
 <br clear="all" />
+
+----
+
+=Whole-brain imaging based on OpenSPIM, Warsaw, Poland = 
+
+* Using OpenSPIM as the starting point, we developed a cleared-tissue imaging SPIM system using dry 4X/0.13 Nikon objectives with WD of 17 mm, or about 25 mm in immersion
+* We use 3D printed chambers for CLARITY- and CUBIC-cleared tissue and glass cuvettes for BABB-cleared tissue
+* Recently we replaced the Picard stage with one by Standa, with greatly increased speed and travel range at comparable cost
+* Ar-Ion laser (458/488/515 nm with manual filter wheel for wavelength selection) used for illumination
+* we have demonstrated whole mouse and rat brain imaging (see [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4911560/|paper])
