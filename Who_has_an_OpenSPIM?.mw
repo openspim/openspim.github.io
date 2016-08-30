@@ -104,3 +104,15 @@ Feel free to edit this page with information about your system! (If you do not h
 * Also recently a second illumination arm was added, converting the setup from the L to the T configuration
 * Ar-Ion laser (458/488/515 nm with manual filter wheel for wavelength selection) used for illumination
 * we have demonstrated whole mouse and rat brain imaging (see [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4911560/|paper])
+
+
+<br clear="all" />
+
+= Newcastle (HMRI/UoN), Australia =
+
+* The 3D Tissue Clearing and Lightsheet Microscopy Facility (HMRI/UoN).
+* Our focus is on the development and progression of 3D histology in medical and plant sciences.
+* Imaging is performed with an OpenSPIM-based T-SPIM with Hammamatsu Orca Flash, Arduino controlled 405, 473 and 532nm CNI lasers, and Thorlabs emission filters and dichroics
+* Picard 4D stage controlled by wireless 3D 'spacemouse' - highly recommended.
+* Controlled via Micromanager, with 3D dataprocessing performed with FIJI, Terastitcher and Vaa3D using the UoN HPC Cluster
+* Currently building a new SPIM incorporating a digitally scanned lightsheet (to take advantage of the lightsheet mode of the Orca Flash), two Nikon x4 Plan Fluorite illumination objectives (17mm WD), 1" optics, enlarged chamber, and a long working distance RI corrected detection objective for imaging large, cleared tissues
