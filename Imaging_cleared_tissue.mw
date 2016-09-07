@@ -23,3 +23,7 @@ Generally cleared tissue has a higher refractive index than water. To prevent lo
 Optimally, an immersion objective matched to the tissue refractive index should be used. Such objectives exist (by Zeiss, Olympus and Leica at the time of writing), but are very expensive. Long working distance air and water objectives can be used as well, but their performance will be somewhat limited by aberrations. Keep in mind that working distance changes if the immersion medium RI changes - this has to be taken into account when designing the setup.
 
 =Sample mounting=
+
+For confocal or two-photon microscopy, a chamber with depth equal to the sample thickness should be be used. For designs see: [http://wiki.claritytechniques.org/index.php/Sample_Mounting#Whole_brain_mounting_for_confocal_imaging CLARITYT Wiki], [https://idiscodotinfo.files.wordpress.com/2015/03/idisco-whole-mount-staining-bench-protocol-may-2016.pdf iDISCO protocol], [http://openspim.org/images/a/a8/3D_Tissue_Clearing_Handbook_3rd_Ed.pdf HMRI/UoN handbook]
+
+For SPIM, the sample had to be suspended in a chamber filled with immersion medium. One way to do it is glue the sample to a glass slide mounted in a holder that in turn is mounted in the SPIM setup in place of the capillary.
