@@ -2,7 +2,17 @@ This page concerns optical tissue clearing (that is, rendering it transparent in
 
 =Tissue clearing=
 
-There now exist a range of tissue clearing techniques for both mammalian and plant tissues. For a summary of various clearing techniques, and detailed instructions for performing CLARITY (excellent for neural tissue), please consult the following manual compiled by the 3D Tissue Clearing and Lightsheet Microscopy Facility (HMRI/UoN) [[Media:3D_Tissue_Clearing_Handbook_3rd_Ed.pdf]]
+There now exist a range of tissue clearing techniques for both mammalian and plant tissues. From imaging point of view, they fall into two categories:
+* solvent-based methods (BABB, ...DISCO) result in refractive index in the 1.55-1.56 range. These methods usually lead to sample shrinkage. The solvents are incompatible with most objectives and materials.
+* hydrogel and other aqueous methods (CLARITY, Scale, CUBIC etc. ) yield samples with refractive index 1.47-1.49. Samples often swell. Ordinary immersion objectives can be used.
+
+==Online resources for tissue clearing protocols==
+
+* For a summary of various clearing techniques, and detailed instructions for performing CLARITY (excellent for neural tissue), please consult the following manual compiled by the 3D Tissue Clearing and Lightsheet Microscopy Facility (HMRI/UoN) [[Media:3D_Tissue_Clearing_Handbook_3rd_Ed.pdf]]
+
+* [http://clarityresourcecenter.org/ CLARITY resource center]
+
+* [https://idisco.info/ iDISCO method]
 
 =Immersion media=
 
