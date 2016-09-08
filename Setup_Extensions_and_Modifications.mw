@@ -1,0 +1,7 @@
+= Bright-field illumination =
+
+Michael Redd from the Cell Imaging Core Facility at the University of Utah put together an Arduino-based solution to get proper bright-field illumination in an OpenSPIM setup: [[Brightfield]].
+
+= Shutter =
+
+Instructions to make an Arduino-controlled shutter compatible with uManager: [http://george.ph.utexas.edu/~meyrath/informal/shutter.pdf paper by Todd P. Meyrath] and [https://micro-manager.org/wiki/Control_laser_shutters_with_Arduino tutorial on the uManager page].
