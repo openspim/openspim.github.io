@@ -5,3 +5,54 @@ Michael Redd from the Cell Imaging Core Facility at the University of Utah put t
 = Shutter =
 
 Instructions to make an Arduino-controlled shutter compatible with uManager: [http://george.ph.utexas.edu/~meyrath/informal/shutter.pdf paper by Todd P. Meyrath] and [https://micro-manager.org/wiki/Control_laser_shutters_with_Arduino tutorial on the uManager page].
+
+= OpenSPIM for large samples = 
+
+==Field of view==
+
+The original OpenSPIM uses a 2X expander to enlarge the laser beam to 2 mm. For larger samples a larger field of view can be preferable. This means that you will need a larger beam to create a taller light sheet. Change the second beam expander lens to f=75 mm or 100 mm and increase the distance between lenses accordingly.
+
+==Objectives==
+
+Immersion objectives with long working distance are hard to find. However, at low NA and moderate magnification, a dry objective will also work; the higher NA, the more spherical aberrations will be present. Keep in mind that when using a dry objective in immersion, the WD will increase (approximately by a factor equal to the RI of the new medium, eg. 17 mm in air will increase to  22.6 mm in water).
+
+==Example parts list==
+
+The table below lists the parts used by the OpenSPIM for brains setup built by Monika Pawłowska (Nencki Institute of Experimental Biology, Warsaw).
+
+
+{| class="wikitable sortable" border="1"
+|-
+! scope="col" class="unsortable" width="100"| Manufacturer
+! scope="col" class="unsortable" width="150"| Accessibility 
+! scope="col" class="unsortable" width="250"| Description
+! scope="col" class="unsortable" width="130"| File or Link/Model #
+! scope="col" class="unsortable" width="125"| Image
+! scope="col" class="unsortable" width="50"| Quantity
+! scope="col" class="unsortable" width="50"| Price (EUR)
+|- align="center"
+|| Nikon
+|bgcolor="pink"| purchase  
+|| 4X Nikon Plan Fluorite Imaging Objective, 0.13 NA, 17.2 mm WD, dry
+|| [https://www.thorlabs.de/thorproduct.cfm?partnumber=N4X-PF N4X-PF] 
+||[[File:Thorlabs_N4X-PF_objective.jpg|thumb|upright=0.7|center]]
+|| 2 (or 3 for double illumination)
+|| 410
+|- align="center"
+|| Thorlabs
+|bgcolor="pink"| purchase  
+|| Translating Lens Mount for Ø1" Optics (for the objectives
+|| [https://www.thorlabs.de/thorproduct.cfm?partnumber=LM1XY/M LM1XY/M] 
+||[[File:Thorlabs_LM1XY_mount.jpg|thumb|upright=0.7|center]]
+|| 2 (or 3)
+|| 125
+|- align="center"
+|| Nikon
+|bgcolor="pink"| purchase  
+|| Infinity-Corrected Tube Lens for Plan Fluorite Objectives 
+|| [https://www.thorlabs.de/thorproduct.cfm?partnumber=ITL200 ITL200] 
+||[[File:Thorlabs_ITL200_lens.jpg|thumb|upright=0.7|center]]
+|| 1
+|| 405
+
+|}
