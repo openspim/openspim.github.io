@@ -54,5 +54,12 @@ The table below lists the parts used by the OpenSPIM for brains setup built by M
 ||[[File:Thorlabs_ITL200_lens.jpg|thumb|upright=0.7|center]]
 || 1
 || 405
-
+|- align="center"
+|| Monika
+|bgcolor="green"| self made 
+|| This chamber can be 3D printed. For windows use 24x24 mm microscopy cover glasses and glue (eg. two component epoxy)
+|| [[https://github.com/openspim/openspim-parts/blob/master/komora_T1_toscale.stl| .stl on Github]]
+|| [[File:Large samples chamber 3D.PNG|thumb|upright=0.7|center]] 
+|| 1 
+||
 |}
