@@ -18,7 +18,10 @@ There now exist a range of tissue clearing techniques for both mammalian and pla
 
 Generally cleared tissue has a higher refractive index than water. To prevent losing focus when moving the sample, you have to use immersion medium with the same RI as the sample.
 
-Most protocols recommend using the same reagent for RI matching and for imaging. This has some disadvantages - some reagents are too expensive to fill the entire light-sheet microscope chamber, others sometimes crystallize, react with outside air etc. Cheap and user-friendly alternatives for imaging include glycerol in the right concentration or immersion oil. The authors of [http://www.sciencedirect.com/science/article/pii/S0092867414004188 CUBIC paper] recommend a a 1:1 mixture of silicon oil TSF4300 (Momentive Performance Materials, RI = 1.498) and mineral oil (Sigma-Aldrich, RI = 1.467).
+Most protocols recommend using the same reagent for RI matching and for imaging. This has some disadvantages - some reagents are too expensive to fill the entire light-sheet microscope chamber, others sometimes crystallize, react with outside air etc. Cheap and user-friendly alternatives for imaging include 
+* glycerol in the right concentration (80% has been used for CLARITY by [http://eneuro.org/content/2/3/ENEURO.0022-15.2015 Epp et al.])
+* microscopy immersion oil
+* the authors of [http://www.sciencedirect.com/science/article/pii/S0092867414004188 CUBIC paper] recommend a a 1:1 mixture of silicon oil TSF4300 (Momentive Performance Materials, RI = 1.498) and mineral oil (Sigma-Aldrich, RI = 1.467).
 
 =Objectives & chambers =
 
