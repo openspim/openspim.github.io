@@ -58,8 +58,16 @@ The table below lists the parts used by the OpenSPIM for brains setup built by M
 || Monika
 |bgcolor="green"| self made 
 || This chamber can be 3D printed. For windows use 24x24 mm microscopy cover glasses and glue (eg. two component epoxy)
-|| [[https://github.com/openspim/openspim-parts/blob/master/komora_T1_toscale.stl| .stl on Github]]
+|| [https://github.com/openspim/openspim-parts/blob/master/komora_T1_toscale.stl| .stl on Github]
 || [[File:Large samples chamber 3D.PNG|thumb|upright=0.7|center]] 
+|| 1 
+||
+|- align="center"
+|| Monika
+|bgcolor="green"| self made 
+|| This holder includes two threaded holes so it's easiest to make from metal (eg aluminum). Holder is mounted on the 4D stage arm with M6 screw. Glass slide with 1 mm thickness can be held with nylon or nylon-tipped screw
+|| [https://github.com/openspim/openspim-parts/blob/master/metal_holder_sketch.pdf| drawing on Github] [https://github.com/openspim/openspim-parts/blob/master/metal_holder_stepfile.stp| step file on Github]
+|| [[File:holder.PNG|thumb|upright=0.4|center]] 
 || 1 
 ||
 |}
