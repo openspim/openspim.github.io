@@ -31,8 +31,10 @@ Feel free to edit this page with information about your system! (If you do not h
 <br clear="all" />
 
 = Cambridge, UK =
-[[File:FirstVolvoxProjection.jpg|300px|thumb|right|<i>Volvox carteri</i> colony imaged with the Goldstein lab OpenSPIM]]
-[[File:Example.jpg]]
+
+[[File:4arm system.jpg|300px|thumb|right|4 arm OpenSPIM at DAMTP, Cambridge University]]
+[[Media:4_port_chamber.pdf]]
+
 * The [http://www.damtp.cam.ac.uk/user/gold/?l=_e Goldstein] group in the [http://www.damtp.cam.ac.uk/?l=_e Department of Applied Mathematics and Theoretical Physics] at the University of Cambridge.
 We recently extended to a 4-armed system: 
 * dual sided illumination with Vortran VersaLase multiple wavelength laser module (488, 561, 647 nm).
