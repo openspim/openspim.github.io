@@ -33,14 +33,14 @@ Feel free to edit this page with information about your system! (If you do not h
 = Cambridge, UK =
 
 [[File:4arm system.jpg|300px|thumb|right|4 arm OpenSPIM at DAMTP, Cambridge University]]
-[[Media:4_port_chamber.pdf]]
 
 * The [http://www.damtp.cam.ac.uk/user/gold/?l=_e Goldstein] group in the [http://www.damtp.cam.ac.uk/?l=_e Department of Applied Mathematics and Theoretical Physics] at the University of Cambridge.
 We recently extended to a 4-armed system: 
+* 4 port sample chamber: [[4_port_chamber.pdf]]
 * dual sided illumination with Vortran VersaLase multiple wavelength laser module (488, 561, 647 nm).
 * dual sided detection with 2 Photometrics [http://www.photometrics.com/products/ccdcams/coolsnap-myo.php:l  Coolsnap Myo].
 * We included a Thorlabs [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=927?l shutter] in the beam path.
-* For brightfield illumination during sample positioning we use a lamp that is temporarily inserted in one of the filter holders.
+* For brightfield illumination during sample positioning we use a lamp that is temporarily inserted in one of the filter holders: [[LED tube light.pdf]]
 
   
 ----
