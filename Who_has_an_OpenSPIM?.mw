@@ -32,14 +32,15 @@ Feel free to edit this page with information about your system! (If you do not h
 
 = Cambridge, UK =
 [[File:FirstVolvoxProjection.jpg|300px|thumb|right|<i>Volvox carteri</i> colony imaged with the Goldstein lab OpenSPIM]]
-* The [http://www.damtp.cam.ac.uk/user/gold/?l=_e Goldstein] group in the [http://www.damtp.cam.ac.uk/?l=_e Department of Applied Mathematics and Theoretical Physics] at the University of Cambridge. 
-* We included a Thorlabs [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=927?l shutter] in the beam path. 
-
-
-* We use 2 Photometrics [http://www.photometrics.com/products/ccdcams/coolsnap-myo.php:l  Coolsnap Myo]. 
+* The [http://www.damtp.cam.ac.uk/user/gold/?l=_e Goldstein] group in the [http://www.damtp.cam.ac.uk/?l=_e Department of Applied Mathematics and Theoretical Physics] at the University of Cambridge.
+We recently extended to a 4-armed system: 
+* dual sided illumination with Vortran VersaLase multiple wavelength laser module (488, 561, 647 nm).
+* dual sided detection with 2 Photometrics [http://www.photometrics.com/products/ccdcams/coolsnap-myo.php:l  Coolsnap Myo].
+* We included a Thorlabs [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=927?l shutter] in the beam path.
+* For brightfield illumination during sample positioning we use a lamp that is temporarily inserted in one of the filter holders.
 
   
-
+----
 
 
 * The Light Microscopy Facility at the [http://www.http://www2.mrc-lmb.cam.ac.uk/ Medical Research Council's Laboratory of Molecular Biology]
