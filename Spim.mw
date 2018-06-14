@@ -240,8 +240,8 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 
 {| class="wikitable sortable" border="1"
 |-
-! scope="col" class="unsortable" width="300"| Modification
-! scope="col" class="unsortable" width="300"| Effort
+! scope="col" class="unsortable" width="400"| Modification
+! scope="col" class="unsortable" width="400"| Effort
 
 |- align="left"
 || Switch camera to an sCMOS USB model with similar pixel size and larger chip to reduce the required computer size / enable the use of a laptop
