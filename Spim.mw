@@ -235,3 +235,24 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 || Start Instacal and run the update, then restart computer
 |-
 |}
+
+== Suggested modifications ==
+
+{| class="wikitable sortable" border="1"
+|-
+! scope="col" class="unsortable" width="300"| Modification
+! scope="col" class="unsortable" width="300"| Effort
+
+|- align="left"
+|| Switch camera to an sCMOS USB model with similar pixel size and larger chip to reduce the required computer size / enable the use of a laptop
+|| Requires substantial adaptation of the software, or use of different software, e.g. µManager
+|-
+|- align="left"
+|| Switch to µManager to make system more universal
+|| Requires integration of all hardware components in µManager, which might be difficult for some components, e.g. Thorlabs APT stage
+|-
+|- align="left"
+|| Use lasers that support direct modulation to skip AOTF, simplify illumination beam path and reduce footprint of electronics rack
+|| Requires modification of software, modification of illumination beam path
+|-
+|}
