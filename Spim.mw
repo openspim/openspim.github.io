@@ -92,22 +92,13 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 ! colspan="7" | Computer
 |-
 |- align="left"
-|| [http://sine.ni.com/nips/cds/view/p/lang/en/nid/1385 LabVIEW Base Development System for Windows]
+|| [http://www.dell.com/us/business/p/optiplex-7040-desktop/pd?oc=s024o7040mtus&model_id=optiplex-7040-desktop Optiplex 7040 (Minitower, Win 10 Pro, Intel Core i7, 16 GB RAM, 256 GB M.2 SSD, Radeon R7, DVD drive, keyboard, mouse)]
 || acquisition computer
-|| National Instruments
+|| Dell
 || 210-AFGH OptiPlex 7040 Mini Tower
 || 1
 || $1,300.00
 || $1,300.00
-|-
-|- align="left"
-|| [http://www.dell.com/us/business/p/optiplex-7040-desktop/pd?oc=s024o7040mtus&model_id=optiplex-7040-desktop Optiplex 7040 (Minitower, Win 10 Pro, Intel Core i7, 16 GB RAM, 256 GB M.2 SSD, Radeon R7, DVD drive, keyboard, mouse)]
-|| server rack for controllers, power supplies etc
-|| Dell
-|| ISWD460
-|| 1
-|| $259.99
-|| $259.99
 |-
 |- align="left"
 || 8 TB hard drive
@@ -117,6 +108,15 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 || 1
 || 
 || 
+|-
+|- align="left"
+|| [http://sine.ni.com/nips/cds/view/p/lang/en/nid/1385 LabVIEW Base Development System for Windows]
+|| development platform for acquisition software
+|| National Instruments
+|| ISWD460
+|| 1
+|| $999.99
+|| $999.99
 |-
 |- align="center"
 ! colspan="7" | Server rack for electronics
