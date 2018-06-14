@@ -1,3 +1,33 @@
 == A Compact and Versatile Light Sheet Microscopy Platform for Research and Education ==
 
 Selective Plane Illumination Microscope (SPIM) with sample rotation & translation. Optimized for uncompromised light sheet microscopy of samples like Drosophila embryos and spheroids while maintaining a small footprint for mobility and a reasonable price point. Epi-fluorescence and brightfield illumination, 16x/0.8 W objective, sCMOS camera. Most of the parts are off-the-shelf, with only three custom components made by Selective Laser Sintering (SLS).
+
+== Troubleshooting ==
+
+{| class="wikitable sortable" border="1"
+|-
+! scope="col" class="unsortable" width="300"| Phenotype
+! scope="col" class="unsortable" width="200"| Cause 
+! scope="col" class="unsortable" width="300"| Solution
+
+|- align="left"
+||
+* LabView crashes when trying to start Main.vi
+* LEDs on stage controllers are red
+|| Linear stages not recognized
+|| Run PI MikroMove and start up axes
+|-
+|- align="left"
+|| 
+* LabView crashes when trying to record images
+* Camera tab in Main.vi doesn't show camera details
+|| Camera not recognized
+|| Restart computer (= have camera running before starting computer)
+|-
+|- align="left"
+|| 
+* LabView crashes when trying to open Main.vi or DAQ_all.vi
+|| DAQ not registered
+|| Start Instacal and run the update, then restart computer
+|-
+|}
