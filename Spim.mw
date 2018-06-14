@@ -4,6 +4,29 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 
 == Parts ==
 
+{| class="wikitable sortable" border="1"
+|-
+! scope="col" class="unsortable" width="200"| Name
+! scope="col" class="unsortable" width="200"| Description
+! scope="col" class="unsortable" width="50"| Manufacturer 
+! scope="col" class="unsortable" width="50"| Order number
+! scope="col" class="unsortable" width="50"| Number
+! scope="col" class="unsortable" width="50"| Price/part
+! scope="col" class="unsortable" width="50"| Total price
+! scope="col" class="unsortable" width="200"| URL
+
+|- align="left"
+|| 30 mm Cage Cube
+|| cube for sample chamber
+|| Thorlabs
+|| C4W
+|| 1
+|| $57.90
+|| $57.90
+|| https://www.thorlabs.com/thorproduct.cfm?partnumber=C4W
+|-
+|}
+
 == Alignment ==
 
 == Troubleshooting ==
