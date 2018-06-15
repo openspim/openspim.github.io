@@ -2,6 +2,18 @@
 
 Selective Plane Illumination Microscope (SPIM) with sample rotation & translation. Optimized for uncompromised light sheet microscopy of samples like Drosophila embryos and spheroids while maintaining a small footprint for mobility and a reasonable price point. Epi-fluorescence and brightfield illumination, 16x/0.8 W objective, sCMOS camera. Most of the parts are off-the-shelf, with only three custom components made by Selective Laser Sintering (SLS).
 
+== Pictures ==
+
+== Sample data ==
+
+== Light sheet properties ==
+
+[[File:Spim-lightsheet_scheme.png|600px|Scheme of the light sheet illumination arm with laser (blue), lenses (gray), mirrors (brown) and detection (green). Incoming laser beam is expanded to 2.7 mm diameter.]]
+* Scheme of the light sheet illumination arm with laser (blue), lenses (gray), mirrors (brown) and detection (green). Incoming laser beam is expanded to 2.7 mm diameter.
+
+[[File:Spim-lightsheet_properties.png|600px|491 nm laser beam in water as seen in the field of view (FOV) after passing through the illumination arm. Cylindrical lens, emission filter and dichroic mirror removed. 22 ms exposure time. Full width at half maximum (FWHM) determined using Gaussian fitting in Fiji. Yellow lines indicate ideal Gaussian shape.]]
+* 491 nm laser beam in water as seen in the field of view (FOV) after passing through the illumination arm. Cylindrical lens, emission filter and dichroic mirror removed. 22 ms exposure time. Full width at half maximum (FWHM) determined using Gaussian fitting in Fiji. Yellow lines indicate ideal Gaussian shape.
+
 == Parts ==
 
 * some categories require parts from the ''basics'' and ''lenses'' category
@@ -295,15 +307,6 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |}
 
 == Alignment ==
-
-== Light sheet properties ==
-
-Top: Scheme of the light sheet illumination arm with laser (blue), lenses (gray), mirrors (brown) and detection (green). Incoming laser
-beam is expanded to 2.7 mm diameter.
-Left: 491 nm laser beam in water as seen in the field of view (FOV) after passing through the illumination arm. Cylindrical lens, emission
-filter and dichroic mirror removed. 22 ms exposure time. Full width at half maximum (FWHM) determined using Gaussian fitting in Fiji. Yellow lines indicate ideal Gaussian shape.
-
-== Sample data ==
 
 == Troubleshooting ==
 
