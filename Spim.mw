@@ -296,6 +296,15 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 
 == Alignment ==
 
+== Light sheet properties ==
+
+Top: Scheme of the light sheet illumination arm with laser (blue), lenses (gray), mirrors (brown) and detection (green). Incoming laser
+beam is expanded to 2.7 mm diameter.
+Left: 491 nm laser beam in water as seen in the field of view (FOV) after passing through the illumination arm. Cylindrical lens, emission
+filter and dichroic mirror removed. 22 ms exposure time. Full width at half maximum (FWHM) determined using Gaussian fitting in Fiji. Yellow lines indicate ideal Gaussian shape.
+
+== Sample data ==
+
 == Troubleshooting ==
 
 {| class="wikitable sortable" border="1"
