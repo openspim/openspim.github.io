@@ -18,7 +18,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 [[File:Spim-lightsheet_properties.png|800px|491 nm laser beam in water as seen in the field of view (FOV) after passing through the illumination arm. Cylindrical lens, emission filter and dichroic mirror removed. 22 ms exposure time. Full width at half maximum (FWHM) determined using Gaussian fitting in Fiji. Yellow lines indicate ideal Gaussian shape.]]
 * 491 nm laser beam in water as seen in the field of view (FOV) after passing through the illumination arm. Cylindrical lens, emission filter and dichroic mirror removed. 22 ms exposure time. Full width at half maximum (FWHM) determined using Gaussian fitting in Fiji. Yellow lines indicate ideal Gaussian shape.
 
-== Parts ==
+== List of parts ==
 
 * ''C'' = custom part / part that requires modification
 * some categories require parts from the ''Basics'' and ''Lenses'' category
