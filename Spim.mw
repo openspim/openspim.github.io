@@ -516,9 +516,6 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 ! scope="col" class="unsortable" width="50"| Price/part
 ! scope="col" class="unsortable" width="50"| Total price
 
-|- align="center"
-! colspan="7" | Stage & sample holder
-|-
 |- align="left"
 || DDR05-to-PI111_adapter.STL
 || adapter rotational stage to xyz stage
