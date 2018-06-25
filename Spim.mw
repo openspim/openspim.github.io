@@ -396,6 +396,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |-
 ! scope="col" class="unsortable" width="200"| Name
 ! scope="col" class="unsortable" width="200"| Description
+! scope="col" class="unsortable" width="10"| C
 ! scope="col" class="unsortable" width="100"| Vendor 
 ! scope="col" class="unsortable" width="120"| Order number
 ! scope="col" class="unsortable" width="50"| Number
@@ -405,6 +406,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || sample-chamber_v2.STL
 || sample chamber
+|| 
 || Stratasys
 || -
 | align="right" | 1
@@ -413,7 +415,8 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |-
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=C4W 30 mm Cage Cube]
-|| cube for sample chamber
+|| cube for sample chamber - ''one opening to be extended to ?"''
+|| x
 || Thorlabs
 || C4W
 | align="right" | 1
@@ -423,6 +426,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=WG30530 Ø1/2" Sapphire Broadband Precision Window, Uncoated]
 || glass windows for sample chamber
+|| 
 || Thorlabs
 || WG30530
 | align="right" | 3
@@ -432,6 +436,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=B2C SM1 (1.035"-40) Tapped Cube Plate for C4W/C6W]
 || bottom plate for cube
+|| 
 || Thorlabs
 || B2C
 | align="right" | 1
