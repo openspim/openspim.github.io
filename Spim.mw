@@ -1104,92 +1104,85 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 ! scope="col" class="unsortable" width="50"| Total price
 
 |- align="left"
-|| Cold White Mounted LED, 1000 mA, 800 mW (Min)	Thorlabs	MCWHL5	1	 $193.00 	 $193.00 	LED for brightfield illumination	https://www.thorlabs.com/thorproduct.cfm?partnumber=MCWHL5
-
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=MCWHL5 Cold White Mounted LED, 1000 mA, 800 mW (Min)]
+|| LED for brightfield illumination
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Thorlabs
+|| MCWHL5
+| align="right" | 1
+| align="right" | $193.00
+| align="right" | $193.00
 |-
 |- align="left"
-|| Blue (470 nm) Mounted LED, 1000 mA, 650 mW (Min)	Thorlabs	M470L3	1	 $268.00 	 $268.00 	LED for widefield EX 470 nm	https://www.thorlabs.com/thorproduct.cfm?partnumber=M470L3
-
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=M470L3 Blue (470 nm) Mounted LED, 1000 mA, 650 mW (Min)]
+|| 470nm LED for widefield excitation
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Thorlabs
+|| M470L3
+| align="right" | 1
+| align="right" | $268.00
+| align="right" | $268.00
 |-
 |- align="left"
-|| T-Cube LED Driver, 1200 mA Max Drive Current	Thorlabs	LEDD1B	2	 $293.00 	 $586.00 	LED driver	https://www.thorlabs.com/thorproduct.cfm?partnumber=LEDD1B
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=LEDD1B T-Cube LED Driver, 1200 mA Max Drive Current]	
+|| LED driver
 || 
 || 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| LEDD1B
+| align="right" | 2
+| align="right" | $293.00
+| align="right" | $586.00
 |-
 |- align="left"
-|| 15 V, 2.4 A Power Supply Unit for One K-Cube or T-Cube	Thorlabs	KPS101	3	 $25.71 	 $77.13 	power supply for LED driver	https://www.thorlabs.com/thorproduct.cfm?partnumber=KPS101
-
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=KPS101 15 V, 2.4 A Power Supply Unit for One K-Cube or T-Cube]
+|| power supply for LED driver
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Thorlabs
+|| KPS101
+| align="right" | 3
+| align="right" | $25.71
+| align="right" | $77.13
 |-
 |- align="left"
-|| BP 470/40, mounted, 25 mm	Chroma	ET470/40x	1	 $-   	 $-   	clean-up filter for EX w/ 470 nm LED ($325 @ Chroma)	https://www.chroma.com/products/parts/et470-40x
-
+|| [https://www.chroma.com/products/parts/et470-40x Bandpass emission filter 470/40, mounted, 25 mm]
+|| clean-up filter for excitation with 470nm LED
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Chroma
+|| ET470/40x
+| align="right" | 1
+| align="right" | $325
+| align="right" | $325
 |-
 |- align="left"
-|| DC 488, unmounted, 36x25 mm	Chroma	ZT488rdc	1	 $-   	 $-   	dichoric for EX w/ 470 nm LED ($300 @ Chroma)	https://www.chroma.com/products/parts/zt488rdc
-
+|| [https://www.chroma.com/products/parts/zt488rdc Dichoric mirror 488nm, unmounted, 36x25 mm]
+|| dichoric mirror for excitation with 470nm LED
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Chroma
+|| ZT488rdc
+| align="right" | 1
+| align="right" | $300
+| align="right" | $300
 |-
 
 |- align="left"
-|| SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included	Thorlabs	SM1L10	2	 $14.25 	 $28.50 	SM1 tube for blocking LED stray light	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L10
-
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L10 SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included]
+|| SM1 tube for blocking LED stray light
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Thorlabs
+|| SM1L10
+| align="right" | 2
+| align="right" | $14.25
+| align="right" | $28.50
 |-
 |- align="left"
-|| 30 mm Cage Plate, Ø1.2" Double Bore for SM1 Lens Tube Mounting	Thorlabs	CP12	2	 $20.00 	 $40.00 	cage plate for mounting LED	https://www.thorlabs.com/thorproduct.cfm?partnumber=CP12
-
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=CP12 30 mm Cage Plate, Ø1.2" Double Bore for SM1 Lens Tube Mounting]
+|| cage plate for mounting SM1 tube
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Thorlabs
+|| CP12
+| align="right" | 2
+| align="right" | $20.00
+| align="right" | $40.00
 |-
 |}
 
