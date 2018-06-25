@@ -540,6 +540,7 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 |-
 ! scope="col" class="unsortable" width="200"| Name
 ! scope="col" class="unsortable" width="200"| Description
+! scope="col" class="unsortable" width="10"| C
 ! scope="col" class="unsortable" width="100"| Vendor 
 ! scope="col" class="unsortable" width="120"| Order number
 ! scope="col" class="unsortable" width="50"| Number
@@ -549,6 +550,7 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 |- align="left"
 || DDR05-to-PI111_adapter.STL
 || adapter rotational stage to xyz stage
+|| x
 || Stratasys
 || -
 | align="right" | 1
@@ -558,6 +560,7 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 |- align="left"
 || [http://www.physikinstrumente.com/product-detail-page/m-110-m-111-m-112-701650.html 15mm Compact Micro-Translation Stage]
 || motorized linear stage
+|| 
 || PI
 || M-111.1DG
 | align="right" | 3
@@ -567,6 +570,7 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 |- align="left"
 || [http://www.physikinstrumente.com/product-detail-page/c-863-900606.html 1 Channel Mercury DC Motor Controller]
 || controller for linear stage
+|| 
 || PI
 || C-863.11
 | align="right" | 3
@@ -576,6 +580,7 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 |- align="left"
 || [http://www.physikinstrumente.com/product-detail-page/m-11002-m-11003-m-11004-901185.html Mounting Bracket for Vertical Mount of M-111 on M-110, M-111 and M-112]
 || vertical adapter plate for linear stage
+|| 
 || PI
 || M-110.03
 | align="right" | 1
@@ -585,6 +590,7 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 |- align="left"
 || [http://www.newegg.com/Product/Product.aspx?Item=N82E16812200964 StarTech Model ICUSB2321F 6 ft. 1 Port FTDI USB to Serial RS232 Adapter Cable with COM Retention M-M]
 || USB to Serial adapter for PI controller
+|| 
 || Newegg
 || N82E16812200964
 | align="right" | 3
@@ -594,6 +600,7 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 |- align="left"
 || [http://www.thorlabs.com/thorproduct.cfm?partnumber=DDR05 Direct Drive Continuous Rotation Mount, SM05 Bore, 8-32 Taps]
 || motorized rotational stage
+|| 
 || Thorlabs
 || DDR05
 | align="right" | 1
@@ -603,6 +610,7 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 |- align="left"
 || [http://www.thorlabs.com/thorproduct.cfm?partnumber=KBD101 K-Cube Brushless DC Servo Driver]
 || controller for rotational stage
+|| 
 || Thorlabs
 || KBD101
 | align="right" | 1
@@ -610,8 +618,9 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 | align="right" | $716.00
 |-
 |- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=XT66SP-500 66 mm Single Dovetail Rail, L = 500 mm - shortened to ?", 4 holes drilled for 1/4"-20 screws]
-|| rail for stage
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=XT66SP-500 66 mm Single Dovetail Rail, L = 500 mm]
+|| rail for stage - ''to be shortened to ?", 4 holes drilled for 1/4"-20 screws''
+|| x
 || Thorlabs
 || XT66SP-500
 | align="right" | 1
@@ -621,6 +630,7 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=TR4 Ø1/2" Optical Post, SS, 8-32 Setscrew, 1/4"-20 Tap, L = 4"]
 || posts for stage rail
+|| 
 || Thorlabs
 || TR4
 | align="right" | 1
@@ -630,6 +640,7 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=XT66P2 Rail Carriage for 66 mm Rails with 6-32, 8-32, & 1/4"-20 Taps]
 || rail carriage for stage
+|| 
 || Thorlabs
 || XT66P2
 | align="right" | 1
@@ -639,6 +650,7 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=CXY1Q 30 mm Cage System, XY Translating Mount for Ø1" Optics with Quick Release Plate]
 || adjustable quick-release sample holder plate
+|| 
 || Thorlabs
 || CXY1Q
 | align="right" | 1
@@ -648,6 +660,7 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=SP05 30 mm to 16 mm Cage Adapter Plate]
 || adapter plate for sample holder
+|| 
 || Thorlabs
 || SP05
 | align="right" | 1
@@ -657,6 +670,7 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=XCF Stereotaxic Cannula Holder, Ø2.5 mm Ferrules]
 || sample clamp
+|| 
 || Thorlabs
 || XCF
 | align="right" | 1
@@ -666,6 +680,7 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=SR025 Mini Series Cage Assembly Rod, 1/4" (6.4 mm) Long, Ø4 mm, Qty. 1]
 || cage system rods for sample holder
+|| 
 || Thorlabs
 || SR025
 | align="right" | 4
@@ -675,6 +690,7 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=CPA1 30 mm Cage System Alignment Plate with Ø1 mm Hole]
 || 30 mm cage alignment plate small hole
+|| 
 || Thorlabs
 || CPA1
 | align="right" | 1
@@ -684,6 +700,7 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=CPA2 30 mm Cage System Alignment Plate with Ø5 mm Hole]
 || 30 mm cage alignment plate large hole
+|| 
 || Thorlabs
 || CPA2
 | align="right" | 1
@@ -693,6 +710,7 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 |- align="left"
 || [http://www.mcmaster.com/#socket-head-cap-screws/=146igv5 Alloy Steel Socket Head Cap Screws, Zinc-Plated, M3 × 0.5, 16 mm Length, Pack of 25]
 || screws for mounting stage adapter to M-111.1DG
+|| 
 || McMaster-Carr
 || 95263A158
 | align="right" | 1
@@ -702,6 +720,7 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 |- align="left"
 || [http://www.mcmaster.com/#socket-head-cap-screws/=146ijbq Alloy Steel Socket Head Cap Screws, Zinc-Plated, 8-32, 7/8" Length, Pack of 50]
 || screws for mounting stage adapter to DDR05, type I
+|| 
 || McMaster-Carr	
 || 90128A198
 | align="right" | 1
@@ -711,6 +730,7 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 |- align="left"
 || [http://www.mcmaster.com/#socket-head-cap-screws/=146iktz Alloy Steel Socket Head Cap Screws, Zinc-Plated, 4-40, 3/4" Length, Pack of 10]
 || screws for mounting stage adapter to DDR05, type II
+|| 
 || McMaster-Carr
 || 90128A113
 | align="right" | 1
@@ -720,6 +740,7 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=AE3M25E Dual Threaded Adapter with Internal M3 x 0.5 Threads and External 1/4"-20 Threads]
 || thread adapter for mounting M-111.1DG to XT66P2
+|| 
 || Thorlabs
 || AE3M25E
 | align="right" | 4
@@ -727,17 +748,9 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 | align="right" | $16.40
 |-
 |- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=T4290 SMA Male to BNC Female Adapter]
-|| adapter for trigger cable to stage controller
-|| Thorlabs
-|| T4290
-| align="right" | 2
-| align="right" | $12.70
-| align="right" | $25.40
-|-
-|- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=XT66C1 20 mm Long Double Dovetail Clamp for 66 mm Rails]	
 || block for XT66 carrier
+|| 
 || Thorlabs
 || XT66C1
 | align="right" | 1
@@ -747,6 +760,7 @@ SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=XT66N Rail Platform Locator for 66 mm Rails]
 || carrier adjustable block for XT66
+|| 
 || Thorlabs
 || XT66N
 | align="right" | 1
