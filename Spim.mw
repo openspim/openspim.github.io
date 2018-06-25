@@ -634,15 +634,14 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 ! scope="col" class="unsortable" width="50"| Total price
 
 |- align="left"
-|| 16X Nikon CFI LWD Plan Fluorite Objective, 0.80 NA, 3.0 mm WD	Nikon		1	 $-   	 $-   	detection objective ($5,824.21 @ Thorlabs)	https://www.thorlabs.com/thorproduct.cfm?partnumber=N16XLWD-PF
-
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=N16XLWD-PF 16X Nikon CFI LWD Plan Fluorite Objective, 0.80 NA, 3.0 mm WD]
+|| detection objective
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Nikon
+|| N16XLWD-PF
+| align="right" | 1
+| align="right" | $5,824.21
+| align="right" | $5,824.21
 |-
 |- align="left"
 || Infinity-Corrected Tube Lens for Plan Fluorite Objectives	Nikon		1	 $-   	 $-   	Nikon 200 mm tube lens for detection ($450 @ Thorlabs)	https://www.thorlabs.com/thorproduct.cfm?partnumber=ITL200
