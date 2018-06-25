@@ -308,13 +308,67 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 || $12.24
 |-
 |- align="left"
-|| [ 30 mm Cage System Alignment Plate with Ø5 mm Hole]
-|| 
-|| 
-|| 
-|| 
-|| 
-|| 
+|| [ttps://www.thorlabs.com/thorproduct.cfm?partnumber=CPA2 30 mm Cage System Alignment Plate with Ø5 mm Hole]
+|| 30 mm cage alignment plate large hole
+|| Thorlabs
+|| CPA2
+|| 1
+|| $12.24
+|| $12.24
+|-
+|- align="left"
+|| [http://www.mcmaster.com/#socket-head-cap-screws/=146igv5 Alloy Steel Socket Head Cap Screws, Zinc-Plated, M3 × 0.5, 16 mm Length, Pack of 25]
+|| screws for mounting stage adapter to M-111.1DG
+|| McMaster-Carr
+|| 95263A158
+|| 1
+|| $3.90
+|| $3.90
+|-
+|- align="left"
+|| [http://www.mcmaster.com/#socket-head-cap-screws/=146ijbq Alloy Steel Socket Head Cap Screws, Zinc-Plated, 8-32, 7/8" Length, Pack of 50]
+|| screws for mounting stage adapter to DDR05, type I
+|| McMaster-Carr	
+|| 90128A198
+|| 1
+|| $5.79
+|| $5.79
+|-
+|- align="left"
+|| [http://www.mcmaster.com/#socket-head-cap-screws/=146iktz Alloy Steel Socket Head Cap Screws, Zinc-Plated, 4-40, 3/4" Length, Pack of 10]
+|| screws for mounting stage adapter to DDR05, type II
+|| McMaster-Carr
+|| 90128A113
+|| 1
+|| $4.55
+|| $4.55
+|-
+|- align="left"
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=AE3M25E Dual Threaded Adapter with Internal M3 x 0.5 Threads and External 1/4"-20 Threads]
+|| thread adapter for mounting M-111.1DG to XT66P2
+|| Thorlabs
+|| AE3M25E
+|| 4
+|| $4.10
+|| $16.40
+|-
+|- align="left"
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=T4290 SMA Male to BNC Female Adapter]
+|| adapter for trigger cable to stage controller
+|| Thorlabs
+|| T4290
+|| 2
+|| $12.70
+|| $25.40
+|-
+|- align="left"
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=XT66C1 20 mm Long Double Dovetail Clamp for 66 mm Rails]	
+|| block for XT66 carrier
+|| Thorlabs
+|| XT66C1
+|| 1
+|| $17.30
+|| $17.30
 |-
 |- align="left"
 || 
@@ -325,39 +379,14 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 || 
 || 
 |-
-|- align="left"
-|| 
-|| 
-|| 
-|| 
-|| 
-|| 
-|| 
-|-
-|- align="left"
-|| 
-|| 
-|| 
-|| 
-|| 
-|| 
-|| 
-|-
 
 
- 	Thorlabs	CPA2	1	 $12.24 	 $12.24 	30 mm cage alignment plate large hole	https://www.thorlabs.com/thorproduct.cfm?partnumber=CPA2
 
-Alloy Steel Socket Head Cap Screws, Zinc-Plated, M3 × 0.5, 16 mm Length, Pack of 25	McMaster-Carr	95263A158	1	 $3.90 	 $3.90 	screws for mounting stage adapter to M-111.1DG	http://www.mcmaster.com/#socket-head-cap-screws/=146igv5
+	 		
 
-Alloy Steel Socket Head Cap Screws, Zinc-Plated, 8-32, 7/8" Length, Pack of 50	McMaster-Carr	90128A198	1	 $5.79 	 $5.79 	screws for mounting stage adapter to DDR05, type I	http://www.mcmaster.com/#socket-head-cap-screws/=146ijbq
 
-Alloy Steel Socket Head Cap Screws, Zinc-Plated, 4-40, 3/4" Length, Pack of 10	McMaster-Carr	90128A113	1	 $4.55 	 $4.55 	screws for mounting stage adapter to DDR05, type II	http://www.mcmaster.com/#socket-head-cap-screws/=146iktz
 
-Dual Threaded Adapter with Internal M3 x 0.5 Threads and External 1/4"-20 Threads	Thorlabs	AE3M25E	4	 $4.10 	 $16.40 	thread adapter for mounting M-111.1DG to XT66P2	https://www.thorlabs.com/thorproduct.cfm?partnumber=AE3M25E
 
-SMA Male to BNC Female Adapter	Thorlabs	T4290	2	 $12.70 	 $25.40 	connection to stage controller	https://www.thorlabs.com/thorproduct.cfm?partnumber=T4290
-
-20 mm Long Double Dovetail Clamp for 66 mm Rails	Thorlabs	XT66C1	1	 $17.30 	 $17.30 	block for XT66 carrier	https://www.thorlabs.com/thorproduct.cfm?partnumber=XT66C1
 
 Rail Platform Locator for 66 mm Rails	Thorlabs	XT66N	1	 $36.60 	 $36.60 	adjustable block for XT66 carrier	https://www.thorlabs.com/thorproduct.cfm?partnumber=XT66N
 
