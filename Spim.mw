@@ -341,6 +341,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |-
 ! scope="col" class="unsortable" width="200"| Name
 ! scope="col" class="unsortable" width="200"| Description
+! scope="col" class="unsortable" width="10"| C
 ! scope="col" class="unsortable" width="100"| Vendor 
 ! scope="col" class="unsortable" width="120"| Order number
 ! scope="col" class="unsortable" width="50"| Number
@@ -350,6 +351,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=ACY254-050-A f = 50 mm, Ø1" Cylindrical Achromat, AR Coating: 350 - 700 nm]
 || achromatic cylindrical lens
+|| 
 || Thorlabs
 || ACY254-050-A
 | align="right" | 1
@@ -359,6 +361,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-030-A-ML f=30 mm, Ø1" Achromatic Doublet, SM1-Threaded Mount, ARC: 400-700 nm]
 || beam expander lens 1, collimators for white & 470 nm LEDs
+|| 
 || Thorlabs
 || AC254-030-A-ML
 | align="right" | 3
@@ -368,6 +371,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-100-A-ML f=100 mm, Ø1" Achromatic Doublet, SM1-Threaded Mount, ARC: 400-700 nm]
 || beam expander lens 2
+|| 
 || Thorlabs
 || AC254-100-A-ML
 | align="right" | 1
@@ -377,6 +381,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-050-A-ML f=50 mm, Ø1" Achromatic Doublet, SM1-Threaded Mount, ARC: 400-700 nm]
 || telescope lenses
+|| 
 || Thorlabs
 || AC254-050-A-ML
 | align="right" | 2
