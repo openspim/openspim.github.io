@@ -502,7 +502,217 @@ Pomona Electronics 4969	Digi-Key	501-1030-ND	4	 $8.99 	 $35.96 	cable for BNC in
 ! scope="col" class="unsortable" width="50"| Total price
 
 |- align="left"
+|| 16X Nikon CFI LWD Plan Fluorite Objective, 0.80 NA, 3.0 mm WD	Nikon		1	 $-   	 $-   	detection objective ($5,824.21 @ Thorlabs)	https://www.thorlabs.com/thorproduct.cfm?partnumber=N16XLWD-PF
+
 || 
+|| 
+|| 
+|| 
+| align="right" | 
+| align="right" | 
+| align="right" | 
+|-
+|- align="left"
+|| Infinity-Corrected Tube Lens for Plan Fluorite Objectives	Nikon		1	 $-   	 $-   	Nikon 200 mm tube lens for detection ($450 @ Thorlabs)	https://www.thorlabs.com/thorproduct.cfm?partnumber=ITL200
+
+|| 
+|| 
+|| 
+|| 
+| align="right" | 
+| align="right" | 
+| align="right" | 
+|-
+|- align="left"
+|| Camera	Hamamatsu	Orca Flash 2.8	1	 $-   	 $-   	main camera	http://www.hamamatsu.com/jp/en/community/life_science_camera/product/search/C11440-10C/index.html
+
+|| 
+|| 
+|| 
+|| 
+| align="right" | 
+| align="right" | 
+| align="right" | 
+|-
+|- align="left"
+|| BP 525/50, mounted, 25 mm	Chroma	ET525/50m	1	 $-   	 $-   	filter for EX 491 nm, GFP etc. ($325 @ Chroma)	https://www.chroma.com/products/parts/et525-50m
+
+|| 
+|| 
+|| 
+|| 
+| align="right" | 
+| align="right" | 
+| align="right" | 
+|-
+|- align="left"
+|| 8-Channel, 16-Bit Analog Voltage Output Device	MCC	USB-3103	1	 $349.00 	 $349.00 	USB-to-analog-out for AOM etc.	http://www.mccdaq.com/usb-data-acquisition/USB-3103.aspx
+
+|| 
+|| 
+|| 
+|| 
+| align="right" | 
+| align="right" | 
+| align="right" | 
+|-
+|- align="left"
+|| Adapter with External SM1 Threads and Internal M32 x 0.75 Threads	Thorlabs	SM1A34	1	 $22.00 	 $22.00 	adapter detection objective to SM1	http://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A34
+
+|| 
+|| 
+|| 
+|| 
+| align="right" | 
+| align="right" | 
+| align="right" | 
+|-
+|- align="left"
+|| Adapter with External SM2 Threads and Internal M38 x 0.5 Threads	Thorlabs	SM2A20	1	 $45.00 	 $45.00 	tube lens to SM2 adapter	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM2A20
+
+|| 
+|| 
+|| 
+|| 
+| align="right" | 
+| align="right" | 
+| align="right" | 
+|-
+|- align="left"
+|| 60 mm Cage Plate, SM2 Threaded, Enhanced Clamping, 0.5" Thick, 8-32 Tap	Thorlabs	LCP08	1	 $47.90 	 $47.90 	60 mm cage plate w/ SM2 thread	https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP08
+
+
+|| 
+|| 
+|| 
+|| 
+| align="right" | 
+| align="right" | 
+| align="right" | 
+|-
+|- align="left"
+|| 60 mm Cage Plate with Ø2" Double-Bore Optic Mount, 8-32 Tap	Thorlabs	LCP06	1	 $33.50 	 $33.50 	60 mm cage plate for holding SM2 tube	https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP06
+|| 
+|| 
+|| 
+|| 
+| align="right" | 
+| align="right" | 
+| align="right" | 
+|-
+|- align="left"
+|| 30 mm to 60 mm Cage Plate Adapter, 8-32 Tap	Thorlabs	LCP02	2	 $38.00 	 $76.00 	60-to-30 mm cage adapter	http://www.thorlabs.com/thorproduct.cfm?partnumber=LCP02
+
+|| 
+|| 
+|| 
+|| 
+| align="right" | 
+| align="right" | 
+| align="right" | 
+|-
+|- align="left"
+|| Adapter with External C-Mount Threads and External SM1 Threads	Thorlabs	SM1A39	1	 $20.00 	 $20.00 	C-mount-to-SM1 adapter	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A39
+
+|| 
+|| 
+|| 
+|| 
+| align="right" | 
+| align="right" | 
+| align="right" | 
+|-
+|- align="left"
+|| Adapter with External SM2 Threads and Internal SM1 Threads	Thorlabs	SM2A6	1	 $24.00 	 $24.00 	SM1-to-SM2 adapter	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM2A6
+
+|| 
+|| 
+|| 
+|| 
+| align="right" | 
+| align="right" | 
+| align="right" | 
+|-
+|- align="left"
+|| SM2 Lens Tube Without External Threads, 1/2" Thread Depth, Two Retaining Rings Included	Thorlabs	SM2M05	1	 $24.50 	 $24.50 	SM2 tube for cage plate	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM2M05
+
+
+|| 
+|| 
+|| 
+|| 
+| align="right" | 
+| align="right" | 
+| align="right" | 
+|-
+|- align="left"
+|| 60 mm Cage Plate with Ø2.2" Double Bore for SM2 Lens Tube Mounting	Thorlabs	LCP09	1	 $41.20 	 $41.20 	60 mm cage plate for SM2 tube	https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP09
+
+|| 
+|| 
+|| 
+|| 
+| align="right" | 
+| align="right" | 
+| align="right" | 
+|-
+|- align="left"
+|| Dual-Position Slider Bundle: Dual-Position Slider, Interface Board, Cables	Thorlabs	ELL6K	1	 $268.00 	 $268.00 	motorized filter switch	https://www.thorlabs.com/thorproduct.cfm?partnumber=ELL6K
+
+|| 
+|| 
+|| 
+|| 
+| align="right" | 
+| align="right" | 
+| align="right" | 
+|-
+|- align="left"
+|| SM1 Lens Tube, 0.30" Thread Depth, One Retaining Ring Included	Thorlabs	SM1L03	3	 $12.16 	 $36.48 	filter mount for motorized filter switch	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L03
+
+|| 
+|| 
+|| 
+|| 
+| align="right" | 
+| align="right" | 
+| align="right" | 
+|-
+|- align="left"
+|| 30 mm to 60 mm Cage Plate Adapter, 8-32 Tap	Thorlabs	LCP02	3	 $38.00 	 $114.00 	cage mount for filter switch, wheel	https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP02
+|| 
+|| 
+|| 
+|| 
+| align="right" | 
+| align="right" | 
+| align="right" | 
+|-
+|- align="left"
+|| Cage Assembly Rod, 2" Long, Ø6 mm, 4 Pack	Thorlabs	ER2-P4	1	 $22.57 	 $22.57 	cage extension rods	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER2-P4
+
+|| 
+|| 
+|| 
+|| 
+| align="right" | 
+| align="right" | 
+| align="right" | 
+|-
+|- align="left"
+|| Cage Assembly Rod, 1" Long, Ø6 mm, 4 Pack	Thorlabs	ER1-P4	2	 $18.77 	 $37.54 	cage rods for mounting switch and wheel	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER1-P4
+
+|| 
+|| 
+|| 
+|| 
+| align="right" | 
+| align="right" | 
+| align="right" | 
+|-
+|- align="left"
+|| SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-P5	1	 $67.70 	 $67.70 	SM1 tubes for detection path	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L10-P5
+
 || 
 || 
 || 
@@ -522,27 +732,6 @@ Pomona Electronics 4969	Digi-Key	501-1030-ND	4	 $8.99 	 $35.96 	cable for BNC in
 | align="right" | 
 |-
 |}
-
-16X Nikon CFI LWD Plan Fluorite Objective, 0.80 NA, 3.0 mm WD	Nikon		1	 $-   	 $-   	detection objective ($5,824.21 @ Thorlabs)	https://www.thorlabs.com/thorproduct.cfm?partnumber=N16XLWD-PF
-Infinity-Corrected Tube Lens for Plan Fluorite Objectives	Nikon		1	 $-   	 $-   	Nikon 200 mm tube lens for detection ($450 @ Thorlabs)	https://www.thorlabs.com/thorproduct.cfm?partnumber=ITL200
-Camera	Hamamatsu	Orca Flash 2.8	1	 $-   	 $-   	main camera	http://www.hamamatsu.com/jp/en/community/life_science_camera/product/search/C11440-10C/index.html
-BP 525/50, mounted, 25 mm	Chroma	ET525/50m	1	 $-   	 $-   	filter for EX 491 nm, GFP etc. ($325 @ Chroma)	https://www.chroma.com/products/parts/et525-50m
-8-Channel, 16-Bit Analog Voltage Output Device	MCC	USB-3103	1	 $349.00 	 $349.00 	USB-to-analog-out for AOM etc.	http://www.mccdaq.com/usb-data-acquisition/USB-3103.aspx
-Adapter with External SM1 Threads and Internal M32 x 0.75 Threads	Thorlabs	SM1A34	1	 $22.00 	 $22.00 	adapter detection objective to SM1	http://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A34
-Adapter with External SM2 Threads and Internal M38 x 0.5 Threads	Thorlabs	SM2A20	1	 $45.00 	 $45.00 	tube lens to SM2 adapter	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM2A20
-60 mm Cage Plate, SM2 Threaded, Enhanced Clamping, 0.5" Thick, 8-32 Tap	Thorlabs	LCP08	1	 $47.90 	 $47.90 	60 mm cage plate w/ SM2 thread	https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP08
-60 mm Cage Plate with Ø2" Double-Bore Optic Mount, 8-32 Tap	Thorlabs	LCP06	1	 $33.50 	 $33.50 	60 mm cage plate for holding SM2 tube	https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP06
-30 mm to 60 mm Cage Plate Adapter, 8-32 Tap	Thorlabs	LCP02	2	 $38.00 	 $76.00 	60-to-30 mm cage adapter	http://www.thorlabs.com/thorproduct.cfm?partnumber=LCP02
-Adapter with External C-Mount Threads and External SM1 Threads	Thorlabs	SM1A39	1	 $20.00 	 $20.00 	C-mount-to-SM1 adapter	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A39
-Adapter with External SM2 Threads and Internal SM1 Threads	Thorlabs	SM2A6	1	 $24.00 	 $24.00 	SM1-to-SM2 adapter	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM2A6
-SM2 Lens Tube Without External Threads, 1/2" Thread Depth, Two Retaining Rings Included	Thorlabs	SM2M05	1	 $24.50 	 $24.50 	SM2 tube for cage plate	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM2M05
-60 mm Cage Plate with Ø2.2" Double Bore for SM2 Lens Tube Mounting	Thorlabs	LCP09	1	 $41.20 	 $41.20 	60 mm cage plate for SM2 tube	https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP09
-Dual-Position Slider Bundle: Dual-Position Slider, Interface Board, Cables	Thorlabs	ELL6K	1	 $268.00 	 $268.00 	motorized filter switch	https://www.thorlabs.com/thorproduct.cfm?partnumber=ELL6K
-SM1 Lens Tube, 0.30" Thread Depth, One Retaining Ring Included	Thorlabs	SM1L03	3	 $12.16 	 $36.48 	filter mount for motorized filter switch	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L03
-30 mm to 60 mm Cage Plate Adapter, 8-32 Tap	Thorlabs	LCP02	3	 $38.00 	 $114.00 	cage mount for filter switch, wheel	https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP02
-Cage Assembly Rod, 2" Long, Ø6 mm, 4 Pack	Thorlabs	ER2-P4	1	 $22.57 	 $22.57 	cage extension rods	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER2-P4
-Cage Assembly Rod, 1" Long, Ø6 mm, 4 Pack	Thorlabs	ER1-P4	2	 $18.77 	 $37.54 	cage rods for mounting switch and wheel	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER1-P4
-SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-P5	1	 $67.70 	 $67.70 	SM1 tubes for detection path	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L10-P5
 
 === Stage & sample holder ===
 
