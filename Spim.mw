@@ -83,33 +83,232 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="center"
 ! colspan="7" | Basics
 |-
+|- align="left"
+|| Ø1/2" Optical Post, SS, 8-32 Setscrew, 1/4"-20 Tap, L = 2"	Thorlabs	TR2	20	 $5.19 	 $103.80 	posts for cage system	https://www.thorlabs.com/thorproduct.cfm?partnumber=TR2
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| Ø1/2" Pedestal Post Holder, Spring-Loaded Hex-Locking Thumbscrew, L=1.19"	Thorlabs	PH1E	20	 $22.50 	 $450.00 	mounts for posts	https://www.thorlabs.com/thorproduct.cfm?partnumber=PH1E
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| Short Clamping Fork, 1.24" Counterbored Slot, 1/4"-20 Captive Screw	Thorlabs	CF125C	20	 $10.50 	 $210.00 	clamps for post mounts	https://www.thorlabs.com/thorproduct.cfm?partnumber=CF125C
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| Cage Assembly Rod, 1/2" (12.7 mm) Long, Ø6 mm	Thorlabs	ER05	4	 $4.94 	 $19.76 	0.5" cage rods	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER05
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| Cage Assembly Rod, 1" (25.4 mm) Long, Ø6 mm	Thorlabs	ER1	16	 $4.94 	 $79.04 	1" cage rods for sample holder	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER1
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| Cage Assembly Rod, 1.5" (38.1 mm) Long, Ø6 mm	Thorlabs	ER1.5	8	 $5.70 	 $45.60 	1.5" cage rods	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER1.5
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| Cage Assembly Rod, 2" (50.8 mm) Long, Ø6 mm	Thorlabs	ER2	4	 $5.94 	 $23.76 	2" cage rods	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER2
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| Cage Assembly Rod, 3" (76.2 mm) Long, Ø6 mm	Thorlabs	ER3	12	 $6.44 	 $77.28 	3" cage rods	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER3
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| Cage Assembly Rod, 4" (101.6 mm) Long, Ø6 mm	Thorlabs	ER4	8	 $6.94 	 $55.52 	4" cage rods	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER4
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| Cage Assembly Rod, 6" (152.4 mm) Long, Ø6 mm	Thorlabs	ER6	4	 $8.44 	 $33.76 	6" cage rods	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER6
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| Cage Assembly Rod, 8" (203.2 mm) Long, Ø6 mm	Thorlabs	ER8	8	 $11.44 	 $91.52 	8" cage rods	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER8
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| Cage Assembly Rod, 10" (254.0 mm) Long, Ø6 mm	Thorlabs	ER10	4	 $12.44 	 $49.76 	10" cage rods	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER10
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| Rod Adapter for Ø6 mm ER Rods, Qty. 1	Thorlabs	ERSCA	8	 $10.80 	 $86.40 	cage rod adapters	https://www.thorlabs.com/thorproduct.cfm?partnumber=ERSCA
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| 30 mm Removable Cage Plate, Front and Back Plate, Internal SM1 Threading	Thorlabs	CP90F	5	 $48.00 	 $240.00 	quick release lens mount, 30 mm cage system	http://www.thorlabs.com/thorproduct.cfm?partnumber=CP90F
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| SM1 Threaded 30 mm Enhanced Clamping Cage Plate, 0.35" Thick, 8-32 Tap	Thorlabs	CP08	15	 $19.00 	 $285.00 	30 mm cage plate, internal SM1	https://www.thorlabs.com/thorproduct.cfm?partnumber=CP08
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| Post-Mountable Cage Plate with Ø1.0" Double Bore, 8-32 Tap	Thorlabs	CP06	6	 $16.75 	 $100.50 	30 mm cage plate, internal 1"	https://www.thorlabs.com/thorproduct.cfm?partnumber=CP06
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| Precision Cage Rotation Mount with Micrometer Drive, Ø1" Optics, 8-32 Tap	Thorlabs	CRM1P	2	 $197.88 	 $395.76 	30 mm cage plate w/ rotational mount	https://www.thorlabs.com/thorproduct.cfm?partnumber=CRM1P
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| Kinematic Fluorescence Filter Cube, 30 mm Cage Compatible, 1/4"-20 Tapped Holes	Thorlabs	DFM1	1	 $326.00 	 $326.00 	30 mm cage filter cube, 25 x 36 x 2 mm dichroic, 25 mm filter	https://www.thorlabs.com/thorproduct.cfm?partnumber=DFM1
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| Cage Assembly Turret Mount Ø1" Optics	Thorlabs	KC45D	4	 $197.40 	 $789.60 	30 mm cage mirror gimbal mirror mount	https://www.thorlabs.com/thorproduct.cfm?partnumber=KC45D
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| Fixed 90° Bracket, Ø6 mm Bore and 4-40 Taps	Thorlabs	ER90B	16	 $13.70 	 $219.20 	90 deg cage connectors	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER90B
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| Ø1/2" Universal Post Holder, Spring-Loaded Locking Thumbscrew, L = 1.5"	Thorlabs	UPH1.5	14	 $29.50 	 $413.00 	post holders	https://www.thorlabs.com/thorproduct.cfm?partnumber=UPH1.5
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| Externally SM1-Threaded End Cap for Machining	Thorlabs	SM1CP2M	2	 $18.00 	 $36.00 	SM1 covers as laser target / cube cover / sample holder	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1CP2M
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included - shortened to ?"	Thorlabs	SM1L10	1	 $14.25 	 $14.25 	SM1 tube for mounting cylindrical lens	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L10
+|| 
+|| 
+|| 
+|| 
+|| 
+|| 
+|-
+|- align="left"
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1D12D Ring-Actuated SM1 Iris Diaphragm]  	  		
+|| SM1-threaded aperture for LEDs, laser alignment
+|| Thorlabs
+|| SM1D12D
+|| 4
+|| $64.30
+|| $257.20
+|-
+|- align="left"
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L10 SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included]
+|| SM1 tube
+|| Thorlabs
+|| SM1L10
+|| 3
+|| $14.25
+|| $42.75
+|-
 |}
-
-Ø1/2" Optical Post, SS, 8-32 Setscrew, 1/4"-20 Tap, L = 2"	Thorlabs	TR2	20	 $5.19 	 $103.80 	posts for cage system	https://www.thorlabs.com/thorproduct.cfm?partnumber=TR2
-Ø1/2" Pedestal Post Holder, Spring-Loaded Hex-Locking Thumbscrew, L=1.19"	Thorlabs	PH1E	20	 $22.50 	 $450.00 	mounts for posts	https://www.thorlabs.com/thorproduct.cfm?partnumber=PH1E
-Short Clamping Fork, 1.24" Counterbored Slot, 1/4"-20 Captive Screw	Thorlabs	CF125C	20	 $10.50 	 $210.00 	clamps for post mounts	https://www.thorlabs.com/thorproduct.cfm?partnumber=CF125C
-Cage Assembly Rod, 1/2" (12.7 mm) Long, Ø6 mm	Thorlabs	ER05	4	 $4.94 	 $19.76 	0.5" cage rods	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER05
-Cage Assembly Rod, 1" (25.4 mm) Long, Ø6 mm	Thorlabs	ER1	16	 $4.94 	 $79.04 	1" cage rods for sample holder	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER1
-Cage Assembly Rod, 1.5" (38.1 mm) Long, Ø6 mm	Thorlabs	ER1.5	8	 $5.70 	 $45.60 	1.5" cage rods	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER1.5
-Cage Assembly Rod, 2" (50.8 mm) Long, Ø6 mm	Thorlabs	ER2	4	 $5.94 	 $23.76 	2" cage rods	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER2
-Cage Assembly Rod, 3" (76.2 mm) Long, Ø6 mm	Thorlabs	ER3	12	 $6.44 	 $77.28 	3" cage rods	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER3
-Cage Assembly Rod, 4" (101.6 mm) Long, Ø6 mm	Thorlabs	ER4	8	 $6.94 	 $55.52 	4" cage rods	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER4
-Cage Assembly Rod, 6" (152.4 mm) Long, Ø6 mm	Thorlabs	ER6	4	 $8.44 	 $33.76 	6" cage rods	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER6
-Cage Assembly Rod, 8" (203.2 mm) Long, Ø6 mm	Thorlabs	ER8	8	 $11.44 	 $91.52 	8" cage rods	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER8
-Cage Assembly Rod, 10" (254.0 mm) Long, Ø6 mm	Thorlabs	ER10	4	 $12.44 	 $49.76 	10" cage rods	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER10
-Rod Adapter for Ø6 mm ER Rods, Qty. 1	Thorlabs	ERSCA	8	 $10.80 	 $86.40 	cage rod adapters	https://www.thorlabs.com/thorproduct.cfm?partnumber=ERSCA
-30 mm Removable Cage Plate, Front and Back Plate, Internal SM1 Threading	Thorlabs	CP90F	5	 $48.00 	 $240.00 	quick release lens mount, 30 mm cage system	http://www.thorlabs.com/thorproduct.cfm?partnumber=CP90F
-SM1 Threaded 30 mm Enhanced Clamping Cage Plate, 0.35" Thick, 8-32 Tap	Thorlabs	CP08	15	 $19.00 	 $285.00 	30 mm cage plate, internal SM1	https://www.thorlabs.com/thorproduct.cfm?partnumber=CP08
-Post-Mountable Cage Plate with Ø1.0" Double Bore, 8-32 Tap	Thorlabs	CP06	6	 $16.75 	 $100.50 	30 mm cage plate, internal 1"	https://www.thorlabs.com/thorproduct.cfm?partnumber=CP06
-Precision Cage Rotation Mount with Micrometer Drive, Ø1" Optics, 8-32 Tap	Thorlabs	CRM1P	2	 $197.88 	 $395.76 	30 mm cage plate w/ rotational mount	https://www.thorlabs.com/thorproduct.cfm?partnumber=CRM1P
-Kinematic Fluorescence Filter Cube, 30 mm Cage Compatible, 1/4"-20 Tapped Holes	Thorlabs	DFM1	1	 $326.00 	 $326.00 	30 mm cage filter cube, 25 x 36 x 2 mm dichroic, 25 mm filter	https://www.thorlabs.com/thorproduct.cfm?partnumber=DFM1
-Cage Assembly Turret Mount Ø1" Optics	Thorlabs	KC45D	4	 $197.40 	 $789.60 	30 mm cage mirror gimbal mirror mount	https://www.thorlabs.com/thorproduct.cfm?partnumber=KC45D
-Fixed 90° Bracket, Ø6 mm Bore and 4-40 Taps	Thorlabs	ER90B	16	 $13.70 	 $219.20 	90 deg cage connectors	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER90B
-Ø1/2" Universal Post Holder, Spring-Loaded Locking Thumbscrew, L = 1.5"	Thorlabs	UPH1.5	14	 $29.50 	 $413.00 	post holders	https://www.thorlabs.com/thorproduct.cfm?partnumber=UPH1.5
-Externally SM1-Threaded End Cap for Machining	Thorlabs	SM1CP2M	2	 $18.00 	 $36.00 	SM1 covers as laser target / cube cover / sample holder	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1CP2M
-SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included - shortened to ?"	Thorlabs	SM1L10	1	 $14.25 	 $14.25 	SM1 tube for mounting cylindrical lens	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L10
-Ring-Actuated SM1 Iris Diaphragm	Thorlabs	SM1D12D	4	 $64.30 	 $257.20 	SM1-threaded aperture for LEDs, laser alignment	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1D12D
-SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included	Thorlabs	SM1L10	3	 $14.25 	 $42.75 	SM1 tube	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L10
 
 === Lenses ===
 
