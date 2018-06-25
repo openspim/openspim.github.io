@@ -449,72 +449,28 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 ! scope="col" class="unsortable" width="50"| Total price
 
 |- align="left"
-|| 10X Nikon CFI Plan Fluorite Objective, 0.30 NA, 3.5 mm WD	Nikon		1	 $-   	 $-   	illumination objectives ($1,315.60 @ Thorlabs)	https://www.thorlabs.com/thorproduct.cfm?partnumber=N10XW-PF
-
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=N10XW-PF 10X Nikon CFI Plan Fluorite Objective, 0.30 NA, 3.5 mm WD]	
+|| illumination objective
 || 
+|| Nikon
 || 
+| align="right" | 1
+| align="right" | $1,315.60
+| align="right" | $1,315.60
+|-
+|- align="left"
+|| [http://www.cobolt.se/product/04-01-series/ Cobolt Calypso 491nm 100mW DPSS]	
+|| 491nm laser
 || 
+|| Cobolt
 || 
-| align="right" | 
+| align="right" | 1
 | align="right" | 
 | align="right" | 
 |-
 |- align="left"
-|| Cobolt Calypso 491nm 100mW DPSS	Cobolt		1	 $-   	 $-   	491 nm laser (from old laser launch)	http://www.cobolt.se/product/04-01-series/
-
-|| 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
-|-
-|- align="left"
-|| NEOS PCAOM	NEOS	48062-2.5-.55	1	 $-   	 $-   	AOTF (from old laser launch)
-|| 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
-|-
-|- align="left"
-|| NEOS 4-channel PCAOM driver	NEOS	64040-75-.1.4CH	1	 $-   	 $-   	AOTF controller (from old laser launch)
-|| 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
-|-
-|- align="left"
-|| Adapter with External SM1 Threads and Internal M25 x 0.75 Threads	Thorlabs	SM1A12	1	 $19.75 	 $19.75 	adapter illumination objective to SM1	http://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A12
-
-|| 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
-|-
-|- align="left"
-|| 25.4mm Diameter, 4-6λ Mirror	Edmund Optics	#69-245	4	 $16.00 	 $64.00 	1" mirror, only 3 mm thick, for gimbal mount	http://www.edmundoptics.com/optics/optical-mirrors/flat-mirrors/4-6-wave-first-surface-mirrors/69245
-
-|| 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
-|-
-|- align="left"
-|| 
-|| baseplate for 491nm laser
+|| Laser baseplate XxY"
+|| baseplate for 491nm laser - ''to be cut from solid aluminium plate, added holes for mounting laser and posts (8-32)''
 || x
 || 
 || 
@@ -523,124 +479,144 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 | align="right" | 
 |-
 |- align="left"
-|| Z-Axis Translation Mount, 30 mm Cage Compatible	Thorlabs	SM1Z	1	 $186.00 	 $186.00 	zoom housing for telescope lens	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1Z
-
+|| PCAOM
+|| acousto-optical tunable filter for laser illumination
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
-|-
-|- align="left"
-|| 30mm Cage System Adjustable Slit, 8-32 Tap, Imperial Micrometer	Thorlabs	VA100C	2	 $260.00 	 $520.00 	slit for setting light sheet properties, 30 mm cage system	http://www.thorlabs.com/thorproduct.cfm?partnumber=VA100C
-
-|| 
-|| 
-|| 
-|| 
-| align="right" | 
+|| NEOS
+|| 48062-2.5-.55
+| align="right" | 1
 | align="right" | 
 | align="right" | 
 |-
 |- align="left"
-|| Kinematic Mount with Vertical Drive, Ø1/2" Optics	Thorlabs	VM05	4	 $97.90 	 $391.60 	vertical drive 0.5" mirror mounts for laser module	https://www.thorlabs.com/thorproduct.cfm?partnumber=VM05
-
+|| 4-channel PCAOM driver
+|| AOTF controller
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
-|-
-|- align="left"
-|| Ø1/2" Broadband Dielectric Mirror, 400 - 750 nm	Thorlabs	BB05-E02	4	 $49.40 	 $197.60 	0.5" mirrors for laser module	https://www.thorlabs.com/thorproduct.cfm?partnumber=BB05-E02
-
-|| 
-|| 
-|| 
-|| 
-| align="right" | 
+|| NEOS
+|| 64040-75-.1.4CH
+| align="right" | 1
 | align="right" | 
 | align="right" | 
 |-
 |- align="left"
-|| 30 mm Cage System Iris, Ø20.0 mm Maximum Aperture	Thorlabs	CP20S	8	 $85.00 	 $680.00 	iris for beam alignment, 30 mm cage system	http://www.thorlabs.com/thorproduct.cfm?partnumber=CP20S
-
+|| [http://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A12 Adapter with External SM1 Threads and Internal M25 x 0.75 Threads]
+|| adapter illumination objective to SM1
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Thorlabs
+|| SM1A12
+| align="right" | 1
+| align="right" | $19.75
+| align="right" | $19.75
 |-
 |- align="left"
-|| Ø1/2" Optical Post, SS, 8-32 Setscrew, 1/4"-20 Tap, L = 1.5"	Thorlabs	TR1.5	8	 $4.97 	 $39.76 	shorter posts for laser mounts	https://www.thorlabs.com/thorproduct.cfm?partnumber=TR1.5
-
+|| [http://www.edmundoptics.com/optics/optical-mirrors/flat-mirrors/4-6-wave-first-surface-mirrors/69245 25.4mm Diameter, 4-6λ Mirror]
+|| 1" mirror, only 3 mm thick, for gimbal mount
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Edmund Optics
+|| #69-245
+| align="right" | 4
+| align="right" | $16.00
+| align="right" | $64.00
 |-
 |- align="left"
-|| Kinematic Mount with Vertical Drive, Ø1/2" Optics	Thorlabs	VM05	4	 $97.90 	 $391.60 	0.5" mirror mounts w/ vertical drive	https://www.thorlabs.com/thorproduct.cfm?partnumber=VM05
-
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1Z Z-Axis Translation Mount, 30 mm Cage Compatible]
+|| zoom housing for telescope lens
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Thorlabs
+|| SM1Z
+| align="right" | 1
+| align="right" | $186.00
+| align="right" | $186.00
 |-
 |- align="left"
-|| Unmounted Continuously Variable ND Filter, Ø50 mm, OD: 0-4.0, ARC: 350 - 700 nm	Thorlabs	NDC-50C-4-A	1	 $368.00 	 $368.00 	ND filter wheel for laser module	https://www.thorlabs.com/thorproduct.cfm?partnumber=NDC-50C-4-A
-
+|| [http://www.thorlabs.com/thorproduct.cfm?partnumber=VA100C 30mm Cage System Adjustable Slit, 8-32 Tap, Imperial Micrometer]
+|| slit for setting light sheet properties, 30 mm cage system
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Thorlabs
+|| VA100C
+| align="right" | 2
+| align="right" | $260.00
+| align="right" | $520.00
 |-
 |- align="left"
-|| Post Mount Assembly for Round, Unmounted, ND Filters	Thorlabs	NDC-PM	1	 $52.25 	 $52.25 	mount for ND filter wheel	https://www.thorlabs.com/thorproduct.cfm?partnumber=NDC-PM
-
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=VM05 Kinematic Mount with Vertical Drive, Ø1/2" Optics]
+|| vertical drive 0.5" mirror mounts for laser module
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Thorlabs
+|| VM05
+| align="right" | 8
+| align="right" | $97.90
+| align="right" | $783.20
 |-
 |- align="left"
-|| Assmann WSW Components H7VXH-0906M	Digi-Key	H7VXH-0906M-ND	2	 $5.18 	 $10.36 	cable for triggering AOTF	http://www.digikey.com/product-detail/en/assmann-wsw-components/H7VXH-0906M/H7VXH-0906M-ND/998782
-
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=BB05-E02 Ø1/2" Broadband Dielectric Mirror, 400 - 750 nm]
+|| 0.5" mirrors for laser module
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Thorlabs
+|| BB05-E02
+| align="right" | 4
+| align="right" | $49.40
+| align="right" | $197.60
 |-
 |- align="left"
-|| Pomona Electronics 4969	Digi-Key	501-1030-ND	4	 $8.99 	 $35.96 	cable for BNC input to other cable	http://www.digikey.com/product-detail/en/pomona-electronics/4969/501-1030-ND/603340
+|| [http://www.thorlabs.com/thorproduct.cfm?partnumber=CP20S 30 mm Cage System Iris, Ø20.0 mm Maximum Aperture]
+|| iris for beam alignment, 30 mm cage system
 || 
+|| Thorlabs
+|| CP20S
+| align="right" | 8
+| align="right" | $85.00
+| align="right" | $680.00
+|-
+|- align="left"
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=TR1.5 Ø1/2" Optical Post, SS, 8-32 Setscrew, 1/4"-20 Tap, L = 1.5"]
+|| short posts for laser baseplate
 || 
+|| Thorlabs
+|| TR1.5
+| align="right" | 4
+| align="right" | $4.97
+| align="right" | $19.88
+|-
+|- align="left"
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=NDC-50C-4-A Unmounted Continuously Variable ND Filter, Ø50 mm, OD: 0-4.0, ARC: 350 - 700 nm]
+|| ND filter wheel for additional attenuation in laser module
 || 
+|| Thorlabs
+|| NDC-50C-4-A
+| align="right" | 1
+| align="right" | $368.00
+| align="right" | $368.00
+|-
+|- align="left"
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=NDC-PM Post Mount Assembly for Round, Unmounted, ND Filters]
+|| mount for ND filter wheel
 || 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Thorlabs
+|| NDC-PM
+| align="right" | 1
+| align="right" | $52.25
+| align="right" | $52.25
+|-
+|- align="left"
+|| [http://www.digikey.com/product-detail/en/assmann-wsw-components/H7VXH-0906M/H7VXH-0906M-ND/998782 Assmann WSW Components H7VXH-0906M]
+|| cable for triggering AOTF
+|| 
+|| Digi-Key
+|| H7VXH-0906M-ND
+| align="right" | 2
+| align="right" | $5.18
+| align="right" | $10.36
+|-
+|- align="left"
+|| [http://www.digikey.com/product-detail/en/pomona-electronics/4969/501-1030-ND/603340 Pomona Electronics 4969]
+|| cable for BNC input to other cable
+|| 
+|| Digi-Key
+|| 501-1030-ND
+| align="right" | 4
+| align="right" | $8.99
+| align="right" | $35.96
 |-
 |}
 
