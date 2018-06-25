@@ -31,6 +31,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |-
 ! scope="col" class="unsortable" width="200"| Name
 ! scope="col" class="unsortable" width="200"| Description
+! scope="col" class="unsortable" width="10"| C
 ! scope="col" class="unsortable" width="100"| Vendor 
 ! scope="col" class="unsortable" width="120"| Order number
 ! scope="col" class="unsortable" width="50"| Number
@@ -39,7 +40,8 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=MB2436 Ø45.0 mm Aluminum Breadboard 24" x 36" x 1/2", 1/4"-20 Taps]
-|| breadboard
+|| main breadboard
+|| 
 || Thorlabs
 || MB2436
 | align="right" | 1
@@ -48,7 +50,8 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |-
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=TPS13 Ø45.0 mm 12" x 6" (305 mm x 152 mm) Straight Laser Safety Screen]
-|| laser shielding
+|| laser shielding for breadboard
+|| 
 || Thorlabs
 || TPS13
 | align="right" | 10
@@ -57,7 +60,8 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |-
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=AV6 Ø45.0 mm Sorbothane Feet, Internal 1/4"-20 Mounting Thread, 4 Pieces]
-|| simple vibration isolation
+|| simple vibration isolation for breadboard
+|| 
 || Thorlabs
 || AV6
 | align="right" | 1
