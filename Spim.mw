@@ -749,6 +749,7 @@ SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included	Thorlabs	SM1L10	2
 |-
 ! scope="col" class="unsortable" width="200"| Name
 ! scope="col" class="unsortable" width="200"| Description
+! scope="col" class="unsortable" width="10"| C
 ! scope="col" class="unsortable" width="100"| Vendor 
 ! scope="col" class="unsortable" width="120"| Order number
 ! scope="col" class="unsortable" width="50"| Number
@@ -758,6 +759,7 @@ SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included	Thorlabs	SM1L10	2
 |- align="left"
 || [http://www.dell.com/us/business/p/optiplex-7040-desktop/pd?oc=s024o7040mtus&model_id=optiplex-7040-desktop Optiplex 7040 (Minitower, Win 10 Pro, Intel Core i7, 16 GB RAM, 256 GB M.2 SSD, Radeon R7, DVD drive, keyboard, mouse)]
 || acquisition computer
+|| 
 || Dell
 || 210-AFGH OptiPlex 7040 Mini Tower
 | align="right" | 1
@@ -769,6 +771,7 @@ SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included	Thorlabs	SM1L10	2
 || data drive for acquisition computer
 || 
 || 
+|| 
 | align="right" | 1
 | align="right" | 
 | align="right" | 
@@ -776,6 +779,7 @@ SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included	Thorlabs	SM1L10	2
 |- align="left"
 || [http://sine.ni.com/nips/cds/view/p/lang/en/nid/1385 LabVIEW Base Development System for Windows]
 || development platform for acquisition software
+|| 
 || National Instruments
 || ISWD460
 | align="right" | 1
