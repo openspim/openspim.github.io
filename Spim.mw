@@ -372,9 +372,6 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 ! scope="col" class="unsortable" width="50"| Price/part
 ! scope="col" class="unsortable" width="50"| Total price
 
-|- align="center"
-! colspan="7" | Sample chamber
-|-
 |- align="left"
 || sample-chamber_v2.STL
 || sample chamber
