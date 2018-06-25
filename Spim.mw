@@ -644,114 +644,104 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 | align="right" | $5,824.21
 |-
 |- align="left"
-|| Infinity-Corrected Tube Lens for Plan Fluorite Objectives	Nikon		1	 $-   	 $-   	Nikon 200 mm tube lens for detection ($450 @ Thorlabs)	https://www.thorlabs.com/thorproduct.cfm?partnumber=ITL200
-
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=ITL200 Infinity-Corrected Tube Lens for Plan Fluorite Objectives]
+|| 200 mm tube lens for detection arm
 || 
+|| Nikon
 || 
+| align="right" | 1
+| align="right" | $450
+| align="right" | $450
+|-
+|- align="left"
+|| [http://www.hamamatsu.com/jp/en/community/life_science_camera/product/search/C11440-10C/index.html Hamamatsu ORCA Flash 2.8 (1,920x1,440, 3.63µm pixels, 70% QE, 45fps]	
+|| main camera
 || 
-|| 
-| align="right" | 
+|| Hamamatsu
+|| C11440-10C
+| align="right" | 1
 | align="right" | 
 | align="right" | 
 |-
 |- align="left"
-|| Camera	Hamamatsu	Orca Flash 2.8	1	 $-   	 $-   	main camera	http://www.hamamatsu.com/jp/en/community/life_science_camera/product/search/C11440-10C/index.html
-
+|| [https://www.chroma.com/products/parts/et525-50m Bandpass emission filter 525/50, mounted, 25 mm]	
+|| emission filter for "green" fluorophores
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Chroma
+|| ET525/50m
+| align="right" | 1
+| align="right" | $325
+| align="right" | $325
 |-
 |- align="left"
-|| BP 525/50, mounted, 25 mm	Chroma	ET525/50m	1	 $-   	 $-   	filter for EX 491 nm, GFP etc. ($325 @ Chroma)	https://www.chroma.com/products/parts/et525-50m
-
+|| [http://www.mccdaq.com/usb-data-acquisition/USB-3103.aspx 8-Channel, 16-Bit Analog Voltage Output Device]
+|| USB DAQ for AOTF, LEDs etc
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| MCC
+|| USB-3103
+| align="right" | 1
+| align="right" | $349.00
+| align="right" | $349.00
 |-
 |- align="left"
-|| 8-Channel, 16-Bit Analog Voltage Output Device	MCC	USB-3103	1	 $349.00 	 $349.00 	USB-to-analog-out for AOM etc.	http://www.mccdaq.com/usb-data-acquisition/USB-3103.aspx
-
+|| [http://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A34 Adapter with External SM1 Threads and Internal M32 x 0.75 Threads]
+|| adapter detection objective to SM1
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Thorlabs
+|| SM1A34
+| align="right" | 1
+| align="right" | $22.00
+| align="right" | $22.00
 |-
 |- align="left"
-|| Adapter with External SM1 Threads and Internal M32 x 0.75 Threads	Thorlabs	SM1A34	1	 $22.00 	 $22.00 	adapter detection objective to SM1	http://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A34
-
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM2A20 Adapter with External SM2 Threads and Internal M38 x 0.5 Threads]
+|| tube lens to SM2 adapter
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Thorlabs
+|| SM2A20
+| align="right" | 1
+| align="right" | $45.00
+| align="right" | $45.00
 |-
 |- align="left"
-|| Adapter with External SM2 Threads and Internal M38 x 0.5 Threads	Thorlabs	SM2A20	1	 $45.00 	 $45.00 	tube lens to SM2 adapter	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM2A20
-
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP08 60 mm Cage Plate, SM2 Threaded, Enhanced Clamping, 0.5" Thick, 8-32 Tap]
+|| 60 mm cage plate w/ SM2 thread
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Thorlabs
+|| LCP08
+| align="right" | 1
+| align="right" | $47.90
+| align="right" | $47.90
 |-
 |- align="left"
-|| 60 mm Cage Plate, SM2 Threaded, Enhanced Clamping, 0.5" Thick, 8-32 Tap	Thorlabs	LCP08	1	 $47.90 	 $47.90 	60 mm cage plate w/ SM2 thread	https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP08
-
-
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP06 60 mm Cage Plate with Ø2" Double-Bore Optic Mount, 8-32 Tap]
+|| 60 mm cage plate for holding SM2 tube
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Thorlabs
+|| LCP06
+| align="right" | 1
+| align="right" | $33.50
+| align="right" | $33.50
 |-
 |- align="left"
-|| 60 mm Cage Plate with Ø2" Double-Bore Optic Mount, 8-32 Tap	Thorlabs	LCP06	1	 $33.50 	 $33.50 	60 mm cage plate for holding SM2 tube	https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP06
+|| [http://www.thorlabs.com/thorproduct.cfm?partnumber=LCP02 30 mm to 60 mm Cage Plate Adapter, 8-32 Tap]
+|| 60 to 30 mm cage adapter
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Thorlabs
+|| LCP02
+| align="right" | 2
+| align="right" | $38.00
+| align="right" | $76.00
 |-
 |- align="left"
-|| 30 mm to 60 mm Cage Plate Adapter, 8-32 Tap	Thorlabs	LCP02	2	 $38.00 	 $76.00 	60-to-30 mm cage adapter	http://www.thorlabs.com/thorproduct.cfm?partnumber=LCP02
-
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A39 Adapter with External C-Mount Threads and External SM1 Threads]	
+|| C-mount-to-SM1 adapter
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
-|-
-|- align="left"
-|| Adapter with External C-Mount Threads and External SM1 Threads	Thorlabs	SM1A39	1	 $20.00 	 $20.00 	C-mount-to-SM1 adapter	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A39
-
-|| 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Thorlabs
+|| SM1A39
+| align="right" | 1
+| align="right" | $20.00
+| align="right" | $20.00
 |-
 |- align="left"
 || Adapter with External SM2 Threads and Internal SM1 Threads	Thorlabs	SM2A6	1	 $24.00 	 $24.00 	SM1-to-SM2 adapter	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM2A6
