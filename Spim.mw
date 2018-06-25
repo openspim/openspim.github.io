@@ -494,6 +494,7 @@ Pomona Electronics 4969	Digi-Key	501-1030-ND	4	 $8.99 	 $35.96 	cable for BNC in
 |-
 ! scope="col" class="unsortable" width="200"| Name
 ! scope="col" class="unsortable" width="200"| Description
+! scope="col" class="unsortable" width="10"| C
 ! scope="col" class="unsortable" width="100"| Vendor 
 ! scope="col" class="unsortable" width="120"| Order number
 ! scope="col" class="unsortable" width="50"| Number
@@ -501,6 +502,7 @@ Pomona Electronics 4969	Digi-Key	501-1030-ND	4	 $8.99 	 $35.96 	cable for BNC in
 ! scope="col" class="unsortable" width="50"| Total price
 
 |- align="left"
+|| 
 || 
 || 
 || 
