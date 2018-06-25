@@ -1383,6 +1383,17 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 
 == Assembly ==
 
+# Mount sample chamber
+# Attach cage rods for illumination and detection arms to sample chamber
+# Mount objective lenses using silicone
+# Start assembling the detection arm
+# Adjust distance camera - tube lens by focusing to infinity
+# Finalize detection arm
+# Assemble motor unit and sample holder
+# Assemble illumination arm with mirrors, but without lenses
+# Align laser to center of cage system and sample chamber
+# Add circular lenses step by step, adjust focus and collimation where necessary
+# Add cylindrical lens and adjust light sheet to focal plane of detection objective
 
 == Alignment ==
 
