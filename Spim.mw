@@ -1394,6 +1394,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 # Align laser to center of cage system and sample chamber
 # Add circular lenses step by step, adjust focus and collimation where necessary
 # Add cylindrical lens and adjust light sheet to focal plane of detection objective
+# Add laser shielding to breadboard
 
 == Alignment ==
 
