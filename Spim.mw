@@ -24,6 +24,8 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 * tools not included
 * US prices from 2016/2017
 
+=== Breadboard ===
+
 {| class="wikitable sortable" border="1"
 |-
 ! scope="col" class="unsortable" width="200"| Name
@@ -64,9 +66,36 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 || $30.75
 || $30.75
 |-
+|}
+
+=== Basics ===
+
+{| class="wikitable sortable" border="1"
+|-
+! scope="col" class="unsortable" width="200"| Name
+! scope="col" class="unsortable" width="200"| Description
+! scope="col" class="unsortable" width="50"| Vendor 
+! scope="col" class="unsortable" width="50"| Order number
+! scope="col" class="unsortable" width="50"| Number
+! scope="col" class="unsortable" width="50"| Price/part
+! scope="col" class="unsortable" width="50"| Total price
+
 |- align="center"
 ! colspan="7" | Basics
 |-
+
+=== Lenses ===
+
+{| class="wikitable sortable" border="1"
+|-
+! scope="col" class="unsortable" width="200"| Name
+! scope="col" class="unsortable" width="200"| Description
+! scope="col" class="unsortable" width="50"| Vendor 
+! scope="col" class="unsortable" width="50"| Order number
+! scope="col" class="unsortable" width="50"| Number
+! scope="col" class="unsortable" width="50"| Price/part
+! scope="col" class="unsortable" width="50"| Total price
+
 |- align="center"
 ! colspan="7" | Lenses
 |-
@@ -106,6 +135,20 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 || $95.90
 || $95.90
 |-
+|}
+
+=== Sample chamber ===
+
+{| class="wikitable sortable" border="1"
+|-
+! scope="col" class="unsortable" width="200"| Name
+! scope="col" class="unsortable" width="200"| Description
+! scope="col" class="unsortable" width="50"| Vendor 
+! scope="col" class="unsortable" width="50"| Order number
+! scope="col" class="unsortable" width="50"| Number
+! scope="col" class="unsortable" width="50"| Price/part
+! scope="col" class="unsortable" width="50"| Total price
+
 |- align="center"
 ! colspan="7" | Sample chamber
 |-
