@@ -744,103 +744,54 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 | align="right" | $20.00
 |-
 |- align="left"
-|| Adapter with External SM2 Threads and Internal SM1 Threads	Thorlabs	SM2A6	1	 $24.00 	 $24.00 	SM1-to-SM2 adapter	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM2A6
-
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM2A6 Adapter with External SM2 Threads and Internal SM1 Threads]
+|| SM1-to-SM2 adapter
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Thorlabs
+|| SM2A6
+| align="right" | 1
+| align="right" | $24.00
+| align="right" | $24.00
 |-
 |- align="left"
-|| SM2 Lens Tube Without External Threads, 1/2" Thread Depth, Two Retaining Rings Included	Thorlabs	SM2M05	1	 $24.50 	 $24.50 	SM2 tube for cage plate	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM2M05
-
-
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM2M05 SM2 Lens Tube Without External Threads, 1/2" Thread Depth, Two Retaining Rings Included]
+|| SM2 tube for cage plate
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Thorlabs
+|| SM2M05
+| align="right" | 1
+| align="right" | $24.50
+| align="right" | $24.50
 |-
 |- align="left"
-|| 60 mm Cage Plate with Ø2.2" Double Bore for SM2 Lens Tube Mounting	Thorlabs	LCP09	1	 $41.20 	 $41.20 	60 mm cage plate for SM2 tube	https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP09
-
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP09 60 mm Cage Plate with Ø2.2" Double Bore for SM2 Lens Tube Mounting]
+|| 60 mm cage plate for SM2 tube
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Thorlabs
+|| LCP09
+| align="right" | 1
+| align="right" | $41.20
+| align="right" | $41.20
 |-
 |- align="left"
-|| Dual-Position Slider Bundle: Dual-Position Slider, Interface Board, Cables	Thorlabs	ELL6K	1	 $268.00 	 $268.00 	motorized filter switch	https://www.thorlabs.com/thorproduct.cfm?partnumber=ELL6K
-
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=ELL6K Dual-Position Slider Bundle: Dual-Position Slider, Interface Board, Cables]
+|| motorized filter switch
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Thorlabs
+|| ELL6K
+| align="right" | 1
+| align="right" | $268.00
+| align="right" | $268.00
 |-
 |- align="left"
-|| SM1 Lens Tube, 0.30" Thread Depth, One Retaining Ring Included	Thorlabs	SM1L03	3	 $12.16 	 $36.48 	filter mount for motorized filter switch	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L03
-
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L03 SM1 Lens Tube, 0.30" Thread Depth, One Retaining Ring Included]
+|| filter mount for motorized filter switch
 || 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
-|-
-|- align="left"
-|| 30 mm to 60 mm Cage Plate Adapter, 8-32 Tap	Thorlabs	LCP02	3	 $38.00 	 $114.00 	cage mount for filter switch, wheel	https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP02
-|| 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
-|-
-|- align="left"
-|| Cage Assembly Rod, 2" Long, Ø6 mm, 4 Pack	Thorlabs	ER2-P4	1	 $22.57 	 $22.57 	cage extension rods	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER2-P4
-
-|| 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
-|-
-|- align="left"
-|| Cage Assembly Rod, 1" Long, Ø6 mm, 4 Pack	Thorlabs	ER1-P4	2	 $18.77 	 $37.54 	cage rods for mounting switch and wheel	https://www.thorlabs.com/thorproduct.cfm?partnumber=ER1-P4
-
-|| 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
-|-
-|- align="left"
-|| SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack	Thorlabs	SM1L10-P5	1	 $67.70 	 $67.70 	SM1 tubes for detection path	https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L10-P5
-
-|| 
-|| 
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
+|| Thorlabs
+|| SM1L03
+| align="right" | 3
+| align="right" | $12.16
+| align="right" | $36.48
 |-
 |- align="left"
 || Baseplate for filter switch control board
@@ -849,6 +800,46 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 || 
 || 
 | align="right" | 1
+| align="right" | 
+| align="right" | 
+|-
+|- align="left"
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP02 30 mm to 60 mm Cage Plate Adapter, 8-32 Tap]
+|| cage mount for filter switch
+|| 
+|| Thorlabs
+|| LCP02
+| align="right" | 3
+| align="right" | $38.00
+| align="right" | $114.00
+|-
+|- align="left"
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER2-P4 Cage Assembly Rod, 2" Long, Ø6 mm, 4 Pack]
+|| cage extension rods
+|| 
+|| Thorlabs
+|| ER2-P4
+| align="right" | 1
+| align="right" | $22.57
+| align="right" | $22.57
+|-
+|- align="left"
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER1-P4 Cage Assembly Rod, 1" Long, Ø6 mm, 4 Pack]
+|| cage rods for mounting filter switch
+|| 
+|| Thorlabs
+|| ER1-P4
+| align="right" | 2
+| align="right" | $18.77
+| align="right" | $37.54
+|-
+|- align="left"
+|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L10-P5 SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack]
+|| light block for detection path
+|| 
+|| Thorlabs
+|| SM1L10-P5
+| align="right" | 
 | align="right" | 
 | align="right" | 
 |-
