@@ -884,6 +884,7 @@ SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included	Thorlabs	SM1L10	2
 |-
 ! scope="col" class="unsortable" width="200"| Name
 ! scope="col" class="unsortable" width="200"| Description
+! scope="col" class="unsortable" width="50"| C
 ! scope="col" class="unsortable" width="100"| Vendor 
 ! scope="col" class="unsortable" width="120"| Order number
 ! scope="col" class="unsortable" width="50"| Number
@@ -894,6 +895,7 @@ SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included	Thorlabs	SM1L10	2
 || [http://incubatorwarehouse.com/48-watt-incukit-dc.html IncuKit™ MINI for Desktop Incubators]
 || temperature control for incubation cage
 || 
+|| Incubator Warehouse
 || Incukit-DC
 | align="right" | 1
 | align="right" | $50.00
@@ -902,6 +904,7 @@ SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included	Thorlabs	SM1L10	2
 |- align="left"
 || Custom enclosure
 || 
+|| x
 || 
 || 
 | align="right" | 
