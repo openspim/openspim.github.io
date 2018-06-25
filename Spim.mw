@@ -76,6 +76,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |-
 ! scope="col" class="unsortable" width="200"| Name
 ! scope="col" class="unsortable" width="200"| Description
+! scope="col" class="unsortable" width="10"| C
 ! scope="col" class="unsortable" width="100"| Vendor 
 ! scope="col" class="unsortable" width="120"| Order number
 ! scope="col" class="unsortable" width="50"| Number
@@ -85,6 +86,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=TR2 Ø1/2" Optical Post, SS, 8-32 Setscrew, 1/4"-20 Tap, L = 2"]		
 || posts for cage system
+|| 
 || Thorlabs
 || TR2
 | align="right" | 20
@@ -94,6 +96,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=PH1E Ø1/2" Pedestal Post Holder, Spring-Loaded Hex-Locking Thumbscrew, L=1.19"] 		
 || mounts for posts
+|| 
 || Thorlabs
 || PH1E
 | align="right" | 20
@@ -103,6 +106,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=CF125C Short Clamping Fork, 1.24" Counterbored Slot, 1/4"-20 Captive Screw]
 || clamps for post mounts
+|| 
 || Thorlabs
 || CF125C
 | align="right" | 20
@@ -112,6 +116,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER05 Cage Assembly Rod, 1/2" (12.7 mm) Long, Ø6 mm]
 || 0.5" cage rods
+|| 
 || Thorlabs
 || ER05
 | align="right" | 4
@@ -121,6 +126,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER1 Cage Assembly Rod, 1" (25.4 mm) Long, Ø6 mm]
 || 1" cage rods
+|| 
 || Thorlabs
 || ER1
 | align="right" | 16
@@ -130,6 +136,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER1.5 Cage Assembly Rod, 1.5" (38.1 mm) Long, Ø6 mm]
 || 1.5" cage rods
+|| 
 || Thorlabs
 || ER1.5
 | align="right" | 8
@@ -139,6 +146,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER2 Cage Assembly Rod, 2" (50.8 mm) Long, Ø6 mm]
 || 2" cage rods
+|| 
 || Thorlabs
 || ER2
 | align="right" | 4
@@ -148,6 +156,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER3 Cage Assembly Rod, 3" (76.2 mm) Long, Ø6 mm]
 || 3" cage rods
+|| 
 || Thorlabs
 || ER3
 | align="right" | 12
@@ -157,6 +166,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER4 Cage Assembly Rod, 4" (101.6 mm) Long, Ø6 mm]
 || 4" cage rods
+|| 
 || Thorlabs
 || ER4
 | align="right" | 8
@@ -166,6 +176,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER6 Cage Assembly Rod, 6" (152.4 mm) Long, Ø6 mm]
 || 6" cage rods
+|| 
 || Thorlabs
 || ER6
 | align="right" | 4
@@ -175,6 +186,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER8 Cage Assembly Rod, 8" (203.2 mm) Long, Ø6 mm]
 || 8" cage rods
+|| 
 || Thorlabs
 || ER8
 | align="right" | 8
@@ -184,6 +196,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER10 Cage Assembly Rod, 10" (254.0 mm) Long, Ø6 mm]
 || 10" cage rods
+|| 
 || Thorlabs
 || ER10
 | align="right" | 4
@@ -193,6 +206,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=ERSCA Rod Adapter for Ø6 mm ER Rods, Qty. 1]
 || cage rod adapters
+|| 
 || Thorlabs
 || ERSCA
 | align="right" | 8
@@ -202,6 +216,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [http://www.thorlabs.com/thorproduct.cfm?partnumber=CP90F 30 mm Removable Cage Plate, Front and Back Plate, Internal SM1 Threading]
 || quick release lens mount, 30 mm cage system
+|| 
 || Thorlabs
 || CP90F
 | align="right" | 5
@@ -211,6 +226,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=CP08 SM1 Threaded 30 mm Enhanced Clamping Cage Plate, 0.35" Thick, 8-32 Tap]
 || 30 mm cage plate, internal SM1
+|| 
 || Thorlabs
 || CP08
 | align="right" | 15
@@ -220,6 +236,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=CP06 Post-Mountable Cage Plate with Ø1.0" Double Bore, 8-32 Tap]
 || 30 mm cage plate, internal 1"
+|| 
 || Thorlabs
 || CP06
 | align="right" | 6
@@ -229,6 +246,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=CRM1P Precision Cage Rotation Mount with Micrometer Drive, Ø1" Optics, 8-32 Tap]
 || 30 mm cage plate w/ rotational mount
+|| 
 || Thorlabs
 || CRM1P
 | align="right" | 2
@@ -238,6 +256,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=DFM1 Kinematic Fluorescence Filter Cube, 30 mm Cage Compatible, 1/4"-20 Tapped Holes]
 || 30 mm cage filter cube for 25 x 36 x 2 mm dichroic, 25 mm filters
+|| 
 || Thorlabs
 || DFM1
 | align="right" | 1
@@ -247,6 +266,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=KC45D Cage Assembly Turret Mount Ø1" Optics]
 || 30 mm cage mirror gimbal mount
+|| 
 || Thorlabs
 || KC45D
 | align="right" | 4
@@ -256,6 +276,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER90B Fixed 90° Bracket, Ø6 mm Bore and 4-40 Taps]
 || 90 deg cage rod connectors
+|| 
 || Thorlabs
 || ER90B
 | align="right" | 16
@@ -265,6 +286,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=UPH1.5 Ø1/2" Universal Post Holder, Spring-Loaded Locking Thumbscrew, L = 1.5"]
 || post holders
+|| 
 || Thorlabs
 || UPH1.5
 | align="right" | 14
@@ -274,6 +296,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1CP2M Externally SM1-Threaded End Cap for Machining]
 || SM1 covers as laser target / cube cover
+|| 
 || Thorlabs
 || SM1CP2M
 | align="right" | 2
@@ -283,6 +306,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L10 SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included - shortened to ?"]
 || SM1 tube for mounting cylindrical lens
+|| x
 || Thorlabs
 || SM1L10
 | align="right" | 1
@@ -292,6 +316,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1D12D Ring-Actuated SM1 Iris Diaphragm]  	  		
 || SM1-threaded aperture for LEDs, laser alignment
+|| 
 || Thorlabs
 || SM1D12D
 | align="right" | 4
@@ -301,6 +326,7 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 |- align="left"
 || [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L10 SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included]
 || SM1 tube
+|| 
 || Thorlabs
 || SM1L10
 | align="right" | 3
