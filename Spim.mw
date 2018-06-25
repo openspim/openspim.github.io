@@ -790,6 +790,7 @@ SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included	Thorlabs	SM1L10	2
 |-
 ! scope="col" class="unsortable" width="200"| Name
 ! scope="col" class="unsortable" width="200"| Description
+! scope="col" class="unsortable" width="10"| C
 ! scope="col" class="unsortable" width="100"| Vendor 
 ! scope="col" class="unsortable" width="120"| Order number
 ! scope="col" class="unsortable" width="50"| Number
@@ -799,6 +800,7 @@ SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included	Thorlabs	SM1L10	2
 |- align="left"
 || [https://www.bhphotovideo.com/c/product/1002265-REG/istarusa_wd_460_4u_simple_server_rack.html iStarUSA 23.6" Deep 4 RU Simple Server Rack (Black)]
 || server rack for controllers, power supplies etc
+|| 
 || BHPhotoVideo
 || ISWD460
 | align="right" | 1
@@ -808,6 +810,7 @@ SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included	Thorlabs	SM1L10	2
 |- align="left"
 || [https://www.bhphotovideo.com/c/product/729005-REG/Middle_Atlantic_PD_2015R_NS_PD_2015R_NS_Multi_Mount_Rackmount_Power.html Middle Atlantic PD-2015R-NS Multi-Mount Rackmount Power]
 || power connector for server rack
+|| 
 || BHPhotoVideo
 || MIPD2015NS
 | align="right" | 1
@@ -817,6 +820,7 @@ SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included	Thorlabs	SM1L10	2
 |- align="left"
 || [https://www.bhphotovideo.com/c/product/614685-REG/Odyssey_Innovative_Designs_ARPOT1_ARPOT1_Pullout_Shelf_1_Space.html Odyssey Innovative Designs ARPOT1 Pullout Shelf (1-Space)]
 || pullout shelf for controllers
+|| 
 || BHPhotoVideo
 || ODARPOT1
 | align="right" | 1
@@ -826,6 +830,7 @@ SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included	Thorlabs	SM1L10	2
 |- align="left"
 || [https://www.bhphotovideo.com/c/product/1261093-REG/auray_rs_v_1u_one_space_vented_rack.html Auray RS-V-1U One-Space Vented Rack Shelf (1 RU)]
 || fixed shelf for power supplies
+|| 
 || BHPhotoVideo
 || AURSV1U
 | align="right" | 2
@@ -835,6 +840,7 @@ SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included	Thorlabs	SM1L10	2
 |- align="left"
 || [https://www.amazon.com/Amphenol-CS-DSDHD26MF0-010-26-Pin-Deluxe-Shielded/dp/B00O072P98 Amphenol CS-DSDHD26MF0-010 26-Pin HD26 Deluxe D-Sub Cable, Shielded, Male/Female, 10', Gray]
 || cable for 491nm laser
+|| 
 || Amazon
 || -
 | align="right" | 1
@@ -844,6 +850,7 @@ SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included	Thorlabs	SM1L10	2
 |- align="left"
 || [https://www.amazon.com/Hosa-BNC-06-110-10-Feet-75-Ohm-COAX/dp/B003D87JOQ Hosa BNC-06-110 10-Feet 75-Ohm COAX BNC to BNC]
 || BNC cable for AOTF
+|| 
 || Amazon
 || -
 | align="right" | 1
@@ -853,6 +860,7 @@ SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included	Thorlabs	SM1L10	2
 |- align="left"
 || [https://www.amazon.com/Hosa-BNC-59-103-75-ohm-Coax-Cable/dp/B000068OFB Hosa BNC-59-103 BNC to BNC 75-ohm Coax Cable, 3 feet]
 || BNC cables for LEDs
+|| 
 || Amazon
 || -
 | align="right" | 2
@@ -862,6 +870,7 @@ SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included	Thorlabs	SM1L10	2
 |- align="left"
 || [https://www.amazon.com/Anker-9-Port-Smart-Charging-Adapter/dp/B005NGQWL2 Anker USB 3.0 SuperSpeed 10-Port Hub]
 || USB hub for peripherals
+|| 
 || Anker
 || AH231
 | align="right" | 1
@@ -871,6 +880,7 @@ SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included	Thorlabs	SM1L10	2
 |- align="left"
 || [https://www.amazon.com/UGREEN-Extension-Extender-Transfer-Playstation/dp/B00P0ES0YE UGREEN USB Extension Cable USB 3.0 Extender Cord Type A Male to Female Data Transfer (6ft)]
 || USB extension for hub
+|| 
 || Amazon
 || -
 | align="right" | 1
