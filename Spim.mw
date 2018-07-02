@@ -1396,6 +1396,8 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 # Add cylindrical lens and adjust light sheet to focal plane of detection objective
 # Add laser shielding to breadboard
 
+* The 3D model can be viewed using the free [http://www.edrawingsviewer.com eDrawings Viewer].
+
 == Alignment ==
 
 == Troubleshooting ==
