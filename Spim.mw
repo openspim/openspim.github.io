@@ -1438,6 +1438,10 @@ Selective Plane Illumination Microscope (SPIM) with sample rotation & translatio
 ! scope="col" class="unsortable" width="400"| Effort
 
 |- align="left"
+|| Integrate a bio-compatible sample holder, made from e.g. plastic or surgical-grade stainless steel
+|| Requires new sample holder design, different adapter
+|-
+|- align="left"
 || Switch camera to an sCMOS USB model with similar pixel size and larger chip to reduce the required computer size / enable the use of a laptop
 || Requires substantial adaptation of the software, or use of different software, e.g. µManager
 |-
