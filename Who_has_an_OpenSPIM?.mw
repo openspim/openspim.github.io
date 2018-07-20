@@ -136,3 +136,17 @@ We recently extended to a 4-armed system:
 * Picard 4D stage controlled by wireless 3D 'spacemouse' - highly recommended.
 * Controlled via Micromanager, with 3D dataprocessing performed with FIJI, Terastitcher and Vaa3D using the UoN HPC Cluster
 * Currently building a new SPIM incorporating a digitally scanned lightsheet (to take advantage of the lightsheet mode of the Orca Flash), two Nikon x4 Plan Fluorite illumination objectives (17mm WD), 1" optics, enlarged chamber, and a long working distance RI corrected detection objective for imaging large, cleared tissues
+
+<br clear="all" />
+
+= London, UK =
+
+[[File:OpenSPIM Telford-Lab UCL.png|300px|thumb|right|OpenSPIM with two lasers (VersaLase: 488, 561) and dual sided illumination running in the the Max Telford Lab (UCL, UK)]]
+* OpenSPIM running at the Max Telford Lab, University College London
+* It builds on the standard design with the addition of two colour laser illumination (VersaLase™ Multiple Wavelength System) and dual sided illumination.
+* To reduce image acquisition time ESio’s TTL controller box was incorporated
+* The OpenSPIM is used for high resolution 3d images and time lapse recordings to study the development of different lophotrochozoan members (Spiralia) in particular the polyclad flatworm ''Maritigrella crozieri''.
+* For detailed information of our system and our experience of building it you can read our paper: Light-sheet microscopy for everyone? Experience of building an OpenSPIM to study flatworm development (BMC Developmental Biology, 2016)
+
+
+<br clear="all" />
