@@ -38,9 +38,6 @@ Feel free to edit this page with information about your system! (If you do not h
 [[File:Illumination.png|300px|thumb|right|Fig. 4 Schematic for illumination between acquisitions]]
 
 
-4arm system.jpg
-
-
 * The [http://www.damtp.cam.ac.uk/user/gold/?l=_e Goldstein] group in the [http://www.damtp.cam.ac.uk/?l=_e Department of Applied Mathematics and Theoretical Physics] at the University of Cambridge.
 We recently extended to a 4-armed system (Fig. 1): 
 * 4 port sample chamber: [[Media:4_port_chamber.pdf]]
@@ -51,8 +48,9 @@ We recently extended to a 4-armed system (Fig. 1):
 * Adjustable metal feet were attached to the clamps that carry the detection arms to align the two cameras (Fig. 3)
 * We wanted to provide illumination for light dependent (photosynthetic) organisms between acquisitions of a time lapse recording. For this we added a lamp that switches on when the laser shutter closes. The LED driver is triggered by the laser shutter controller via a TTL inverter (Fig. 4).
 
-----  
-----
+<br clear="all" />
+
+
 
 = Cambridge, UK, MRC LMB =
 
