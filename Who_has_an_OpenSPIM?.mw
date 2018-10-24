@@ -56,6 +56,18 @@ We recently extended to a 4-armed system (Fig. 1):
 ----  
 ----
 
+= Cambridge, UK, MRC LMB =
+
+* The Light Microscopy Facility at the [http://www.http://www2.mrc-lmb.cam.ac.uk/ Medical Research Council's Laboratory of Molecular Biology]
+* Our system features two-sided excitation with adjustable focus of the sheet lenses (Olympus 5x/0.15 air MPLFLN5X) which sit outside the imaging chamber to cope with different refractive indices.
+* 4 laser lines - combined in a separate laser bed and fed into a fibre (405nm & 640nm: both Coherent Cube; 488nm & 561nm: both Coherent Sapphire) 
+* The imaging chamber can be heated to e.g. 37C for live cell imaging purposes.
+* Imaging lens is a Nikon 16x/0.8NA (N16XLWD-PF) with 3mm WD.
+* In front of the camera is a Thorlabs 6-position filter wheel (FW102C)
+* The entire system is portable (sort of) and modified to be laser safe as it is operated within our multi-user facility. 
+<br clear="all" />
+
+
 = Melbourne, Australia =
 [[File:Petrou SPIM.jpg|300px|thumb|right|OpenSPIM system using the Picard high-resolution stage and an Andor Neo camera in the Petrou Lab, Melbourne, Australia.]]
 * The Petrou group at the [http://http://www.florey.edu.au/research/ion-channels-disease?l=_e Florey Institute] the [http://www.cfne.unimelb.edu.au/research-laboratories/neurobiology/?i=_e Centre for Neural Engineering] and the  [http://www.cibf.edu.au//?i=_e Centre for Integrated Brain Function] at the University of Melbourne. 
