@@ -46,7 +46,8 @@ We recently extended to a 4-armed system (Fig. 1):
 * We included a Thorlabs [http://www.thorlabs.de/NewGroupPage9.cfm?ObjectGroup_ID=927?l shutter] in the beam path.
 * For brightfield illumination during sample positioning we use a lamp that is temporarily inserted in one of the filter holders (Fig. 2): [[Media:LED tube light.pdf]]
 * Adjustable metal feet were attached to the clamps that carry the detection arms to align the two cameras (Fig. 3)
-* We wanted to provide illumination for light dependent (photosynthetic) organisms between acquisitions of a time lapse recording. For this we added a lamp that switches on when the laser shutter closes. The LED driver is triggered by the laser shutter controller via a TTL inverter (Fig. 4).
+* We wanted to provide illumination for light dependent (photosynthetic) organisms between acquisitions of a time lapse recording.
+For this we added a lamp that switches on when the laser shutter closes. The LED driver is triggered by the laser shutter controller via a TTL inverter (Fig. 4).
 
 <br clear="all" />
 
