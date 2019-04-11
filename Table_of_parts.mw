@@ -265,7 +265,7 @@
 || X-OpenSPIM
 |bgcolor="green"| self made
 || milled '''acrylic sample chamber''' that holds two 10x Nikon water dipping illumination objectives (CFIPlanFluor10XW) and two 40x Nikon water dipping detection objectives (CFIApoNIR40XW) <br><br>''plus four M5 screws''
-|| [[:SampleChamber X-OpenSPIM Nikon10x40x.PDF]]
+|| [[:File:SampleChamber X-OpenSPIM Nikon10x40x.PDF]]
 || [[File:Sample chamber X-OpenSPIM.png|thumb|center|upright=0.7]]
 || 1 
 ||
@@ -273,15 +273,15 @@
 || X-OpenSPIM
 |bgcolor="green"| self made
 || '''metal holder''' for the acrylic X-OpenSPIM sample chamber
-|| [[:SampleChamberHolder X-OpenSPIM Nikon10x40x.PDF]]
+|| [[:File:SampleChamberHolder X-OpenSPIM Nikon10x40x.PDF]]
 || [[File:Sample-chamber-holder.png|thumb|center|upright=0.7]]
 || 1 
 ||
 |- align="center"
 || X-OpenSPIM
 |bgcolor="green"| self made
-|| metal '''objective holder ring''' attaching the illumination and detection lens to the metal sample chamber holder (Note: co-focusing the two detection objectives requires one objective to be moved in z. One way of doing this is modifying one of the objetive holder rings with an additional stalk. Furthermore it is recommended to introduce a corner mirror to one detection axis; see [[:X-OpenSPIM_modifications.pdf]]). <br><br>''plus three M3 x 8 mm screws for each''
-|| [[:ObjectiveHolderRing X-OpenSPIM Nikon10x40x.PDF]]
+|| metal '''objective holder ring''' attaching the illumination and detection lens to the metal sample chamber holder (Note: co-focusing the two detection objectives requires one objective to be moved in z. One way of doing this is modifying one of the objetive holder rings with an additional stalk. Furthermore it is recommended to introduce a corner mirror to one detection axis; see [[:File:X-OpenSPIM_modifications.pdf]]). <br><br>''plus three M3 x 8 mm screws for each''
+|| [[:File:ObjectiveHolderRing X-OpenSPIM Nikon10x40x.PDF]]
 || [[File:Objective-holder-ring.png|thumb|center|upright=0.4]]
 || 1 
 ||
