@@ -349,11 +349,19 @@
 |- align="center"
 || Olympus
 |bgcolor="pink"| purchase
-|| '''Tube lens''' for detection objective
+|| '''Tube lens''' for Olympus detection objective
 || [http://www.olympusamerica.com/seg_section/files/scientific_component_guide.pdf U-TLU (page36)]
 || [[File:Olympos tubelenss.jpg|thumb|upright=0.7|center]]
 || 1 
 || 750
+|- align="center"
+|| Thorlabs (for X-OpenSPIM)
+|bgcolor="pink"| purchase
+|| '''ITL200 Tube lens''' for Nikon 40x detection objective (CFI Apochromat NIR 40X W)
+|| 
+|| [[File:Itl-200.jpg|thumb|upright=0.7|center]]
+|| 1 
+|| 438,35
 |- align="center"
 || Olympus
 |bgcolor="pink"| purchase
