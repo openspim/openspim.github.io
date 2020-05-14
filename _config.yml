@@ -1,0 +1,24 @@
+# Site settings
+title: openspim.org
+email: openspim@openspim.org
+description: >
+  OpenSPIM is an open access platform for applying and enhancing
+  Selective Plane Illumination Microscopy (SPIM).
+baseurl: ""
+url: "http://localhost:4000"
+twitter_username: openspim
+github_username:  openspim
+
+# Build settings
+markdown: kramdown
+theme: minima
+kramdown:
+  input: GFM
+
+# Defaults
+defaults:
+  - scope:
+      path: "" # all files in the project
+      type: "pages"
+    values:
+      layout: "default"

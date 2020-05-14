@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8"/>
+<title>OpenSPIM</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<link rel="stylesheet" href="/css/cavendish.css"/>
+<!--[if IE 6]><link rel="stylesheet" href="/css/IE60Fixes.css?2" media="screen"/><![endif]--><!--[if IE 7]><link rel="stylesheet" href="/css/IE70Fixes.css?2" media="screen"/><![endif]--><link rel="stylesheet" href="/css/blue.css?2" media="screen"/><link rel="stylesheet" href="/css/extensions.css?2" media="screen"/><link rel="stylesheet" href="/css/style.css?2" media="screen"/>
+<style>
+#container{position:relative;min-height:100%}#container,video{width:100%;height:100%}#playerContainer{overflow:hidden;position:relative;height:100%;background:#000}#videoHolder{position:relative;overflow:hidden}.fullscreen #playerContainer{position:absolute !important;width:100% !important;height:100%! important;z-index:9999;min-height:100%;top:0;left:0;margin:0}.mwEmbedPlayer{width:100%;height:100%;overflow:hidden;position:absolute;top:0;left:0}.modal_editor{ left:10px;top:10px;right:10px;bottom:10px;position:fixed;z-index:100}.displayHTML a:visited{color:white}.loadingSpinner{width:32px;height:32px;display:block;padding:0px;background-image:url(/extensions/MwEmbedSupport/MwEmbedModules/MwEmbedSupport/skins/common/images/loading_ani.gif?a51c5)}.mw-imported-resource{border:thin solid black}.kaltura-icon{background-image:url(/extensions/MwEmbedSupport/MwEmbedModules/MwEmbedSupport/skins/common/images/kaltura_logo_sm_transparent.png?fa5c4) !important;background-repeat:no-repeat;display:block;height:12px;width:12px;margin-top:2px !important;margin-left:3px !important}.mw-fullscreen-overlay{background:rgb(0,0,0) none repeat scroll 0% 0%;position:fixed;top:0pt;left:0pt;width:100%;height:100%;-moz-background-clip:border;-moz-background-origin:padding;-moz-background-inline-policy:continuous} .play-btn-large{width:70px;height:53px;background :url(/extensions/MwEmbedSupport/MwEmbedModules/MwEmbedSupport/skins/common/images/player_big_play_button.png?69699);position :absolute;cursor :pointer;border :none !important; }.play-btn-large:hover{background :url(/extensions/MwEmbedSupport/MwEmbedModules/MwEmbedSupport/skins/common/images/player_big_play_button_hover.png?97c2a)}.carouselContainer{position :absolute;width :100%;z-index :2}.carouselVideoTitle{position :absolute;top :0px;left :0px;width :100%;background :rgba(0,0,0,0.8);color :white;font-size :small;font-weight :bold;z-index :2}.carouselVideoTitleText{display :block;padding :10px 10px 10px 20px}.carouselTitleDuration{position :absolute;top :0px;right :0px;padding :2px;background-color :#5A5A5A;color :#D9D9D9;font-size :smaller;z-index :2}.carouselImgTitle{position :absolute;width :100%;text-align :center;color :white;font-size :small;background :rgba(0,0,0,0.4)}.carouselImgDuration{position :absolute;top :2px;left :2px;background :rgba( 0,0,0,0.7 );color :white;padding :1px 6px;font-size :small}.carouselPrevButton,.carouselNextButton{display :block;position :absolute;bottom:23px}.carouselPrevButton{left :5px}.carouselNextButton{right:6px}.alert-container{border-radius:3px;background-image:-webkit-gradient(linear,left bottom,left top,color-stop(0.04,rgb(215,215,215)),color-stop(0.55,rgb(230,230,230)),color-stop(1,rgb(255,255,255)));background-image:-o-linear-gradient(bottom,rgb(215,215,215) 4%,rgb(230,230,230) 55%,rgb(255,255,255) 100%);background-image:-ms-linear-gradient(bottom,rgb(215,215,215) 4%,rgb(230,230,230) 55%,rgb(255,255,255) 100%);background-image:-moz-linear-gradient(bottom,rgb(215,215,215) 4%,rgb(230,230,230) 55%,rgb(255,255,255) 100%);background-image:-webkit-linear-gradient(bottom,rgb(215,215,215) 4%,rgb(230,230,230) 55%,rgb(255,255,255) 100%);background-image:linear-gradient(bottom,rgb(215,215,215) 4%,rgb(230,230,230) 55%,rgb(255,255,255) 100%);margin:auto;position:absolute;top:0;left:0;right:0;bottom:0;max-width:80%;max-height:30%}.alert-title{background-color :#E6E6E6;padding :5px;border-bottom :1px solid #D1D1D1;font-weight :normal !important;font-size:14px !important;border-top-left-radius:3px;border-top-right-radius:3px }.alert-message{padding :5px;font-weight :normal !important;text-align:center;font-size:14px !important}.alert-buttons-container{text-align:center;padding-bottom:5px}.alert-button{background-color:#474747;color:white;border-radius:.5em;padding:2px 10px;background-image:-webkit-gradient( linear,left bottom,left top,color-stop(0.04,rgb(25,25,25)),color-stop(0.55,rgb(47,47,47)),color-stop(0.68,rgb(71,71,71)) );background-image:-o-linear-gradient(bottom,rgb(25,25,25) 4%,rgb(47,47,47) 55%,rgb(71,71,71) 68%);background-image:-moz-linear-gradient(bottom,rgb(25,25,25) 4%,rgb(47,47,47) 55%,rgb(71,71,71) 68%);background-image:-ms-linear-gradient(bottom,rgb(25,25,25) 4%,rgb(47,47,47) 55%,rgb(71,71,71) 68%);background-image:-webkit-linear-gradient(bottom,rgb(25,25,25) 4%,rgb(47,47,47) 55%,rgb(71,71,71) 68%);background-image:linear-gradient(bottom,rgb(25,25,25) 4%,rgb(47,47,47) 55%,rgb(71,71,71) 68%)}.alert-text{color :black !important}
+.PopUpMediaTransform a .play-btn-large{top:50%;left :50%;width:70px;height:53px;margin-left:-35px;margin-top:-25px;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAA1CAYAAAD8mJ3rAAADNklEQVR4AWJAAhxA7AHEeUDcP8JwHtTvHAxoQAuI5wDxZkD75qBkSRKG0bZt21h7t23btm2bO7ZthNq2rq3mo0zWeKaty6yI8wB1Et+fEnDuIC4+SdEGvIBSPvP6oxOhYihjG8WImHtQxDaAk52GEeQFT4uBYqAYKAaKUVNTG9bX1x+FYj4iLi4+UFVVRXjz5s0Wwo0bN1geHh7zAi8mKSkJ9fLly63vOX/+POO3336bElgx////P/3Fixdbu9HS0kKxsLAYFzgxZ8+eZTx9+nRzP8rKygh6enqjAiOmt7eX/ujRo82DcP/+/fWsrCyskpLSEN+L6e7upoMf3jgMt27dWouKilqRkZEZ5FsxHR0dtDt37qwfhUuXLrG8vb0XxMTEBvhODJhcaSCi149DZ2cn3cHBYZavxDQ2NlKvXLmydhLU19dTfvjhhym+EFNXV0e5ePHi6klSVFREMDIyGuNpMdXV1WQQ2azTIDU1FaOpqTnCk2IqKirIPT09zNOiq6uLARIMpaCgMMhTYkpLS0kgmZinDZjk6SDBFiUlJQd4QkxhYSGxra2Nzi7AgpVibm4+zvVi8vLyiE1NTXR2gshBeg5Xi8nOziaAZKKxG7AwneBqMZmZmQSQTFR2o6OjM8LVYkCk4svLyynsJCYmBs31c0xycjKupKSEwg5A4Ud2c3NbkJCQGOB6MfHx8diCggLyaePr67ukqKg4xDN1DOjWWJBMpNMiODgYtb365QExoCrFgs0n4kkTHh6OBqcOYzy7VoqIiMCkp6cTT4ro6GgsKOAmeH51HRYWhgbJRDgusbGxODs7uylhYeF+vth2CAkJQYNkIhwVRMgvv/wyg5xP8dVGVVBQECoxMRF/WECa4f7666+57aU9n4gJCAhAIT95GBwcHObl5OQG+fqUwN/fH4UMh4Pg7u6+pKqqOsx+AVwqxsfHZ0VLS2tUoE4ikV6wm5DAwECUsbHxuECeXevq6o59LwREOMbKympyW/QKkhgEZJi4uLgsIr0H1CLT+0QvvFEFxUAxUAwUA8Xs+pYAviUohSK2UfrpvdJrKOMzbz86ef/9AIfU5yH0AyJklzeR8E3kO5B6nR5s2Y8qAAAAAElFTkSuQmCC);background-image:url(/extensions/TimedMediaHandler/resources/player_big_play_button.png?f49a4)!ie}.PopUpMediaTransform a .play-btn-large :hover{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAA1CAYAAAD8mJ3rAAADSklEQVR4AeybA4wlWRRA1/u1tjG2g3YHY0/U4djTtm3btm3bTtu27du2WVXvJif8PIV3Ue+jBUECrgPsgAbBYAeuTzlYEicBU8CH4JhOuZiJ3wBHJGUOlyknEJxIxlLACYQ5ErEMcLLSZYRwRGKQGCQGicG0mP/++y/4/Pnz4UjMDCQSyQ+ianR0dGyS6urqbnZ29nTCi9HR0SkYHBwcW0peXl7Ho0ePEggrJisrq62/v390NWJjYxsZGRmjCCcmJyeno7u7e2Q9PDw8qs6ePRtOGDEZGRntEMMbobm5edDCwqLsjz/+CMK9mNTU1Db4w0Oboaampk9BQSH/22+/DcCtmMTExNb6+vrBrVBYWNjNzc2d+eWXX/rhTkx0dHRLZWXlwHZISkpqe/LkSSquxISHhzeXlJT07QShoaFNN2/ejMeFmODg4KaCgoLencTZ2bn68uXLEZgW4+/v3wBLdvduYGBgUHL06NFQTIrx9vauT09P79otUlJSOhQVFQt++eWXQEyJcXNzq4OVqXO3iYqKaoMVLJtGo/ljQoyjo2MtpP3tewUUrE0MDAzRB16MjY1NDaxMbXuJr69vE5VK9T/QYiDFrw4KCmrda6AwjTnQYkxMTKrg9G7ea06ePBl2oMXAklrp6enZtJcoKSkVY6FRVeHi4tK4F8CNvuHNmzdZFArF/8CLUVdXL7O3t6/fbXh4eHJ//fXXIMzkMcrKyqXW1tZ1u4WoqGjBkSNHQjGX+crLy5eamZnV7jTS0tLF586di8RsrSQjI1NiZGRUs1NA+l9KT08fg/nqWlJSslhfX796u6ioqJRfu3Yt/pNPPvHFRdtBTEysSFtbu2qrgJCKe/fuJZPJZH9cNapEREQKNTU1KzeLmppaBRsbW9qyohAvYgQFBQsm/+RmgDZmxo8//hiI6ykBPz9/weTlsBHevn2b+88//4TMvZ/oYri5ufOPHz8eTqhJ5Lt373JWEyIsLFx45cqVaELOrk+fPh0J2W/5QiGwhJewsrLGzS29RBQzyeRl8vLly+zJswdykUQSieSPHhxaHSQGiUFikBgkBu0lWH0vATcSsQzu2f1KLkjGHG4TA4cJFOjBs9RoFtIDBQiOPZGjeyIBuiuBC06Nbn0AAAAASUVORK5CYII=);background-image:url(/extensions/TimedMediaHandler/resources/player_big_play_button_hover.png?8a926)!ie} .mw-tmh-playtext{display:block;height:0;overflow:hidden}</style><style>
+.fancybox-wrap,.fancybox-skin,.fancybox-outer,.fancybox-inner,.fancybox-image,.fancybox-wrap iframe,.fancybox-wrap object,.fancybox-nav,.fancybox-nav span,.fancybox-tmp{padding:0;margin:0;border:0;outline:none;vertical-align:top}.fancybox-wrap{position:absolute;top:0;left:0;z-index:8020}.fancybox-skin{position:relative;background:#f9f9f9;color:#444;text-shadow:none;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}.fancybox-opened{z-index:8030}.fancybox-opened .fancybox-skin{-webkit-box-shadow:0 10px 25px rgba(0,0,0,0.5);-moz-box-shadow:0 10px 25px rgba(0,0,0,0.5);box-shadow:0 10px 25px rgba(0,0,0,0.5)}.fancybox-outer,.fancybox-inner{position:relative}.fancybox-inner{overflow:hidden}.fancybox-type-iframe .fancybox-inner{-webkit-overflow-scrolling:touch}.fancybox-error{color:#444;font:14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;margin:0;padding:15px;white-space:nowrap}.fancybox-image,.fancybox-iframe{display:block;width:100%;height:100%}.fancybox-image{max-width:100%;max-height:100%}#fancybox-loading,.fancybox-close,.fancybox-prev span,.fancybox-next span{background-image:url(/extensions/FancyBoxThumbs/modules/fancyBox/source/fancybox_sprite.png?783d4)}#fancybox-loading{position:fixed;top:50%;left:50%;margin-top:-22px;margin-left:-22px;background-position:0 -108px;opacity:0.8;cursor:pointer;z-index:8060}#fancybox-loading div{width:44px;height:44px;background:url(/extensions/FancyBoxThumbs/modules/fancyBox/source/fancybox_loading.gif?c6f1a) center center no-repeat}.fancybox-close{position:absolute;top:-18px;right:-18px;width:36px;height:36px;cursor:pointer;z-index:8040}.fancybox-nav{position:absolute;top:0;width:40%;height:100%;cursor:pointer;text-decoration:none;background:transparent url(/extensions/FancyBoxThumbs/modules/fancyBox/source/blank.gif?32547); -webkit-tap-highlight-color:rgba(0,0,0,0);z-index:8040}.fancybox-prev{left:0}.fancybox-next{right:0}.fancybox-nav span{position:absolute;top:50%;width:36px;height:34px;margin-top:-18px;cursor:pointer;z-index:8040;visibility:hidden}.fancybox-prev span{left:10px;background-position:0 -36px}.fancybox-next span{right:10px;background-position:0 -72px}.fancybox-nav:hover span{visibility:visible}.fancybox-tmp{position:absolute;top:-99999px;left:-99999px;visibility:hidden;max-width:99999px;max-height:99999px;overflow:visible !important} .fancybox-lock{overflow:hidden}.fancybox-overlay{position:absolute;top:0;left:0;overflow:hidden;display:none;z-index:8010;background:url(/extensions/FancyBoxThumbs/modules/fancyBox/source/fancybox_overlay.png?77aea)}.fancybox-overlay-fixed{position:fixed;bottom:0;right:0}.fancybox-lock .fancybox-overlay{overflow:auto;overflow-y:scroll} .fancybox-title{visibility:hidden;font:normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;position:relative;text-shadow:none;z-index:8050}.fancybox-opened .fancybox-title{visibility:visible}.fancybox-title-float-wrap{position:absolute;bottom:0;right:50%;margin-bottom:-35px;z-index:8050;text-align:center}.fancybox-title-float-wrap .child{display:inline-block;margin-right:-100%;padding:2px 20px;background:transparent; background:rgba(0,0,0,0.8);-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;text-shadow:0 1px 2px #222;color:#FFF;font-weight:bold;line-height:24px;white-space:nowrap}.fancybox-title-outside-wrap{position:relative;margin-top:10px;color:#fff}.fancybox-title-inside-wrap{padding-top:10px}.fancybox-title-over-wrap{position:absolute;bottom:0;left:0;color:#fff;padding:10px;background:#000;background:rgba(0,0,0,.8)}
+.mw-collapsible-toggle{float:right;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}  .mw-content-ltr .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr .mw-collapsible-toggle{float:right} .mw-content-rtl .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl .mw-collapsible-toggle{float:left}.mw-customtoggle,.mw-collapsible-toggle{cursor:pointer} caption .mw-collapsible-toggle,.mw-content-ltr caption .mw-collapsible-toggle,.mw-content-rtl caption .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr caption .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl caption .mw-collapsible-toggle{float:none} li .mw-collapsible-toggle,.mw-content-ltr li .mw-collapsible-toggle,.mw-content-rtl li .mw-collapsible-toggle,.mw-content-rtl .mw-content-ltr li .mw-collapsible-toggle,.mw-content-ltr .mw-content-rtl li .mw-collapsible-toggle{float:none} .mw-collapsible-toggle-li{list-style:none}
+.suggestions{overflow:hidden;position:absolute;top:0;left:0;width:0;border:none;z-index:1099;padding:0;margin:-1px 0 0 0}.suggestions-special{position:relative;background-color:white;cursor:pointer;border:solid 1px #aaaaaa;padding:0;margin:0;margin-top:-2px;display:none;padding:0.25em 0.25em;line-height:1.25em}.suggestions-results{background-color:white;cursor:pointer;border:solid 1px #aaaaaa;padding:0;margin:0}.suggestions-result{color:black;margin:0;line-height:1.5em;padding:0.01em 0.25em;text-align:left; overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}.suggestions-result-current{background-color:#4C59A6;color:white}.suggestions-special .special-label{color:gray;text-align:left}.suggestions-special .special-query{color:black;font-style:italic;text-align:left}.suggestions-special .special-hover{background-color:silver}.suggestions-result-current .special-label,.suggestions-result-current .special-query{color:white}.highlight{font-weight:bold}
+@media screen {
+	.tochidden,.toctoggle{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}.toctoggle{font-size:94%}}
+@media print {
+	#toc.tochidden,.toctoggle{display:none}}
+.test-bg{background-image:url(http://openspim.org/images/d/d2/LuciferOpenSPIM.png)}
+.postedit-container{margin:0 auto;position:fixed;top:0;height:0;left:50%;z-index:1000;font-size:13px}.postedit-container:hover{cursor:pointer}.postedit{position:relative;top:0.6em;left:-50%;padding:.6em 3.6em .6em 1.1em;line-height:1.5625em;color:#626465;background-color:#f4f4f4;border:1px solid #dcd9d9;text-shadow:0 0.0625em 0 rgba(255,255,255,0.5);border-radius:5px;box-shadow:0 2px 5px 0 #ccc;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out}.skin-monobook .postedit{top:6em !important}.postedit-faded{opacity:0}.postedit-icon{padding-left:41px;  line-height:25px;background-repeat:no-repeat;background-position:8px 50%}.postedit-icon-checkmark{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB9ElEQVR4AZWRA3AYURQArxrVHtW2bdu2bdu2zdi2bdu2bWxs7zeehZaw4f70kbs+zI3e/nWK+RWx3aOFlrL56Sy5SxrruG69hlv6OyK+mz+8KDSXdXembj0ispT7tjs4ZTIbpYBvxGSGKzZTeFrb7W/meN002swFs0U8ttpHTkF2BvCqWQrW35929bTsKm5Zb+SEwWwcY8wAngB9m7Z+d+rIPZ/npdy12M5p47n8dXsCYAf0qPy06eGMdktuDu9Qf+JmKl3SWM91qzVcN9tAbEYkwMaq0tyb1m/To5kP170el/BK8/qa6sJr70ydf+T/Uu5ab+Oo/lS0AkUBpIFWlZ9WPhxpse/PHO7YbOOczjL0vZV2lNxPPtG73dYXM+xvm2znrOl83tidoqCwMBgYXsPFB0on5S6pr+eK5TKuW67lgvaKvF8mL1dtfTL32FHxRdyx3cQpg7m4x9sCXKkTIzA4LDH44zWdzaUf71hv5rTG4uyzcusybxSX7aThbMQ8XgCYAp3rzTTQOiIh9PNlzY3FSuZxrzjme1Y7uGS6kjsWO4jPjM4FVjRZsvD4kO9XtTZzQn82NyzWc0B7AmZh6gA/hOYSGhfw9YbOVnarj+S7800AL2BIsxUAbWNToj7bhBuQmZcOsFdoKUC74rGheCwXmqAIQTc9jQcrADIAAAAASUVORK5CYII=);background-image:url(/resources/src/mediawiki.action/images/green-checkmark.png?d94f1)!ie;background-position:left}.postedit-close{position:absolute;padding:0 .8em;right:0;top:0;font-size:1.25em;font-weight:bold;line-height:2.3em;color:black;text-shadow:0 0.0625em 0 white;text-decoration:none;opacity:0.2;filter:alpha(opacity=20)}.postedit-close:hover{color:black;text-decoration:none;opacity:0.4;filter:alpha(opacity=40)}</style><style>
+.suggestions a.mw-searchSuggest-link,.suggestions a.mw-searchSuggest-link:hover,.suggestions a.mw-searchSuggest-link:active,.suggestions a.mw-searchSuggest-link:focus{color:black;text-decoration:none}.suggestions-result-current a.mw-searchSuggest-link,.suggestions-result-current a.mw-searchSuggest-link:hover,.suggestions-result-current a.mw-searchSuggest-link:active,.suggestions-result-current a.mw-searchSuggest-link:focus{color:white}.suggestions a.mw-searchSuggest-link .special-query{ overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}</style><meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/css/cavendish2.css"/>
+<script async="" src="/js/cavendish.js"></script>
+<link rel="copyright" href="https://creativecommons.org/licenses/by-sa/3.0/"/>
+<script src="/js/cavendish2.js"></script>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Welcome_to_the_OpenSPIM_Wiki rootpage-Welcome_to_the_OpenSPIM_Wiki skin-cavendish action-view">
+<div id="internal"></div>
+<!-- Skin-Version: 2.3.4 //Please leave this for bugtracking purpose//-->
+<div id="globalWrapper" class="view">
+	<!-- FIXME: Remove if possible
+	<div id="p-personal" class="portlet">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+
+				<li id="pt-userpage" class="top-nav-element">
+					<span class="top-nav-left">&nbsp;</span>
+					<a class="top-nav-mid new" href="https://openspim.org/User:Rueden">
+						Rueden</a>
+					<span class="top-nav-right">&nbsp;</span></li>
+
+				<li id="pt-mytalk" class="top-nav-element">
+					<span class="top-nav-left">&nbsp;</span>
+					<a class="top-nav-mid new" href="https://openspim.org/User_talk:Rueden">
+						Talk</a>
+					<span class="top-nav-right">&nbsp;</span></li>
+
+				<li id="pt-preferences" class="top-nav-element">
+					<span class="top-nav-left">&nbsp;</span>
+					<a class="top-nav-mid " href="https://openspim.org/Special:Preferences">
+						Preferences</a>
+					<span class="top-nav-right">&nbsp;</span></li>
+
+				<li id="pt-watchlist" class="top-nav-element">
+					<span class="top-nav-left">&nbsp;</span>
+					<a class="top-nav-mid " href="https://openspim.org/Special:Watchlist">
+						Watchlist</a>
+					<span class="top-nav-right">&nbsp;</span></li>
+
+				<li id="pt-mycontris" class="top-nav-element">
+					<span class="top-nav-left">&nbsp;</span>
+					<a class="top-nav-mid " href="https://openspim.org/Special:Contributions/Rueden">
+						Contributions</a>
+					<span class="top-nav-right">&nbsp;</span></li>
+
+				<li id="pt-logout" class="top-nav-element">
+					<span class="top-nav-left">&nbsp;</span>
+					<a class="top-nav-mid " href="https://openspim.org/index.php?title=Special:UserLogout&amp;returnto=FAQ">
+						Log out</a>
+					<span class="top-nav-right">&nbsp;</span></li>
+
+			</ul>
+		</div>
+	</div>
+	-->
+	<div id="header">
+		<a name="top" id="contentTop"></a>
+		<h6>
+			<a
+				href="{{ permalink }}"
+				title="{{ title }}">OpenSPIM</a></h6>
+		<div id="p-cactions" class="portlet"><ul>
+				<li id="ca-nstab-main" class="selected"><a href="{{ permalink }}">Main page</a></li>
+				<li id="ca-edit"><a href="FIXME">Edit</a></li>
+				<li id="ca-history"><a href="FIXME">History</a></li>
+				<li id="ca-delete"><a href="FIXME">Delete</a></li>
+		</div>
+		<div id="p-search" class="portlet" role="search">
+			<h3><label for="searchInput">Search</label></h3>
+
+			<div id="searchBody" class="pBody">
+				<form action="https://openspim.org/index.php" id="searchform">
+					<input type="hidden" name="title" value="Special:Search">
+					<input type="search" name="search" placeholder="Search" title="Search OpenSPIM [ctrl-option-f]" accesskey="f" id="searchInput" autocomplete="off">
+					<input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchGoButton" class="searchButton">&nbsp;
+					<input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton">
+				</form>
+
+			</div>
+		</div>
+	</div>
+	<div id="mBody">
+		<div id="side">
+			<div id="nav">
+				<div class="generated-sidebar portlet" id="p-Content" role="navigation">
+					<h3>Content</h3>
+					<div class='pBody'>
+						<ul>
+							<li id="n-Parts-list"><a href="/Table_of_parts">Parts list</a></li>
+							<li id="n-Assembly"><a href="/Step_by_step_assembly">Assembly</a></li>
+							<li id="n-Operation"><a href="/Operation">Operation</a></li>
+							<li id="n-Setup-Extensions-and-Modifications"><a href="/Setup_Extensions_and_Modifications">Setup Extensions and Modifications</a></li>
+							<li id="n-Frequently-Asked-Questions"><a href="/FAQ">Frequently Asked Questions</a></li>
+							<li id="n-Mailing-List"><a href="/Mailing_List">Mailing List</a></li>
+							<li id="n-Gallery"><a href="/Gallery">Gallery</a></li>
+							<li id="n-Who-has-an-OpenSPIM.3F"><a href="/Who_has_an_OpenSPIM%3F">Who has an OpenSPIM?</a></li>
+							<li id="n-Downloads"><a href="/Downloads">Downloads</a></li>
+							<li id="n-Publications"><a href="/Publications">Publications</a></li>
+							<li id="n-Cleared-Tissue"><a href="/Imaging_cleared_tissue">Cleared Tissue</a></li>
+							<li id="n-recentchanges"><a href="/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- end of SIDE div -->
+	<div id="column-content">
+		<div id="content">
+			<a id="top"></a>
+			<h1 id="firstHeading" class="firstHeading">{{ title }}</h1>
+			<div id="bodyContent">
+				<h3 id="siteSub">From OpenSPIM</h3>
+				<div id="contentSub"></div>
+				<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>					<!-- start content -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr">
+					{{ content }}
+				</div>
+				<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>					<!-- end content -->
+			</div>
+		</div><!-- end of MAINCONTENT div -->	
+	</div>
+</div><!-- end of MBODY div -->
+<div class="visualClear"></div>
+<div id="footer">
+	<table>
+		<tr>
+			<td rowspan="2" class="f-iconsection"> </td>
+			<td align="center">
+				<ul id="f-list">
+					<li id="f-lastmod"> This page was last modified on 7 July 2016, at 10:23.</li>
+					<li id="f-copyright">Content is available under <a class="external" rel="nofollow" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution Share Alike</a> unless otherwise noted.</li>
+					<li id="f-privacy"><a href="/OpenSPIM:Privacy_policy" title="OpenSPIM:Privacy policy">Privacy policy</a></li>
+					<li id="f-about"><a href="/OpenSPIM:About" title="OpenSPIM:About">About OpenSPIM</a></li>
+					<li id="f-disclaimer"><a href="/OpenSPIM:General_disclaimer" title="OpenSPIM:General disclaimer">Disclaimers</a></li>
+				</ul></td>
+				<td rowspan="2" class="f-iconsection">
+					<div id="qrcode">
+						<a href="http://goqr.me/" style="border:0 none;cursor:default;text-decoration:none;"><img src="http://api.qrserver.com/v1/create-qr-code/?data=https://openspim.org/{{ permalink }}?pk_campaign=qr-code&#38;size=160x160" height=80 width=80 alt="QR Code generator" title="" /></a>
+					</div>
+
+				</td>
+		</tr>
+		<tr>
+			<td><div id="skin-info">
+					Mozilla Cavendish Theme based on Cavendish style by Gabriel Wicke modified by <a href="http://www.dasch-tour.de" title="DaSch-Tour Blog" target="_blank">DaSch</a> for the <a href="http://www.wecowi.de/" title="Web Community Wiki">Web Community Wiki</a><br/>
+					<a href="https://github.com/DaSchTour/Cavendish" title="github projectpage">github Projectpage</a> &ndash; <a href="https://github.com/DaSchTour/Cavendish/issues" title="Bug reporting at github">Report Bug</a> &ndash; Skin-Version: 2.3.4				</div></td>
+		</tr>
+	</table>
+</div><!-- end of the FOOTER div -->
+</div><!-- end of the CONTAINER div -->
+</body></html>
