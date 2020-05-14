@@ -1,1 +1,2 @@
-#REDIRECT [[Light sheet characterization]]
+1.  REDIRECT [Light sheet
+    characterization](Light_sheet_characterization "wikilink")

@@ -1,383 +1,426 @@
-= Bead Based Registration =
+# Bead Based Registration
+
+The first step in the SPIMage processing pipeline, after [re-saving the
+ome.tiffs as .tif](Pre-processing "wikilink"), is to **register** the
+views within each timepoint. We will use for that the [*bead based
+registration*](http://fiji.sc/SPIM_Registration) plug-in in Fiji. The
+principles of the plug-in are described on the Fiji wiki page [SPIM
+registration method](http://fiji.sc/SPIM_Registration_Method) while the
+parameters are discussed in [SPIM bead
+registration](http://fiji.sc/SPIM_Bead_Registration). Here we present a
+step by step recipe for performing the bead based registration on
+OpenSPIM data.
+
+## Input
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p><img src="Spim_plugin_menu.jpg" title="fig:Screenshot of SPIM registration section of Fiji plugin menu" width="400" alt="Screenshot of SPIM registration section of Fiji plugin menu" /> First we start the plugin from <strong>Plugins-&gt;SPIM Registration-&gt;Bead based registration</strong> (or pressing letter <strong>l</strong> and typing SPIM etc.).</p>
+<p>''Note that all SPIM related plugins are conveniently grouped in the plugins submenu SPIM Registration. Later on we will see how to use <a href="Fusion" title="wikilink">Multi-view fusion</a> to combine registered views into a single output image and <a href="Fusion#deconvolution" title="wikilink">Multi-view Deconvolution</a> for deconvolution mediated fusion which enhances image contrast and in some cases improves resolution. The plugins are linked to each other and share many parameters. I.e. if we first run registration and select the appropriate directories with data, these fields will be pre-filled for fusion unless, of course, we have restarted Fiji in the meantime.</p></td>
+</tr>
+<tr class="even">
+<td><p>----<img src="Registration_screen1.jpg" title="fig:Screenshot of the first dialog of the bead based registration plugin" width="400" alt="Screenshot of the first dialog of the bead based registration plugin" /> In the following window we choose <strong>Single channel</strong> registration and select between two methods of localising the beads. <strong>Difference-of-Gaussian</strong> (<a href="http://en.wikipedia.org/wiki/Blob_detection">DoG</a>) is more precise however slower compared to <strong>Difference of Mean</strong> which takes advantage of <a href="http://fiji.sc/Integral_Image_Filters">integral images</a>.</p>
+<p>In most cases <strong>Difference of Mean</strong> will be sufficient for registration of OpenSPIM data and so we will choose this option.</p>
+<p>Click <strong>OK</strong> to continue to the second dialog.</p></td>
+</tr>
+<tr class="odd">
+<td><p>----<img src="Registration_screen2.jpg" title="fig:Screenshot of second dialog of the bead based registration plugin" width="400" alt="Screenshot of second dialog of the bead based registration plugin" /> In the top part of the dialog we will point the plugin to where the data reside and define the naming scheme of the files.</p>
+<p>Click <strong>Browse</strong> to locate the directory with the <em>.tif</em> files generated in the <a href="Pre-processing" title="wikilink">previous</a> step of the pipeline.</p>
+<p>Enter the pattern of the files, where <strong>tt</strong> is a zero padded place holder for timepoints and <strong>a</strong> a zero padded placeholder for angles/views. If we have a three digit series (000 - 100) we use <strong>{ttt}</strong>; in case of our sample data that range from 0 to 10 we need <strong>tt</strong> as timepoint placeholder.</p>
+<p><em>Importantly, do not forget to adjust the extension to .tif. This is a common mistake at the default extension is for historical reason .lsm - a format used to store data from the Zeiss SPIM demonstrator.</em></p>
+<p>We will initially optimize the registration using timepoint <strong>5</strong>. To register all time-points in the timeseries we would enter <strong>0-10</strong>. The range does not need to start with 0 or 1. Discontinuous series is also possible, for example <strong>1,5,10</strong>.</p>
+<p>Finally we specify the <strong>Angles to process</strong>, in our case <strong>0-4</strong> (0.1.2.3.4 = 5 angles). Any comma separated list will do, for instance <strong>60,180, 235</strong>.</p>
+<p>In the second section of the dialog we need to initially pay attention only to the parameters affecting the initial segmentation of the bead. <strong>Bead Brightness</strong> is a pull down menu offering 6 options.</p>
+<ul>
+<li><em>Very weak</em> - the threshold for bead detection set to 0.0025 (typically when the beads emit in a different wavelength compared to sample, i.e. red green beads for red fluorescent sample)</li>
+<li><em>Weak</em> - the threshold for bead detection set to 0.02</li>
+<li><em>Comparable to sample</em> - the threshold for bead detection set to 0.075 (typically when using beads emitting in the same wavelength as the sample, i.e. green beads and GFP in the sample)</li>
+<li><em>Strong</em> - the threshold for bead detection set to 0.25</li>
+<li><em>Advanced</em> - the threshold for bead detection can be set manually in the following dialog</li>
+<li><em>Interactive</em> - the threshold can be manually adjusted based on visualization of bead detection on a user selected timepoint</li>
+</ul>
+<p>In our initial run we will select the option <strong>Interactive</strong> to play around with the threshold that is best suited for our data.</p>
+<p>The <strong>Subpixel localization</strong> is a pull down menu offering three option for more-or-less precisely localising the beads</p>
+<ul>
+<li><em>3-dimensional quadratic fit (all detections)</em> - fastest, but least precise option, sufficient for OpenSPIM data</li>
+<li><em>Gauss-fit (true correspondances)</em> - more precise but slower, limited only to true correspondances for performance reasons.</li>
+<li><em>Gauss-fit (all detections)</em> - the slowest option where Gauss fitting is applied to all bead detections which can be many and it can take a while.</li>
+</ul>
+<p>We will select <strong>3-dimensional quadratic fit</strong> for our sample OpenSPIM data.</p>
+<p>For OpenSPIM data it is very important to select the <strong>Specify calibration manually</strong> checkbox and enter the <strong>xy</strong> and <strong>z</strong> resolution. For the sample OpenSPIM data discussed here the following parameters work.</p>
+<ul>
+<li><em>xy resolution (um/px)</em> = <strong>0.645</strong> - this is dictated by the optics of the detection path of OpenSPIM and the size of the pixels on the CCD camera.</li>
+<li><em>z resolution (un/px)</em> = <strong>6</strong> - the step size of the motors on OpenSPIM are 1.5 um and we sued 4 z steps between planes when acquiring the sample data, i.e. 4 x 1.5 = 6 um.</li>
+</ul>
+<p><em>Note that the important number here is the ration between the z and xy resolutions. In the case of OpenSPIM sample data it is 6/0.645 = 9.3023. We could also express the ratio as xy = 1 and z = 9.3023. The 9.0323 or z-scaling is an important number to remember and write down. It will also be stored as the value in the *.registration files as discussed below. We will need it during all subsequent steps.</em></p>
+<p>Finally we will examine the pull down menu <strong>Transformation model</strong> that offer three options</p>
+<ul>
+<li><em>Translation</em> - uses transformation model that takes into account only translation between views (nto particularly useful for multi-view OpenSPIM data).</li>
+<li><em>Rigid</em> - included additionally rotation</li>
+<li><em>Affine</em> - includes scaling and shearing (necessary for OpenSPIM data due to aberrations introduced by difraction index mismatch between water and agarose).</li>
+</ul>
+<p>We will leave <strong>Affine</strong> as a useful and, in fact, necessary default for OpenSPIM data.</p>
+<p>That's it, we can for now safely ignore the remaining options of the dialog and proceed by clicking <strong>OK</strong>.</p></td>
+</tr>
+<tr class="even">
+<td><p>----<img src="Screenshot-Select_view_to_analyze.png" title="fig:Dialog for selection of data file (view) for Interactive bead segmentation." width="400" alt="Dialog for selection of data file (view) for Interactive bead segmentation." /> Since we have selected the <strong>Bead brightness-&gt;Interactive</strong> the next dialog will ask us to select a time-point to perform the segmentation optimization on. Click <strong>Browse</strong> and locate the file <em>spim_TL05_Angle0.tif</em> and then press <strong>OK</strong>.</p></td>
+</tr>
+<tr class="odd">
+<td><hr />
+<p><img src="Interactive_segmentation.png" title="fig:Desktop showing windows opened during interactive segmentation." width="400" alt="Desktop showing windows opened during interactive segmentation." /> After a short delay two windows will pop-up. In the browseable <strong>stack window</strong> the view selected in the previous step is shown and beads segmented using the current parameters are highlighted with small green circles. The parameters can be interactively changed in the <strong>Adjust Difference-of-Mean Values</strong> window.</p>
+<p>Typically we only need to play with the <strong>Threshold</strong>. The lower the threshold the more 'beads' are segmented. The goal here is to find a threshold where most beads are detected - ideally only once. We can examine the performance of a particular threshold by browsing through the stack and zooming in and out using the Fiji toolbar tools. We want to avoid the situation where several detections are shown for what appears to be a single bead and conversely when clearly visible beads are not detected at all. You will notice that the detections (the green circles) are not limited to beads but occur also around the nuclei inside the sample. As we will see later, these detection are spurious, not repeatable between views, and do not compromise the registration process. The search for the optimal threshold can be made easier by adjusting the contrast of the stack to see the beads better (window in the lower left corner, press <strong>CTRL-SHIFT-C</strong> and click on <strong>Auto</strong>).</p>
+<p><em>The threshold that works well for OpenSPIM sample data is <strong>0.01</strong></em></p>
+<p>Once we identify a reasonable threshold we can click <strong>Done</strong> and start the registration process with the selected threshold.</p></td>
+</tr>
+</tbody>
+</table>
+
+## Run
+
+![Screenshot of a Registration log window](Registration_Log.png
+"Screenshot of a Registration log window")
+
+The output of the registration plugin is not visual, it is limited to
+text messages in Fiji's **Log** window. However understanding the
+meaning of these messages is very important for optimization of the
+registration. The complete output of the registration of time-point 5
+from OpenSPIM sample data is available
+[**here**](Media:Registration_Log.pdf "wikilink"). Below we comment on
+the most important messages appearing in the output.
+
+`Loading /home/tomancak/Desktop/OpenSPIM_for_website/tiffs//spim_TL05_Angle0.tif`  
+`r1 = 2.0`  
+`r2 = 3.0`  
+`threshold = `<font color=red>`0.010126623325049877`</font>
+
+Here are the parameters (particularly the threshold) determined during
+the Interactive segmentation session described in the previous step.
+
+`Version 0.55`  
+`(Tue Jun 04 18:19:55 CEST 2013): Starting Bead Extraction`  
+`(Tue Jun 04 18:19:55 CEST 2013): Starting Integral Image based DOM Bead Extraction for spim_TL05_Angle0.tif`  
+`(Tue Jun 04 18:19:55 CEST 2013): Opening Image`  
+`(Tue Jun 04 18:19:57 CEST 2013): Computing Integral Image`  
+`(Tue Jun 04 18:19:58 CEST 2013): min intensity = 191.0, max intensity = 4095.0`  
+`(Tue Jun 04 18:19:58 CEST 2013): Computing Difference-of-Mean`  
+`(Tue Jun 04 18:20:00 CEST 2013): Extracting peaks`  
+`(Tue Jun 04 18:20:02 CEST 2013): Subpixel localization using quadratic n-dimensional fit`  
+`Found peaks (possible beads): `<font color=red>`1023`</font>` in view spim_TL05_Angle0.tif`
+
+Processing of the first view *spim\_TL05\_Angle0.tif* started at
+18:19:55 and ended 18:20:02, i.e. it took 7 seconds to find bead
+candidates for one view. The plugin reports **1023** possible beads.
+These include the detections inside the specimen. Only small percentage
+of these detections will be actually used in the registration (for
+details see [SPIM registration
+method](http://fiji.sc/SPIM_Registration_Method#Bead_Segmentation)).
+
+`(Tue Jun 04 18:20:02 CEST 2013): Starting Integral Image based DOM Bead Extraction for spim_TL05_Angle1.tif`  
+`(Tue Jun 04 18:20:02 CEST 2013): Opening Image`  
+`(Tue Jun 04 18:20:09 CEST 2013): Computing Integral Image`  
+`(Tue Jun 04 18:20:19 CEST 2013): min intensity = 191.0, max intensity = 4095.0`  
+`(Tue Jun 04 18:20:19 CEST 2013): Computing Difference-of-Mean`  
+`(Tue Jun 04 18:20:21 CEST 2013): Extracting peaks`  
+`(Tue Jun 04 18:20:24 CEST 2013): Subpixel localization using quadratic n-dimensional fit`  
+`Found peaks (possible beads): `<font color=red>`1146`</font>` in view spim_TL05_Angle1.tif`  
+`(Tue Jun 04 18:20:24 CEST 2013): Starting Integral Image based DOM Bead Extraction for spim_TL05_Angle2.tif`  
+`(Tue Jun 04 18:20:24 CEST 2013): Opening Image`  
+`(Tue Jun 04 18:20:26 CEST 2013): Computing Integral Image`  
+`(Tue Jun 04 18:20:27 CEST 2013): min intensity = 191.0, max intensity = 4095.0`  
+`(Tue Jun 04 18:20:27 CEST 2013): Computing Difference-of-Mean`  
+`(Tue Jun 04 18:20:28 CEST 2013): Extracting peaks`  
+`(Tue Jun 04 18:20:31 CEST 2013): Subpixel localization using quadratic n-dimensional fit`  
+`Found peaks (possible beads): `<font color=red>`979`</font>` in view spim_TL05_Angle2.tif`  
+`(Tue Jun 04 18:20:31 CEST 2013): Starting Integral Image based DOM Bead Extraction for spim_TL05_Angle3.tif`  
+`(Tue Jun 04 18:20:31 CEST 2013): Opening Image`  
+`(Tue Jun 04 18:20:33 CEST 2013): Computing Integral Image`  
+`(Tue Jun 04 18:20:33 CEST 2013): min intensity = 191.0, max intensity = 4095.0`  
+`(Tue Jun 04 18:20:33 CEST 2013): Computing Difference-of-Mean`  
+`(Tue Jun 04 18:20:35 CEST 2013): Extracting peaks`  
+`(Tue Jun 04 18:20:37 CEST 2013): Subpixel localization using quadratic n-dimensional fit`  
+`Found peaks (possible beads): `<font color=red>`1013`</font>` in view spim_TL05_Angle3.tif`  
+`(Tue Jun 04 18:20:37 CEST 2013): Starting Integral Image based DOM Bead Extraction for spim_TL05_Angle4.tif`  
+`(Tue Jun 04 18:20:37 CEST 2013): Opening Image`  
+`(Tue Jun 04 18:20:39 CEST 2013): Computing Integral Image`  
+`(Tue Jun 04 18:20:40 CEST 2013): min intensity = 191.0, max intensity = 4095.0`  
+`(Tue Jun 04 18:20:40 CEST 2013): Computing Difference-of-Mean`  
+`(Tue Jun 04 18:20:42 CEST 2013): Extracting peaks`  
+`(Tue Jun 04 18:20:45 CEST 2013): Subpixel localization using quadratic n-dimensional fit`  
+`Found peaks (possible beads): `<font color=red>`1184`</font>` in view spim_TL05_Angle4.tif `  
+`Opening files took: `<font color=red>`13 sec`</font>` (27 %)`  
+`Computation took: `<font color=red>`36 sec`</font>` (73 %)`  
+`(Tue Jun 04 18:20:45 CEST 2013): Finished Bead Extraction`
+
+We found about 1000 bead candidates in each view. This number depends
+very much on the actual amount of beads used in the experiment, but as a
+rule of thumb, it should be in the thousands rather than hundreds. Only
+a small percentage of these detections will form descriptors repeatably
+detectable in different views and useful for registration. Hundreds of
+beads may not be enough. The segmentation of beads took 49 seconds on
+our souped up machine.
+
+`(Tue Jun 04 18:20:45 CEST 2013): Starting Registration`  
+`spim_TL05_Angle1.tif<->spim_TL05_Angle2.tif: Remaining inliers after RANSAC: `<font color=red>`24`</font>` of `<font color=red>`27`</font>` (89%) with average error 0.8298438414931297`
+
+This part of the log reports on the performance of the
+[RANSAC](http://fiji.sc/SPIM_Registration_Method#Establishing_Bead_Correspondences)
+(RANdom SAmple Consensus) algorithm. Between views **Angle1** and
+**Angle2** only 27 bead detection formed significant bead descriptor and
+24 of these point to the same transformation model as determined by
+RANSAC. This is good.
+
+`spim_TL05_Angle3.tif<->spim_TL05_Angle4.tif: Remaining inliers after RANSAC: 15 of 17 (88%) with average error 0.7207672933737437`  
+`spim_TL05_Angle2.tif<->spim_TL05_Angle3.tif: Remaining inliers after RANSAC: 25 of 26 (96%) with average error 0.6098493030667305`  
+`spim_TL05_Angle0.tif<->spim_TL05_Angle1.tif: Remaining inliers after RANSAC: 20 of 21 (95%) with average error 0.8658423766493797`  
+`spim_TL05_Angle0.tif<->spim_TL05_Angle4.tif: Remaining inliers after RANSAC: 17 of 19 (89%) with average error 0.8551975593847387`  
+`spim_TL05_Angle1.tif<->spim_TL05_Angle4.tif: Remaining inliers after RANSAC: 23 of 23 (`<font color=red>`100%`</font>`) with average error 0.7387010046969289`
+
+This is better, all bead descriptor point to the same transformation
+model.
+
+`spim_TL05_Angle0.tif<->spim_TL05_Angle2.tif: Remaining inliers after RANSAC: 25 of 26 (96%) with average error 1.035907996892929`  
+`spim_TL05_Angle2.tif<->spim_TL05_Angle4.tif: Remaining inliers after RANSAC: `<font color=red>`52`</font>` of 53 (98%) with average error 0.6034472902806904`
+
+This is even better since here more beads are involved. The more bead
+descriptors survive RANSAC the better.
+
+`spim_TL05_Angle0.tif<->spim_TL05_Angle3.tif: Remaining inliers after RANSAC: 37 of 40 (93%) with average error 0.9902692207613502`  
+`spim_TL05_Angle1.tif<->spim_TL05_Angle3.tif: Remaining inliers after RANSAC: 44 of 47 (94%) with average error 0.5995832472531633`  
+`spim_TL05_Angle0.tif (id = 0) has 99 correspondences in 4 other views.`  
+`spim_TL05_Angle1.tif (id = 1) has 111 correspondences in 4 other views.`  
+`spim_TL05_Angle2.tif (id = 2) has 126 correspondences in 4 other views.`  
+`spim_TL05_Angle3.tif (id = 3) has 121 correspondences in 4 other views.`  
+`spim_TL05_Angle4.tif (id = 4) has 107 correspondences in 4 other views.`
+
+Overall we found **true correspondances** in all pairs of view. This is
+not absolutely necessary, however in general it is best to be able to
+link all views to each other for optimal registration results.
+
+`The total number of detections was: 5345`  
+`The total number of correspondence candidates was: 299`  
+`The total number of true correspondences is: `<font color=red>`282`</font>
+
+The **number of true correspondances** is the best indicator of
+registration success, the bigger the better. We can optimize the bead
+segmentation by trial and error, testing different thresholds, until the
+number of true correspondances does not change anymore.
+
+`Fixing tile spim_TL05_Angle0.tif (id = 0)`
+
+The **Angle0** has been selected as a reference. It is the first Angle
+we specified in the **Angles to process** field in the second SPIM
+registration dialog. The reference view can be changed by changing the
+order of angles - for example **3,0-2,4** will set the reference view to
+Angle3. This angle will not undergo any transformation, all other angles
+will be transformed relative to it.
+
+`Successfully optimized configuration of 5 tiles after 258 iterations:`  
+`  average displacement: 1.169px`  
+`  minimal displacement: 1.052px`  
+`  maximal displacement: 1.346px`
+
+Here the plugin reports results of [global
+optimization](http://fiji.sc/SPIM_Registration_Method#Global_Optimization).
+The **average displacement** is a good measure of the registration
+success. the lower the better. However it should be noted that it refers
+only to displacement of truly corresponding beads and thus the number is
+somewhat dependent on the number of true correspondances. The average
+for smaller number of beads will be lower but that does not necessarily
+mean that the registration is better. We will return to the issue of
+registration evaluation in the [**Fusion section**](Fusion "wikilink")
+of this tutorial.
+
+`Optimizer Matrices`  
+`spim_TL05_Angle0.tif (id = 0):`  
+`Transformation:`  
+`3d-affine: `<font color=red>`(1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0)`</font>  
+`Scaling: (1.0, 1.0, 1.0)`  
+`spim_TL05_Angle1.tif (id = 1):`  
+`Transformation:`  
+`3d-affine: (0.40029413, -0.017728202, -0.94824606, 647.0399, -0.025776416, 0.99945474, -0.028035998, 78.98084, 0.91382235, 0.015030926, 0.32484454, -485.3402)`  
+`Scaling: (1.0410335704042355, 0.9563661799258112, 1.0012564667399522)`
+
+The actual result of SPIM registration are these formidable looking 3x4
+**affine transformation matrices**. This is linear algebra and there is
+no gentler way to break into it than the [Khan
+Academy](https://www.khanacademy.org/math/linear-algebra). As you can
+see, the first matrix is mostly zeros apart from the ones for scale
+along the x, y and z axis, this is the so-called identity matrix for the
+reference view that, as we mentioned before, will not be transformed.
+The second matrix for Angle1 describes the affine transformation that
+will transform the raw data of that view to the position in the world
+coordinate space of Angle0 that minimizes the displacement of
+corresponding bead descriptors. The Scalings are close to 1 indicating
+that our z-scaling factor 9.3023 was correct.
+
+`spim_TL05_Angle2.tif (id = 2):`  
+`Transformation:`  
+`3d-affine: (-0.7431537, -0.042439252, -0.6486701, 1351.3088, -0.04479293, 0.9994802, -0.011400312, 103.38013, 0.62969136, 0.0018952899, -0.80743754, -48.216476)`  
+`Scaling: (0.97164466699547, 1.039995886748908, 0.9993666835629822)`  
+`spim_TL05_Angle3.tif (id = 3):`  
+`Transformation:`  
+`3d-affine: (-0.86488324, -0.03760272, 0.5719731, 1263.6525, -0.0322361, 0.9994662, 0.0067903697, 75.966225, -0.5214333, -0.025284931, -0.83718777, 856.8579)`  
+`Scaling: (1.0407955347327127, 1.0029041568010506, 0.9802812833830724)`  
+`spim_TL05_Angle4.tif (id = 4):`  
+`Transformation:`  
+`3d-affine: (0.5062743, -0.0048624836, 0.857942, 126.564545, -0.0015900917, 1.0001556, -0.0052930415, 78.1325, -0.828062, -0.02390239, 0.56586677, 652.8654)`  
+`Scaling: (0.9650266222266568, 1.0369083125363359, 0.9963691154426817)`  
+`(Tue Jun 04 `<font color=red>`18:20:45`</font>` CEST 2013): Finished Registration`  
+`Finished processing.`
+
+The global optimization took only 5 seconds, showing that the most
+computationally expensive step of the registration pipeline is the
+segmentation of beads. If we were to use more precise and slower bead
+segmentation algoritm (DoG and Gauss-fit) the registration could take
+several minutes. With Difference-of-Mean and quadratic fit we were able
+to accomplish the registration in **50 seconds**.
+
+## Output
+
+The log output described in the previous section allows us to monitor
+the progress of the registration and if necessary optimize the
+parameters or diagnose problems. The true output of the registration
+that will be used in the [Fusion](Fusion "wikilink") step are three
+files per view created by the plugin in the **registration**
+directory'''.
+
+`registration/spim_TL05_Angle0.tif.beads.txt`  
+`registration/spim_TL05_Angle0.tif.dim`  
+`registration/spim_TL05_Angle0.tif.registration`  
+`registration/spim_TL05_Angle1.tif.beads.txt`  
+`registration/spim_TL05_Angle1.tif.dim`  
+`registration/spim_TL05_Angle1.tif.registration`  
+`registration/spim_TL05_Angle2.tif.beads.txt`  
+`registration/spim_TL05_Angle2.tif.dim`  
+`registration/spim_TL05_Angle2.tif.registration`  
+`registration/spim_TL05_Angle3.tif.beads.txt`  
+`registration/spim_TL05_Angle3.tif.dim`  
+`registration/spim_TL05_Angle3.tif.registration`  
+`registration/spim_TL05_Angle4.tif.beads.txt`  
+`registration/spim_TL05_Angle4.tif.dim`  
+`registration/spim_TL05_Angle4.tif.registration`  
 
-The first step in the SPIMage processing pipeline, after [[Pre-processing|re-saving the ome.tiffs as .tif]], is to '''register''' the views within each timepoint. We will use for that the [http://fiji.sc/SPIM_Registration ''bead based registration''] plug-in in Fiji. The principles of the plug-in are described on the Fiji wiki page [http://fiji.sc/SPIM_Registration_Method SPIM registration method] while the parameters are discussed in [http://fiji.sc/SPIM_Bead_Registration SPIM bead registration]. Here we present a step by step recipe for performing the bead based registration on OpenSPIM data.
-
-== Input ==
-
-{|
-|-
-|[[File:Spim plugin menu.jpg|thumb|400px|right|Screenshot of SPIM registration section of Fiji plugin menu]]
-First we start the plugin from '''Plugins->SPIM Registration->Bead based registration''' (or pressing letter '''l''' and typing SPIM etc.).
-
-
-''Note that all SPIM related plugins are conveniently grouped in the plugins submenu SPIM Registration. Later on we will see how to use [[Fusion|Multi-view fusion]] to combine registered views into a single output image and [[Fusion#deconvolution|Multi-view Deconvolution]] for deconvolution mediated fusion which enhances image contrast and in some cases improves resolution. The plugins are linked to each other and share many parameters. I.e. if we first run registration and select the appropriate directories with data, these fields will be pre-filled for fusion unless, of course, we have restarted Fiji in the meantime.   
- 
-|-
-|
-----[[File:Registration screen1.jpg|thumb|400px|right|Screenshot of the first dialog of the bead based registration plugin]]
-In the following window we choose '''Single channel''' registration and select between two methods of localising the beads. '''Difference-of-Gaussian''' ([http://en.wikipedia.org/wiki/Blob_detection DoG]) is more precise however slower compared to '''Difference of Mean''' which takes advantage of [http://fiji.sc/Integral_Image_Filters integral images]. 
-
-
-In most cases '''Difference of Mean''' will be sufficient for registration of OpenSPIM data and so we will choose this option.
-
-
-Click '''OK''' to continue to the second dialog.
-|-
-|
-----[[File:Registration screen2.jpg|thumb|400px|right|Screenshot of second dialog of the bead based registration plugin]]
-In the top part of the dialog we will point the plugin to where the data reside and define the naming scheme of the files.
-
-
-Click '''Browse''' to locate the directory with the ''.tif'' files generated in the [[Pre-processing|previous]] step of the pipeline.
-
-
-Enter the pattern of the files, where '''tt''' is a zero padded place holder for timepoints and '''a''' a zero padded placeholder for angles/views. If we have a three digit series (000 - 100) we use '''{ttt}'''; in case of our sample data that range from 0 to 10 we need '''tt''' as timepoint placeholder. 
-
-''Importantly, do not forget to adjust the extension to .tif. This is a common mistake at the default extension is for historical reason .lsm - a format used to store data from the Zeiss SPIM demonstrator.''
-
-
-We will initially optimize the registration using timepoint '''5'''. To register all time-points in the timeseries we would enter '''0-10'''. The range does not need to start with 0 or 1. Discontinuous series is also possible, for example '''1,5,10'''.
-
-
-Finally we specify the '''Angles to process''', in our case '''0-4''' (0.1.2.3.4 = 5 angles). Any comma separated list will do, for instance '''60,180, 235'''.
-
-
-In the second section of the dialog we need to initially pay attention only to the parameters affecting the initial segmentation of the bead. '''Bead Brightness''' is a pull down menu offering 6 options.
-
-
-* ''Very weak'' - the threshold for bead detection set to 0.0025 (typically when the beads emit in a different wavelength compared to sample, i.e. red green beads for red fluorescent sample)
-* ''Weak'' - the threshold for bead detection set to 0.02
-* ''Comparable to sample'' - the threshold for bead detection set to 0.075 (typically when using beads emitting in the same wavelength as the sample, i.e. green beads and GFP in the sample)
-* ''Strong'' - the threshold for bead detection set to 0.25
-* ''Advanced'' - the threshold for bead detection can be set manually in the following dialog
-* ''Interactive'' - the threshold can be manually adjusted based on visualization of bead detection on a user selected timepoint
-
-
-In our initial run we will select the option '''Interactive''' to play around with the threshold that is best suited for our data.
-
-
-The '''Subpixel localization''' is a pull down menu offering three option for more-or-less precisely localising the beads
-
-
-* ''3-dimensional quadratic fit (all detections)'' - fastest, but least precise option, sufficient for OpenSPIM data
-* ''Gauss-fit (true correspondances)'' - more precise but slower, limited only to true correspondances for performance reasons.
-* ''Gauss-fit (all detections)'' - the slowest option where Gauss fitting is applied to all bead detections which can be many and it can take a while.
-
-We will select '''3-dimensional quadratic fit''' for our sample OpenSPIM data.
-
-
-For OpenSPIM data it is very important to select the '''Specify calibration manually''' checkbox and enter the '''xy''' and '''z''' resolution. For the sample OpenSPIM data discussed here the following parameters work.
-
-
-* ''xy resolution (um/px)'' = '''0.645''' - this is dictated by the optics of the detection path of OpenSPIM and the size of the pixels on the CCD camera.
-* ''z resolution (un/px)'' = '''6'''  - the step size of the motors on OpenSPIM are 1.5 um and we sued 4 z steps between planes when acquiring the sample data, i.e. 4 x 1.5 = 6 um.
-
-
-''Note that the important number here is the ration between the z and xy resolutions. In the case of OpenSPIM sample data it is 6/0.645 = 9.3023. We could also express the ratio as xy = 1 and z = 9.3023. The 9.0323 or z-scaling is an important number to remember and write down. It will also be stored as the value in the *.registration files as discussed below. We will need it during all subsequent steps.''
-
-
-Finally we will examine the pull down menu '''Transformation model''' that offer three options
-
-* ''Translation'' - uses transformation model that takes into account only translation between views (nto particularly useful for multi-view OpenSPIM data).
-* ''Rigid'' - included additionally rotation
-* ''Affine'' - includes scaling and shearing (necessary for OpenSPIM data due to aberrations introduced by difraction index mismatch between water and agarose).
-
-
-We will leave '''Affine''' as a useful and, in fact, necessary default for OpenSPIM data.
-
-That's it, we can for now safely ignore the remaining options of the dialog and proceed by clicking '''OK'''.
-|-
-|
-----[[File:Screenshot-Select view to analyze.png|thumb|400px|right|Dialog for selection of data file (view) for Interactive bead segmentation.]]
-Since we have selected the '''Bead brightness->Interactive''' the next dialog will ask us to select a time-point to perform the segmentation optimization on. Click '''Browse''' and locate the file ''spim_TL05_Angle0.tif'' and then press '''OK'''.
-|-
-|
-----
-[[File:Interactive segmentation.png|thumb|400px|right|Desktop showing windows opened during interactive segmentation.]]
-After a short delay two windows will pop-up. In the browseable '''stack window''' the view selected in the previous step is shown and beads segmented using the current parameters are highlighted with small green circles. The parameters can be interactively changed in the '''Adjust Difference-of-Mean Values''' window. 
-
-
-Typically we only need to play with the '''Threshold'''. The lower the threshold the more 'beads' are segmented. The goal here is to find a threshold where most beads are detected - ideally only once. We can examine the performance of a particular threshold by browsing through the stack and zooming in and out using the Fiji toolbar tools. We want to avoid the situation where several detections are shown for what appears to be a single bead and conversely when clearly visible beads are not detected at all. You will notice that the detections (the green circles) are not limited to beads but occur also around the nuclei inside the sample. As we will see later, these detection are spurious, not repeatable between views, and do not compromise the registration process. The search for the optimal threshold can be made easier by adjusting the contrast of the stack to see the beads better (window in the lower left corner, press '''CTRL-SHIFT-C''' and click on '''Auto''').
-
-
-''The threshold that works well for OpenSPIM sample data is '''0.01'''''
-
-
-Once we identify a reasonable threshold we can click '''Done''' and start the registration process with the selected threshold.
-|}
-
-== Run ==
-{|
-
-[[FIle:Registration Log.png|thumb|400px|right|Screenshot of a Registration log window]] 
-
-The output of the registration plugin is not visual, it is limited to text messages in Fiji's '''Log''' window. However understanding the meaning of these messages is very important for optimization of the registration. The complete output of the registration of time-point 5 from OpenSPIM sample data is available [[Media:Registration Log.pdf|'''here''']]. Below we comment on the most important messages appearing in the output.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- Loading /home/tomancak/Desktop/OpenSPIM_for_website/tiffs//spim_TL05_Angle0.tif
- r1 = 2.0
- r2 = 3.0
- threshold = <font color=red>0.010126623325049877</font>
-
-Here are the parameters (particularly the threshold) determined during the Interactive segmentation session described in the previous step.
-
- Version 0.55
- (Tue Jun 04 18:19:55 CEST 2013): Starting Bead Extraction
- (Tue Jun 04 18:19:55 CEST 2013): Starting Integral Image based DOM Bead Extraction for spim_TL05_Angle0.tif
- (Tue Jun 04 18:19:55 CEST 2013): Opening Image
- (Tue Jun 04 18:19:57 CEST 2013): Computing Integral Image
- (Tue Jun 04 18:19:58 CEST 2013): min intensity = 191.0, max intensity = 4095.0
- (Tue Jun 04 18:19:58 CEST 2013): Computing Difference-of-Mean
- (Tue Jun 04 18:20:00 CEST 2013): Extracting peaks
- (Tue Jun 04 18:20:02 CEST 2013): Subpixel localization using quadratic n-dimensional fit
- Found peaks (possible beads): <font color=red>1023</font> in view spim_TL05_Angle0.tif
-
-Processing of the first view ''spim_TL05_Angle0.tif'' started at 18:19:55 and ended 18:20:02, i.e. it took 7 seconds to find bead candidates for one view. The plugin reports '''1023''' possible beads. These include the detections inside the specimen. Only small percentage of these detections will be actually used in the registration (for details see [http://fiji.sc/SPIM_Registration_Method#Bead_Segmentation SPIM registration method]).
-
- (Tue Jun 04 18:20:02 CEST 2013): Starting Integral Image based DOM Bead Extraction for spim_TL05_Angle1.tif
- (Tue Jun 04 18:20:02 CEST 2013): Opening Image
- (Tue Jun 04 18:20:09 CEST 2013): Computing Integral Image
- (Tue Jun 04 18:20:19 CEST 2013): min intensity = 191.0, max intensity = 4095.0
- (Tue Jun 04 18:20:19 CEST 2013): Computing Difference-of-Mean
- (Tue Jun 04 18:20:21 CEST 2013): Extracting peaks
- (Tue Jun 04 18:20:24 CEST 2013): Subpixel localization using quadratic n-dimensional fit
- Found peaks (possible beads): <font color=red>1146</font> in view spim_TL05_Angle1.tif
- (Tue Jun 04 18:20:24 CEST 2013): Starting Integral Image based DOM Bead Extraction for spim_TL05_Angle2.tif
- (Tue Jun 04 18:20:24 CEST 2013): Opening Image
- (Tue Jun 04 18:20:26 CEST 2013): Computing Integral Image
- (Tue Jun 04 18:20:27 CEST 2013): min intensity = 191.0, max intensity = 4095.0
- (Tue Jun 04 18:20:27 CEST 2013): Computing Difference-of-Mean
- (Tue Jun 04 18:20:28 CEST 2013): Extracting peaks
- (Tue Jun 04 18:20:31 CEST 2013): Subpixel localization using quadratic n-dimensional fit
- Found peaks (possible beads): <font color=red>979</font> in view spim_TL05_Angle2.tif
- (Tue Jun 04 18:20:31 CEST 2013): Starting Integral Image based DOM Bead Extraction for spim_TL05_Angle3.tif
- (Tue Jun 04 18:20:31 CEST 2013): Opening Image
- (Tue Jun 04 18:20:33 CEST 2013): Computing Integral Image
- (Tue Jun 04 18:20:33 CEST 2013): min intensity = 191.0, max intensity = 4095.0
- (Tue Jun 04 18:20:33 CEST 2013): Computing Difference-of-Mean
- (Tue Jun 04 18:20:35 CEST 2013): Extracting peaks
- (Tue Jun 04 18:20:37 CEST 2013): Subpixel localization using quadratic n-dimensional fit
- Found peaks (possible beads): <font color=red>1013</font> in view spim_TL05_Angle3.tif
- (Tue Jun 04 18:20:37 CEST 2013): Starting Integral Image based DOM Bead Extraction for spim_TL05_Angle4.tif
- (Tue Jun 04 18:20:37 CEST 2013): Opening Image
- (Tue Jun 04 18:20:39 CEST 2013): Computing Integral Image
- (Tue Jun 04 18:20:40 CEST 2013): min intensity = 191.0, max intensity = 4095.0
- (Tue Jun 04 18:20:40 CEST 2013): Computing Difference-of-Mean
- (Tue Jun 04 18:20:42 CEST 2013): Extracting peaks
- (Tue Jun 04 18:20:45 CEST 2013): Subpixel localization using quadratic n-dimensional fit
- Found peaks (possible beads): <font color=red>1184</font> in view spim_TL05_Angle4.tif 
- Opening files took: <font color=red>13 sec</font> (27 %)
- Computation took: <font color=red>36 sec</font> (73 %)
- (Tue Jun 04 18:20:45 CEST 2013): Finished Bead Extraction
-
-We found about 1000 bead candidates in each view. This number depends very much on the actual amount of beads used in the experiment, but as a rule of thumb, it should be in the thousands rather than hundreds. Only a small percentage of these detections will form descriptors repeatably detectable in different views and useful for registration. Hundreds of beads may not be enough. The segmentation of beads took 49 seconds on our souped up machine.
-
- (Tue Jun 04 18:20:45 CEST 2013): Starting Registration
- spim_TL05_Angle1.tif<->spim_TL05_Angle2.tif: Remaining inliers after RANSAC: <font color=red>24</font> of <font color=red>27</font> (89%) with average error 0.8298438414931297
-
-This part of the log reports on the performance of the [http://fiji.sc/SPIM_Registration_Method#Establishing_Bead_Correspondences RANSAC] (RANdom SAmple Consensus) algorithm. Between views '''Angle1''' and '''Angle2''' only 27 bead detection formed significant bead descriptor and 24 of these point to the same transformation model as determined by RANSAC. This is good.
-
- spim_TL05_Angle3.tif<->spim_TL05_Angle4.tif: Remaining inliers after RANSAC: 15 of 17 (88%) with average error 0.7207672933737437
- spim_TL05_Angle2.tif<->spim_TL05_Angle3.tif: Remaining inliers after RANSAC: 25 of 26 (96%) with average error 0.6098493030667305
- spim_TL05_Angle0.tif<->spim_TL05_Angle1.tif: Remaining inliers after RANSAC: 20 of 21 (95%) with average error 0.8658423766493797
- spim_TL05_Angle0.tif<->spim_TL05_Angle4.tif: Remaining inliers after RANSAC: 17 of 19 (89%) with average error 0.8551975593847387
- spim_TL05_Angle1.tif<->spim_TL05_Angle4.tif: Remaining inliers after RANSAC: 23 of 23 (<font color=red>100%</font>) with average error 0.7387010046969289
-
-This is better, all bead descriptor point to the same transformation model.
-
- spim_TL05_Angle0.tif<->spim_TL05_Angle2.tif: Remaining inliers after RANSAC: 25 of 26 (96%) with average error 1.035907996892929
- spim_TL05_Angle2.tif<->spim_TL05_Angle4.tif: Remaining inliers after RANSAC: <font color=red>52</font> of 53 (98%) with average error 0.6034472902806904
-
-This is even better since here more beads are involved. The more bead descriptors survive RANSAC the better.
-
- spim_TL05_Angle0.tif<->spim_TL05_Angle3.tif: Remaining inliers after RANSAC: 37 of 40 (93%) with average error 0.9902692207613502
- spim_TL05_Angle1.tif<->spim_TL05_Angle3.tif: Remaining inliers after RANSAC: 44 of 47 (94%) with average error 0.5995832472531633
- spim_TL05_Angle0.tif (id = 0) has 99 correspondences in 4 other views.
- spim_TL05_Angle1.tif (id = 1) has 111 correspondences in 4 other views.
- spim_TL05_Angle2.tif (id = 2) has 126 correspondences in 4 other views.
- spim_TL05_Angle3.tif (id = 3) has 121 correspondences in 4 other views.
- spim_TL05_Angle4.tif (id = 4) has 107 correspondences in 4 other views.
-
-Overall we found '''true correspondances''' in all pairs of view. This is not absolutely necessary, however in general it is best to be able to link all views to each other for optimal registration results.
-
- The total number of detections was: 5345
- The total number of correspondence candidates was: 299
- The total number of true correspondences is: <font color=red>282</font>
-
-The '''number of true correspondances''' is the best indicator of registration success, the bigger the better. We can optimize the bead segmentation by trial and error, testing different thresholds, until the number of true correspondances does not change anymore.
-
- Fixing tile spim_TL05_Angle0.tif (id = 0)
-
-The '''Angle0''' has been selected as a reference. It is the first Angle we specified in the '''Angles to process''' field in the second SPIM registration dialog. The reference view can be changed by changing the order of angles - for example '''3,0-2,4''' will set the reference view to Angle3. This angle will not undergo any transformation, all other angles will be transformed relative to it. 
-
- Successfully optimized configuration of 5 tiles after 258 iterations:
-   average displacement: 1.169px
-   minimal displacement: 1.052px
-   maximal displacement: 1.346px
-
-Here the plugin reports results of [http://fiji.sc/SPIM_Registration_Method#Global_Optimization global optimization]. The '''average displacement''' is a good measure of the registration success. the lower the better. However it should be noted that it refers only to displacement of truly corresponding beads and thus the number is somewhat dependent on the number of true correspondances. The average for smaller number of beads will be lower but that does not necessarily mean that the registration is better. We will return to the issue of registration evaluation in the [[Fusion|'''Fusion section''']] of this tutorial.
-
- Optimizer Matrices
- spim_TL05_Angle0.tif (id = 0):
- Transformation:
- 3d-affine: <font color=red>(1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0)</font>
- Scaling: (1.0, 1.0, 1.0)
- spim_TL05_Angle1.tif (id = 1):
- Transformation:
- 3d-affine: (0.40029413, -0.017728202, -0.94824606, 647.0399, -0.025776416, 0.99945474, -0.028035998, 78.98084, 0.91382235, 0.015030926, 0.32484454, -485.3402)
- Scaling: (1.0410335704042355, 0.9563661799258112, 1.0012564667399522)
-
-The actual result of SPIM registration are these formidable looking 3x4 '''affine transformation matrices'''. This is linear algebra and there is no gentler way to break into it than the [https://www.khanacademy.org/math/linear-algebra Khan Academy]. As you can see, the first matrix is mostly zeros apart from the ones for scale along the x, y and z axis, this is the so-called identity matrix for the reference view that, as we mentioned before, will not be transformed. The second matrix for Angle1 describes the affine transformation that will transform the raw data of that view to the position in the world coordinate space of Angle0 that minimizes the displacement of corresponding bead descriptors. The Scalings are close to 1 indicating that our z-scaling factor 9.3023 was correct.
-
- spim_TL05_Angle2.tif (id = 2):
- Transformation:
- 3d-affine: (-0.7431537, -0.042439252, -0.6486701, 1351.3088, -0.04479293, 0.9994802, -0.011400312, 103.38013, 0.62969136, 0.0018952899, -0.80743754, -48.216476)
- Scaling: (0.97164466699547, 1.039995886748908, 0.9993666835629822)
- spim_TL05_Angle3.tif (id = 3):
- Transformation:
- 3d-affine: (-0.86488324, -0.03760272, 0.5719731, 1263.6525, -0.0322361, 0.9994662, 0.0067903697, 75.966225, -0.5214333, -0.025284931, -0.83718777, 856.8579)
- Scaling: (1.0407955347327127, 1.0029041568010506, 0.9802812833830724)
- spim_TL05_Angle4.tif (id = 4):
- Transformation:
- 3d-affine: (0.5062743, -0.0048624836, 0.857942, 126.564545, -0.0015900917, 1.0001556, -0.0052930415, 78.1325, -0.828062, -0.02390239, 0.56586677, 652.8654)
- Scaling: (0.9650266222266568, 1.0369083125363359, 0.9963691154426817)
- (Tue Jun 04 <font color=red>18:20:45</font> CEST 2013): Finished Registration
- Finished processing.
-
-The global optimization took only 5 seconds, showing that the most computationally expensive step of the registration pipeline is the segmentation of beads. If we were to use more precise and slower bead segmentation algoritm (DoG and Gauss-fit) the registration could take several minutes. With Difference-of-Mean and quadratic fit we were able to accomplish the registration in '''50 seconds'''.
-
-== Output ==
-
-The log output described in the previous section allows us to monitor the progress of the registration and if necessary optimize the parameters or diagnose problems. The true output of the registration that will be used in the [[Fusion|Fusion]] step are three files per view created by the plugin in the '''registration''' directory'''.
-
- registration/spim_TL05_Angle0.tif.beads.txt
- registration/spim_TL05_Angle0.tif.dim
- registration/spim_TL05_Angle0.tif.registration
- registration/spim_TL05_Angle1.tif.beads.txt
- registration/spim_TL05_Angle1.tif.dim
- registration/spim_TL05_Angle1.tif.registration
- registration/spim_TL05_Angle2.tif.beads.txt
- registration/spim_TL05_Angle2.tif.dim
- registration/spim_TL05_Angle2.tif.registration
- registration/spim_TL05_Angle3.tif.beads.txt
- registration/spim_TL05_Angle3.tif.dim
- registration/spim_TL05_Angle3.tif.registration
- registration/spim_TL05_Angle4.tif.beads.txt
- registration/spim_TL05_Angle4.tif.dim
- registration/spim_TL05_Angle4.tif.registration
- 
 The content of the files for Angle1 are available here
 
-* [[Media:Spim TL05 Angle1.tif.registration.pdf|spim_TL05_Angle1.tif.registration]]
-* [[Media:Spim_TL05_Angle1.tif.pdf|spim_TL05_Angle1.tif.dim]]
-* [[Media:Spim TL05 Angle1.tif.beads.pdf|spim_TL05_Angle1.tif.beads.txt]]
+  - [spim\_TL05\_Angle1.tif.registration](Media:Spim_TL05_Angle1.tif.registration.pdf "wikilink")
+  - [spim\_TL05\_Angle1.tif.dim](Media:Spim_TL05_Angle1.tif.pdf "wikilink")
+  - [spim\_TL05\_Angle1.tif.beads.txt](Media:Spim_TL05_Angle1.tif.beads.pdf "wikilink")
 
-The ''spim_TL05_Angle1.tif.registration'' contains information about the registration statistics such as number of detections, bead candidates, corresponding bead descriptors, the z-stretching used for the registration, etc. and the affine matrices in the following form
+The *spim\_TL05\_Angle1.tif.registration* contains information about the
+registration statistics such as number of detections, bead candidates,
+corresponding bead descriptors, the z-stretching used for the
+registration, etc. and the affine matrices in the following form
 
- m00: 0.40029413
- m01: -0.017728202
- m02: -0.94824606
- m03: 647.0399
- m10: -0.025776416
- m11: 0.99945474
- m12: -0.028035998
- m13: 78.98084
- m20: 0.91382235
- m21: 0.015030926
- m22: 0.32484454
- m23: -485.3402
- m30: 0
- m31: 0
- m32: 0
- m33: 1
- model: AffineModel3D
- ...
- z-scaling: 9.0323
+`m00: 0.40029413`  
+`m01: -0.017728202`  
+`m02: -0.94824606`  
+`m03: 647.0399`  
+`m10: -0.025776416`  
+`m11: 0.99945474`  
+`m12: -0.028035998`  
+`m13: 78.98084`  
+`m20: 0.91382235`  
+`m21: 0.015030926`  
+`m22: 0.32484454`  
+`m23: -485.3402`  
+`m30: 0`  
+`m31: 0`  
+`m32: 0`  
+`m33: 1`  
+`model: AffineModel3D`  
+`...`  
+`z-scaling: 9.0323`
 
-The  ''spim_TL05_Angle1.tif.dim'' contains information about the dimensions of the input image stacks
+The *spim\_TL05\_Angle1.tif.dim* contains information about the
+dimensions of the input image stacks
 
- image width: 1344
- image height: 1024
- image depth: 51
+`image width: 1344`  
+`image height: 1024`  
+`image depth: 51`
 
-and ''spim_TL05_Angle1.tif.beads.txt'' contains a long list of all detections and their properties (showing the first few lines below):
+and *spim\_TL05\_Angle1.tif.beads.txt* contains a long list of all
+detections and their properties (showing the first few lines below):
 
- ID	ViewID	Lx	Ly	Lz	Wx	Wy	Wz	Weight	DescCorr	RansacCorr
- 0	1	408.13684	118.505554	3.1183574	408.13684	118.505554	3.1183574	0.0	0	0
- 1	1	95.8529	429.66003	3.4262538	95.8529	429.66003	3.4262538	0.0	0	0
- 2	1	71.95479	802.522	8.498448	71.95479	802.522	8.498448	0.0	0	0
- 3	1	408.45068	769.5576	9.81232	408.45068	769.5576	9.81232	0.0	188:4;	188:4;
- 4	1	960.3512	603.2773	10.9592	960.3512	603.2773	10.9592	0.0	0	0
- 5	1	840.4799	555.54315	14.765049	840.4799	555.54315	14.765049	0.0	0	0
- 6	1	816.0067	102.64633	16.194763	816.0067	102.64633	16.194763	0.0	377:3;647:0;	647:0;377:3;
+`ID ViewID  Lx  Ly  Lz  Wx  Wy  Wz  Weight  DescCorr    RansacCorr`  
+`0  1   408.13684   118.505554  3.1183574   408.13684   118.505554  3.1183574   0.0 0   0`  
+`1  1   95.8529 429.66003   3.4262538   95.8529 429.66003   3.4262538   0.0 0   0`  
+`2  1   71.95479    802.522 8.498448    71.95479    802.522 8.498448    0.0 0   0`  
+`3  1   408.45068   769.5576    9.81232 408.45068   769.5576    9.81232 0.0 188:4;  188:4;`  
+`4  1   960.3512    603.2773    10.9592 960.3512    603.2773    10.9592 0.0 0   0`  
+`5  1   840.4799    555.54315   14.765049   840.4799    555.54315   14.765049   0.0 0   0`  
+`6  1   816.0067    102.64633   16.194763   816.0067    102.64633   16.194763   0.0 377:3;647:0;    647:0;377:3;`
 
-The raw data together with the three files in the ''/registration'' directory form a unit which together represents the results of the registration pipeline. 
+The raw data together with the three files in the */registration*
+directory form a unit which together represents the results of the
+registration pipeline.
 
- spim_TL05_Angle0.tif
- spim_TL05_Angle1.tif
- spim_TL05_Angle2.tif
- spim_TL05_Angle3.tif
- spim_TL05_Angle4.tif
- registration/spim_TL05_Angle0.tif.beads.txt
- registration/spim_TL05_Angle0.tif.dim
- registration/spim_TL05_Angle0.tif.registration
- registration/spim_TL05_Angle1.tif.beads.txt
- registration/spim_TL05_Angle1.tif.dim
- registration/spim_TL05_Angle1.tif.registration
- registration/spim_TL05_Angle2.tif.beads.txt
- registration/spim_TL05_Angle2.tif.dim
- registration/spim_TL05_Angle2.tif.registration
- registration/spim_TL05_Angle3.tif.beads.txt
- registration/spim_TL05_Angle3.tif.dim
- registration/spim_TL05_Angle3.tif.registration
- registration/spim_TL05_Angle4.tif.beads.txt
- registration/spim_TL05_Angle4.tif.dim
- registration/spim_TL05_Angle4.tif.registration 
+`spim_TL05_Angle0.tif`  
+`spim_TL05_Angle1.tif`  
+`spim_TL05_Angle2.tif`  
+`spim_TL05_Angle3.tif`  
+`spim_TL05_Angle4.tif`  
+`registration/spim_TL05_Angle0.tif.beads.txt`  
+`registration/spim_TL05_Angle0.tif.dim`  
+`registration/spim_TL05_Angle0.tif.registration`  
+`registration/spim_TL05_Angle1.tif.beads.txt`  
+`registration/spim_TL05_Angle1.tif.dim`  
+`registration/spim_TL05_Angle1.tif.registration`  
+`registration/spim_TL05_Angle2.tif.beads.txt`  
+`registration/spim_TL05_Angle2.tif.dim`  
+`registration/spim_TL05_Angle2.tif.registration`  
+`registration/spim_TL05_Angle3.tif.beads.txt`  
+`registration/spim_TL05_Angle3.tif.dim`  
+`registration/spim_TL05_Angle3.tif.registration`  
+`registration/spim_TL05_Angle4.tif.beads.txt`  
+`registration/spim_TL05_Angle4.tif.dim`  
+`registration/spim_TL05_Angle4.tif.registration `
 
-The [[Fusion|fusion]] and [[Fusion#Deconvolution|deconvolution]] plugins take the raw data and apply the transformation from the registration files to continue the SPIMage processing. The entire unit can be moved to another location in the file system (the registration directory has to remain a subdirectory of where the raw data reside and keep its name). 
+The [fusion](Fusion "wikilink") and
+[deconvolution](Fusion#Deconvolution "wikilink") plugins take the raw
+data and apply the transformation from the registration files to
+continue the SPIMage processing. The entire unit can be moved to another
+location in the file system (the registration directory has to remain a
+subdirectory of where the raw data reside and keep its name).
 
-Before we continue with the pipeline we need to make some decisions regarding the processing of the timelapse data.
+Before we continue with the pipeline we need to make some decisions
+regarding the processing of the timelapse data.
 
-== Cross-road in SPIM plugins ==
+## Cross-road in SPIM plugins
 
-At this point we have registered data for one time-point ('''5'''). We have not yet seen the data though since the output are the human unreadable transformation matrices. We can either decide to trust the log files and go ahead and use the same parameters for the registration of the rest of the time-points in our sample OpenSPIM timelapse and perform the [[Timelapse_Registration|'''timelapse registration''']] or we continue playing with our one registered timepoint, [[Fusion|'''fuse it''']], evaluate the results and then return to processing the rest of the timelapse. Both avenues are possible in the SPIMage processing pipeline. We recommend to first perform image [[Fusion|'''fusion''']] on one timepoint, evaluate the results and then return to the registration.
+At this point we have registered data for one time-point (**5**). We
+have not yet seen the data though since the output are the human
+unreadable transformation matrices. We can either decide to trust the
+log files and go ahead and use the same parameters for the registration
+of the rest of the time-points in our sample OpenSPIM timelapse and
+perform the [**timelapse
+registration**](Timelapse_Registration "wikilink") or we continue
+playing with our one registered timepoint, [**fuse
+it**](Fusion "wikilink"), evaluate the results and then return to
+processing the rest of the timelapse. Both avenues are possible in the
+SPIMage processing pipeline. We recommend to first perform image
+[**fusion**](Fusion "wikilink") on one timepoint, evaluate the results
+and then return to the registration.
 
+Nevertheless for the sample data we can just as well apply the
+parameters (threshold) to all timepoints in the series. As before we
+launch the **Bead based registration** plugin, leave the parameters in
+the first dialog unchanged and modify the second dialog as follows:
 
-Nevertheless for the sample data we can just as well apply the parameters (threshold) to all timepoints in the series. As before we launch the '''Bead based registration''' plugin, leave the parameters in the first dialog unchanged and modify the second dialog as follows:
-
-{|
-|-
-|
-[[File:Screenshot-reg-dialog1-version1.png|thumb|200px|right|SPIM registration dialog for per-timepoint registration of entire time-series]]
-In the field '''Timepoints to process''' we fill '''0-10''' which encompasses all timepoints in the sample timelapse. Under '''Bead brightness''' pull down we will select the '''Advanced''' option and click '''OK'''. 
-|-
-|
-----
-[[File:Screenshot-Select Integral Image Parameters.png|thumb|400px|right|Direct entry segmentation parameters dialog]]
-A different intermediate dialog pops-up allowing us to directly enter the segmentation parameters. We enter '''0.01''' in the '''threshold''' field and click '''OK'''.
-
-
-A long stream of output in [[Media:Registration_Log_series.pdf|'''Log''']] ensues while all 11 timepoints are consecutively processed. The registration of the time series took about '''6 minutes''' and generated 3 x 11 = 33 files in the ''/registration'' directory.
-|-
-|
-----
-[[File:Screenshot-registration results.png|thumb|400px|right|Plot of registration results for OpenSPIM sample data.]]
-The plugin plots the average, minimal and maximal displacement of corresponding bead descriptors as well as the RANSAC ratio of inliers (true/all correspondances) for all time-points. If you selected ''Manual (interactive)'' for the reference time-point, you will have to click using the mouse onto your time-point of choice that all others will be registered to. If you choose ''Automatic'', the plugin will choose the time-point with the lowest error and highest number of inliers. Selecting ''Manually (specify)'' you will be queried for your choice of the reference time-point before the registration starts. This latter choice is especially useful for completely automatic processing, e.g. on a cluster.
-
-
-For such a small timelapse it is perfectly feasible to perform registration on a single computer consecutively. For longer timelapses we recommend using a cluster computer as described [http://fiji.sc/SPIM_Registration_on_cluster#Registration here].
-|}
+<table>
+<tbody>
+<tr class="odd">
+<td><p><img src="Screenshot-reg-dialog1-version1.png" title="fig:SPIM registration dialog for per-timepoint registration of entire time-series" width="200" alt="SPIM registration dialog for per-timepoint registration of entire time-series" /> In the field <strong>Timepoints to process</strong> we fill <strong>0-10</strong> which encompasses all timepoints in the sample timelapse. Under <strong>Bead brightness</strong> pull down we will select the <strong>Advanced</strong> option and click <strong>OK</strong>.</p></td>
+</tr>
+<tr class="even">
+<td><hr />
+<p><img src="Screenshot-Select_Integral_Image_Parameters.png" title="fig:Direct entry segmentation parameters dialog" width="400" alt="Direct entry segmentation parameters dialog" /> A different intermediate dialog pops-up allowing us to directly enter the segmentation parameters. We enter <strong>0.01</strong> in the <strong>threshold</strong> field and click <strong>OK</strong>.</p>
+<p>A long stream of output in <a href="Media:Registration_Log_series.pdf" title="wikilink"><strong>Log</strong></a> ensues while all 11 timepoints are consecutively processed. The registration of the time series took about <strong>6 minutes</strong> and generated 3 x 11 = 33 files in the <em>/registration</em> directory.</p></td>
+</tr>
+<tr class="odd">
+<td><hr />
+<p><img src="Screenshot-registration_results.png" title="fig:Plot of registration results for OpenSPIM sample data." width="400" alt="Plot of registration results for OpenSPIM sample data." /> The plugin plots the average, minimal and maximal displacement of corresponding bead descriptors as well as the RANSAC ratio of inliers (true/all correspondances) for all time-points. If you selected <em>Manual (interactive)</em> for the reference time-point, you will have to click using the mouse onto your time-point of choice that all others will be registered to. If you choose <em>Automatic</em>, the plugin will choose the time-point with the lowest error and highest number of inliers. Selecting <em>Manually (specify)</em> you will be queried for your choice of the reference time-point before the registration starts. This latter choice is especially useful for completely automatic processing, e.g. on a cluster.</p>
+<p>For such a small timelapse it is perfectly feasible to perform registration on a single computer consecutively. For longer timelapses we recommend using a cluster computer as described <a href="http://fiji.sc/SPIM_Registration_on_cluster#Registration">here</a>.</p></td>
+</tr>
+</tbody>
+</table>

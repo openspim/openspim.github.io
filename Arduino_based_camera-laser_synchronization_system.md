@@ -1,63 +1,91 @@
-== Principle of operation ==
+## Principle of operation
 
-We assume that the camera is controlled by the computer via the API 
-or other means and that it is configured such that one of its IO pins reports 
-the integration interval. We will call this signal CINT. 
-This pin is at 0V when not integrating and +5V when integrating. Depending on the camera model this can be reversed.
+We assume that the camera is controlled by the computer via the API or
+other means and that it is configured such that one of its IO pins
+reports the integration interval. We will call this signal CINT. This
+pin is at 0V when not integrating and +5V when integrating. Depending on
+the camera model this can be reversed.
 
-We assume that the laser has a digital IO port for binary control of intensity.
-We will call this signal LT.
-The laser illumination is then synchronized to the camera integration interval by generating the appropriate LT signal 
-according to the incoming CINT signal. 
-Two variables can be adjusted: delay and duration.
-Delay is how many microseconds separate the start of aquisition and the switching of the laser to on state. And duration is, well, how long in microseconds the laser remains on.
- 
-This parameters are sent as serial commands to the Arduino. For example, sending the following string: 'l=0,d=1000' sets the delay to zero ms and duation to 1000 mus = 1 ms.
+We assume that the laser has a digital IO port for binary control of
+intensity. We will call this signal LT. The laser illumination is then
+synchronized to the camera integration interval by generating the
+appropriate LT signal according to the incoming CINT signal. Two
+variables can be adjusted: delay and duration. Delay is how many
+microseconds separate the start of aquisition and the switching of the
+laser to on state. And duration is, well, how long in microseconds the
+laser remains on.
 
-== Arduino Wiring ==
-<span style="color:#FF0000">Rule zero of electronics: check your wirings several times, and in different ways, before powering up, there is no undo! When it's burned it's burned!</span>
+This parameters are sent as serial commands to the Arduino. For example,
+sending the following string: 'l=0,d=1000' sets the delay to zero ms and
+duation to 1000 mus = 1 ms.
+
+## Arduino Wiring
+
+<span style="color:#FF0000">Rule zero of electronics: check your wirings
+several times, and in different ways, before powering up, there is no
+undo\! When it's burned it's burned\!</span>
 
 In the following, inputs and outputs are relative to the Arduino:
 
-* Camera pins:
-** pinCSB --> Camera SYNC-B/Strobe pin (input)
+  - Camera pins:
+      - pinCSB --\> Camera SYNC-B/Strobe pin (input)
 
-* Laser pins:
-** pinLT 4 --> Laser Trigger (output)
+<!-- end list -->
+
+  - Laser pins:
+      - pinLT 4 --\> Laser Trigger (output)
 
 Below is an overview diagram of the very simple wiring needed:
-[[File:OverviewCircuit.png]]
+![OverviewCircuit.png](OverviewCircuit.png "OverviewCircuit.png")
 
-It is often the case that the internal camera/laser electronics are protected against electronic noise or damage by [http://en.wikipedia.org/wiki/Optocouplers optocouplers]. Optocouplers are essentially an optical form of [http://en.wikipedia.org/wiki/Galvanic_isolation galvanic isolation]: it's a optical bridge that lets the signal go through without any current flow. Such a device needs electric current to function, and by definition this current cannot come from the camera/laser  itself otherwise that would defeat the purpose of the optocoupler...
-To cut a long story short, you need to check whether the IO interface of the camera/laser needs to be supplied with DC current (most likely +5V). In any case you will also need to connect the GND (ground) to your 0V on the Arduino. For that you can use the +5V and 0V GND pins of the Arduino.
-It is a general rule that all grounds of communicating devices to be shorted together.
+It is often the case that the internal camera/laser electronics are
+protected against electronic noise or damage by
+[optocouplers](http://en.wikipedia.org/wiki/Optocouplers). Optocouplers
+are essentially an optical form of [galvanic
+isolation](http://en.wikipedia.org/wiki/Galvanic_isolation): it's a
+optical bridge that lets the signal go through without any current flow.
+Such a device needs electric current to function, and by definition this
+current cannot come from the camera/laser itself otherwise that would
+defeat the purpose of the optocoupler... To cut a long story short, you
+need to check whether the IO interface of the camera/laser needs to be
+supplied with DC current (most likely +5V). In any case you will also
+need to connect the GND (ground) to your 0V on the Arduino. For that you
+can use the +5V and 0V GND pins of the Arduino. It is a general rule
+that all grounds of communicating devices to be shorted together.
 
-<span style="color:#FF0000">Rule one of digital electronics: when in doubt about the amount of current sinked or sourced by a pin and about tolerances, it is a good idea to 1) read the manual again and check how much an output pin can source, and what is the impedance of an input pin, 2) to add a resistor (200 Ohm) in series to limit current flow, just in case... </span>
+<span style="color:#FF0000">Rule one of digital electronics: when in
+doubt about the amount of current sinked or sourced by a pin and about
+tolerances, it is a good idea to 1) read the manual again and check how
+much an output pin can source, and what is the impedance of an input
+pin, 2) to add a resistor (200 Ohm) in series to limit current flow,
+just in case... </span>
 
+## Camera Wiring
 
-== Camera Wiring ==
+Here we detail how to use the synchronization system for the SonyXCD
+cameras. As explained above, and as shown in the diagram below, most
+cameras IO interfaces have an optocoupler - thus you have to connect GND
+pins to ground and DC IN pins to +5V.
 
-Here we detail how to use the synchronization system for the SonyXCD cameras.
-As explained above, and as shown in the diagram below, most cameras IO interfaces
-have an optocoupler - thus you have to connect GND pins to ground and DC IN pins to +5V.
+This distracting detail aside, the really interesting pin is STROBE OUT
+which is our CINT pin and which tells us when the camera is acquiring.
+SonyXCD cameras output 0V when acquiring and +5V when not. This is
+different from Retiga-SRV cameras for example that output the opposite
+signal.
 
-This distracting detail aside, the really interesting pin is STROBE OUT which is our CINT pin and 
-which tells us when the camera is acquiring. SonyXCD cameras output 0V when acquiring and +5V 
-when not. This is different from Retiga-SRV cameras for example that output the opposite signal.
+![SonyXCD12pin.png](SonyXCD12pin.png "SonyXCD12pin.png")
 
-[[File:SonyXCD12pin.png|500px]]
-
-== Laser Wiring ==
+## Laser Wiring
 
 Wiring the laser is usually much easier, you just need a diftal IO pin
-that gives access to a binary control of the laser.
-For example, for the Coherent CUBE lasers this is called "digital enable".
+that gives access to a binary control of the laser. For example, for the
+Coherent CUBE lasers this is called "digital enable".
 
-== Arduino Sketch ==
+## Arduino Sketch
 
 Below is the current version of the Arduino sketch:
 
-<source lang="cpp">
+``` cpp
  // OpenSPIM laser/camera synchronization based on Arduino
 // Loic Royer
 
@@ -241,4 +269,4 @@ long serReadInt(char id)
   else
     return -1;                           // Return -1 if there is no input
 }
-</source>
+```

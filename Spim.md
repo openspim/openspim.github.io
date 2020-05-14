@@ -1,1460 +1,440 @@
-== A Compact and Versatile Light Sheet Microscopy Platform for Research and Education ==
+## A Compact and Versatile Light Sheet Microscopy Platform for Research and Education
 
-[[File:Spim_solidworks-screenshot19.png|800px]]
+![Spim\_solidworks-screenshot19.png](Spim_solidworks-screenshot19.png
+"Spim_solidworks-screenshot19.png")
 
-Selective Plane Illumination Microscope (SPIM) with sample rotation & translation. Optimized for uncompromised light sheet microscopy of samples like Drosophila embryos and spheroids while maintaining a small footprint for mobility and a reasonable price point. Epi-fluorescence and brightfield illumination, 16x/0.8 W objective, sCMOS camera. Most of the parts are off-the-shelf, with only three custom components made by Selective Laser Sintering (SLS).
+Selective Plane Illumination Microscope (SPIM) with sample rotation &
+translation. Optimized for uncompromised light sheet microscopy of
+samples like Drosophila embryos and spheroids while maintaining a small
+footprint for mobility and a reasonable price point. Epi-fluorescence
+and brightfield illumination, 16x/0.8 W objective, sCMOS camera. Most of
+the parts are off-the-shelf, with only three custom components made by
+Selective Laser Sintering (SLS).
 
-== Pictures ==
+## Pictures
 
-[[File:Spim_solidworks-screenshot09.png|x250px]] [[File:Spim_solidworks-screenshot05.png|x250px]] [[File:Spim_solidworks-screenshot06.png|x250px]]
+![Spim\_solidworks-screenshot09.png](Spim_solidworks-screenshot09.png
+"Spim_solidworks-screenshot09.png")
+![Spim\_solidworks-screenshot05.png](Spim_solidworks-screenshot05.png
+"Spim_solidworks-screenshot05.png")
+![Spim\_solidworks-screenshot06.png](Spim_solidworks-screenshot06.png
+"Spim_solidworks-screenshot06.png")
 
-== Sample data ==
+## Sample data
 
-== Light sheet properties ==
+## Light sheet properties
 
-[[File:Spim-lightsheet_scheme.png|800px|Scheme of the light sheet illumination arm with laser (blue), lenses (gray), mirrors (brown) and detection (green). Incoming laser beam is expanded to 2.7 mm diameter.]]
-* Scheme of the light sheet illumination arm with laser (blue), lenses (gray), mirrors (brown) and detection (green). Incoming laser beam is expanded to 2.7 mm diameter.
+![Scheme of the light sheet illumination arm with laser (blue), lenses
+(gray), mirrors (brown) and detection (green). Incoming laser beam is
+expanded to 2.7 mm diameter.](Spim-lightsheet_scheme.png
+"Scheme of the light sheet illumination arm with laser (blue), lenses (gray), mirrors (brown) and detection (green). Incoming laser beam is expanded to 2.7 mm diameter.")
 
-[[File:Spim-lightsheet_properties.png|800px|491 nm laser beam in water as seen in the field of view (FOV) after passing through the illumination arm. Cylindrical lens, emission filter and dichroic mirror removed. 22 ms exposure time. Full width at half maximum (FWHM) determined using Gaussian fitting in Fiji. Yellow lines indicate ideal Gaussian shape.]]
-* 491 nm laser beam in water as seen in the field of view (FOV) after passing through the illumination arm. Cylindrical lens, emission filter and dichroic mirror removed. 22 ms exposure time. Full width at half maximum (FWHM) determined using Gaussian fitting in Fiji. Yellow lines indicate ideal Gaussian shape.
+  - Scheme of the light sheet illumination arm with laser (blue), lenses
+    (gray), mirrors (brown) and detection (green). Incoming laser beam
+    is expanded to 2.7 mm diameter.
 
-== List of parts ==
+![491 nm laser beam in water as seen in the field of view (FOV) after
+passing through the illumination arm. Cylindrical lens, emission filter
+and dichroic mirror removed. 22 ms exposure time. Full width at half
+maximum (FWHM) determined using Gaussian fitting in Fiji. Yellow lines
+indicate ideal Gaussian shape.](Spim-lightsheet_properties.png
+"491 nm laser beam in water as seen in the field of view (FOV) after passing through the illumination arm. Cylindrical lens, emission filter and dichroic mirror removed. 22 ms exposure time. Full width at half maximum (FWHM) determined using Gaussian fitting in Fiji. Yellow lines indicate ideal Gaussian shape.")
 
-* ''C'' = custom part / part that requires modification
-* some categories require parts from the ''Basics'' and ''Lenses'' category
-* tools not included
-* US prices from 2016/2017
+  - 491 nm laser beam in water as seen in the field of view (FOV) after
+    passing through the illumination arm. Cylindrical lens, emission
+    filter and dichroic mirror removed. 22 ms exposure time. Full width
+    at half maximum (FWHM) determined using Gaussian fitting in Fiji.
+    Yellow lines indicate ideal Gaussian shape.
 
-=== Breadboard ===
+## List of parts
 
-{| class="wikitable sortable" border="1"
-|-
-! scope="col" class="unsortable" width="200"| Name
-! scope="col" class="unsortable" width="200"| Description
-! scope="col" class="unsortable" width="10"| C
-! scope="col" class="unsortable" width="100"| Vendor 
-! scope="col" class="unsortable" width="120"| Order number
-! scope="col" class="unsortable" width="50"| Number
-! scope="col" class="unsortable" width="50"| Price/part
-! scope="col" class="unsortable" width="50"| Total price
+  - *C* = custom part / part that requires modification
+  - some categories require parts from the *Basics* and *Lenses*
+    category
+  - tools not included
+  - US prices from 2016/2017
 
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=MB2436 Ø45.0 mm Aluminum Breadboard 24" x 36" x 1/2", 1/4"-20 Taps]
-|| main breadboard
-|| 
-|| Thorlabs
-|| MB2436
-| align="right" | 1
-| align="right" | $667.00
-| align="right" | $667.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=TPS13 Ø45.0 mm 12" x 6" (305 mm x 152 mm) Straight Laser Safety Screen]
-|| laser shielding for breadboard
-|| 
-|| Thorlabs
-|| TPS13
-| align="right" | 10
-| align="right" | $55.00
-| align="right" | $550.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=AV6 Ø45.0 mm Sorbothane Feet, Internal 1/4"-20 Mounting Thread, 4 Pieces]
-|| simple vibration isolation for breadboard
-|| 
-|| Thorlabs
-|| AV6
-| align="right" | 1
-| align="right" | $30.75
-| align="right" | $30.75
-|-
-|}
+### Breadboard
 
-=== Basics ===
+| Name                                                                                                                            | Description                               | C | Vendor   | Order number | Number | Price/part | Total price |
+| ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | - | -------- | ------------ | ------ | ---------- | ----------- |
+| [Ø45.0 mm Aluminum Breadboard 24" x 36" x 1/2", 1/4"-20 Taps](https://www.thorlabs.com/thorproduct.cfm?partnumber=MB2436)       | main breadboard                           |   | Thorlabs | MB2436       | 1      | $667.00    | $667.00     |
+|                                                                                                                                 |                                           |   |          |              |        |            |             |
+| [Ø45.0 mm 12" x 6" (305 mm x 152 mm) Straight Laser Safety Screen](https://www.thorlabs.com/thorproduct.cfm?partnumber=TPS13)   | laser shielding for breadboard            |   | Thorlabs | TPS13        | 10     | $55.00     | $550.00     |
+|                                                                                                                                 |                                           |   |          |              |        |            |             |
+| [Ø45.0 mm Sorbothane Feet, Internal 1/4"-20 Mounting Thread, 4 Pieces](https://www.thorlabs.com/thorproduct.cfm?partnumber=AV6) | simple vibration isolation for breadboard |   | Thorlabs | AV6          | 1      | $30.75     | $30.75      |
+|                                                                                                                                 |                                           |   |          |              |        |            |             |
 
-{| class="wikitable sortable" border="1"
-|-
-! scope="col" class="unsortable" width="200"| Name
-! scope="col" class="unsortable" width="200"| Description
-! scope="col" class="unsortable" width="10"| C
-! scope="col" class="unsortable" width="100"| Vendor 
-! scope="col" class="unsortable" width="120"| Order number
-! scope="col" class="unsortable" width="50"| Number
-! scope="col" class="unsortable" width="50"| Price/part
-! scope="col" class="unsortable" width="50"| Total price
+### Basics
 
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=TR2 Ø1/2" Optical Post, SS, 8-32 Setscrew, 1/4"-20 Tap, L = 2"]		
-|| posts for cage system
-|| 
-|| Thorlabs
-|| TR2
-| align="right" | 20
-| align="right" | $5.19
-| align="right" | $103.80
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=PH1E Ø1/2" Pedestal Post Holder, Spring-Loaded Hex-Locking Thumbscrew, L=1.19"] 		
-|| mounts for posts
-|| 
-|| Thorlabs
-|| PH1E
-| align="right" | 20
-| align="right" | $22.50
-| align="right" | $450.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=CF125C Short Clamping Fork, 1.24" Counterbored Slot, 1/4"-20 Captive Screw]
-|| clamps for post mounts
-|| 
-|| Thorlabs
-|| CF125C
-| align="right" | 20
-| align="right" | $10.50
-| align="right" | $210.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER05 Cage Assembly Rod, 1/2" (12.7 mm) Long, Ø6 mm]
-|| 0.5" cage rods
-|| 
-|| Thorlabs
-|| ER05
-| align="right" | 4
-| align="right" | $4.94
-| align="right" | $19.76
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER1 Cage Assembly Rod, 1" (25.4 mm) Long, Ø6 mm]
-|| 1" cage rods
-|| 
-|| Thorlabs
-|| ER1
-| align="right" | 16
-| align="right" | $4.94
-| align="right" | $79.04
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER1.5 Cage Assembly Rod, 1.5" (38.1 mm) Long, Ø6 mm]
-|| 1.5" cage rods
-|| 
-|| Thorlabs
-|| ER1.5
-| align="right" | 8
-| align="right" | $5.70
-| align="right" | $45.60
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER2 Cage Assembly Rod, 2" (50.8 mm) Long, Ø6 mm]
-|| 2" cage rods
-|| 
-|| Thorlabs
-|| ER2
-| align="right" | 4
-| align="right" | $5.94
-| align="right" | $23.76
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER3 Cage Assembly Rod, 3" (76.2 mm) Long, Ø6 mm]
-|| 3" cage rods
-|| 
-|| Thorlabs
-|| ER3
-| align="right" | 12
-| align="right" | $6.44
-| align="right" | $77.28
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER4 Cage Assembly Rod, 4" (101.6 mm) Long, Ø6 mm]
-|| 4" cage rods
-|| 
-|| Thorlabs
-|| ER4
-| align="right" | 8
-| align="right" | $6.94
-| align="right" | $55.52
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER6 Cage Assembly Rod, 6" (152.4 mm) Long, Ø6 mm]
-|| 6" cage rods
-|| 
-|| Thorlabs
-|| ER6
-| align="right" | 4
-| align="right" | $8.44
-| align="right" | $33.76
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER8 Cage Assembly Rod, 8" (203.2 mm) Long, Ø6 mm]
-|| 8" cage rods
-|| 
-|| Thorlabs
-|| ER8
-| align="right" | 8
-| align="right" | $11.44
-| align="right" | $91.52
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER10 Cage Assembly Rod, 10" (254.0 mm) Long, Ø6 mm]
-|| 10" cage rods
-|| 
-|| Thorlabs
-|| ER10
-| align="right" | 4
-| align="right" | $12.44
-| align="right" | $49.76
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=ERSCA Rod Adapter for Ø6 mm ER Rods, Qty. 1]
-|| cage rod adapters
-|| 
-|| Thorlabs
-|| ERSCA
-| align="right" | 8
-| align="right" | $10.80
-| align="right" | $86.40
-|-
-|- align="left"
-|| [http://www.thorlabs.com/thorproduct.cfm?partnumber=CP90F 30 mm Removable Cage Plate, Front and Back Plate, Internal SM1 Threading]
-|| quick release lens mount, 30 mm cage system
-|| 
-|| Thorlabs
-|| CP90F
-| align="right" | 5
-| align="right" | $48.00
-| align="right" | $240.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=CP08 SM1 Threaded 30 mm Enhanced Clamping Cage Plate, 0.35" Thick, 8-32 Tap]
-|| 30 mm cage plate, internal SM1
-|| 
-|| Thorlabs
-|| CP08
-| align="right" | 15
-| align="right" | $19.00
-| align="right" | $285.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=CP06 Post-Mountable Cage Plate with Ø1.0" Double Bore, 8-32 Tap]
-|| 30 mm cage plate, internal 1"
-|| 
-|| Thorlabs
-|| CP06
-| align="right" | 6
-| align="right" | $16.75
-| align="right" | $100.50
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=CRM1P Precision Cage Rotation Mount with Micrometer Drive, Ø1" Optics, 8-32 Tap]
-|| 30 mm cage plate w/ rotational mount
-|| 
-|| Thorlabs
-|| CRM1P
-| align="right" | 2
-| align="right" | $197.88
-| align="right" | $395.76
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=DFM1 Kinematic Fluorescence Filter Cube, 30 mm Cage Compatible, 1/4"-20 Tapped Holes]
-|| 30 mm cage filter cube for 25 x 36 x 2 mm dichroic, 25 mm filters
-|| 
-|| Thorlabs
-|| DFM1
-| align="right" | 1
-| align="right" | $326.00
-| align="right" | $326.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=KC45D Cage Assembly Turret Mount Ø1" Optics]
-|| 30 mm cage mirror gimbal mount
-|| 
-|| Thorlabs
-|| KC45D
-| align="right" | 4
-| align="right" | $197.40
-| align="right" | $789.60
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER90B Fixed 90° Bracket, Ø6 mm Bore and 4-40 Taps]
-|| 90 deg cage rod connectors
-|| 
-|| Thorlabs
-|| ER90B
-| align="right" | 16
-| align="right" | $13.70
-| align="right" | $219.20
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=UPH1.5 Ø1/2" Universal Post Holder, Spring-Loaded Locking Thumbscrew, L = 1.5"]
-|| post holders
-|| 
-|| Thorlabs
-|| UPH1.5
-| align="right" | 14
-| align="right" | $29.50
-| align="right" | $413.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1CP2M Externally SM1-Threaded End Cap for Machining]
-|| SM1 covers as laser target / cube cover
-|| 
-|| Thorlabs
-|| SM1CP2M
-| align="right" | 2
-| align="right" | $18.00
-| align="right" | $36.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1D12D Ring-Actuated SM1 Iris Diaphragm]  	  		
-|| SM1-threaded aperture for LEDs, laser alignment
-|| 
-|| Thorlabs
-|| SM1D12D
-| align="right" | 4
-| align="right" | $64.30
-| align="right" | $257.20
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L10 SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included]
-|| SM1 tube
-|| 
-|| Thorlabs
-|| SM1L10
-| align="right" | 3
-| align="right" | $14.25
-| align="right" | $42.75
-|-
-|}
+| Name                                                                                                                                        | Description                                                       | C | Vendor   | Order number | Number | Price/part | Total price |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | - | -------- | ------------ | ------ | ---------- | ----------- |
+| [Ø1/2" Optical Post, SS, 8-32 Setscrew, 1/4"-20 Tap, L = 2"](https://www.thorlabs.com/thorproduct.cfm?partnumber=TR2)                       | posts for cage system                                             |   | Thorlabs | TR2          | 20     | $5.19      | $103.80     |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [Ø1/2" Pedestal Post Holder, Spring-Loaded Hex-Locking Thumbscrew, L=1.19"](https://www.thorlabs.com/thorproduct.cfm?partnumber=PH1E)       | mounts for posts                                                  |   | Thorlabs | PH1E         | 20     | $22.50     | $450.00     |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [Short Clamping Fork, 1.24" Counterbored Slot, 1/4"-20 Captive Screw](https://www.thorlabs.com/thorproduct.cfm?partnumber=CF125C)           | clamps for post mounts                                            |   | Thorlabs | CF125C       | 20     | $10.50     | $210.00     |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [Cage Assembly Rod, 1/2" (12.7 mm) Long, Ø6 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=ER05)                                   | 0.5" cage rods                                                    |   | Thorlabs | ER05         | 4      | $4.94      | $19.76      |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [Cage Assembly Rod, 1" (25.4 mm) Long, Ø6 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=ER1)                                      | 1" cage rods                                                      |   | Thorlabs | ER1          | 16     | $4.94      | $79.04      |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [Cage Assembly Rod, 1.5" (38.1 mm) Long, Ø6 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=ER1.5)                                  | 1.5" cage rods                                                    |   | Thorlabs | ER1.5        | 8      | $5.70      | $45.60      |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [Cage Assembly Rod, 2" (50.8 mm) Long, Ø6 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=ER2)                                      | 2" cage rods                                                      |   | Thorlabs | ER2          | 4      | $5.94      | $23.76      |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [Cage Assembly Rod, 3" (76.2 mm) Long, Ø6 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=ER3)                                      | 3" cage rods                                                      |   | Thorlabs | ER3          | 12     | $6.44      | $77.28      |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [Cage Assembly Rod, 4" (101.6 mm) Long, Ø6 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=ER4)                                     | 4" cage rods                                                      |   | Thorlabs | ER4          | 8      | $6.94      | $55.52      |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [Cage Assembly Rod, 6" (152.4 mm) Long, Ø6 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=ER6)                                     | 6" cage rods                                                      |   | Thorlabs | ER6          | 4      | $8.44      | $33.76      |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [Cage Assembly Rod, 8" (203.2 mm) Long, Ø6 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=ER8)                                     | 8" cage rods                                                      |   | Thorlabs | ER8          | 8      | $11.44     | $91.52      |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [Cage Assembly Rod, 10" (254.0 mm) Long, Ø6 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=ER10)                                   | 10" cage rods                                                     |   | Thorlabs | ER10         | 4      | $12.44     | $49.76      |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [Rod Adapter for Ø6 mm ER Rods, Qty. 1](https://www.thorlabs.com/thorproduct.cfm?partnumber=ERSCA)                                          | cage rod adapters                                                 |   | Thorlabs | ERSCA        | 8      | $10.80     | $86.40      |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [30 mm Removable Cage Plate, Front and Back Plate, Internal SM1 Threading](http://www.thorlabs.com/thorproduct.cfm?partnumber=CP90F)        | quick release lens mount, 30 mm cage system                       |   | Thorlabs | CP90F        | 5      | $48.00     | $240.00     |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [SM1 Threaded 30 mm Enhanced Clamping Cage Plate, 0.35" Thick, 8-32 Tap](https://www.thorlabs.com/thorproduct.cfm?partnumber=CP08)          | 30 mm cage plate, internal SM1                                    |   | Thorlabs | CP08         | 15     | $19.00     | $285.00     |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [Post-Mountable Cage Plate with Ø1.0" Double Bore, 8-32 Tap](https://www.thorlabs.com/thorproduct.cfm?partnumber=CP06)                      | 30 mm cage plate, internal 1"                                     |   | Thorlabs | CP06         | 6      | $16.75     | $100.50     |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [Precision Cage Rotation Mount with Micrometer Drive, Ø1" Optics, 8-32 Tap](https://www.thorlabs.com/thorproduct.cfm?partnumber=CRM1P)      | 30 mm cage plate w/ rotational mount                              |   | Thorlabs | CRM1P        | 2      | $197.88    | $395.76     |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [Kinematic Fluorescence Filter Cube, 30 mm Cage Compatible, 1/4"-20 Tapped Holes](https://www.thorlabs.com/thorproduct.cfm?partnumber=DFM1) | 30 mm cage filter cube for 25 x 36 x 2 mm dichroic, 25 mm filters |   | Thorlabs | DFM1         | 1      | $326.00    | $326.00     |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [Cage Assembly Turret Mount Ø1" Optics](https://www.thorlabs.com/thorproduct.cfm?partnumber=KC45D)                                          | 30 mm cage mirror gimbal mount                                    |   | Thorlabs | KC45D        | 4      | $197.40    | $789.60     |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [Fixed 90° Bracket, Ø6 mm Bore and 4-40 Taps](https://www.thorlabs.com/thorproduct.cfm?partnumber=ER90B)                                    | 90 deg cage rod connectors                                        |   | Thorlabs | ER90B        | 16     | $13.70     | $219.20     |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [Ø1/2" Universal Post Holder, Spring-Loaded Locking Thumbscrew, L = 1.5"](https://www.thorlabs.com/thorproduct.cfm?partnumber=UPH1.5)       | post holders                                                      |   | Thorlabs | UPH1.5       | 14     | $29.50     | $413.00     |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [Externally SM1-Threaded End Cap for Machining](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1CP2M)                                | SM1 covers as laser target / cube cover                           |   | Thorlabs | SM1CP2M      | 2      | $18.00     | $36.00      |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [Ring-Actuated SM1 Iris Diaphragm](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1D12D)                                             | SM1-threaded aperture for LEDs, laser alignment                   |   | Thorlabs | SM1D12D      | 4      | $64.30     | $257.20     |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
+| [SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L10)                | SM1 tube                                                          |   | Thorlabs | SM1L10       | 3      | $14.25     | $42.75      |
+|                                                                                                                                             |                                                                   |   |          |              |        |            |             |
 
-=== Lenses ===
+### Lenses
 
-{| class="wikitable sortable" border="1"
-|-
-! scope="col" class="unsortable" width="200"| Name
-! scope="col" class="unsortable" width="200"| Description
-! scope="col" class="unsortable" width="10"| C
-! scope="col" class="unsortable" width="100"| Vendor 
-! scope="col" class="unsortable" width="120"| Order number
-! scope="col" class="unsortable" width="50"| Number
-! scope="col" class="unsortable" width="50"| Price/part
-! scope="col" class="unsortable" width="50"| Total price
+| Name                                                                                                                                        | Description                                               | C | Vendor   | Order number   | Number | Price/part | Total price |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | - | -------- | -------------- | ------ | ---------- | ----------- |
+| [f = 50 mm, Ø1" Cylindrical Achromat, AR Coating: 350 - 700 nm](https://www.thorlabs.com/thorproduct.cfm?partnumber=ACY254-050-A)           | achromatic cylindrical lens                               |   | Thorlabs | ACY254-050-A   | 1      | $368.00    | $368.00     |
+|                                                                                                                                             |                                                           |   |          |                |        |            |             |
+| [f=30 mm, Ø1" Achromatic Doublet, SM1-Threaded Mount, ARC: 400-700 nm](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-030-A-ML)  | beam expander lens 1, collimators for white & 470 nm LEDs |   | Thorlabs | AC254-030-A-ML | 3      | $102.00    | $306.00     |
+|                                                                                                                                             |                                                           |   |          |                |        |            |             |
+| [f=100 mm, Ø1" Achromatic Doublet, SM1-Threaded Mount, ARC: 400-700 nm](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-100-A-ML) | beam expander lens 2                                      |   | Thorlabs | AC254-100-A-ML | 1      | $95.90     | $95.90      |
+|                                                                                                                                             |                                                           |   |          |                |        |            |             |
+| [f=50 mm, Ø1" Achromatic Doublet, SM1-Threaded Mount, ARC: 400-700 nm](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-050-A-ML)  | telescope lenses                                          |   | Thorlabs | AC254-050-A-ML | 2      | $95.90     | $95.90      |
+|                                                                                                                                             |                                                           |   |          |                |        |            |             |
 
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=ACY254-050-A f = 50 mm, Ø1" Cylindrical Achromat, AR Coating: 350 - 700 nm]
-|| achromatic cylindrical lens
-|| 
-|| Thorlabs
-|| ACY254-050-A
-| align="right" | 1
-| align="right" | $368.00
-| align="right" | $368.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-030-A-ML f=30 mm, Ø1" Achromatic Doublet, SM1-Threaded Mount, ARC: 400-700 nm]
-|| beam expander lens 1, collimators for white & 470 nm LEDs
-|| 
-|| Thorlabs
-|| AC254-030-A-ML
-| align="right" | 3
-| align="right" | $102.00
-| align="right" | $306.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-100-A-ML f=100 mm, Ø1" Achromatic Doublet, SM1-Threaded Mount, ARC: 400-700 nm]
-|| beam expander lens 2
-|| 
-|| Thorlabs
-|| AC254-100-A-ML
-| align="right" | 1
-| align="right" | $95.90
-| align="right" | $95.90
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-050-A-ML f=50 mm, Ø1" Achromatic Doublet, SM1-Threaded Mount, ARC: 400-700 nm]
-|| telescope lenses
-|| 
-|| Thorlabs
-|| AC254-050-A-ML
-| align="right" | 2
-| align="right" | $95.90
-| align="right" | $95.90
-|-
-|}
+### Sample chamber
 
-=== Sample chamber ===
+| Name                                                                                                                | Description                                                      | C | Vendor                                                                  | Order number | Number | Price/part | Total price |
+| ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | - | ----------------------------------------------------------------------- | ------------ | ------ | ---------- | ----------- |
+| [sample-chamber\_v2.STL](https://www.3dvieweronline.com/members/Ida60b48c9d56949d618129c45511b5cad/L1XXoIg7sJ8xzNS) | sample chamber - *to be produced with selective laser sintering* | x | [Stratasys](https://express.stratasysdirect.com/quote.aspx?productID=4) |              | 1      | $53.06     | $53.06      |
+|                                                                                                                     |                                                                  |   |                                                                         |              |        |            |             |
+| [30 mm Cage Cube](https://www.thorlabs.com/thorproduct.cfm?partnumber=C4W)                                          | cube for sample chamber - *one opening to be extended to ?"*     | x | Thorlabs                                                                | C4W          | 1      | $57.90     | $57.90      |
+|                                                                                                                     |                                                                  |   |                                                                         |              |        |            |             |
+| [Ø1/2" Sapphire Broadband Precision Window, Uncoated](https://www.thorlabs.com/thorproduct.cfm?partnumber=WG30530)  | glass windows for sample chamber                                 |   | Thorlabs                                                                | WG30530      | 3      | $40.00     | $120.00     |
+|                                                                                                                     |                                                                  |   |                                                                         |              |        |            |             |
+| [SM1 (1.035"-40) Tapped Cube Plate for C4W/C6W](https://www.thorlabs.com/thorproduct.cfm?partnumber=B2C)            | bottom plate for cube                                            |   | Thorlabs                                                                | B2C          | 1      | $14.70     | $14.70      |
+|                                                                                                                     |                                                                  |   |                                                                         |              |        |            |             |
 
-{| class="wikitable sortable" border="1"
-|-
-! scope="col" class="unsortable" width="200"| Name
-! scope="col" class="unsortable" width="200"| Description
-! scope="col" class="unsortable" width="10"| C
-! scope="col" class="unsortable" width="100"| Vendor 
-! scope="col" class="unsortable" width="120"| Order number
-! scope="col" class="unsortable" width="50"| Number
-! scope="col" class="unsortable" width="50"| Price/part
-! scope="col" class="unsortable" width="50"| Total price
+### Illumination arm
 
-|- align="left"
-|| [https://www.3dvieweronline.com/members/Ida60b48c9d56949d618129c45511b5cad/L1XXoIg7sJ8xzNS sample-chamber_v2.STL]
-|| sample chamber - ''to be produced with selective laser sintering''
-|| x
-|| [https://express.stratasysdirect.com/quote.aspx?productID=4 Stratasys]
-|| 
-| align="right" | 1
-| align="right" | $53.06
-| align="right" | $53.06
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=C4W 30 mm Cage Cube]
-|| cube for sample chamber - ''one opening to be extended to ?"''
-|| x
-|| Thorlabs
-|| C4W
-| align="right" | 1
-| align="right" | $57.90
-| align="right" | $57.90
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=WG30530 Ø1/2" Sapphire Broadband Precision Window, Uncoated]
-|| glass windows for sample chamber
-|| 
-|| Thorlabs
-|| WG30530
-| align="right" | 3
-| align="right" | $40.00
-| align="right" | $120.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=B2C SM1 (1.035"-40) Tapped Cube Plate for C4W/C6W]
-|| bottom plate for cube
-|| 
-|| Thorlabs
-|| B2C
-| align="right" | 1
-| align="right" | $14.70
-| align="right" | $14.70
-|-
-|}
+| Name                                                                                                                                               | Description                                                                                                         | C | Vendor        | Order number    | Number | Price/part | Total price |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | - | ------------- | --------------- | ------ | ---------- | ----------- |
+| [10X Nikon CFI Plan Fluorite Objective, 0.30 NA, 3.5 mm WD](https://www.thorlabs.com/thorproduct.cfm?partnumber=N10XW-PF)                          | illumination objective                                                                                              |   | Nikon         | N10XW-PF        | 1      | $1,315.60  | $1,315.60   |
+|                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
+| [Cobolt Calypso 491nm 100mW DPSS](http://www.cobolt.se/product/04-01-series/)                                                                      | 491nm laser                                                                                                         |   | Cobolt        |                 | 1      |            |             |
+|                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
+| Laser baseplate XxY"                                                                                                                               | baseplate for 491nm laser - *to be cut from solid aluminium plate, added holes for mounting laser and posts (8-32)* | x |               |                 |        |            |             |
+|                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
+| PCAOM                                                                                                                                              | acousto-optical tunable filter for laser illumination                                                               |   | NEOS          | 48062-2.5-.55   | 1      |            |             |
+|                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
+| 4-channel PCAOM driver                                                                                                                             | AOTF controller                                                                                                     |   | NEOS          | 64040-75-.1.4CH | 1      |            |             |
+|                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
+| [Adapter with External SM1 Threads and Internal M25 x 0.75 Threads](http://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A12)                     | adapter illumination objective to SM1                                                                               |   | Thorlabs      | SM1A12          | 1      | $19.75     | $19.75      |
+|                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
+| [25.4mm Diameter, 4-6λ Mirror](http://www.edmundoptics.com/optics/optical-mirrors/flat-mirrors/4-6-wave-first-surface-mirrors/69245)               | 1" mirror, only 3 mm thick, for gimbal mount                                                                        |   | Edmund Optics | \#69-245        | 4      | $16.00     | $64.00      |
+|                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
+| [Z-Axis Translation Mount, 30 mm Cage Compatible](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1Z)                                        | zoom housing for telescope lens                                                                                     |   | Thorlabs      | SM1Z            | 1      | $186.00    | $186.00     |
+|                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
+| [30mm Cage System Adjustable Slit, 8-32 Tap, Imperial Micrometer](http://www.thorlabs.com/thorproduct.cfm?partnumber=VA100C)                       | slit for setting light sheet properties, 30 mm cage system                                                          |   | Thorlabs      | VA100C          | 2      | $260.00    | $520.00     |
+|                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
+| [Kinematic Mount with Vertical Drive, Ø1/2" Optics](https://www.thorlabs.com/thorproduct.cfm?partnumber=VM05)                                      | vertical drive 0.5" mirror mounts for laser module                                                                  |   | Thorlabs      | VM05            | 8      | $97.90     | $783.20     |
+|                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
+| [Ø1/2" Broadband Dielectric Mirror, 400 - 750 nm](https://www.thorlabs.com/thorproduct.cfm?partnumber=BB05-E02)                                    | 0.5" mirrors for laser module                                                                                       |   | Thorlabs      | BB05-E02        | 4      | $49.40     | $197.60     |
+|                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
+| [30 mm Cage System Iris, Ø20.0 mm Maximum Aperture](http://www.thorlabs.com/thorproduct.cfm?partnumber=CP20S)                                      | iris for beam alignment, 30 mm cage system                                                                          |   | Thorlabs      | CP20S           | 8      | $85.00     | $680.00     |
+|                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
+| [Ø1/2" Optical Post, SS, 8-32 Setscrew, 1/4"-20 Tap, L = 1.5"](https://www.thorlabs.com/thorproduct.cfm?partnumber=TR1.5)                          | short posts for laser baseplate                                                                                     |   | Thorlabs      | TR1.5           | 4      | $4.97      | $19.88      |
+|                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
+| [Unmounted Continuously Variable ND Filter, Ø50 mm, OD: 0-4.0, ARC: 350 - 700 nm](https://www.thorlabs.com/thorproduct.cfm?partnumber=NDC-50C-4-A) | ND filter wheel for additional attenuation in laser module                                                          |   | Thorlabs      | NDC-50C-4-A     | 1      | $368.00    | $368.00     |
+|                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
+| [Post Mount Assembly for Round, Unmounted, ND Filters](https://www.thorlabs.com/thorproduct.cfm?partnumber=NDC-PM)                                 | mount for ND filter wheel                                                                                           |   | Thorlabs      | NDC-PM          | 1      | $52.25     | $52.25      |
+|                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
+| [Assmann WSW Components H7VXH-0906M](http://www.digikey.com/product-detail/en/assmann-wsw-components/H7VXH-0906M/H7VXH-0906M-ND/998782)            | cable for triggering AOTF                                                                                           |   | Digi-Key      | H7VXH-0906M-ND  | 2      | $5.18      | $10.36      |
+|                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
+| [Pomona Electronics 4969](http://www.digikey.com/product-detail/en/pomona-electronics/4969/501-1030-ND/603340)                                     | cable for BNC input to other cable                                                                                  |   | Digi-Key      | 501-1030-ND     | 4      | $8.99      | $35.96      |
+|                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
 
-=== Illumination arm ===
+### Detection arm
 
-{| class="wikitable sortable" border="1"
-|-
-! scope="col" class="unsortable" width="200"| Name
-! scope="col" class="unsortable" width="200"| Description
-! scope="col" class="unsortable" width="10"| C
-! scope="col" class="unsortable" width="100"| Vendor 
-! scope="col" class="unsortable" width="120"| Order number
-! scope="col" class="unsortable" width="50"| Number
-! scope="col" class="unsortable" width="50"| Price/part
-! scope="col" class="unsortable" width="50"| Total price
+| Name                                                                                                                                                                      | Description                                                                          | C | Vendor    | Order number | Number | Price/part | Total price |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | - | --------- | ------------ | ------ | ---------- | ----------- |
+| [16X Nikon CFI LWD Plan Fluorite Objective, 0.80 NA, 3.0 mm WD](https://www.thorlabs.com/thorproduct.cfm?partnumber=N16XLWD-PF)                                           | detection objective                                                                  |   | Nikon     | N16XLWD-PF   | 1      | $5,824.21  | $5,824.21   |
+|                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
+| [Infinity-Corrected Tube Lens for Plan Fluorite Objectives](https://www.thorlabs.com/thorproduct.cfm?partnumber=ITL200)                                                   | 200 mm tube lens for detection arm                                                   |   | Nikon     |              | 1      | $450       | $450        |
+|                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
+| [Hamamatsu ORCA Flash 2.8 (1,920x1,440, 3.63µm pixels, 70% QE, 45fps)](http://www.hamamatsu.com/jp/en/community/life_science_camera/product/search/C11440-10C/index.html) | main camera                                                                          |   | Hamamatsu | C11440-10C   | 1      |            |             |
+|                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
+| [Bandpass emission filter 525/50, mounted, 25 mm](https://www.chroma.com/products/parts/et525-50m)                                                                        | emission filter for "green" fluorophores                                             |   | Chroma    | ET525/50m    | 1      | $325       | $325        |
+|                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
+| [8-Channel, 16-Bit Analog Voltage Output Device](http://www.mccdaq.com/usb-data-acquisition/USB-3103.aspx)                                                                | USB DAQ for AOTF, LEDs etc                                                           |   | MCC       | USB-3103     | 1      | $349.00    | $349.00     |
+|                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
+| [Adapter with External SM1 Threads and Internal M32 x 0.75 Threads](http://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A34)                                            | adapter detection objective to SM1                                                   |   | Thorlabs  | SM1A34       | 1      | $22.00     | $22.00      |
+|                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
+| [Adapter with External SM2 Threads and Internal M38 x 0.5 Threads](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM2A20)                                            | tube lens to SM2 adapter                                                             |   | Thorlabs  | SM2A20       | 1      | $45.00     | $45.00      |
+|                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
+| [60 mm Cage Plate, SM2 Threaded, Enhanced Clamping, 0.5" Thick, 8-32 Tap](https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP08)                                      | 60 mm cage plate w/ SM2 thread                                                       |   | Thorlabs  | LCP08        | 1      | $47.90     | $47.90      |
+|                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
+| [60 mm Cage Plate with Ø2" Double-Bore Optic Mount, 8-32 Tap](https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP06)                                                  | 60 mm cage plate for holding SM2 tube                                                |   | Thorlabs  | LCP06        | 1      | $33.50     | $33.50      |
+|                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
+| [30 mm to 60 mm Cage Plate Adapter, 8-32 Tap](http://www.thorlabs.com/thorproduct.cfm?partnumber=LCP02)                                                                   | 60 to 30 mm cage adapter                                                             |   | Thorlabs  | LCP02        | 2      | $38.00     | $76.00      |
+|                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
+| [Adapter with External C-Mount Threads and External SM1 Threads](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A39)                                              | C-mount-to-SM1 adapter                                                               |   | Thorlabs  | SM1A39       | 1      | $20.00     | $20.00      |
+|                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
+| [Adapter with External SM2 Threads and Internal SM1 Threads](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM2A6)                                                   | SM1-to-SM2 adapter                                                                   |   | Thorlabs  | SM2A6        | 1      | $24.00     | $24.00      |
+|                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
+| [SM2 Lens Tube Without External Threads, 1/2" Thread Depth, Two Retaining Rings Included](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM2M05)                     | SM2 tube for cage plate                                                              |   | Thorlabs  | SM2M05       | 1      | $24.50     | $24.50      |
+|                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
+| [60 mm Cage Plate with Ø2.2" Double Bore for SM2 Lens Tube Mounting](https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP09)                                           | 60 mm cage plate for SM2 tube                                                        |   | Thorlabs  | LCP09        | 1      | $41.20     | $41.20      |
+|                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
+| [Dual-Position Slider Bundle: Dual-Position Slider, Interface Board, Cables](https://www.thorlabs.com/thorproduct.cfm?partnumber=ELL6K)                                   | motorized filter switch                                                              |   | Thorlabs  | ELL6K        | 1      | $268.00    | $268.00     |
+|                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
+| [SM1 Lens Tube, 0.30" Thread Depth, One Retaining Ring Included](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L03)                                              | filter mount for motorized filter switch                                             |   | Thorlabs  | SM1L03       | 3      | $12.16     | $36.48      |
+|                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
+| Baseplate for filter switch control board                                                                                                                                 | baseplate for mounting filter switch control board to breadboard - *to be laser-cut* | x |           |              | 1      |            |             |
+|                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
+| [30 mm to 60 mm Cage Plate Adapter, 8-32 Tap](https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP02)                                                                  | cage mount for filter switch                                                         |   | Thorlabs  | LCP02        | 3      | $38.00     | $114.00     |
+|                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
+| [Cage Assembly Rod, 2" Long, Ø6 mm, 4 Pack](https://www.thorlabs.com/thorproduct.cfm?partnumber=ER2-P4)                                                                   | cage extension rods                                                                  |   | Thorlabs  | ER2-P4       | 1      | $22.57     | $22.57      |
+|                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
+| [Cage Assembly Rod, 1" Long, Ø6 mm, 4 Pack](https://www.thorlabs.com/thorproduct.cfm?partnumber=ER1-P4)                                                                   | cage rods for mounting filter switch                                                 |   | Thorlabs  | ER1-P4       | 2      | $18.77     | $37.54      |
+|                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
+| [SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L10-P5)                                          | light block for detection path                                                       |   | Thorlabs  | SM1L10-P5    |        |            |             |
+|                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
 
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=N10XW-PF 10X Nikon CFI Plan Fluorite Objective, 0.30 NA, 3.5 mm WD]	
-|| illumination objective
-|| 
-|| Nikon
-|| N10XW-PF
-| align="right" | 1
-| align="right" | $1,315.60
-| align="right" | $1,315.60
-|-
-|- align="left"
-|| [http://www.cobolt.se/product/04-01-series/ Cobolt Calypso 491nm 100mW DPSS]	
-|| 491nm laser
-|| 
-|| Cobolt
-|| 
-| align="right" | 1
-| align="right" | 
-| align="right" | 
-|-
-|- align="left"
-|| Laser baseplate XxY"
-|| baseplate for 491nm laser - ''to be cut from solid aluminium plate, added holes for mounting laser and posts (8-32)''
-|| x
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
-|-
-|- align="left"
-|| PCAOM
-|| acousto-optical tunable filter for laser illumination
-|| 
-|| NEOS
-|| 48062-2.5-.55
-| align="right" | 1
-| align="right" | 
-| align="right" | 
-|-
-|- align="left"
-|| 4-channel PCAOM driver
-|| AOTF controller
-|| 
-|| NEOS
-|| 64040-75-.1.4CH
-| align="right" | 1
-| align="right" | 
-| align="right" | 
-|-
-|- align="left"
-|| [http://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A12 Adapter with External SM1 Threads and Internal M25 x 0.75 Threads]
-|| adapter illumination objective to SM1
-|| 
-|| Thorlabs
-|| SM1A12
-| align="right" | 1
-| align="right" | $19.75
-| align="right" | $19.75
-|-
-|- align="left"
-|| [http://www.edmundoptics.com/optics/optical-mirrors/flat-mirrors/4-6-wave-first-surface-mirrors/69245 25.4mm Diameter, 4-6λ Mirror]
-|| 1" mirror, only 3 mm thick, for gimbal mount
-|| 
-|| Edmund Optics
-|| #69-245
-| align="right" | 4
-| align="right" | $16.00
-| align="right" | $64.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1Z Z-Axis Translation Mount, 30 mm Cage Compatible]
-|| zoom housing for telescope lens
-|| 
-|| Thorlabs
-|| SM1Z
-| align="right" | 1
-| align="right" | $186.00
-| align="right" | $186.00
-|-
-|- align="left"
-|| [http://www.thorlabs.com/thorproduct.cfm?partnumber=VA100C 30mm Cage System Adjustable Slit, 8-32 Tap, Imperial Micrometer]
-|| slit for setting light sheet properties, 30 mm cage system
-|| 
-|| Thorlabs
-|| VA100C
-| align="right" | 2
-| align="right" | $260.00
-| align="right" | $520.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=VM05 Kinematic Mount with Vertical Drive, Ø1/2" Optics]
-|| vertical drive 0.5" mirror mounts for laser module
-|| 
-|| Thorlabs
-|| VM05
-| align="right" | 8
-| align="right" | $97.90
-| align="right" | $783.20
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=BB05-E02 Ø1/2" Broadband Dielectric Mirror, 400 - 750 nm]
-|| 0.5" mirrors for laser module
-|| 
-|| Thorlabs
-|| BB05-E02
-| align="right" | 4
-| align="right" | $49.40
-| align="right" | $197.60
-|-
-|- align="left"
-|| [http://www.thorlabs.com/thorproduct.cfm?partnumber=CP20S 30 mm Cage System Iris, Ø20.0 mm Maximum Aperture]
-|| iris for beam alignment, 30 mm cage system
-|| 
-|| Thorlabs
-|| CP20S
-| align="right" | 8
-| align="right" | $85.00
-| align="right" | $680.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=TR1.5 Ø1/2" Optical Post, SS, 8-32 Setscrew, 1/4"-20 Tap, L = 1.5"]
-|| short posts for laser baseplate
-|| 
-|| Thorlabs
-|| TR1.5
-| align="right" | 4
-| align="right" | $4.97
-| align="right" | $19.88
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=NDC-50C-4-A Unmounted Continuously Variable ND Filter, Ø50 mm, OD: 0-4.0, ARC: 350 - 700 nm]
-|| ND filter wheel for additional attenuation in laser module
-|| 
-|| Thorlabs
-|| NDC-50C-4-A
-| align="right" | 1
-| align="right" | $368.00
-| align="right" | $368.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=NDC-PM Post Mount Assembly for Round, Unmounted, ND Filters]
-|| mount for ND filter wheel
-|| 
-|| Thorlabs
-|| NDC-PM
-| align="right" | 1
-| align="right" | $52.25
-| align="right" | $52.25
-|-
-|- align="left"
-|| [http://www.digikey.com/product-detail/en/assmann-wsw-components/H7VXH-0906M/H7VXH-0906M-ND/998782 Assmann WSW Components H7VXH-0906M]
-|| cable for triggering AOTF
-|| 
-|| Digi-Key
-|| H7VXH-0906M-ND
-| align="right" | 2
-| align="right" | $5.18
-| align="right" | $10.36
-|-
-|- align="left"
-|| [http://www.digikey.com/product-detail/en/pomona-electronics/4969/501-1030-ND/603340 Pomona Electronics 4969]
-|| cable for BNC input to other cable
-|| 
-|| Digi-Key
-|| 501-1030-ND
-| align="right" | 4
-| align="right" | $8.99
-| align="right" | $35.96
-|-
-|}
+### Stage & sample holder
 
-=== Detection arm ===
+| Name                                                                                                                                                                    | Description                                                                              | C | Vendor                                                                  | Order number    | Number | Price/part | Total price |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | - | ----------------------------------------------------------------------- | --------------- | ------ | ---------- | ----------- |
+| [DDR05-to-PI111\_adapter.STL](https://www.3dvieweronline.com/members/Ida60b48c9d56949d618129c45511b5cad/ETS6dqKXf8Ztrm3)                                                | adapter rotational stage to xyz stage - *to be produced with selective laser sintering*  | x | [Stratasys](https://express.stratasysdirect.com/quote.aspx?productID=4) | \-              | 1      | $46.36     | $46.36      |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
+| [15mm Compact Micro-Translation Stage](http://www.physikinstrumente.com/product-detail-page/m-110-m-111-m-112-701650.html)                                              | motorized linear stage                                                                   |   | PI                                                                      | M-111.1DG       | 3      | $2,608.00  | $7,824.00   |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
+| [1 Channel Mercury DC Motor Controller](http://www.physikinstrumente.com/product-detail-page/c-863-900606.html)                                                         | controller for linear stage                                                              |   | PI                                                                      | C-863.11        | 3      | $1,134.00  | $3,402.00   |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
+| [Mounting Bracket for Vertical Mount of M-111 on M-110, M-111 and M-112](http://www.physikinstrumente.com/product-detail-page/m-11002-m-11003-m-11004-901185.html)      | vertical adapter plate for linear stage                                                  |   | PI                                                                      | M-110.03        | 1      | $128.00    | $128.00     |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
+| [StarTech Model ICUSB2321F 6 ft. 1 Port FTDI USB to Serial RS232 Adapter Cable with COM Retention M-M](http://www.newegg.com/Product/Product.aspx?Item=N82E16812200964) | USB to Serial adapter for PI controller                                                  |   | Newegg                                                                  | N82E16812200964 | 3      | $20.99     | $62.97      |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
+| [Direct Drive Continuous Rotation Mount, SM05 Bore, 8-32 Taps](http://www.thorlabs.com/thorproduct.cfm?partnumber=DDR05)                                                | motorized rotational stage                                                               |   | Thorlabs                                                                | DDR05           | 1      | $1,800.00  | $1,800.00   |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
+| [K-Cube Brushless DC Servo Driver](http://www.thorlabs.com/thorproduct.cfm?partnumber=KBD101)                                                                           | controller for rotational stage                                                          |   | Thorlabs                                                                | KBD101          | 1      | $716.00    | $716.00     |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
+| [66 mm Single Dovetail Rail, L = 500 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=XT66SP-500)                                                                | rail for stage - *to be shortened to ?", 4 holes drilled for 1/4"-20 screws*             | x | Thorlabs                                                                | XT66SP-500      | 1      | $30.50     | $30.50      |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
+| [Ø1/2" Optical Post, SS, 8-32 Setscrew, 1/4"-20 Tap, L = 4"](https://www.thorlabs.com/thorproduct.cfm?partnumber=TR4)                                                   | posts for stage rail                                                                     |   | Thorlabs                                                                | TR4             | 1      | $5.87      | $23.48      |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
+| [Rail Carriage for 66 mm Rails with 6-32, 8-32, & 1/4"-20 Taps](https://www.thorlabs.com/thorproduct.cfm?partnumber=XT66P2)                                             | rail carriage for stage                                                                  |   | Thorlabs                                                                | XT66P2          | 1      | $67.10     | $67.10      |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
+| [30 mm Cage System, XY Translating Mount for Ø1" Optics with Quick Release Plate](https://www.thorlabs.com/thorproduct.cfm?partnumber=CXY1Q)                            | adjustable quick-release sample holder plate                                             |   | Thorlabs                                                                | CXY1Q           | 1      | $225.00    | $225.00     |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
+| [30 mm to 16 mm Cage Adapter Plate](https://www.thorlabs.com/thorproduct.cfm?partnumber=SP05)                                                                           | adapter plate for sample holder                                                          |   | Thorlabs                                                                | SP05            | 1      | $31.00     | $31.00      |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
+| [Stereotaxic Cannula Holder, Ø2.5 mm Ferrules](https://www.thorlabs.com/thorproduct.cfm?partnumber=XCF)                                                                 | sample clamp                                                                             |   | Thorlabs                                                                | XCF             | 1      | $295.00    | $295.00     |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
+| [XCF\_adapter.STL](https://www.3dvieweronline.com/members/Ida60b48c9d56949d618129c45511b5cad/FN7nuLqXtyVtzKm)                                                           | adapter sample holder to 1" cage plate - *to be produced with selective laser sintering* | x | [Stratasys](https://express.stratasysdirect.com/quote.aspx?productID=4) |                 | 2      |            |             |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
+| [Mini Series Cage Assembly Rod, 1/4" (6.4 mm) Long, Ø4 mm, Qty. 1](https://www.thorlabs.com/thorproduct.cfm?partnumber=SR025)                                           | cage system rods for sample holder                                                       |   | Thorlabs                                                                | SR025           | 4      | $6.18      | $24.72      |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
+| [30 mm Cage System Alignment Plate with Ø1 mm Hole](https://www.thorlabs.com/thorproduct.cfm?partnumber=CPA1)                                                           | 30 mm cage alignment plate small hole                                                    |   | Thorlabs                                                                | CPA1            | 1      | $12.24     | $12.24      |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
+| [30 mm Cage System Alignment Plate with Ø5 mm Hole](https://www.thorlabs.com/thorproduct.cfm?partnumber=CPA2)                                                           | 30 mm cage alignment plate large hole                                                    |   | Thorlabs                                                                | CPA2            | 1      | $12.24     | $12.24      |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
+| [Alloy Steel Socket Head Cap Screws, Zinc-Plated, M3 × 0.5, 16 mm Length, Pack of 25](http://www.mcmaster.com/#socket-head-cap-screws/=146igv5)                         | screws for mounting stage adapter to M-111.1DG                                           |   | McMaster-Carr                                                           | 95263A158       | 1      | $3.90      | $3.90       |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
+| [Alloy Steel Socket Head Cap Screws, Zinc-Plated, 8-32, 7/8" Length, Pack of 50](http://www.mcmaster.com/#socket-head-cap-screws/=146ijbq)                              | screws for mounting stage adapter to DDR05, type I                                       |   | McMaster-Carr                                                           | 90128A198       | 1      | $5.79      | $5.79       |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
+| [Alloy Steel Socket Head Cap Screws, Zinc-Plated, 4-40, 3/4" Length, Pack of 10](http://www.mcmaster.com/#socket-head-cap-screws/=146iktz)                              | screws for mounting stage adapter to DDR05, type II                                      |   | McMaster-Carr                                                           | 90128A113       | 1      | $4.55      | $4.55       |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
+| [Dual Threaded Adapter with Internal M3 x 0.5 Threads and External 1/4"-20 Threads](https://www.thorlabs.com/thorproduct.cfm?partnumber=AE3M25E)                        | thread adapter for mounting M-111.1DG to XT66P2                                          |   | Thorlabs                                                                | AE3M25E         | 4      | $4.10      | $16.40      |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
+| [20 mm Long Double Dovetail Clamp for 66 mm Rails](https://www.thorlabs.com/thorproduct.cfm?partnumber=XT66C1)                                                          | block for XT66 carrier                                                                   |   | Thorlabs                                                                | XT66C1          | 1      | $17.30     | $17.30      |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
+| [Rail Platform Locator for 66 mm Rails](https://www.thorlabs.com/thorproduct.cfm?partnumber=XT66N)                                                                      | carrier adjustable block for XT66                                                        |   | Thorlabs                                                                | XT66N           | 1      | $36.60     | $36.60      |
+|                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
 
-{| class="wikitable sortable" border="1"
-|-
-! scope="col" class="unsortable" width="200"| Name
-! scope="col" class="unsortable" width="200"| Description
-! scope="col" class="unsortable" width="10"| C
-! scope="col" class="unsortable" width="100"| Vendor 
-! scope="col" class="unsortable" width="120"| Order number
-! scope="col" class="unsortable" width="50"| Number
-! scope="col" class="unsortable" width="50"| Price/part
-! scope="col" class="unsortable" width="50"| Total price
+### Extra illumination
 
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=N16XLWD-PF 16X Nikon CFI LWD Plan Fluorite Objective, 0.80 NA, 3.0 mm WD]
-|| detection objective
-|| 
-|| Nikon
-|| N16XLWD-PF
-| align="right" | 1
-| align="right" | $5,824.21
-| align="right" | $5,824.21
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=ITL200 Infinity-Corrected Tube Lens for Plan Fluorite Objectives]
-|| 200 mm tube lens for detection arm
-|| 
-|| Nikon
-|| 
-| align="right" | 1
-| align="right" | $450
-| align="right" | $450
-|-
-|- align="left"
-|| [http://www.hamamatsu.com/jp/en/community/life_science_camera/product/search/C11440-10C/index.html Hamamatsu ORCA Flash 2.8 (1,920x1,440, 3.63µm pixels, 70% QE, 45fps)]	
-|| main camera
-|| 
-|| Hamamatsu
-|| C11440-10C
-| align="right" | 1
-| align="right" | 
-| align="right" | 
-|-
-|- align="left"
-|| [https://www.chroma.com/products/parts/et525-50m Bandpass emission filter 525/50, mounted, 25 mm]	
-|| emission filter for "green" fluorophores
-|| 
-|| Chroma
-|| ET525/50m
-| align="right" | 1
-| align="right" | $325
-| align="right" | $325
-|-
-|- align="left"
-|| [http://www.mccdaq.com/usb-data-acquisition/USB-3103.aspx 8-Channel, 16-Bit Analog Voltage Output Device]
-|| USB DAQ for AOTF, LEDs etc
-|| 
-|| MCC
-|| USB-3103
-| align="right" | 1
-| align="right" | $349.00
-| align="right" | $349.00
-|-
-|- align="left"
-|| [http://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A34 Adapter with External SM1 Threads and Internal M32 x 0.75 Threads]
-|| adapter detection objective to SM1
-|| 
-|| Thorlabs
-|| SM1A34
-| align="right" | 1
-| align="right" | $22.00
-| align="right" | $22.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM2A20 Adapter with External SM2 Threads and Internal M38 x 0.5 Threads]
-|| tube lens to SM2 adapter
-|| 
-|| Thorlabs
-|| SM2A20
-| align="right" | 1
-| align="right" | $45.00
-| align="right" | $45.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP08 60 mm Cage Plate, SM2 Threaded, Enhanced Clamping, 0.5" Thick, 8-32 Tap]
-|| 60 mm cage plate w/ SM2 thread
-|| 
-|| Thorlabs
-|| LCP08
-| align="right" | 1
-| align="right" | $47.90
-| align="right" | $47.90
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP06 60 mm Cage Plate with Ø2" Double-Bore Optic Mount, 8-32 Tap]
-|| 60 mm cage plate for holding SM2 tube
-|| 
-|| Thorlabs
-|| LCP06
-| align="right" | 1
-| align="right" | $33.50
-| align="right" | $33.50
-|-
-|- align="left"
-|| [http://www.thorlabs.com/thorproduct.cfm?partnumber=LCP02 30 mm to 60 mm Cage Plate Adapter, 8-32 Tap]
-|| 60 to 30 mm cage adapter
-|| 
-|| Thorlabs
-|| LCP02
-| align="right" | 2
-| align="right" | $38.00
-| align="right" | $76.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A39 Adapter with External C-Mount Threads and External SM1 Threads]	
-|| C-mount-to-SM1 adapter
-|| 
-|| Thorlabs
-|| SM1A39
-| align="right" | 1
-| align="right" | $20.00
-| align="right" | $20.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM2A6 Adapter with External SM2 Threads and Internal SM1 Threads]
-|| SM1-to-SM2 adapter
-|| 
-|| Thorlabs
-|| SM2A6
-| align="right" | 1
-| align="right" | $24.00
-| align="right" | $24.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM2M05 SM2 Lens Tube Without External Threads, 1/2" Thread Depth, Two Retaining Rings Included]
-|| SM2 tube for cage plate
-|| 
-|| Thorlabs
-|| SM2M05
-| align="right" | 1
-| align="right" | $24.50
-| align="right" | $24.50
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP09 60 mm Cage Plate with Ø2.2" Double Bore for SM2 Lens Tube Mounting]
-|| 60 mm cage plate for SM2 tube
-|| 
-|| Thorlabs
-|| LCP09
-| align="right" | 1
-| align="right" | $41.20
-| align="right" | $41.20
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=ELL6K Dual-Position Slider Bundle: Dual-Position Slider, Interface Board, Cables]
-|| motorized filter switch
-|| 
-|| Thorlabs
-|| ELL6K
-| align="right" | 1
-| align="right" | $268.00
-| align="right" | $268.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L03 SM1 Lens Tube, 0.30" Thread Depth, One Retaining Ring Included]
-|| filter mount for motorized filter switch
-|| 
-|| Thorlabs
-|| SM1L03
-| align="right" | 3
-| align="right" | $12.16
-| align="right" | $36.48
-|-
-|- align="left"
-|| Baseplate for filter switch control board
-|| baseplate for mounting filter switch control board to breadboard - ''to be laser-cut''
-|| x
-|| 
-|| 
-| align="right" | 1
-| align="right" | 
-| align="right" | 
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP02 30 mm to 60 mm Cage Plate Adapter, 8-32 Tap]
-|| cage mount for filter switch
-|| 
-|| Thorlabs
-|| LCP02
-| align="right" | 3
-| align="right" | $38.00
-| align="right" | $114.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER2-P4 Cage Assembly Rod, 2" Long, Ø6 mm, 4 Pack]
-|| cage extension rods
-|| 
-|| Thorlabs
-|| ER2-P4
-| align="right" | 1
-| align="right" | $22.57
-| align="right" | $22.57
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=ER1-P4 Cage Assembly Rod, 1" Long, Ø6 mm, 4 Pack]
-|| cage rods for mounting filter switch
-|| 
-|| Thorlabs
-|| ER1-P4
-| align="right" | 2
-| align="right" | $18.77
-| align="right" | $37.54
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L10-P5 SM1 Lens Tube, 1.00" Thread Depth, SM1RR Retaining Ring, 5 Pack]
-|| light block for detection path
-|| 
-|| Thorlabs
-|| SM1L10-P5
-| align="right" | 
-| align="right" | 
-| align="right" | 
-|-
-|}
+| Name                                                                                                                         | Description                                   | C | Vendor   | Order number | Number | Price/part | Total price |
+| ---------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- | - | -------- | ------------ | ------ | ---------- | ----------- |
+| [Cold White Mounted LED, 1000 mA, 800 mW (Min)](https://www.thorlabs.com/thorproduct.cfm?partnumber=MCWHL5)                  | LED for brightfield illumination              |   | Thorlabs | MCWHL5       | 1      | $193.00    | $193.00     |
+|                                                                                                                              |                                               |   |          |              |        |            |             |
+| [Blue (470 nm) Mounted LED, 1000 mA, 650 mW (Min)](https://www.thorlabs.com/thorproduct.cfm?partnumber=M470L3)               | 470nm LED for widefield excitation            |   | Thorlabs | M470L3       | 1      | $268.00    | $268.00     |
+|                                                                                                                              |                                               |   |          |              |        |            |             |
+| [T-Cube LED Driver, 1200 mA Max Drive Current](https://www.thorlabs.com/thorproduct.cfm?partnumber=LEDD1B)                   | LED driver                                    |   |          | LEDD1B       | 2      | $293.00    | $586.00     |
+|                                                                                                                              |                                               |   |          |              |        |            |             |
+| [15 V, 2.4 A Power Supply Unit for One K-Cube or T-Cube](https://www.thorlabs.com/thorproduct.cfm?partnumber=KPS101)         | power supply for LED driver                   |   | Thorlabs | KPS101       | 3      | $25.71     | $77.13      |
+|                                                                                                                              |                                               |   |          |              |        |            |             |
+| [Bandpass emission filter 470/40, mounted, 25 mm](https://www.chroma.com/products/parts/et470-40x)                           | clean-up filter for excitation with 470nm LED |   | Chroma   | ET470/40x    | 1      | $325       | $325        |
+|                                                                                                                              |                                               |   |          |              |        |            |             |
+| [Dichoric mirror 488nm, unmounted, 36x25 mm](https://www.chroma.com/products/parts/zt488rdc)                                 | dichoric mirror for excitation with 470nm LED |   | Chroma   | ZT488rdc     | 1      | $300       | $300        |
+|                                                                                                                              |                                               |   |          |              |        |            |             |
+| [SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L10) | SM1 tube for blocking LED stray light         |   | Thorlabs | SM1L10       | 2      | $14.25     | $28.50      |
+|                                                                                                                              |                                               |   |          |              |        |            |             |
+| [30 mm Cage Plate, Ø1.2" Double Bore for SM1 Lens Tube Mounting](https://www.thorlabs.com/thorproduct.cfm?partnumber=CP12)   | cage plate for mounting SM1 tube              |   | Thorlabs | CP12         | 2      | $20.00     | $40.00      |
+|                                                                                                                              |                                               |   |          |              |        |            |             |
 
-=== Stage & sample holder ===
+### Computer
 
-{| class="wikitable sortable" border="1"
-|-
-! scope="col" class="unsortable" width="200"| Name
-! scope="col" class="unsortable" width="200"| Description
-! scope="col" class="unsortable" width="10"| C
-! scope="col" class="unsortable" width="100"| Vendor 
-! scope="col" class="unsortable" width="120"| Order number
-! scope="col" class="unsortable" width="50"| Number
-! scope="col" class="unsortable" width="50"| Price/part
-! scope="col" class="unsortable" width="50"| Total price
+| Name                                                                                                                                                                                                                                 | Description                                   | C | Vendor               | Order number                      | Number | Price/part | Total price |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------- | - | -------------------- | --------------------------------- | ------ | ---------- | ----------- |
+| [Optiplex 7040 (Minitower, Win 10 Pro, Intel Core i7, 16 GB RAM, 256 GB M.2 SSD, Radeon R7, DVD drive, keyboard, mouse)](http://www.dell.com/us/business/p/optiplex-7040-desktop/pd?oc=s024o7040mtus&model_id=optiplex-7040-desktop) | acquisition computer                          |   | Dell                 | 210-AFGH OptiPlex 7040 Mini Tower | 1      | $1,300.00  | $1,300.00   |
+|                                                                                                                                                                                                                                      |                                               |   |                      |                                   |        |            |             |
+| 8 TB SATA hard drive                                                                                                                                                                                                                 | data drive for acquisition computer           |   |                      |                                   | 1      |            |             |
+|                                                                                                                                                                                                                                      |                                               |   |                      |                                   |        |            |             |
+| [LabVIEW Base Development System for Windows](http://sine.ni.com/nips/cds/view/p/lang/en/nid/1385)                                                                                                                                   | development platform for acquisition software |   | National Instruments | ISWD460                           | 1      | $999.99    | $999.99     |
+|                                                                                                                                                                                                                                      |                                               |   |                      |                                   |        |            |             |
 
-|- align="left"
-|| [https://www.3dvieweronline.com/members/Ida60b48c9d56949d618129c45511b5cad/ETS6dqKXf8Ztrm3 DDR05-to-PI111_adapter.STL]
-|| adapter rotational stage to xyz stage - ''to be produced with selective laser sintering''
-|| x
-|| [https://express.stratasysdirect.com/quote.aspx?productID=4 Stratasys]
-|| -
-| align="right" | 1
-| align="right" | $46.36
-| align="right" | $46.36
-|-
-|- align="left"
-|| [http://www.physikinstrumente.com/product-detail-page/m-110-m-111-m-112-701650.html 15mm Compact Micro-Translation Stage]
-|| motorized linear stage
-|| 
-|| PI
-|| M-111.1DG
-| align="right" | 3
-| align="right" | $2,608.00
-| align="right" | $7,824.00
-|-
-|- align="left"
-|| [http://www.physikinstrumente.com/product-detail-page/c-863-900606.html 1 Channel Mercury DC Motor Controller]
-|| controller for linear stage
-|| 
-|| PI
-|| C-863.11
-| align="right" | 3
-| align="right" | $1,134.00
-| align="right" | $3,402.00
-|-
-|- align="left"
-|| [http://www.physikinstrumente.com/product-detail-page/m-11002-m-11003-m-11004-901185.html Mounting Bracket for Vertical Mount of M-111 on M-110, M-111 and M-112]
-|| vertical adapter plate for linear stage
-|| 
-|| PI
-|| M-110.03
-| align="right" | 1
-| align="right" | $128.00
-| align="right" | $128.00
-|-
-|- align="left"
-|| [http://www.newegg.com/Product/Product.aspx?Item=N82E16812200964 StarTech Model ICUSB2321F 6 ft. 1 Port FTDI USB to Serial RS232 Adapter Cable with COM Retention M-M]
-|| USB to Serial adapter for PI controller
-|| 
-|| Newegg
-|| N82E16812200964
-| align="right" | 3
-| align="right" | $20.99
-| align="right" | $62.97
-|-
-|- align="left"
-|| [http://www.thorlabs.com/thorproduct.cfm?partnumber=DDR05 Direct Drive Continuous Rotation Mount, SM05 Bore, 8-32 Taps]
-|| motorized rotational stage
-|| 
-|| Thorlabs
-|| DDR05
-| align="right" | 1
-| align="right" | $1,800.00
-| align="right" | $1,800.00
-|-
-|- align="left"
-|| [http://www.thorlabs.com/thorproduct.cfm?partnumber=KBD101 K-Cube Brushless DC Servo Driver]
-|| controller for rotational stage
-|| 
-|| Thorlabs
-|| KBD101
-| align="right" | 1
-| align="right" | $716.00
-| align="right" | $716.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=XT66SP-500 66 mm Single Dovetail Rail, L = 500 mm]
-|| rail for stage - ''to be shortened to ?", 4 holes drilled for 1/4"-20 screws''
-|| x
-|| Thorlabs
-|| XT66SP-500
-| align="right" | 1
-| align="right" | $30.50
-| align="right" | $30.50
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=TR4 Ø1/2" Optical Post, SS, 8-32 Setscrew, 1/4"-20 Tap, L = 4"]
-|| posts for stage rail
-|| 
-|| Thorlabs
-|| TR4
-| align="right" | 1
-| align="right" | $5.87
-| align="right" | $23.48
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=XT66P2 Rail Carriage for 66 mm Rails with 6-32, 8-32, & 1/4"-20 Taps]
-|| rail carriage for stage
-|| 
-|| Thorlabs
-|| XT66P2
-| align="right" | 1
-| align="right" | $67.10
-| align="right" | $67.10
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=CXY1Q 30 mm Cage System, XY Translating Mount for Ø1" Optics with Quick Release Plate]
-|| adjustable quick-release sample holder plate
-|| 
-|| Thorlabs
-|| CXY1Q
-| align="right" | 1
-| align="right" | $225.00
-| align="right" | $225.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SP05 30 mm to 16 mm Cage Adapter Plate]
-|| adapter plate for sample holder
-|| 
-|| Thorlabs
-|| SP05
-| align="right" | 1
-| align="right" | $31.00
-| align="right" | $31.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=XCF Stereotaxic Cannula Holder, Ø2.5 mm Ferrules]
-|| sample clamp
-|| 
-|| Thorlabs
-|| XCF
-| align="right" | 1
-| align="right" | $295.00
-| align="right" | $295.00
-|-
-|- align="left"
-|| [https://www.3dvieweronline.com/members/Ida60b48c9d56949d618129c45511b5cad/FN7nuLqXtyVtzKm XCF_adapter.STL]
-|| adapter sample holder to 1" cage plate - ''to be produced with selective laser sintering''
-|| x
-|| [https://express.stratasysdirect.com/quote.aspx?productID=4 Stratasys]
-|| 
-| align="right" | 2
-| align="right" | 
-| align="right" | 
-|-	
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SR025 Mini Series Cage Assembly Rod, 1/4" (6.4 mm) Long, Ø4 mm, Qty. 1]
-|| cage system rods for sample holder
-|| 
-|| Thorlabs
-|| SR025
-| align="right" | 4
-| align="right" | $6.18
-| align="right" | $24.72
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=CPA1 30 mm Cage System Alignment Plate with Ø1 mm Hole]
-|| 30 mm cage alignment plate small hole
-|| 
-|| Thorlabs
-|| CPA1
-| align="right" | 1
-| align="right" | $12.24
-| align="right" | $12.24
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=CPA2 30 mm Cage System Alignment Plate with Ø5 mm Hole]
-|| 30 mm cage alignment plate large hole
-|| 
-|| Thorlabs
-|| CPA2
-| align="right" | 1
-| align="right" | $12.24
-| align="right" | $12.24
-|-
-|- align="left"
-|| [http://www.mcmaster.com/#socket-head-cap-screws/=146igv5 Alloy Steel Socket Head Cap Screws, Zinc-Plated, M3 × 0.5, 16 mm Length, Pack of 25]
-|| screws for mounting stage adapter to M-111.1DG
-|| 
-|| McMaster-Carr
-|| 95263A158
-| align="right" | 1
-| align="right" | $3.90
-| align="right" | $3.90
-|-
-|- align="left"
-|| [http://www.mcmaster.com/#socket-head-cap-screws/=146ijbq Alloy Steel Socket Head Cap Screws, Zinc-Plated, 8-32, 7/8" Length, Pack of 50]
-|| screws for mounting stage adapter to DDR05, type I
-|| 
-|| McMaster-Carr	
-|| 90128A198
-| align="right" | 1
-| align="right" | $5.79
-| align="right" | $5.79
-|-
-|- align="left"
-|| [http://www.mcmaster.com/#socket-head-cap-screws/=146iktz Alloy Steel Socket Head Cap Screws, Zinc-Plated, 4-40, 3/4" Length, Pack of 10]
-|| screws for mounting stage adapter to DDR05, type II
-|| 
-|| McMaster-Carr
-|| 90128A113
-| align="right" | 1
-| align="right" | $4.55
-| align="right" | $4.55
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=AE3M25E Dual Threaded Adapter with Internal M3 x 0.5 Threads and External 1/4"-20 Threads]
-|| thread adapter for mounting M-111.1DG to XT66P2
-|| 
-|| Thorlabs
-|| AE3M25E
-| align="right" | 4
-| align="right" | $4.10
-| align="right" | $16.40
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=XT66C1 20 mm Long Double Dovetail Clamp for 66 mm Rails]	
-|| block for XT66 carrier
-|| 
-|| Thorlabs
-|| XT66C1
-| align="right" | 1
-| align="right" | $17.30
-| align="right" | $17.30
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=XT66N Rail Platform Locator for 66 mm Rails]
-|| carrier adjustable block for XT66
-|| 
-|| Thorlabs
-|| XT66N
-| align="right" | 1
-| align="right" | $36.60
-| align="right" | $36.60
-|-
-|}
+### Server rack for electronics
 
-=== Extra illumination ===
+| Name                                                                                                                                                                                  | Description                                                                                               | C | Vendor       | Order number | Number | Price/part | Total price |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | - | ------------ | ------------ | ------ | ---------- | ----------- |
+| [iStarUSA 23.6" Deep 4 RU Simple Server Rack (Black)](https://www.bhphotovideo.com/c/product/1002265-REG/istarusa_wd_460_4u_simple_server_rack.html)                                  | server rack for controllers, power supplies etc                                                           |   | BHPhotoVideo | ISWD460      | 1      | $259.99    | $259.99     |
+|                                                                                                                                                                                       |                                                                                                           |   |              |              |        |            |             |
+| [Middle Atlantic PD-2015R-NS Multi-Mount Rackmount Power](https://www.bhphotovideo.com/c/product/729005-REG/Middle_Atlantic_PD_2015R_NS_PD_2015R_NS_Multi_Mount_Rackmount_Power.html) | power connector for server rack                                                                           |   | BHPhotoVideo | MIPD2015NS   | 1      | $87.00     | $87.00      |
+|                                                                                                                                                                                       |                                                                                                           |   |              |              |        |            |             |
+| [Odyssey Innovative Designs ARPOT1 Pullout Shelf (1-Space)](https://www.bhphotovideo.com/c/product/614685-REG/Odyssey_Innovative_Designs_ARPOT1_ARPOT1_Pullout_Shelf_1_Space.html)    | pullout shelf for controllers                                                                             |   | BHPhotoVideo | ODARPOT1     | 1      | $59.99     | $59.99      |
+|                                                                                                                                                                                       |                                                                                                           |   |              |              |        |            |             |
+| [Auray RS-V-1U One-Space Vented Rack Shelf (1 RU)](https://www.bhphotovideo.com/c/product/1261093-REG/auray_rs_v_1u_one_space_vented_rack.html)                                       | fixed shelf for power supplies                                                                            |   | BHPhotoVideo | AURSV1U      | 2      | $22.50     | $45.00      |
+|                                                                                                                                                                                       |                                                                                                           |   |              |              |        |            |             |
+| Baseplate for controllers                                                                                                                                                             | adapter for mounting rotational stage controller and LED controllers to pullout shelf - *to be laser-cut* | x |              |              | 1      |            |             |
+|                                                                                                                                                                                       |                                                                                                           |   |              |              |        |            |             |
+| [Amphenol CS-DSDHD26MF0-010 26-Pin HD26 Deluxe D-Sub Cable, Shielded, Male/Female, 10', Gray](https://www.amazon.com/Amphenol-CS-DSDHD26MF0-010-26-Pin-Deluxe-Shielded/dp/B00O072P98) | cable for 491nm laser                                                                                     |   | Amazon       | \-           | 1      | $16.75     | $16.75      |
+|                                                                                                                                                                                       |                                                                                                           |   |              |              |        |            |             |
+| [Hosa BNC-06-110 10-Feet 75-Ohm COAX BNC to BNC](https://www.amazon.com/Hosa-BNC-06-110-10-Feet-75-Ohm-COAX/dp/B003D87JOQ)                                                            | BNC cable for AOTF                                                                                        |   | Amazon       | \-           | 1      | $12.98     | $12.98      |
+|                                                                                                                                                                                       |                                                                                                           |   |              |              |        |            |             |
+| [Hosa BNC-59-103 BNC to BNC 75-ohm Coax Cable, 3 feet](https://www.amazon.com/Hosa-BNC-59-103-75-ohm-Coax-Cable/dp/B000068OFB)                                                        | BNC cables for LEDs                                                                                       |   | Amazon       | \-           | 2      | $5.95      | $11.90      |
+|                                                                                                                                                                                       |                                                                                                           |   |              |              |        |            |             |
+| [Anker USB 3.0 SuperSpeed 10-Port Hub](https://www.amazon.com/Anker-9-Port-Smart-Charging-Adapter/dp/B005NGQWL2)                                                                      | USB hub for peripherals                                                                                   |   | Anker        | AH231        | 1      | $49.99     | $49.99      |
+|                                                                                                                                                                                       |                                                                                                           |   |              |              |        |            |             |
+| [UGREEN USB Extension Cable USB 3.0 Extender Cord Type A Male to Female Data Transfer (6ft)](https://www.amazon.com/UGREEN-Extension-Extender-Transfer-Playstation/dp/B00P0ES0YE)     | USB extension for hub                                                                                     |   | Amazon       | \-           | 1      | $6.99      | $6.99       |
+|                                                                                                                                                                                       |                                                                                                           |   |              |              |        |            |             |
 
-{| class="wikitable sortable" border="1"
-|-
-! scope="col" class="unsortable" width="200"| Name
-! scope="col" class="unsortable" width="200"| Description
-! scope="col" class="unsortable" width="10"| C
-! scope="col" class="unsortable" width="100"| Vendor 
-! scope="col" class="unsortable" width="120"| Order number
-! scope="col" class="unsortable" width="50"| Number
-! scope="col" class="unsortable" width="50"| Price/part
-! scope="col" class="unsortable" width="50"| Total price
+### Environmental control
 
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=MCWHL5 Cold White Mounted LED, 1000 mA, 800 mW (Min)]
-|| LED for brightfield illumination
-|| 
-|| Thorlabs
-|| MCWHL5
-| align="right" | 1
-| align="right" | $193.00
-| align="right" | $193.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=M470L3 Blue (470 nm) Mounted LED, 1000 mA, 650 mW (Min)]
-|| 470nm LED for widefield excitation
-|| 
-|| Thorlabs
-|| M470L3
-| align="right" | 1
-| align="right" | $268.00
-| align="right" | $268.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=LEDD1B T-Cube LED Driver, 1200 mA Max Drive Current]	
-|| LED driver
-|| 
-|| 
-|| LEDD1B
-| align="right" | 2
-| align="right" | $293.00
-| align="right" | $586.00
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=KPS101 15 V, 2.4 A Power Supply Unit for One K-Cube or T-Cube]
-|| power supply for LED driver
-|| 
-|| Thorlabs
-|| KPS101
-| align="right" | 3
-| align="right" | $25.71
-| align="right" | $77.13
-|-
-|- align="left"
-|| [https://www.chroma.com/products/parts/et470-40x Bandpass emission filter 470/40, mounted, 25 mm]
-|| clean-up filter for excitation with 470nm LED
-|| 
-|| Chroma
-|| ET470/40x
-| align="right" | 1
-| align="right" | $325
-| align="right" | $325
-|-
-|- align="left"
-|| [https://www.chroma.com/products/parts/zt488rdc Dichoric mirror 488nm, unmounted, 36x25 mm]
-|| dichoric mirror for excitation with 470nm LED
-|| 
-|| Chroma
-|| ZT488rdc
-| align="right" | 1
-| align="right" | $300
-| align="right" | $300
-|-
+| Name                                                                                          | Description                                                       | C | Vendor              | Order number | Number | Price/part | Total price |
+| --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | - | ------------------- | ------------ | ------ | ---------- | ----------- |
+| [IncuKit™ MINI for Desktop Incubators](http://incubatorwarehouse.com/48-watt-incukit-dc.html) | temperature control for incubation cage                           |   | Incubator Warehouse | Incukit-DC   | 1      | $50.00     | $50.00      |
+|                                                                                               |                                                                   |   |                     |              |        |            |             |
+| Cage incubator                                                                                | custom enclosure for heating sample & chamber - *to be laser-cut* | x |                     |              |        |            |             |
+|                                                                                               |                                                                   |   |                     |              |        |            |             |
 
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1L10 SM1 Lens Tube, 1.00" Thread Depth, One Retaining Ring Included]
-|| SM1 tube for blocking LED stray light
-|| 
-|| Thorlabs
-|| SM1L10
-| align="right" | 2
-| align="right" | $14.25
-| align="right" | $28.50
-|-
-|- align="left"
-|| [https://www.thorlabs.com/thorproduct.cfm?partnumber=CP12 30 mm Cage Plate, Ø1.2" Double Bore for SM1 Lens Tube Mounting]
-|| cage plate for mounting SM1 tube
-|| 
-|| Thorlabs
-|| CP12
-| align="right" | 2
-| align="right" | $20.00
-| align="right" | $40.00
-|-
-|}
+## Assembly
 
-=== Computer ===
+1.  Mount sample chamber
+2.  Attach cage rods for illumination and detection arms to sample
+    chamber
+3.  Mount objective lenses using silicone
+4.  Start assembling the detection arm
+5.  Adjust distance camera - tube lens by focusing to infinity
+6.  Finalize detection arm
+7.  Assemble motor unit and sample holder
+8.  Assemble illumination arm with mirrors, but without lenses
+9.  Align laser to center of cage system and sample chamber
+10. Add circular lenses step by step, adjust focus and collimation where
+    necessary
+11. Add cylindrical lens and adjust light sheet to focal plane of
+    detection objective
+12. Add laser shielding to breadboard
 
-{| class="wikitable sortable" border="1"
-|-
-! scope="col" class="unsortable" width="200"| Name
-! scope="col" class="unsortable" width="200"| Description
-! scope="col" class="unsortable" width="10"| C
-! scope="col" class="unsortable" width="100"| Vendor 
-! scope="col" class="unsortable" width="120"| Order number
-! scope="col" class="unsortable" width="50"| Number
-! scope="col" class="unsortable" width="50"| Price/part
-! scope="col" class="unsortable" width="50"| Total price
+<!-- end list -->
 
-|- align="left"
-|| [http://www.dell.com/us/business/p/optiplex-7040-desktop/pd?oc=s024o7040mtus&model_id=optiplex-7040-desktop Optiplex 7040 (Minitower, Win 10 Pro, Intel Core i7, 16 GB RAM, 256 GB M.2 SSD, Radeon R7, DVD drive, keyboard, mouse)]
-|| acquisition computer
-|| 
-|| Dell
-|| 210-AFGH OptiPlex 7040 Mini Tower
-| align="right" | 1
-| align="right" | $1,300.00
-| align="right" | $1,300.00
-|-
-|- align="left"
-|| 8 TB SATA hard drive
-|| data drive for acquisition computer
-|| 
-|| 
-|| 
-| align="right" | 1
-| align="right" | 
-| align="right" | 
-|-
-|- align="left"
-|| [http://sine.ni.com/nips/cds/view/p/lang/en/nid/1385 LabVIEW Base Development System for Windows]
-|| development platform for acquisition software
-|| 
-|| National Instruments
-|| ISWD460
-| align="right" | 1
-| align="right" | $999.99
-| align="right" | $999.99
-|-
-|}
+  - The 3D model can be viewed using the free [eDrawings
+    Viewer](http://www.edrawingsviewer.com).
 
-=== Server rack for electronics ===
+## Alignment
 
-{| class="wikitable sortable" border="1"
-|-
-! scope="col" class="unsortable" width="200"| Name
-! scope="col" class="unsortable" width="200"| Description
-! scope="col" class="unsortable" width="10"| C
-! scope="col" class="unsortable" width="100"| Vendor 
-! scope="col" class="unsortable" width="120"| Order number
-! scope="col" class="unsortable" width="50"| Number
-! scope="col" class="unsortable" width="50"| Price/part
-! scope="col" class="unsortable" width="50"| Total price
+## Troubleshooting
 
-|- align="left"
-|| [https://www.bhphotovideo.com/c/product/1002265-REG/istarusa_wd_460_4u_simple_server_rack.html iStarUSA 23.6" Deep 4 RU Simple Server Rack (Black)]
-|| server rack for controllers, power supplies etc
-|| 
-|| BHPhotoVideo
-|| ISWD460
-| align="right" | 1
-| align="right" | $259.99
-| align="right" | $259.99
-|-
-|- align="left"
-|| [https://www.bhphotovideo.com/c/product/729005-REG/Middle_Atlantic_PD_2015R_NS_PD_2015R_NS_Multi_Mount_Rackmount_Power.html Middle Atlantic PD-2015R-NS Multi-Mount Rackmount Power]
-|| power connector for server rack
-|| 
-|| BHPhotoVideo
-|| MIPD2015NS
-| align="right" | 1
-| align="right" | $87.00
-| align="right" | $87.00
-|-
-|- align="left"
-|| [https://www.bhphotovideo.com/c/product/614685-REG/Odyssey_Innovative_Designs_ARPOT1_ARPOT1_Pullout_Shelf_1_Space.html Odyssey Innovative Designs ARPOT1 Pullout Shelf (1-Space)]
-|| pullout shelf for controllers
-|| 
-|| BHPhotoVideo
-|| ODARPOT1
-| align="right" | 1
-| align="right" | $59.99
-| align="right" | $59.99
-|-
-|- align="left"
-|| [https://www.bhphotovideo.com/c/product/1261093-REG/auray_rs_v_1u_one_space_vented_rack.html Auray RS-V-1U One-Space Vented Rack Shelf (1 RU)]
-|| fixed shelf for power supplies
-|| 
-|| BHPhotoVideo
-|| AURSV1U
-| align="right" | 2
-| align="right" | $22.50
-| align="right" | $45.00
-|-
-|- align="left"
-|| Baseplate for controllers
-|| adapter for mounting rotational stage controller and LED controllers to pullout shelf - ''to be laser-cut''
-|| x
-|| 
-|| 
-| align="right" | 1
-| align="right" | 
-| align="right" | 
-|-
-|- align="left"
-|| [https://www.amazon.com/Amphenol-CS-DSDHD26MF0-010-26-Pin-Deluxe-Shielded/dp/B00O072P98 Amphenol CS-DSDHD26MF0-010 26-Pin HD26 Deluxe D-Sub Cable, Shielded, Male/Female, 10', Gray]
-|| cable for 491nm laser
-|| 
-|| Amazon
-|| -
-| align="right" | 1
-| align="right" | $16.75
-| align="right" | $16.75
-|-
-|- align="left"
-|| [https://www.amazon.com/Hosa-BNC-06-110-10-Feet-75-Ohm-COAX/dp/B003D87JOQ Hosa BNC-06-110 10-Feet 75-Ohm COAX BNC to BNC]
-|| BNC cable for AOTF
-|| 
-|| Amazon
-|| -
-| align="right" | 1
-| align="right" | $12.98
-| align="right" | $12.98
-|-
-|- align="left"
-|| [https://www.amazon.com/Hosa-BNC-59-103-75-ohm-Coax-Cable/dp/B000068OFB Hosa BNC-59-103 BNC to BNC 75-ohm Coax Cable, 3 feet]
-|| BNC cables for LEDs
-|| 
-|| Amazon
-|| -
-| align="right" | 2
-| align="right" | $5.95
-| align="right" | $11.90
-|-
-|- align="left"
-|| [https://www.amazon.com/Anker-9-Port-Smart-Charging-Adapter/dp/B005NGQWL2 Anker USB 3.0 SuperSpeed 10-Port Hub]
-|| USB hub for peripherals
-|| 
-|| Anker
-|| AH231
-| align="right" | 1
-| align="right" | $49.99
-| align="right" | $49.99
-|-
-|- align="left"
-|| [https://www.amazon.com/UGREEN-Extension-Extender-Transfer-Playstation/dp/B00P0ES0YE UGREEN USB Extension Cable USB 3.0 Extender Cord Type A Male to Female Data Transfer (6ft)]
-|| USB extension for hub
-|| 
-|| Amazon
-|| -
-| align="right" | 1
-| align="right" | $6.99
-| align="right" | $6.99
-|-
-|}
+<table>
+<thead>
+<tr class="header">
+<th><p>Phenotype</p></th>
+<th><p>Cause</p></th>
+<th><p>Solution</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><ul>
+<li>LabView crashes when trying to start Main.vi</li>
+<li>LEDs on stage controllers are red</li>
+</ul></td>
+<td><p>Linear stages not recognized</p></td>
+<td><p>Run PI MikroMove and start up axes</p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><ul>
+<li>LabView crashes when trying to record images</li>
+<li>Camera tab in Main.vi doesn't show camera details</li>
+</ul></td>
+<td><p>Camera not recognized</p></td>
+<td><p>Restart computer (= have camera running before starting computer)</p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><ul>
+<li>LabView crashes when trying to open Main.vi or DAQ_all.vi</li>
+</ul></td>
+<td><p>DAQ not registered</p></td>
+<td><p>Start Instacal and run the update, then restart computer</p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
-=== Environmental control ===
+## Suggested modifications
 
-{| class="wikitable sortable" border="1"
-|-
-! scope="col" class="unsortable" width="200"| Name
-! scope="col" class="unsortable" width="200"| Description
-! scope="col" class="unsortable" width="10"| C
-! scope="col" class="unsortable" width="100"| Vendor 
-! scope="col" class="unsortable" width="120"| Order number
-! scope="col" class="unsortable" width="50"| Number
-! scope="col" class="unsortable" width="50"| Price/part
-! scope="col" class="unsortable" width="50"| Total price
-
-|- align="left"
-|| [http://incubatorwarehouse.com/48-watt-incukit-dc.html IncuKit™ MINI for Desktop Incubators]
-|| temperature control for incubation cage
-|| 
-|| Incubator Warehouse
-|| Incukit-DC
-| align="right" | 1
-| align="right" | $50.00
-| align="right" | $50.00
-|-
-|- align="left"
-|| Cage incubator
-|| custom enclosure for heating sample & chamber - ''to be laser-cut''
-|| x
-|| 
-|| 
-| align="right" | 
-| align="right" | 
-| align="right" | 
-|-
-|}
-
-== Assembly ==
-
-# Mount sample chamber
-# Attach cage rods for illumination and detection arms to sample chamber
-# Mount objective lenses using silicone
-# Start assembling the detection arm
-# Adjust distance camera - tube lens by focusing to infinity
-# Finalize detection arm
-# Assemble motor unit and sample holder
-# Assemble illumination arm with mirrors, but without lenses
-# Align laser to center of cage system and sample chamber
-# Add circular lenses step by step, adjust focus and collimation where necessary
-# Add cylindrical lens and adjust light sheet to focal plane of detection objective
-# Add laser shielding to breadboard
-
-* The 3D model can be viewed using the free [http://www.edrawingsviewer.com eDrawings Viewer].
-
-== Alignment ==
-
-== Troubleshooting ==
-
-{| class="wikitable sortable" border="1"
-|-
-! scope="col" class="unsortable" width="300"| Phenotype
-! scope="col" class="unsortable" width="200"| Cause 
-! scope="col" class="unsortable" width="300"| Solution
-
-|- align="left"
-||
-* LabView crashes when trying to start Main.vi
-* LEDs on stage controllers are red
-|| Linear stages not recognized
-|| Run PI MikroMove and start up axes
-|-
-|- align="left"
-|| 
-* LabView crashes when trying to record images
-* Camera tab in Main.vi doesn't show camera details
-|| Camera not recognized
-|| Restart computer (= have camera running before starting computer)
-|-
-|- align="left"
-|| 
-* LabView crashes when trying to open Main.vi or DAQ_all.vi
-|| DAQ not registered
-|| Start Instacal and run the update, then restart computer
-|-
-|}
-
-== Suggested modifications ==
-
-{| class="wikitable sortable" border="1"
-|-
-! scope="col" class="unsortable" width="400"| Modification
-! scope="col" class="unsortable" width="400"| Effort/Issues
-
-|- align="left"
-|| Improve light sheet alignment stability by switching from [https://www.thorlabs.com/thorproduct.cfm?partnumber=KC45D Thorlabs KC45D] to [https://www.thorlabs.com/thorproduct.cfm?partnumber=C45P Thorlabs C45P]
-|| Not gimbal; requires thicker mirrors; might run into space issues
-|-
-|- align="left"
-|| Integrate a bio-compatible sample holder, made from e.g. plastic or surgical-grade stainless steel
-|| Requires new sample holder design, different adapter
-|-
-|- align="left"
-|| Switch camera to an sCMOS USB model with similar pixel size and larger chip to reduce the required computer size / enable the use of a laptop
-|| Requires substantial adaptation of the software, or use of different software, e.g. µManager
-|-
-|- align="left"
-|| Switch to µManager to make system more universal
-|| Requires integration of all hardware components in µManager, which might be difficult for some components, e.g. Thorlabs APT stage
-|-
-|- align="left"
-|| Use lasers that support direct modulation to skip AOTF, simplify illumination beam path and reduce footprint of electronics rack
-|| Requires modification of software, modification of illumination beam path
-|-
-|}
+| Modification                                                                                                                                                                                                       | Effort/Issues                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Improve light sheet alignment stability by switching from [Thorlabs KC45D](https://www.thorlabs.com/thorproduct.cfm?partnumber=KC45D) to [Thorlabs C45P](https://www.thorlabs.com/thorproduct.cfm?partnumber=C45P) | Not gimbal; requires thicker mirrors; might run into space issues                                                                  |
+|                                                                                                                                                                                                                    |                                                                                                                                    |
+| Integrate a bio-compatible sample holder, made from e.g. plastic or surgical-grade stainless steel                                                                                                                 | Requires new sample holder design, different adapter                                                                               |
+|                                                                                                                                                                                                                    |                                                                                                                                    |
+| Switch camera to an sCMOS USB model with similar pixel size and larger chip to reduce the required computer size / enable the use of a laptop                                                                      | Requires substantial adaptation of the software, or use of different software, e.g. µManager                                       |
+|                                                                                                                                                                                                                    |                                                                                                                                    |
+| Switch to µManager to make system more universal                                                                                                                                                                   | Requires integration of all hardware components in µManager, which might be difficult for some components, e.g. Thorlabs APT stage |
+|                                                                                                                                                                                                                    |                                                                                                                                    |
+| Use lasers that support direct modulation to skip AOTF, simplify illumination beam path and reduce footprint of electronics rack                                                                                   | Requires modification of software, modification of illumination beam path                                                          |
+|                                                                                                                                                                                                                    |                                                                                                                                    |

@@ -1,23 +1,15 @@
-{|- class="wikitable" 20px style="margin: 1em auto 1em auto;" 
+|                                                                                                                                       |                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| [<span style="font-size:150%">**Early Zebrafish Development**</span>](EarlyZebrafishDevelopment "wikilink")                           | [<span style="font-size:150%">**SPIM for 3D tissue engineering imaging**</span>](3D_Tissue_Engineering "wikilink") |
+|                                                                                                                                       |                                                                                                                    |
+|                                                                                                                                       |                                                                                                                    |
+| [<span style="font-size:150%">**Tribolium castaneum extraembryonic development**</span>](TriboliumExtraembryonicMembranes "wikilink") | [<span style="font-size:150%">**Plant cell morphogenesis**</span>](PlantCellMorphogenesis "wikilink")              |
 
-|rowspan="2" style="height:200px; width:200px; background-color:#AA0000; text-align:center;"|[[EarlyZebrafishDevelopment|<span style="font-size:150%">'''Early Zebrafish Development'''</span>]]
-|rowspan="2" style="height:200px; width:200px; background-color:#EB391B; text-align:center;"|[[3D_Tissue_Engineering|<span style="font-size:150%">'''SPIM for 3D tissue engineering imaging'''</span>]]
-|-
-|-
-|-
-|rowspan="2" style="height:200px; width:200px; background-color:#FF6600; text-align:center;"|[[TriboliumExtraembryonicMembranes|<span style="font-size:150%">'''Tribolium castaneum extraembryonic development'''</span>]]
-|rowspan="2" style="height:200px; width:200px; background-color:#FF8800; text-align:center;"|[[PlantCellMorphogenesis|<span style="font-size:150%">'''Plant cell morphogenesis'''</span>]]
+# The light seekers
 
-|}
+<File:Prakash.jpg>|[Kirti Prakash](User:Kirti "wikilink")
+<File:Figueiras.jpg>|[Edite Figueiras](User:Edite "wikilink")
+<File:Hilbrant.jpg>|[Maarten Hilbrant](User:Maarten "wikilink")
+<File:Sekeres.jpg>|[Juraj Sekereš](User:Juraj "wikilink")
 
-
-=The light seekers=
-
-<gallery>
-File:Prakash.jpg|[[User:Kirti|Kirti Prakash]]
-File:Figueiras.jpg|[[User:Edite|Edite Figueiras]]
-File:Hilbrant.jpg|[[User:Maarten|Maarten Hilbrant]]
-File:Sekeres.jpg|[[User:Juraj|Juraj Sekereš]]
-</gallery>
-
-[[Category:EMBO2014]]
+[Category:EMBO2014](Category:EMBO2014 "wikilink")

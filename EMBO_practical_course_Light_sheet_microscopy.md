@@ -1,41 +1,68 @@
 <div style="float: right; top: -10px;">
-{{#widget:twitter|id=500671904034725888|hashtag=LISH2014|width=150}}
-<center>[https://storify.com/tomancak/embo-practical-course-on-light-sheet-microscopy#publicize Storified twitter feed]</center>
+
+{{\#widget:twitter|id=500671904034725888|hashtag=LISH2014|width=150}}
+
+<center>
+
+[Storified twitter
+feed](https://storify.com/tomancak/embo-practical-course-on-light-sheet-microscopy#publicize)
+
+</center>
+
 </div>
-[[Image:EMBO PracticalCourse stamp web DARK.jpg|frameless|left|100px]]
-Light-sheet microscopy is an emerging technology that enables imaging of biological specimens with minimal photo-damage. It opens new avenues to study cell biological and developmental processes with unprecedented imaging speed. It also facilitates systems biology approaches by quantitative imaging of entire living systems. Light-sheet microscopy has only recently left the optical tables of technology developers and became more broadly available through commercial and open-access platforms. This [http://events.embo.org/14-lsm/index.html EMBO Practical Course] will comprehensively introduce the light sheet microscopy paradigm to the new generation of scientists.
 
-<center>18 – 29 August 2014 | '''Dresden, Germany'''</center>
+![EMBO\_PracticalCourse\_stamp\_web\_DARK.jpg](EMBO_PracticalCourse_stamp_web_DARK.jpg
+"EMBO_PracticalCourse_stamp_web_DARK.jpg") Light-sheet microscopy is an
+emerging technology that enables imaging of biological specimens with
+minimal photo-damage. It opens new avenues to study cell biological and
+developmental processes with unprecedented imaging speed. It also
+facilitates systems biology approaches by quantitative imaging of entire
+living systems. Light-sheet microscopy has only recently left the
+optical tables of technology developers and became more broadly
+available through commercial and open-access platforms. This [EMBO
+Practical Course](http://events.embo.org/14-lsm/index.html) will
+comprehensively introduce the light sheet microscopy paradigm to the new
+generation of scientists.
 
-{|- class="wikitable" 20px style="margin: 1em auto 1em auto;" 
-|rowspan="1" style="width:200px; text-align:center;"|[[EMBO_2014_final_program|<span style="font-size:200%">'''Final Program'''</span>]]
-|rowspan="2" style="height:200px; width:200px; background-color:#EB391B; text-align:center;"|[[EMBO 2014 Organizers|<span style="font-size:200%">'''Organizers'''</span>]]
-|rowspan="2" style="height:200px; width:200px; background-color:#6EB005; text-align:center;"|[[EMBO 2014 Speakers|<span style="font-size:200%">'''Speakers'''</span>]]
-|style="width:200px; text-align:center;"|[[Team_Lucifer|<span style="font-size:200%">'''Team Lucifer'''</span>]]
-|-
-|rowspan="1" style="width:200px; text-align:center;"|[[EMBO_instrument_schedule|<span style="font-size:200%">'''Instrument schedule'''</span>]]
-|style="width:300px; text-align:center;"|[[Team_Clarity|<span style="font-size:200%">'''Team Clarity'''</span>]]
-|-
-|rowspan="1" style="width:200px; text-align:center;"|[https://mapsengine.google.com/map/viewer?mid=zwloKEna7htk.kHdkHKvGftgY <span style="font-size:200%">'''Maps'''</span>]<br>[[EMBO_2014_pictures|<span style="font-size:200%">'''Pictures'''</span>]]
-|rowspan="2" style="height:200px; width:200px; background-color:#1191EB; text-align:center;"|[[EMBO 2014 Participants|<span style="font-size:200%">'''Participants'''</span>]]
-|rowspan="2" style="height:200px; width:200px; background-color:#FDAB0A; text-align:center;"|[[EMBO 2014 Instructors|<span style="font-size:200%">'''Instructors'''</span>]]
-|style="width:300px; text-align:center;"|[[Team_SPIMApes|<span style="font-size:200%">'''Team SPIMApes'''</span>]]
-|-
-|rowspan="1" style="width:200px; text-align:center;"|[[EMBO 2014 linux refcard|Linux Reference Card]]<br />
-[https://upload.wikimedia.org/wikipedia/commons/8/89/Cheatsheet-mediawiki.pdf Wiki Editing cheat sheet]
-|style="width:300px; text-align:center;"|[[Team_SiedyZsig|<span style="font-size:200%">'''Team SiedyZsig'''</span>]]
-|}
-{|-
-||[[Image:CBG_Logo.jpg|frameless|left|100px|link=http://mpi-cbg.de]]
-||[[Image:CRTD_logo.jpg|frameless|left|100px|link=http://www.crt-dresden.de/]]
-||[[Image:BioDIP-Logo.jpg|frameless|left|50px|link=http://www.biodip.de/wiki/Biopolis_Dresden_Imaging_Platform]]
-||[[Image:Zeiss_logo.jpg|frameless|left|100px|link=http://www.zeiss.com/microscopy/en_de/products/imaging-systems/lightsheet-z-1.html]]
-||[[Image:LaVision_logo.jpg|frameless|left|100px|link=http://www.lavisionbiotec.com/ultramicroscope-overview.html]]
-||[[Image:Andor_logo.jpg|frameless|left|l100px|link=http://www.andor.com/scientific-cameras/neo-and-zyla-scmos-cameras]]
-||[[Image:Pco_logo.jpg|frameless|left|100px|link=http://www.pco.de/scmos-cameras/]]
-||[[Image:Hamamatsu_logo.jpg|frameless|left|100px|link=http://www.hamamatsu.com/us/en/community/life_science_camera/product/search/C11440-22CU/index.html]]
-||[[Image:Coherent_logo.jpg|frameless|left|100px|http://www.coherent.com/products/?1638/Sapphire-Lasers]]
-||[[Image:Qimaging.jpg|frameless|left|100px|http://www.qimaging.com/products/cameras/scientific/optimos-scmos.php]]
-|}
+<center>
 
-[[Category:EMBO2014]]
+18 – 29 August 2014 | **Dresden, Germany**
+
+</center>
+
+<table>
+<tbody>
+<tr class="odd">
+<td><p><a href="EMBO_2014_final_program" title="wikilink"><span style="font-size:200%"><strong>Final Program</strong></span></a></p></td>
+<td><p><a href="EMBO_2014_Organizers" title="wikilink"><span style="font-size:200%"><strong>Organizers</strong></span></a></p></td>
+<td><p><a href="EMBO_2014_Speakers" title="wikilink"><span style="font-size:200%"><strong>Speakers</strong></span></a></p></td>
+<td><p><a href="Team_Lucifer" title="wikilink"><span style="font-size:200%"><strong>Team Lucifer</strong></span></a></p></td>
+</tr>
+<tr class="even">
+<td><p><a href="EMBO_instrument_schedule" title="wikilink"><span style="font-size:200%"><strong>Instrument schedule</strong></span></a></p></td>
+<td><p><a href="Team_Clarity" title="wikilink"><span style="font-size:200%"><strong>Team Clarity</strong></span></a></p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p><a href="https://mapsengine.google.com/map/viewer?mid=zwloKEna7htk.kHdkHKvGftgY"><span style="font-size:200%"><strong>Maps</strong></span></a><br />
+<a href="EMBO_2014_pictures" title="wikilink"><span style="font-size:200%"><strong>Pictures</strong></span></a></p></td>
+<td><p><a href="EMBO_2014_Participants" title="wikilink"><span style="font-size:200%"><strong>Participants</strong></span></a></p></td>
+<td><p><a href="EMBO_2014_Instructors" title="wikilink"><span style="font-size:200%"><strong>Instructors</strong></span></a></p></td>
+<td><p><a href="Team_SPIMApes" title="wikilink"><span style="font-size:200%"><strong>Team SPIMApes</strong></span></a></p></td>
+</tr>
+<tr class="even">
+<td><p><a href="EMBO_2014_linux_refcard" title="wikilink">Linux Reference Card</a><br />
+<a href="https://upload.wikimedia.org/wikipedia/commons/8/89/Cheatsheet-mediawiki.pdf">Wiki Editing cheat sheet</a></p></td>
+<td><p><a href="Team_SiedyZsig" title="wikilink"><span style="font-size:200%"><strong>Team SiedyZsig</strong></span></a></p></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+|                                               |                                                  |                                                       |                                                     |                                                              |                                                                                                                                                                                      |                                               |                                                                 |                                                                                                                                         |                                                                                                                                                                  |
+| --------------------------------------------- | ------------------------------------------------ | ----------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![CBG\_Logo.jpg](CBG_Logo.jpg "CBG_Logo.jpg") | ![CRTD\_logo.jpg](CRTD_logo.jpg "CRTD_logo.jpg") | ![BioDIP-Logo.jpg](BioDIP-Logo.jpg "BioDIP-Logo.jpg") | ![Zeiss\_logo.jpg](Zeiss_logo.jpg "Zeiss_logo.jpg") | ![LaVision\_logo.jpg](LaVision_logo.jpg "LaVision_logo.jpg") | ![l100px|link=<http://www.andor.com/scientific-cameras/neo-and-zyla-scmos-cameras>](Andor_logo.jpg "l100px|link=http://www.andor.com/scientific-cameras/neo-and-zyla-scmos-cameras") | ![Pco\_logo.jpg](Pco_logo.jpg "Pco_logo.jpg") | ![Hamamatsu\_logo.jpg](Hamamatsu_logo.jpg "Hamamatsu_logo.jpg") | ![<http://www.coherent.com/products/?1638/Sapphire-Lasers>](Coherent_logo.jpg "http://www.coherent.com/products/?1638/Sapphire-Lasers") | ![<http://www.qimaging.com/products/cameras/scientific/optimos-scmos.php>](Qimaging.jpg "http://www.qimaging.com/products/cameras/scientific/optimos-scmos.php") |
+
+[Category:EMBO2014](Category:EMBO2014 "wikilink")

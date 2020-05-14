@@ -1,3 +1,3 @@
-'''3D Reconstraction of Drosophila Embryo.'''
+**3D Reconstraction of Drosophila Embryo.**
 
-[[File:movie_gif.gif]]
+![movie\_gif.gif](movie_gif.gif "movie_gif.gif")

@@ -1,1 +1,1 @@
-#REDIRECT [[Downloads]]
+1.  REDIRECT [Downloads](Downloads "wikilink")

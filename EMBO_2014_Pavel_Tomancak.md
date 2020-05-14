@@ -1,4 +1,3 @@
+![Awesome mosaic](Poster_final.jpg "Awesome mosaic")
 
-[[Image:Poster final.jpg|300px|Awesome mosaic]]
-
-[[Category:EMBO2014]]
+[Category:EMBO2014](Category:EMBO2014 "wikilink")

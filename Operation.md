@@ -1,68 +1,148 @@
-Now that we have assembled the OpenSPIM microscope it is time to start using it. We will need to prepare a sample, align the light sheet (Calibration), set-up the acquisition and process the data.
+Now that we have assembled the OpenSPIM microscope it is time to start
+using it. We will need to prepare a sample, align the light sheet
+(Calibration), set-up the acquisition and process the data.
 
-= Sample Preparation =
-[[File:Pulling embryos into capillary.ogv|thumb|Pulling Drosophila embryos in agarose inside a glass capilary (''with some priceless random audio'')]]
-The basic principles of sample preparation for SPIM differs from traditional microscopy technologies. There are no glass slides or coverslips. Instead, the sample needs to be suspended in a water filled chamber in front of the lens so that it can be rotated. This is usually achieved by embedding the sample in a low melting point (LMP) agarose inside a glass capillary equipped with a plunger. For imaging, the agarose column with the specimen is pushed out of the capillary using the plunger to hang in front of the lens.
+# Sample Preparation
 
-For the purpose of making registration easier, we mix the sub-resolution fluorescent beads into the specimen containing agarose slurry and use them as fiduciary markers to align the different SPIM views. The software to do that is available in [http://fiji.sc Fiji]. 
+![Pulling Drosophila embryos in agarose inside a glass capilary (*with
+some priceless random audio*)](Pulling_embryos_into_capillary.ogv
+"Pulling Drosophila embryos in agarose inside a glass capilary (with some priceless random audio)")
+The basic principles of sample preparation for SPIM differs from
+traditional microscopy technologies. There are no glass slides or
+coverslips. Instead, the sample needs to be suspended in a water filled
+chamber in front of the lens so that it can be rotated. This is usually
+achieved by embedding the sample in a low melting point (LMP) agarose
+inside a glass capillary equipped with a plunger. For imaging, the
+agarose column with the specimen is pushed out of the capillary using
+the plunger to hang in front of the lens.
 
-Follow the link to check our resources for [[Sample_Preparation|'''sample preparation''']].
+For the purpose of making registration easier, we mix the sub-resolution
+fluorescent beads into the specimen containing agarose slurry and use
+them as fiduciary markers to align the different SPIM views. The
+software to do that is available in [Fiji](http://fiji.sc).
 
-= Calibration =
-[[Image:1I 1D OpenSPIM.png|thumb|OpenSPIM rendering with laser on]]
-Before using the OpenSPIM the light sheet needs to be  [[Light-sheet Calibration|'''aligned''']]. This means that the light sheet needs to be shaped by the optics of the system to be parallel to the imaging plane of the camera, perpendicular to the detection axis, as thin as possible, uniform across the field of view and, most importantly, in focus with the detection objective. Since the procedure is rather involved, we provide a series of detailed videos that illustrate the process. Innovations are welcome.
+Follow the link to check our resources for [**sample
+preparation**](Sample_Preparation "wikilink").
 
-Although the light sheet is rather stable once aligned, it should be [[Light-sheet Calibration|'''aligned''']] at regular intervals or whenever the image quality or point spread function (PSF) of the beads looks suboptimal.
+# Calibration
 
-We also recommend examining the signal in the imaged specimen and tweaking the light sheet using the bottom knob on the lower left corner mirror of the set-up to optimize the image quality. The knob moves the light sheet roughly parallel to the focal plane of the detection lens, and thus moving it back and forth focuses the lens into the middle of the light sheet.
+![OpenSPIM rendering with laser on](1I_1D_OpenSPIM.png
+"OpenSPIM rendering with laser on") Before using the OpenSPIM the light
+sheet needs to be [**aligned**](Light-sheet_Calibration "wikilink").
+This means that the light sheet needs to be shaped by the optics of the
+system to be parallel to the imaging plane of the camera, perpendicular
+to the detection axis, as thin as possible, uniform across the field of
+view and, most importantly, in focus with the detection objective. Since
+the procedure is rather involved, we provide a series of detailed videos
+that illustrate the process. Innovations are welcome.
 
-* '''[http://www.dkfz.de/Macromol/quickfit/beadscan.html gel for beadscans and Matlab script to evaluate them]'''. Using this you can estimate the size of the PSF of your microscope
+Although the light sheet is rather stable once aligned, it should be
+[**aligned**](Light-sheet_Calibration "wikilink") at regular intervals
+or whenever the image quality or point spread function (PSF) of the
+beads looks suboptimal.
 
-It is also possible to measure the [[Light sheet characterization|light-sheet thickness]] using a small mirror mounted in the sample chamber.
+We also recommend examining the signal in the imaged specimen and
+tweaking the light sheet using the bottom knob on the lower left corner
+mirror of the set-up to optimize the image quality. The knob moves the
+light sheet roughly parallel to the focal plane of the detection lens,
+and thus moving it back and forth focuses the lens into the middle of
+the light sheet.
 
-[[Category:Hardware]]
+  - **[gel for beadscans and Matlab script to evaluate
+    them](http://www.dkfz.de/Macromol/quickfit/beadscan.html)**. Using
+    this you can estimate the size of the PSF of your microscope
 
-= Software =
-[[Image:Stagecontrols.png|thumb|right|Screenshot of OpenSPIM stage control]]
+It is also possible to measure the [light-sheet
+thickness](Light_sheet_characterization "wikilink") using a small mirror
+mounted in the sample chamber.
 
-OpenSPIM relies on [http://valelab.ucsf.edu/~MM/MMwiki/ µManager] run under [http://fiji.sc Fiji]. Make sure you [[Downloads|'''download and install''']] all the required components.
+# Software
 
-Next, please follow the instructions to [[Downloads#Initial_hardware_configuration|'''configure the hardware''']] properly before trying to acquire images.
+![Screenshot of OpenSPIM stage control](Stagecontrols.png
+"Screenshot of OpenSPIM stage control")
 
-[[OpenSPIM Software start up|'''Start up''']] the OpenSPIM µManager plugin.
+OpenSPIM relies on [µManager](http://valelab.ucsf.edu/~MM/MMwiki/) run
+under [Fiji](http://fiji.sc). Make sure you [**download and
+install**](Downloads "wikilink") all the required components.
 
-Make yourself familiar with the operation of the OpenSPIM [[OpenSPIM stage control|'''stage control''']].
+Next, please follow the instructions to [**configure the
+hardware**](Downloads#Initial_hardware_configuration "wikilink")
+properly before trying to acquire images.
 
-Now you are ready to [[Acquisition|'''acquire''']] images. Please follow these step-by-step tutorials:
+[**Start up**](OpenSPIM_Software_start_up "wikilink") the OpenSPIM
+µManager plugin.
 
-* [[Acquisition#Acquiring a Single Image|Acquiring a Single Image]]
-* [[Acquisition#Acquiring a Stack|Acquiring a Stack]]
-* [[Acquisition#Single-Plane Time Lapse|Single-Plane Time Lapse]]
-* [[Acquisition#Multi-View Imaging of a Fixed Sample|Multi-View Imaging of a Fixed Sample]]
-* [[Acquisition#Multi-View Time Lapses|Multi-View Time Lapse imaging of Live Sample]]
+Make yourself familiar with the operation of the OpenSPIM [**stage
+control**](OpenSPIM_stage_control "wikilink").
 
-[[Category:Operation]]
+Now you are ready to [**acquire**](Acquisition "wikilink") images.
+Please follow these step-by-step tutorials:
 
-= Data processing =
+  - [Acquiring a Single
+    Image](Acquisition#Acquiring_a_Single_Image "wikilink")
+  - [Acquiring a Stack](Acquisition#Acquiring_a_Stack "wikilink")
+  - [Single-Plane Time
+    Lapse](Acquisition#Single-Plane_Time_Lapse "wikilink")
+  - [Multi-View Imaging of a Fixed
+    Sample](Acquisition#Multi-View_Imaging_of_a_Fixed_Sample "wikilink")
+  - [Multi-View Time Lapse imaging of Live
+    Sample](Acquisition#Multi-View_Time_Lapses "wikilink")
 
-The raw multi-view OpenSPIM data need to be processed in order to achieve ''in toto'' imaging of large biological sample. We describe here the steps of the SPIMage processing pipeline as implemented in Fiji.  The processing involves saving the data in a format accessible by Fiji's SPIM registration plugins, registration of the views using beads as fiduciary markers, fusion of the data from different views into a single output image (potentially by employing multi-view deconvolution), stabilisation of the time-lapse data by registration across time-points using the segmented beads, exploration of the raw and fused data in space and time and finally 3D rendering for presentation purposes.
+# Data processing
 
-*[[Pre-requisites|'''System requirements''']] for SPIMage processing
+The raw multi-view OpenSPIM data need to be processed in order to
+achieve *in toto* imaging of large biological sample. We describe here
+the steps of the SPIMage processing pipeline as implemented in Fiji. The
+processing involves saving the data in a format accessible by Fiji's
+SPIM registration plugins, registration of the views using beads as
+fiduciary markers, fusion of the data from different views into a single
+output image (potentially by employing multi-view deconvolution),
+stabilisation of the time-lapse data by registration across time-points
+using the segmented beads, exploration of the raw and fused data in
+space and time and finally 3D rendering for presentation purposes.
 
-*[[Raw_data|'''Download sample data]] from Dresden's OpenSPIM.
+  - [**System requirements**](Pre-requisites "wikilink") for SPIMage
+    processing
 
-*[[Pre-processing|'''Pre-processing''']] of OpenSPIM ome.tiff stacks for multi-view reconstruction.
+<!-- end list -->
 
-*[[Registration|'''Registration''']] of multi-view OpenSPIM acquisition using bead based registration plugin in Fiji.
+  - ['''Download sample data](Raw_data "wikilink") from Dresden's
+    OpenSPIM.
 
-*[[Fusion|'''Fusion''']] of registered multi-view OpenSPIM data into s a single output image using content based fusion or multi-view deconvolution.
+<!-- end list -->
 
-*[[Timelapse_Registration|'''Time lapse registration''']] of long-term time lapse data.
+  - [**Pre-processing**](Pre-processing "wikilink") of OpenSPIM ome.tiff
+    stacks for multi-view reconstruction.
 
-*[[Browsing|'''Browsing''']] of OpenSPIM data with Fiji's BigDataViewer (coming soon).
+<!-- end list -->
 
-*[[3D_rendering|'''3D rendering''']] of fused OpenSPIM data.
+  - [**Registration**](Registration "wikilink") of multi-view OpenSPIM
+    acquisition using bead based registration plugin in Fiji.
 
-If you have a cluster available, you could imitate the way the Tomancak group executes [http://fiji.sc/SPIM_Registration_on_cluster SPIM Registration on their cluster].
+<!-- end list -->
 
-[[Category:Software]]
+  - [**Fusion**](Fusion "wikilink") of registered multi-view OpenSPIM
+    data into s a single output image using content based fusion or
+    multi-view deconvolution.
+
+<!-- end list -->
+
+  - [**Time lapse registration**](Timelapse_Registration "wikilink") of
+    long-term time lapse data.
+
+<!-- end list -->
+
+  - [**Browsing**](Browsing "wikilink") of OpenSPIM data with Fiji's
+    BigDataViewer (coming soon).
+
+<!-- end list -->
+
+  - [**3D rendering**](3D_rendering "wikilink") of fused OpenSPIM data.
+
+If you have a cluster available, you could imitate the way the Tomancak
+group executes [SPIM Registration on their
+cluster](http://fiji.sc/SPIM_Registration_on_cluster).
+
+[Category:Hardware](Category:Hardware "wikilink")
+[Category:Operation](Category:Operation "wikilink")
+[Category:Software](Category:Software "wikilink")

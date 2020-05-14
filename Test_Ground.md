@@ -1,24 +1,22 @@
-Upload image and usage example
-[[File:hands.gif|thumb]]
-[[File:BreadBoard.JPG|thumb]]
-------------------
-[[Category:Photos]]
+Upload image and usage example ![hands.gif](hands.gif "hands.gif")
+![BreadBoard.JPG](BreadBoard.JPG "BreadBoard.JPG")
 
-=== Random pics ===
+-----
 
-<gallery perrow="5" caption="Random - 2011">
-File:hands.gif| Tiramisu and Popcorn
-File:TiramisuAndPopCorn_III.jpg|Chilling in the chill-room
-File:Safeguarding.jpg|Safeguarding against popcorn bombardment. (Or filming the process)
-File:Club-Mate_RFID.jpg
-</gallery>
+### Random pics
 
-[[File:Leonard Cushing Kinetograph 1894.ogv|thumb]]
+<File:hands.gif>| Tiramisu and Popcorn
+[File:TiramisuAndPopCorn\_III.jpg|Chilling](File:TiramisuAndPopCorn_III.jpg%7CChilling)
+in the chill-room
+[File:Safeguarding.jpg|Safeguarding](File:Safeguarding.jpg%7CSafeguarding)
+against popcorn bombardment. (Or filming the process)
+<File:Club-Mate_RFID.jpg>
 
+![Leonard\_Cushing\_Kinetograph\_1894.ogv](Leonard_Cushing_Kinetograph_1894.ogv
+"Leonard_Cushing_Kinetograph_1894.ogv")
 
-<gallery perrow="5" caption="Tron:Legacy">
-File:IMG 4468.jpg
-File:IMG 4480.JPG
-</gallery>
+<File:IMG> 4468.jpg <File:IMG> 4480.JPG
 
-{{#widget:SPIM_Calculator}}
+{{\#widget:SPIM\_Calculator}}
+
+[Category:Photos](Category:Photos "wikilink")

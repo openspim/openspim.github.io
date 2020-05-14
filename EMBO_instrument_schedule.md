@@ -1,105 +1,36 @@
-This page provides up to date information about the instrument schedule for the course:
+This page provides up to date information about the instrument schedule
+for the course:
 
-First the schedule for the '''initial introduction to the systems'''. We have six systems, five 2 hours slots for four student teams. One session (Huisken and Myers is joint since the scopes are next to each other).
+First the schedule for the **initial introduction to the systems**. We
+have six systems, five 2 hours slots for four student teams. One session
+(Huisken and Myers is joint since the scopes are next to each other).
 
-{|- class="wikitable" 20px style="margin: 1em auto 1em auto;" 
+|                          |                                        |                                        |
+| ------------------------ | -------------------------------------- | -------------------------------------- |
+|                          | Tuesday                                | Wednesday                              |
+| 13:00 - 15:00            | 15:30 - 17:30                          | 10:15 - 12:00                          |
+| Huisken SPIM, Myers SPIM | [Lucifer](Team_Lucifer "wikilink")     | [Clarity](Team_Clarity "wikilink")     |
+| OpenSPIM                 | [Clarity](Team_Clarity "wikilink")     | X                                      |
+| Stelzer mDSLM            | [SPIMApes](Team_SPIMApes "wikilink")   | [Lucifer](Team_Lucifer "wikilink")     |
+| Lightsheet Z.1           | [SiedyZsig](Team_SiedyZsig "wikilink") | [SPIMApes](Team_SPIMApes "wikilink")   |
+| Ultramicroscope          | X                                      | [SiedyZsig](Team_SiedyZsig "wikilink") |
 
-|rowspan="2" style="width:200px; text-align:center;"|&nbsp;
-|colspan="2" style="width:100px; text-align:center;"|Tuesday
-|colspan="3" style="width:100px; text-align:center;"|Wednesday
-|-
-|style="width:100px; text-align:center;"|13:00 - 15:00
-|style="width:100px; text-align:center;"|15:30 - 17:30
-|style="width:100px; text-align:center;"|10:15 - 12:00
-|style="width:100px; text-align:center;"|13:00 - 15:00
-|style="width:100px; text-align:center;"|15:30 - 17:30
-|-
-|style="width:200px; text-align:center;"|Huisken SPIM, Myers SPIM
-|style="width:100px; text-align:center;"|[[Team_Lucifer|Lucifer]]
-|style="width:100px; text-align:center;"|[[Team_Clarity|Clarity]]
-|style="width:100px; text-align:center;"|[[Team_SiedyZsig|SiedyZsig]]
-|style="width:100px; text-align:center;"|X
-|style="width:100px; text-align:center;"|[[Team_SPIMApes|SPIMApes]]
-|-
-|style="width:200px; text-align:center;"|OpenSPIM
-|style="width:100px; text-align:center;"|[[Team_Clarity|Clarity]]
-|style="width:100px; text-align:center;"|X
-|style="width:100px; text-align:center;"|[[Team_Lucifer|Lucifer]]
-|style="width:100px; text-align:center;"|[[Team_SPIMApes|SPIMApes]]
-|style="width:100px; text-align:center;"|[[Team_SiedyZsig|SiedyZsig]]
-|-
-|style="width:200px; text-align:center;"|Stelzer mDSLM
-|style="width:100px; text-align:center;"|[[Team_SPIMApes|SPIMApes]]
-|style="width:100px; text-align:center;"|[[Team_Lucifer|Lucifer]]
-|style="width:100px; text-align:center;"|[[Team_Clarity|Clarity]]
-|style="width:100px; text-align:center;"|[[Team_SiedyZsig|SiedyZsig]]
-|style="width:100px; text-align:center;"|X
-|-
-|style="width:200px; text-align:center;"|Lightsheet Z.1
-|style="width:100px; text-align:center;"|[[Team_SiedyZsig|SiedyZsig]]
-|style="width:100px; text-align:center;"|[[Team_SPIMApes|SPIMApes]]
-|style="width:100px; text-align:center;"|X
-|style="width:100px; text-align:center;"|[[Team_Lucifer|Lucifer]]
-|style="width:100px; text-align:center;"|[[Team_Clarity|Clarity]]
-|-
-|style="width:200px; text-align:center;"|Ultramicroscope
-|style="width:100px; text-align:center;"|X
-|style="width:100px; text-align:center;"|[[Team_SiedyZsig|SiedyZsig]]
-|style="width:100px; text-align:center;"|[[Team_SPIMApes|SPIMApes]]
-|style="width:100px; text-align:center;"|[[Team_Clarity|Clarity]]
-|style="width:100px; text-align:center;"|[[Team_Lucifer|Lucifer]]
+Schedule of **student presentations**
 
-|}
+|           |                                               |                                                     |                                              |                                               |                                        |                                              |
+| --------- | --------------------------------------------- | --------------------------------------------------- | -------------------------------------------- | --------------------------------------------- | -------------------------------------- | -------------------------------------------- |
+| Tuesday   | [Eric Edsinger](User:EricEdsinger "wikilink") | [Wioleta Dudka-Ruszkowska](User:Wioleta "wikilink") | [Thomas Pujol](User:Pujol "wikilink")        | [Hannah Barthel](User:Hannah "wikilink")      | [Kei Murata](User:Murata "wikilink")   | [Bruno Vellutini](User:Vellutini "wikilink") |
+| Wednesday | [Rada Massarwa](User:Rada "wikilink")         | [Sebastian Ehrig](User:Ehrig "wikilink")            | [Dzianis Menshykau](User:Dzianis "wikilink") | [Markéta Pernisová](User:Pernisov "wikilink") | [Emese Palfi](User:Emese "wikilink")   | [Yong Wang](User:Wang "wikilink")            |
+| Thursday  | [Olivier Burri](User:Burri "wikilink")        | [Maarten Hilbrant](User:Maarten "wikilink")         | [Juraj Sekereš](User:Juraj "wikilink")       | [Edite Figueiras](User:Edite "wikilink")      | [Kirti Prakash](User:Kirti "wikilink") |                                              |
 
-Schedule of '''student presentations'''
+Mapping of **teams to processing computers**
 
-{|- class="wikitable" 20px style="margin: 1em auto 1em auto;" 
-|style="width:100px; text-align:center;"|Tuesday
-|style="width:100px; text-align:center;"|[[User:EricEdsinger|Eric Edsinger]]
-|style="width:100px; text-align:center;"|[[User:Wioleta|Wioleta Dudka-Ruszkowska]]
-|style="width:100px; text-align:center;"|[[User:Pujol|Thomas	Pujol]]
-|style="width:100px; text-align:center;"|[[User:Hannah|Hannah	 Barthel]]
-|style="width:100px; text-align:center;"|[[User:Murata|Kei Murata]]
-|style="width:100px; text-align:center;"|[[User:Vellutini|Bruno	Vellutini]]
-|-
-|style="width:100px; text-align:center;"|Wednesday
-|style="width:100px; text-align:center;"|[[User:Rada|Rada Massarwa]]
-|style="width:100px; text-align:center;"|[[User:Ehrig|Sebastian Ehrig]]
-|style="width:100px; text-align:center;"|[[User:Dzianis|Dzianis Menshykau]]
-|style="width:100px; text-align:center;"|[[User:Pernisov|Markéta Pernisová]]
-|style="width:100px;text-align:center;"|[[User:Emese|Emese Palfi]]
-|style="width:100px; text-align:center;"|[[User:Wang|Yong Wang]]
-|-
-|style="width:100px; text-align:center;"|Thursday
-|style="width:100px; text-align:center;"|[[User:Burri|Olivier Burri]]
-|style="width:100px; text-align:center;"|[[User:Maarten|Maarten Hilbrant]]
-|style="width:100px; text-align:center;"|[[User:Juraj|Juraj Sekereš]]
-|style="width:100px; text-align:center;"|[[User:Edite|Edite Figueiras]]
-|style="width:100px; text-align:center;"|[[User:Kirti|Kirti Prakash]]
-|}
+|                   |              |                                              |
+| ----------------- | ------------ | -------------------------------------------- |
+| **computer name** | **username** | **password**                                 |
+| embo-1            | lucifer      | no, we do not put passwords on a public wiki |
+| embo-2            | clarity      | no, we do not put passwords on a public wiki |
+| embo-3            | spimapes     | no, we do not put passwords on a public wiki |
+| embo-4            | siedzsig     | no, we do not put passwords on a public wiki |
 
-Mapping of '''teams to processing computers'''
-
-{|- class="wikitable" 20px style="margin: 1em auto 1em auto;" 
-|style="width:100px; text-align:center;"|'''computer name'''
-|style="width:100px; text-align:center;"|'''username'''
-|style="width:100px; text-align:center;"|'''password'''
-|-
-|style="width:100px; text-align:center;"|embo-1
-|style="width:100px; text-align:center;"|lucifer
-|style="width:100px; text-align:center;"|no, we do not put passwords on a public wiki
-|-
-|style="width:100px; text-align:center;"|embo-2
-|style="width:100px; text-align:center;"|clarity
-|style="width:100px; text-align:center;"|no, we do not put passwords on a public wiki
-|-
-|style="width:100px; text-align:center;"|embo-3
-|style="width:100px; text-align:center;"|spimapes
-|style="width:100px; text-align:center;"|no, we do not put passwords on a public wiki
-|-
-|style="width:100px; text-align:center;"|embo-4
-|style="width:100px; text-align:center;"|siedzsig
-|style="width:100px; text-align:center;"|no, we do not put passwords on a public wiki
-|}
-
-[[Category:EMBO2014]]
+[Category:EMBO2014](Category:EMBO2014 "wikilink")

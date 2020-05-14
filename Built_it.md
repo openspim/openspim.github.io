@@ -1,57 +1,61 @@
-[[Table of parts|List of the needed parts]]
+[List of the needed parts](Table_of_parts "wikilink")
 
-== Screw feet in the bread board ==
+## Screw feet in the bread board
 
-== Laser  ==
-=== Mount the laser on the laser heat sink ===
+## Laser
 
-=== Mount the laser on the bread board ===
+### Mount the laser on the laser heat sink
 
+### Mount the laser on the bread board
 
-== Mount rails ==
+## Mount rails
 
-=== Rail 1 ===
+### Rail 1
 
-=== Rail 2 ===
+### Rail 2
 
-=== Rail 3 ===
+### Rail 3
 
-=== Rail 4 ===
+### Rail 4
 
+## Mirror mount
 
-== Mirror mount ==
+## Motor mount
 
-== Motor mount ==
+## Tube lens mount
 
-== Tube lens mount ==
+## Mirror 1 + 2
 
-== Mirror 1 + 2 ==
+## Beam expander
 
-== Beam expander ==
 lens 1 + 2
 
-== vertical slit ==
+## vertical slit
 
-== Cylindrical lens ==
+## Cylindrical lens
 
-== Mirror 3 ==
+## Mirror 3
 
-== Lens 3 ==
+## Lens 3
 
-== Iris ==
+## Iris
 
-== Lens 4 ==
+## Lens 4
 
-== Sample Chamber ==
-=== Put it togethter ===
+## Sample Chamber
 
-=== Mount it on the bread board ===
+### Put it togethter
 
-== Tube lens + camera ==
-=== Put the it together ===
-=== Screw in the Camera ===
-=== Mount it ===
+### Mount it on the bread board
 
-== 4D Motors ==
+## Tube lens + camera
 
-== Motor arm ==
+### Put the it together
+
+### Screw in the Camera
+
+### Mount it
+
+## 4D Motors
+
+## Motor arm

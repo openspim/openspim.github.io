@@ -1,3 +1,3 @@
-= Browsing OpenSPIM data in the Big Data Viewer =
+# Browsing OpenSPIM data in the Big Data Viewer
 
-See [http://fiji.sc/BigDataViewer documentation on the Fiji wiki]
+See [documentation on the Fiji wiki](http://fiji.sc/BigDataViewer)

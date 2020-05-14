@@ -1,1 +1,1 @@
-Upload 20-capillary.jpg for Sample_Preparation
+Upload 20-capillary.jpg for Sample\_Preparation

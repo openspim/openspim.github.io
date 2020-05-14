@@ -1,3 +1,7 @@
-[http://www.mpi-cbg.de/research/research-groups/pavel-tomancak.html Pavel Tomancak] contributed a [http://fiji.sc/SPIM_Registration_on_cluster detailed tutorial] how to analyze SPIM images on a cluster using Fiji.
+[Pavel
+Tomancak](http://www.mpi-cbg.de/research/research-groups/pavel-tomancak.html)
+contributed a [detailed
+tutorial](http://fiji.sc/SPIM_Registration_on_cluster) how to analyze
+SPIM images on a cluster using Fiji.
 
-[[Category:News]]
+[Category:News](Category:News "wikilink")

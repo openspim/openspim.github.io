@@ -1,1 +1,1 @@
-* slide for light sheet calibration
+  - slide for light sheet calibration

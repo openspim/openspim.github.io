@@ -1,510 +1,138 @@
-<p>[[#aug20|20 August]] | [[#aug21|21 August]] | [[#aug22|22 August]] | [[#aug23|23 August]] | [[#aug24|24 August]] | [[#aug25|25 August]] | [[#aug26|26 August]] | [[#aug27|27 August]] | [[#aug28|28 August]] | [[#aug29|29 August]] </p>
-
-{|  border="1" cellspacing="1" cellpadding="1" 
-|  valign="top" style="background: #C0C0C0 " class="programmedate" colspan="3"| MONDAY 18 AUGUST
-|- 
-|  valign="top" | 16:00 - 18:00
-|  valign="top" | Registration
-|- 
-|  valign="top" | 17:00 - 18:00
-|  valign="top" | Guided tour of the MPI-CBG
-|- 
-|  valign="top" | 18:00 - 18:30
-|  valign="top" | '''Pavel Tomancak''' ''Opening Address''
-|-
-|  valign="top" | 18:30 - 19:30
-|  valign="top" | '''Ernst Stelzer''' ''A general introduction to   light-sheet-based fluorescence microscopy''
-|-
-|  valign="top" | 20:00 - 22:00
-|  valign="top" | Welcome dinner &amp; poster session
-|- 
-|  valign="top" class="programmedate" style="background: #C0C0C0 " colspan="3"| TUESDAY 19 AUGUST  ''chair Jan Peychl''
-|-
-|  valign="top" | 9:00 - 9:30
-|  valign="top" | '''Ernst Stelzer''' ''An introduction   to the optical theory of conventional, confocal, two-photon and   light-sheet-based fluorescence microscopy''
-|- 
-|  valign="top" | 9:30 - 10:00
-|  valign="top" | '''Jan Huisken''' ''Cameras for   light-sheet microscopy''
-|- 
-
-|  valign="top" | 10:15 - 11:00
-|  valign="top" | '''Pavel Tomancak''' ''Introduction to wiki editing groups SiedyZsig and Clarity''    Small Auditorium
-|- 
-
-|  valign="top" | 10:15 - 11:00
-|  valign="top" | '''Emmanuel Reynaud''' ''Sample   preparation groups SPIMApes and Lucifer''    MPI-CBG 4th Floor North
-|- 
-
-|  valign="top" | 11:00 - 12:00
-|  valign="top" | '''Pavel Tomancak''' ''Introduction to wiki editing groups SPIMApes and Lucifer''    Small Auditorium
-|- 
-
-|  valign="top" | 11:00 - 12:00
-|  valign="top" | '''Emmanuel Reynaud''' ''Sample   preparation groups SiedyZsig and Clarity''    MPI-CBG 4th Floor North
-|- 
-
-|  valign="top" | 12:00 - 13:00
-|  valign="top" | lunch
-|- 
-
-|  valign="top" | 13:00 - 15:00
-|  valign="top" | Concurrent introduction to   the available lightsheet set-ups I
-|- 
-
-|  valign="top" | 15:00 - 15:30
-|  valign="top" | Coffee break
-|- 
-
-|  valign="top" | 15:30 - 17:30
-|  valign="top" | Concurrent introduction to   the available lightsheet set-ups II
-|- 
-
-|  valign="top" | 17:30 - 18:30
-|  valign="top" | Dinner (at the Institute)
-|- 
-
-|  valign="top" | 19:00 - 19:45
-|  valign="top" | '''Jan Huisken''' ''Applications of light-sheet microscopy in developmental biology''
-|- 
-
-|  valign="top" | 20:00 - 21:00
-|  valign="top" | Short talks by participants (6 * 10 minutes)
-|- 
-|  valign="top" class="programmedate" id="aug20" style="background: #C0C0C0 " colspan="3"| WEDNESDAY 20 August  ''chair Jan Huisken''
-|-
-|  valign="top" | 9:00 - 9:30
-|  valign="top" | '''Emmanuel Reynaud''' ''From Arabidopsis to Zebrafish: the ABC of sample preparation for light-sheet microscopy''
-|  valign="top" | [https://photolab.mpi-cbg.de/external/spimembo/Reynaud.mov recording]
-|- 
-
-|  valign="top" | 9:30 - 10:00
-|  valign="top" | '''Corinne Lorenzo''' ''Benchmarking for imaging high scattering tissues by using light-sheet microscopy''
-|  valign="top" | [https://photolab.mpi-cbg.de/external/spimembo/Lorenzo.mov recording]
-|- 
-
-|  valign="top" | 10:15 - 12:00
-|  valign="top" | Concurrent introduction to   the available lightsheet set-ups III
-|- 
-
-|  valign="top" | 12:00 - 13:00
-|  valign="top" | lunch
-|- 
-
-|  valign="top" | 13:00 - 15:00
-|  valign="top" | Concurrent introduction to   the available lightsheet set-ups IV
-|- 
-
-|  valign="top" | 15:00 - 15:30
-|  valign="top" | Coffee break
-|- 
-
-|  valign="top" | 15:30 - 17:30
-|  valign="top" | Concurrent introduction to   the available lightsheet set-ups V
-|- 
-
-|  valign="top" | 17:30 - 19:30
-|  valign="top" | Dinner ([http://www.delphi-dresden.de/ Greek restaurant Delphi])
-|- 
-
-|  valign="top" | 19:30 - 20.15
-|  valign="top" | '''Corinne Lorenzo''' ''Development of   3D imaging of large spheroid tumor models using light-sheet microscopy''
-|- 
-
-|  valign="top" | 20:15 - 21:15
-|  valign="top" | Short talks by participants (6 * 10 minutes)
-|- 
-|  valign="top" class="programmedate" id="aug21" style="background: #C0C0C0" colspan="3"| THURSDAY 21 August ''chair Emmanuel Reynaud''
-|-
-|  valign="top" | 9:00 - 9:30
-|  valign="top" | '''Johannes Schindelin''' ''Introduction to Fiji''
-|  valign="top" | [https://photolab.mpi-cbg.de/external/spimembo/Schindelin.mov recording]
-|- 
-
-|  valign="top" | 9:30 - 10:00
-|  valign="top" | '''Stephan Preibisch''' ''LSFM multi-view registration''
-|  valign="top" | [https://photolab.mpi-cbg.de/external/spimembo/Preibisch.mov recording]
-|- 
-
-|  valign="top" | 10:30 - 12:00
-|  valign="top" | '''Stephan Preibisch''' ''SPIM image processing in Fiji''
-|  valign="top" | [https://photolab.mpi-cbg.de/external/spimembo/Preibisch2.mov recording]
-|- 
-
-|  valign="top" | 12:00 - 13:00
-|  valign="top" | lunch
-|- 
-
-|  valign="top" | 13:00 - 15:00
-|  valign="top" | Practical on processing SPIM data acquired on days 1 and 2
-|- 
-
-|  valign="top" | 15:00 - 15:30
-|  valign="top" | Coffee break
-|- 
-
-|  valign="top" | 15:30 - 17:30
-|  valign="top" | Practical on processing SPIM data acquired on days 1 and 2
-|- 
-
-|  valign="top" | 17:30 - 18:30
-|  valign="top" | Dinner
-|- 
-
-|  valign="top" | 19:00 - 19:45
-|  valign="top" | '''Olaf Ronneberger''' ''Registration   techniques, rotation invariant landmark detection and multi-view attenuation correction''
-|  valign="top" |[[Media:Ronneberger_EMBO_Course_Elastic_Registration.pdf|pdf]] [https://photolab.mpi-cbg.de/external/spimembo/Ronneberger.mp4 recording]
-|- 
-
-|  valign="top" | 20:00 - 20:40
-|  valign="top" | Short talks by participants (4 * 10 minutes)
-|- 
-|  valign="top" class="programmedate" id="aug22" style="background: #C0C0C0" colspan="3"| FRIDAY 22 August
-|-
-
-|  valign="top" | entire day
-|  valign="top" | Excursion to Jena, visit to Carl Zeiss Factory
-|  valign="top" |[[Media:A_Day_of_Optics_Jena_220814.pdf|program]]
-|- 
-
-|  valign="top" class="programmedate" id="aug23" style="background: #C0C0C0" colspan="3"| SATURDAY 23 August ''chair Pavel Tomancak''
-|-
-
-|  valign="top" | 9:00 - 9:30
-|  valign="top" | '''Caren Norden''' ''The advantages of SPIM microscopy to study retinal morphogenesis in the developing zebrafish embryo''
-|  valign="top" | [https://photolab.mpi-cbg.de/external/spimembo/Norden.mov recording]
-|- 
-
-|  valign="top" | 9:30 - 10:00
-|  valign="top" | '''Suzanne Eaton''' ''Imaging and quantitative analysis of Drosophila wing morphogenesis''
-|  valign="top" | [https://photolab.mpi-cbg.de/external/spimembo/Eaton.mov recording]
-|- 
-
-|  valign="top" | 10:00 - 10:30
-|  valign="top" | Group meeting
-|- 
-
-|  valign="top" | 10:30 - 12:00
-|  valign="top" | Student projects
-|- 
-
-|  valign="top" | 12:00 - 13:00
-|  valign="top" | lunch
-|- 
-
-|  valign="top" | 13:00 - 14:00
-|  valign="top" | '''Jan Peychl''' ''Basics of light microscopy''
-|- 
-
-|  valign="top" | 13:00 - 17:30
-|  valign="top" | Student projects
-|- 
-
-|  valign="top" | 17:30 - 19:30
-|  valign="top" | Dinner ([http://www.pizzeria-fantina.de/ Pizzeria Fantina])
-|- 
-
-|  valign="top" | 19:30 - 20:15
-|  valign="top" | '''Jim Swoger''' ''Light Sheet Microscopy for Systems Immunology''
-|- 
-
-|  valign="top" | 20:30 - 21:00
-|  valign="top" | Group meeting
-|- 
-
-|  valign="top" | 21:00 - … 
-|  valign="top" | projects & beer
-|- 
-|  valign="top" class="programmedate" id="aug24" style="background: #C0C0C0" colspan="3"| SUNDAY 24 August ''chair Pavel Tomancak (again...)''
-|-
-
-|  valign="top" | 11:00 - 11:45
-|  valign="top" | '''Fernando Amat''' ''Computational Methods for Cell Lineage Reconstruction''  
-| [https://photolab.mpi-cbg.de/external/spimembo/Amat.mov recording]
-|- 
-
-|  valign="top" | 11:45 - 12:15
-|  valign="top" | '''Jim Swoger''' ''Attenuation Correction in Light Sheet Microscopy''
-|  valign="top" | [https://photolab.mpi-cbg.de/external/spimembo/Swoger.mov recording]
-|- 
-
-|  valign="top" | 12:15 - 12:30
-|  valign="top" | group meeting
-|- 
-
-|  valign="top" | 12:30 - 13:30
-|  valign="top" | lunch
-|- 
-
-|  valign="top" | 13:30 - 14:30
-|  valign="top" | '''Christopher Schmied''' ''Processing SPIM data on a cluster''
-|  valign="top" |[[Media:Cluster_processing.pdf|pdf]]
-|- 
-
-|  valign="top" | 13:00 - 18:00
-|  valign="top" | Student projects
-|- 
-
-|  valign="top" | 15:00 - 18:00
-|  valign="top" | Olaf Ronneberger & Fernando Amat demo of registration/segmentation/tracking software
-|  valign="top" | [http://lmb.informatik.uni-freiburg.de/people/ronneber/embo_lish_2014/vibez_registration_tutorial.html tutorial]
-|- 
-
-|  valign="top" | 18:00 - 20:00
-|  valign="top" | Dinner ([http://www.aslankebaphaus.de/ Aslan Kebab House])
-|- 
-
-|  valign="top" | 20:00 - 21:00
-|  valign="top" | '''Emmanuel Reynaud''' ''A light-sheet   view on biodiversity''
-|- 
-
-|  valign="top" | 21:00 - … 
-|  valign="top" | projects & beer
-|- 
-|  valign="top" class="programmedate" id="aug25" style="background: #C0C0C0" colspan="3"| MONDAY 25 August
-|-
-
-|  valign="top" | 9:00 - 9:30
-|  valign="top" | '''Nicola Maghelli''' ''Bessel beam   based SI SPIM - practical experiences''
-|  valign="top" | [https://photolab.mpi-cbg.de/external/spimembo/Maghelli.mov recording]
-|- 
-
-|  valign="top" | 9:30 - 10:00
-|  valign="top" | '''Eric Betzig''' ''Bessel beam based   SI SPIM - principles''
-|  valign="top" | [https://photolab.mpi-cbg.de/external/spimembo/Betzig.mov recording]
-|- 
-
-|  valign="top" | 10:00 - 10:30
-|  valign="top" | Group meeting
-|- 
-
-|  valign="top" | 10:30 - 12:00
-|  valign="top" | Student projects
-|- 
-
-|  valign="top" | 11:00 - 12:00
-|  valign="top" align="left"| Eric Betzig meets the students I (room 231)
-|- 
-
-
-|  valign="top" | 12:00 - 13:00
-|  valign="top" | lunch
-|- 
-
-|  valign="top" | 13:00 - 14:00
-|  valign="top" | '''Johannes Schindelin''' ''Macro, scripting, Java in Fiji crash course''
-|- 
-
-|  valign="top" | 14:00 - 15:00
-|  valign="top" | '''Urban Liebel''' TBD (talk on IT of data processing using [https://www.acquifer.de/bigdata-logistics/ HIVE system])
-|- 
-
-|  valign="top" | 15:00 - 16:00
-|  valign="top" | Eric Betzig meets the students II (room 231)
-|- 
-
-|  valign="top" | 16:00 - 17:00
-|  valign="top" | '''Emmanuel Reynaud''' ''Marine biology in Dresden: Leopold and Rudolf Blaschka''
-|- 
-
-|  valign="top" | 17:00 - 18:00
-|  valign="top" | Eric Betzig meets the students III (room 231)
-|- 
-
-|  valign="top" | 13:00 - 18:00
-|  valign="top" | Student projects
-|- 
-
-|  valign="top" | 18:00 - 19:00
-|  valign="top" | Dinner
-|- 
-
-|  valign="top" | 19:00 - 19:45
-|  valign="top" | '''Eric Betzig''' ''Imaging the   three-dimensional dynamics of thick fluorescent specimens at the diffraction   limit and beyond''
-|- 
-
-|  valign="top" | 20:00 - 20:30
-|  valign="top" | Group meeting
-|- 
-
-|  valign="top" | 20:30 - 21:30
-|  valign="top" | Inverse poster session (participants present other people's posters for the newly arriving instructors)
-|- 
-|  valign="top" class="programmedate" id="aug26" style="background: #C0C0C0" colspan="3"| TUESDAY August 26
-|-
-
-|  valign="top" | 9:00 - 9:30
-|  valign="top" | '''Emilio Gualda''' ''OpenSPINMicroscopy''
-|  valign="top" | [https://photolab.mpi-cbg.de/external/spimembo/Gualda.mov recording] 
-|- 
-
-|  valign="top" | 9:30 - 10:00
-|  valign="top" | '''Scott Fraser''' ''Two photon light sheet microscopy''
-|  valign="top" | [https://photolab.mpi-cbg.de/external/spimembo/Fraser.mov recording]
-|- 
-
-|  valign="top" | 10:00 - 10:30
-|  valign="top" | Group meeting
-|- 
-
-|  valign="top" | 10:30 - 12:00
-|  valign="top" | Student projects
-|- 
-
-|  valign="top" | 12:00 - 13:00
-|  valign="top" | lunch
-|- 
-
-|  valign="top" | 13:00 - 14:00
-|  valign="top" | '''Loic Royer''' ''Open Source electronics in microscopy''
-|- 
-
-|  valign="top" | 13:00 - 17:30
-|  valign="top" | Student projects
-|- 
-
-|  valign="top" | 17:30 - 19:30
-|  valign="top" | Dinner ([http://www.faehrgarten.de/ Fährgarten])
-|- 
-
-|  valign="top" | 19:30 - 20:15
-|  valign="top" | '''Scott Fraser''' 
-|- 
-
-|  valign="top" | 20:30 - 21:00
-|  valign="top" | Group meeting
-|- 
-
-|  valign="top" | 21:00 - … 
-|  valign="top" | projects & beer
-|- 
-|  valign="top" class="programmedate" id="aug27" style="background: #C0C0C0" colspan="3"| WEDNESDAY 27 August
-|-
-
-|  valign="top" | 9:00 - 9:30
-|  valign="top" | '''Tobias Pietzsch''' ''Visualization and tracking of terabyte data sets''
-|  valign="top" | [https://photolab.mpi-cbg.de/external/spimembo/Pietzsch.mov recording]
-|- 
-
-|  valign="top" | 9:30 - 10:00
-|  valign="top" | '''Stephan Preibisch''' ''LSFM   multi-view deconvolution''
-|  valign="top" | [https://photolab.mpi-cbg.de/external/spimembo/Preibisch3.mov recording]
-|- 
-
-|  valign="top" | 10:00 - 10:30
-|  valign="top" | Group meeting
-|- 
-
-|  valign="top" | 10:30 - 12:00
-|  valign="top" | Student projects
-|- 
-
-|  valign="top" | 12:00 - 13:00
-|  valign="top" | lunch
-|- 
-
-|  valign="top" | 13:00 - 14:00
-|  valign="top" | '''Jeff Oegema, Peter Steinbach, Oscar Gonzalez''' ''IT of data storage & compression''
-|  valign="top" |[[Media:IT_of_SPIM_Data_Storage_and_Compression_-_Print.pdf|pdf]]
-|- 
-
-|  valign="top" | 13:00 - 18:00
-|  valign="top" | Student projects
-|- 
-
-|  valign="top" | 18:00 - 19:00
-|  valign="top" | Dinner
-|- 
-
-|  valign="top" | 19:00 - 19:45
-|  valign="top" | '''Hans-Ulrich Dodt''' ''Ultramicroscopy of cleared samples''
-|- 
-
-|  valign="top" | 20:00 - 20:30
-|  valign="top" | Group meeting
-|- 
-
-|  valign="top" | 21:00 - … 
-|  valign="top" | projects & beer
-|- 
-|  valign="top" class="programmedate" id="aug28" style="background: #C0C0C0" colspan="3"| THURSDAY 28 August
-|-
-
-|  valign="top" | 9:00 - 9:30
-|  valign="top" | '''Michaela Mickoleit''' ''High-speed cardiac imaging in zebrafish''
-|- 
-
-|  valign="top" | 9:30 - 10:00
-|  valign="top" | '''Michael Weber''' ''In vivo optical mapping in zebrafish''
-|- 
-
-|  valign="top" | 10:00 - 10:30
-|  valign="top" | Group meeting
-|- 
-
-|  valign="top" | 10:30 - 12:00
-|  valign="top" | Student projects
-|- 
-
-|  valign="top" | 12:00 - 13:00
-|  valign="top" | lunch
-|- 
-
-|  valign="top" | 14:00 - 14:30
-|  valign="top" | '''Mihail Sarov''' ''Imaging   morphogenesis and patterns of gene expression in C. elegans embryo and larva''
-|- 
-
-|  valign="top" | 14:30 - 15:00
-|  valign="top" | '''Elisabeth Knust''' ''Epithelial   morphogenesis in the Drosophila embryo''
-|- 
-
-|  valign="top" | 15:00 - 17:00
-|  valign="top" | Final presentation preparation
-|- 
-
-|  valign="top" | 17:00 - 17:45
-|  valign="top" | '''Gene Myers''' ''From light-sheets to models''
-|- 
-
-|  valign="top" | 18:00 - 22:00
-|  valign="top" | Gala Dinner (Hotel Andreas)
-|- 
-|  valign="top" class="programmedate" id="aug29" style="background: #C0C0C0" colspan="3"| FRIDAY August 29
-|-
-
-|  valign="top" | 9:00 - 12:00
-|  valign="top" | Final presentation preparation
-|- 
-
-|  valign="top" | 12:00 - 13:00
-|  valign="top" | lunch
-|- 
-
-|  valign="top" | 14:00 - 14:30
-|  valign="top" | Final presentations team Clarity
-|  valign="top" | [https://photolab.mpi-cbg.de/external/spimembo/Team-Clarity.mov recording]
-|- 
-
-|  valign="top" | 14:30 - 15:00
-|  valign="top" | Final presentations team Lucifer
-|  valign="top" | [https://photolab.mpi-cbg.de/external/spimembo/Team-Lucifer.mov recording]
-|- 
-
-|  valign="top" | 15:00 - 15:30
-|  valign="top" | Final presentations team SPIMApes
-|  valign="top" | [https://photolab.mpi-cbg.de/external/spimembo/Team-SPIMAPES.mov recording]
-|- 
-
-|  valign="top" | 15:30 - 16:00
-|  valign="top" | Final presentations team Siedyzsig
-|  valign="top" | [https://photolab.mpi-cbg.de/external/spimembo/Team-Siedyzsig.mov recording]
-|- 
-
-|  valign="top" | 16:00 - 17:00
-|  valign="top" | Wrap up and best wiki award
-|- 
-
-|  valign="top" | 17:00 - 
-|  valign="top" | Barbecue & party
-|}
-
-[[Category:EMBO2014]]
+[20 August](#aug20 "wikilink") | [21 August](#aug21 "wikilink") | [22
+August](#aug22 "wikilink") | [23 August](#aug23 "wikilink") | [24
+August](#aug24 "wikilink") | [25 August](#aug25 "wikilink") | [26
+August](#aug26 "wikilink") | [27 August](#aug27 "wikilink") | [28
+August](#aug28 "wikilink") | [29 August](#aug29 "wikilink")
+
+|                                                    |
+| -------------------------------------------------- |
+| MONDAY 18 AUGUST                                   |
+| 16:00 - 18:00                                      |
+| 17:00 - 18:00                                      |
+| 18:00 - 18:30                                      |
+| 18:30 - 19:30                                      |
+| 20:00 - 22:00                                      |
+| TUESDAY 19 AUGUST *chair Jan Peychl*               |
+| 9:00 - 9:30                                        |
+| 9:30 - 10:00                                       |
+| 10:15 - 11:00                                      |
+| 10:15 - 11:00                                      |
+| 11:00 - 12:00                                      |
+| 11:00 - 12:00                                      |
+| 12:00 - 13:00                                      |
+| 13:00 - 15:00                                      |
+| 15:00 - 15:30                                      |
+| 15:30 - 17:30                                      |
+| 17:30 - 18:30                                      |
+| 19:00 - 19:45                                      |
+| 20:00 - 21:00                                      |
+| WEDNESDAY 20 August *chair Jan Huisken*            |
+| 9:00 - 9:30                                        |
+| 9:30 - 10:00                                       |
+| 10:15 - 12:00                                      |
+| 12:00 - 13:00                                      |
+| 13:00 - 15:00                                      |
+| 15:00 - 15:30                                      |
+| 15:30 - 17:30                                      |
+| 17:30 - 19:30                                      |
+| 19:30 - 20.15                                      |
+| 20:15 - 21:15                                      |
+| THURSDAY 21 August *chair Emmanuel Reynaud*        |
+| 9:00 - 9:30                                        |
+| 9:30 - 10:00                                       |
+| 10:30 - 12:00                                      |
+| 12:00 - 13:00                                      |
+| 13:00 - 15:00                                      |
+| 15:00 - 15:30                                      |
+| 15:30 - 17:30                                      |
+| 17:30 - 18:30                                      |
+| 19:00 - 19:45                                      |
+| 20:00 - 20:40                                      |
+| FRIDAY 22 August                                   |
+| entire day                                         |
+| SATURDAY 23 August *chair Pavel Tomancak*          |
+| 9:00 - 9:30                                        |
+| 9:30 - 10:00                                       |
+| 10:00 - 10:30                                      |
+| 10:30 - 12:00                                      |
+| 12:00 - 13:00                                      |
+| 13:00 - 14:00                                      |
+| 13:00 - 17:30                                      |
+| 17:30 - 19:30                                      |
+| 19:30 - 20:15                                      |
+| 20:30 - 21:00                                      |
+| 21:00 - …                                          |
+| SUNDAY 24 August *chair Pavel Tomancak (again...)* |
+| 11:00 - 11:45                                      |
+| 11:45 - 12:15                                      |
+| 12:15 - 12:30                                      |
+| 12:30 - 13:30                                      |
+| 13:30 - 14:30                                      |
+| 13:00 - 18:00                                      |
+| 15:00 - 18:00                                      |
+| 18:00 - 20:00                                      |
+| 20:00 - 21:00                                      |
+| 21:00 - …                                          |
+| MONDAY 25 August                                   |
+| 9:00 - 9:30                                        |
+| 9:30 - 10:00                                       |
+| 10:00 - 10:30                                      |
+| 10:30 - 12:00                                      |
+| 11:00 - 12:00                                      |
+| 12:00 - 13:00                                      |
+| 13:00 - 14:00                                      |
+| 14:00 - 15:00                                      |
+| 15:00 - 16:00                                      |
+| 16:00 - 17:00                                      |
+| 17:00 - 18:00                                      |
+| 13:00 - 18:00                                      |
+| 18:00 - 19:00                                      |
+| 19:00 - 19:45                                      |
+| 20:00 - 20:30                                      |
+| 20:30 - 21:30                                      |
+| TUESDAY August 26                                  |
+| 9:00 - 9:30                                        |
+| 9:30 - 10:00                                       |
+| 10:00 - 10:30                                      |
+| 10:30 - 12:00                                      |
+| 12:00 - 13:00                                      |
+| 13:00 - 14:00                                      |
+| 13:00 - 17:30                                      |
+| 17:30 - 19:30                                      |
+| 19:30 - 20:15                                      |
+| 20:30 - 21:00                                      |
+| 21:00 - …                                          |
+| WEDNESDAY 27 August                                |
+| 9:00 - 9:30                                        |
+| 9:30 - 10:00                                       |
+| 10:00 - 10:30                                      |
+| 10:30 - 12:00                                      |
+| 12:00 - 13:00                                      |
+| 13:00 - 14:00                                      |
+| 13:00 - 18:00                                      |
+| 18:00 - 19:00                                      |
+| 19:00 - 19:45                                      |
+| 20:00 - 20:30                                      |
+| 21:00 - …                                          |
+| THURSDAY 28 August                                 |
+| 9:00 - 9:30                                        |
+| 9:30 - 10:00                                       |
+| 10:00 - 10:30                                      |
+| 10:30 - 12:00                                      |
+| 12:00 - 13:00                                      |
+| 14:00 - 14:30                                      |
+| 14:30 - 15:00                                      |
+| 15:00 - 17:00                                      |
+| 17:00 - 17:45                                      |
+| 18:00 - 22:00                                      |
+| FRIDAY August 29                                   |
+| 9:00 - 12:00                                       |
+| 12:00 - 13:00                                      |
+| 14:00 - 14:30                                      |
+| 14:30 - 15:00                                      |
+| 15:00 - 15:30                                      |
+| 15:30 - 16:00                                      |
+| 16:00 - 17:00                                      |
+| 17:00 -                                            |
+
+[Category:EMBO2014](Category:EMBO2014 "wikilink")

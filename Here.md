@@ -1,1 +1,2 @@
-#REDIRECT [[COS Heidelberg OpenSPIM]]
+1.  REDIRECT [COS Heidelberg
+    OpenSPIM](COS_Heidelberg_OpenSPIM "wikilink")

@@ -1,5 +1,8 @@
-Questions regarding OpenSPIM are best asked on the [https://forum.image.sc/ Image.sc Forum].
+Questions regarding OpenSPIM are best asked on the [Image.sc
+Forum](https://forum.image.sc/).
 
-----
+-----
 
-You can also [http://openspim.org/pipermail/openspim/ browse the archives] of the previous mailing list.
+You can also [browse the
+archives](http://openspim.org/pipermail/openspim/) of the previous
+mailing list.

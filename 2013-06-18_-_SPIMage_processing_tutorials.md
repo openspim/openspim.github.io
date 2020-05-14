@@ -1,19 +1,35 @@
-Integral part of SPIM imaging is data processing sometimes referred to as '''SPIMage processing'''. The OpenSPIM project relies on tight integration with [http://fiji.sc Fiji] where most of the algorithms for SPIMage processing have been implemented in the past.
+Integral part of SPIM imaging is data processing sometimes referred to
+as **SPIMage processing**. The OpenSPIM project relies on tight
+integration with [Fiji](http://fiji.sc) where most of the algorithms for
+SPIMage processing have been implemented in the past.
 
-We have assembled [[Operation#Data_processing|'''extensive tutorials''']] that will walk you through all the steps required to put multi-view SPIM data together.
+We have assembled [**extensive
+tutorials**](Operation#Data_processing "wikilink") that will walk you
+through all the steps required to put multi-view SPIM data together.
 
-* We start by defining [[Pre-requisites|'''System requirements''']] and downloading [[Raw_data|'''sample OpenSPIM data]],
-* followed by optional [[Pre-processing|'''pre-processing steps''']].
-* [[Registration|'''Multi-view registration''']] is at the heart of SPIMage processing pipeline.
-* [[Fusion|'''Multi-view Fusion''']] section discusses how to combine several view into one output image
-* [[Timelapse_Registration|'''Time series registration''']] removes the sample drift across long-term timelapse.
+  - We start by defining [**System
+    requirements**](Pre-requisites "wikilink") and downloading
+    ['''sample OpenSPIM data](Raw_data "wikilink"),
+  - followed by optional [**pre-processing
+    steps**](Pre-processing "wikilink").
+  - [**Multi-view registration**](Registration "wikilink") is at the
+    heart of SPIMage processing pipeline.
+  - [**Multi-view Fusion**](Fusion "wikilink") section discusses how to
+    combine several view into one output image
+  - [**Time series registration**](Timelapse_Registration "wikilink")
+    removes the sample drift across long-term timelapse.
 
-The pipeline is relatively linear as described above, we highlight the steps where [[Registration#Cross-road_in_SPIM_plugins|'''alternative routes exist''']].
+The pipeline is relatively linear as described above, we highlight the
+steps where [**alternative routes
+exist**](Registration#Cross-road_in_SPIM_plugins "wikilink").
 
+Theoretical principles of the methods involved are best described on the
+[SPIM pages of Fiji wiki](http://fiji.sc/SPIM_Registration).
 
-Theoretical principles of the methods involved are best described on the [http://fiji.sc/SPIM_Registration SPIM pages of Fiji wiki].
+The description of several steps of the SPIMage processing pipeline are
+still in the works. Particularly [**multi-view
+deconvolution**](Fusion#Deconvolution "wikilink"), [**data
+viewing**](Browsing "wikilink") and [**3D
+rendering**](3D_rendering "wikilink"). Stay tuned.
 
-  
-The description of several steps of the SPIMage processing pipeline are still in the works. Particularly [[Fusion#Deconvolution|'''multi-view deconvolution''']], [[Browsing|'''data viewing''']] and [[3D_rendering|'''3D rendering''']]. Stay tuned.
-
-[[Category:News]]
+[Category:News](Category:News "wikilink")

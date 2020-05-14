@@ -1,71 +1,97 @@
-The OpenSPIM Wiki supports running Ogg videos embedded in the Wiki pages. Although this is the most open, yet compact video format out there, most consumer cameras do not support writing it, so you have to convert the movies before uploading them to the Wiki.
+The OpenSPIM Wiki supports running Ogg videos embedded in the Wiki
+pages. Although this is the most open, yet compact video format out
+there, most consumer cameras do not support writing it, so you have to
+convert the movies before uploading them to the Wiki.
 
-= The easy way =
+# The easy way
 
-Just update Fiji from the OpenSPIM update site and click the ''File>Batch Convert Movies'' menu item. It will ask you for an input folder, where it expects only movies to be converted, and an output folder, where it will put the corresponding ''.ogv'' files.
+Just update Fiji from the OpenSPIM update site and click the
+*File\>Batch Convert Movies* menu item. It will ask you for an input
+folder, where it expects only movies to be converted, and an output
+folder, where it will put the corresponding *.ogv* files.
 
-= The tedious way =
+# The tedious way
 
-If you insist on using VLC manually to convert movies to ''.ogv'' format, you are certainly welcome to do that. Here is how:
+If you insist on using VLC manually to convert movies to *.ogv* format,
+you are certainly welcome to do that. Here is how:
 
-== Download ==
+## Download
 
-First download [http://www.videolan.org/index.html VLC]:
+First download [VLC](http://www.videolan.org/index.html):
 
-[[Image:Download-VLC.png|640px]]
+![Download-VLC.png](Download-VLC.png "Download-VLC.png")
 
-== Start VLC ==
+## Start VLC
 
-Now, start it from the Windows menu (make sure to use the unskinned one):
+Now, start it from the Windows menu (make sure to use the unskinned
+one):
 
-[[Image:Start-VLC.png|640px]]
+![Start-VLC.png](Start-VLC.png "Start-VLC.png")
 
-== Choose ''File>Convert/Save'' ==
-Choose ''Convert/Save'' from the ''Media'' menu:
+## Choose *File\>Convert/Save*
 
-[[Image:Start-VLC-Convert.png|640px]]
+Choose *Convert/Save* from the *Media* menu:
+
+![Start-VLC-Convert.png](Start-VLC-Convert.png "Start-VLC-Convert.png")
 
 Add the file you want to convert by clicking on the ''Add' button:
 
-[[Image:VLC-Add-Files.png|640px]]
+![VLC-Add-Files.png](VLC-Add-Files.png "VLC-Add-Files.png")
 
-=== Making an ''OpenSPIM Wiki'' profile ===
-If you have not done so yet, create a new profile for the format required by this Wiki (it is the right-most button, indicated by the arrow):
+### Making an *OpenSPIM Wiki* profile
 
-[[Image:VLC-New-Profile.png|640px]]
+If you have not done so yet, create a new profile for the format
+required by this Wiki (it is the right-most button, indicated by the
+arrow):
 
-Let's call the profile ''OpenSPIM Wiki'' (the input box at the top of the dialog). The encapsulation must be ''.ogg'' format:
+![VLC-New-Profile.png](VLC-New-Profile.png "VLC-New-Profile.png")
 
-[[Image:VLC-Profile-Encapsulation.png|640px]]
+Let's call the profile *OpenSPIM Wiki* (the input box at the top of the
+dialog). The encapsulation must be *.ogg* format:
 
-The codec should be Ogg/Theora (if you want, you can choose a different bit-rate, but it is not recommended):
+![VLC-Profile-Encapsulation.png](VLC-Profile-Encapsulation.png
+"VLC-Profile-Encapsulation.png")
 
-[[Image:VLC-Video-Codec.png|640px]]
+The codec should be Ogg/Theora (if you want, you can choose a different
+bit-rate, but it is not recommended):
 
-On this Wiki, we like movies that are 640 pixels wide. As VLC states in the comment, you can fill just one of the fields, the other are filled in automatically, so let's choose 640 pixels width:
+![VLC-Video-Codec.png](VLC-Video-Codec.png "VLC-Video-Codec.png")
 
-[[Image:VLC-Video-Resize.png|640px]]
+On this Wiki, we like movies that are 640 pixels wide. As VLC states in
+the comment, you can fill just one of the fields, the other are filled
+in automatically, so let's choose 640 pixels width:
+
+![VLC-Video-Resize.png](VLC-Video-Resize.png "VLC-Video-Resize.png")
 
 The audio codec should be Ogg/Vorbis:
 
-[[Image:VLC-Audio-Codec.png|640px]]
+![VLC-Audio-Codec.png](VLC-Audio-Codec.png "VLC-Audio-Codec.png")
 
-Typically, 8 kilohertz is not quite a pleasure to listen to, so let's go to 22 kilohertz sample rate:
+Typically, 8 kilohertz is not quite a pleasure to listen to, so let's go
+to 22 kilohertz sample rate:
 
-[[Image:VLC-Audio-Samplerate.png|640px]]
+![VLC-Audio-Samplerate.png](VLC-Audio-Samplerate.png
+"VLC-Audio-Samplerate.png")
 
-== Choose the Profile ==
-Even when you just created a profile, this is not selected by default, so make sure that the OpenSPIM Wiki Profile is active:
+## Choose the Profile
 
-[[Image:VLC-Choose-Profile.png|640px]]
+Even when you just created a profile, this is not selected by default,
+so make sure that the OpenSPIM Wiki Profile is active:
 
-= Choose the destination and start the conversion =
-Now you need to choose the destination (make sure that the file has the extension ''.ogg'', otherwise the Wiki might not grok it) and hit ''Start'':
+![VLC-Choose-Profile.png](VLC-Choose-Profile.png
+"VLC-Choose-Profile.png")
 
-[[Image:VLC-Choose-Destination.png|640px]]
+# Choose the destination and start the conversion
+
+Now you need to choose the destination (make sure that the file has the
+extension *.ogg*, otherwise the Wiki might not grok it) and hit *Start*:
+
+![VLC-Choose-Destination.png](VLC-Choose-Destination.png
+"VLC-Choose-Destination.png")
 
 Now wait until the conversion is finished:
 
-[[Image:VLC-Wait-Until-Finished.png|640px]]
+![VLC-Wait-Until-Finished.png](VLC-Wait-Until-Finished.png
+"VLC-Wait-Until-Finished.png")
 
-[[Category:Tutorials]]
+[Category:Tutorials](Category:Tutorials "wikilink")
