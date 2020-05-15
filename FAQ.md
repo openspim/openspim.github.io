@@ -55,33 +55,41 @@ child of a goal ticket in the *Relationship* box.
 In Fiji, run the command *Plugins\>Macros\>Startup Macros...* and add
 the following lines to the end:
 
-`macro AutoRun {`  
-`       run("Micro-Manager Studio");`  
-`}`
+```
+macro AutoRun {
+       run("Micro-Manager Studio");
+}
+```
 
 ## How do I autostart the OpenSPIM plugin when µManager starts up?
 
 If you want the SPIM plugin to be called everytime when Micro-Manager
 starts, add the following lines to the *Fiji.app/MMStartup.bsh* file:
 
-`setAccessibility(true);`  
-  
-`import org.micromanager.MMStudioMainFrame.PluginItem;`  
-`for (PluginItem plugin : gui.plugins_)`  
-`        if (plugin.className.equals("SPIMAcquisition")) {`  
-`                plugin.instantiate();`  
-`                plugin.plugin.show();`  
-`        }`
+```
+setAccessibility(true);
+
+import org.micromanager.MMStudioMainFrame.PluginItem;
+for (PluginItem plugin : gui.plugins_)
+        if (plugin.className.equals("SPIMAcquisition")) {
+                plugin.instantiate();
+                plugin.plugin.show();
+        }
+```
 
 ## How do I start µManager from the command-line?
 
 There are two ways, really. The Fiji way:
 
-`fiji-win32 --run Micro-Manager_Studio`
+```
+ImageJ-win32 --run Micro-Manager_Studio
+```
 
 Call the Studio directly, without first starting ImageJ:
 
-`fiji-win32 --main-class=org.micromanager.MMStudioMainFrame`
+```
+ImageJ-win32 --main-class=org.micromanager.MMStudioMainFrame
+```
 
 ## Can I run OpenSPIM with Windows 7 or 8?
 

@@ -18,13 +18,9 @@ be a great tool to study this, since other microscopes often require
 dechorionation which is quite difficult at these early stages and can
 easily harm the embryo. 
 
-1\. PGC-EGFP: Marks the first PGCs (3-4hpf visible for the first time)
+1\. PGC-EGFP: Marks the first PGCs (3-4hpf visible for the first time) - sample preparation described in Blaser et al. 2005
 
-`    - sample preparation described in Blaser et al. 2005`
-
-2\. Buc-EGFP: Bucky Ball protein tagged with GFP.
-
-`   - sample preparation described in Bontems et al. 2009`
+2\. Buc-EGFP: Bucky Ball protein tagged with GFP. - sample preparation described in Bontems et al. 2009
 
 ## Microscope description
 
