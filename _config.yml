@@ -10,10 +10,8 @@ twitter_username: openspim
 github_username:  openspim
 
 # Build settings
-markdown: kramdown
+markdown: GFM
 theme: minima
-kramdown:
-  input: GFM
 
 # Defaults
 defaults:
