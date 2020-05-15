@@ -1,0 +1,10 @@
+<ul class="gallery mw-gallery-traditional">
+		<li class="gallerybox" style="width: 435px"><div style="width: 435px">
+			<div class="thumb" style="width: 430px;"><div style="margin:88.5px auto;"><div class="mediaContainer" style="width:400px">
+				<object class="youtube-video" style="width: 560px; height: 315px; margin: 2px auto;" data="https://www.youtube.com/embed/{{ include.id }}"></object>
+      </div></div></div>
+			<div class="gallerytext">
+			<p>{{ include.caption }}</p>
+			</div>
+		</div></li>
+</ul>
