@@ -1,3 +1,5 @@
+---
+---
 Protocols and tips for preparing samples for light sheet microscopy.
 
 ## protocols

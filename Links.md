@@ -1,3 +1,5 @@
+---
+---
 OpenSPIM's software is based on the [Fiji](http://fiji.sc/),
 [ImageJ](http://imagej.net) and
 [Micro-Manager](http://micro-manager.org) projects. Micro-Manager is

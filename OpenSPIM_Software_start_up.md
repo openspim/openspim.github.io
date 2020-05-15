@@ -1,3 +1,5 @@
+---
+---
 1.  Launch Fiji using *OpenSPIM.app/ImageJ-win32.exe*.
 2.  Once Fiji has started, you can open µManager Studio from
     *Plugins\>Micro-Manager\>Micro-Manager Studio* (You can have it

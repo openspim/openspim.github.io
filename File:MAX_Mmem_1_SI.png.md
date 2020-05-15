@@ -1,3 +1,5 @@
+---
+---
 Cyphonautes larva of a bryozoan imaged in the Scanned Lightsheet SPIM
 (Myers SPIM at MPI-CBG Dresden). Samples were stained with Sytox Green
 (nuclei=magenta) and Phalloidin Alexa 647 (actin=green). Image was

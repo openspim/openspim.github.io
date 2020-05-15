@@ -1,3 +1,5 @@
+---
+---
 Strategies to implement a proper brightfield illumination in an
 OpenSPIM.
 

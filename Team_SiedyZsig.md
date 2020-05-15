@@ -1,3 +1,5 @@
+---
+---
 ## Projects
 
 ![200 px|thumb|Fusion of 12 registered views](Fusion.ogv

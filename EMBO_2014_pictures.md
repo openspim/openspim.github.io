@@ -1,3 +1,5 @@
+---
+---
 **Pictures from the course**
 
 ### Before

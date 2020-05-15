@@ -1,3 +1,5 @@
+---
+---
 **MediaWiki has been successfully installed.**
 
 Consult the \[//meta.wikimedia.org/wiki/Help:Contents User's Guide\] for

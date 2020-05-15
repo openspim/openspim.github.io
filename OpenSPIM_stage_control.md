@@ -1,3 +1,5 @@
+---
+---
 # Live Window
 
 Controlling the stage is accomplished primarily through µManager's live

@@ -1,3 +1,5 @@
+---
+---
 This page is about fluorescent beads, used as fiduciary markers for
 multi-view registration in light sheet microscopy.
 

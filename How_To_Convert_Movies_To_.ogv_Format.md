@@ -1,3 +1,5 @@
+---
+---
 The OpenSPIM Wiki supports running Ogg videos embedded in the Wiki
 pages. Although this is the most open, yet compact video format out
 there, most consumer cameras do not support writing it, so you have to

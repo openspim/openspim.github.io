@@ -1,3 +1,5 @@
+---
+---
 This page will walk you through aligning the light sheet from scratch.
 It is recommended that the detection axis be installed before putting
 the optics into place.

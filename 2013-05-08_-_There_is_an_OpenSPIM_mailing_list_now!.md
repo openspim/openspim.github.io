@@ -1,3 +1,5 @@
+---
+---
 The recommended way to contact the developers of the OpenSPIM platform
 has been long advertised as mailing to the address
 openspim@openspim.org. This continues to be the case.

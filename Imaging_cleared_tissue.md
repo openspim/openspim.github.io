@@ -1,3 +1,5 @@
+---
+---
 This page concerns optical tissue clearing (that is, rendering it
 transparent in order to image deeper) and imaging in a setup based on
 OpenSPIM.

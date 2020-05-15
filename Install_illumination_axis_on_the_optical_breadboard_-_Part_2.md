@@ -1,3 +1,5 @@
+---
+---
 After a rough [alignment of the laser](Alignment_of_laser "wikilink")
 you can continue with the installation of the refractive optics.
 

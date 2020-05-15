@@ -1,3 +1,5 @@
+---
+---
 # Camera issues
 
 ## I get the error that a core property is read-only?

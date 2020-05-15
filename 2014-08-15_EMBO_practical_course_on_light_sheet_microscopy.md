@@ -1,3 +1,5 @@
+---
+---
 From August 18th until August28th 2014 an [**EMBO practical course on
 light sheet microscopy**](http://events.embo.org/14-lsm/index.html) will
 be held in Dresden, Germany. The course hosts 17

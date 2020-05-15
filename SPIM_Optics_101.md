@@ -1,3 +1,5 @@
+---
+---
 This set of pages is intended to assemble a short introduction to the
 necessary principles of optics that allow you to understand how a SPIM
 works. This should also help when building, modifying or aligning a

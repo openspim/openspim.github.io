@@ -1,3 +1,5 @@
+---
+---
 One of the reasons for running the OpenSPIM project is to provide a
 platform for teaching light-sheet microscopy. At the end of March 2013
 we have brought OpenSPIM to an EMBO course in South Africa. Here are

@@ -1,3 +1,5 @@
+---
+---
 Comparison of different laser patterns in fixed bryozoan embryos. A, B
 Maximum intensity projection of a 16 cell stage embryo imaged with
 gaussian beam without (A) and with (B) structured illumination. C, D, E

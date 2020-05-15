@@ -1,3 +1,5 @@
+---
+---
 **Stephan Preibisch's** multiview deconvolution algorithm and the
 associated [**Fiji plugin**](http://fiji.sc/Multi-View_Deconvolution)
 was published at [Nature

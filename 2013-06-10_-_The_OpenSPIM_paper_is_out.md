@@ -1,3 +1,5 @@
+---
+---
 [OpenSPIM](http://www.nature.com/nmeth/journal/vaop/ncurrent/full/nmeth.2507.html)
 was published in Nature Methods, back to back with a paper on a similar
 project - the

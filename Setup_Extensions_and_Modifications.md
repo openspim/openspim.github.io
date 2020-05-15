@@ -1,3 +1,5 @@
+---
+---
 # Bright-field illumination
 
 Michael Redd from the Cell Imaging Core Facility at the University of

@@ -1,3 +1,5 @@
+---
+---
 In July 2013 we brought the OpenSPIM to a EMBO course on
 \[<http://events.embo.org/13-marine-devo/>|**Marine animal models in
 evolution & development**\] (MAMED) at Sven Lovén Centre for Marine

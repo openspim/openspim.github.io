@@ -1,3 +1,5 @@
+---
+---
 OpenSPIM's software is embedded into
 [µManager](http://micro-manager.org/) and [Fiji](http://fiji.sc/).
 

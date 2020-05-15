@@ -1,3 +1,5 @@
+---
+---
 Use a mirror mounted under 45° (as described
 [here](Light-sheet_Calibration#Tools_needed "wikilink")) to image the
 "side view" of your light sheet at a given position as a line onto your

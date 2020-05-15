@@ -1,3 +1,5 @@
+---
+---
 ## Principle of operation
 
 We assume that the camera is controlled by the computer via the API or

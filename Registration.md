@@ -1,3 +1,5 @@
+---
+---
 # Bead Based Registration
 
 The first step in the SPIMage processing pipeline, after [re-saving the

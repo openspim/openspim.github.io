@@ -1,3 +1,5 @@
+---
+---
 Now that we have assembled the OpenSPIM microscope it is time to start
 using it. We will need to prepare a sample, align the light sheet
 (Calibration), set-up the acquisition and process the data.

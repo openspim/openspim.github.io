@@ -1,3 +1,5 @@
+---
+---
 The flexibility of light sheet microscopes such as OpenSPIM allows for
 different configurations. The standard setup consists of one
 illumination arm ("1I") and one detection arm ("1D"). One can add a

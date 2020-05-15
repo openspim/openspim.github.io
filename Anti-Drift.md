@@ -1,3 +1,5 @@
+---
+---
 Anti-drift is the process of ensuring that the target of imaging remains
 within the field of view of the camera. Because the sample is prone to
 drift -- most commonly due to the agarose shrinking, but sometimes due

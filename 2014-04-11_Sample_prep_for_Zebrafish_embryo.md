@@ -1,3 +1,5 @@
+---
+---
 Michael Weber from Jan Huisken lab has put together a nice protocol page
 describing [preparation of zebrafish embryos for multi-view SPIM
 imaging](Zebrafish_embryo_sample_preparation "wikilink"). Lots of

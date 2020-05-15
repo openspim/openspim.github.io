@@ -1,3 +1,5 @@
+---
+---
 # Installing the OpenSPIM/Fiji package
 
 This is a [Fiji](http://fiji.sc/) package updated with the OpenSPIM

@@ -1,3 +1,5 @@
+---
+---
 # OpenSPIM publications
 
 Pitrone P. G., Schindelin J., Stuyvenberg L., Preibisch S., Weber M.;

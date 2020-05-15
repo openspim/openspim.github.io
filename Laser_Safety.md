@@ -1,3 +1,5 @@
+---
+---
 ![Laser Symbol](Laser-symbol-text.svg "Laser Symbol") The lasers used in
 OpenSPIMs are typically
 [class 3b](https://en.wikipedia.org/wiki/Laser_safety#Class_3B), which

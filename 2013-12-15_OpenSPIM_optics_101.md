@@ -1,3 +1,5 @@
+---
+---
 In order to build an OpenSPIM it is important to understand the optics
 principles behind its function and the role of the various components.
 **Jan Krieger** started assembling an excellent set of pages that do

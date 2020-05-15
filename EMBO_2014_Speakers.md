@@ -1,3 +1,5 @@
+---
+---
 The speakers of the [EMBO practical course Light sheet
 microscopy](EMBO_practical_course_Light_sheet_microscopy "wikilink")
 2014 in alphabetical order are:

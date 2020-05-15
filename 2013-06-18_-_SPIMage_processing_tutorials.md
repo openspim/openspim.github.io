@@ -1,3 +1,5 @@
+---
+---
 Integral part of SPIM imaging is data processing sometimes referred to
 as **SPIMage processing**. The OpenSPIM project relies on tight
 integration with [Fiji](http://fiji.sc) where most of the algorithms for
