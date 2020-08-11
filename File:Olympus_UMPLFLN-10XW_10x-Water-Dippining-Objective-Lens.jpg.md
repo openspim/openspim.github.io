@@ -1,3 +1,0 @@
----
----
-Illumination Objective

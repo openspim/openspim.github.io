@@ -17,7 +17,7 @@ Expression pattern of Csp-sGFP recorded with OpenSPIM
 {% include gallery-video id="4dqakO8LYCA" caption="
 Drosophila blastoderm stage embryo - deconvolved
 " %}
-{% include gallery-video id="1Db\_LumtHqk" caption="
+{% include gallery-video id="1Db_LumtHqk" caption="
 Drosophila blastoderm stage embryo - fused using content based fusion
 " %}
 {% include gallery-video id="BtsRl-3qHns" caption="
@@ -39,7 +39,7 @@ unprocessed
 ### Zebrafish
 
 {% include gallery-begin %}
-{% include gallery-image src="Zebrafish\_fused\_max\_gamma0.8.png" caption="
+{% include gallery-image src="Zebrafish_fused_max_gamma0.8.png" caption="
 Multi-position z-stack of a living 48 hpf Tg(Bactin:H2A-EGFP) zebrafish,
 stitched using the Grid/Collection Plugin in Fiji. Maximum intensity
 projection, gamma 0.8.

@@ -1,3 +1,0 @@
----
----
-Variable mechanical slit - metric

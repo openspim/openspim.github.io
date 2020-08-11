@@ -42,19 +42,18 @@ multiple angles (views).
 OpenSPIM is a platform to build, adapt and enhance SPIM technology. It is
 designed to be as accessible as possible:
 
-* [detailed, easy-to-follow build instructions](Step_by_step_assembly)
-* [off-the-shelf components and 3D-printed parts](Table_of_parts)
-* [Modular](Combined_OpenSPIM_buildup_looped.gif) and [extensible](Configurations) design
-* [completely open blueprints](Category:Hardware)
-* [completely Open Source](Category:Software)
+* [Detailed, easy-to-follow build instructions](Step_by_step_assembly)
+* [Off-the-shelf components and 3D-printed parts](Table_of_parts)
+* [Modular](images/Combined_OpenSPIM_buildup_looped.gif) and [extensible](Configurations) design
+* Completely open blueprints
+* Completely Open Source
 
 The build instructions are intended to allow scientists without prior knowledge
 in building optical systems to make their own OpenSPIM set-up. If a 3D printer
 is not readily available, the parts are designed to be easily machined by any
 competent work shop. The set-up is small enough to fit inside a
 [suitcase](images/SPIM_in_a_suitcase.jpg). The software is built on top of the
-Open Source projects [µManager](https://micro-manager.org/) and
-[Fiji](https://fiji.sc/).
+Open Source projects [µManager](https://micro-manager.org/) and [Fiji](https://fiji.sc/).
 
 OpenSPIM is designed to be maximally cost-effective allowing anyone to build an
 entry level system and further tweak it for the specific imaging needs.

@@ -1,3 +1,0 @@
----
----
-lens and parallel light

@@ -1,3 +1,0 @@
----
----
-  - slide for light sheet calibration

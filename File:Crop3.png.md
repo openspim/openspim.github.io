@@ -1,3 +1,0 @@
----
----
-for cropping-fusion tutorial

@@ -1,3 +1,0 @@
----
----
-for front page

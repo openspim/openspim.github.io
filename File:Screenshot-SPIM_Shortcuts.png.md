@@ -1,3 +1,0 @@
----
----
-Screenshot of ActionBar

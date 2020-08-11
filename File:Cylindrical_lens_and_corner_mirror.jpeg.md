@@ -1,3 +1,0 @@
----
----
-OpenSPIM glamour shot

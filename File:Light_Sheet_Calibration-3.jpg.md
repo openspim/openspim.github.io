@@ -1,3 +1,0 @@
----
----
-Under the stereoscope

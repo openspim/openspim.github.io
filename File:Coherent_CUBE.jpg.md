@@ -1,3 +1,0 @@
----
----
-Coherent CUBE diode laser

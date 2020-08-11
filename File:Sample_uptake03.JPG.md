@@ -1,4 +1,0 @@
----
----
-  - Sample mounting
-  - Michael Weber, Huisken lab, MPI-CBG Dresden

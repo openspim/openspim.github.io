@@ -1,3 +1,0 @@
----
----
-kinematic mirror mount

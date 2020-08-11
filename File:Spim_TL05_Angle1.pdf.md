@@ -1,3 +1,0 @@
----
----
-registration output 3

@@ -1,3 +1,0 @@
----
----
-PGCS\_temporal

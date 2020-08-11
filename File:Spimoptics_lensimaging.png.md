@@ -1,3 +1,0 @@
----
----
-imaging with a lens

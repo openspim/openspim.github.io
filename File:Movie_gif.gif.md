@@ -1,3 +1,0 @@
----
----
-Reconstruction of Drosophila Embryo
