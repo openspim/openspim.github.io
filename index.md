@@ -86,19 +86,18 @@ technology is imminently useful to biologists.
 
 # Building your own OpenSPIM
 
-  - [Table of Parts](Table_of_parts "wikilink")
-  - [Step by step assembly](Step_by_step_assembly "wikilink")
-  - [How to install](How_to_install "wikilink") the Micro-Manager
+  - [Table of Parts](Table_of_parts)
+  - [Step by step assembly](Step_by_step_assembly)
+  - [How to install](How_to_install) the Micro-Manager
     software with SPIM support.
-  - [How to operate](Operation "wikilink") OpenSPIM including sample
+  - [How to operate](Operation) OpenSPIM including sample
     preparation, calibration and data processing.
 
-Please feel free to put information about your system on [this
-page](Who_has_an_OpenSPIM? "wikilink")\!
+Please feel free to put information about your system on <a href="Who_has_an_OpenSPIM">this page</a>!
 
 # OpenSPIM data
 
-Check the [gallery](Gallery#OpenSPIM_data "wikilink") to see more\!
+Check the <a href="Gallery#OpenSPIM_data">gallery</a> to see more!
 
 ## MAMED EMBO course
 
@@ -140,5 +139,4 @@ transmitted light and fluorescence signal. Right: fluorescence signal.
 
 ## Twitter
 
-Follow OpenSPIM on Twitter for news on light sheet microscopy:
-[@OpenSPIM](https://twitter.com/openspim)
+Follow OpenSPIM on Twitter for news on light sheet microscopy: <a href="https://twitter.com/openspim">@OpenSPIM</a>

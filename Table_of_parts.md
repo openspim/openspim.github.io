@@ -11,7 +11,7 @@ with experience!!
 OpenSPIM systems, a link to write an email is beside all self made parts
 in the list below in the price column)
 
-<img src="images/Complete_reduced.jpg" style="height:50%;width:50%">
+<img src="images/Complete_reduced.jpg" width="60%">
 
 ## Illumination Parts List
 
@@ -49,8 +49,8 @@ Whichever wavelength &amp; mW is necessary for your experiments.<br/>
 <a href="http://www.vortranlaser.com/">VersaLase</a>
 </td>
 <td align="center">
-<img src="images/Laser_cube.jpg‎" style="height:70%;width:70%"><br/>
-<img src="images/versa-final-sm.jpg" style="height:70%;width:70%">  
+<img src="images/Laser_cube.jpg‎" width="70%"><br/>
+<img src="images/versa-final-sm.jpg" width="70%">  
 </td>
 <td align="center">1</td>
 <td align="center">~7000</td>
@@ -67,7 +67,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">Heatsink.step</a><br/>
 <a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">Heatsink.pdf</a>
 </td>
-<td align="center"><img src="images/Laser_heatsink.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/Laser_heatsink.jpg" width="70%"</td>
 <td align="center">1</td>
 <td align="center">70, <a href="mailto:wwwpfdecouk@gmail.com?Subject=Production%20of%20___%20laser%20heatsink%20for%20the%20OpenSPIM%20system">email vendor</a>
 </td>
@@ -81,7 +81,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <em>Note: for use in aligning the illumination beam path</em>
 </td>
 <td><a href="https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=3855&pn=DG05-1500-H1-MD#4816">DG05-1500-H1-MD</a></td>
-<td align="center"><img src="images/ThorLabs_DG05-1500-H1-MD_Alignment-Disk.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/ThorLabs_DG05-1500-H1-MD_Alignment-Disk.jpg" width="70%"</td>
 <td align="center">2</td>
 <td align="center">25</td>
 </tr>
@@ -104,7 +104,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <td align="center" bgcolor="pink">purchase</td>
 <td>The metric (M6 tapped 25 mm spacing) <strong>optical bread board</strong> that the OpenSPIM system is installed on</td>
 <td><a href="https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=159&pn=MB3045/M#1996">MB3045/M</a></td>
-<td align="center"><img src="images/ThorLabs_MB3045-M_Aluminum-Breadboard_300x450x12-7mm.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/ThorLabs_MB3045-M_Aluminum-Breadboard_300x450x12-7mm.jpg" width="70%"</td>
 <td align="center">1</td>
 <td align="center">185</td>
 </tr>
@@ -116,7 +116,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <em>plus 2x M6 x 12mm cap screws</em></td>
 <td><a href="https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=30&pn=RLA300/M#8294">RLA300/M</a></td>
 <td align="center">
-<img src="images/ThorLabs_RLA075-M_Meteric-Dovetail-Optical-Rail_Length=300mm.jpg" style="height:70%;width:70%">
+<img src="images/ThorLabs_RLA075-M_Meteric-Dovetail-Optical-Rail_Length=300mm.jpg" width="70%"
 </td>
 <td align="center">1</td>
 <td align="center">65</td>
@@ -128,7 +128,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <br/>
 <em>plus (at least) 2x M6 x 12mm cap screws for each</em></td>
 <td><a href="https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=30&pn=RLA150/M#8294">RLA150/M</a></td>
-<td align="center"><img src="images/ThorLabs_RLA075-M_Meteric-Dovetail-Optical-Rail_Length=150mm.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/ThorLabs_RLA075-M_Meteric-Dovetail-Optical-Rail_Length=150mm.jpg" width="70%"</td>
 <td align="center">2</td>
 <td align="center">35</td>
 </tr>
@@ -139,7 +139,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <br/>
 <em>plus 2x M6 x 12mm cap screws</em></td>
 <td><a href="https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=30&pn=RLA075/M#8294">RLA075/M</a></td>
-<td align="center"><img src="images/ThorLabs_RLA075-M_Meteric-Dovetail-Optical-Rail_Length=75mm.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/ThorLabs_RLA075-M_Meteric-Dovetail-Optical-Rail_Length=75mm.jpg" width="70%"</td>
 <td align="center">1</td>
 <td align="center">25</td>
 </tr>
@@ -150,7 +150,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <br/>
 <em><a href="https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=5894&pn=SD1#247">SD1</a> Can buy 1 but it wouldn't hurt to buy a 10 pack</em></td>
 <td><a href="https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=8295&pn=RC1#8296">RC1</a></td>
-<td align="center"><img src="images/ThorLabs_RC1-M_Rail-Carrier_for_Dovetail-Optical-Rail.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/ThorLabs_RC1-M_Rail-Carrier_for_Dovetail-Optical-Rail.jpg" width="70%"</td>
 <td align="center">8</td>
 <td align="center">20</td>
 </tr>
@@ -165,7 +165,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <td><a href="models/OpenSPIM_Stilt_Vertical-slit.STL">13.17 mm.stl</a><br/>
 <a href="models/OpenSPIM_Stilt_Vertical-slit.STEP">13.17 mm.step</a><br/>
 <a href="documents/Vertical-slit_rail-carrier_stilt_13-17mm.PDF">13.17 mm.pdf</a></td>
-<td align="center"><img src="images/OpenSPIM_Stilt_Vertical-slit.JPG" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/OpenSPIM_Stilt_Vertical-slit.JPG" width="70%"</td>
 <td align="center">1</td>
 <td align="center">35, <a href="mailto:wwwpfdecouk@gmail.com?&amp;Subject=Production%20of%20___%2013.17%20mm%20tall%20stilt%20for%20the%20vertical%20slit%20for%20the%20OpenSPIM%20system">email vendor</a></td>
 </tr>
@@ -174,7 +174,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <td align="center" bgcolor="pink">purchase</td>
 <td>Adjustable mechanical slit</td>
 <td><a href="https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=1465&pn=VA100/M#1465">VA100/M</a></td>
-<td align="center"><img src="images/ThorLabs_VA100-M_Adjustable-Mechanical-Slit_Metric.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/ThorLabs_VA100-M_Adjustable-Mechanical-Slit_Metric.jpg" width="70%"</td>
 <td align="center">1</td>
 <td align="center">220</td>
 </tr>
@@ -189,7 +189,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <td><a href="models/OpenSPIM_Stilt_1-2in-Lens.STL">14.95 mm.stl</a><br/>
 <a href="models/OpenSPIM_Stilt_1-2in-Lens.STEP">14.95 mm.step</a><br/>
 <a href="documents/OpenSPIM_Stilt_1-2in-Lens.PDF">14.95 mm.pdf</a></td>
-<td align="center"><img src="images/OpenSPIM_Stilt_1-2in-Lens.JPG" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/OpenSPIM_Stilt_1-2in-Lens.JPG" width="70%"</td>
 <td align="center">6</td>
 <td align="center">35, <a href="mailto:wwwpfdecouk@gmail.com?&amp;Subject=Production%20of%20___%2014.95%20mm%20tall%20stilt%20for%20the%20Ø1/2%20inch%20lensmount%20for%20the%20OpenSPIM%20system">email vendor</a></td>
 </tr>
@@ -198,7 +198,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <td align="center" bgcolor="pink">purchase</td>
 <td>Ø1/2" (Ø12.7 mm) optic mount</td>
 <td><a href="https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=1433&pn=LMR05/M#9543">LMR05/M</a></td>
-<td align="center"><img src="images/ThorLabs_LMR05-M_Lens-Mount_Dia=0-5in.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/ThorLabs_LMR05-M_Lens-Mount_Dia=0-5in.jpg" width="70%"</td>
 <td align="center">6</td>
 <td align="center">15</td>
 </tr>
@@ -211,7 +211,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <td><a href="models/OpenSPIM_Stilt_1-2in-Mirror.STL">5.5 mm.stl</a><br/>
 <a href="models/OpenSPIM_Stilt_1-2in-Mirror.STEP">5.5 mm.step</a><br/>
 <a href="documents/Mirror_rail-carrier_stilt_5-5mm.PDF">5.5 mm.pdf</a></td>
-<td align="center"><img src="images/OpenSPIM_Stilt_1-2in-Mirror.JPG" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/OpenSPIM_Stilt_1-2in-Mirror.JPG" width="70%"</td>
 <td align="center">2</td>
 <td align="center">35, <a href="mailto:wwwpfdecouk@gmail.com?&amp;Subject=Production%20of%20___%205.5%20mm%20mirror%20stilt%20for%20the%20Ø1%20inch%20mirrors%20on%20a%20slider%20for%20the%20OpenSPIM%20system">email vendor</a></td>
 </tr>
@@ -222,7 +222,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <br/>
 <em>Note: made from one of the RC1's</em></td>
 <td><a href="documents/MODIFIED_ThorLabs_RC1-M_Rail-Carrier_for_Dovetail-Optical-Rail.PDF">RC1 mod.pdf</a></td>
-<td align="center"><img src="images/MODIFIED_ThorLabs_RC1-M_Rail-Carrier_for_Dovetail-Optical-Rail-1.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/MODIFIED_ThorLabs_RC1-M_Rail-Carrier_for_Dovetail-Optical-Rail-1.jpg" width="70%"</td>
 <td align="center">1</td>
 <td align="center"> </td>
 </tr>
@@ -231,7 +231,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <td align="center" bgcolor="pink">purchase</td>
 <td>Metric Rotation Mount for Ø1" (Ø25.4 mm) optics, 360° Continuous or 15° Indexed Rotation</td>
 <td><a href="https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=246&pn=RSP1X15/M#3668">RSP1X15/M</a></td>
-<td align="center"><img src="images/ThorLabs_RSP1X15-M_Metric_Rotation-Mount_Dia=1in.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/ThorLabs_RSP1X15-M_Metric_Rotation-Mount_Dia=1in.jpg" width="70%"</td>
 <td align="center">1</td>
 <td align="center">110</td>
 </tr>
@@ -244,7 +244,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <td><a href="models/OpenSPIM_Stilt_1in-Mirror.STL">24.55 mm.stl</a><br/>
 <a href="models/OpenSPIM_Stilt_1in-Mirror.STEP">24.55 mm.step</a><br/>
 <a href="documents/OpenSPIM_Stilt_1in-Mirror.PDF">24.55 mm.pdf</a></td>
-<td align="center"><img src="images/OpenSPIM_Stilt_1in-Mirror.JPG" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/OpenSPIM_Stilt_1in-Mirror.JPG" width="70%"</td>
 <td align="center">1</td>
 <td align="center">35, <a href="mailto:wwwpfdecouk@gmail.com?&amp;Subject=Production%20of%20___%2024.55%20mm%20tall%20mirror%20stilt%20for%20the%20OpenSPIM%20system">email vendor</a></td>
 </tr>
@@ -256,7 +256,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <em>Note: it is recommended to use the K1-H for the 2 mirrors closest to the laser</em></td>
 <td><a href="https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=3912&pn=POLARIS-K1#4258">POLARIS-K1</a><br/>
 <a href="https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=3912&pn=POLARIS-K1-H#4258">POLARIS-K1-H</a></td>
-<td align="center"><img src="images/ThorLabs_POLARIS-K1_Kinematic-Mirror-Mount_Diameter=1in.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/ThorLabs_POLARIS-K1_Kinematic-Mirror-Mount_Diameter=1in.jpg" width="70%"</td>
 <td>3</td>
 <td>115</td>
 </tr>
@@ -282,7 +282,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <td><b>Ø1/2" (Ø12.7 mm) Achromatic Doublet</b>, SM05-Threaded Mount, <i>f</i> = 50 mm, ARC: 400 - 700 nm</td>
 <td><a href="https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=2696&pn=AC127-050-A-ML#3443">AC127-050-A-ML</a></td>
 <td align="center">
-<img src="images/ThorLabs_AC127-050-A-ML_Achromatic-Doublet_Dia=0-5in_F=50mm.jpg" style="height:50%;width:50%"></td>
+<img src="images/ThorLabs_AC127-050-A-ML_Achromatic-Doublet_Dia=0-5in_F=50mm.jpg" width="50%"></td>
 <td align="center">2</td>
 <td align="center">65</td>
 </tr>
@@ -291,7 +291,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <td align="center" bgcolor="pink">purchase</td>
 <td><b>Ø1/2" (Ø12.7 mm) Achromatic Doublet</b>, SM05-Threaded Mount, <i>f</i> = 25 mm, ARC: 400 - 700 nm</td>
 <td><a href="https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=2696&pn=AC127-025-A-ML#3443">AC127-025-A-ML</a></td>
-<td align="center"><img src="images/ThorLabs_AC127-025-A-ML_Achromatic-Doublet_Dia=0-5in_F=25mm.jpg" style="height:50%;width:50%"></td>
+<td align="center"><img src="images/ThorLabs_AC127-025-A-ML_Achromatic-Doublet_Dia=0-5in_F=25mm.jpg" width="50%"></td>
 <td align="center">2</td>
 <td align="center">65</td>
 </tr>
@@ -300,7 +300,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <td align="center" bgcolor="pink">purchase</td>
 <td><b>Ø1" (Ø25.4 mm) Cylindrical Achromat</b>, <i>f</i> = 50 mm, ARC: 350 - 700 nm</td>
 <td><a href="https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=5528&pn=ACY254-050-A#5530">ACY254-050-A</a></td>
-<td align="center"><img src="images/ThorLabs_ACY254-050-A_Cylindrical-Achromat_Dia=1in_f=50mm.jpg" style="height:50%;width:50%"></td>
+<td align="center"><img src="images/ThorLabs_ACY254-050-A_Cylindrical-Achromat_Dia=1in_f=50mm.jpg" width="50%"></td>
 <td align="center">1</td>
 <td align="center">315</td>
 </tr>
@@ -309,7 +309,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <td align="center" bgcolor="pink">purchase</td>
 <td>Water dipping <b>objective lens for illumination</b> (10x/0.3)</td>
 <td><a href="https://www.olympus-lifescience.com/en/objectives/detail/0-DIRECTORY%3A%3ADirFrontend-itemId.511706538.html">UMPLFLN 10XW"</a></td>
-<td align="center"><img src="images/Olympus_UMPLFLN-10XW_10x-Water-Dippining-Objective-Lens.jpg" style="height:50%;width:50%"></td>
+<td align="center"><img src="images/Olympus_UMPLFLN-10XW_10x-Water-Dippining-Objective-Lens.jpg" width="50%"></td>
 <td align="center">1</td>
 <td align="center">900</td>
 </tr>
@@ -336,7 +336,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <td><a href="models/OpenSPIM_SPIM-Chamber.STL">Sample Chamber.stl</a><br/>
 <a href="models/OpenSPIM_SPIM-Chamber.STEP">Sample Chamber.step</a><br/>
 <a href="documents/OpenSPIM_SPIM-Chamber.PDF">Sample Chamber.pdf</a></td>
-<td align="center"><img src="images/Sample_chamber.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/Sample_chamber.jpg" width="100%"</td>
 <td align="center">1</td>
 <td align="center"><a href="mailto:wwwpfdecouk@gmail.com?&amp;Subject=Production%20of%20___%20sample%20chamber%20for%20the%20OpenSPIM%20system">Email vendor</a>, 135</td>
 </tr>
@@ -347,7 +347,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <td><a href="models/OpenSPIM_SPIM-Chamber_Holder.STL">Chamber Holder.stl</a><br/>
 <a href="models/OpenSPIM_SPIM-Chamber_Holder.STEP">Chamber Holder.step</a><br/>
 <a href="documents/OpenSPIM_SPIM-Chamber_Holder.PDF">Chamber Holder.pdf</a></td>
-<td align="center"><img src="images/Sample_chamber_holder.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/Sample_chamber_holder.jpg" width="100%"</td>
 <td align="center">1</td>
 <td align="center">200, <a href="mailto:wwwpfdecouk@gmail.com?&amp;Subject=Production%20of%20___%20sample%20chamber%20base%20for%20the%20OpenSPIM%20system">email vendor</a></td>
 </tr>
@@ -359,7 +359,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <em>plus three M3 x 8 mm screws for each</em></td>
 <td><a href="models/OpenSPIM_SPIM-Chamber_Objective-Ring.STL">Objective Ring.stl</a><br/>
 <a href="documents/OpenSPIM_SPIM-Chamber_Objective-Ring.PDF">Objective Ring.pdf</a></td>
-<td align="center"><img src="images/Objective_ring.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/Objective_ring.jpg" width="100%"</td>
 <td align="center">2</td>
 <td align="center">70, <a href="mailto:wwwpfdecouk@gmail.com?&amp;Subject=Production%20of%20___%20objective%20holder%20ring%20for%20the%20OpenSPIM%20system">email vendor</a></td>
 </tr>
@@ -368,7 +368,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <td align="center" bgcolor="pink">purchase</td>
 <td>NBR 70 20x3 mm O-Ring - Creates a water tight seal around the Olympus water dipping objectives</td>
 <td><a href="https://lelebeck.de/1006.htm">1164</a></td>
-<td align="center"><img src="images/O_rings.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/O_rings.jpg" width="100%"</td>
 <td align="center">2</td>
 <td align="center">0.10</td>
 </tr>
@@ -379,7 +379,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <br/>
 <em>plus four M5 screws</em></td>
 <td><a href="documents/SampleChamber_X-OpenSPIM_Nikon10x40x.PDF">SampleChamber X-OpenSPIM Nikon10x40x.PDF</a></td>
-<td align="center"><img src="images/Sample_chamber_X-OpenSPIM.png" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/Sample_chamber_X-OpenSPIM.png" width="100%"</td>
 <td align="center">1</td>
 <td align="center"></td>
 </tr>
@@ -388,7 +388,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <td align="center" bgcolor="green">self made</td>
 <td><strong>metal holder</strong> for the acrylic X-OpenSPIM sample chamber</td>
 <td><a href="documents/SampleChamberHolder_X-OpenSPIM_Nikon10x40x.PDF">SampleChamberHolder X-OpenSPIM Nikon10x40x.PDF</a></td>
-<td align="center"><img src="images/Sample-chamber-holder.png" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/Sample-chamber-holder.png" width="100%"</td>
 <td align="center">1</td>
 <td align="center"></td>
 </tr>
@@ -399,7 +399,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <br/>
 <em>plus three M3 x 8 mm screws for each</em></td>
 <td><a href="documents/ObjectiveHolderRing_X-OpenSPIM_Nikon10x40x.PDF">ObjectiveHolderRing X-OpenSPIM Nikon10x40x.PDF</a></td>
-<td align="center"><img src="images/Objective-holder-ring.png" style="height:50%;width:50%"></td>
+<td align="center"><img src="images/Objective-holder-ring.png" width="100%"></td>
 <td align="center">1</td>
 <td align="center"></td>
 </tr>
@@ -422,7 +422,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <td align="center" bgcolor="pink">purchase</td>
 <td>Water dipping <b>objective lens for detection</b> (20x/0.5)</td>
 <td><a href="https://www.olympus-lifescience.com/en/objectives/detail/0-DIRECTORY%3A%3ADirFrontend-itemId.511706539.html">UMPLFLN 20XW</a></td>
-<td align="center"><img src="images/Olympus_UMPLFLN-20XW_20x-Water-Dippining-Objective-Lens.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/Olympus_UMPLFLN-20XW_20x-Water-Dippining-Objective-Lens.jpg" width="70%"</td>
 <td align="center">1</td>
 <td align="center">1650</td>
 </tr>
@@ -439,7 +439,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <a href="models/OpenSPIM_Detection-Axis-Holder_Top.STL">Top.stl</a><br/>
 <a href="models/OpenSPIM_Detection-Axis-Holder_Top.STEP">Top.step</a><br/>
 <a href="documents/OpenSPIM_Detection-Axis-Holder_Top.PDF">Top.pdf</a></td>
-<td align="center"><img src="images/Detectionaxis_holder.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/Detectionaxis_holder.jpg" width="70%"</td>
 <td align="center">1</td>
 <td align="center">50, <a href="mailto:wwwpfdecouk@gmail.com?&amp;Subject=Production%20of%20___%20detection%20axis%20holder%20top%20for%20the%20OpenSPIM%20system">Email vendor</a></td>
 </tr>
@@ -452,7 +452,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <td><a href="models/OpenSPIM_Infinity-Space.STL">infinity.stl</a><br/>
 <a href="models/OpenSPIM_Infinity-Space.STEP">infinity.step</a><br/>
 <a href="documents/OpenSPIM_Infinity-Space.PDF">infinity.pdf</a></td>
-<td align="center"><img src="images/Infinity_space.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/Infinity_space.jpg" width="70%"</td>
 <td align="center">1</td>
 <td align="center">70, <a href="mailto:wwwpfdecouk@gmail.com?&amp;Subject=Production%20of%20___%20detection%20axis%20holder%20base%20for%20the%20OpenSPIM%20system">Email vendor</a></td>
 </tr>
@@ -466,7 +466,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <br/>
 Make sure to get at least one good bandpass (FWHM 30-50 nm) and a longpass that block the illumination well</td>
 <td> </td>
-<td align="center"><img src="images/AHF_Fluorescent-Filter.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/AHF_Fluorescent-Filter.jpg" width="70%"</td>
 <td align="center"> </td>
 <td align="center">100-300</td>
 </tr>
@@ -486,7 +486,7 @@ Here are some companies who make Ø1" (Ø25.4 mm) microscopy filters:<br/>
 <a href="models/OpenSPIM_1in_Micro_Filter-Holder_Top.STL">Top.stl</a><br/>
 <a href="models/OpenSPIM_1in_Micro_Filter-Holder_Top.STEP">Top.step</a><br/>
 <a href="documents/OpenSPIM_1in_Micro_Filter-Holder_Top.PDF">Top.pdf</a></td>
-<td align="center"><img src="images/Filters_holders.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/Filters_holders.jpg" width="70%"</td>
 <td align="center">2</td>
 <td align="center">50, <a href="mailto:wwwpfdecouk@gmail.com?&amp;Subject=Production%20of%20___%20microscopy%20fluorescent%20filter%20top%20for%20the%20OpenSPIM%20system">email vendor</a></td>
 </tr>
@@ -503,7 +503,7 @@ Here are some companies who make Ø1" (Ø25.4 mm) microscopy filters:<br/>
 <a href="models/OpenSPIM_1-25in_Astro_Filter-Holder_Top.STL">Top.stl</a><br/>
 <a href="models/OpenSPIM_1-25in_Astro_Filter-Holder_Top.STEP">Top.step</a><br/>
 <a href="documents/OpenSPIM_1-25in_Astro_Filter-Holder_Top.PDF">Top.pdf</a></td>
-<td align="center"><img src="images/Astro_filterholder.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/Astro_filterholder.jpg" width="70%"</td>
 <td align="center">2</td>
 <td align="center">50, <a href="mailto:wwwpfdecouk@gmail.com?&amp;Subject=Production%20of%20___%20astronomy%20fluorescent%20filter%20top%20for%20the%20OpenSPIM%20system">email vendor</a></td>
 </tr>
@@ -512,7 +512,7 @@ Here are some companies who make Ø1" (Ø25.4 mm) microscopy filters:<br/>
 <td align="center" bgcolor="pink">purchase</td>
 <td><strong>Tube lens</strong> for Olympus detection objective</td>
 <td><a href="https://www.olympus-lifescience.com/en/oem-components/optical_module/">U-TLU</a></td>
-<td align="center"><img src="images/Olympos_tubelenss.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/Olympos_tubelenss.jpg" width="70%"</td>
 <td align="center">1</td>
 <td align="center">750</td>
 </tr>
@@ -521,7 +521,7 @@ Here are some companies who make Ø1" (Ø25.4 mm) microscopy filters:<br/>
 <td align="center" bgcolor="pink">purchase</td>
 <td><strong>ITL200 Tube lens</strong> for Nikon 40x detection objective (CFI Apochromat NIR 40X W)</td>
 <td><a href="documents/ITL200-AutoCADPDF.pdf">ITL200-AutoCADPDF.pdf</a></td>
-<td align="center"><img src="images/Itl-200.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/Itl-200.jpg" width="70%"</td>
 <td align="center">1</td>
 <td align="center">438,35</td>
 </tr>
@@ -530,7 +530,7 @@ Here are some companies who make Ø1" (Ø25.4 mm) microscopy filters:<br/>
 <td align="center" bgcolor="green">self made</td>
 <td><strong>ITL200 tube lens adapter</strong> for Nikon 40x detection objective (CFI Apochromat NIR 40X W)</td>
 <td><a html="Tube_Lens_adapter_for_Nikon.pdf">Tube_Lens_adapter_for_Nikon.pdf</a></td>
-<td align="center"><img src="images/ITL200_tube-lens-adapter_Nikon40x.png" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/ITL200_tube-lens-adapter_Nikon40x.png" width="70%"</td>
 <td align="center">1</td>
 <td align="center"></td>
 </tr>
@@ -539,7 +539,7 @@ Here are some companies who make Ø1" (Ø25.4 mm) microscopy filters:<br/>
 <td align="center" bgcolor="pink">purchase</td>
 <td>1x magnifying <strong>camera mount</strong></td>
 <td><a href="https://www.olympus-lifescience.com">U-TV1 X &amp; U-CMAD3</a></td>
-<td align="center"><img src="images/OneX_c-mount.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/OneX_c-mount.jpg" width="70%"</td>
 <td align="center">1</td>
 <td align="center">70<br/>
 140</td>
@@ -549,7 +549,7 @@ Here are some companies who make Ø1" (Ø25.4 mm) microscopy filters:<br/>
 <td align="center" bgcolor="pink">purchase</td>
 <td>0.5x magnifying <strong>camera mount</strong></td>
 <td><a href="https://www.olympus-lifescience.com">U-TV0.5XC-3</a></td>
-<td align="center"><img src="images/Point5X.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/Point5X.jpg" width="70%"</td>
 <td align="center">1</td>
 <td align="center">425</td>
 </tr>
@@ -574,7 +574,7 @@ Here are some companies who make Ø1" (Ø25.4 mm) microscopy filters:<br/>
 <br/>
 <em>Includes 4 motors assembled on a base plate, sample positioning arm, 5 M3 screws to bolt the sample positioning arm onto the motor assembly</em></td>
 <td>USB-4D-Stage</td>
-<td align="center"><img src="images/4d_motorsystem.jpg" style="height:50%;width:50%"></td>
+<td align="center"><img src="images/4d_motorsystem.jpg" width="50%"></td>
 <td align="center">1</td>
 <td align="center">4260 USD, <a href="mailto:jdepatie@picard-industries.com&amp;Subject=Production%20of%20___%20USB%204D%20Motor%20system%20for%20the%20OpenSPIM%20system">email vendor"</a></td>
 </tr>
@@ -587,7 +587,7 @@ Here are some companies who make Ø1" (Ø25.4 mm) microscopy filters:<br/>
 <br/>
 <a href="models/OpenSPIM_Motor_Pully.STL">motor.stl</a><br/>
 <a href="documents/OpenSPIM_Motor_Pully.PDF">motor.pdf</a></td>
-<td align="center"><img src="images/Pulleys.jpg" style="height:50%;width:50%"></td>
+<td align="center"><img src="images/Pulleys.jpg" width="50%"</td>
 <td align="center">1 each</td>
 <td align="center"> </td>
 </tr>
@@ -596,7 +596,7 @@ Here are some companies who make Ø1" (Ø25.4 mm) microscopy filters:<br/>
 <td align="center" bgcolor="pink">purchase</td>
 <td>O-ring or rubber band for the rotation pulley</td>
 <td>any</td>
-<td align="center"><img src="images/Assembled_motorsystem_green_top.jpg" style="height:50%;width:50%"></td>
+<td align="center"><img src="images/Assembled_motorsystem_green_top.jpg" width="50%"</td>
 <td align="center">1</td>
 <td align="center"> </td>
 </tr>
@@ -607,7 +607,7 @@ Here are some companies who make Ø1" (Ø25.4 mm) microscopy filters:<br/>
 <br/>
 <em>Note: shown inserted inside the sample positioning arm</em></td>
 <td><a href="https://de.rs-online.com/web/p/kugellager/4090057/">NSK 6001Z</a></td>
-<td align="center"><img src="images/Ballbearing_pulley.jpg" style="height:50%;width:50%"></td>
+<td align="center"><img src="images/Ballbearing_pulley.jpg" width="50%"</td>
 <td align="center">1</td>
 <td align="center"> </td>
 </tr>
@@ -620,7 +620,7 @@ Variable Height Clamp, Metric, M6 Tapped</td>
 <td><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=CL3/M">CL3/M 2"</a><br/>
 <br/>
 <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=CL2/M">CL2/M 3"</a></td>
-<td align="center"><img src="images/Table_Clamp.jpg" style="height:50%;width:50%"></td>
+<td align="center"><img src="images/Table_Clamp.jpg" width="50%"</td>
 <td align="center">2-3</td>
 <td align="center">9</td>
 </tr>
@@ -645,7 +645,7 @@ Variable Height Clamp, Metric, M6 Tapped</td>
 <br/>
 <em>Note: We are forced to use Windows due to availability of drivers, and the MacBook Pro for it's firewire jack</em></td>
 <td><a href="https://www.apple.com">Mac Book Pro</a></td>
-<td align="center"><img src="images/Computer.jpg" style="height:50%;width:50%"></td>
+<td align="center"><img src="images/Computer.jpg" width="50%"</td>
 <td align="center">1</td>
 <td align="center"> </td>
 </tr>
@@ -672,9 +672,9 @@ pco.edge 4.2 sCMOS</td>
 <br/>
 <a href="https://www.pco.de/scmos-cameras/pcoedge-42/">pco.edge 4.2</a></td>
 <td align="center">
-<img src="images/Zyla.png" style="height:50%;width:50%"><br/>
-<img src="images/Flash4_lt.jpg" style="height:50%;width:50%"><br/>
-<img src="images/Pco_edge_sCMOS.jpg" style="height:50%;width:50%">
+<img src="images/Zyla.png" width="50%"><br/>
+<img src="images/Flash4_lt.jpg" width="50%"><br/>
+<img src="images/Pco_edge_sCMOS.jpg" width="50%">
 </td>
 <td align="center">1</td>
 <td align="center">Ask for quote</td>
@@ -684,7 +684,7 @@ pco.edge 4.2 sCMOS</td>
 <td align="center" bgcolor="pink">purchase</td>
 <td><strong>USB to serial adaptor</strong> for the laser</td>
 <td><a href="https://www.tripplite.com/en/products/model.cfm?txtModelID=3914">TRIPP-LITE Model-USA-19HS</a></td>
-<td align="center"><img src="images/Keyspan.jpg" style="height:50%;width:50%"></td>
+<td align="center"><img src="images/Keyspan.jpg" width="50%"></td>
 <td align="center">1</td>
 <td align="center">50</td>
 </tr>
@@ -693,7 +693,7 @@ pco.edge 4.2 sCMOS</td>
 <td align="center" bgcolor="pink">purchase</td>
 <td><strong>USB cables</strong> for the 4D positioning system and USB hub (at minimum 5 USB positions)</td>
 <td> </td>
-<td align="center"><img src="images/Usb_cables.jpg" style="height:70%;width:70%"></td>
+<td align="center"><img src="images/Usb_cables.jpg" width="70%"></td>
 <td align="center">4 &amp; 1</td>
 <td align="center"> </td>
 </tr>
@@ -702,7 +702,7 @@ pco.edge 4.2 sCMOS</td>
 <td align="center" bgcolor="pink">purchase</td>
 <td>USB led <strong>lamp</strong> for brightfield illumination of the sample during set-up</td>
 <td><a href="https://www.conrad.de/ce/de/product/775534/USB-LED-LAMPE-SCHWANENHALS-MIT-1-LED/SHOP_AREA_40124&amp;promotionareaSearchDetail=005">Conrad electronics</a></td>
-<td align="center"><img src="images/Usb_led.jpg" style="height:50%;width:50%"></td>
+<td align="center"><img src="images/Usb_led.jpg" width="50%"></td>
 <td align="center">1</td>
 <td align="center">6</td>
 </tr>
@@ -726,7 +726,7 @@ pco.edge 4.2 sCMOS</td>
 <td align="center" bgcolor="pink">purchase</td>
 <td>M4 Cap Screw and Hardware Kit</td>
 <td><a href="https://www.thorlabs.de/thorProduct.cfm?partNumber=HW-KIT1/M">HW-KIT1/M</a></td>
-<td align="center"><img src="images/ThorLabs_HW-KIT2-M_M6-Capscrew-set.jpg" style="height:35%;width:35%"></td>
+<td align="center"><img src="images/ThorLabs_HW-KIT2-M_M6-Capscrew-set.jpg" width="35%"></td>
 <td align="center">1</td>
 <td align="center">50</td>
 </tr>
@@ -735,7 +735,7 @@ pco.edge 4.2 sCMOS</td>
 <td align="center" bgcolor="pink">purchase</td>
 <td>M6 Cap Screw and Hardware Kit</td>
 <td><a href="https://www.thorlabs.de/thorProduct.cfm?partNumber=HW-KIT2/M">HW-KIT2/M</a></td>
-<td align="center"><img src="images/ThorLabs_HW-KIT1-M_M4-Capscrew-set.jpg" style="height:35%;width:35%"></td>
+<td align="center"><img src="images/ThorLabs_HW-KIT1-M_M4-Capscrew-set.jpg" width="35%"></td>
 <td align="center">1</td>
 <td align="center">95</td>
 </tr>
@@ -748,7 +748,7 @@ purchase<br/>
 <td>SM1 Spanner Wrench</td>
 <td>
 <a href="https://www.thorlabs.de/thorProduct.cfm?partNumber=SPW602">SPW602</a> or <a href="https://www.thorlabs.de/thorProduct.cfm?partNumber=SPW606">SPW606</a></td>
-<td align="center"><img src="images/ThorLabs_SPW606.jpg" style="height:35%;width:35%"></td>
+<td align="center"><img src="images/ThorLabs_SPW606.jpg" width="35%"></td>
 <td align="center">1</td>
 <td align="center">25</td>
 </tr>
