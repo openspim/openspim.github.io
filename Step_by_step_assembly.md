@@ -27,15 +27,14 @@ contact.
 Before you start to assemble please make sure you have all <a href="Table_of_parts">needed
 parts</a> or you know how to improvise them. The
 light path of our original design is 50 mm off the top surface of the
-ThorLabs metric optical breadboard (part #: MB3045/M) where everything
-is installed.
+ThorLabs metric optical breadboard (part #: MB3045/M) where everything is installed.
 
 <b><span style="color:#FF0000"> The optical breadboard has a length of
 300 mm and a width of 450 mm, with a grid of 12 x 18 M6 threaded holes
 spaced 25 mm apart from one another. We will use a coordinate system
 similar to a spreadsheet </span></b>(like OpenOffice Calc or Microsoft
 Excel)<b><span style="color:#FF0000"> to make it easier to know where
-each component and capscrew is positioned. Starting with A1 in the upper
+each component and cap screw is positioned. Starting with A1 in the upper
 left corner </span></b>(as seen in the
 images)<b><span style="color:#FF0000">, and ending with R12 in the lower
 right.</span></b>
@@ -45,71 +44,154 @@ corresponding images, the documentation was done in two different
 locations months apart from each other and small design changes happened
 in between.
 
-  - <a href="Assemble_purchased_components">Assemble purchased components</a>
-  - [Install assembled ThorLabs components on rail
-    carriers](Install_assembled_ThorLabs_components_on_rail_carriers)
-  - [Install illumination axis on the optical breadboard - Part
-    1](Install_illumination_axis_on_the_optical_breadboard_-_Part_1)
+  - [Assemble purchased components](Assemble_purchased_components)
+  - [Install assembled ThorLabs components on rail carriers](Install_assembled_ThorLabs_components_on_rail_carriers)
+  - [Install illumination axis on the optical breadboard - Part 1](Install_illumination_axis_on_the_optical_breadboard_-_Part_1)
   - [Alignment of laser](Alignment_of_laser)
-  - [Install illumination axis on the optical breadboard - Part
-    2](Install_illumination_axis_on_the_optical_breadboard_-_Part_2)
-  - [Install detection axis on the optical
-    breadboard](Install_detection_axis_on_the_optical_breadboard)
-  - [Install the 4D motor
-    system](Install_the_4D_motor_system)
-  - [Install cables and connect
-    computer](Install_cables_and_connect_computer)
+  - [Install illumination axis on the optical breadboard - Part 2](Install_illumination_axis_on_the_optical_breadboard_-_Part_2)
+  - [Install detection axis on the optical breadboard](Install_detection_axis_on_the_optical_breadboard)
+  - [Install the 4D motor system](Install_the_4D_motor_system)
+  - [Install cables and connect computer](Install_cables_and_connect_computer)
 
-There is a short introduction to the optics of a SPIM available as the
-[SPIM Optics 101](SPIM_Optics_101). This will also give
-practical hints for optics alignment and laser safety.
+There is a short introduction to the optics of a SPIM available as the [SPIM Optics 101](SPIM_Optics_101). This will also give practical hints for optics alignment and laser safety.
 
 ## Assembly overview
 
-![OpenSPIM buildup SolidWorks and
-real](Combined_solidworks_real_registered_640.gif
-"OpenSPIM buildup SolidWorks and real")
+[OpenSPIM buildup SolidWorks and real](images/Combined_solidworks_real_registered_640.gif "OpenSPIM buildup SolidWorks and real")
 
-| Step                                    | Description                                                                                                                                                     | SolidWorks rendering                                                                                                         | Real picture                                | Video tutorial                                                                                                                                                                                              |
-| --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1**                                   | [Install corner mirror](Install_illumination_axis_on_the_optical_breadboard_-_Part_1#Install_1"_mirror_assembly_and_its_spacer_post)                 | {% include image src="02a.jpg" width="400" height="95" %}
-[thumb|center](file:02a.jpg)                                                                                      | [thumb|center](file:Real_02.jpg) | ![Assembly\_Large-Mirror-Mount\_to\_Optical-Breadboard.ogv](Assembly_Large-Mirror-Mount_to_Optical-Breadboard.ogv "Assembly_Large-Mirror-Mount_to_Optical-Breadboard.ogv")                                  |
-|                                         |                                                                                                                                                                 |                                                                                                                              |                                             |                                                                                                                                                                                                             |
-| **2**                                   | [Install laser heatsink](Install_illumination_axis_on_the_optical_breadboard_-_Part_1#Install_the_CUBE_laser_heatsink)                               | [thumb|center](file:03a.jpg)                                                                                      | [thumb|center](file:Real_03.jpg) | ![Installation\_Laser-w-Heatsink\_to\_Optical-Breadboard\_Take-2.ogv](Installation_Laser-w-Heatsink_to_Optical-Breadboard_Take-2.ogv "Installation_Laser-w-Heatsink_to_Optical-Breadboard_Take-2.ogv")      |
-|                                         |                                                                                                                                                                 |                                                                                                                              |                                             |                                                                                                                                                                                                             |
-| **3**                                   | [Install laser](Install_illumination_axis_on_the_optical_breadboard_-_Part_1#Mount_the_laser_on_the_laser_heat_sink)                                 | [thumb|center](file:04a.jpg)                                                                                      | [thumb|center](file:Real_04.jpg) | ![Installing\_the\_laser\_onto\_laser\_base.ogv](Installing_the_laser_onto_laser_base.ogv "Installing_the_laser_onto_laser_base.ogv")                                                                       |
-|                                         |                                                                                                                                                                 |                                                                                                                              |                                             |                                                                                                                                                                                                             |
-| **4**                                   | [Installing rails](Install_illumination_axis_on_the_optical_breadboard_-_Part_1#Mount_dovetail_rails_onto_optical_breadboard)                        | [thumb|center](file:05a.jpg)                                                                                      | [thumb|center](file:Real_05.jpg) | ![Assembly\_Dovetail-Rails\_to\_Optical-Breadboard.ogv](Assembly_Dovetail-Rails_to_Optical-Breadboard.ogv "Assembly_Dovetail-Rails_to_Optical-Breadboard.ogv")                                              |
-|                                         |                                                                                                                                                                 |                                                                                                                              |                                             |                                                                                                                                                                                                             |
-| **5**                                   | [Installing laser bouncing mirrors](Install_illumination_axis_on_the_optical_breadboard_-_Part_1#Install_both_1/2"_mirror_assemblies_on_rail_system) | [thumb|center](file:06a.jpg)                                                                                      | [thumb|center](file:Real_06.jpg) | ![Installation\_Small-Mirror-Assemblies\_to\_Dovetail-Rail-System.ogv](Installation_Small-Mirror-Assemblies_to_Dovetail-Rail-System.ogv "Installation_Small-Mirror-Assemblies_to_Dovetail-Rail-System.ogv") |
-|                                         |                                                                                                                                                                 |                                                                                                                              |                                             |                                                                                                                                                                                                             |
-| **6**                                   | [Installing sample chamber](Install_illumination_axis_on_the_optical_breadboard_-_Part_1#Install_the_OpenSPIM_chamber)                               | [thumb|center](file:07a.jpg)                                                                                      | [thumb|center](file:Real_07.jpg) | ![Installation\_SPIM-Chamber-Assembly\_to\_Dovetail-Rail-System.ogv](Installation_SPIM-Chamber-Assembly_to_Dovetail-Rail-System.ogv "Installation_SPIM-Chamber-Assembly_to_Dovetail-Rail-System.ogv")       |
-|                                         |                                                                                                                                                                 |                                                                                                                              |                                             |                                                                                                                                                                                                             |
-| **7**                                   | [Align the laser](Alignment_of_laser)                                                                                                                |                                                                                                                              |                                             | ![Laser\_Alignment.ogv](Laser_Alignment.ogv "Laser_Alignment.ogv")                                                                                                                                          |
-|                                         |                                                                                                                                                                 |                                                                                                                              |                                             |                                                                                                                                                                                                             |
-| **8**                                   | [Installing beam expander](Install_illumination_axis_on_the_optical_breadboard_-_Part_2#Assembling_the_beam_expander)                                | [thumb|center](file:08a.jpg)                                                                                      | [thumb|center](file:Real_08.jpg) | ![Installation\_Beam\_Expander.ogv](Installation_Beam_Expander.ogv "Installation_Beam_Expander.ogv")                                                                                                        |
-|                                         |                                                                                                                                                                 |                                                                                                                              |                                             |                                                                                                                                                                                                             |
-| [thumb|center](file:09a.jpg) | [thumb|center](file:Real_09.jpg)                                                                                                                     |                                                                                                                              |                                             |                                                                                                                                                                                                             |
-|                                         |                                                                                                                                                                 |                                                                                                                              |                                             |                                                                                                                                                                                                             |
-| **9**                                   | [Installing cylindrical lens](Install_illumination_axis_on_the_optical_breadboard_-_Part_2#Install_the_cylindrical_lens_in_it's_proper_place)        | [thumb|center](file:10a.jpg)                                                                                      | [thumb|center](file:Real_10.jpg) | ![Installation\_Cylindrical\_Lens.ogv](Installation_Cylindrical_Lens.ogv "Installation_Cylindrical_Lens.ogv")                                                                                               |
-|                                         |                                                                                                                                                                 |                                                                                                                              |                                             |                                                                                                                                                                                                             |
-| **10**                                  | [Installing vertical slit](Install_illumination_axis_on_the_optical_breadboard_-_Part_2#Install_the_vertical_slit_in_it's_proper_place)              | [thumb|center](file:11a.jpg)                                                                                      | [thumb|center](file:Real_11.jpg) | ![Installation\_Vertical\_Slit.ogv](Installation_Vertical_Slit.ogv "Installation_Vertical_Slit.ogv")                                                                                                        |
-|                                         |                                                                                                                                                                 |                                                                                                                              |                                             |                                                                                                                                                                                                             |
-| **11**                                  | [Installing the telescope](Install_illumination_axis_on_the_optical_breadboard_-_Part_2#Assembling_the_telescope)                                    | [thumb|center](file:12a.jpg)                                                                                      | [thumb|center](file:Real_12.jpg) | ![Installation\_Telescope\_Take-3.ogv](Installation_Telescope_Take-3.ogv "Installation_Telescope_Take-3.ogv")                                                                                               |
-|                                         |                                                                                                                                                                 |                                                                                                                              |                                             |                                                                                                                                                                                                             |
-| [thumb|center](file:13a.jpg) | [thumb|center](file:Real_13.jpg)                                                                                                                     |                                                                                                                              |                                             |                                                                                                                                                                                                             |
-|                                         |                                                                                                                                                                 |                                                                                                                              |                                             |                                                                                                                                                                                                             |
-| **12**                                  | [Installing the detection axis](Install_detection_axis_on_the_optical_breadboard#Assembly_of_detection_axis)                                         | [thumb|center](file:14a.jpg)                                                                                      | [thumb|center](file:Real_14.jpg) | ![Installation\_Detection-Axis\_Holder-Base.ogv](Installation_Detection-Axis_Holder-Base.ogv "Installation_Detection-Axis_Holder-Base.ogv")                                                                 |
-|                                         |                                                                                                                                                                 |                                                                                                                              |                                             |                                                                                                                                                                                                             |
-| [thumb|center](file:15a.jpg) | [thumb|center](file:Real_15.jpg)                                                                                                                     | ![Installation\_Detection-Axis\_Take-2.ogv](Installation_Detection-Axis_Take-2.ogv "Installation_Detection-Axis_Take-2.ogv") |                                             |                                                                                                                                                                                                             |
-|                                         |                                                                                                                                                                 |                                                                                                                              |                                             |                                                                                                                                                                                                             |
-| **13**                                  | [Installing the camera](Install_detection_axis_on_the_optical_breadboard#Camera_installation)                                                        | [thumb|center](file:16a.jpg)                                                                                      | [thumb|center](file:Real_16.jpg) | ![Installation\_Detection-Axis\_Holder-Base.ogv](Installation_Detection-Axis_Holder-Base.ogv "Installation_Detection-Axis_Holder-Base.ogv")                                                                 |
-|                                         |                                                                                                                                                                 |                                                                                                                              |                                             |                                                                                                                                                                                                             |
-| [thumb|center](file:17a.jpg) | [thumb|center](file:Real_17.jpg)                                                                                                                     |                                                                                                                              |                                             |                                                                                                                                                                                                             |
-|                                         |                                                                                                                                                                 |                                                                                                                              |                                             |                                                                                                                                                                                                             |
-| **14**                                  | [Installing the 4D motor system](Install_the_4D_motor_system)                                                                                        | [thumb|center](file:18a.jpg)                                                                                      | [thumb|center](file:Real_18.jpg) | ![Installation\_4D-Motors.ogv](Installation_4D-Motors.ogv "Installation_4D-Motors.ogv")                                                                                                                     |
-|                                         |                                                                                                                                                                 |                                                                                                                              |                                             |                                                                                                                                                                                                             |
+<table>
+<tr>
+<th width="30" align="center">Step</th>
+<th align="center">Description</th>
+<th align="center">SolidWorks rendering</th>
+<th align="center">Real Picture</th>
+<th align="center">Video Tutorial</th>
+</tr>
+<tr bgcolor="lightgray">
+<td align="center"><b>1</b></td>
+<td align="center"><a href="Install_illumination_axis_on_the_optical_breadboard_-_Part_1#Install_1"_mirror_assembly_and_its_spacer_post">Install corner mirror</a></td>
+<td align="center"><img src="images/02a.jpg" width="50%"></td>
+<td align="center"><img src="images/Real_02.jpg" width="100%"></td>
+<td align="center"><a href="https://youtu.be/IU9aeoVezRY"</a>Installing large mirror mount on the optical breadboard</a></td>
+</tr>
+<tr>
+<td align="center"><b>2</b></td>
+<td align="center"><a href="Install_illumination_axis_on_the_optical_breadboard_-_Part_1#Install_the_CUBE_laser_heatsink">Install laser heatsink</a></td>
+<td align="center"><img src="images/03a.jpg" width="50%"></td>
+<td align="center"><img src="images/Real_03.jpg" width="100%"></td>
+<td align="center"><a href="https://youtu.be/2Yq3PTbr9sU"</a>Installing laser with heatsink on the optical breadboard</a></td>
+</tr>
+<tr bgcolor="lightgray">
+<td align="center"><b>3<b></td>
+<td align="center"><a href="Install_illumination_axis_on_the_optical_breadboard_-_Part_1#Mount_the_laser_on_the_laser_heat_sink">Install laser</a></td>
+<td align="center"><img src="images/04a.jpg" width="50%"></td>
+<td align="center"><img src="images/Real_04.jpg" width="100%"></td>
+<td align="center"><a href="https://youtu.be/EWHls5ALmwY">Installing laser onto the laser base</a></td>
+</tr>
+<tr>
+<td align="center"><b>4<b></td>
+<td align="center"><a href="Install_illumination_axis_on_the_optical_breadboard_-_Part_1#Mount_dovetail_rails_onto_optical_breadboard)">Installing rails"</a></td>
+<td align="center"><img src="images/05a.jpg" width="50%"></td>
+<td align="center"><img src="images/Real_05.jpg" width="100%"></td>
+<td align="center"><a href="https://youtu.be/v6zzWuyd0JE">Installing dovetail rails onto the optical breadboard]</a></td>
+</tr>
+<tr bgcolor="lightgray">
+<td align="center"><b>5<b></td>
+<td align="center"><a href="Install_illumination_axis_on_the_optical_breadboard_-_Part_1#Install_both_1/2"_mirror_assemblies_on_rail_system)">Installing laser bouncing mirrors</a></td>
+<td align="center"> <img src="images/06a.jpg" width="50%"></td>
+<td align="center"> <img src="images/Real_06.jpg" width="100%"></td>
+<td align="center"><a href="https://youtu.be/PrXBnJcvaqI">Installing small mirror assemblies onto the dovetail rail system<a></td>
+</tr>
+<tr>
+<td align="center"><b>6<b></td>
+<td align="center"><a href="Install_illumination_axis_on_the_optical_breadboard_-_Part_1#Install_the_OpenSPIM_chamber">Installing sample chamber</a></td>
+<td align="center"> <img src="images/07a.jpg" width="50%"></td>
+<td align="center"> <img src="images/Real_07.jpg" width="100%"></td>
+<td align="center"><a href="https://youtu.be/blgEtuH6pN0">Installing the SPIM chamber assembly onto the dovetail rail system</a></td>
+</tr>
+<tr bgcolor="lightgray">
+<td align="center"><b>7<b></td>
+<td align="center"><a href="Alignment_of_laser">Align the laser</a></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"><a href="https://youtu.be/Mn11Qq1ovwo">Aligning the laser</a></td></tr>
+</tr>
+<tr>
+<td align="center"><b>8<b></td>
+<td align="center"><a href="Install_illumination_axis_on_the_optical_breadboard_-_Part_2#Assembling_the_beam_expander">Installing beam expander</a></td>
+<td align="center">
+<img src="images/08a.jpg" width="50%"><br/>
+<img src="images/09a.jpg" width="50%">
+</td>
+<td align="center">
+<img src="images/Real_08.jpg" width="100%"><br/>
+<img src="images/Real_09.jpg" width="100%">
+</td>
+<td align="center"><a href="https://youtu.be/vfcUg3S5EB0">Installation of beam expander</a></td>
+</tr>
+<tr bgcolor="lightgray">
+<td align="center"><b>9<b></td>
+<td align="center"><a href="Install_illumination_axis_on_the_optical_breadboard_-_Part_2#Install_the_cylindrical_lens_in_it's_proper_place">Install cylindrical lens<a></td>
+<td align="center"><img src="images/10a.jpg" width="50%"></td>
+<td align="center"><img src="images/Real_10.jpg" width="100%"></td>
+<td align="center"><a href="https://youtu.be/3PYxr6gdul8">Installing the cylindrical lens<a></td>
+</tr>
+<tr>
+<td align="center"><b>10</b></td>
+<td align="center"><a href="Install_illumination_axis_on_the_optical_breadboard_-_Part_2#Install_the_vertical_slit_in_it's_proper_place">Install vertical slit</a></td>
+<td align="center"><img src="images/11a.jpg" width="50%"></a></td>
+<td align="center"><img src="images/Real_11.jpg" width="100%"></a></td>
+<td align="center"><a href="https://youtu.be/oQ56PAx1-co">Installing the vertical slit</a></td>
+</tr>
+<tr bgcolor="lightgray">
+<td align="center"><b>11</b></td>
+<td align="center"><a href="Install_illumination_axis_on_the_optical_breadboard_-_Part_2#Assembling_the_telescope">Install the telescope</a></td>
+<td align="center">
+<img src="images/12a.jpg" width="50%"><br/>
+<img src="images/13a.jpg" width="50%">
+</td>                                                                                      
+<td align="center">
+<img src="images/Real_12.jpg" width="100%"><br/>
+<img src="images/Real_13.jpg" width="100%">
+</td>
+<td align="center"><a href="https://youtu.be/02jJLsIvWb8">Installing the telescope</a></td>
+</tr>
+<tr>
+<td align="center"><b>12</b></td>
+<td align="center"><a href="Install_detection_axis_on_the_optical_breadboard#Assembly_of_detection_axis">Install the detection axis base</a></td>
+<td align="center">
+<img src="images/14a.jpg" width="50%"><br/>
+<img src="images/15a.jpg" width="50%">
+</td>
+<td align="center">
+<img src="images/Real_14.jpg" width="100%"></br>
+<img src="images/Real_14.jpg" width="100%">
+</td>
+<td align="center">
+<a href="https://youtu.be/aIjahE1SpZQ">Installing the detection axis holder base</a><br/>
+<a href="https://youtu.be/u5nKH43C6i4">Installing the detection axis holder base (take 2)</a>
+</td>
+</tr>
+<tr bgcolor="lightgray">
+<td align="center"><b>13</b></td>
+<td align="center"><a href="Install_detection_axis_on_the_optical_breadboard#Camera_installation">Install the camera</a></td>
+<td align="center">
+<img src="images/16a.jpg" width="50%"><br/>
+<img src="images/17a.jpg" width="50%"></td>
+</td>
+<td align="center">
+<img src="images/Real_16.jpg" width="100%"><br/>
+<img src="images/Real_17.jpg" width="100%">
+</td>
+<td align="center"><a href="https://youtu.be/aIjahE1SpZQ">Install detection axis holder base<a></td>
+</tr>
+<tr>
+<td align="center"><b>14<b></td>
+<td align="center"><a href="Install_the_4D_motor_system">Install the 4D motor system</a></td>
+<td align="center"><img src="images/18a.jpg" width="50%"></td>
+<td align="center"><img src="images/Real_18.jpg" width="100%"></td>
+<td align="center"><a href="https://youtu.be/vM9rxiuzTZs">Installing the 4D motors</a></td>
+</tr>
+</table>
 
-Now [connect the system to the
-computer](Install_cables_and_connect_computer) and you are
-ready for [operation](Operation).
+Now <a href="Install_cables_and_connect_computer">connect the system to the computer</a></td> and you are ready for <a href="Operation">operation</a>.
