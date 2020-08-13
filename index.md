@@ -82,7 +82,7 @@ technology is imminently useful to biologists.
 
 ## Partners and funding
 
-<img src="images/Mpi-cbg-logo.gif" title="fig:Mpi-cbg-logo.gif" width="150" alt="Mpi-cbg-logo.gif" /> <img src="images/LOCI_logo.jpg" title="fig:LOCI_logo.jpg" width="150" alt="LOCI_logo.jpg" /> <img src="images/LMF_logo.jpg" title="fig:LMF_logo.jpg" width="80" alt="LMF_logo.jpg" /> <img src="images/ERC_acronym.jpg" title="fig:ERC_acronym.jpg" width="100" alt="ERC_acronym.jpg" /> <img src="images/RMS_logo.jpg" title="fig:RMS_logo.jpg" width="150" alt="RMS_logo.jpg" />
+<img src="images/Mpi-cbg-logo.gif" width="150" alt="Mpi-cbg-logo.gif"/> <img src="images/LOCI_logo.jpg" width="150" alt="LOCI_logo.jpg"/> <img src="images/LMF_logo.jpg" width="80" alt="LMF_logo.jpg"/> <img src="images/ERC_acronym.jpg" width="100" alt="ERC_acronym.jpg"/> <img src="images/RMS_logo.jpg" width="150" alt="RMS_logo.jpg"/>
 
 # Building your own OpenSPIM
 
@@ -102,39 +102,23 @@ Check the <a href="Gallery#OpenSPIM_data">gallery</a> to see more!
 ## MAMED EMBO course
 
 {% include gallery-begin %}
-{% include gallery-video id="Jusr_J15FXU" caption="
-Marine annelid *Platynereis dumerilii* stained with Sytox-green imaged with
-OpenSPIM from 7 angles. Walk through fused and deconvolved data (15 iterations
-on default settings). Staining, OpenSPIM assembly and imaging done by Mette
-Handberg-Thorsager, processing by Pavel Tomancak.
-" %}
+{% include gallery-video id="Jusr_J15FXU" caption="Marine annelid *Platynereis dumerilii* stained with Sytox-green imaged with OpenSPIM from 7 angles. Walk through fused and deconvolved data (15 iterations on default settings). Staining, OpenSPIM assembly and imaging done by Mette Handberg-Thorsager, processing by Pavel Tomancak. " %}
 {% include gallery-end %}
 
 
 ## Fruit fly
 
 {% include gallery-begin %}
-{% include gallery-video id="kZKHuKscKcQ" caption="
-Histone-YFP from gastrulation to
-beginning of muscle contraction from ventral, lateral and dorsal view
+{% include gallery-video id="kZKHuKscKcQ" caption="Histone-YFP from gastrulation to beginning of muscle contraction from ventral, lateral and dorsal view
 " %}
-{% include gallery-video id="bdT1XK-0jCM" caption="
-Expression pattern of Csp-sGFP recorded with OpenSPIM
-" %}
+{% include gallery-video id="bdT1XK-0jCM" caption="Expression pattern of Csp-sGFP recorded with OpenSPIM" %}
 {% include gallery-end %}
 
 ## Zebrafish
 
 {% include gallery-begin %}
-{% include gallery-image src="Zebrafish_fused_max_gamma0.8.png" width="400" height="95" caption="
-Multi-position z-stack of a living 48 hpf Tg(Bactin:H2A-EGFP) zebrafish,
-stitched using the Grid/Collection Plugin in Fiji. Maximum intensity
-projection, gamma 0.8.
-" %}
-{% include gallery-video id="kZKHuKscKcQ" caption="
-Beating heart of a 48 hpf Tg(cmlc2:EGFP) zebrafish. Left: overlay of
-transmitted light and fluorescence signal. Right: fluorescence signal.
-" %}
+{% include gallery-image src="Zebrafish_fused_max_gamma0.8.png" width="400" caption="Multi-position z-stack of a living 48 hpf Tg(Bactin:H2A-EGFP) zebrafish, stitched using the Grid/Collection Plugin in Fiji. Maximum intensity projection, gamma 0.8. " %}
+{% include gallery-video id="kZKHuKscKcQ" caption="Beating heart of a 48 hpf Tg(cmlc2:EGFP) zebrafish. Left: overlay of transmitted light and fluorescence signal. Right: fluorescence signal. " %}
 {% include gallery-end %}
 
 ## Twitter
