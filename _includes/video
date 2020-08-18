@@ -1,10 +1,10 @@
-  <div class="thumb" style="width: 430px;">
-    <div style="margin:33px auto;">
-      <div class="mediaContainer" style="width:400px;">
-        <object class="youtube-video" style="width: {{ include.width }}px; height: {{ include.height }}px; margin: 2px auto;" data="https://www.youtube.be/embed/{{ include.id }}"></object>
-      </div>
-      <div class="gallerytext">
-        <p align="center">{{ include.caption }}</p>
-      </div>
+<div class="thumb" style="width: 430px;">
+  <div style="margin:33px auto;">
+    <div class="mediaContainer" style="width:400px;">
+      <object class="youtube-video" style="width: {{ include.width }}px; height: {{ include.height }}px; margin: 2px auto;" data="https://www.youtube.be/embed/{{ include.id }}"></object>
+    </div>
+    <div class="gallerytext">
+      <p align="center">{{ include.caption }}</p>
     </div>
   </div>
+</div>

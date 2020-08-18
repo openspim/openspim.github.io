@@ -1,10 +1,12 @@
-	<div class="thumb" style="width: 430px;">
-		<div style="margin:33px auto;">
-			<div class="mediaContainer" style="width:400px">
+<div class="thumb" style="width: 430px;">
+	<div style="margin:33px auto;">
+		<div class="mediaContainer" style="width:400px">
+			<a href="images/{{ include.src }}" class="image">
 				<img src="images/{{ include.src }}" width="{{ include.width }}" height="{{ include.height }}">
-      </div>
-			<div class="gallerytext">
-				<p align="center">{{ include.caption }}</p>
-			</div>
+			</a>
+    </div>
+		<div class="gallerytext">
+			<p align="center">{{ include.caption }}</p>
 		</div>
 	</div>
+</div>

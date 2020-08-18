@@ -1,1 +1,9 @@
-<div class="thumb tright"><div class="thumbinner" style="width:202px;"><a href="/images/{{ include.src }}" class="image"><img title="{{ include.title }}" alt="{{ include.title }}" src="/images/{{ include.src }}" width="200" height="266" class="thumbimage" /></a>  <div class="thumbcaption">{{ include.caption }}</div></div></div>
+<div class="thumb tright">
+  <div class="thumbinner" style="width:202px;">
+    <a href="/images/{{ include.src }}" class="image">
+      <img title="{{ include.title }}" alt="{{ include.title }}" src="images/{{ include.src }}" width="200" class="thumbimage" />
+    </a>
+    <div class="thumbcaption">{{ include.caption }}
+    </div>
+  </div>
+</div>
