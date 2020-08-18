@@ -1,10 +1,10 @@
-<ul class="gallery mw-gallery-traditional">
-		<li class="gallerybox" style="width: 435px"><div style="width: 435px">
-			<div class="thumb" style="width: 430px;"><div style="margin:88.5px auto;"><div class="mediaContainer" style="width:400px">
+	<div class="thumb" style="width: 430px;">
+		<div style="margin:33px auto;">
+			<div class="mediaContainer" style="width:400px">
 				<img src="images/{{ include.src }}" width="{{ include.width }}" height="{{ include.height }}">
-      </div></div></div>
+      </div>
 			<div class="gallerytext">
-			<p>{{ include.caption }}</p>
+				<p align="center">{{ include.caption }}</p>
 			</div>
-		</div></li>
-</ul>
+		</div>
+	</div>

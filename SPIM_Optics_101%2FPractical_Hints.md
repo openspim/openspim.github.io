@@ -79,5 +79,3 @@ and a white wall or sheet of paper.
     distance will roughly equal the focal length. The estimate is the
     better, the smaller the focal length is, compared to the distance to
     the light source.
-
-[Category:SPIM Optics 101](Category:SPIM_Optics_101 "wikilink")
