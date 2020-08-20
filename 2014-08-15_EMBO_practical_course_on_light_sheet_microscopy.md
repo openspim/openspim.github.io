@@ -25,5 +25,3 @@ So stay tuned.
 On behalf of [**organizers**](EMBO_2014_Organizers "wikilink")
 
 Pavel Tomancak
-
-[Category:News](Category:News "wikilink")

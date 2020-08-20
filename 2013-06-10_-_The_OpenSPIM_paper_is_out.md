@@ -16,5 +16,3 @@ Eliceiri K. W., Huisken J., Tomancak P. (2013) **OpenSPIM: an open
 access light sheet microscopy platform** *Nat. Methods* in press
 [PDF](Media:Nmeth.2507.pdf "wikilink")
 [Supplement](Media:Nmeth.2507-S1.pdf "wikilink")
-
-[Category:News](Category:News "wikilink")

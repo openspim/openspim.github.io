@@ -99,5 +99,3 @@ development](http://events.embo.org/13-marine-devo/index.html) in Sweden
 in July.
 
 PAvel
-
-[Category:News](Category:News "wikilink")

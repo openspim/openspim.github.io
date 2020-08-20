@@ -31,5 +31,3 @@ various submitted pre-prints on arxiv [arxiv
 v1](http://arxiv.org/abs/1308.0730v1) [arxiv
 v2](http://arxiv.org/abs/1308.0730v2) [arxiv
 v3](http://arxiv.org/abs/1308.0730v3)
-
-[Category:News](Category:News "wikilink")

@@ -33,5 +33,3 @@ still in the works. Particularly [**multi-view
 deconvolution**](Fusion#Deconvolution "wikilink"), [**data
 viewing**](Browsing "wikilink") and [**3D
 rendering**](3D_rendering "wikilink"). Stay tuned.
-
-[Category:News](Category:News "wikilink")

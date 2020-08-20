@@ -15,5 +15,3 @@ and the paper in Development
   - [Multilayer mounting enables long-term imaging of zebrafish
     development in a light sheet
     microscope](http://dev.biologists.org/content/139/17/3242.abstract)
-
-[Category:News](Category:News "wikilink")

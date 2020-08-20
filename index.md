@@ -59,10 +59,8 @@ SPIM promises to revolutionize several fields of biological research, in particu
 
   - [Table of Parts](Table_of_parts)
   - [Step by step assembly](Step_by_step_assembly)
-  - [How to install](How_to_install) the Micro-Manager
-    software with SPIM support.
-  - [How to operate](Operation) OpenSPIM including sample
-    preparation, calibration and data processing.
+  - [How to install](Downloads) the Micro-Manager software with SPIM support.
+  - [How to operate](Operation) OpenSPIM including sample preparation, calibration and data processing.
 
 Please feel free to put information about your system on <a href="Who_has_an_OpenSPIM">this page</a>!
 
