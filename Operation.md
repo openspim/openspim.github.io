@@ -45,7 +45,7 @@ Please follow these step-by-step tutorials:
   - [Acquiring a Single Image](Acquisition#Acquiring_a_Single_Image)
   - [Acquiring a Stack](Acquisition#Acquiring_a_Stack)
   - [Single-Plane Time Lapse](Acquisition#Single-Plane_Time_Lapse)
-  - [Multi-View Imaging of a Fixed Sample](Acquisition#Multi-View_Imaging_of_a_Fixed_Sample)
+  - [Multi-View Imaging of a Fixed Sample](Acquisition#multi_view_imaging_of_a_fixed_sample)
   - [Multi-View Time Lapse imaging of Live Sample](Acquisition#Multi-View_Time_Lapses)
 
 # Data processing
@@ -59,6 +59,6 @@ The raw multi-view OpenSPIM data need to be processed in order to achieve *in to
   - [**Fusion**](Fusion) of registered multi-view OpenSPIM data into s a single output image using content based fusion or multi-view deconvolution.
   - [**Time lapse registration**](Timelapse_Registration) of long-term time lapse data.
   - [**Browsing**](Browsing) of OpenSPIM data with Fiji's BigDataViewer (coming soon).
-  - [**3D rendering**](3D_rendering) of fused OpenSPIM data.
+  - **3D rendering** of fused OpenSPIM data.
 
 If you have a cluster available, you could imitate the way the Tomancak group executes [SPIM Registration on their cluster](https://fiji.sc/SPIM_Registration_on_cluster).
