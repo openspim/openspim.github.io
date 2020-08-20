@@ -8,7 +8,6 @@
 * [2014-08-15 EMBO practical course on light sheet microscopy](/2014-08-15_EMBO_practical_course_on_light_sheet_microscopy)
 * [2014-04-22 Multiview deconvolution](/2014-04-22_Multiview_deconvolution)
 * [2014-04-11 Sample prep for Zebrafish embryo](/2014-04-11_Sample_prep_for_Zebrafish_embryo)
-* [2013-12-15 OpenSPIM optics 101](/2013-12-15_OpenSPIM_optics_101)
 
 </div>
 
