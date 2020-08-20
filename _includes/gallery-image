@@ -1,8 +1,8 @@
-<li class="gallerybox" style="width: 435px">
+<ul class="gallerybox" style="width: 435px">
   <div style="width: 435px">
     <div class="thumb" style="width: 430px;">
-      <div style="margin:67.5px auto;">
-        <a href="/images/{{ include.src }}" class="image">
+      <div style="margin:33.0px auto;">
+        <a href="images/{{ include.src }}" class="image">
           <img alt="" src="/images/{{ include.src }}" width="{{ include.width }}" height="{{ include.height }}" />
         </a>
       </div>
@@ -11,4 +11,4 @@
       <p>{{ include.caption }}</p>
     </div>
   </div>
-</li>
+</ul>
