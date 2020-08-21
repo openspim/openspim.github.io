@@ -59,6 +59,6 @@ The raw multi-view OpenSPIM data need to be processed in order to achieve *in to
   - [**Fusion**](Fusion) of registered multi-view OpenSPIM data into s a single output image using content based fusion or multi-view deconvolution.
   - [**Time lapse registration**](Timelapse_Registration) of long-term time lapse data.
   - [**Browsing**](Browsing) of OpenSPIM data with Fiji's BigDataViewer (coming soon).
-  - **3D rendering** of fused OpenSPIM data.
+  - **3D rendering** of fused OpenSPIM data (TBD).
 
 If you have a cluster available, you could imitate the way the Tomancak group executes [SPIM Registration on their cluster](https://fiji.sc/SPIM_Registration_on_cluster).
