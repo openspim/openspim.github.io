@@ -1,46 +1,36 @@
 ---
 ---
-This protocol is an important part of sample embedding with FEP tubes,
-e.g. [Zebrafish embryo sample
-preparation](Zebrafish_embryo_sample_preparation "wikilink").
-
+This protocol is an important part of sample embedding with FEP tubes, e.g. [Zebrafish embryo sample preparation](Zebrafish_embryo_sample_preparation).
 ### material
 
-  - FEP tubes (Bola S1815-04, inner diameter 0.8 mm, outer diameter 1.6
-    mm)
+  - FEP tubes (Bola S1815-04, inner diameter 0.8 mm, outer diameter 1.6 mm)
   - ultrasonicator
   - 1 M NaOH (Merck)
   - 0.5 M NaOH
   - double-distilled H2O
   - 70% ethanol
   - syringe filter (Millex-HV PVDF 0.45 µm)
-  - B. Braun [Omnifix F Solo 1 ml
-    Syringe](http://www.bbraun.com/cps/rde/xchg/bbraun-com/hs.xsl/products.html?prid=PRID00000578)
+  - B. Braun [Omnifix F Solo 1 ml Syringe](https://www.bbraun.com/en/products/b/omnifix-f-solo.html)
   - B. Braun needle (100 Sterican, blunt)
 
-[File:Fep\_cable-drum.JPG|Bola](File:Fep_cable-drum.JPG%7CBola) S1815-04
-FEP tube [File:Syringe\_packed.JPG|B](File:Syringe_packed.JPG%7CB).
-Braun Omnifix F Solo 1 ml Syringe, B. Braun Sterican needle
-[File:Syringe\_unpacked.JPG|B](File:Syringe_unpacked.JPG%7CB). Braun
-Omnifix F Solo 1 ml Syringe w/ attached needle
+{% include image src="Fep_cable-drum.JPG" width="70%" caption="Bola S1815-04 FEP tube" %}
 
-### procedure
+{% include image src="Syringe_packed.JPG" width="70%" caption="Braun Omnifix F Solo 1 ml Syringe, B. Braun Sterican needle" %}
 
-1.  flush tubes with 1 M NaOH, use syringe with attached needle
-2.  transfer flushed tubes to fresh Falcon with 0.5 M NaOH, use forceps
-3.  put the Falcon in an ultrasonic bath for 10 min
-4.  from now on, touch the tubes only with gloves and/or forceps\!
-5.  transfer the tubes from the Falcon into small basin with ddH2O and
-    flush them with ddH2O
-6.  flush the tubes with 70% EtOH
-7.  transfer the tubes to a fresh Falcon with 70% EtOH
-8.  put the Falcon in an ultrasonic bath for 10 min
-9.  transfer the tubes to a fresh Falcon with ddH2O for storage
+{% include image src="Syringe_unpacked.JPG" width="70%" caption="Braun Omnifix F Solo 1 ml Syringe with attached needle" %}
 
-## external links
+### Procedure
 
-  - [Multilayer Mounting for Long-term Light Sheet Microscopy of
-    Zebrafish](http://www.jove.com/video/51119/multilayer-mounting-for-long-term-light-sheet-microscopy-of-zebrafish)
-    (external "JoVE" video article)
+1.  Flush tubes with 1 M NaOH, use syringe with attached needle
+2.  Transfer flushed tubes to fresh Falcon with 0.5 M NaOH, use forceps
+3.  Put the Falcon in an ultrasonic bath for 10 min
+4.  From now on, touch the tubes only with gloves and/or forceps!
+5.  Transfer the tubes from the Falcon into small basin with ddH2O and flush them with ddH2O
+6.  Flush the tubes with 70% EtOH
+7.  Transfer the tubes to a fresh Falcon with 70% EtOH
+8.  Put the Falcon in an ultrasonic bath for 10 min
+9.  Transfer the tubes to a fresh Falcon with ddH2O for storage
 
-[Category:Operation](Category:Operation "wikilink")
+## External links
+
+  - [Multilayer Mounting for Long-term Light Sheet Microscopy of Zebrafish](https://www.jove.com/t/51119/multilayer-mounting-for-long-term-light-sheet-microscopy-of-zebrafish) (external "JoVE" video article)
