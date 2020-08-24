@@ -13,5 +13,3 @@
 | ![Stephan\_P.jpg](Stephan_P.jpg "Stephan_P.jpg")                     | **Stephan Preibisch**                    | Former PhD student in Tomancak lab now post-doc in [Gene Myers group](http://research.janelia.org/myers/). Develops SPIM related image processing approaches for Fiji.           |
 | ![Students.jpg](Students.jpg "Students.jpg")                         | **Sukhdeep Singh, Sonal, Steve Simmert** | PhD students at the [BIOTEC](http://www.biotec.tu-dresden.de/) in Dresden. Put together the OpenSPIM Wiki during the 2011 pre-doc course in the Tomancak lab.                    |
 |                                                                      |                                          |                                                                                                                                                                                  |
-
-[Category:People](Category:People "wikilink")

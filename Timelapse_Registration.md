@@ -2,78 +2,56 @@
 ---
 # Timelapse Registration
 
-Timelapse registration is necessary because the imaged specimen may, and
-in most cases will, drift over a long acquistion period. In OpenSPIM
-this situation is typically exaggregated because
+Time lapse registration is necessary because the imaged specimen may, and in most cases will, drift over a long acquisition period. In OpenSPIM this situation is typically exaggerated because:
 
-a) we set-up the imaging angles quickly and approximately, relying on
-later re-adjustment based on imaging result (thus the first time-points
-are usually quite off with respect to the rest of the time lapse - see
-[sample raw data](Raw_data "wikilink")),
+a) we set-up the imaging angles quickly and approximately, relying on later re-adjustment based on imaging result (thus the first time-points are usually quite off with respect to the rest of the time lapse - see [sample raw data](Raw_data)),
 
 b) the motors precision is limited.
 
-The pre-requisite for time-series registration is to perform [**all
-individual time-point
-registrations**](Registration#Cross-road_in_SPIM_plugins "wikilink"),
-particularly the segmentation of the beads.
+The pre-requisite for time-series registration is to perform [**all individual time-point registrations**](Registration#Cross-road_in_SPIM_plugins), particularly the segmentation of the beads.
 
-*Note that it is possible to do time-series registration also directly,
-i.e. segment the beads and do time-series registration in one step,
-however this is not a typical workflow.*
+*Note that it is possible to do time-series registration also directly, i.e. segment the beads and do time-series registration in one step, however this is not a typical workflow.*
 
-As before we walk through the set-up of plugin input, annotate the
-output and look into the new registration files created.
+As before we walk through the set-up of plugin input, annotate the output and look into the new registration files created.
 
 ## Input
 
 <table>
-<tbody>
 <tr class="odd">
-<td><p>We start by going back to registration plugin, <strong>Plugins-&gt;SPIM registration-&gt;Bead-based registration</strong>, and keep the same parameters as before in the first dialog (<strong>Single channel</strong> and <strong>Difference-of-Mean</strong>).</p></td>
-<td><figure>
-<img src="Spim_plugin_menu.jpg" title="Screenshot of SPIM registration section of Fiji plugin menu" width="200" alt="" /><figcaption>Screenshot of SPIM registration section of Fiji plugin menu</figcaption>
-</figure></td>
-<td><figure>
-<img src="Registration_screen1.jpg" title="Screenshot of the first dialog of the bead based registration plugin" width="200" alt="" /><figcaption>Screenshot of the first dialog of the bead based registration plugin</figcaption>
-</figure></td>
+<td>{% include image src="Spim_plugin_menu.jpg" width="200" caption="Screenshot of SPIM registration section of Fiji plugin menu" %}<br/>
+{% include image src="Registration_screen1.jpg" width="200" caption="Screenshot of the first dialog of the bead based registration plugin" %}</td>
+<td>We start by going back to registration plugin, <b>Plugins->SPIM registration->Bead-based registration</b>, and keep the same parameters as before in the first dialog (<b>Single channel</b> and <b>Difference-of-Mean</b>).</td>
 </tr>
 <tr class="even">
-<td><p>The main dialog is the same as the one we used in indvidual time-point registration. The top set of parameters specifying file location and format should be pre-filled. We need to only change the <strong>Timepoints to process</strong> to <strong>0-10</strong>.</p>
-<p>Next we click the checkbox <strong>Load segmented beads</strong> which signifies that the plugin should simply look into the <a href="Registration#Cross-road_in_SPIM_plugins" title="wikilink">previously established</a> <em><a href="Registration#Output" title="wikilink">.beads.txt</a></em> files in the <em>/registration</em> subfolder and load them. This will happen very fast compared to re-segmenting the beads. All parameters for bead segmentation are ignored.</p>
-<p>We need to specify the calibration as explained <a href="Registration#Input" title="wikilink">before</a>.</p>
-<p>We will use the <strong>affine</strong> transformation model.</p>
-<p>The option <strong>Re-use per timepoint registration</strong> should be clicked. I am actually not sure what it does, but I assume that it will load the transformation models determined in the per time-point registration and use them as a starting point.</p>
-<p>Finally, we must decide how will the reference time-point be determined. Reference time-point is the time-point to which all others will be registered, see <a href="http://fiji.sc/wiki/index.php/SPIM_Bead_Registration#How_timelapse_registration_works">here for detailed explanation</a>. We have three option for how to choose it:</p>
+<td>{% include image src="TLreg1.png" width="400" caption="Main window of bead-based registration set-up for time-lapse" %}</td>
+<td><p>The main dialog is the same as the one we used in individual time-point registration. The top set of parameters specifying file location and format should be pre-filled. We need to only change the <b>Timepoints to process</b> to <b>0-10</b>.</p>
+<p>Next we click the checkbox <b>Load segmented beads</b> which signifies that the plugin should simply look into the <a href="Registration#Cross-road_in_SPIM_plugins">previously established</a> <em><a href="Registration#Output">.beads.txt</a></em> files in the <em>/registration</em> subfolder and load them. This will happen very fast compared to re-segmenting the beads. All parameters for bead segmentation are ignored.</p>
+<p>We need to specify the calibration as explained <a href="Registration#Input">before</a>.</p>
+<p>We will use the <b>affine</b> transformation model.</p>
+<p>The option <b>Re-use per time point registration</b> should be clicked. I am actually not sure what it does, but I assume that it will load the transformation models determined in the per time-point registration and use them as a starting point.</p>
+<p>Finally, we must decide how will the reference time-point be determined. Reference time-point is the time-point to which all others will be registered, see <a href="https://fiji.sc/wiki/index.php/SPIM_Bead_Registration#How_timelapse_registration_works">here for detailed explanation</a>. We have three option for how to choose it:</p>
 <ul>
 <li>Manually (interactive) - for this option we will be presented with a graph summarizing the registration error for each individual time-point and we will be able to choose one by clicking on the graph (see below)</li>
 <li>Manually (specify) - here we simply enter the index of a reference time-point, for example in the middle of the time-series</li>
 <li>Automatically - the plugin will settle on a reference time-point automatically, choosing the one with the lowest registration error (average bead displacement)</li>
 </ul>
-<p>We choose <strong>Manually (interactive)</strong> and continue by pressing <strong>OK</strong>.</p></td>
-<td><p>colspan= "2"|<img src="TLreg1.png" title="fig:Main window of bead-based registration set-up for timelapse" width="400" alt="Main window of bead-based registration set-up for timelapse" /></p></td>
-<td></td>
+<p>We choose <b>Manually (interactive)</b> and continue by pressing <b>OK</b>.</p></td>
 </tr>
 <tr class="odd">
-<td><p>There is some output in the <strong>Log</strong> window which we will discuss momentarily. Then a new window pops up summarizing the registration errors of the individual time-point registrations. Click with the mouse on the time-point which you want to choose as reference. Good options are :</p>
+<td><img src="images/TLreg2.png" width="400" alt="Selection of reference time point. Click with mouse pointer on tp 6 which has lowest error"></td>
+<td><p>There is some output in the <b>Log</b> window which we will discuss momentarily. Then a new window pops up summarizing the registration errors of the individual time-point registrations. Click with the mouse on the time-point which you want to choose as reference. Good options are :</p>
 <ul>
 <li>a time-point in the middle of the time-series</li>
 <li>a time-point with low registration error</li>
 </ul>
-<p><em>Note that for long time-series where the specimen changes size, the registration of time-points far away from the reference may be suboptimal. In that case we recommend splitting the time-series into several independent segments and register separately to the middle time-point of each segment. The entire time series can then be stablized using Fiji's <strong>Descriptor based registration</strong>. The description of this complex situation goes beyond the scope of this tutorial.</em></p>
-<p>We click on time-point number <strong>6</strong> and the time-series registration commences.</p></td>
-<td><p>colspan= "2"|<img src="TLreg2.png" title="fig:Selection of reference time point. Click with mouse pointer on tp 6 which has lowest error" width="400" alt="Selection of reference time point. Click with mouse pointer on tp 6 which has lowest error" /></p></td>
-<td></td>
+<p><em>Note that for long time-series where the specimen changes size, the registration of time-points far away from the reference may be suboptimal. In that case we recommend splitting the time-series into several independent segments and register separately to the middle time-point of each segment. The entire time series can then be stablized using Fiji's <b>Descriptor based registration</b>. The description of this complex situation goes beyond the scope of this tutorial.</em></p>
+<p>We click on time-point number <b>6</b> and the time-series registration commences.</p></td>
 </tr>
-</tbody>
 </table>
 
 ## Run
 
-The output of timelapse registration rolls by quickly through the
-**Log** window. All we are doing is read text files (bead positions) and
-running the registration, which as we saw before, is quick. The entire
-output can be downloaded [here](Media:TLreg_log.pdf "wikilink").
+The output of time lapse registration rolls by quickly through the **Log** window. All we are doing is read text files (bead positions) and running the registration, which as we saw before, is quick. The entire output can be downloaded [here](documents/TLreg_log.pdf).
 
 `Version 0.55`  
 `(Mon Jun 17 15:31:22 CEST 2013): Starting Bead Extraction`  
@@ -99,11 +77,7 @@ output can be downloaded [here](Media:TLreg_log.pdf "wikilink").
 `.`  
 `.`
 
-First we load the previously segmented beads and execute the per
-time-point registration (this is done solely for the purpose of getting
-the data for the graph of registration errors). After that the graphical
-overview of registration errors pops up as described above. Clicking
-time-point 6 triggers the next barrage of output:
+First we load the previously segmented beads and execute the per time-point registration (this is done solely for the purpose of getting the data for the graph of registration errors). After that the graphical overview of registration errors pops up as described above. Clicking time-point 6 triggers the next barrage of output:
 
 `(Mon Jun 17 15:37:43 CEST 2013): Loading reference timepoint information Reference ViewStructure Timepoint 6`  
 `Read 1012 beads for spim_TL06_Angle0.tif (id = 0)`  
@@ -118,8 +92,7 @@ time-point 6 triggers the next barrage of output:
 `Read 1110 beads for spim_TL00_Angle3.tif (id = 3)`  
 `Read 1201 beads for spim_TL00_Angle4.tif (id = 4)`
 
-Once again the beads are loaded from files in */registration* folder,
-this time for the time-point at hand **and the reference time-point**.
+Once again the beads are loaded from files in */registration* folder, this time for the time-point at hand **and the reference time-point**.
 
 `spim_TL00_Angle2.tif<->spim_TL00_Angle3.tif: Remaining inliers after RANSAC: 27 of 27 (100%) with average error 0.6691474128100607`  
 `spim_TL00_Angle2.tif<->spim_TL00_Angle4.tif: Remaining inliers after RANSAC: 37 of 38 (97%) with average error 0.44379338863733653`  
@@ -172,14 +145,7 @@ this time for the time-point at hand **and the reference time-point**.
 `The total number of correspondence candidates was: `<font color=red>`1388`</font>  
 `The ratio is: `<font color=red>`96%`</font>
 
-The 10 views are thrown together in one pile and correspondances for all
-pair-wise combinations are established. See
-[here](Registration#Output "wikilink") for more detailed discussion.
-Most view pairs have correspondances apart from TL00\_Angle1 and
-TL06\_Angle0. Altogether the two sets of angles across two timepoints
-are tied together by 1332 correspondances and the RANSAC inlier ratio is
-excellent - 96%. *Note that this is particularly possible for Drosophila
-which does not grow across time displacing the beads.*
+The 10 views are thrown together in one pile and correspondences for all pair-wise combinations are established. See [here](Registration#Output) for more detailed discussion. Most view pairs have correspondences apart from TL00_Angle1 and TL06_Angle0. Altogether the two sets of angles across two timepoints are tied together by 1332 correspondences and the RANSAC inlier ratio is excellent - 96%. *Note that this is particularly possible for Drosophila which does not grow across time displacing the beads.*
 
 `Fixing tile spim_TL06_Angle0.tif (id = 0)`  
 `Fixing tile spim_TL06_Angle1.tif (id = 1)`  
@@ -232,20 +198,13 @@ which does not grow across time displacing the beads.*
 `3d-affine: (0.5076602, -0.0047055706, 0.86028206, 70.25545, -0.0016549313, 0.9997853, 0.003312394, 149.69363, -0.82133454, -0.023289602,  0.56215394, 807.2336)`  
 `Scaling: (0.961987733549366, 1.0320840492530776, 0.9989707811248745)`
 
-Finally the global optimization is run and we get the transformation
-matrices for all 10 views involved. The Angle0 of TL06 serves as a
-reference frame to which all other time-points are registered. Note that
-all angles get new transformation matrices since they are now registered
-in the context of a global optimization run on 10 angles (5 reference
-and 5 time-point specific).
+Finally the global optimization is run and we get the transformation matrices for all 10 views involved. The Angle0 of TL06 serves as a reference frame to which all other time-points are registered. Note that all angles get new transformation matrices since they are now registered in the context of a global optimization run on 10 angles (5 reference and 5 time-point specific).
 
-This process is repeated for every time-point in the time series, i.e.
-11 times for the sample data.
+This process is repeated for every time-point in the time series, i.e. 11 times for the sample data.
 
 ## Output
 
-The output is, similarly to individual time-point registration, a series
-of text files in the */registration* directory.
+The output is, similarly to individual time-point registration, a series of text files in the */registration* directory.
 
 `cd registration/`  
 `ls`  
@@ -265,73 +224,34 @@ of text files in the */registration* directory.
 `.`  
 `.`
 
-The new files end with the suffix *.to\_6* indicating that these are
-time-lapse registration files to the reference time-point number 6. The
-content of the files is equivalent to the *.registration* file discussed
-in the [registration section](Registration#Output "wikilink"), however
-the matrices are different.
+The new files end with the suffix *.to_6* indicating that these are time-lapse registration files to the reference time-point number 6. The content of the files is equivalent to the *.registration* file discussed in the [registration section](Registration#Output), however the matrices are different.
 
-We will now proceed to fuse the data using this new timelapse
-registration and compare the output to the individual per time-point
-registrations.
+We will now proceed to fuse the data using this new time lapse registration and compare the output to the individual per time-point registrations.
 
-# Fusion of timelapse data
+# Fusion of time lapse data
 
-We have seen in the [**fusion part**](Fusion "wikilink") of the tutorial
-how it is necessary to [first run
-fusion](Fusion#First_approximate_run "wikilink") on downsampled data,
-define the [cropping](Fusion#Cropping "wikilink") area and then
-[re-run](Fusion#Final_run "wikilink") the pipeline with full resolution
-data. To simplify, we will skip here the steps required for defining the
-cropping area. It is important to note that this has to be done again as
-we need to define the **crop area relative to the new timelapse
-registration**. Below we show how to run the fusion on the timelapse
-registered data at full resolution across all time-points.
+We have seen in the [**fusion part**](Fusion) of the tutorial how it is necessary to [first run fusion](Fusion#First_approximate_run) on downsampled data, define the [cropping](Fusion#Cropping) area and then [re-run](Fusion#Final_run) the pipeline with full resolution data. To simplify, we will skip here the steps required for defining the cropping area. It is important to note that this has to be done again as we need to define the **crop area relative to the new time lapse registration**. Below we show how to run the fusion on the time lapse registered data at full resolution across all time-points.
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p>Back to <strong>Plugins-&gt;SPIM registration-&gt;Multi-view fusion</strong>. First dialog remains the same (pre-loaded).</p></td>
-<td><figure>
-<img src="Screenshot-fusion-pluginselection.png" title="Launching content based multi-view fusion" width="200" alt="" /><figcaption>Launching content based multi-view fusion</figcaption>
-</figure></td>
-<td><figure>
-<img src="Screenshot-Multi-view_fusion-dialog1.png" title="Screenshot of the first fusion dialog" width="200" alt="" /><figcaption>Screenshot of the first fusion dialog</figcaption>
-</figure></td>
+<td>{% include image src="Screenshot-fusion-pluginselection.png" width="400" caption="Launching content based multi-view fusion" %}<br/>
+{% include image src="Screenshot-Multi-view_fusion-dialog1.png" width="400" caption="Screenshot of the first fusion dialog" %}</td>
+<td><p>Back to <b>Plugins->SPIM registration->Multi-view fusion</b>. First dialog remains the same (pre-loaded).</p></td>
 </tr>
 <tr class="even">
-<td><p>In the next dialog we will modify the <strong>Timepoint to process</strong> to 0-10.</p></td>
-<td><figure>
-<img src="TLreg_fusion.png" title="Screenshot of the second fusion dialog" width="400" alt="" /><figcaption>Screenshot of the second fusion dialog</figcaption>
-</figure></td>
-<td></td>
+<td>{% include image src="TLreg_fusion.png" width="400" caption="Screenshot of the second fusion dialog" %}</td>
+<td><p>In the next dialog we will modify the <b>Time point to process</b> to 0-10.</p></td>
 </tr>
 <tr class="odd">
-<td><p>In the main dialog the important thing to remember is to choose the correct registration file. In the first pull down menu <strong>Registration for channel 0</strong> select <strong>Time-point registration (reference=6) of channel 0</strong>. The remaining parameters remain the same (for details see <a href="Fusion#Input" title="wikilink"><strong>fusion</strong></a>).</p>
-<p><em>Note that the cropping parameters were determined by running the fusion with the new to time-point 6 reference registration and recording the crop area coordinates as described <a href="Fusion#Cropping" title="wikilink">before</a>.</em></p></td>
-<td><figure>
-<img src="TL_reg_fusion_main.png" title="Screenshot of the second fusion dialog" width="400" alt="" /><figcaption>Screenshot of the second fusion dialog</figcaption>
-</figure></td>
-<td></td>
+<td>{% include image src="TL_reg_fusion_main.png" width="400" caption="Screenshot of the second fusion dialog" %}</td>
+<td><p>In the main dialog the important thing to remember is to choose the correct registration file. In the first pull down menu <b>Registration for channel 0</b> select <b>Time-point registration (reference=6) of channel 0</b>. The remaining parameters remain the same (for details see <a href="Fusion#Input"><b>fusion</b></a>).</p>
+<p><em>Note that the cropping parameters were determined by running the fusion with the new to time-point 6 reference registration and recording the crop area coordinates as described <a href="Fusion#Cropping">before</a>.</em></p></td>
 </tr>
-</tbody>
 </table>
 
-![Comparison of maximum intensity projections before (top row) and after
-(bottom row) timelapse registration for time-point 0,5 and 10 of
-OpenSPIM sample data](Combined_tl_output.png
-"Comparison of maximum intensity projections before (top row) and after (bottom row) timelapse registration for time-point 0,5 and 10 of OpenSPIM sample data")
-Lets now examine how the time-lapse registration changed the output. As
-we saw in the [**raw data**](Raw_data "wikilink") the first angle of the
-first time point was way off the field of view. If we do not apply the
-timelapse registration, the first time-point will be registered but
-shifted with respect to the rest of the time-lapse (see picture - top
-row). After the timelapse registration the embryos are well aligned
-across time-points (bottom row).
+{% include image src="Combined_tl_output.png" width="400" caption="Comparison of maximum intensity projections before (top row) and after (bottom row) time lapse registration for time-point 0,5 and 10 of OpenSPIM sample data" %}
 
-We have now **FINISHED the SPIMage processing pipeline**. We registered
-all time points across space and time and we fused them all at full
-resolution. The results are in */registration* and */output*
-directories. In the next section of this tutorial we will learn how to
-[**browse**](Browsing "wikilink") the raw, registered and fused data in
-various ways.
+Let's now examine how the time-lapse registration changed the output. As we saw in the [**raw data**](Raw_data) the first angle of the first time point was way off the field of view. If we do not apply the time lapse registration, the first time-point will be registered but shifted with respect to the rest of the time-lapse (see picture - top row). After the time lapse registration the embryos are well aligned across time-points (bottom row).
+
+We have now **FINISHED the SPIMage processing pipeline**. We registered all time points across space and time and we fused them all at full resolution. The results are in */registration* and */output* directories. On this page we will learn how to [**browse**](https://fiji.sc/BigDataViewer) the raw, registered and fused data in various ways.

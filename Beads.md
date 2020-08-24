@@ -5,8 +5,7 @@ This page is about fluorescent beads, used as fiduciary markers for multi-view r
 ## Estapor Fluorescent Microspheres
 
   - [website](https://www.estapor.com/estapor/en/fluorescent_microspheres/fluorescent_microspheres/19.html)
-  - stock concentration for SPIM: 14 µl 0.5 µm beads in 14 ml medium
-    (sample dependent, e.g. PBS/T for fruit fly, E3 for zebrafish)
+  - stock concentration for SPIM: 14 µl 0.5 µm beads in 14 ml medium (sample dependent, e.g. PBS/T for fruit fly, E3 for zebrafish)
 
 ### Tips & tricks
 
@@ -18,7 +17,7 @@ This page is about fluorescent beads, used as fiduciary markers for multi-view r
   - diameter 0.5 µm
   - "green" emission (see spectra)
   - EX 488 nm
-  - appliations:
+  - applications:
       - fiduciary marker in "green" detection channel for bright "green" fluorescence
       - evaluation/adjustment of red-green overlay
 

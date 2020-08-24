@@ -1,3 +1,0 @@
----
----
-# Plant cell morphogenesis
