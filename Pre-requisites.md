@@ -29,7 +29,7 @@ The processing described in this tutorial is performed on the following hardware
 `Network : Intel X520-T2 Dual Port `**`10GbE``   ``Network``
  ``Interface``   ``Card`**
 
-This is clearly a monster and it is not cheap (roughly 5000 Euros). Fortunately OpenSPIM data are not as humongous as SPIM data can be (for example from the commercial [Zeiss Lightsheet Z.1](https://www.zeiss.com/microscopy/int/products/imaging-systems/light-sheet-microscope-for-lsfm-imaging-of-live-and-cleared-samples-lightsheet-7.html), primarily due to limited frame rate achievable by the OpenSPIM. The configuration we recommend for processing OpenSPIM data should have:
+This is clearly a monster and it is not cheap (roughly 5000 Euros). Fortunately OpenSPIM data are not as humongous as SPIM data can be (for example from the commercial [Zeiss Lightsheet Z.1](http://www.zeiss.com/microscopy/en_de/products/imaging-systems/lightsheet-z-1.html), primarily due to limited frame rate achievable by the OpenSPIM. The configuration we recommend for processing OpenSPIM data should have:
 
 `4 processors`  
 `48 GB of RAM`  

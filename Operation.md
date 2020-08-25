@@ -4,7 +4,7 @@ Now that we have assembled the OpenSPIM microscope it is time to start using it.
 
 # Sample Preparation
 
-[Pulling Drosophila embryos in agarose inside a glass capillary (*with some priceless random audio*)](https://youtu.be/G6P52G06oPw)
+{% include video id="G6P52G06oPw" width="400" height="243" caption="Pulling Drosophila embryos in agarose inside a glass capillary (*with some priceless random audio*)" %}
 
 The basic principles of sample preparation for SPIM differs from traditional microscopy technologies. There are no glass slides or coverslips. Instead, the sample needs to be suspended in a water filled chamber in front of the lens so that it can be rotated. This is usually achieved by embedding the sample in a low melting point (LMP) agarose inside a glass capillary equipped with a plunger. For imaging, the agarose column with the specimen is pushed out of the capillary using the plunger to hang in front of the lens.
 
@@ -14,7 +14,7 @@ Follow the link to check our resources for [**sample preparation**](Sample_Prepa
 
 # Calibration
 
-[OpenSPIM rendering with laser on](images/1I_1D_OpenSPIM.png "OpenSPIM rendering with laser on")
+{% include image src="1I_1D_OpenSPIM.png" width="70%" caption="OpenSPIM rendering with laser on" %}
 
 Before using the OpenSPIM the light sheet needs to be [**aligned**](Light-sheet_Calibration).
 This means that the light sheet needs to be shaped by the optics of the system to be parallel to the imaging plane of the camera, perpendicular to the detection axis, as thin as possible, uniform across the field of view and, most importantly, in focus with the detection objective. Since the procedure is rather involved, we provide a series of detailed videos that illustrate the process. Innovations are welcome.
@@ -29,7 +29,7 @@ It is also possible to measure the [light-sheet thickness](Light_sheet_character
 
 # Software
 
-[Screenshot of OpenSPIM stage control](images/Stagecontrols.png "Screenshot of OpenSPIM stage control")
+{% include image src="Stagecontrols.png" width="70%" caption="Screenshot of OpenSPIM stage control" %}
 
 OpenSPIM relies on [µManager](https://micro-manager.org/wiki/) run under [Fiji](https://fiji.sc). Make sure you [**download and install**](Downloads) all the required components.
 
@@ -40,6 +40,7 @@ Next, please follow the instructions to [**configure the hardware**](Downloads#I
 Make yourself familiar with the operation of the OpenSPIM [**stage control**](OpenSPIM_stage_control).
 
 Now you are ready to [**acquire**](Acquisition) images.
+
 Please follow these step-by-step tutorials:
 
   - [Acquiring a Single Image](Acquisition#Acquiring_a_Single_Image)

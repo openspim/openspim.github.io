@@ -2,57 +2,28 @@
 ---
 ## A Compact and Versatile Light Sheet Microscopy Platform for Research and Education
 
-![Spim\_solidworks-screenshot19.png](Spim_solidworks-screenshot19.png
-"Spim_solidworks-screenshot19.png")
+{% include image src="Spim_solidworks-screenshot19.png" width="70%" caption="" %}
 
-Selective Plane Illumination Microscope (SPIM) with sample rotation &
-translation. Optimized for uncompromised light sheet microscopy of
-samples like Drosophila embryos and spheroids while maintaining a small
-footprint for mobility and a reasonable price point. Epi-fluorescence
-and brightfield illumination, 16x/0.8 W objective, sCMOS camera. Most of
-the parts are off-the-shelf, with only three custom components made by
-Selective Laser Sintering (SLS).
+Selective Plane Illumination Microscope (SPIM) with sample rotation & translation. Optimized for uncompromised light sheet microscopy of samples like Drosophila embryos and spheroids while maintaining a small footprint for mobility and a reasonable price point. Epi-fluorescence and brightfield illumination, 16x/0.8 W objective, sCMOS camera. Most of the parts are off-the-shelf, with only three custom components made by Selective Laser Sintering (SLS).
 
 ## Pictures
 
-![Spim\_solidworks-screenshot09.png](Spim_solidworks-screenshot09.png
-"Spim_solidworks-screenshot09.png")
-![Spim\_solidworks-screenshot05.png](Spim_solidworks-screenshot05.png
-"Spim_solidworks-screenshot05.png")
-![Spim\_solidworks-screenshot06.png](Spim_solidworks-screenshot06.png
-"Spim_solidworks-screenshot06.png")
+{% include image src="Spim_solidworks-screenshot09.png" width="70%" caption="" %}
+{% include image src="Spim_solidworks-screenshot05.png" width="70%" caption="" %}
+{% include image src="Spim_solidworks-screenshot06.png" width="70%" caption="" %}
 
 ## Sample data
 
 ## Light sheet properties
 
-![Scheme of the light sheet illumination arm with laser (blue), lenses
-(gray), mirrors (brown) and detection (green). Incoming laser beam is
-expanded to 2.7 mm diameter.](Spim-lightsheet_scheme.png
-"Scheme of the light sheet illumination arm with laser (blue), lenses (gray), mirrors (brown) and detection (green). Incoming laser beam is expanded to 2.7 mm diameter.")
+{% include image src="Spim-lightsheet_scheme.png" width="100%" caption="Scheme of the light sheet illumination arm with laser (blue), lenses (gray), mirrors (brown) and detection (green). Incoming laser beam is expanded to 2.7 mm diameter." %}
 
-  - Scheme of the light sheet illumination arm with laser (blue), lenses
-    (gray), mirrors (brown) and detection (green). Incoming laser beam
-    is expanded to 2.7 mm diameter.
-
-![491 nm laser beam in water as seen in the field of view (FOV) after
-passing through the illumination arm. Cylindrical lens, emission filter
-and dichroic mirror removed. 22 ms exposure time. Full width at half
-maximum (FWHM) determined using Gaussian fitting in Fiji. Yellow lines
-indicate ideal Gaussian shape.](Spim-lightsheet_properties.png
-"491 nm laser beam in water as seen in the field of view (FOV) after passing through the illumination arm. Cylindrical lens, emission filter and dichroic mirror removed. 22 ms exposure time. Full width at half maximum (FWHM) determined using Gaussian fitting in Fiji. Yellow lines indicate ideal Gaussian shape.")
-
-  - 491 nm laser beam in water as seen in the field of view (FOV) after
-    passing through the illumination arm. Cylindrical lens, emission
-    filter and dichroic mirror removed. 22 ms exposure time. Full width
-    at half maximum (FWHM) determined using Gaussian fitting in Fiji.
-    Yellow lines indicate ideal Gaussian shape.
+{% include image src="Spim-lightsheet_properties.png" width="100%" caption="491 nm laser beam in water as seen in the field of view (FOV) after passing through the illumination arm. Cylindrical lens, emission filter and dichroic mirror removed. 22 ms exposure time. Full width at half maximum (FWHM) determined using Gaussian fitting in Fiji. Yellow lines indicate ideal Gaussian shape." %}
 
 ## List of parts
 
   - *C* = custom part / part that requires modification
-  - some categories require parts from the *Basics* and *Lenses*
-    category
+  - some categories require parts from the *Basics* and *Lenses* category
   - tools not included
   - US prices from 2016/2017
 
@@ -97,7 +68,7 @@ indicate ideal Gaussian shape.](Spim-lightsheet_properties.png
 |                                                                                                                                             |                                                                   |   |          |              |        |            |             |
 | [Rod Adapter for Ø6 mm ER Rods, Qty. 1](https://www.thorlabs.com/thorproduct.cfm?partnumber=ERSCA)                                          | cage rod adapters                                                 |   | Thorlabs | ERSCA        | 8      | $10.80     | $86.40      |
 |                                                                                                                                             |                                                                   |   |          |              |        |            |             |
-| [30 mm Removable Cage Plate, Front and Back Plate, Internal SM1 Threading](http://www.thorlabs.com/thorproduct.cfm?partnumber=CP90F)        | quick release lens mount, 30 mm cage system                       |   | Thorlabs | CP90F        | 5      | $48.00     | $240.00     |
+| [30 mm Removable Cage Plate, Front and Back Plate, Internal SM1 Threading](https://www.thorlabs.com/thorproduct.cfm?partnumber=CP90F)        | quick release lens mount, 30 mm cage system                       |   | Thorlabs | CP90F        | 5      | $48.00     | $240.00     |
 |                                                                                                                                             |                                                                   |   |          |              |        |            |             |
 | [SM1 Threaded 30 mm Enhanced Clamping Cage Plate, 0.35" Thick, 8-32 Tap](https://www.thorlabs.com/thorproduct.cfm?partnumber=CP08)          | 30 mm cage plate, internal SM1                                    |   | Thorlabs | CP08         | 15     | $19.00     | $285.00     |
 |                                                                                                                                             |                                                                   |   |          |              |        |            |             |
@@ -152,7 +123,7 @@ indicate ideal Gaussian shape.](Spim-lightsheet_properties.png
 | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | - | ------------- | --------------- | ------ | ---------- | ----------- |
 | [10X Nikon CFI Plan Fluorite Objective, 0.30 NA, 3.5 mm WD](https://www.thorlabs.com/thorproduct.cfm?partnumber=N10XW-PF)                          | illumination objective                                                                                              |   | Nikon         | N10XW-PF        | 1      | $1,315.60  | $1,315.60   |
 |                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
-| [Cobolt Calypso 491nm 100mW DPSS](http://www.cobolt.se/product/04-01-series/)                                                                      | 491nm laser                                                                                                         |   | Cobolt        |                 | 1      |            |             |
+| [Cobolt Calypso 491nm 100mW DPSS](https://www.cobolt.se/product/04-01-series/)                                                                      | 491nm laser                                                                                                         |   | Cobolt        |                 | 1      |            |             |
 |                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
 | Laser baseplate XxY"                                                                                                                               | baseplate for 491nm laser - *to be cut from solid aluminium plate, added holes for mounting laser and posts (8-32)* | x |               |                 |        |            |             |
 |                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
@@ -160,19 +131,19 @@ indicate ideal Gaussian shape.](Spim-lightsheet_properties.png
 |                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
 | 4-channel PCAOM driver                                                                                                                             | AOTF controller                                                                                                     |   | NEOS          | 64040-75-.1.4CH | 1      |            |             |
 |                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
-| [Adapter with External SM1 Threads and Internal M25 x 0.75 Threads](http://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A12)                     | adapter illumination objective to SM1                                                                               |   | Thorlabs      | SM1A12          | 1      | $19.75     | $19.75      |
+| [Adapter with External SM1 Threads and Internal M25 x 0.75 Threads](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A12)                     | adapter illumination objective to SM1                                                                               |   | Thorlabs      | SM1A12          | 1      | $19.75     | $19.75      |
 |                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
-| [25.4mm Diameter, 4-6λ Mirror](http://www.edmundoptics.com/optics/optical-mirrors/flat-mirrors/4-6-wave-first-surface-mirrors/69245)               | 1" mirror, only 3 mm thick, for gimbal mount                                                                        |   | Edmund Optics | \#69-245        | 4      | $16.00     | $64.00      |
+| [25.4mm Diameter, 4-6λ Mirror](https://www.edmundoptics.com/optics/optical-mirrors/flat-mirrors/4-6-wave-first-surface-mirrors/69245)               | 1" mirror, only 3 mm thick, for gimbal mount                                                                        |   | Edmund Optics | \#69-245        | 4      | $16.00     | $64.00      |
 |                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
 | [Z-Axis Translation Mount, 30 mm Cage Compatible](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1Z)                                        | zoom housing for telescope lens                                                                                     |   | Thorlabs      | SM1Z            | 1      | $186.00    | $186.00     |
 |                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
-| [30mm Cage System Adjustable Slit, 8-32 Tap, Imperial Micrometer](http://www.thorlabs.com/thorproduct.cfm?partnumber=VA100C)                       | slit for setting light sheet properties, 30 mm cage system                                                          |   | Thorlabs      | VA100C          | 2      | $260.00    | $520.00     |
+| [30mm Cage System Adjustable Slit, 8-32 Tap, Imperial Micrometer](https://www.thorlabs.com/thorproduct.cfm?partnumber=VA100C)                       | slit for setting light sheet properties, 30 mm cage system                                                          |   | Thorlabs      | VA100C          | 2      | $260.00    | $520.00     |
 |                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
 | [Kinematic Mount with Vertical Drive, Ø1/2" Optics](https://www.thorlabs.com/thorproduct.cfm?partnumber=VM05)                                      | vertical drive 0.5" mirror mounts for laser module                                                                  |   | Thorlabs      | VM05            | 8      | $97.90     | $783.20     |
 |                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
 | [Ø1/2" Broadband Dielectric Mirror, 400 - 750 nm](https://www.thorlabs.com/thorproduct.cfm?partnumber=BB05-E02)                                    | 0.5" mirrors for laser module                                                                                       |   | Thorlabs      | BB05-E02        | 4      | $49.40     | $197.60     |
 |                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
-| [30 mm Cage System Iris, Ø20.0 mm Maximum Aperture](http://www.thorlabs.com/thorproduct.cfm?partnumber=CP20S)                                      | iris for beam alignment, 30 mm cage system                                                                          |   | Thorlabs      | CP20S           | 8      | $85.00     | $680.00     |
+| [30 mm Cage System Iris, Ø20.0 mm Maximum Aperture](https://www.thorlabs.com/thorproduct.cfm?partnumber=CP20S)                                      | iris for beam alignment, 30 mm cage system                                                                          |   | Thorlabs      | CP20S           | 8      | $85.00     | $680.00     |
 |                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
 | [Ø1/2" Optical Post, SS, 8-32 Setscrew, 1/4"-20 Tap, L = 1.5"](https://www.thorlabs.com/thorproduct.cfm?partnumber=TR1.5)                          | short posts for laser baseplate                                                                                     |   | Thorlabs      | TR1.5           | 4      | $4.97      | $19.88      |
 |                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
@@ -180,9 +151,9 @@ indicate ideal Gaussian shape.](Spim-lightsheet_properties.png
 |                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
 | [Post Mount Assembly for Round, Unmounted, ND Filters](https://www.thorlabs.com/thorproduct.cfm?partnumber=NDC-PM)                                 | mount for ND filter wheel                                                                                           |   | Thorlabs      | NDC-PM          | 1      | $52.25     | $52.25      |
 |                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
-| [Assmann WSW Components H7VXH-0906M](http://www.digikey.com/product-detail/en/assmann-wsw-components/H7VXH-0906M/H7VXH-0906M-ND/998782)            | cable for triggering AOTF                                                                                           |   | Digi-Key      | H7VXH-0906M-ND  | 2      | $5.18      | $10.36      |
+| [Assmann WSW Components H7VXH-0906M](https://www.digikey.com/product-detail/en/assmann-wsw-components/H7VXH-0906M/H7VXH-0906M-ND/998782)            | cable for triggering AOTF                                                                                           |   | Digi-Key      | H7VXH-0906M-ND  | 2      | $5.18      | $10.36      |
 |                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
-| [Pomona Electronics 4969](http://www.digikey.com/product-detail/en/pomona-electronics/4969/501-1030-ND/603340)                                     | cable for BNC input to other cable                                                                                  |   | Digi-Key      | 501-1030-ND     | 4      | $8.99      | $35.96      |
+| [Pomona Electronics 4969](https://www.digikey.com/product-detail/en/pomona-electronics/4969/501-1030-ND/603340)                                     | cable for BNC input to other cable                                                                                  |   | Digi-Key      | 501-1030-ND     | 4      | $8.99      | $35.96      |
 |                                                                                                                                                    |                                                                                                                     |   |               |                 |        |            |             |
 
 ### Detection arm
@@ -193,13 +164,13 @@ indicate ideal Gaussian shape.](Spim-lightsheet_properties.png
 |                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
 | [Infinity-Corrected Tube Lens for Plan Fluorite Objectives](https://www.thorlabs.com/thorproduct.cfm?partnumber=ITL200)                                                   | 200 mm tube lens for detection arm                                                   |   | Nikon     |              | 1      | $450       | $450        |
 |                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
-| [Hamamatsu ORCA Flash 2.8 (1,920x1,440, 3.63µm pixels, 70% QE, 45fps)](http://www.hamamatsu.com/jp/en/community/life_science_camera/product/search/C11440-10C/index.html) | main camera                                                                          |   | Hamamatsu | C11440-10C   | 1      |            |             |
+| [Hamamatsu ORCA Flash 2.8 (1,920x1,440, 3.63µm pixels, 70% QE, 45fps)](https://www.hamamatsu.com/jp/en/community/life_science_camera/product/search/C11440-10C/index.html) | main camera                                                                          |   | Hamamatsu | C11440-10C   | 1      |            |             |
 |                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
 | [Bandpass emission filter 525/50, mounted, 25 mm](https://www.chroma.com/products/parts/et525-50m)                                                                        | emission filter for "green" fluorophores                                             |   | Chroma    | ET525/50m    | 1      | $325       | $325        |
 |                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
-| [8-Channel, 16-Bit Analog Voltage Output Device](http://www.mccdaq.com/usb-data-acquisition/USB-3103.aspx)                                                                | USB DAQ for AOTF, LEDs etc                                                           |   | MCC       | USB-3103     | 1      | $349.00    | $349.00     |
+| [8-Channel, 16-Bit Analog Voltage Output Device](https://www.mccdaq.com/usb-data-acquisition/USB-3103.aspx)                                                                | USB DAQ for AOTF, LEDs etc                                                           |   | MCC       | USB-3103     | 1      | $349.00    | $349.00     |
 |                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
-| [Adapter with External SM1 Threads and Internal M32 x 0.75 Threads](http://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A34)                                            | adapter detection objective to SM1                                                   |   | Thorlabs  | SM1A34       | 1      | $22.00     | $22.00      |
+| [Adapter with External SM1 Threads and Internal M32 x 0.75 Threads](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A34)                                            | adapter detection objective to SM1                                                   |   | Thorlabs  | SM1A34       | 1      | $22.00     | $22.00      |
 |                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
 | [Adapter with External SM2 Threads and Internal M38 x 0.5 Threads](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM2A20)                                            | tube lens to SM2 adapter                                                             |   | Thorlabs  | SM2A20       | 1      | $45.00     | $45.00      |
 |                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
@@ -207,7 +178,7 @@ indicate ideal Gaussian shape.](Spim-lightsheet_properties.png
 |                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
 | [60 mm Cage Plate with Ø2" Double-Bore Optic Mount, 8-32 Tap](https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP06)                                                  | 60 mm cage plate for holding SM2 tube                                                |   | Thorlabs  | LCP06        | 1      | $33.50     | $33.50      |
 |                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
-| [30 mm to 60 mm Cage Plate Adapter, 8-32 Tap](http://www.thorlabs.com/thorproduct.cfm?partnumber=LCP02)                                                                   | 60 to 30 mm cage adapter                                                             |   | Thorlabs  | LCP02        | 2      | $38.00     | $76.00      |
+| [30 mm to 60 mm Cage Plate Adapter, 8-32 Tap](https://www.thorlabs.com/thorproduct.cfm?partnumber=LCP02)                                                                   | 60 to 30 mm cage adapter                                                             |   | Thorlabs  | LCP02        | 2      | $38.00     | $76.00      |
 |                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
 | [Adapter with External C-Mount Threads and External SM1 Threads](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1A39)                                              | C-mount-to-SM1 adapter                                                               |   | Thorlabs  | SM1A39       | 1      | $20.00     | $20.00      |
 |                                                                                                                                                                           |                                                                                      |   |           |              |        |            |             |
@@ -238,17 +209,17 @@ indicate ideal Gaussian shape.](Spim-lightsheet_properties.png
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | - | ----------------------------------------------------------------------- | --------------- | ------ | ---------- | ----------- |
 | [DDR05-to-PI111\_adapter.STL](https://www.3dvieweronline.com/members/Ida60b48c9d56949d618129c45511b5cad/ETS6dqKXf8Ztrm3)                                                | adapter rotational stage to xyz stage - *to be produced with selective laser sintering*  | x | [Stratasys](https://express.stratasysdirect.com/quote.aspx?productID=4) | \-              | 1      | $46.36     | $46.36      |
 |                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
-| [15mm Compact Micro-Translation Stage](http://www.physikinstrumente.com/product-detail-page/m-110-m-111-m-112-701650.html)                                              | motorized linear stage                                                                   |   | PI                                                                      | M-111.1DG       | 3      | $2,608.00  | $7,824.00   |
+| [15mm Compact Micro-Translation Stage](https://www.physikinstrumente.com/product-detail-page/m-110-m-111-m-112-701650.html)                                              | motorized linear stage                                                                   |   | PI                                                                      | M-111.1DG       | 3      | $2,608.00  | $7,824.00   |
 |                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
-| [1 Channel Mercury DC Motor Controller](http://www.physikinstrumente.com/product-detail-page/c-863-900606.html)                                                         | controller for linear stage                                                              |   | PI                                                                      | C-863.11        | 3      | $1,134.00  | $3,402.00   |
+| [1 Channel Mercury DC Motor Controller](https://www.physikinstrumente.com/product-detail-page/c-863-900606.html)                                                         | controller for linear stage                                                              |   | PI                                                                      | C-863.11        | 3      | $1,134.00  | $3,402.00   |
 |                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
-| [Mounting Bracket for Vertical Mount of M-111 on M-110, M-111 and M-112](http://www.physikinstrumente.com/product-detail-page/m-11002-m-11003-m-11004-901185.html)      | vertical adapter plate for linear stage                                                  |   | PI                                                                      | M-110.03        | 1      | $128.00    | $128.00     |
+| [Mounting Bracket for Vertical Mount of M-111 on M-110, M-111 and M-112](https://www.physikinstrumente.com/product-detail-page/m-11002-m-11003-m-11004-901185.html)      | vertical adapter plate for linear stage                                                  |   | PI                                                                      | M-110.03        | 1      | $128.00    | $128.00     |
 |                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
-| [StarTech Model ICUSB2321F 6 ft. 1 Port FTDI USB to Serial RS232 Adapter Cable with COM Retention M-M](http://www.newegg.com/Product/Product.aspx?Item=N82E16812200964) | USB to Serial adapter for PI controller                                                  |   | Newegg                                                                  | N82E16812200964 | 3      | $20.99     | $62.97      |
+| [StarTech Model ICUSB2321F 6 ft. 1 Port FTDI USB to Serial RS232 Adapter Cable with COM Retention M-M](https://www.newegg.com/Product/Product.aspx?Item=N82E16812200964) | USB to Serial adapter for PI controller                                                  |   | Newegg                                                                  | N82E16812200964 | 3      | $20.99     | $62.97      |
 |                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
-| [Direct Drive Continuous Rotation Mount, SM05 Bore, 8-32 Taps](http://www.thorlabs.com/thorproduct.cfm?partnumber=DDR05)                                                | motorized rotational stage                                                               |   | Thorlabs                                                                | DDR05           | 1      | $1,800.00  | $1,800.00   |
+| [Direct Drive Continuous Rotation Mount, SM05 Bore, 8-32 Taps](https://www.thorlabs.com/thorproduct.cfm?partnumber=DDR05)                                                | motorized rotational stage                                                               |   | Thorlabs                                                                | DDR05           | 1      | $1,800.00  | $1,800.00   |
 |                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
-| [K-Cube Brushless DC Servo Driver](http://www.thorlabs.com/thorproduct.cfm?partnumber=KBD101)                                                                           | controller for rotational stage                                                          |   | Thorlabs                                                                | KBD101          | 1      | $716.00    | $716.00     |
+| [K-Cube Brushless DC Servo Driver](https://www.thorlabs.com/thorproduct.cfm?partnumber=KBD101)                                                                           | controller for rotational stage                                                          |   | Thorlabs                                                                | KBD101          | 1      | $716.00    | $716.00     |
 |                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
 | [66 mm Single Dovetail Rail, L = 500 mm](https://www.thorlabs.com/thorproduct.cfm?partnumber=XT66SP-500)                                                                | rail for stage - *to be shortened to ?", 4 holes drilled for 1/4"-20 screws*             | x | Thorlabs                                                                | XT66SP-500      | 1      | $30.50     | $30.50      |
 |                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
@@ -270,11 +241,11 @@ indicate ideal Gaussian shape.](Spim-lightsheet_properties.png
 |                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
 | [30 mm Cage System Alignment Plate with Ø5 mm Hole](https://www.thorlabs.com/thorproduct.cfm?partnumber=CPA2)                                                           | 30 mm cage alignment plate large hole                                                    |   | Thorlabs                                                                | CPA2            | 1      | $12.24     | $12.24      |
 |                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
-| [Alloy Steel Socket Head Cap Screws, Zinc-Plated, M3 × 0.5, 16 mm Length, Pack of 25](http://www.mcmaster.com/#socket-head-cap-screws/=146igv5)                         | screws for mounting stage adapter to M-111.1DG                                           |   | McMaster-Carr                                                           | 95263A158       | 1      | $3.90      | $3.90       |
+| [Alloy Steel Socket Head Cap Screws, Zinc-Plated, M3 × 0.5, 16 mm Length, Pack of 25](https://www.mcmaster.com/#socket-head-cap-screws/=146igv5)                         | screws for mounting stage adapter to M-111.1DG                                           |   | McMaster-Carr                                                           | 95263A158       | 1      | $3.90      | $3.90       |
 |                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
-| [Alloy Steel Socket Head Cap Screws, Zinc-Plated, 8-32, 7/8" Length, Pack of 50](http://www.mcmaster.com/#socket-head-cap-screws/=146ijbq)                              | screws for mounting stage adapter to DDR05, type I                                       |   | McMaster-Carr                                                           | 90128A198       | 1      | $5.79      | $5.79       |
+| [Alloy Steel Socket Head Cap Screws, Zinc-Plated, 8-32, 7/8" Length, Pack of 50](https://www.mcmaster.com/#socket-head-cap-screws/=146ijbq)                              | screws for mounting stage adapter to DDR05, type I                                       |   | McMaster-Carr                                                           | 90128A198       | 1      | $5.79      | $5.79       |
 |                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
-| [Alloy Steel Socket Head Cap Screws, Zinc-Plated, 4-40, 3/4" Length, Pack of 10](http://www.mcmaster.com/#socket-head-cap-screws/=146iktz)                              | screws for mounting stage adapter to DDR05, type II                                      |   | McMaster-Carr                                                           | 90128A113       | 1      | $4.55      | $4.55       |
+| [Alloy Steel Socket Head Cap Screws, Zinc-Plated, 4-40, 3/4" Length, Pack of 10](https://www.mcmaster.com/#socket-head-cap-screws/=146iktz)                              | screws for mounting stage adapter to DDR05, type II                                      |   | McMaster-Carr                                                           | 90128A113       | 1      | $4.55      | $4.55       |
 |                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
 | [Dual Threaded Adapter with Internal M3 x 0.5 Threads and External 1/4"-20 Threads](https://www.thorlabs.com/thorproduct.cfm?partnumber=AE3M25E)                        | thread adapter for mounting M-111.1DG to XT66P2                                          |   | Thorlabs                                                                | AE3M25E         | 4      | $4.10      | $16.40      |
 |                                                                                                                                                                         |                                                                                          |   |                                                                         |                 |        |            |             |
@@ -308,11 +279,11 @@ indicate ideal Gaussian shape.](Spim-lightsheet_properties.png
 
 | Name                                                                                                                                                                                                                                 | Description                                   | C | Vendor               | Order number                      | Number | Price/part | Total price |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------- | - | -------------------- | --------------------------------- | ------ | ---------- | ----------- |
-| [Optiplex 7040 (Minitower, Win 10 Pro, Intel Core i7, 16 GB RAM, 256 GB M.2 SSD, Radeon R7, DVD drive, keyboard, mouse)](http://www.dell.com/us/business/p/optiplex-7040-desktop/pd?oc=s024o7040mtus&model_id=optiplex-7040-desktop) | acquisition computer                          |   | Dell                 | 210-AFGH OptiPlex 7040 Mini Tower | 1      | $1,300.00  | $1,300.00   |
+| [Optiplex 7040 (Minitower, Win 10 Pro, Intel Core i7, 16 GB RAM, 256 GB M.2 SSD, Radeon R7, DVD drive, keyboard, mouse)](https://www.dell.com/us/business/p/optiplex-7040-desktop/pd?oc=s024o7040mtus&model_id=optiplex-7040-desktop) | acquisition computer                          |   | Dell                 | 210-AFGH OptiPlex 7040 Mini Tower | 1      | $1,300.00  | $1,300.00   |
 |                                                                                                                                                                                                                                      |                                               |   |                      |                                   |        |            |             |
 | 8 TB SATA hard drive                                                                                                                                                                                                                 | data drive for acquisition computer           |   |                      |                                   | 1      |            |             |
 |                                                                                                                                                                                                                                      |                                               |   |                      |                                   |        |            |             |
-| [LabVIEW Base Development System for Windows](http://sine.ni.com/nips/cds/view/p/lang/en/nid/1385)                                                                                                                                   | development platform for acquisition software |   | National Instruments | ISWD460                           | 1      | $999.99    | $999.99     |
+| [LabVIEW Base Development System for Windows](https://sine.ni.com/nips/cds/view/p/lang/en/nid/1385)                                                                                                                                   | development platform for acquisition software |   | National Instruments | ISWD460                           | 1      | $999.99    | $999.99     |
 |                                                                                                                                                                                                                                      |                                               |   |                      |                                   |        |            |             |
 
 ### Server rack for electronics
@@ -344,7 +315,7 @@ indicate ideal Gaussian shape.](Spim-lightsheet_properties.png
 
 | Name                                                                                          | Description                                                       | C | Vendor              | Order number | Number | Price/part | Total price |
 | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | - | ------------------- | ------------ | ------ | ---------- | ----------- |
-| [IncuKit™ MINI for Desktop Incubators](http://incubatorwarehouse.com/48-watt-incukit-dc.html) | temperature control for incubation cage                           |   | Incubator Warehouse | Incukit-DC   | 1      | $50.00     | $50.00      |
+| [IncuKit™ MINI for Desktop Incubators](https://incubatorwarehouse.com/48-watt-incukit-dc.html) | temperature control for incubation cage                           |   | Incubator Warehouse | Incukit-DC   | 1      | $50.00     | $50.00      |
 |                                                                                               |                                                                   |   |                     |              |        |            |             |
 | Cage incubator                                                                                | custom enclosure for heating sample & chamber - *to be laser-cut* | x |                     |              |        |            |             |
 |                                                                                               |                                                                   |   |                     |              |        |            |             |
@@ -352,8 +323,7 @@ indicate ideal Gaussian shape.](Spim-lightsheet_properties.png
 ## Assembly
 
 1.  Mount sample chamber
-2.  Attach cage rods for illumination and detection arms to sample
-    chamber
+2.  Attach cage rods for illumination and detection arms to sample chamber
 3.  Mount objective lenses using silicone
 4.  Start assembling the detection arm
 5.  Adjust distance camera - tube lens by focusing to infinity
@@ -361,30 +331,22 @@ indicate ideal Gaussian shape.](Spim-lightsheet_properties.png
 7.  Assemble motor unit and sample holder
 8.  Assemble illumination arm with mirrors, but without lenses
 9.  Align laser to center of cage system and sample chamber
-10. Add circular lenses step by step, adjust focus and collimation where
-    necessary
-11. Add cylindrical lens and adjust light sheet to focal plane of
-    detection objective
+10. Add circular lenses step by step, adjust focus and collimation where necessary
+11. Add cylindrical lens and adjust light sheet to focal plane of detection objective
 12. Add laser shielding to breadboard
 
-<!-- end list -->
-
-  - The 3D model can be viewed using the free [eDrawings
-    Viewer](http://www.edrawingsviewer.com).
+  - The 3D model can be viewed using the free [eDrawings Viewer](https://www.edrawingsviewer.com).
 
 ## Alignment
 
 ## Troubleshooting
 
 <table>
-<thead>
 <tr class="header">
 <th><p>Phenotype</p></th>
 <th><p>Cause</p></th>
 <th><p>Solution</p></th>
 </tr>
-</thead>
-<tbody>
 <tr class="odd">
 <td><ul>
 <li>LabView crashes when trying to start Main.vi</li>
@@ -423,7 +385,6 @@ indicate ideal Gaussian shape.](Spim-lightsheet_properties.png
 <td></td>
 <td></td>
 </tr>
-</tbody>
 </table>
 
 ## Suggested modifications
