@@ -74,11 +74,11 @@ Feel free to edit this page with information about your system! (You will need a
 
 {% include image src="20170621_114544.jpg" width="70%" caption="Fig. 2 LED tube light for brightfield" %}
 
-{% include image src="adjustable_foot_smaller.jpg" width="70%" caption="Fig. 3 Adjustable foot to align detection arm" %}
+{% include image src="Adjustable_foot_smaller.jpg" width="70%" caption="Fig. 3 Adjustable foot to align detection arm" %}
 
 {% include image src="Illumination.png" width="70%" caption="Fig. 4 Schematic for illumination between acquisitions" %}
 
-{% include image src="sample_holder.png" width="70%" caption="Fig. 5 3D-printed sample holder" %}
+{% include image src="Sample_holder.png" width="70%" caption="Fig. 5 3D-printed sample holder" %}
 
 # Cambridge, UK, MRC LMB
 

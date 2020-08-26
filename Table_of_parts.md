@@ -49,8 +49,8 @@ Whichever wavelength &amp; mW is necessary for your experiments.<br/>
 <a href="http://www.vortranlaser.com/">VersaLase</a>
 </td>
 <td align="center">
-<img src="images/Laser_cube.jpg‎" width="70%"><br/>
-<img src="images/versa-final-sm.jpg" width="70%">  
+<img src="images/Laser_cube.jpeg" width="70%"><br/>
+<img src="images/Versa-final-sm.jpg" width="70%">  
 </td>
 <td align="center">1</td>
 <td align="center">~7000</td>

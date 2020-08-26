@@ -1,16 +1,5 @@
 ---
 ---
-<div cellspacing="5" style="width: 31em; font-size: 90%; text-align:left; float:right; position:relative; border:2px; border-style:solid;">
-
-### News
-
-* [2015-10-16 Brightfield illumination by Michael Redd](/2015-10-16_Brightfield_illumination_by_Michael_Redd)
-* [2014-08-15 EMBO practical course on light sheet microscopy](/2014-08-15_EMBO_practical_course_on_light_sheet_microscopy)
-* [2014-04-22 Multiview deconvolution](/2014-04-22_Multiview_deconvolution)
-* [2014-04-11 Sample prep for Zebrafish embryo](/2014-04-11_Sample_prep_for_Zebrafish_embryo)
-
-</div>
-
 ## The Idea
 
 OpenSPIM is an *Open Access* platform for applying and enhancing **Selective Plane Illumination Microscopy** (*SPIM*).

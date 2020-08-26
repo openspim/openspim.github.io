@@ -92,7 +92,7 @@ The table below lists the parts used by the OpenSPIM for brains setup built by M
 <td>
 <a href="https://github.com/openspim/openspim-parts/blob/master/Chambers/Dry_Objectives_Chamber_and_Holder/Metal_Holder.pdf">Metal_Holder.pdf</a><br/>
 <a href="https://github.com/openspim/openspim-parts/blob/master/Chambers/Dry_Objectives_Chamber_and_Holder/Metal_Holder.step">Metal_Holder.step</a></td>
-<td align="center"><img src="images/holder.PNG" width=40%></td>
+<td align="center"><img src="images/Holder.PNG" width=40%></td>
 <td align="center">1</td>
 <td></td>
 </tr>

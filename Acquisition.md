@@ -65,7 +65,7 @@ The acquisition tab makes recording a time lapse of any number of views simple: 
 
 ## Acquisition Controls
 
-{% include image src="spimgui-acquiring-annotated.png" width="100%" caption="" %}
+{% include image src="Spimgui-acquiring-annotated.png" width="100%" caption="" %}
 
   - (1) Positions List  
     This table shows the list of stacks of images to acquire. Each time point will consist of the images recorded at each position in this list (as well as the Z slices described by the MATLAB range in the final column).
