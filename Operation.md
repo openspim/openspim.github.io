@@ -39,9 +39,7 @@ Next, please follow the instructions to [**configure the hardware**](Downloads#I
 
 Make yourself familiar with the operation of the OpenSPIM [**stage control**](OpenSPIM_stage_control).
 
-Now you are ready to [**acquire**](Acquisition) images.
-
-Please follow these step-by-step tutorials:
+Now you are ready to [**acquire**](Acquisition) images. Please follow these step-by-step tutorials:
 
   - [Acquiring a Single Image](Acquisition#Acquiring_a_Single_Image)
   - [Acquiring a Stack](Acquisition#Acquiring_a_Stack)

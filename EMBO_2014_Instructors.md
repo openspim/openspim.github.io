@@ -1,25 +1,21 @@
 ---
 ---
-The speakers of the [EMBO practical course Light sheet
-microscopy](EMBO_practical_course_Light_sheet_microscopy "wikilink")
-2014 are:
+The speakers of the [EMBO practical course Light sheet microscopy](EMBO_practical_course_Light_sheet_microscopy) 2014 are:
 
-[File:Bundschuh.jpg|Sebastian](File:Bundschuh.jpg%7CSebastian) Bundschuh
-[File:Chen.jpg|Chen](File:Chen.jpg%7CChen) Qian
-[File:Gunther.jpg|Ulrik](File:Gunther.jpg%7CUlrik) Gunther
-[File:Icha.jpg|Jaroslav](File:Icha.jpg%7CJaroslav) Icha
-[File:Maghelli.jpg|Nicola](File:Maghelli.jpg%7CNicola) Maghelli
-[File:Mohammed.jpg|Mohammed](File:Mohammed.jpg%7CMohammed) Mahamdeh
-[File:Mickoleit.jpg|Michaela](File:Mickoleit.jpg%7CMichaela) Mickoleit
-[File:Oegema.jpg|Jeff](File:Oegema.jpg%7CJeff) Oegema
-[File:Pietzsch.jpg|Tobias](File:Pietzsch.jpg%7CTobias) Pietzsch
-[File:Pitrone.jpg|Peter](File:Pitrone.jpg%7CPeter) Pitrone
-[File:Royer.jpg|Loic](File:Royer.jpg%7CLoic) Royer
-[File:Schmied.jpg|Christopher](File:Schmied.jpg%7CChristopher) Schmied
-[File:Diez.jpg|Britta](File:Diez.jpg%7CBritta) Schroth-Diez
-[File:Soroldoni.jpg|Daniele](File:Soroldoni.jpg%7CDaniele) Soroldoni
-[File:Holland.jpg|Daniel](File:Holland.jpg%7CDaniel) Holland
-[File:Mattheyer.jpg|Christian](File:Mattheyer.jpg%7CChristian) Mattheyer
-[File:Weber.jpg|Michael](File:Weber.jpg%7CMichael) Weber
-
-[Category:EMBO2014](Category:EMBO2014 "wikilink")
+{% include image src="Bundschuh.jpg" width="50%" caption="Sebastian Bundschuh" %}
+{% include image src="Chen.jpg" width="50%" caption="Chen Qian" %}
+{% include image src="Gunther.jpg" width="50%" caption="Ulrik Gunther" %}
+{% include image src="Icha.jpg" width="50%" caption="Jaroslav Icha" %}
+{% include image src="Maghelli.jpg" width="50%" caption="Nicola Maghelli" %}
+{% include image src="Mohammed.jpg" width="50%" caption="Mohammed Mahamdeh" %}
+{% include image src="Mickoleit.jpg" width="50%" caption="Michaela Mickoleit" %}
+{% include image src="Oegema.jpg" width="50%" caption="Jeff Oegema" %}
+{% include image src="Pietzsch.jpg" width="50%" caption="Tobias Pietzsch" %}
+{% include image src="Pitrone.jpg" width="50%" caption="Peter Pitrone" %}
+{% include image src="Royer.jpg" width="50%" caption="Loyc Royer" %}
+{% include image src="Schmied.jpg" width="50%" caption="Christopher Schmied" %}
+{% include image src="Diez.jpg" width="50%" caption="Britta Schroth-Diez" %}
+{% include image src="Soroldoni.jpg" width="50%" caption="Daniele Soroldoni" %}
+{% include image src="Holland.jpg" width="50%" caption="Daniel Holland" %}
+{% include image src="Mattheyer.jpg" width="50%" caption="Christian Mattheyer" %}
+{% include image src="Weber.jpg" width="50%" caption="Michael Weber" %}

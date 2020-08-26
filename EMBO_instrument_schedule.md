@@ -11,19 +11,19 @@ have six systems, five 2 hours slots for four student teams. One session
 | ------------------------ | -------------------------------------- | -------------------------------------- |
 |                          | Tuesday                                | Wednesday                              |
 | 13:00 - 15:00            | 15:30 - 17:30                          | 10:15 - 12:00                          |
-| Huisken SPIM, Myers SPIM | [Lucifer](Team_Lucifer "wikilink")     | [Clarity](Team_Clarity "wikilink")     |
-| OpenSPIM                 | [Clarity](Team_Clarity "wikilink")     | X                                      |
-| Stelzer mDSLM            | [SPIMApes](Team_SPIMApes "wikilink")   | [Lucifer](Team_Lucifer "wikilink")     |
-| Lightsheet Z.1           | [SiedyZsig](Team_SiedyZsig "wikilink") | [SPIMApes](Team_SPIMApes "wikilink")   |
-| Ultramicroscope          | X                                      | [SiedyZsig](Team_SiedyZsig "wikilink") |
+| Huisken SPIM, Myers SPIM | [Lucifer](Team_Lucifer)     | [Clarity](Team_Clarity)     |
+| OpenSPIM                 | [Clarity](Team_Clarity)     | X                                      |
+| Stelzer mDSLM            | [SPIMApes](Team_SPIMApes)   | [Lucifer](Team_Lucifer)     |
+| Lightsheet Z.1           | [SiedyZsig](Team_SiedyZsig) | [SPIMApes](Team_SPIMApes)   |
+| Ultramicroscope          | X                                      | [SiedyZsig](Team_SiedyZsig) |
 
 Schedule of **student presentations**
 
 |           |                                               |                                                     |                                              |                                               |                                        |                                              |
 | --------- | --------------------------------------------- | --------------------------------------------------- | -------------------------------------------- | --------------------------------------------- | -------------------------------------- | -------------------------------------------- |
-| Tuesday   | [Eric Edsinger](User:EricEdsinger "wikilink") | [Wioleta Dudka-Ruszkowska](User:Wioleta "wikilink") | [Thomas Pujol](User:Pujol "wikilink")        | [Hannah Barthel](User:Hannah "wikilink")      | [Kei Murata](User:Murata "wikilink")   | [Bruno Vellutini](User:Vellutini "wikilink") |
-| Wednesday | [Rada Massarwa](User:Rada "wikilink")         | [Sebastian Ehrig](User:Ehrig "wikilink")            | [Dzianis Menshykau](User:Dzianis "wikilink") | [Markéta Pernisová](User:Pernisov "wikilink") | [Emese Palfi](User:Emese "wikilink")   | [Yong Wang](User:Wang "wikilink")            |
-| Thursday  | [Olivier Burri](User:Burri "wikilink")        | [Maarten Hilbrant](User:Maarten "wikilink")         | [Juraj Sekereš](User:Juraj "wikilink")       | [Edite Figueiras](User:Edite "wikilink")      | [Kirti Prakash](User:Kirti "wikilink") |                                              |
+| Tuesday   | Eric Edsinger | Wioleta Dudka-Ruszkowska | Thomas Pujol        | Hannah Barthel      | Kei Murata   | Bruno Vellutini |
+| Wednesday | Rada Massarwa         | Sebastian Ehrig            | Dzianis Menshykau | Markéta Pernisová | Emese Palfi   | Yong Wang            |
+| Thursday  | Olivier Burri        | Maarten Hilbrant         | Juraj Sekereš       | Edite Figueiras      | Kirti Prakash |                                              |
 
 Mapping of **teams to processing computers**
 
@@ -34,5 +34,3 @@ Mapping of **teams to processing computers**
 | embo-2            | clarity      | no, we do not put passwords on a public wiki |
 | embo-3            | spimapes     | no, we do not put passwords on a public wiki |
 | embo-4            | siedzsig     | no, we do not put passwords on a public wiki |
-
-[Category:EMBO2014](Category:EMBO2014 "wikilink")

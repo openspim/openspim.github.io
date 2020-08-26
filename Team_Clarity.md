@@ -60,8 +60,8 @@ Maximum projection of tissue grown in a circular pore obtained with Zeiss Lights
 
 {% include image src="Vellutini.jpg" width="50%" caption="Bruno Vellutini" %}
 {% include image src="SebastianEhrig.jpg" width="50%" caption="Sebastian Ehrig" %}
+{% include image src="Photo_RadaMassarwa.jpg" width="50%" caption="Rada Massarwa" %}
 {% include image src="Menshykau.jpg" width="50%" caption="Dzianis Menshykau" %}
-Rada Massarwa
 
 ## Local Guides
 

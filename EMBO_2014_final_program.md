@@ -1,10 +1,10 @@
 ---
 ---
-[20 August](#aug20 "wikilink") | [21 August](#aug21 "wikilink") | [22
-August](#aug22 "wikilink") | [23 August](#aug23 "wikilink") | [24
-August](#aug24 "wikilink") | [25 August](#aug25 "wikilink") | [26
-August](#aug26 "wikilink") | [27 August](#aug27 "wikilink") | [28
-August](#aug28 "wikilink") | [29 August](#aug29 "wikilink")
+[20 August](#aug20) | [21 August](#aug21) | [22
+August](#aug22) | [23 August](#aug23) | [24
+August](#aug24) | [25 August](#aug25) | [26
+August](#aug26) | [27 August](#aug27) | [28
+August](#aug28) | [29 August](#aug29)
 
 |                                                    |
 | -------------------------------------------------- |
@@ -136,5 +136,3 @@ August](#aug28 "wikilink") | [29 August](#aug29 "wikilink")
 | 15:30 - 16:00                                      |
 | 16:00 - 17:00                                      |
 | 17:00 -                                            |
-
-[Category:EMBO2014](Category:EMBO2014 "wikilink")
