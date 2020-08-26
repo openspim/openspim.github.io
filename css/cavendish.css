@@ -825,7 +825,6 @@
   }
   body {
     font-family:Verdana,"DejaVu Sans",sans-serif;
-    background:url(/skins/Cavendish/cavendish/subsite_back.png?93da9) repeat-x;
     background-color:#FFF;
     margin-top:0;
     margin-left:5%;
@@ -1370,7 +1369,6 @@
     list-style-type:square;
     margin:0.4em 0 0.4em 1.5em;
     padding:0;
-    list-style-image:url(/skins/Cavendish/cavendish/bullet.gif?11907);
     font-weight:normal
   }
   ol {
@@ -1547,7 +1545,7 @@
     font-size:94%
   }
   table.small {
-    font-size:100% 
+    font-size:100%
   }
   .successbox,.errorbox,.warningbox {
     border-width:1px;
@@ -1672,7 +1670,7 @@
     margin-top:1em
   }
   table#mw-prefixindex-list-table {
-    width:100% 
+    width:100%
   }
   #mw-hidden-catlinks {
     font-style:italic;
@@ -1891,12 +1889,10 @@
     background-image:url(/skins/Cavendish/cavendish/external.png?2ccd8)
   }
   #bodyContent a[href ^="https://"],.link-https {
-    background:url(/skins/Cavendish/cavendish/locked.png?1492a) center right no-repeat;
     padding-right:16px;
     background-size:12px 12px
   }
   #bodyContent a[href ^="mailto:"],.link-mailto {
-    background:url(/skins/Cavendish/cavendish/envelope.png?133df) center right no-repeat;
     padding-right:16px;
     background-size:12px 12px
   }
@@ -2173,7 +2169,7 @@
     font-size:8.5pt
   }
   #searchform div {
-    display:inline 
+    display:inline
   }
   #searchgobutton,#searchGoButton {
     padding-left:.5em;
@@ -2231,7 +2227,7 @@
     text-align:center;
     vertical-align:top;
     padding-right:1em;
-    white-space:nowrap 
+    white-space:nowrap
   }
   #f-list li {
     list-style:none;
@@ -2291,7 +2287,7 @@
     margin-top:1em
   }
   fieldset.operaprefsection {
-    margin-left:15em 
+    margin-left:15em
   }
   .mainLegend {
     display:none
