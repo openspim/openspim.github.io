@@ -17,7 +17,7 @@ description: OpenSPIM people
 <td>Microscopy technician in the <a href="https://www.mpi-cbg.de/research/research-groups/pavel-tomancak.html">Tomancak Lab</a>. Designed and built the OpenSPIM.</td>
 </tr>
 <tr>
-<td align="center">{% include image src="kevin_eliceiri.jpg" width="40%" caption="Kevin Eliceiri" %}</td>
+<td align="center">{% include image src="Kevin_eliceiri.jpg" width="40%" caption="Kevin Eliceiri" %}</td>
 <td>Director of <a href="https://loci.wisc.edu/">LOCI</a> at the University of Wisconsin in Madison. Collaborator and provides live cell imaging expertise on Open SPIM project.</td>
 </tr>
 <tr>
@@ -25,7 +25,7 @@ description: OpenSPIM people
 <td>Programmer at <a href="https://loci.wisc.edu/">LOCI</a> at the University of Wisconsin in Madison. Wrote the µManager OpenSPIM steering interface. Develops and maintains <a href="https://fiji.sc">Fiji</a>.</td>
 </tr>
 <tr>
-<td align="center">{% include image src="lukestuyvenberg.jpeg" width="40%" caption="Luke Stuyvenberg" %}</td>
+<td align="center">{% include image src="Lukestuyvenberg.jpeg" width="40%" caption="Luke Stuyvenberg" %}</td>
 <td>Programmer at <a href="https://loci.wisc.edu/">LOCI</a> at the University of Wisconsin in Madison. Works on the µManager OpenSPIM steering interface.</td>
 </tr>
 <tr>
