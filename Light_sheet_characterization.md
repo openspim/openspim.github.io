@@ -1,5 +1,9 @@
 ---
+title: Light Sheet Characterization
+layout: page
+description: Light sheet characterization
 ---
+
 Use a mirror mounted under 45° (as described [here](Light-sheet_Calibration#tools_needed")) to image the "side view" of your light sheet at a given position as a line onto your camera (Fig.1). Remember to not use an emission filter in your detection path, as this typically blocks the excitation light. To avoid damage of your camera chip, reduce the laser intensity to a minimum and/or use a neutral density filter in your excitation path.
 
 In the resulting image, you can extract the thickness of your light sheet by measuring the FWHM (full width at half maximum) of the line. Move the mirror sideways to characterize the light sheet at multiple positions. If the mirror is big enough, you can also acquire a stack to characterize the light sheet over the entire field of view.

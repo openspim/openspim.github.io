@@ -1,7 +1,8 @@
 ---
+title: Fusion
+layout: page
+description: Fusing multiview data into a single image
 ---
-# Fusion
-
 [**Registered**](Registration) multi-view OpenSPIM data need to be fused into a single output image in order to achieve complete coverage of a large specimen. Fusion means here combining information from different views in areas where the views overlap. Several strategies to do so exist, many are published (TBD). We will focus here on the two fusion methods implemented in Fiji - the content based multiview fusion and multiview deconvolution.
 
 Note that fused data are different, not necessarily better compared to raw SPIM data. Both fusion algorithms described here potentially deteriorate the quality of the data in some respects while improving other aspects. We will discuss the fusion artifacts in the respective sections. However it should be said that sometimes it is beneficial to NOT fuse the data at all and perform analysis on the raw registered image stacks (for example segmentation of cells in the individual views and reconciliation of the results in the segmentation domain). In this tutorial on [**browsing**](https://fiji.sc/BigDataViewer) we will describe how to view raw registered multi-view OpenSPIM views.

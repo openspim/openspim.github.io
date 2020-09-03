@@ -1,4 +1,7 @@
 ---
+title: Team SPIMApes
+layout: page
+description: EMBO 2014 Team SPIMApes report
 ---
 ## Team members
 

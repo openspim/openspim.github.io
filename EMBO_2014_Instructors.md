@@ -1,6 +1,9 @@
 ---
+title: EMBO 2014 Instructors
+layout: page
+description: Workshop instructors
 ---
-The speakers of the [EMBO practical course Light sheet microscopy](EMBO_practical_course_Light_sheet_microscopy) 2014 are:
+The instructors of the [EMBO practical course Light sheet microscopy](EMBO_practical_course_Light_sheet_microscopy) 2014 are:
 
 {% include image src="Bundschuh.jpg" width="50%" caption="Sebastian Bundschuh" %}
 {% include image src="Chen.jpg" width="50%" caption="Chen Qian" %}

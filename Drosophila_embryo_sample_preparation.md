@@ -1,6 +1,9 @@
 ---
+title: Drosophila Embryo Sample Preparation
+layout: page
+description: Detailed protocol for handling Drosophila and performing wet-lab experiments
 ---
-**Note:** This protocol is very detailed, suitable for researchers who do not necessarily have experience with handling Drosophila and performing wet-lab experiments. The idea is to have an easily accessible sample (most institutions have at least one Drosophilist or we can send anyone the His-YFP flies) on which one can demonstrate the full functionality of the OpenSPIM system by collecting a long-term time-lapse,
+**Note:** This protocol is very detailed, suitable for researchers who do not necessarily have experience with handling Drosophila and performing wet-lab experiments. The idea is to have an easily accessible sample (most institutions have at least one drosophilist or we can send anyone the His-YFP flies) on which one can demonstrate the full functionality of the OpenSPIM system by collecting a long-term time-lapse.
 
 For experts the basic idea is to embed the Drosophila embryos in agarose with sub-resolution fluorescent beads inside a capillary equipped by a plunger. How you get there may differ from what we usually do.
 

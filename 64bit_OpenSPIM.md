@@ -1,4 +1,7 @@
 ---
+title: 64bit OpenSPIM
+layout: page
+description: 64-bit software information
 ---
 As of April 27th, there is an official (but untested) 64-bit version of the OpenSPIM package [available for download](https://downloads.imagej.net/openspim").
 

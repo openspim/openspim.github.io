@@ -1,4 +1,7 @@
 ---
+title: OpenSPIM Software start up
+layout: page
+description: Starting the OpenSPIM software
 ---
 1.  Launch Fiji using *OpenSPIM.app/ImageJ-win32.exe*.
 2.  Once Fiji has started, you can open µManager Studio from *Plugins>Micro-Manager>Micro-Manager Studio* (You can have it start [automatically](FAQ#How_do_I_autostart_.C2.B5Manager_when_Fiji_starts.3F).)

@@ -1,4 +1,7 @@
 ---
+title: Image Registration
+layout: page
+description: Registering views
 ---
 # Bead Based Registration
 

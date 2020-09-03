@@ -1,4 +1,7 @@
 ---
+title: Installing illumination axis on the optical breadboard Part 2
+layout: page
+description: Installing illumination axis on the optical breadboard Part 2
 ---
 After a rough [alignment of the laser](Alignment_of_laser) you can continue with the installation of the refractive optics.
 

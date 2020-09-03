@@ -1,4 +1,7 @@
 ---
+title: SPIM Optics 101 Theoretical Basics
+layout: page
+description: SPIM Optics Theoretical Basics
 ---
 **Note:** *This chapter describes some simple optical principles that should help you to align a SPIM. Most of these rules are approximations that are typically quite accurate for small angles. For a more thorough introduction it is recommended to read any established optics textbook.*
 

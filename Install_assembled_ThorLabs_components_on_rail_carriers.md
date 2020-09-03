@@ -1,4 +1,7 @@
 ---
+title: Installing assembled ThorLabs components on rail carriers
+layout: page
+description: Installing assembled ThorLabs components on rail carriers
 ---
 ## Ø1" mirror mount assemblies
 

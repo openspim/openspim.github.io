@@ -1,4 +1,7 @@
 ---
+title: Beads
+layout: page
+description: Types of fluorescent beads
 ---
 This page is about fluorescent beads, used as fiduciary markers for multi-view registration in light sheet microscopy.
 

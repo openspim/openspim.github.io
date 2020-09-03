@@ -1,4 +1,7 @@
 ---
+title: EMBO 2014 Team Clarity
+layout: page
+description: Team Clarity report
 ---
 **Our first try: 3D Reconstruction of Drosophila Embryo.**
 

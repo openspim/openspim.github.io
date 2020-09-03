@@ -1,4 +1,7 @@
 ---
+title: Optical Tissue Clearing
+layout: page
+description: Rendering tissue transparent in order to image deeper
 ---
 This page concerns optical tissue clearing (that is, rendering it transparent in order to image deeper) and imaging in a setup based on OpenSPIM.
 

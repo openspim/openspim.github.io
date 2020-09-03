@@ -1,7 +1,8 @@
 ---
+title: Development with IntelliJ
+layout: page
+description: Software development with the IntelliJ IDE
 ---
-# Development with IntelliJ
-
 ## Setup
 
   - install JDK 8 (or earlier, JDK 6 is best if you want to be compatible with all OpenSPIM installations) from <https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html>

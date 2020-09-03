@@ -1,6 +1,9 @@
 ---
+title: How to build the software
+layout: page
+description: How to compile the software
 ---
-This page just explains how to build the software needed for OpenSPIM. For an overview of the source code, please have a look at [this page](Overview_of_the_source_code).
+This page explains how to build the software needed for OpenSPIM. For an overview of the source code, please have a look at [this page](Overview_of_the_source_code).
 
 # Obtaining the source code
 

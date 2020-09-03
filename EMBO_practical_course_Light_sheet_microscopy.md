@@ -1,4 +1,7 @@
 ---
+title: EMBO Practical Course in Light Sheet Microscopy
+layout: page
+description: Workshop announcement
 ---
 <center>
 {% include image src="EMBO_PracticalCourse_stamp_web_DARK.jpg" width="70%" caption="" %}

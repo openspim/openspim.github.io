@@ -1,4 +1,7 @@
 ---
+title: SPIM Optics 101 Practical Hints
+layout: page
+description: SPIM Optics Practical Hints
 ---
 ## Beam plane
 

@@ -1,4 +1,7 @@
 ---
+title: EMBO 2014 Pictures
+layout: page
+description: Workshop pictures
 ---
 **Pictures from the course**
 

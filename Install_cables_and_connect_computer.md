@@ -1,4 +1,7 @@
 ---
+title: Installing cables and connect computer
+layout: page
+description: Installing cables and connect computer
 ---
 ### How to connect the camera, camera controller and computer together
 

@@ -1,12 +1,9 @@
 ---
+title: Configurations
+layout: page
+description: The flexibility of light sheet microscopes such as OpenSPIM allows for different configurations 
 ---
-The flexibility of light sheet microscopes such as OpenSPIM allows for
-different configurations. The standard setup consists of one
-illumination arm ("1I") and one detection arm ("1D"). One can add a
-second illumination arm ("2I") to improve the homogeneity of the light
-sheet illumination and/or to reduce the need for rotation. A second
-detection arm ("2D") enables the simultaneous acquisition from both
-sides.
+The flexibility of light sheet microscopes such as OpenSPIM allows for different configurations. The standard setup consists of one illumination arm ("1I") and one detection arm ("1D"). One can add a second illumination arm ("2I") to improve the homogeneity of the light sheet illumination and/or to reduce the need for rotation. A second detection arm ("2D") enables the simultaneous acquisition from both sides.
 
 ## basic configurations
 

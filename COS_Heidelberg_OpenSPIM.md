@@ -1,7 +1,8 @@
 ---
+title: COS Heidelberg OpenSPIM
+layout: page
+description: OpenSPIM setup at COS Heidelberg
 ---
-# COS Heidelberg OpenSPIM
-
 ## The setup
 
   - Some images

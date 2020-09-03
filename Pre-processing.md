@@ -1,7 +1,8 @@
 ---
+title: Pre-processing of OpenSPIM data
+layout: page
+description: Pre-processing of OpenSPIM data
 ---
-# Pre-processing of OpenSPIM data
-
 The 11 multi-view time-points of a *Drosophila* embryogenesis time-lapse [**downloaded**](Raw_data) on the previous page are files saved directly from the OpenSPIM plugin during acquisition as [OME Tiffs](https://www.openmicroscopy.org/site/support/ome-model/ome-tiff/). Unfortunately, the current SPIM registration plugins are not able to open the files due to metadata conflicts.
 
 *Note: This is hopefully a temporary situation which will be remedied in the future and make the following pre-processing step obsolete. Please realize that Fiji, OpenSPIM and OME are large Open Source projects that need to communicate to make things like this work. Typically no-one is directly paid for this type of work and everyone is busy with what they are paid for doing. Nevertheless, it is our priority to make the handling of OpenSPIM data in Fiji as smooth as possible*.

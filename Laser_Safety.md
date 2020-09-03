@@ -1,4 +1,7 @@
 ---
+title: Laser Safety
+layout: page
+description: Laser safety protocols
 ---
 
 <center>

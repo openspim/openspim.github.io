@@ -1,4 +1,7 @@
 ---
+title: Laser Alignment
+layout: page
+description: Aligning the laser
 ---
 This will need to be done twice:
 

@@ -1,4 +1,7 @@
 ---
+title: Camera Laser Synchronization
+layout: page
+description: Arduino based camera laser synchronization system
 ---
 ## Principle of operation
 

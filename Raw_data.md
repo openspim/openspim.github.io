@@ -1,7 +1,8 @@
 ---
+title: Sample raw data from Dresden's OpenSPIM
+layout: page
+description: Sample raw data from Dresden's OpenSPIM
 ---
-# Sample raw data from Dresden's OpenSPIM
-
 We will explain the entire SPIMage processing (SPIM image processing) pipeline using long-term time-lapse dataset acquired in Dresden during preparation of the OpenSPIM publication. We imaged *Drosophila melanogaster* embryos expression His-YFP in all cells from five angles every 6 minutes throughout embryogenesis - from gastrulation until the embryo started moving which is a sign of muscle contractions. The final processed and 3d rendered dataset looks like this:
 
 {% include video id="kZKHuKscKcQ" width="400" height="243" caption="Histone-YFP from gastrulation to beginning of muscle contraction from ventral, lateral and dorsal view" %}

@@ -1,7 +1,8 @@
 ---
+title: OpenSPIM publications
+layout: page
+description: OpenSPIM publications
 ---
-# OpenSPIM publications
-
 Pitrone P. G., Schindelin J., Stuyvenberg L., Preibisch S., Weber M.; Eliceiri K. W., Huisken J., Tomancak P. (2013) **OpenSPIM: an open access light sheet microscopy platform** *Nat. Methods* in press [PDF](Media:Nmeth.2507.pdf "wikilink") doi: 10.1038/nmeth.2507, [Supplement](Media:Nmeth.2507-S1.pdf "wikilink"). See also the [directors' cut](https://arxiv.org/abs/1302.1987).
 
 Costa A., Candeo A., Fieramonti L., Valentini G., Bassi A. (2013) **Calcium Dynamics in Root Cells of Arabidopsis thaliana Visualized with Selective Plane Illumination Microscopy** [*PLoS ONE 8(10)*](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0075646) <doi:10.1371/journal.pone.0075646>.

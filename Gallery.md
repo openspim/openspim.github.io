@@ -1,6 +1,9 @@
 ---
+title: Gallery
+layout: page
+description: Image gallery
 ---
-Here comes pictures of the OpenSPIM unit and data acquired on it.
+Pictures of the OpenSPIM unit and data acquired on it.
 
 ## OpenSPIM data
 

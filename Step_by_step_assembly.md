@@ -1,48 +1,28 @@
 ---
+title: Step by Step Assembly
+layout: page
+description: Step by stpe assembly of OpenSPIM microscope
 ---
 <div cellspacing="5" style="width: 31em; font-size: 90%; text-align:left; float:right; position:relative; border:2px; border-style:solid;">
 
 <b>Disclaimer</b>  
-When building and working with OpenSPIM it is your own responsibility to
-make a risk assessment before starting any procedure and on the basis of
-the risk assessment to make sure appropriate safety precautions are
-taken to avoid damage to any person or property.
+When building and working with OpenSPIM it is your own responsibility to make a risk assessment before starting any procedure and on the basis of the risk assessment to make sure appropriate safety precautions are taken to avoid damage to any person or property.
 
-Inform yourself about the manufacturers instructions for all parts used
-for the openSPIM before you start assembling the openSPIM.
+Inform yourself about the manufacturers instructions for all parts used for the openSPIM before you start assembling the OpenSPIM.
 
-Follow all instructions in the manufacturer’s operator’s manuals,
-especially the safety precautions.
+Follow all instructions in the manufacturer’s operator’s manuals, especially the safety precautions.
 
-We take no liability for any personal or property damage caused by the
-openSPIM or any parts described on this page.
+We take no liability for any personal or property damage caused by the openSPIM or any parts described on this page.
 
-Warning: Depending on the laser class of the laser, the laser beam or
-even scattered light from the laser may be extremely harmful to eyes and
-skin. Some lasers can potentially cause blindness after direct eye
-contact.
+Warning: Depending on the laser class of the laser, the laser beam or even scattered light from the laser may be extremely harmful to eyes and skin. Some lasers can potentially cause blindness after direct eye contact.
 
 </div>
 
-Before you start to assemble please make sure you have all <a href="Table_of_parts">needed
-parts</a> or you know how to improvise them. The
-light path of our original design is 50 mm off the top surface of the
-ThorLabs metric optical breadboard (part #: MB3045/M) where everything is installed.
+Before you start to assemble please make sure you have all <a href="Table_of_parts">needed parts</a> or you know how to improvise them. The light path of our original design is 50 mm off the top surface of the ThorLabs metric optical breadboard (part #: MB3045/M) where everything is installed.
 
-<b><span style="color:#FF0000"> The optical breadboard has a length of
-300 mm and a width of 450 mm, with a grid of 12 x 18 M6 threaded holes
-spaced 25 mm apart from one another. We will use a coordinate system
-similar to a spreadsheet </span></b>(like OpenOffice Calc or Microsoft
-Excel)<b><span style="color:#FF0000"> to make it easier to know where
-each component and cap screw is positioned. Starting with A1 in the upper
-left corner </span></b>(as seen in the
-images)<b><span style="color:#FF0000">, and ending with R12 in the lower
-right.</span></b>
+<b><span style="color:#FF0000"> The optical breadboard has a length of 300 mm and a width of 450 mm, with a grid of 12 x 18 M6 threaded holes spaced 25 mm apart from one another. We will use a coordinate system similar to a spreadsheet </span></b>(like OpenOffice Calc or Microsoft Excel)<b><span style="color:#FF0000"> to make it easier to know where each component and cap screw is positioned. Starting with A1 in the upper left corner </span></b>(as seen in the images)<b><span style="color:#FF0000">, and ending with R12 in the lower right.</span></b>
 
-Please also forgive the confusion about the Youtube videos and the
-corresponding images, the documentation was done in two different
-locations months apart from each other and small design changes happened
-in between.
+Please also forgive the confusion about the Youtube videos and the corresponding images, the documentation was done in two different locations months apart from each other and small design changes happened in between.
 
   - [Assemble purchased components](Assemble_purchased_components)
   - [Install assembled ThorLabs components on rail carriers](Install_assembled_ThorLabs_components_on_rail_carriers)

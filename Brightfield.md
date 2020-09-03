@@ -1,4 +1,7 @@
 ---
+title: Brightfield
+layout: page
+description: Strategies to implement a proper brightfield illumination
 ---
 Strategies to implement a proper brightfield illumination in an OpenSPIM.
 

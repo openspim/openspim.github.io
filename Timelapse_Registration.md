@@ -1,7 +1,8 @@
 ---
+title: Time Lapse Registration
+layout: page
+description: Time lapse registration
 ---
-# Timelapse Registration
-
 Time lapse registration is necessary because the imaged specimen may, and in most cases will, drift over a long acquisition period. In OpenSPIM this situation is typically exaggerated because:
 
 a) we set-up the imaging angles quickly and approximately, relying on later re-adjustment based on imaging result (thus the first time-points are usually quite off with respect to the rest of the time lapse - see [sample raw data](Raw_data)),

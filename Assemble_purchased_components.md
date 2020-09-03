@@ -1,4 +1,7 @@
 ---
+title: Assemble Purchased Components
+layout: page
+description: Assembling purchased components
 ---
 ## Install mirrors into corresponding mirror mounts
 

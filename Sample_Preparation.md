@@ -1,4 +1,7 @@
 ---
+title: Sample Preparation
+layout: page
+description: Protocols and tips for preparing samples for light sheet microscopy
 ---
 Protocols and tips for preparing samples for light sheet microscopy.
 

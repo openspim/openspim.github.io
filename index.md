@@ -1,4 +1,7 @@
 ---
+title: Welcome to OpenSPIM
+layout: page
+description: Home page
 ---
 ## The Idea
 

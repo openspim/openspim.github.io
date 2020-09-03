@@ -1,7 +1,8 @@
 ---
+title: Basic requirements for OpenSPIM image processing
+layout: page
+description: Basic requirements for OpenSPIM image processing
 ---
-# Basic requirements for SPIMage processing
-
 ## Hardware requirements
 
 OpenSPIM image processing involves computationally relatively expensive steps particularly due to the size of the imaged dataset. Typical acquisition will consist of multiple views 100-400 MB each. Those large images have to be at least temporarily held in memory, usually in multiple copies and therefore we recommend to **invest in RAM**.

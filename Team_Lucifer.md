@@ -1,4 +1,7 @@
 ---
+title: Team Lucifer
+layout: page
+description: EMBO 2014 Team Lucifer
 ---
 # Team Lucifer
 

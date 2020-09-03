@@ -1,4 +1,7 @@
 ---
+title: Installing the 4D motor system
+layout: page
+description: Installing the 4D motor system
 ---
 ##### Objects needed
 

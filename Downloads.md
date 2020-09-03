@@ -1,4 +1,7 @@
 ---
+title: Downloads
+layout: page
+description: Installing and running the OpenSPIM software
 ---
 # Installing the OpenSPIM/Fiji package
 
@@ -21,7 +24,7 @@ Installation:
 
 Most of the drivers are shipped within [µManager](https://micro-manager.org/), bundled in our OpenSPIM software. However, some µManager drivers require separate installations (such as, in the case of the OpenSPIM version 1.0 setup, the camera driver).
 
-## Camera Drive p
+## Camera Drive
 
 Theoretically, OpenSPIM works with all cameras supported by [µManager](https://micro-manager.org/). However, OpenSPIM version 1.0 refers to the setup that has a [Hamamatsu ORCA](https://www.hamamatsu.com/eu/en/community/life_science_camera/index.html) camera. For such a setup, you need to [download and install the DCAM driver](https://www.dcamapi.com/).
 

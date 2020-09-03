@@ -1,4 +1,7 @@
 ---
+title: Debugging
+layout: page
+description: Debuggind software 
 ---
 ## Dependency problems (AKA "Module could not be loaded")
 

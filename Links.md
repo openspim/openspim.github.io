@@ -1,4 +1,7 @@
 ---
+title: Links
+layout: page
+description: Useful links
 ---
 OpenSPIM's software is based on the [Fiji](https://fiji.sc/), [ImageJ](https://imagej.net) and [Micro-Manager](https://micro-manager.org) projects. Micro-Manager is backed by the [OpenImaging](https://open-imaging.com/) company.
 

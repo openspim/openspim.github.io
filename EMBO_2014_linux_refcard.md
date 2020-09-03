@@ -1,4 +1,7 @@
 ---
+title: EMBO 2014 Linux Commands Reference
+layout: page
+description: Linux commands reference
 ---
 ### File Commands
 

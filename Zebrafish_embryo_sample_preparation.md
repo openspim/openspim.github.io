@@ -1,4 +1,7 @@
 ---
+title: Zebrafish Embryo Sample Preparation
+layout: page
+description: Zebrafish embryo sample preparation
 ---
 Zebrafish embryos should be mounted according to the imaging needs, e.g.:
 

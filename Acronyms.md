@@ -1,4 +1,7 @@
 ---
+title: Acronyms
+layout: page
+description: List of acronyms used
 ---
 # LISH Alphabet
 

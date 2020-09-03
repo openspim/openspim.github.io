@@ -1,7 +1,8 @@
 ---
+title: OpenSPIM News
+layout: page
+description: News and announcements
 ---
-# OpenSPIM News
-
 - [2015-10-16 Brightfield Illumination by Michael Redd](news/2015-10-16_Brightfield_illumination_by_Michael_Redd)
 - [2014-08-15 EMBO practical course on Light Sheet Microscopy](news/2014-08-15_EMBO_practical_course_on_light_sheet_microscopy)
 - [2014-04-22_Multiview_deconvolution](news/2014-04-22_Multiview_deconvolution)

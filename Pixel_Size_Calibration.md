@@ -1,4 +1,7 @@
 ---
+title: Pixel Size Calibration
+layout: page
+description: Pixel size calibration
 ---
 As a central feature for virtually all imaging, specifying a pixel's physical dimensions is handled within µManager:
 

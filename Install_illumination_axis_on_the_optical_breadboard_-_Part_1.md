@@ -1,4 +1,7 @@
 ---
+title: Installing illumination axis on the optical breadboard Part 1
+layout: page
+description: Installing illumination axis on the optical breadboard Part 1
 ---
 <b style="color:#FF0000"> The optical breadboard</b> (ThorLabs Part # [MB3045/M](https://www.thorlabs.de/thorProduct.cfm?partNumber=MB3045/M)) <b style="color:#FF0000"> has a depth of 300 mm and a width of 450 mm, with a grid of 12 x 18 M6 threaded holes spaced 25 mm apart from one another. We will use a coordinate system similar to a spreadsheet (like OpenOffice Calc or Microsoft Excel) to make it easier to know where each component and capscrew is positioned. Starting with A1 in the upper left corner</b> (as seen in the images)<b style="color:#FF0000">, and ending with R12 in the lower right</b>
 

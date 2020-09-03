@@ -1,4 +1,7 @@
 ---
+title: Anti-Drift
+layout: page
+description: Strategy to keep the entirety of the sample in the stack volume
 ---
 Anti-drift is the process of ensuring that the target of imaging remains within the field of view of the camera. Because the sample is prone to drift -- most commonly due to the agarose shrinking, but sometimes due to the sample itself moving within the column or other factors entirely -- a strategy to keep the entirety of the sample in the stack volume must be implemented.
 

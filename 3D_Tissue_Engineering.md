@@ -1,7 +1,9 @@
 ---
+title: SPIM for 3D tissue engineering imaging
+layout: page
+author: Edite Figueiras
+description: SPIM for 3D tissue engineering imaging
 ---
-# Edite Figueiras: SPIM for 3D tissue engineering imaging
-
 In Tissue Engineering (TE) research field there is a need of 3D non-destructive imaging techniques capable of rendering images over time to investigate cells differentiation and proliferation; dynamics of the cell behaviors; cells interactions with each other and with the biomaterial; etc. In this project I want to answer to the questions: Can I use SPIM to image TE based in hydrogels? Can the samples be prepared inside FEP tubes? How deep I can image inside the gel without loosing resolution?
 
 ## TE constructs of alginate with neurons

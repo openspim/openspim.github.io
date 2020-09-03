@@ -1,4 +1,7 @@
 ---
+title: Aquisition
+layout: page
+description: How to acquire images
 ---
 The process of acquiring images ranges from snapping a single image to recording overnight (or longer) time lapses of samples from N different angles. See [Acquisition Controls](##acquisition_controls) for detailed descriptions of the controls.
 

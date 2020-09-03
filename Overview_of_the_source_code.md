@@ -1,4 +1,7 @@
 ---
+title: Overview of the source code
+layout: page
+description: OpenSPIM software overview
 ---
 OpenSPIM's software is embedded into [µManager](https://micro-manager.org/) and [Fiji](https://fiji.sc/).
 

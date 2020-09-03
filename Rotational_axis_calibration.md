@@ -1,4 +1,7 @@
 ---
+title: Rotation Axis Calibration
+layout: page
+description: Rotation axis calibration
 ---
 Setting your twister angle to 0 before starting will simplify the second part below. Find a convenient bead in the live window and click Calibrate on the OpenSPIM plugin.
 

@@ -1,4 +1,7 @@
 ---
+title: Tribolium Extraembryonic Development
+layout: page
+description: Tribolium Extraembryonic Development
 ---
 # Background
 

@@ -1,4 +1,7 @@
 ---
+title: EMBO Instrument Schedule
+layout: page
+description: Workshop instrument schedule
 ---
 This page provides up to date information about the instrument schedule
 for the course:

@@ -1,4 +1,7 @@
 ---
+title: Bryozoan and Brachiopod development
+layout: page
+description: Imaging bryozoans and brachiopods
 ---
 ## Imaging live bryozoan embryos
 

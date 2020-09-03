@@ -1,4 +1,7 @@
 ---
+title: Installing detection axis on the optical breadboard
+layout: page
+description: Installing detection axis on the optical breadboard
 ---
 ## Assembly of detection axis
 

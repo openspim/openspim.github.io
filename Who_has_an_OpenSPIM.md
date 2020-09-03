@@ -1,4 +1,7 @@
 ---
+title: Who has an OpenSPIM
+layout: page
+description: Census of OpenSPIM users
 ---
 Feel free to edit this page with information about your system! (You will need a [GitHub](https://github.com) account)
 

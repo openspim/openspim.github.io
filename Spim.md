@@ -1,4 +1,7 @@
 ---
+title: Selective Plane Illumination Microscope (SPIM)
+layout: page
+description: Introduction to Selective Plane Illumination Microscope (SPIM)
 ---
 ## A Compact and Versatile Light Sheet Microscopy Platform for Research and Education
 

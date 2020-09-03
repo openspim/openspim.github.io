@@ -1,4 +1,7 @@
 ---
+title: Light Sheet Calibration
+layout: page
+description: Light sheet calibration
 ---
 ## Materials
 

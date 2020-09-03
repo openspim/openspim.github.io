@@ -1,4 +1,7 @@
 ---
+title: Requirements
+layout: page
+description: Requirements
 ---
 Hardware:
 

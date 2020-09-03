@@ -1,4 +1,7 @@
 ---
+title: EMBO 2014 Team SiedyZsig
+layout: page
+description: Team SiedyZsig report
 ---
 ## Projects
 

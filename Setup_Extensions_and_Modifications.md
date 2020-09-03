@@ -1,4 +1,7 @@
 ---
+title: Setup Extensions and Modifications
+layout: page
+description: Additional setup tweaks
 ---
 # Bright-field illumination
 

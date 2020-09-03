@@ -1,4 +1,7 @@
 ---
+title: FAQ
+layout: page
+description: OpenSPIM FAQ
 ---
 # Camera issues
 

@@ -1,4 +1,7 @@
 ---
+title: OpenSPIM stage control
+layout: page
+description: OpenSPIM stage control
 ---
 # Live Window
 

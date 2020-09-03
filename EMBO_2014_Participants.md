@@ -1,4 +1,7 @@
 ---
+title: EMBO 2014 Participants
+layout: page
+description: Workshop participants
 ---
 The participants of the [EMBO practical course Light sheet microscopy](EMBO_practical_course_Light_sheet_microscopy) 2014 in alphabetical order are:
 

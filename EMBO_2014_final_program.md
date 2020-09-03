@@ -1,4 +1,7 @@
 ---
+title: EMBO 2014 Final Program
+layout: page
+description: EMBO 2014 Final Program
 ---
 [20 August](#aug20) | [21 August](#aug21) | [22
 August](#aug22) | [23 August](#aug23) | [24
