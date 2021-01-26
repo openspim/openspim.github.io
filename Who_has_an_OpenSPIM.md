@@ -202,3 +202,21 @@ Feel free to edit this page with information about your system! (You will need a
   - The OpenSPIM is used for high resolution 3d images and time lapse recordings to study the development of different lophotrochozoan members (Spiralia) in particular the polyclad flatworm *Maritigrella crozieri*.
 
   - For detailed information of our system and our experience of building it you can read our paper: Light-sheet microscopy for everyone? Experience of building an OpenSPIM to study flatworm development (BMC Developmental Biology, 2016)
+
+# Oldenburg, Germany
+
+{% include image src="Openspim_Oldenburg.jpg" width="70%" caption="OpenSPIM at IBU Oldenburg." %}
+
+Our OPENSPIM is located in the Sensory Biology of Animals group of Prof. Winklhofer in the Department of Biology and Environmental Science (IBU) at the University of Oldenburg:
+
+https://uol.de/en/biology/groups-our-research/sensory-biology-of-animals
+
+Component details:
+
+	- C-FLEX C6 Laser combined with 405nm, 488nm and 633nm lasers (upgradable to 6 different laser lines)
+	- Camera: BSI- Prime Express sCMOS
+	- Sample chambers: Immersed chamber and dry chamber
+	- Adapted illumination path for better compatibility with the C-Flex box
+	- The entire set-up is mobile
+	- 3-D mouse
+
