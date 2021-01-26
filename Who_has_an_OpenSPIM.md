@@ -213,10 +213,15 @@ https://uol.de/en/biology/groups-our-research/sensory-biology-of-animals
 
 Component details:
 
-	- C-FLEX C6 Laser combined with 405nm, 488nm and 633nm lasers (upgradable to 6 different laser lines)
-	- Camera: BSI- Prime Express sCMOS
-	- Sample chambers: Immersed chamber and dry chamber
-	- Adapted illumination path for better compatibility with the C-Flex box
-	- The entire set-up is mobile
-	- 3-D mouse
+- C-FLEX C6 Laser combined with 405nm, 488nm and 633nm lasers (upgradable to 6 different laser lines)
+
+- Camera: BSI- Prime Express sCMOS
+
+- Sample chambers: Immersed chamber and dry chamber
+
+- Adapted illumination path for better compatibility with the C-Flex box
+
+- The entire set-up is mobile
+
+- 3-D mouse
 
