@@ -525,7 +525,7 @@ Here are some companies who make Ø1" (Ø25.4 mm) microscopy filters:<br/>
 <td>X-OpenSPIM</td>
 <td align="center" bgcolor="green">self made</td>
 <td><strong>ITL200 tube lens adapter</strong> for Nikon 40x detection objective (CFI Apochromat NIR 40X W)</td>
-<td><a html="Tube_Lens_adapter_for_Nikon.pdf">Tube_Lens_adapter_for_Nikon.pdf</a></td>
+<td><a href="documents/Tube_Lens_adapter_for_Nikon.pdf">Tube_Lens_adapter_for_Nikon.pdf</a></td>
 <td align="center"><img src="images/ITL200_tube-lens-adapter_Nikon40x.png" width="70%"</td>
 <td align="center">1</td>
 <td align="center"></td>
