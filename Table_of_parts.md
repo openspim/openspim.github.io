@@ -528,7 +528,7 @@ Here are some companies who make Ø1" (Ø25.4 mm) microscopy filters:<br/>
 <td><a href="documents/Tube_Lens_adapter_for_Nikon.pdf">Tube_Lens_adapter_for_Nikon.pdf</a></td>
 <td align="center"><img src="images/ITL200_tube-lens-adapter_Nikon40x.png" width="70%"</td>
 <td align="center">1</td>
-<td align="center"></td>
+<td align="center">10</td>
 </tr>
 <tr class="even">
 <td>Olympus</td>
