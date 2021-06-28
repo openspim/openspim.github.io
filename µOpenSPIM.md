@@ -12,7 +12,7 @@ To acquire a single image using the OpenSPIM plugin:
 1.  Navigate the 4D stage to the location you want to image.
 2.  Click *Add current position* to add this plane to the position list. 
 3.  Click *Add TP* and set both, the number of time points (TP) and the interval, to 1.
-4.  Add at least one channel to the Software Controlled Channels list or select one of the Channels that are available in the Arduino Controlled Channels list. Don't forget to set the correct exposure time of each channel.
+4.  Add at least one channel to the Software Controlled Channels list or select one of the Channels that are available in the Arduino Controlled Channels list. Don't forget to set the desired exposure time of each channel.
 5.  You may specify an Output directory if you would prefer the image be written straight to disk, rather than opened in µManager using the computer memory. A metadata.txt file of all acquisition settings will also be saved into the Output directory.
 6.  Finally, click *Acquire* to capture a single or multi-channel image.
 
@@ -55,10 +55,10 @@ To record a single view/stack of a sample over time:
 2.  Click *Add Pos.* to add the newly defined Z stack to the position list on the left and specify how often the stack should be imaged and set the recurring time interval (in seconds, minutes, hours or days).
 3.  Specify an Output directory. A metadata file of all acquisition settings will additionally be saved into the Output directory.
 4.  Optionally:
-    a) Enable Anti-Drift: choose between Phase Correlation (logic is based on the 3d-stack with x, y, and z) or Centre of Mass (logic based on x, y). Note that beads surrounding the sample might affect the Anti-Drift.
-    b) Select a Region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click *Apply*.
-    c) Enable Binning: Choose one of the binning options and press apply.
-    d) Turn on *Show/Save Maximum Intensity Projections of each TP* to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own subfolder within the Output directory.
+    - a) Enable Anti-Drift: choose between Phase Correlation (logic is based on the 3d-stack with x, y, and z) or Centre of Mass (logic based on x, y). Note that beads surrounding the sample might affect the Anti-Drift.
+    - b) Select a Region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click *Apply*.
+    - c) Enable Binning: Choose one of the binning options and press apply.
+    - d) Turn on *Show/Save Maximum Intensity Projections of each TP* to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own subfolder within the Output directory.
 5.  Click *Acquire* to begin the multi-view time-lapse recording.
 
 ## Multi-View Time Lapse
@@ -72,16 +72,16 @@ To record multiple views of a sample over time:
 2.  After clicking *Add TP* specify how often the stack(s) or view(s) should be imaged and set the recurring time interval (in seconds, minutes, hours or days).  Add acquisition breaks by clicking *Add Pause* and specify its length. Click *Add TP* to add new time lapse span which will continue after the acquisition break.
 3.  Specify an Output directory. A metadata file of all acquisition settings will additionally be saved into the Output directory.
 4.  Optionally:
-    a) Enable Anti-Drift: choose between Phase Correlation (logic is based on the 3d-stack with x, y, and z) or Centre of Mass (logic based on x, y). Note that beads surrounding the sample might affect the Anti-Drift.
-    b) Select a Region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click *Apply*.
-    c) Enable Binning: Choose one of the binning options and press apply.
-    d) Turn on *Show/Save Maximum Intensity Projections of each TP* to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own subfolder within the Output directory.
+    - a) Enable Anti-Drift: choose between Phase Correlation (logic is based on the 3d-stack with x, y, and z) or Centre of Mass (logic based on x, y). Note that beads surrounding the sample might affect the Anti-Drift.
+    - b) Select a Region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click *Apply*.
+    - c) Enable Binning: Choose one of the binning options and press apply.
+    - d) Turn on *Show/Save Maximum Intensity Projections of each TP* to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own subfolder within the Output directory.
 5.  Click *Acquire* to begin the multi-view time-lapse recording.
 
 
 ## Acquisition Controls
 
-{% include image src="µOpenSPIM_Acquisition.jpg" width="200%" caption="" %}
+{% include image src="µOpenSPIM_Acquisition.jpg" width="200%" length="200%" caption="µOpenSPIM's Acquisition GUI (A-I) togehter with the Picard 4D-stage control (J) and the Console window (K)" %}
 
   - (A) Positions  
     This table shows the list of stacks of images to acquire. Each time point will consist of the images recorded at each position in this list (as well as the Z slices described by the range in the Z column).
