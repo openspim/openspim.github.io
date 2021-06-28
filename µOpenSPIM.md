@@ -161,10 +161,17 @@ To record multiple views of a sample over time:
     3.  Click *CLEAR* to clear the Acquisition panel from all settings and tables.
 
   - (J) Stage
-        - Move the four (X, Y, Z, R) Stages and calibrate the rotational stepper size (R Stage) and the Anti-Drift.
-    1.  Click *Homing* on one of the four Stages.
-    2.  Click *LOAD* to load previously saved acquisition settings.
-    3.  Click *CLEAR* to clear the Acquisition panel from all settings and tables.
+        - Move the four Stages (X, Y, Z, R) and calibrate the rotational stepper size (R Stage) and the Anti-Drift.
+    1.  Save current position
+        - Click this button to save the current position of the stage. It will be added to a list.
+    2.  Load location
+         - Click this button to Load a previosly saved stage position from a list.
+    3.  Indicate angles
+        - Indicate here the number of angles you wish to acquire during a single time-point. The angles will then be indicated above the rotational stage (Stage R).
+    4.  Calibrate
+        - Click this button to calibrate the R Stage in case the 360 degrees do not correspond to a full revolution of the sample holder.
+    5.  Click *Homing* on one of the four Stages to move the stepper motot back to its home position.
+    6.  Click *Stop* to immediately stop a stepper motor.
 
   - (K) Console
         - The console window can be useful to see what is going on in the background of the plugin and to spot error messages.
