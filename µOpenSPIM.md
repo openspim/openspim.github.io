@@ -6,7 +6,11 @@ description: How to acquire images, stacks, multi-view time-lapse recordings
 µOpenSPIM is an intuitive new graphical user interface (GUI), tailored for OpenSPIM users and relies on [µManager](https://micro-manager.org/wiki/) run under [Fiji](https://fiji.sc).
 
 ## Features of µOpenSPIM
+- a
+- b
+- c
 
+## Acquisition
 The process of acquiring images ranges from snapping a single image to recording overnight (or longer) time lapses of samples from N different angles.
 
 ## Acquiring a Single Image
