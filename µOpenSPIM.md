@@ -81,7 +81,9 @@ To record multiple views of a sample over time:
 
 ## Acquisition Controls
 
-{% include image src="µOpenSPIM_Acquisition.jpg" width="100%" length="100%" caption="µOpenSPIM's Acquisition GUI (A-I) togehter with the Picard 4D-stage control (J) and the Console window (K)" %}
+{% include image src="µOpenSPIM_Acquisition.jpg" width="100%" caption="µOpenSPIM's Acquisition GUI (A-I) togehter with the Picard 4D-stage control (J) and the Console window (K)" %}
+
+<img src="µOpenSPIM_Acquisition.jpg" width="200">
 
   - (A) Positions  
     This table shows the list of stacks of images to acquire. Each time point will consist of the images recorded at each position in this list (as well as the Z slices described by the range in the Z column).
