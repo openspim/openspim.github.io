@@ -3,6 +3,11 @@ title: Acquisition with µOpenSPIM
 layout: page
 description: How to acquire images, stacks, multi-view time-lapse recordings
 ---
+## What is µOpenSPIM?
+µOpenSPIM is an intuitive new graphical user interface (GUI), tailored for OpenSPIM users and relies on µManager.
+
+## Features of µOpenSPIM
+
 The process of acquiring images ranges from snapping a single image to recording overnight (or longer) time lapses of samples from N different angles.
 
 ## Acquiring a Single Image
@@ -81,9 +86,9 @@ To record multiple views of a sample over time:
 
 ## Acquisition Controls
 
-{% include image src="µOpenSPIM_Acquisition.jpg" width="100%" caption="µOpenSPIM's Acquisition GUI (A-I) togehter with the Picard 4D-stage control (J) and the Console window (K)" %}
+{% include image src="µOpenSPIM_Acquisition.jpg" height="200%" caption="µOpenSPIM's Acquisition GUI (A-I) togehter with the Picard 4D-stage control (J) and the Console window (K)" %}
 
-<img src="µOpenSPIM_Acquisition.jpg" width="200">
+{% include img src="µOpenSPIM_Acquisition.jpg" width="200"> %}
 
   - (A) Positions  
     This table shows the list of stacks of images to acquire. Each time point will consist of the images recorded at each position in this list (as well as the Z slices described by the range in the Z column).
