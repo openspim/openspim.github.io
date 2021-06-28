@@ -66,9 +66,9 @@ To record a single view/stack of a sample over time:
 To record multiple views of a sample over time:
 
 1.  For each view:
-    a)  Navigate the 4D-stage to the location you wish to acquire images.
-    b)  Specify the beginning and the end of the Z stack and the Z-Step Size (in μm) as described above. In the Picard 4D-stage the minimum Z step size is 1.524 µm. 
-    c)  Click *Add Pos.* to add the newly defined Z stack to the position list on the left.
+    - a)  Navigate the 4D-stage to the location you wish to acquire images.
+    - b)  Specify the beginning and the end of the Z stack and the Z-Step Size (in μm) as described above. In the Picard 4D-stage the minimum Z step size is 1.524 µm. 
+    - c)  Click *Add Pos.* to add the newly defined Z stack to the position list on the left.
 2.  After clicking *Add TP* specify how often the stack(s) or view(s) should be imaged and set the recurring time interval (in seconds, minutes, hours or days).  Add acquisition breaks by clicking *Add Pause* and specify its length. Click *Add TP* to add new time lapse span which will continue after the acquisition break.
 3.  Specify an Output directory. A metadata file of all acquisition settings will additionally be saved into the Output directory.
 4.  Optionally:
@@ -81,7 +81,7 @@ To record multiple views of a sample over time:
 
 ## Acquisition Controls
 
-{% include image src="µOpenSPIM_Acquisition.jpg" width="200%" length="200%" caption="µOpenSPIM's Acquisition GUI (A-I) togehter with the Picard 4D-stage control (J) and the Console window (K)" %}
+{% include image src="µOpenSPIM_Acquisition.jpg" width="100%" length="100%" caption="µOpenSPIM's Acquisition GUI (A-I) togehter with the Picard 4D-stage control (J) and the Console window (K)" %}
 
   - (A) Positions  
     This table shows the list of stacks of images to acquire. Each time point will consist of the images recorded at each position in this list (as well as the Z slices described by the range in the Z column).
