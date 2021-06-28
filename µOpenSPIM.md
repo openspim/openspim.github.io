@@ -1,5 +1,5 @@
 ---
-title: Acquisition with the OpenSPIM plugin
+title: Acquisition with µOpenSPIM
 layout: page
 description: How to acquire images, stacks, multi-view time-lapse recordings
 ---
@@ -81,7 +81,7 @@ To record multiple views of a sample over time:
 
 ## Acquisition Controls
 
-{% include image src="Spimgui-acquiring-annotated.png" width="100%" caption="" %}
+{% include image src="µOpenSPIM_Acquisition.jpg." width="100%" caption="" %}
 
   - (A) Positions  
     This table shows the list of stacks of images to acquire. Each time point will consist of the images recorded at each position in this list (as well as the Z slices described by the range in the Z column).
