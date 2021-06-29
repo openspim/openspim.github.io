@@ -2,7 +2,7 @@
 ---
 One of the reasons for running the OpenSPIM project is to provide a platform for teaching light-sheet microscopy. At the end of March 2013 we have brought OpenSPIM to an EMBO course in South Africa. Here are [Pavel Tomancak](https://www.mpi-cbg.de/research/research-groups/pavel-tomancak.html)'s first hand impressions on how it worked out:
 
-{% include image src="../SA_course_poster.jpg" width="70%" caption="Imaging Infection and Immunity" %}
+{% include image src="https://openspim.org/images/SA_course_poster.jpg" width="70%" caption="Imaging Infection and Immunity" %}
 
 The EMBO course [Imaging Infection and Immunity](https://microscopy.synbio.scientific-solution.com/) is a practical course aimed at researchers studying infectious diseases with strong emphasis on imaging. It has been organized three times over the last 4 years by **Musa Mhlanga, Freddy Frischknecht and Jost Enninga**. The first installment of the course has been held at the [CSIR](https://www.csir.co.za/) in Pretoria South Africa right before the World Cup and it stayed there ever since. ![Freddy Frischknecht, Musa Mhlanga, Jost Enninga](Freddy_Musa_Jost.jpg "Freddy Frischknecht, Musa Mhlanga, Jost Enninga")
 
@@ -17,7 +17,7 @@ During the course we discovered a problem with the software - the Micro-Manager 
 
 It happened just in time, because the next day the course was visited by high school students from the **African Leadership Academy** [ALA](https://www.africanleadershipacademy.org/). I presented a talk tailored for younger, non-scientific audience centered around SPIM imaging. It actually wasn't necessary to dumb things down, since many of the students had strong biological background and all, even the particle physicists (;-)), were very smart. Pete and Jessica from Freddy's lab built the set-up with them. This event attracted serious media attention. South African TV was shooting a documentary about women in science and they got so intrigued by our do-it-yourself microscope that they will include it. The ALA students were giving professional interviews. Musa, myself and Pete also talked some non-sense into the camera. I dread what will come out of that, but overall this was a great outreach event.
 
-{% include image src="Pavel_Pete_OpenSPIM.jpg" width="70%" caption="Pavel and Pete 'posing' with OpenSPIM in a suitcase" %}
+{% include image src="https://openspim.org/images/Pavel_Pete_OpenSPIM.jpg" width="70%" caption="Pavel and Pete 'posing' with OpenSPIM in a suitcase" %}
 
 The feedback on the wiki from the course students was overwhelmingly positive. In their final report they called it *absolutely idiot proof*. We observed what resources they were using when building the set-up and found out that they focus mainly on the static SolidWorks and real pictures - building it like a Lego. My impression was that especially the students from Africa highly appreciate the fact that we are making this technology accessible. We managed on the last day of the course to record a short but almost perfect time-lapse of His-YFP expressing *Drosophila* embryo from 6 angles. I will call that a success, we brought down to South Africa bits and pieces and we managed to put together a completely functional SPIM set-up.
 
