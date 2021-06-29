@@ -7,9 +7,7 @@ description: Workshop announcement
 {% include image src="EMBO_PracticalCourse_stamp_web_DARK.jpg" width="70%" caption="" %}
 </center>
 
-[Storified twitter feed](https://storify.com/tomancak/embo-practical-course-on-light-sheet-microscopy#publicize)
-
-Light-sheet microscopy is an emerging technology that enables imaging of biological specimens with minimal photo-damage. It opens new avenues to study cell biological and developmental processes with unprecedented imaging speed. It also facilitates systems biology approaches by quantitative imaging of entire living systems. Light-sheet microscopy has only recently left the optical tables of technology developers and became more broadly available through commercial and open-access platforms. This [EMBO Practical Course](https://events.embo.org/14-lsm/index.html) will comprehensively introduce the light sheet microscopy paradigm to the new generation of scientists.
+Light-sheet microscopy is an emerging technology that enables imaging of biological specimens with minimal photo-damage. It opens new avenues to study cell biological and developmental processes with unprecedented imaging speed. It also facilitates systems biology approaches by quantitative imaging of entire living systems. Light-sheet microscopy has only recently left the optical tables of technology developers and became more broadly available through commercial and open-access platforms. This EMBO Practical Course will comprehensively introduce the light sheet microscopy paradigm to the new generation of scientists.
 
 <center>
 18 – 29 August 2014 | <b>Dresden, Germany</b>
