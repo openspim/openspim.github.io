@@ -4,7 +4,7 @@ layout: page
 description: How to acquire images, stacks, multi-view time-lapse recordings using µOpenSPIM
 ---
 
-<img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"> is an intuitive new graphical user interface (GUI), tailored for OpenSPIM users and relies on [µManager](https://micro-manager.org).
+<img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"> is an intuitive new graphical user interface (GUI), tailored for OpenSPIM users and relies on [µManager.](https://micro-manager.org)
 
 ## Features of µOpenSPIM
 -   A complete overhaul of the GUI has been made including simple graphic visualizations and an improved control over Picrard’s 4D-stage.
@@ -98,9 +98,12 @@ To record multiple views of a sample over time:
 
 ## Acquisition Controls
 <figure>
-  <img src="https://openspim.org/images/%C2%B5OpenSPIM_Acquisition.jpg" width="1024" caption="Test">
-<figcaption>Image caption</figcaption>
+  <img src="https://openspim.org/images/%C2%B5OpenSPIM_Acquisition.jpg" width="1024">
+<figcaption>Acquisition Controls of the µOpenSPIM GUI (A-I) with the Picard 4D-stage controls on the right (J) and the Cponsole window (K).</figcaption>
 </figure>
+
+For a higher resolution image click [here.](https://openspim.org/images/%C2%B5OpenSPIM_Acquisition.jpg)
+
   - (A) Positions  
     This table shows the list of stacks of images to acquire. Each time point will consist of the images recorded at each position in this list (as well as the Z slices described by the range in the Z column).
     1.  Add position
