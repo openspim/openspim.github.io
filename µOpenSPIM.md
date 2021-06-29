@@ -46,7 +46,7 @@ The process of acquiring images ranges from snapping a single image to recording
 
 ## Single-Plane Time Lapse
 <img src="https://openspim.org/images/µOpenSPIM_time-lapse.png" width="300">
-To acquire a time lapse of a single plane, set up the recording exactly as if you were going to record only one image.
+ To acquire a time lapse of a single plane, set up the recording exactly as if you were going to record only one image.
 
 1.  After clicking *Add TP* specify how often the plane should be imaged and set its recurring time interval (in seconds, minutes, hours or days).
     - Optionally you can add acquisition breaks by clicking *Add Pause*. Then specify the length of the acquisition break and click *Add TP* to continue with a new time lapse recording after the acquisition break.
@@ -60,7 +60,7 @@ To acquire a time lapse of a single plane, set up the recording exactly as if yo
 
 ## Single-View Time Lapse
 <img src="https://openspim.org/images/µOpenSPIM_4d-time-lapse.png" width="300">
-To record a single view/stack of a sample over time:
+ To record a single view/stack of a sample over time:
 
 1.  Navigate the 4D-stage to the location you wish to acquire images and specify the beginning and the end of the Z stack and the Z-Step Size (in μm) as described above. In the Picard 4D-stage the minimum Z step size is 1.524 µm. 
 2.  Click *Add Pos.* to add the newly defined Z stack to the position list on the left and specify how often the stack should be imaged and set the recurring time interval (in seconds, minutes, hours or days).
@@ -74,6 +74,7 @@ To record a single view/stack of a sample over time:
 
 ## Multi-View Time Lapse
 <img src="https://openspim.org/images/µOpenSPIM_multiview-timelapse.png" width="300">
+
 To record multiple views of a sample over time:
 
 1.  For each view:
