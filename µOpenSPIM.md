@@ -97,9 +97,10 @@ To record multiple views of a sample over time:
 
 
 ## Acquisition Controls
-
+<figure>
   <img src="https://openspim.org/images/%C2%B5OpenSPIM_Acquisition.jpg" width="1024" caption="Test">
-
+<figcaption>Image caption</figcaption>
+</figure>
   - (A) Positions  
     This table shows the list of stacks of images to acquire. Each time point will consist of the images recorded at each position in this list (as well as the Z slices described by the range in the Z column).
     1.  Add position
