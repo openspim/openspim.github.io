@@ -4,7 +4,7 @@
 
 <img src="https://openspim.org/images/OpenSPIM_deconvolution.jpg" width="70%">
 
-Stephan Preibisch, Fernando Amat, Evangelia Stamataki, Mihail Sarov, Robert H Singer, Eugene Myers & Pavel Tomancak (2014) **Efficient Bayesian-based multiview deconvolution** *Nature Methods* AOP <doi:10.1038/nmeth.2929> [**PDF**](../documents/Nmeth.2929.pdf), [**Supplement**](.//documents/Nmeth.2929-S1.pdf)
+Stephan Preibisch, Fernando Amat, Evangelia Stamataki, Mihail Sarov, Robert H Singer, Eugene Myers & Pavel Tomancak (2014) **Efficient Bayesian-based multiview deconvolution** *Nature Methods* AOP <doi:10.1038/nmeth.2929> [**PDF**](../documents/Nmeth.2929.pdf), [**Supplement**](../documents/Nmeth.2929-S1.pdf)
 
 Check out the extensive supplement that provides the derivation of the algorithm (for the mathematically inclined) and extensive evaluation and benchmarking against other approaches. The GPU code was developed by **Fernando Amat** from Philipp Keller's lab at the Janelia Farm.
 
