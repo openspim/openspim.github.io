@@ -4,7 +4,7 @@ One of the reasons for running the OpenSPIM project is to provide a platform for
 
 
 <figure>
-  <img src="https://openspim.org/images/SA_course_poster.jpg" width="70%">
+  <img src="https://openspim.org/images/SA_course_poster.jpg" width="768">
 <figcaption>Imaging Infection and Immunity.</figcaption>
 </figure>  
 
@@ -18,7 +18,7 @@ Twitter character limits).
 Pete built the system four times with the students during the course. We wanted to image His-YFP expressing *Drosophila* however it was relatively difficult to prepare the *Drosophila* samples in Musa's lab which works mostly with mammalian cells. Some crucial pieces of equipment were missing - like paint brush and sieves and so until I arrived the students managed to image only some random critters picked up from the local pond. I was able to later on improvise the *Drosophila* sample prep (the sieves can be substituted reasonably by *two* lens cleaning tissues and instead of the brush one can use a feather plucked from some random African bird ;-)).
 
 <figure>
-  <img src="https://openspim.org/images/Pete_ALA.jpg" width="70%">
+  <img src="https://openspim.org/images/Pete_ALA.jpg" width="768">
 <figcaption>Pete Pitrone explaining SPIM principles to ALA students</figcaption>
 </figure>  
 
@@ -27,7 +27,7 @@ During the course we discovered a problem with the software - the Micro-Manager 
 It happened just in time, because the next day the course was visited by high school students from the **African Leadership Academy** [ALA](https://www.africanleadershipacademy.org/). I presented a talk tailored for younger, non-scientific audience centered around SPIM imaging. It actually wasn't necessary to dumb things down, since many of the students had strong biological background and all, even the particle physicists (;-)), were very smart. Pete and Jessica from Freddy's lab built the set-up with them. This event attracted serious media attention. South African TV was shooting a documentary about women in science and they got so intrigued by our do-it-yourself microscope that they will include it. The ALA students were giving professional interviews. Musa, myself and Pete also talked some non-sense into the camera. I dread what will come out of that, but overall this was a great outreach event.
 
 <figure>
-  <img src="https://openspim.org/images/avel_Pete_OpenSPIM.jpg" width="70%">
+  <img src="https://openspim.org/images/avel_Pete_OpenSPIM.jpg" width="768">
 <figcaption>Pavel and Pete 'posing' with OpenSPIM in a suitcase</figcaption>
 </figure>  
 
