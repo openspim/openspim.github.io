@@ -27,7 +27,7 @@ During the course we discovered a problem with the software - the Micro-Manager 
 It happened just in time, because the next day the course was visited by high school students from the **African Leadership Academy** [ALA](https://www.africanleadershipacademy.org/). I presented a talk tailored for younger, non-scientific audience centered around SPIM imaging. It actually wasn't necessary to dumb things down, since many of the students had strong biological background and all, even the particle physicists (;-)), were very smart. Pete and Jessica from Freddy's lab built the set-up with them. This event attracted serious media attention. South African TV was shooting a documentary about women in science and they got so intrigued by our do-it-yourself microscope that they will include it. The ALA students were giving professional interviews. Musa, myself and Pete also talked some non-sense into the camera. I dread what will come out of that, but overall this was a great outreach event.
 
 <figure>
-  <img src="https://openspim.org/images/avel_Pete_OpenSPIM.jpg" width="400">
+  <img src="https://openspim.org/images/Pavel_Pete_OpenSPIM.jpg" width="400">
 <figcaption>Pavel and Pete 'posing' with OpenSPIM in a suitcase</figcaption>
 </figure>  
 
