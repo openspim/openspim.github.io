@@ -18,9 +18,7 @@
 The process of acquiring images ranges from snapping a single image to recording overnight (or longer) time lapses of samples from N different angles.
 
 ## Acquiring a Single Image
-To acquire a single image using the OpenSPIM plugin:
-
-<img src="https://openspim.org/images/µOpenSPIM_single-image.png" width="100">
+To acquire a single image using the OpenSPIM plugin: <img src="https://openspim.org/images/µOpenSPIM_single-image.png" width="100">
 
 1.  Navigate the 4D stage to the location you want to image.
 2.  Click *Add current position* to add this plane to the position list. 
@@ -30,8 +28,7 @@ To acquire a single image using the OpenSPIM plugin:
 6.  Finally, click *Acquire* to capture a single or multi-channel image.
 
 ## Acquiring a Stack
-<img src="https://openspim.org/images/µOpenSPIM_single-stack.png" width="100">
-A stack is a sandwich of many image slices of different focus levels of the sample. To set up a stack requires to move the Z stage.
+A stack is a sandwich of many image slices of different focus levels of the sample. To set up a stack requires to move the Z stage. <img src="https://openspim.org/images/µOpenSPIM_single-stack.png" width="100">
 
 1.  Navigate to the sample location where the Z stack should begin.
 2.  Click *Z-start*. The current Z position will now show up next to the button.
@@ -95,7 +92,7 @@ To record multiple views of a sample over time:
 ## Acquisition Controls
 <figure>
   <img src="https://openspim.org/images/%C2%B5OpenSPIM_Acquisition.jpg" width="1024">
-<figcaption>Acquisition Controls of the µOpenSPIM GUI (A-I) with the Picard 4D-stage controls on the right (J) and the Cponsole window (K). For a higher resolution image click <a href=\"https://openspim.org/images/%C2%B5OpenSPIM_Acquisition.jpg">here.</a>
+<figcaption>Acquisition Controls of the µOpenSPIM GUI (A-I) with the Picard 4D-stage controls on the right (J) and the Cponsole window (K). For a higher resolution image click <a href=\"images/%C2%B5OpenSPIM_Acquisition.jpg">here.</a>
 
 For a higher resolution image click [here.](https://openspim.org/images/%C2%B5OpenSPIM_Acquisition.jpg)
 
