@@ -159,7 +159,7 @@ The limitations of mounting a zebrafish embryo in 1.5% agarose can be overcome b
 A good choice is FEP ([fluorinated ethylene propylene](https://en.wikipedia.org/wiki/Fluorinated_ethylene_propylene)).
 This polymer has a refractive index close to the one of water, and can be ordered as tube in various diameters right from the shelf. For imaging, the Zebrafish embryo is kept inside the cleaned and coated tube, embedded in 0.1% agarose with some Tricaine.
 
-<img src="images/Embedding_fep-tube.png" width="100%">
+<img src="images/Embedding_fep-tube.png" width="30%">
 
 {% include image src="Sample_uptake01.JPG" width="100%" caption="Transfer a Zebrafish embryo of choice from the dish..." %}
 
