@@ -18,7 +18,7 @@
 The process of acquiring images ranges from snapping a single image to recording overnight (or longer) time lapses of samples from N different angles.
 
 ## Acquiring a Single Image
-<img src="https://openspim.org/images/µOpenSPIM_single-image.png" width="50">
+<img src="https://openspim.org/images/µOpenSPIM_single-image.png" width="100">
 To acquire a single image using the OpenSPIM plugin:
 
 1.  Navigate the 4D stage to the location you want to image.
@@ -29,7 +29,7 @@ To acquire a single image using the OpenSPIM plugin:
 6.  Finally, click *Acquire* to capture a single or multi-channel image.
 
 ## Acquiring a Stack
-
+<img src="https://openspim.org/images/µOpenSPIM_single-stack.png" width="100">
 A stack is a sandwich of many image slices of different focus levels of the sample. To set up a stack requires to move the Z stage.
 
 1.  Navigate to the sample location where the Z stack should begin.
@@ -46,7 +46,7 @@ A stack is a sandwich of many image slices of different focus levels of the samp
 12. Click *Acquire* to capture the defined stack.
 
 ## Single-Plane Time Lapse
-
+<img src="https://openspim.org/images/µOpenSPIM_time-lapse.png" width="100">
 To acquire a time lapse of a single plane, set up the recording exactly as if you were going to record only one image.
 
 1.  After clicking *Add TP* specify how often the plane should be imaged and set its recurring time interval (in seconds, minutes, hours or days).
@@ -60,7 +60,7 @@ To acquire a time lapse of a single plane, set up the recording exactly as if yo
 5.  Click *Acquire* to begin the time-lapse recording.
 
 ## Single-View Time Lapse
-
+<img src="https://openspim.org/images/µOpenSPIM_4d-time-lapse.png" width="100">
 To record a single view/stack of a sample over time:
 
 1.  Navigate the 4D-stage to the location you wish to acquire images and specify the beginning and the end of the Z stack and the Z-Step Size (in μm) as described above. In the Picard 4D-stage the minimum Z step size is 1.524 µm. 
@@ -74,7 +74,7 @@ To record a single view/stack of a sample over time:
 5.  Click *Acquire* to begin the multi-view time-lapse recording.
 
 ## Multi-View Time Lapse
-
+<img src="https://openspim.org/images/µOpenSPIM_multiview-timelapse.png" width="100">
 To record multiple views of a sample over time:
 
 1.  For each view:
