@@ -1,7 +1,7 @@
 ---
-title: Acquisition with µOpenSPIM
+title: µOpenSPIM
 layout: page
-description: How to acquire images, stacks, multi-view time-lapse recordings
+description: How to acquire images, stacks, multi-view time-lapse recordings using µOpenSPIM
 ---
 
 <img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"> is an intuitive new graphical user interface (GUI), tailored for OpenSPIM users and relies on [µManager](https://micro-manager.org).
@@ -16,7 +16,10 @@ description: How to acquire images, stacks, multi-view time-lapse recordings
 -   A tested Anti-drift logic similar to the old plugin but with new options that can help with keeping a drifting sample within the field of view during long term image acquisition.
 - And more to come...
 
-## Acquisition
+## Installation and start-up of the OpenSPIM plugin
+- xxx
+
+## Acquisition with µOpenSPIM
 The process of acquiring images ranges from snapping a single image to recording overnight (or longer) time lapses of samples from N different angles.
 
 ## Acquiring a Single Image
