@@ -1,3 +1,4 @@
+  <img src="https://openspim.org/images/%C2%B5OpenSPIM_Acquisition.jpg" width="500">
 ---
 title: Acquisition with µOpenSPIM
 layout: page
