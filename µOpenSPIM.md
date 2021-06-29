@@ -1,4 +1,4 @@
-  <img src="https://openspim.org/images/%C2%B5OpenSPIM_Acquisition.jpg" width="500">
+  <img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="500">
 ---
 title: Acquisition with µOpenSPIM
 layout: page
@@ -14,6 +14,7 @@ description: How to acquire images, stacks, multi-view time-lapse recordings
 -   An option for on-the-fly maximum intensity projections
 -   A Picard Stage calibration feature to correct rotational inaccuracies and to improve the 4D-USB stage control
 -   A tested Anti-drift logic similar to the old plugin but with new options that can help with keeping a drifting sample within the field of view during long term image acquisition.
+-   And more to come...
 
 ## Acquisition
 The process of acquiring images ranges from snapping a single image to recording overnight (or longer) time lapses of samples from N different angles.
