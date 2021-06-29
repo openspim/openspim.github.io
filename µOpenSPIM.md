@@ -15,11 +15,10 @@
 - coming soon
 
 ## Acquisition with µOpenSPIM 
- <img src="https://openspim.org/images/µOpenSPIM_single-image.png" width="50%">
 The process of acquiring images ranges from snapping a single image to recording overnight (or longer) time lapses of samples from N different angles.
 
 ## Acquiring a Single Image
-
+<img src="https://openspim.org/images/µOpenSPIM_single-image.png" width="50">
 To acquire a single image using the OpenSPIM plugin:
 
 1.  Navigate the 4D stage to the location you want to image.
