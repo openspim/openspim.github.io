@@ -2,7 +2,7 @@
 ---
 **Stephan Preibisch's** multiview deconvolution algorithm and the associated [**Fiji plugin**](https://fiji.sc/Multi-View_Deconvolution) was published at [Nature Methods](https://www.nature.com/nmeth/journal/vaop/ncurrent/full/nmeth.2929.html). The approach is relevant as a fusion strategy for OpenSPIM data, which it improves dramatically due to relative thickness of the lightsheet.
 
-{% include image src="https://openspim.org/images/OpenSPIM_deconvolution.jpg" width="70%" caption="" %}
+<img src="https://openspim.org/images/OpenSPIM_deconvolution.jpg" width="70%">
 
 Stephan Preibisch, Fernando Amat, Evangelia Stamataki, Mihail Sarov, Robert H Singer, Eugene Myers & Pavel Tomancak (2014) **Efficient Bayesian-based multiview deconvolution** *Nature Methods* AOP <doi:10.1038/nmeth.2929> [**PDF**](document/Nmeth.2929.pdf), [**Supplement**](document/Nmeth.2929-S1.pdf)
 
