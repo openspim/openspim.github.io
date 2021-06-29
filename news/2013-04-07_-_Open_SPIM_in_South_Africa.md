@@ -2,7 +2,7 @@
 ---
 One of the reasons for running the OpenSPIM project is to provide a platform for teaching light-sheet microscopy. At the end of March 2013 we have brought OpenSPIM to an EMBO course in South Africa. Here are [Pavel Tomancak](https://www.mpi-cbg.de/research/research-groups/pavel-tomancak.html)'s first hand impressions on how it worked out:
 
-{% include image src="SA_course_poster.jpg" width="70%" caption="Imaging Infection and Immunity" %}
+{% include image src="../SA_course_poster.jpg" width="70%" caption="Imaging Infection and Immunity" %}
 
 The EMBO course [Imaging Infection and Immunity](https://microscopy.synbio.scientific-solution.com/) is a practical course aimed at researchers studying infectious diseases with strong emphasis on imaging. It has been organized three times over the last 4 years by **Musa Mhlanga, Freddy Frischknecht and Jost Enninga**. The first installment of the course has been held at the [CSIR](https://www.csir.co.za/) in Pretoria South Africa right before the World Cup and it stayed there ever since. ![Freddy Frischknecht, Musa Mhlanga, Jost Enninga](Freddy_Musa_Jost.jpg "Freddy Frischknecht, Musa Mhlanga, Jost Enninga")
 
