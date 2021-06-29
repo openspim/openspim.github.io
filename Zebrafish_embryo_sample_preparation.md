@@ -49,7 +49,7 @@ See the links to publications dealing with sample mounting for light sheet micro
 
 {% include image src="Heat-block_70.JPG" width="100%" caption="Melt aliquots of agarose at 70 deg Celsius" %}
 
-{% include image src="vortex.JPG" width="100%" caption="Vortex the aliquots" %}
+{% include image src="Vortex.JPG" width="100%" caption="Vortex the aliquots" %}
 
 {% include image src="Heat-block_38.JPG" width="100%" caption="Keep the agarose at 38 deg Celsius" %}
 
@@ -61,7 +61,7 @@ See the links to publications dealing with sample mounting for light sheet micro
 
 {% include image src="Heat-block_70.JPG" width="100%" caption="Melt aliquots agarose at 70 deg Celsius" %}
 
-{% include image src="vortex.JPG" width="100%" caption="Vortex the aliquots" %}
+{% include image src="Vortex.JPG" width="100%" caption="Vortex the aliquots" %}
 
 {% include image src="Small_agarose_plate.png" width="100%" caption="Pour 2 agarose aliquots into a 35 mm plastic dish" %}
 
@@ -118,7 +118,7 @@ See the links to publications dealing with sample mounting for light sheet micro
 The method of choice mounting Zebrafish embryos is very similar to the one for [mounting Drosophila embryos](Drosophila_embryo_sample_preparation#Mounting_of_the_embryos).
 It is simple and straight-forward, but restricts the embryo from growing. This limits the usable time frame for imaging to about 1-2 hours from the mounting.
 
-<img src="images/Embedding_glass-capillary.png" width="100%">
+<img src="images/Embedding_glass-capillary.png" width="30%">
 
 If required for multi-view registration, add fluorescent beads to the melted aliquots of agarose. Keep the agarose aliquots at 38 deg Celsius. Transfer a Zebrafish embryo of choice to the agarose and take it up with a glass capillary (inner diameter around 1 mm) and a plunger. Let the agarose solidify and keep the embryo in the capillary submerged in fish medium. For imaging, push out the part of the agarose which contains the embryo. If required, add Tricaine to the imaging chamber.
 
@@ -127,8 +127,6 @@ If required for multi-view registration, add fluorescent beads to the melted ali
 {% include image src="Sample_uptake02.JPG" width="100%" caption="... to the melted Agarose" %}
 
 ## Short-term imaging II: FEP tube as additional support
-
-<img src="images/Embedding_glass-capillary.png" width="30%">
 
   - take up an embryo w/ a FEP tube which is attached to a needle and syringe
   - wait a couple of minutes for the agarose to solidify and cut off the tube from the needle
