@@ -1,9 +1,9 @@
-  <img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="500">
 ---
 title: Acquisition with µOpenSPIM
 layout: page
 description: How to acquire images, stacks, multi-view time-lapse recordings
 ---
+  <img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="250">
 µOpenSPIM is an intuitive new graphical user interface (GUI), tailored for OpenSPIM users and relies on [µManager](https://micro-manager.org).
 
 ## Features of µOpenSPIM
