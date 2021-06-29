@@ -47,11 +47,11 @@ See the links to publications dealing with sample mounting for light sheet micro
   - vortex the aliquots
   - keep them in a heat-block at 38 deg Celsius
 
-{% include image src="Heat-block_70.JPG" width="40%" caption="Melt aliquots of agarose at 70 deg Celsius" %}
+{% include image src="Heat-block_70.JPG" width="100%" caption="Melt aliquots of agarose at 70 deg Celsius" %}
 
-{% include image src="vortex.JPG" width="40%" caption="Vortex the aliquots" %}
+{% include image src="vortex.JPG" width="100%" caption="Vortex the aliquots" %}
 
-{% include image src="Heat-block_38.JPG" width="40%" caption="Keep the agarose at 38 deg Celsius" %}
+{% include image src="Heat-block_38.JPG" width="100%" caption="Keep the agarose at 38 deg Celsius" %}
 
 ### Prepare agarose plates
 
@@ -59,11 +59,11 @@ See the links to publications dealing with sample mounting for light sheet micro
   - vortex the aliquots
   - pour 2 aliquots of agarose into a 35 mm plastic dish
 
-{% include image src="Heat-block_70.JPG" width="40%" caption="Melt aliquots agarose at 70 deg Celsius" %}
+{% include image src="Heat-block_70.JPG" width="100%" caption="Melt aliquots agarose at 70 deg Celsius" %}
 
-{% include image src="vortex.JPG" width="40%" caption="Vortex the aliquots" %}
+{% include image src="vortex.JPG" width="100%" caption="Vortex the aliquots" %}
 
-{% include image src="Small_agarose_plate.png" width="40%" caption="Pour 2 agarose aliquots into a 35 mm plastic dish" %}
+{% include image src="Small_agarose_plate.png" width="100%" caption="Pour 2 agarose aliquots into a 35 mm plastic dish" %}
 
 ### Prepare methylcellulose stock
 
@@ -82,24 +82,24 @@ See the links to publications dealing with sample mounting for light sheet micro
 9.  cut the tube to small pieces of appropriate length
 10. transfer the tubes to a fresh Falcon with ddH2O for storage
 
-{% include image src="Small_fep_flush.png" width="40%" caption="Flush the FEP tube w/ NaOH/EtOH/ddH2O" %}
+{% include image src="Small_fep_flush.png" width="100%" caption="Flush the FEP tube w/ NaOH/EtOH/ddH2O" %}
 
-{% include image src="Small_fep_cut.png" width="40%" caption="Cut the tube to small pieces of appropriate length" %}
+{% include image src="Small_fep_cut.png" width="100%" caption="Cut the tube to small pieces of appropriate length" %}
 
 ### Prepare syringes w/ FEP tubes
 
   - take a cleaned and cut FEP tube and carefully attach it to the needle
   - do not touch the part of the tube that will later be used for imaging
 
-{% include image src="Syringe_unpacked.JPG" width="40%" caption="Braun Omnifix F Solo 1 ml Syringe w/ attached needle" %}
+{% include image src="Syringe_unpacked.JPG" width="100%" caption="Braun Omnifix F Solo 1 ml Syringe w/ attached needle" %}
 
-{% include image src="Fep_pipette.JPG" width="40%" caption="Take a cleaned & cut FEP tube..." %}
+{% include image src="Fep_pipette.JPG" width="100%" caption="Take a cleaned & cut FEP tube..." %}
 
-{% include image src="Fep_needle01.JPG" width="40%" caption="... and attach it..." %}
+{% include image src="Fep_needle01.JPG" width="100%" caption="... and attach it..." %}
 
-{% include image src="Fep_needle02.JPG" width="40%" caption="... to the needle" %}
+{% include image src="Fep_needle02.JPG" width="100%" caption="... to the needle" %}
 
-{% include image src="Syringe_fep_attached.JPG" width="40%" caption="Syringe w/ needle and FEP tube" %}
+{% include image src="Syringe_fep_attached.JPG" width="100%" caption="Syringe w/ needle and FEP tube" %}
 
 ### Coat tubes w/ methyl cellulose
 
@@ -109,22 +109,22 @@ See the links to publications dealing with sample mounting for light sheet micro
 
 ### Prepare Zebrafish embryos
 
-{% include image src="Dechorionation_macro.JPG" width="40%" caption="Dechorionation I" %}
+{% include image src="Dechorionation_macro.JPG" width="100%" caption="Dechorionation I" %}
 
-{% include image src="Dechorionation_micro02.JPG" width="40%" caption="Dechorionation II" %}
+{% include image src="Dechorionation_micro02.JPG" width="100%" caption="Dechorionation II" %}
 
 ## Short-term imaging I: the classic approach
 
 The method of choice mounting Zebrafish embryos is very similar to the one for [mounting Drosophila embryos](Drosophila_embryo_sample_preparation#Mounting_of_the_embryos).
 It is simple and straight-forward, but restricts the embryo from growing. This limits the usable time frame for imaging to about 1-2 hours from the mounting.
 
-<img src="images/Embedding_glass-capillary.png" width="40%">
+<img src="images/Embedding_glass-capillary.png" width="100%">
 
 If required for multi-view registration, add fluorescent beads to the melted aliquots of agarose. Keep the agarose aliquots at 38 deg Celsius. Transfer a Zebrafish embryo of choice to the agarose and take it up with a glass capillary (inner diameter around 1 mm) and a plunger. Let the agarose solidify and keep the embryo in the capillary submerged in fish medium. For imaging, push out the part of the agarose which contains the embryo. If required, add Tricaine to the imaging chamber.
 
-{% include image src="Sample_uptake01.JPG" width="40%" caption="Transfer a Zebrafish embryo of choice from the dish..." %}
+{% include image src="Sample_uptake01.JPG" width="100%" caption="Transfer a Zebrafish embryo of choice from the dish..." %}
 
-{% include image src="Sample_uptake02.JPG" width="40%" caption="... to the melted Agarose" %}
+{% include image src="Sample_uptake02.JPG" width="100%" caption="... to the melted Agarose" %}
 
 ## Short-term imaging II: FEP tube as additional support
 
@@ -135,25 +135,25 @@ If required for multi-view registration, add fluorescent beads to the melted ali
   - store the prepared sample in a 1.5 ml reaction tube filled with E3 fish medium
   - quickly proceed w/ imaging
 
-{% include image src="Sample_uptake01.JPG" width="40%" caption="Transfer a Zebrafish embryo of choice from the dish..." %}
+{% include image src="Sample_uptake01.JPG" width="100%" caption="Transfer a Zebrafish embryo of choice from the dish..." %}
 
-{% include image src="Sample_uptake02.JPG" width="40%" caption="... to the melted Agarose" %}
+{% include image src="Sample_uptake02.JPG" width="100%" caption="... to the melted Agarose" %}
 
-{% include image src="Sample_uptake03.JPG" width="40%" caption="Take up the embryo into the FEP tube" %}
+{% include image src="Sample_uptake03.JPG" width="100%" caption="Take up the embryo into the FEP tube" %}
 
-{% include image src="Fep_with-fish_macroA.JPG" width="40%" caption="FEP w/ Zebrafish embryo" %}
+{% include image src="Fep_with-fish_macroA.JPG" width="100%" caption="FEP w/ Zebrafish embryo" %}
 
-{% include image src="Fep_with-fish_macroB.JPG" width="40%" caption="Check the orientation of the embryo in the tub" %}
+{% include image src="Fep_with-fish_macroB.JPG" width="100%" caption="Check the orientation of the embryo in the tub" %}
 
-{% include image src="Fep_with-fish_micro.JPG" width="40%" caption="Zebrafish embryo in FEP tube" %}
+{% include image src="Fep_with-fish_micro.JPG" width="100%" caption="Zebrafish embryo in FEP tube" %}
 
-{% include image src="Fep-prep.JPG" width="40%" caption="FEP tubes w/ Zebrafish embryos in 1.5% agarose" %}
+{% include image src="Fep-prep.JPG" width="100%" caption="FEP tubes w/ Zebrafish embryos in 1.5% agarose" %}
 
-{% include image src="Fep_cut.JPG" width="40%" caption="Cut the tube off the needle" %}
+{% include image src="Fep_cut.JPG" width="100%" caption="Cut the tube off the needle" %}
 
-{% include image src="Fep_with-fish_cutted_micro.JPG" width="40%" caption="Check the orientation of the embryo under a stereo microscope" %}
+{% include image src="Fep_with-fish_cutted_micro.JPG" width="100%" caption="Check the orientation of the embryo under a stereo microscope" %}
 
-{% include image src="Fep_zeiss-holder.JPG" width="40%" caption="The prepared sample in a holder for light sheet microscopy" %}
+{% include image src="Fep_zeiss-holder.JPG" width="100%" caption="The prepared sample in a holder for light sheet microscopy" %}
 
 ## Long-term imaging
 
@@ -161,55 +161,55 @@ The limitations of mounting a zebrafish embryo in 1.5% agarose can be overcome b
 A good choice is FEP ([fluorinated ethylene propylene](https://en.wikipedia.org/wiki/Fluorinated_ethylene_propylene)).
 This polymer has a refractive index close to the one of water, and can be ordered as tube in various diameters right from the shelf. For imaging, the Zebrafish embryo is kept inside the cleaned and coated tube, embedded in 0.1% agarose with some Tricaine.
 
-<img src="images/Embedding_fep-tube.png" width="40%">
+<img src="images/Embedding_fep-tube.png" width="100%">
 
-{% include image src="Sample_uptake01.JPG" width="40%" caption="Transfer a Zebrafish embryo of choice from the dish..." %}
+{% include image src="Sample_uptake01.JPG" width="100%" caption="Transfer a Zebrafish embryo of choice from the dish..." %}
 
-{% include image src="Sample_uptake02.JPG" width="40%" caption="... to the melted Agarose" %}
+{% include image src="Sample_uptake02.JPG" width="100%" caption="... to the melted Agarose" %}
 
-{% include image src="Sample_uptake03.JPG" width="40%" caption="Take up the embryo into the FEP tube" %}
+{% include image src="Sample_uptake03.JPG" width="100%" caption="Take up the embryo into the FEP tube" %}
 
-{% include image src="Fep_with-fish_macroA.JPG" width="40%" caption="FEP with Zebrafish embryo" %}
+{% include image src="Fep_with-fish_macroA.JPG" width="100%" caption="FEP with Zebrafish embryo" %}
 
-{% include image src="Fep_with-fish_macroB.JPG" width="40%" caption="Check the orientation of the embryo in the tube" %}
+{% include image src="Fep_with-fish_macroB.JPG" width="100%" caption="Check the orientation of the embryo in the tube" %}
 
-{% include image src="Fep_with-fish_micro.JPG" width="40%" caption="Zebrafish embryo in FEP tube" %}
+{% include image src="Fep_with-fish_micro.JPG" width="100%" caption="Zebrafish embryo in FEP tube" %}
 
-{% include image src="Fep_cut.JPG" width="40%" caption="Cut the tube off the needle" %}
+{% include image src="Fep_cut.JPG" width="100%" caption="Cut the tube off the needle" %}
 
-{% include image src="Fep_plugA.JPG" width="40%" caption="Carefully stick the tube into the prepared agarose plates" %}
+{% include image src="Fep_plugA.JPG" width="100%" caption="Carefully stick the tube into the prepared agarose plates" %}
 
-{% include image src="Fep_plugB.JPG" width="40%" caption="Take out the tube w/ a little rotational move to keep a plug inside" %}
+{% include image src="Fep_plugB.JPG" width="100%" caption="Take out the tube w/ a little rotational move to keep a plug inside" %}
 
-{% include image src="Fep_with-fish_cutted_micro.JPG" width="40%" caption="Check the orientation of the embryo under a stereo microscope" %}
+{% include image src="Fep_with-fish_cutted_micro.JPG" width="100%" caption="Check the orientation of the embryo under a stereo microscope" %}
 
-{% include image src="Fep_zeiss-holder.JPG" width="40%" caption="The prepared sample in a holder for light sheet microscopy" %}
+{% include image src="Fep_zeiss-holder.JPG" width="100%" caption="The prepared sample in a holder for light sheet microscopy" %}
 
 ## Long-term cardiac imaging
 
 <img src="images/Embedding_fep-tube.png" width="30%">
 
-{% include image src="Sample_uptake01.JPG" width="40%" caption="Transfer a Zebrafish embryo of choice from the dish..." %}
+{% include image src="Sample_uptake01.JPG" width="100%" caption="Transfer a Zebrafish embryo of choice from the dish..." %}
 
-{% include image src="Sample_uptake02.JPG" width="40%" caption="... to the melted Agarose" %}
+{% include image src="Sample_uptake02.JPG" width="100%" caption="... to the melted Agarose" %}
 
-{% include image src="Sample_uptake03.JPG" width="40%" caption="Take up the embryo into the FEP tube" %}
+{% include image src="Sample_uptake03.JPG" width="100%" caption="Take up the embryo into the FEP tube" %}
 
-{% include image src="Fep_with-fish_macroA.JPG" width="40%" caption="FEP w/ Zebrafish embryo" %}
+{% include image src="Fep_with-fish_macroA.JPG" width="100%" caption="FEP w/ Zebrafish embryo" %}
 
-{% include image src="Fep_with-fish_macroB.JPG" width="40%" caption="Check the orientation of the embryo in the tube" %}
+{% include image src="Fep_with-fish_macroB.JPG" width="100%" caption="Check the orientation of the embryo in the tube" %}
 
-{% include image src="Fep_with-fish_micro.JPG" width="40%" caption="Zebrafish embryo in FEP tube" %}
+{% include image src="Fep_with-fish_micro.JPG" width="100%" caption="Zebrafish embryo in FEP tube" %}
 
-{% include image src="Fep_cut.JPG" width="40%" caption="Cut the tube off the needle" %}
+{% include image src="Fep_cut.JPG" width="100%" caption="Cut the tube off the needle" %}
 
-{% include image src="Fep_plugA.JPG" width="40%" caption="Carefully stick the tube into the prepared agarose plates" %}
+{% include image src="Fep_plugA.JPG" width="100%" caption="Carefully stick the tube into the prepared agarose plates" %}
 
-{% include image src="Fep_plugB.JPG" width="40%" caption="Take out the tube w/ a little rotational move to keep a plug inside" %}
+{% include image src="Fep_plugB.JPG" width="100%" caption="Take out the tube w/ a little rotational move to keep a plug inside" %}
 
-{% include image src="Fep_with-fish_cutted_micro.JPG" width="40%" caption="Check the orientation of the embryo under a stereo microscope" %}
+{% include image src="Fep_with-fish_cutted_micro.JPG" width="100%" caption="Check the orientation of the embryo under a stereo microscope" %}
 
-{% include image src="Fep_zeiss-holder.JPG" width="40%" caption="The prepared sample in a holder for light sheet microscopy" %}
+{% include image src="Fep_zeiss-holder.JPG" width="100%" caption="The prepared sample in a holder for light sheet microscopy" %}
 
 ## External links
 
