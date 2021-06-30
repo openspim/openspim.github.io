@@ -7,7 +7,7 @@ Feel free to edit this page with information about your system! (You will need a
 
 # Aachen, Germany
 
-{% include image src="IPT.png" width="70%" caption="OpenSPIM with temperature controlled sample chamber by Fraunhofer IPT" %}
+{% include image src="IPT.png" width="100%" caption="OpenSPIM with temperature controlled sample chamber by Fraunhofer IPT" %}
 
   - [Life Sciences Engineering Business Unit](https://www.ipt.fraunhofer.de/en/Businessunits/LifeSciencesEngineering.html) at the Fraunhofer Institute for Production Technology IPT.
 
@@ -28,7 +28,7 @@ Feel free to edit this page with information about your system! (You will need a
 
 # Madison, WI, USA
 
-{% include image src="LOCI-Setup.jpg" width="70%" caption="LOCI's L-SPIM, Jan. 22, 2016" %}
+{% include image src="LOCI-Setup.jpg" width="100%" caption="LOCI's L-SPIM, Jan. 22, 2016" %}
 
   [The Laboratory of Optical and Computational Instrumentation (LOCI)](https://eliceirilab.org/) run by [Kevin Eliceiri](https://eliceirilab.org/profile/?smid=1175) at the University Wisconsin-Madison. It uses a Coherent Cube laser and a Hamamatsu Orca R^2 camera, being controlled by a 32-bit Windows XP computer.
 
@@ -77,7 +77,7 @@ Feel free to edit this page with information about your system! (You will need a
 
 {% include image src="20170621_114544.jpg" width="100%" caption="Fig. 2 LED tube light for brightfield" %}
 
-{% include image src="Adjustable_foot_smaller.jpg" width="100%" caption="Fig. 3 Adjustable foot to align detection arm" %}
+{% include image src="Adjustable_foot_smaller.jpg" width="50%" caption="Fig. 3 Adjustable foot to align detection arm" %}
 
 {% include image src="Illumination.png" width="100%" caption="Fig. 4 Schematic for illumination between acquisitions" %}
 
