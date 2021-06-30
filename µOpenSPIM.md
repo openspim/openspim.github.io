@@ -94,9 +94,7 @@ To record multiple views of a sample over time:
 ## Acquisition Controls
 <figure>
   <img src="https://openspim.org/images/%C2%B5OpenSPIM_Acquisition.jpg" width="1024">
-<figcaption>Acquisition Controls of the µOpenSPIM GUI (A-I) with the Picard 4D-stage controls on the right (J) and the Cponsole window (K). For a higher resolution image click <a href=\"images/%C2%B5OpenSPIM_Acquisition.jpg">here.</a>
-
-For a higher resolution image click [here.](https://openspim.org/images/%C2%B5OpenSPIM_Acquisition.jpg)
+<figcaption>Acquisition Controls of the µOpenSPIM GUI (A-I) with the Picard 4D-stage controls on the right (J) and the Cponsole window (K). For a higher resolution image click <a href=\images/%C2%B5OpenSPIM_Acquisition.jpg>here.</a>
 
 </figcaption>
 </figure>  
