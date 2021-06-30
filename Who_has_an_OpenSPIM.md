@@ -75,13 +75,9 @@ Feel free to edit this page with information about your system! (You will need a
 
   See also [Dual-view imaging on hackster.io](https://www.hackster.io/steph2/dual-view-imaging-in-a-custom-built-light-sheet-microscope-e4502f)
 
-{% include image src="20170621_114544.jpg" width="100%" caption="Fig. 2 LED tube light for brightfield" %}
+{% include image src="20170621_114544.jpg" width="100%" caption="Fig. 2 LED tube light for brightfield" %} {% include image src="Adjustable_foot_smaller.jpg" width="50%" caption="Fig. 3 Adjustable foot to align detection arm" %}
 
-{% include image src="Adjustable_foot_smaller.jpg" width="50%" caption="Fig. 3 Adjustable foot to align detection arm" %}
-
-{% include image src="Illumination.png" width="100%" caption="Fig. 4 Schematic for illumination between acquisitions" %}
-
-{% include image src="Sample_holder.png" width="100%" caption="Fig. 5 3D-printed sample holder" %}
+{% include image src="Illumination.png" width="100%" caption="Fig. 4 Schematic for illumination between acquisitions" %} {% include image src="Sample_holder.png" width="100%" caption="Fig. 5 3D-printed sample holder" %}
 
 # Cambridge, UK, MRC LMB
 
