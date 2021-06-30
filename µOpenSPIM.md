@@ -183,5 +183,5 @@ To record multiple views of a sample over time:
 
   - (K) Console
         - The console window can be useful to see what is going on in the background of the plugin and to spot error messages.
-    1.  Clicking *Clear* will delete al written content.
+    1.  Clicking *Clear* will delete all written content.
     
