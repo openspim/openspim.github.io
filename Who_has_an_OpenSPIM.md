@@ -19,12 +19,13 @@ Feel free to edit this page with information about your system! (You will need a
 
   [Tomancak group](https://www.mpi-cbg.de/research-groups/current-groups/pavel-tomancak/research-focus/) at the Max-Planck Institute of molecular Cell Biology and Genetics.
 
-  - X-OpenSPIMs for dual-sided illumination and dual-sided detection
-  - 20x (Olympus) and 40x (Nikon) sample chambers
+  - X-OpenSPIM sample chambers (40x Nikon detection objectives)  for dual-sided illumination and dual-sided detection
+  - T-OpenSPIM sample chambers (20x, Olympus detection objective) for dual-sided illumination and single-sided detection
   - Andor sCMOS Neo cameras
-  - 488/561 VersaLase
-  - hardware-controlled laser triggering (Arduino)
-  - operated by MicroManager
+  - 488/561 VersaLase (X-OpenSPIM)
+  - 488 Coherent OBIS Laser (T-OpenSPIM)
+  - hardware-controlled laser triggering (Arduino) of the X-OpenSPIM
+  - operated by MicroManager using our new custom made µManager plugin called µOpenSPIM
 
 # Madison, WI, USA
 
