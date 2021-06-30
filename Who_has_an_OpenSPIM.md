@@ -15,7 +15,7 @@ Feel free to edit this page with information about your system! (You will need a
 
 # Dresden, Germany
 
-{% include image src="X-OpenSPIMs-Tomancak-Lab.jpg" width="70%" caption="Tomancak Lab X-OpenSPIM" %}
+{% include image src="X-OpenSPIMs-Tomancak-Lab.jpg" width="100%" caption="Tomancak Lab X-OpenSPIM" %}
 
   [Tomancak group](https://www.mpi-cbg.de/research-groups/current-groups/pavel-tomancak/research-focus/) at the Max-Planck Institute of molecular Cell Biology and Genetics.
 
@@ -36,7 +36,7 @@ Feel free to edit this page with information about your system! (You will need a
 
 # Heidelberg, Germany
 
-{% include image src="COS_HD_OpenSPIM_1.JPG" width="70%" caption="COS Heidelberg OpenSPIM" %}
+{% include image src="COS_HD_OpenSPIM_1.JPG" width="100%" caption="COS Heidelberg OpenSPIM" %}
 
   [Maizel](https://www.cos.uni-heidelberg.de/index.php/a.maizel?l=_e) and [Lemke](https://www.cos.uni-heidelberg.de/index.php/s.lemke?l=_e) groups at the [Center for Organismal Studies](https://www.cos.uni-heidelberg.de/?l=_e) of Heidelberg University.
 
@@ -46,7 +46,7 @@ Feel free to edit this page with information about your system! (You will need a
 
 # Cambridge, UK, Maths Department
 
-{% include image src="4arm_system.jpg" width="70%" caption="Fig. 1 Four-arm OpenSPIM" %}
+{% include image src="4arm_system.jpg" width="100%" caption="Fig. 1 Four-arm OpenSPIM" %}
 
   The [Goldstein](https://www.damtp.cam.ac.uk/user/gold/?l=_e) group in the [Department of Applied Mathematics and Theoretical Physics](https://www.damtp.cam.ac.uk/?l=_e) at the University of Cambridge.
 
@@ -75,13 +75,13 @@ Feel free to edit this page with information about your system! (You will need a
 
   See also [Dual-view imaging on hackster.io](https://www.hackster.io/steph2/dual-view-imaging-in-a-custom-built-light-sheet-microscope-e4502f)
 
-{% include image src="20170621_114544.jpg" width="70%" caption="Fig. 2 LED tube light for brightfield" %}
+{% include image src="20170621_114544.jpg" width="100%" caption="Fig. 2 LED tube light for brightfield" %}
 
-{% include image src="Adjustable_foot_smaller.jpg" width="70%" caption="Fig. 3 Adjustable foot to align detection arm" %}
+{% include image src="Adjustable_foot_smaller.jpg" width="100%" caption="Fig. 3 Adjustable foot to align detection arm" %}
 
-{% include image src="Illumination.png" width="70%" caption="Fig. 4 Schematic for illumination between acquisitions" %}
+{% include image src="Illumination.png" width="100%" caption="Fig. 4 Schematic for illumination between acquisitions" %}
 
-{% include image src="Sample_holder.png" width="70%" caption="Fig. 5 3D-printed sample holder" %}
+{% include image src="Sample_holder.png" width="100%" caption="Fig. 5 3D-printed sample holder" %}
 
 # Cambridge, UK, MRC LMB
 
@@ -97,7 +97,7 @@ Feel free to edit this page with information about your system! (You will need a
 
 # Melbourne, Australia
 
-{% include image src="Petrou_SPIM.jpg" width="70%" caption="OpenSPIM system using the Picard high-resolution stage and an Andor Neo camera in the Petrou Lab, Melbourne, Australia." %}
+{% include image src="Petrou_SPIM.jpg" width="100%" caption="OpenSPIM system using the Picard high-resolution stage and an Andor Neo camera in the Petrou Lab, Melbourne, Australia." %}
 
   The Petrou group at the [Florey Institute](https://florey.edu.au/science-research/research-teams/ion-channels-and-human-diseases-laboratory), the [Centre for Neural Engineering](https://medicine.unimelb.edu.au/research-groups/medicine-and-radiology-research/st-vincents-hospital/neural-engineering) and the [Centre for Integrated Brain Function](https://www.cibf.edu.au/?i=_e) at the University of Melbourne.
 
@@ -105,7 +105,7 @@ Feel free to edit this page with information about your system! (You will need a
 
 # Berlin, Germany
 
-{% include image src="OpenSPIM_Berlin_top_view.png" width="70%" caption="OpenSPIM at Humboldt University Berlin" %}
+{% include image src="OpenSPIM_Berlin_top_view.png" width="100%" caption="OpenSPIM at Humboldt University Berlin" %}
 
   The Scholtz group at the [Humboldt University Berlin](https://www.biologie.hu-berlin.de/de/gruppen/compzool_portal/)
 
@@ -113,11 +113,11 @@ Feel free to edit this page with information about your system! (You will need a
 
   - We implemented a Coherent Obis 561 nm laser and a Hamamatsu OrcaFlash4 sCMOS camera into the OpenSPIM system. The system runs at the moment with just one-side illumination. However, the sample chamber is already made for dual-side illumination (2x 10x illumination and 16x detection). Additionally we integrated a Nikon-module that allows us to increases our range of magnification (1x, 1,25x, 1,5x, 2x).
 
-{% include image src="T-SPIM_chamber.png" width="70%" caption="T-SPIM chamber, designed by Pete Pitrone and build at the workshop of the MPI CBG Dresden." %}
+{% include image src="T-SPIM_chamber.png" width="100%" caption="T-SPIM chamber, designed by Pete Pitrone and build at the workshop of the MPI CBG Dresden." %}
 
 # Exeter, UK
 
-{% include image src="OpenSPIM_System.jpg" width="70%" caption="OpenSPIM at the University of Exeter." %}
+{% include image src="OpenSPIM_System.jpg" width="100%" caption="OpenSPIM at the University of Exeter." %}
 
   The [College of Life and Environmental Sciences](https://lifesciences.exeter.ac.uk/) in association with the [College of Engineering, Mathematics and Physical Sciences](https://emps.exeter.ac.uk/).
 
@@ -127,7 +127,7 @@ Feel free to edit this page with information about your system! (You will need a
 
 # Oulu, Finland
 
-{% include image src="OpenSPIM_Oulu_top_view.jpg" width="70%" caption="OpenSPIM at the University of Oulu." %}
+{% include image src="OpenSPIM_Oulu_top_view.jpg" width="100%" caption="OpenSPIM at the University of Oulu." %}
 
   The [Light Microscopy Core Facility, at the Biocenter Oulu and the University of Oulu](https://www.oulu.fi/biocenter/lm).
 
@@ -137,9 +137,9 @@ Feel free to edit this page with information about your system! (You will need a
 
 # Indianapolis, IN, USA
 
-{% include image src="OpenSPIM_IUSM_LCDs.jpg" width="70%" caption="OpenSPIM at IUSM." %}
+{% include image src="OpenSPIM_IUSM_LCDs.jpg" width="100%" caption="OpenSPIM at IUSM." %}
 
-{% include image src="OpenSPIM_IUSM_Chamber_illuminated.jpg" width="70%" caption="OpenSPIM chamber with oblique illumination." %}
+{% include image src="OpenSPIM_IUSM_Chamber_illuminated.jpg" width="100%" caption="OpenSPIM chamber with oblique illumination." %}
 
   The [Indiana Center for Biological Microscopy at Indiana University School of Medicine](https://web.medicine.iupui.edu/icbm/).
 
@@ -155,7 +155,7 @@ Feel free to edit this page with information about your system! (You will need a
 
 # Whole-brain imaging based on OpenSPIM, Warsaw, Poland
 
-{% include image src="WarsawSPIM_doubleIllum.jpg" width="70%" caption="Cleared-tissue imaging SPIM at the Nencki Institute." %}
+{% include image src="WarsawSPIM_doubleIllum.jpg" width="100%" caption="Cleared-tissue imaging SPIM at the Nencki Institute." %}
 
   We are the [Laboratory of Neurobiology at the Nencki Institute of Experimental Biology, Warsaw, Poland](http://www.nencki.gov.pl/pracownia-neurobiologii)
 
@@ -191,7 +191,7 @@ Feel free to edit this page with information about your system! (You will need a
 
 # London, UK
 
-{% include image src="OpenSPIM_Telford-Lab_UCL.png" width="70%" caption="OpenSPIM with two lasers (VersaLase: 488, 561) and dual sided illumination running in the the Max Telford Lab (UCL, UK)" %}
+{% include image src="OpenSPIM_Telford-Lab_UCL.png" width="100%" caption="OpenSPIM with two lasers (VersaLase: 488, 561) and dual sided illumination running in the the Max Telford Lab (UCL, UK)" %}
 
   OpenSPIM running at the Max Telford Lab, University College London
 
@@ -205,7 +205,7 @@ Feel free to edit this page with information about your system! (You will need a
 
 # Oldenburg, Germany
 
-{% include image src="Openspim_Oldenburg.jpg" width="70%" caption="OpenSPIM at IBU Oldenburg." %}
+{% include image src="Openspim_Oldenburg.jpg" width="100%" caption="OpenSPIM at IBU Oldenburg." %}
 
 Our OPENSPIM is located in the Sensory Biology of Animals group of Prof. Winklhofer in the Department of Biology and Environmental Science (IBU) at the University of Oldenburg:
 
