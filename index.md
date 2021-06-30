@@ -63,7 +63,7 @@ Check the <a href="Gallery#OpenSPIM_data">gallery</a> to see more!
 ## MAMED EMBO course
 
 {% include gallery-begin %}
-{% include gallery-video id="Jusr_J15FXU" width="400" height="243" caption="Marine annelid *Platynereis dumerilii* stained with Sytox-green imaged with OpenSPIM from 7 angles. Walk through fused and deconvolved data (15 iterations on default settings). Staining, OpenSPIM assembly and imaging done by Mette Handberg-Thorsager, processing by Pavel Tomancak. " %}
+{% include gallery-video id="Jusr_J15FXU" width="400" height="243" caption="Marine annelid Platynereis dumerilii stained with Sytox-green imaged with OpenSPIM from 7 angles. Walk through fused and deconvolved data (15 iterations on default settings). Staining, OpenSPIM assembly and imaging done by Mette Handberg-Thorsager, processing by Pavel Tomancak. " %}
 {% include gallery-end %}
 
 
