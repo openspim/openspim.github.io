@@ -39,7 +39,7 @@ description: Table of parts
 <td> <a href="https://www.microscope.healthcare.nikon.com/en_EU/products/optics/cfi60-water-dipping-series">&nbsp;CFI Apochromat NIR 40X W</a></td>
 <td align="center"><img src="images/jpg-icon.png" width="250"></td>
 <td align="center">2</td>
-<td align="center">~1800</td>
+<td align="center">~2200</td>
 </tr>
 
 <tr class="odd">
