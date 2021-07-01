@@ -25,8 +25,8 @@ description: Table of parts
 <tr class="odd">
 <td align="center">Nikon</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
-<td align="center">Whichever wavelength is <strong>necessary</strong> for your experiments.</td>
-<td> <a href="http://www.vortranlaser.com/">&nbsp;VersaLase</a></td>
+<td align="center">10x water-dipping objectives, N.A. 0.10.</td>
+<td> <a href="https://www.microscope.healthcare.nikon.com/en_EU/products/optics/cfi60-water-dipping-series">&nbsp;CFI Plan Fluor 10X W</a></td>
 <td align="center"><img src="images/Versa-final-sm.jpg" width="250"></td>
 <td align="center">1</td>
 <td align="center">200</td>
