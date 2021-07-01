@@ -275,10 +275,10 @@ description: Table of parts
 <tr class="odd">
 <td align="center">Thorlabs</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
-<td align="center">Vacuum-Compatible Optical Post,  Ø12.7 mm, M4 Setscrew, M6 Tap, L = 20 mm</td>
+<td align="center">Vacuum-Compatible Optical Post, Ø12.7 mm, M4 Setscrew, M6 Tap, L = 20 mm</td>
 <td align="center"> <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=TR20V/M">TR20V/M</a></td>
 <td align="center"><img src="images/TR20V-M.jpeg" width="150"></td>
-<td align="center">1</td>
+<td align="center">2</td>
 <td align="center">9,78 €</td>
 </tr>
 
