@@ -21,14 +21,16 @@ description: Table of parts
 <th>Quantity</th>
 <th>Price (EUR)</th>
 </tr>
+
 <tr class="odd">
 
 <td align="center">Nikon</td>
 
 <td align="center" bgcolor="light sky blue">purchase</td>
-<td>Whichever wavelength is <strong>necessary</strong> for your experiments.</td>
 
-<td><a href="http://www.vortranlaser.com/">VersaLase</a></td>
+<td> &nbsp;Whichever wavelength is <strong>necessary</strong> for your experiments.</td>
+
+<td> <a href="http://www.vortranlaser.com/">&nbsp;VersaLase</a></td>
 
 <td align="center"><img src="images/Versa-final-sm.jpg" width="70%"></td>
 
@@ -43,8 +45,7 @@ description: Table of parts
 <td align="center">OpenSPIM</td>
 
 <td align="center" bgcolor="pale green">self made</td>
-<td>
-The <strong>heat sink</strong> brings the laser...</td>
+<td> &nbsp;The <strong>heat sink</strong> brings the laser...</td>
 
 <td>
 <a href="models/OpenSPIM_Cube-Laser_Heatsink.STL">&nbsp;Heatsink.stl</a><br/>
