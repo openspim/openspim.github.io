@@ -27,7 +27,7 @@ description: Table of parts
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">CFI Plan Fluor 10x W/ 0.30/ 3,50 (10x water-dipping objective, N.A. 0.10).</td>
 <td> <a href="https://www.microscope.healthcare.nikon.com/en_EU/products/optics/cfi60-water-dipping-series">&nbsp;CFI Plan Fluor 10X W</a></td>
-<td align="center"><img src="images/jpg-icon.png" width="250"></td>
+<td align="center"><img src="images/jpg-icon.jpg" width="250"></td>
 <td align="center">2</td>
 <td align="center">~1800</td>
 </tr>
@@ -37,7 +37,7 @@ description: Table of parts
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">CFI Apochromat 40x W NIR/ 0.80/ 3,50 (40x water-dipping objective, N.A 0.80).</td>
 <td> <a href="https://www.microscope.healthcare.nikon.com/en_EU/products/optics/cfi60-water-dipping-series">&nbsp;CFI Apochromat NIR 40X W</a></td>
-<td align="center"><img src="images/jpg-icon.png" width="250"></td>
+<td align="center"><img src="images/jpg-icon.jpg" width="250"></td>
 <td align="center">2</td>
 <td align="center">~2200</td>
 </tr>
