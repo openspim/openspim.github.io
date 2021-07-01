@@ -25,7 +25,7 @@ description: Table of parts
 
 <td> Omicron<br/></td>
 
-<td align="center" bgcolor="# 99ccff">purchase</td>
+<td align="center" bgcolor="# 99CCFF">purchase</td>
 <td>Whichever wavelength is <strong>necessary</strong> for your experiments.</td>
 
 <td><a href="http://www.vortranlaser.com/">VersaLase</a></td>
@@ -40,7 +40,7 @@ description: Table of parts
 
 <tr class="even">
 <td> OpenSPIM</td>
-<td align="center" bgcolor="# 99ff99">self made</td>
+<td align="center" bgcolor="# 99FF99">self made</td>
 <td>
 The <strong>heat sink</strong> brings the laser...</td>
 
