@@ -27,7 +27,7 @@ description: Table of parts
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Arduino UNO Rev3 SMD</td>
 <td> <a href="https://store.arduino.cc/arduino-uno-rev3-smd">A000073</a></td>
-<td align="center"><img src="images/Arduino_Uno.jpeg" width="250"></td>
+<td align="center"><img src="images/Arduino_Uno.jpeg" width="150"></td>
 <td align="center">1</td>
 <td align="center">19</td>
 </tr>
@@ -35,9 +35,9 @@ description: Table of parts
 <tr class="odd">
 <td align="center">Nikon</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
-<td align="center">CFI Plan Fluor 10x W/ 0.30/ 3,50 (10x water-dipping objective, N.A. 0.10)</td>
+<td align="center">CFI Plan Fluor 10x W/ 0.30/ 3,50 </br>10x water-dipping objective, N.A. 0.10</td>
 <td align="center"> <a href="https://www.microscope.healthcare.nikon.com/en_EU/products/optics/cfi60-water-dipping-series">CFI Plan Fluor 10X W</a></td>
-<td align="center"><img src="images/jpg-icon.jpg" width="250"></td>
+<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
 <td align="center">2</td>
 <td align="center">~1800</td>
 </tr>
@@ -45,11 +45,11 @@ description: Table of parts
 <tr class="even">
 <td align="center">Nikon</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
-<td align="center">CFI Apochromat 40x W NIR/ 0.80/ 3,50 (40x water-dipping objective, N.A 0.80)</td>
-<td align="center"><a href="https://www.microscope.healthcare.nikon.com/en_EU/products/optics/cfi60-water-dipping-series">CFI Apochromat NIR 40X W</a></td>
-<td align="center"><img src="images/jpg-icon.jpg" width="250"></td>
+<td align="center">CFI Apochromat 40x W NIR/ 0.80/ 3,50</br>40x water-dipping objective, N.A 0.80)</td>
+<td align="center"><a href="https://www.microscope.healthcare.nikon.com/en_EU/products/optics/cfi60-water-dipping-series">CFI Apochromat NIR 40X W</a></br><a href="https://www.microscope.healthcare.nikon.com/en_EU/products/optics/cfi60-water-dipping-series">CFI Apochromat NIR 40X W (Thorlabs)</a></td>
+<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
 <td align="center">2</td>
-<td align="center">~2200</td>
+<td align="center">~2200-2850</td>
 </tr>
 
 <tr class="odd">
@@ -57,7 +57,7 @@ description: Table of parts
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Alignment Plate for Ø1" Fixed Lens Mounts</td>
 <td align="center"> <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=LMR1AP">LMR1AP</a></td>
-<td align="center"><img src="images/LMR1AP.jpeg" width="250"></td>
+<td align="center"><img src="images/LMR1AP.jpeg" width="150"></td>
 <td align="center">2</td>
 <td align="center">23,21</td>
 </tr>
@@ -67,7 +67,7 @@ description: Table of parts
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">CFI Apochromat 40x W NIR/ 0.80/ 3,50 (40x water-dipping objective, N.A 0.80).</td>
 <<td align="center"> <a href="https://www.microscope.healthcare.nikon.com/en_EU/products/optics/cfi60-water-dipping-series">CFI Apochromat NIR 40X W</a></td>
-<td align="center"><img src="images/jpg-icon.jpg" width="250"></td>
+<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
 <td align="center">2</td>
 <td align="center">~2200</td>
 </tr>
@@ -77,7 +77,7 @@ description: Table of parts
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Whichever wavelength is <strong>necessary</strong> for your experiments.</td>
 <td align="center"> <a href="http://www.vortranlaser.com/">VersaLase</a></td>
-<td align="center"><img src="images/Versa-final-sm.jpg" width="250"></td>
+<td align="center"><img src="images/Versa-final-sm.jpg" width="150"></td>
 <td align="center">1</td>
 <td align="center">200</td>
 </tr>
@@ -91,7 +91,7 @@ description: Table of parts
 <a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Heatsink.step</a><br/>
 <a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Heatsink.pdf</a>
 </td>
-<td align="center"><img src="images/Laser_heatsink.jpg" width="250"></td>
+<td align="center"><img src="images/Laser_heatsink.jpg" width="150"></td>
 <td align="center">1</td>
 <td align="center">70,<br><a href="mailto:wwwpfdecouk@gmail.com?Subject=Production%20of%20___%20laser%20heatsink%20for%20the%20OpenSPIM%20system">email vendo </a></td>
 </tr>
