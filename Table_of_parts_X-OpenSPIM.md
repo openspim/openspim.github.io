@@ -25,7 +25,7 @@ description: Table of parts
 
 <td>Omicron<br/></td>
 
-<td bgcolor="pink">purchase</td>
+<td bgcolor="pink; opacity: 0.50">purchase</td>
 
 <td>Whichever wavelength is <strong>necessary</strong> for your experiments.
 <br>Note: the <strong>Test text</strong>
