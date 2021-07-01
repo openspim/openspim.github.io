@@ -25,7 +25,7 @@ description: Table of parts
 
 <td align="center">Nikon</td>
 
-<td align="center" bgcolor="# 99FFFF">purchase</td>
+<td align="center" bgcolor="light sky blue">purchase</td>
 <td>Whichever wavelength is <strong>necessary</strong> for your experiments.</td>
 
 <td><a href="http://www.vortranlaser.com/">VersaLase</a></td>
@@ -42,7 +42,7 @@ description: Table of parts
 
 <td align="center">OpenSPIM</td>
 
-<td align="center" bgcolor="# 99FF99">self made</td>
+<td align="center" bgcolor="pale green">self made</td>
 <td>
 The <strong>heat sink</strong> brings the laser...</td>
 
