@@ -25,7 +25,7 @@ description: Table of parts
 
 <td>Omicron<br/></td>
 
-<td bgcolor="# 00dddd">purchase</td>
+<td bgcolor="# 99ccff">purchase</td>
 <td>Whichever wavelength is <strong>necessary</strong> for your experiments.</td>
 
 <td><a href="http://www.vortranlaser.com/">VersaLase</a></td>
@@ -40,7 +40,7 @@ description: Table of parts
 
 <tr class="even">
 <td>OpenSPIM</td>
-<td align="center" bgcolor="green">self made</td>
+<td align="center" bgcolor="# 99ff99">self made</td>
 <td>
 The <strong>heat sink</strong> brings the laser to the desired height of 50 mm off the surface of the optical breadboard<br/></br>
 <span style="color:#FF0000;font-weight:bold"> Must be made out of a heat conducting material.</span> We use Aluminum.
