@@ -54,7 +54,7 @@ The <strong>heat sink</strong> brings the laser...</td>
 
 <td align="center">1</td>
 
-<td align="center">70,</td><br><a href="mailto:wwwpfdecouk@gmail.com?Subject=Production%20of%20___%20laser%20heatsink%20for%20the%20OpenSPIM%20system">email vendo </a></td>
+<td align="center">70,<br><a href="mailto:wwwpfdecouk@gmail.com?Subject=Production%20of%20___%20laser%20heatsink%20for%20the%20OpenSPIM%20system">email vendo </a></td>
 
 </tr>
 
