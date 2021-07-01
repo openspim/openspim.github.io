@@ -87,7 +87,7 @@ description: Table of parts
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">USB-4D-STAGE R-Axis Upgrade kit</td>
 <td align="center"> <a href="http://picardindustries.com/products/multi-axis-motions/usb-4d-stage/">N/A</a></td>
-<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
+<td align="center"><img src="images/Picard_upgrade-kit.png" width="150"></td>
 <td align="center">1</td>
 <td align="center">185 $</td>
 </tr>
@@ -117,8 +117,8 @@ description: Table of parts
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Beamsplitter Cube 50:50</td>
 <td align="center"> <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=BS004">BS004</a></td>
-<td align="center"><img src="images/BS004.jpg" width="150"></td>
-<td align="center">2</td>
+<td align="center"><img src="images/BS004.jpeg" width="150"></td>
+<td align="center">1</td>
 <td align="center">162,30 €</td>
 </tr>
 
@@ -127,9 +127,39 @@ description: Table of parts
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Beamsplitter Cube Adapter for Compact 30 mm Cage Cube</td>
 <td align="center"> <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=BS127CAM">BS127CAM</a></td>
-<td align="center"><img src="images/BS127CAM.jpg" width="150"></td>
+<td align="center"><img src="images/BS127CAM.jpeg" width="150"></td>
+<td align="center">1</td>
+<td align="center">39,84 €</td>
+</tr>
+
+<tr class="odd">
+<td align="center">Thorlabs</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">Broadband Dielectric Elliptical Mirror</td>
+<td align="center"> <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=BBE2-E02">BBE2-E02</a></td>
+<td align="center"><img src="images/BS004.jpeg" width="150"></td>
+<td align="center">1</td>
+<td align="center">180,49 €</td>
+</tr>
+
+<tr class="even">
+<td align="center">Thorlabs</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">Broadband Dielectric Mirror, Ø1", 400 - 750 nm</td>
+<td align="center"> <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=BB1-E02">BB1-E02</a></td>
+<td align="center"><img src="images/BS127CAM.jpeg" width="150"></td>
 <td align="center">2</td>
-<td align="center">162,30 €</td>
+<td align="center">70,31 €</td>
+</tr>
+
+<tr class="odd">
+<td align="center">Thorlabs</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">Broadband Dielectric Mirror, Ø1/2", 400-750 nm</td>
+<td align="center"> <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=BB05-E02">BB05-E02</a></td>
+<td align="center"><img src="images/BS127CAM.jpeg" width="150"></td>
+<td align="center">5</td>
+<td align="center">48,23 €</td>
 </tr>
 
 <tr class="odd">
