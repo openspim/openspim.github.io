@@ -7,7 +7,7 @@ description: Table of parts
 
 (Pieter Fourie Design and Engineering has made parts for multiple OpenSPIM systems including an X-OpenSPIM acquisition chamber, a link to write an email is beside all self made parts in the list below in the price column)
 
-<img src="images/X-OpenSPIM_rendering_topview.jpg" width="50%">
+<img src="images/X-OpenSPIM_rendering_topview.jpg" width="100">
 
 ## Illumination Parts List
 
@@ -32,7 +32,7 @@ description: Table of parts
 
 <td> <a href="http://www.vortranlaser.com/">&nbsp;VersaLase</a></td>
 
-<td align="center"><img src="images/Versa-final-sm.jpg" width="50%"></td>
+<td align="center"><img src="images/Versa-final-sm.jpg" width="100"></td>
 
 <td align="center">1</td>
 
