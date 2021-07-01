@@ -16,7 +16,7 @@ description: Table of parts
 <th>Manufacturer</th>
 <th>Accessibility</th>
 <th>Description</th>
-<th>File or Link/Model #</th>
+<th>File or Link/Model</th>
 <th>Image</th>
 <th>Quantity</th>
 <th>Price (EUR)</th>
@@ -35,7 +35,6 @@ Whichever wavelength is necessary for your experiments.<br/>
 <a href="http://www.vortranlaser.com/">VersaLase</a>
 </td>
 <td align="center">
-<img src="images/Laser_cube.jpeg" width="70%">
 <img src="images/Versa-final-sm.jpg" width="70%">  
 </td>
 <td align="center">1</td>
