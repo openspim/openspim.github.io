@@ -26,7 +26,7 @@ description: Table of parts
 
 <td align="center">Nikon</td>
 
-<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center" bgcolor="#98FB98">purchase</td>
 
 <td> &nbsp;Whichever wavelength is <strong>necessary</strong> for your experiments.</td>
 
@@ -44,7 +44,7 @@ description: Table of parts
 
 <td align="center">OpenSPIM</td>
 
-<td align="center" bgcolor="#98FB98">self made</td>
+<td align="center" bgcolor="#87CEFA">self made</td>
 <td> &nbsp;The <strong>heat sink</strong> brings the laser...</td>
 
 <td>
