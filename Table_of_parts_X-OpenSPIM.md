@@ -137,7 +137,7 @@ description: Table of parts
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Broadband Dielectric Elliptical Mirror</td>
 <td align="center"> <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=BBE2-E02">BBE2-E02</a></td>
-<td align="center"><img src="images/BS004.jpeg" width="150"></td>
+<td align="center"><img src="images/BBE2-E02.jpeg" width="150"></td>
 <td align="center">1</td>
 <td align="center">180,49 €</td>
 </tr>
@@ -147,7 +147,7 @@ description: Table of parts
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Broadband Dielectric Mirror, Ø1", 400 - 750 nm</td>
 <td align="center"> <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=BB1-E02">BB1-E02</a></td>
-<td align="center"><img src="images/BS127CAM.jpeg" width="150"></td>
+<td align="center"><img src="images/BB1-E02.jpeg" width="150"></td>
 <td align="center">2</td>
 <td align="center">70,31 €</td>
 </tr>
@@ -157,9 +157,129 @@ description: Table of parts
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Broadband Dielectric Mirror, Ø1/2", 400-750 nm</td>
 <td align="center"> <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=BB05-E02">BB05-E02</a></td>
-<td align="center"><img src="images/BS127CAM.jpeg" width="150"></td>
+<td align="center"><img src="images/BB05-E02.jpeg" width="150"></td>
 <td align="center">5</td>
 <td align="center">48,23 €</td>
+</tr>
+
+<tr class="even">
+<td align="center">Thorlabs</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">Clamping Fork, 1.24" Counterbored Slot, Universal</td>
+<td align="center"> <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=CF125#ad-image-0">CF125</a></td>
+<td align="center"><img src="images/CF125.jpeg" width="150"></td>
+<td align="center">2</td>
+<td align="center">8,38 €</td>
+</tr>
+
+<tr class="odd">
+<td align="center">Thorlabs</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">Cylindrical Achromat Lens</td>
+<td align="center"> <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=ACY254-050-A">ACY254-050-A</a></td>
+<td align="center"><img src="images/ACY254-050-A.jpeg" width="150"></td>
+<td align="center">1</td>
+<td align="center">369,85 €</td>
+</tr>
+
+<tr class="even">
+<td align="center">Thorlabs</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">Dovetail Optical Rail, 300 mm, Metric</td>
+<td align="center"> <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=RLA300/M">RLA300/M</a></td>
+<td align="center"><img src="images/RLA300-M.jpeg" width="150"></td>
+<td align="center">2</td>
+<td align="center">73,54 €</td>
+</tr>
+
+<tr class="odd">
+<td align="center">Thorlabs</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">Gimbal Mirror Mount, Ø25.4 mm</td>
+<td align="center"> <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=GM100/M#ad-image-0">GM100/M</a></td>
+<td align="center"><img src="images/GM100-M.jpeg" width="150"></td>
+<td align="center">1</td>
+<td align="center">234,10 €</td>
+</tr>
+
+<tr class="even">
+<td align="center">Thorlabs</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">ITL200 Tube lens for Nikon</td>
+<td align="center"> <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=ITL200">ITL200</a></td>
+<td align="center"><img src="images/ITL200.jpeg" width="150"></td>
+<td align="center">2</td>
+<td align="center">451,50 €</td>
+</tr>
+
+<tr class="odd">
+<td align="center">Thorlabs</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">Kinematic Mount for Ø12.7 mm Optics, Metric</td>
+<td align="center"> <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=KM05/M#ad-image-0">KM05/M</a></td>
+<td align="center"><img src="images/KM05-M.jpeg" width="150"></td>
+<td align="center">5</td>
+<td align="center">36,51 €</td>
+</tr>
+
+<tr class="even">
+<td align="center">Thorlabs</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">Lens Mount with Retaining Ring for Ø1" Optics, M4 Tap</td>
+<td align="center"> <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=ITL200">LMR1/M</a></td>
+<td align="center"><img src="images/LMR1-M.jpeg" width="150"></td>
+<td align="center">2</td>
+<td align="center">14,26 €</td>
+</tr>
+
+<tr class="odd">
+<td align="center">Thorlabs</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">Mirror 30 mm Cage Cube, M4 Tap</td>
+<td align="center"> <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=CCM1-4ER/M#ad-image-0">CCM1-4ER/M</a></td>
+<td align="center"><img src="images/CCM1-4ER-M.jpeg" width="150"></td>
+<td align="center">1</td>
+<td align="center">128,86 €</td>
+</tr>
+
+<tr class="even">
+<td align="center">Thorlabs</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">Pedestal Post Holder</td>
+<td align="center"> <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=PH20E/M#ad-image-0">PH20E/M</a></td>
+<td align="center"><img src="images/PH20E-M.jpeg" width="150"></td>
+<td align="center">2</td>
+<td align="center">22,62 €</td>
+</tr>
+
+<tr class="odd">
+<td align="center">Thorlabs</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">Rotation Mount for Ø1" Optics</td>
+<td align="center"> <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=RSP1X15/M#ad-image-0">RSP1X15/M</a></td>
+<td align="center"><img src="images/RSP1X15-M.jpeg" width="150"></td>
+<td align="center">1</td>
+<td align="center">128,86 €</td>
+</tr>
+
+<tr class="even">
+<td align="center">Thorlabs</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">Right-Angle Kinematic Elliptical Mirror Mount</td>
+<td align="center"> <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=KCB2EC/M">KCB2EC/M</a></td>
+<td align="center"><img src="images/KCB2EC-M.jpeg" width="150"></td>
+<td align="center">1</td>
+<td align="center">221,81 €</td>
+</tr>
+
+<tr class="odd">
+<td align="center">Thorlabs</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">Vacuum-Compatible Optical Post,  Ø12.7 mm, M4 Setscrew, M6 Tap, L = 20 mm</td>
+<td align="center"> <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=TR20V/M">TR20V/M</a></td>
+<td align="center"><img src="images/TR20V-M.jpeg" width="150"></td>
+<td align="center">1</td>
+<td align="center">9,78 €</td>
 </tr>
 
 <tr class="odd">
