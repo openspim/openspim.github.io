@@ -61,8 +61,6 @@ description: Table of parts
 
 </tr>
 
-</table>
-
 <tr class="odd">
 
 <td align="center">Nikon</td>
