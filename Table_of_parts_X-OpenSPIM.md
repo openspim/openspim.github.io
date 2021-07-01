@@ -39,7 +39,7 @@ description: Table of parts
 <td align="center"> <a href="https://www.microscope.healthcare.nikon.com/en_EU/products/optics/cfi60-water-dipping-series">CFI Plan Fluor 10X W</a></td>
 <td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
 <td align="center">2</td>
-<td align="center">~1800</td>
+<td align="center">~1800-2400</td>
 </tr>
 
 <tr class="even">
@@ -50,6 +50,36 @@ description: Table of parts
 <td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
 <td align="center">2</td>
 <td align="center">~2200-2850</td>
+</tr>
+
+<tr class="odd">
+<td align="center">PFDE</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">Detection axis holder, base</td>
+<td align="center"> <a href="https://www.pfde.co.uk/)">9</a></td>
+<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
+<td align="center">2</td>
+<td align="center">54</td>
+</tr>
+
+<tr class="even">
+<td align="center">PFDE</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">Detection axis holder, top</td>
+<td align="center"> <a href="https://www.pfde.co.uk/)">10</a></td>
+<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
+<td align="center">2</td>
+<td align="center">54</td>
+</tr>
+
+<tr class="odd">
+<td align="center">PFDE</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">Infinity space tube </td>
+<td align="center"> <a href="https://www.pfde.co.uk/)">11</a></td>
+<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
+<td align="center">2</td>
+<td align="center">180</td>
 </tr>
 
 <tr class="odd">
