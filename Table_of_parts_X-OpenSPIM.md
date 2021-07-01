@@ -25,23 +25,17 @@ description: Table of parts
 
 <td>Omicron<br/></td>
 
-<td bgcolor="pink; opacity: 0.50">purchase</td>
+<td bgcolor="# 00dddd">purchase</td>
+<td>Whichever wavelength is <strong>necessary</strong> for your experiments.</td>
 
-<td>Whichever wavelength is <strong>necessary</strong> for your experiments.
-<br>Note: the <strong>Test text</strong>
-</td>
+<td><a href="http://www.vortranlaser.com/">VersaLase</a></td>
 
-<td>
-<a href="http://www.vortranlaser.com/">VersaLase</a>
-</td>
-
-<td align="center">
-<img src="images/Versa-final-sm.jpg" width="70%">  
-</td>
+<td align="center"><img src="images/Versa-final-sm.jpg" width="70%"></td>
 
 <td align="center">1</td>
 
 <td align="center">200</td>
+
 </tr>
 
 <tr class="even">
