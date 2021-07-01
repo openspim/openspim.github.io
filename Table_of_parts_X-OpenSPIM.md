@@ -47,9 +47,9 @@ description: Table of parts
 The <strong>heat sink</strong> brings the laser...</td>
 
 <td>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STL">Heatsink.stl</a><br/>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">Heatsink.step</a><br/>
-<a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">Heatsink.pdf</a>
+<a href="models/OpenSPIM_Cube-Laser_Heatsink.STL">&nbsp;Heatsink.stl</a><br/>
+<a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Heatsink.step</a><br/>
+<a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Heatsink.pdf</a>
 </td>
 
 <td align="center"><img src="images/Laser_heatsink.jpg" width="70%"></td>
