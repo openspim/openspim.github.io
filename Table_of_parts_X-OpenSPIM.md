@@ -291,7 +291,7 @@ description: Table of parts
 <a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Heatsink.step</a><br/>
 <a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Heatsink.pdf</a>
 </td>
-<td align="center"><img src="images/jpg-icon.png" width="150"></td>
+<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
 <td align="center">1</td>
 </tr>
 
@@ -304,7 +304,7 @@ description: Table of parts
 <a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Heatsink.step</a><br/>
 <a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Heatsink.pdf</a>
 </td>
-<td align="center"><img src="images/jpg-icon.png" width="150"></td>
+<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
 <td align="center">1</td>
 </tr>
 
@@ -317,7 +317,7 @@ description: Table of parts
 <a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Heatsink.step</a><br/>
 <a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Heatsink.pdf</a>
 </td>
-<td align="center"><img src="images/jpg-icon.png" width="150"></td>
+<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
 <td align="center">1</td>
 </tr>
 
@@ -330,7 +330,7 @@ description: Table of parts
 <a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Heatsink.step</a><br/>
 <a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Heatsink.pdf</a>
 </td>
-<td align="center"><img src="images/jpg-icon.png" width="150"></td>
+<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
 <td align="center">1</td>
 </tr>
 
@@ -343,7 +343,7 @@ description: Table of parts
 <a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Heatsink.step</a><br/>
 <a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Heatsink.pdf</a>
 </td>
-<td align="center"><img src="images/jpg-icon.png" width="150"></td>
+<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
 <td align="center">1</td>
 </tr>
 
@@ -356,7 +356,7 @@ description: Table of parts
 <a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Heatsink.step</a><br/>
 <a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Heatsink.pdf</a>
 </td>
-<td align="center"><img src="images/jpg-icon.png" width="150"></td>
+<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
 <td align="center">1</td>
 </tr>
 
