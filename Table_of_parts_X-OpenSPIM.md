@@ -28,7 +28,7 @@ description: Table of parts
 <td bgcolor="pink">purchase</td>
 
 <td>Whichever wavelength is <strong>necessary</strong> for your experiments.
-<em>Note: the <strong>Test text</strong>
+<br>Note: the <strong>Test text</strong>
 </td>
 
 <td>
