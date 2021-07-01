@@ -55,19 +55,6 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <td align="center">70, <a href="mailto:wwwpfdecouk@gmail.com?Subject=Production%20of%20___%20laser%20heatsink%20for%20the%20OpenSPIM%20system">email vendor</a>
 </td>
 </tr>
-<tr class="odd">
-<td>ThorLabs</td>
-<td align="center" bgcolor="pink">purchase</td>
-<td>
-1/2" (Ø12.7 mm) SM05-Mounted Frosted Glass <strong>Alignment Disk</strong> w/Ø1 mm Hole<br/>
-<br/>
-<em>Note: for use in aligning the illumination beam path</em>
-</td>
-<td><a href="https://www.thorlabs.de/newgrouppage9.cfm?objectgroup_id=3855&pn=DG05-1500-H1-MD#4816">DG05-1500-H1-MD</a></td>
-<td align="center"><img src="images/ThorLabs_DG05-1500-H1-MD_Alignment-Disk.jpg" width="70%"</td>
-<td align="center">2</td>
-<td align="center">25</td>
-</tr>
 </table>
 
 ## Opto-mechanical parts list
