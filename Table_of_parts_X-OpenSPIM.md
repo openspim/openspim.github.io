@@ -97,7 +97,7 @@ description: Table of parts
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Adapter for Tube Lens with External SM2 Threads and Internal M38 x 0.5 Threads</td>
 <td align="center"> <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=LMR1AP">SM2A20</a></td>
-<td align="center"><img src="images/LMR1AP.jpeg" width="150"></td>
+<td align="center"><img src="images/SM2A20.jpeg" width="150"></td>
 <td align="center">2</td>
 <td align="center">45,81 €</td>
 </tr>
