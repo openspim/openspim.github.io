@@ -300,9 +300,9 @@ description: Table of parts
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">4D-Stage syringe holder</td>
 <td>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STL">&nbsp;Heatsink.stl</a><br/>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Heatsink.step</a><br/>
-<a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Heatsink.pdf</a>
+<a href="models/OpenSPIM_Cube-Laser_Heatsink.STL">&nbsp;4D-Stage_syringe_holder.stl</a><br/>
+<a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;4D-Stage_syringe_holder.step</a><br/>
+<a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;4D-Stage_syringe_holder.pdf</a>
 </td>
 <td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
 <td align="center">1</td>
@@ -313,9 +313,9 @@ description: Table of parts
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">Acrylic sample chamber</td>
 <td>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STL">&nbsp;Heatsink.stl</a><br/>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Heatsink.step</a><br/>
-<a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Heatsink.pdf</a>
+<a href="models/OpenSPIM_Cube-Laser_Heatsink.STL">&nbsp;Acrylic_sample_chamber.stl</a><br/>
+<a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Acrylic_sample_chamber.step</a><br/>
+<a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Acrylic_sample_chamber.pdf</a>
 </td>
 <td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
 <td align="center">1</td>
@@ -326,9 +326,9 @@ description: Table of parts
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">Metal holder for acrylic sample chamber</td>
 <td>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STL">&nbsp;Heatsink.stl</a><br/>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Heatsink.step</a><br/>
-<a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Heatsink.pdf</a>
+<a href="models/OpenSPIM_Cube-Laser_Heatsink.STL">&nbsp;Metal_holder.stl</a><br/>
+<a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Metal_holder.step</a><br/>
+<a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Metal_holder.pdf</a>
 </td>
 <td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
 <td align="center">1</td>
@@ -339,9 +339,9 @@ description: Table of parts
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">Objective holder ring</td>
 <td>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STL">&nbsp;Heatsink.stl</a><br/>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Heatsink.step</a><br/>
-<a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Heatsink.pdf</a>
+<a href="models/OpenSPIM_Cube-Laser_Heatsink.STL">&nbsp;Objective_holder_ring.stl</a><br/>
+<a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Objective_holder_ring.step</a><br/>
+<a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Objective_holder_ring.pdf</a>
 </td>
 <td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
 <td align="center">1</td>
@@ -352,9 +352,9 @@ description: Table of parts
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">Objective holder ring with handle</td>
 <td>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STL">&nbsp;Heatsink.stl</a><br/>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Heatsink.step</a><br/>
-<a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Heatsink.pdf</a>
+<a href="models/OpenSPIM_Cube-Laser_Heatsink.STL">&nbsp;Objective_holder_ring_handle.stl</a><br/>
+<a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Objective_holder_ring_handle.step</a><br/>
+<a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Objective_holder_ring_handle.pdf</a>
 </td>
 <td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
 <td align="center">1</td>
