@@ -285,15 +285,15 @@ description: Table of parts
 <tr class="odd">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
-<td align="center">The <strong>heat sink</strong> brings the laser...</td>
+<td align="center">4D-Stage sample arm holder</td>
 <td>
 <a href="models/OpenSPIM_Cube-Laser_Heatsink.STL">&nbsp;Heatsink.stl</a><br/>
 <a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Heatsink.step</a><br/>
 <a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Heatsink.pdf</a>
 </td>
-<td align="center"><img src="images/Laser_heatsink.jpg" width="150"></td>
-<td align="center">1 €</td>
-<td align="center">70,<br><a href="mailto:wwwpfdecouk@gmail.com?Subject=Production%20of%20___%20laser%20heatsink%20for%20the%20OpenSPIM%20system">email vendo </a></td>
+<td align="center"><img src="images/jpg-icon.png" width="150"></td>
+<td align="center">1</td>
+
 </tr>
 
 </table>
