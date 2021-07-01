@@ -42,19 +42,22 @@ description: Table of parts
 <td> OpenSPIM</td>
 <td align="center" bgcolor="# 99ff99">self made</td>
 <td>
-The <strong>heat sink</strong> brings the laser to the desired height of 50 mm off the surface of the optical breadboard<br/></br>
-<span style="color:#FF0000;font-weight:bold"> Must be made out of a heat conducting material.</span> We use Aluminum.
-</td>
+The <strong>heat sink</strong> brings the laser...</td>
+
 <td>
 <a href="models/OpenSPIM_Cube-Laser_Heatsink.STL">Heatsink.stl</a><br/>
 <a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">Heatsink.step</a><br/>
 <a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">Heatsink.pdf</a>
 </td>
-<td align="center"><img src="images/Laser_heatsink.jpg" width="70%"</td>
+
+<td align="center"><img src="images/Laser_heatsink.jpg" width="70%"></td>
+
 <td align="center">1</td>
-<td align="center">70, <a href="mailto:wwwpfdecouk@gmail.com?Subject=Production%20of%20___%20laser%20heatsink%20for%20the%20OpenSPIM%20system">email vendor</a>
-</td>
+
+<td align="center">70,</td><br><a href="mailto:wwwpfdecouk@gmail.com?Subject=Production%20of%20___%20laser%20heatsink%20for%20the%20OpenSPIM%20system">email vendo </a></td>
+
 </tr>
+
 </table>
 
 ## Opto-mechanical parts list
