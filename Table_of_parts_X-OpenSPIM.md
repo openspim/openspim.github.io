@@ -1,13 +1,13 @@
 ---
-title: Table of Parts
+title: Table of Parts (X-OpenSPIM upgrade)
 layout: page
 description: Table of parts
 ---
-<span style="color:#FF0000; font-weight:bold"> All OpenSPIM designed parts need to be double checked for tolerances if you will be 3D printing them!!</span> Having a well trained machinist is an invaluable resource, we recommend that you purchase all of your parts first and then have your OpenSPIM designed parts made to fit afterwards by someone with experience!!
+<span style="color:#FF0000; font-weight:bold"> This is a table of parts to get from an original L-OpenSPIM design to an X-OpenSPIM with dual sided illumination and dual sided detection</span> 
 
-(Pieter Fourie Design and Engineering has made parts for multiple OpenSPIM systems, a link to write an email is beside all self made parts in the list below in the price column)
+(Pieter Fourie Design and Engineering has made parts for multiple OpenSPIM systems including an X-OpenSPIM acquisition chamber, a link to write an email is beside all self made parts in the list below in the price column)
 
-<img src="images/Complete_reduced.jpg" width="60%">
+<img src="images/X-OpenSPIM_rendering_topview.jpg" width="80%">
 
 ## Illumination Parts List
 
