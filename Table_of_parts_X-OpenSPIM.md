@@ -25,25 +25,21 @@ description: Table of parts
 <tr class="odd">
 <td align="center">Nikon</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
-<td align="center">10x water-dipping objectives, N.A. 0.10.</td>
+<td align="center">CFI Plan Fluor 10x W/ 0.30/ 3,50 (10x water-dipping objective, N.A. 0.10).</td>
 <td> <a href="https://www.microscope.healthcare.nikon.com/en_EU/products/optics/cfi60-water-dipping-series">&nbsp;CFI Plan Fluor 10X W</a></td>
-<td align="center"><img src="images/Versa-final-sm.jpg" width="250"></td>
-<td align="center">1</td>
-<td align="center">200</td>
+<td align="center"><img src="images/jpg-icon.png" width="250"></td>
+<td align="center">2</td>
+<td align="center">~1800</td>
 </tr>
 
 <tr class="even">
-<td align="center">OpenSPIM</td>
-<td align="center" bgcolor="#98FB98">self made</td>
-<td align="center">The <strong>heat sink</strong> brings the laser...</td>
-<td>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STL">&nbsp;Heatsink.stl</a><br/>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Heatsink.step</a><br/>
-<a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Heatsink.pdf</a>
-</td>
-<td align="center"><img src="images/Laser_heatsink.jpg" width="250"></td>
-<td align="center">1</td>
-<td align="center">70,<br><a href="mailto:wwwpfdecouk@gmail.com?Subject=Production%20of%20___%20laser%20heatsink%20for%20the%20OpenSPIM%20system">email vendo </a></td>
+<td align="center">Nikon</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">CFI Apochromat 40x W NIR/ 0.80/ 3,50 (40x water-dipping objective, N.A 0.80).</td>
+<td> <a href="https://www.microscope.healthcare.nikon.com/en_EU/products/optics/cfi60-water-dipping-series">&nbsp;CFI Apochromat NIR 40X W</a></td>
+<td align="center"><img src="images/jpg-icon.png" width="250"></td>
+<td align="center">2</td>
+<td align="center">~1800</td>
 </tr>
 
 <tr class="odd">
