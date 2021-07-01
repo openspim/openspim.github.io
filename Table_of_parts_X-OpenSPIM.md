@@ -39,7 +39,9 @@ description: Table of parts
 </tr>
 
 <tr class="even">
-<td> OpenSPIM</td>
+
+<td align="center">OpenSPIM</td>
+
 <td align="center" bgcolor="# 99FF99">self made</td>
 <td>
 The <strong>heat sink</strong> brings the laser...</td>
