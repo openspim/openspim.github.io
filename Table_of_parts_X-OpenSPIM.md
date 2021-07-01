@@ -23,9 +23,9 @@ description: Table of parts
 </tr>
 <tr class="odd">
 
-<td> Omicron<br/></td>
+<td align="center">Nikon</td>
 
-<td align="center" bgcolor="# 99CCFF">purchase</td>
+<td align="center" bgcolor="# 99FFFF">purchase</td>
 <td>Whichever wavelength is <strong>necessary</strong> for your experiments.</td>
 
 <td><a href="http://www.vortranlaser.com/">VersaLase</a></td>
