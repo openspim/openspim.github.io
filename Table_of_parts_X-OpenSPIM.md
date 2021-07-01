@@ -26,10 +26,10 @@ description: Table of parts
 <td align="center">Arduino</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Arduino UNO Rev3 SMD</td>
-<td> <a href="https://www.microscope.healthcare.nikon.com/en_EU/products/optics/cfi60-water-dipping-series">A000073</a></td>
+<td> <a href="https://store.arduino.cc/arduino-uno-rev3-smd">A000073</a></td>
 <td align="center"><img src="images/Arduino_Uno.jpeg" width="250"></td>
-<td align="center">2</td>
-<td align="center">~1800</td>
+<td align="center">1</td>
+<td align="center">19</td>
 </tr>
 
 <tr class="odd">
