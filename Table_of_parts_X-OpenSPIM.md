@@ -36,10 +36,10 @@ description: Table of parts
 <td align="center">Nikon</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">CFI Plan Fluor 10x W/ 0.30/ 3,50 </br>10x water-dipping objective, N.A. 0.10</td>
-<td align="center"> <a href="https://www.microscope.healthcare.nikon.com/en_EU/products/optics/cfi60-water-dipping-series">CFI Plan Fluor 10X W</a></td>
-<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
+<td align="center"> <a href="https://www.microscope.healthcare.nikon.com/en_EU/products/optics/cfi60-water-dipping-series">CFI Plan Fluor 10X W</a></br><a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=N10XW-PF">CFI Plan Fluor 10X W (Thorlabs)</a></td>
+<td align="center"><img src="images/nikon10x.jpeg" width="150"></td>
 <td align="center">2</td>
-<td align="center">~2000 €</td>
+<td align="center">~1500 € (Thorlabs)</td>
 </tr>
 
 <tr class="even">
@@ -47,9 +47,9 @@ description: Table of parts
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">CFI Apochromat 40x W NIR/ 0.80/ 3,50</br>40x water-dipping objective, N.A 0.80)</td>
 <td align="center"><a href="https://www.microscope.healthcare.nikon.com/en_EU/products/optics/cfi60-water-dipping-series">CFI Apochromat NIR 40X W</a></br><a href="https://www.microscope.healthcare.nikon.com/en_EU/products/optics/cfi60-water-dipping-series">CFI Apochromat NIR 40X W (Thorlabs)</a></td>
-<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
+<td align="center"><img src="images/nikon40x.jpeg" width="150"></td>
 <td align="center">2</td>
-<td align="center">~2500 €</td>
+<td align="center">~2850 € (Thorlabs)</td>
 </tr>
 
 <tr class="odd">
@@ -400,7 +400,7 @@ description: Table of parts
 <a href="documents/OpenSPIM_Stilt_1-2in-Lens.PDF">&nbsp;RC1 Ø1/2" lens stilt.pdf</a>
 </td>
 <td align="center"><img src="images/0.5''lens-stilt.jpg" width="150"></td>
-<td align="center">1</td>
+<td align="center">4</td>
 </tr>
 
 </table>
