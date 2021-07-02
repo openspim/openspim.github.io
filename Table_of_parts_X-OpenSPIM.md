@@ -95,6 +95,26 @@ description: Table of parts
 <tr class="odd">
 <td align="center">Thorlabs</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">Achromatic Doublet, f=19 mm, Ø1/2", SM05-Threaded Mount, ARC: 400-700 nm</td>
+<td align="center"> <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=AC127-019-A-ML">AC127-019-A-ML</a></td>
+<td align="center"><img src="images/AC127-019-A-ML.jpeg" width="150"></td>
+<td align="center">2</td>
+<td align="center">77,46 €</td>
+</tr>
+
+<tr class="even">
+<td align="center">Thorlabs</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">Achromatic Doublet, f=75 mm, Ø1/2", SM05-Threaded Mount, ARC: 400-700 nm</td>
+<td align="center"> <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=AC127-075-A-ML">AC127-075-A-ML</a></td>
+<td align="center"><img src="images/AC127-075-A-ML.jpeg" width="150"></td>
+<td align="center">2</td>
+<td align="center">77,46 €</td>
+</tr>
+
+<tr class="odd">
+<td align="center">Thorlabs</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Adapter for Tube Lens with External SM2 Threads and Internal M38 x 0.5 Threads</td>
 <td align="center"> <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=LMR1AP">SM2A20</a></td>
 <td align="center"><img src="images/SM2A20.jpeg" width="150"></td>
@@ -225,6 +245,16 @@ description: Table of parts
 <tr class="even">
 <td align="center">Thorlabs</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">Lens Mount for Ø1/2" Optics, One Retaining Ring Included, M4 Tap</td>
+<td align="center"> <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=ITL200">LMR05/M</a></td>
+<td align="center"><img src="images/LMR05-M.jpeg" width="150"></td>
+<td align="center">2</td>
+<td align="center">14,71 €</td>
+</tr>
+
+<tr class="odd">
+<td align="center">Thorlabs</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Lens Mount with Retaining Ring for Ø1" Optics, M4 Tap</td>
 <td align="center"> <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=ITL200">LMR1/M</a></td>
 <td align="center"><img src="images/LMR1-M.jpeg" width="150"></td>
@@ -232,7 +262,7 @@ description: Table of parts
 <td align="center">14,26 €</td>
 </tr>
 
-<tr class="odd">
+<tr class="even">
 <td align="center">Thorlabs</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Mirror 30 mm Cage Cube, M4 Tap</td>
@@ -242,7 +272,7 @@ description: Table of parts
 <td align="center">128,86 €</td>
 </tr>
 
-<tr class="even">
+<tr class="odd">
 <td align="center">Thorlabs</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Pedestal Post Holder</td>
@@ -252,7 +282,7 @@ description: Table of parts
 <td align="center">22,62 €</td>
 </tr>
 
-<tr class="odd">
+<tr class="even">
 <td align="center">Thorlabs</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Rotation Mount for Ø1" Optics</td>
@@ -262,7 +292,7 @@ description: Table of parts
 <td align="center">128,86 €</td>
 </tr>
 
-<tr class="even">
+<tr class="odd">
 <td align="center">Thorlabs</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Right-Angle Kinematic Elliptical Mirror Mount</td>
@@ -272,7 +302,7 @@ description: Table of parts
 <td align="center">221,81 €</td>
 </tr>
 
-<tr class="odd">
+<tr class="even">
 <td align="center">Thorlabs</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Vacuum-Compatible Optical Post, Ø12.7 mm, M4 Setscrew, M6 Tap, L = 20 mm</td>
