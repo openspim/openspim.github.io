@@ -379,7 +379,7 @@ description: Table of parts
 <a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Objective_holder_ring.pdf</a>
 </td>
 <td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
-<td align="center">1</td>
+<td align="center">3</td>
 </tr>
 
 <tr class="odd">
