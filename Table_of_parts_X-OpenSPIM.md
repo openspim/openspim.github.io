@@ -390,6 +390,19 @@ description: Table of parts
 <td align="center">1</td>
 </tr>
 
+<tr class="odd">
+<td align="center">OpenSPIM</td>
+<td align="center" bgcolor="#98FB98">self made</td>
+<td align="center">RC1 Ø1/2" lens stilt</td>
+<td>
+<a href="models/OpenSPIM_Stilt_1-2in-Lens.STL">&nbsp;RC1 Ø1/2" lens stilt.stl</a><br/>
+<a href="models/OpenSPIM_Stilt_1-2in-Lens.STEP">&nbsp;RC1 Ø1/2" lens stilt.step</a><br/>
+<a href="documents/OpenSPIM_Stilt_1-2in-Lens.PDF">&nbsp;RC1 Ø1/2" lens stilt.pdf</a>
+</td>
+<td align="center"><img src="images/0.5''lens-stilt.jpg" width="150"></td>
+<td align="center">1</td>
+</tr>
+
 </table>
 
 ## Opto-mechanical parts list
