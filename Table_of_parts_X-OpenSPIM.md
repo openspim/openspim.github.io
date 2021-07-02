@@ -7,6 +7,13 @@ description: Table of parts
 
 (Pieter Fourie Design and Engineering has made parts for multiple OpenSPIM systems including an X-OpenSPIM acquisition chamber, a link to write an email is beside all self made parts in the list below in the price column)
 
+<figure align="center">
+  <img src="images/X-OpenSPIM_rendering_topview.jpg" width="1024">
+<figcaption>Acquisition Controls of the µOpenSPIM GUI (A-I) with the Picard 4D-stage controls on the right (J) and the Cponsole window (K). For a higher resolution image click <a href=\images/%C2%B5OpenSPIM_Acquisition.jpg>here.</a>
+
+</figcaption>
+</figure>  
+
 <img src="images/X-OpenSPIM_rendering_topview.jpg" align="center" width="70%">
 
 ## Illumination Parts List
