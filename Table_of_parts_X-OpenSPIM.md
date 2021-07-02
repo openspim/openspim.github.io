@@ -3,7 +3,9 @@ title: Table of Parts for an X-OpenSPIM upgrade
 layout: page
 description: Table of parts
 ---
-<span style="color:#4169E1; font-weight:bold"> The table of parts of this site lists the additional parts required to get from the original <a href=\Table_of_parts>L-OpenSPIM design</a> to an X-OpenSPIM with dual sided illumination and dual sided detection as shown in the image below.</span> 
+<span style="color:#4169E1; font-weight:bold"> The table of parts of this site lists the additional parts required to get from the original <a href=\Table_of_parts>L-OpenSPIM design</a> to an X-OpenSPIM with dual sided illumination and dual sided detection as shown in the image below.</span>
+
+two Andor sCMOS Neo 5.5 cameras available which are well supported for µManager’s multi-view camera function.
 
 Most self-made parts including an X-OpenSPIM acquisition chamber can be purchased from <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts">Pieter Fourie Design and Engineering</a>.
 
