@@ -9,12 +9,10 @@ description: Table of parts
 
 <figure align="center">
   <img src="images/X-OpenSPIM_rendering_topview.jpg" width="1024">
-<figcaption>Acquisition Controls of the µOpenSPIM GUI (A-I) with the Picard 4D-stage controls on the right (J) and the Cponsole window (K). For a higher resolution image click <a href=\images/%C2%B5OpenSPIM_Acquisition.jpg>here.</a>
+<figcaption>Rendering of the X-OpenSPIM (top view). The light path of the laser beam is shown in cyan. For a higher resolution image click <a href=\images/X-OpenSPIM_rendering_topview.jpg>here.</a>
 
 </figcaption>
 </figure>  
-
-<img src="images/X-OpenSPIM_rendering_topview.jpg" align="center" width="70%">
 
 ## Illumination Parts List
 
