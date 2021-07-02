@@ -406,7 +406,7 @@ description: Table of parts
 <a href="models/OpenSPIM_Stilt_1-2in-Lens.STEP">&nbsp;RC1 Ø1/2" lens stilt.step</a><br/>
 <a href="documents/OpenSPIM_Stilt_1-2in-Lens.PDF">&nbsp;RC1 Ø1/2" lens stilt.pdf</a>
 </td>
-<td align="center"><img src="images/0.5''lens-stilt.jpg" width="150"></td>
+<td align="center"><img src="images/0.5''lens-stilt_v2.jpg" width="150"></td>
 <td align="center">4</td>
 </tr>
 
