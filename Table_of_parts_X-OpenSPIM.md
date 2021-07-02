@@ -7,7 +7,7 @@ description: Table of parts
 
 (Pieter Fourie Design and Engineering has made parts for multiple OpenSPIM systems including an X-OpenSPIM acquisition chamber, a link to write an email is beside all self made parts in the list below in the price column)
 
-<img src="images/X-OpenSPIM_rendering_topview.jpg" width="70%">
+<img src="images/X-OpenSPIM_rendering_topview.jpg" align="center" width="70%">
 
 ## Illumination Parts List
 
