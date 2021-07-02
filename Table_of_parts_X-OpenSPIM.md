@@ -5,7 +5,7 @@ description: Table of parts
 ---
 <span style="color:#4169E1; font-weight:bold"> The table of parts of this site lists the additional parts required to get from the original <a href=\Table_of_parts>L-OpenSPIM design</a> to an X-OpenSPIM with dual sided illumination and dual sided detection as shown in the image below.</span> 
 
-(Pieter Fourie Design and Engineering has made parts for multiple OpenSPIM systems including an X-OpenSPIM acquisition chamber, a link to write an email is beside all self made parts in the list below in the price column)
+Most self-made parts including an X-OpenSPIM acquisition chamber can be purchased from <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts">Pieter Fourie Design and Engineering</a>.
 
 <figure align="center">
   <img src="images/X-OpenSPIM_rendering_topview.jpg" width="1024">
