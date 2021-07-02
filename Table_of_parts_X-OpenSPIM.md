@@ -59,7 +59,7 @@ description: Table of parts
 <td align="center"> <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts/">Part 9</a></td>
 <td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
 <td align="center">2</td>
-<td align="center">54 €</td>
+<td align="center">30 $</td>
 </tr>
 
 <tr class="even">
@@ -69,7 +69,7 @@ description: Table of parts
 <td align="center"> <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts">Part 10</a></td>
 <td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
 <td align="center">2</td>
-<td align="center">54 €</td>
+<td align="center">30 $</td>
 </tr>
 
 <tr class="odd">
@@ -79,7 +79,7 @@ description: Table of parts
 <td align="center"> <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts">Part 11</a></td>
 <td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
 <td align="center">2</td>
-<td align="center">180 €</td>
+<td align="center">75 $</td>
 </tr>
 
 <tr class="even">
