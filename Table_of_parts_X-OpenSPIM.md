@@ -5,10 +5,11 @@ description: Table of parts
 ---
 <span style="color:#4169E1; font-weight:bold"> The table of parts of this site lists the additional parts required to get from the original <a href=\Table_of_parts>L-OpenSPIM design</a> to an X-OpenSPIM with dual sided illumination and dual sided detection as shown in the image below.</span>
 
-We use two <a href="https://andor.oxinst.com/products/scmos-camera-series/neo-5-5-scmos">Andor sCMOS Neo 5.5 cameras</a> which are together with the Hamamatsu Flash4 and PCO Edge cameras working with µManager’s <a href="https://micro-manager.org/wiki/Utilities#Multi-Camera">Multi-Camera</a> function.
+The described X-OpenSPIM system is equipped with two  <a href="https://andor.oxinst.com/products/scmos-camera-series/neo-5-5-scmos">Andor sCMOS Neo 5.5 cameras</a> which together with the Hamamatsu Flash4 and PCO Edge cameras are known to work with µManager’s <a href="https://micro-manager.org/wiki/Utilities#Multi-Camera">Multi-Camera</a> function.
 
+To have two laser lines available (488 and 561) we chose a multiple wavelength laser system <a href="https://www.vortranlaser.com/">(Stradus VersaLase)</a>.
 
-Most self-made parts including an X-OpenSPIM acquisition chamber can be purchased from <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts">Pieter Fourie Design and Engineering</a>.
+Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purchased from <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts">Pieter Fourie Design and Engineering</a>.
 
 <figure align="center">
   <img src="images/X-OpenSPIM_rendering_topview.jpg" width="1024">
