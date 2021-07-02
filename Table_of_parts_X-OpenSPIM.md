@@ -56,7 +56,7 @@ description: Table of parts
 <td align="center">PFDE</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Detection axis holder, base</td>
-<td align="center"> <a href="https://www.pfde.co.uk/">9</a></td>
+<td align="center"> <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts/">Part 9</a></td>
 <td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
 <td align="center">2</td>
 <td align="center">54 €</td>
@@ -66,7 +66,7 @@ description: Table of parts
 <td align="center">PFDE</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Detection axis holder, top</td>
-<td align="center"> <a href="https://www.pfde.co.uk/">10</a></td>
+<td align="center"> <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts">Part 10</a></td>
 <td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
 <td align="center">2</td>
 <td align="center">54 €</td>
@@ -76,7 +76,7 @@ description: Table of parts
 <td align="center">PFDE</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Infinity space tube </td>
-<td align="center"> <a href="https://www.pfde.co.uk/">11</a></td>
+<td align="center"> <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts">Part 11</a></td>
 <td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
 <td align="center">2</td>
 <td align="center">180 €</td>
