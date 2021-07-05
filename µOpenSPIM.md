@@ -26,7 +26,7 @@ The process of acquiring images ranges from snapping a single image to recording
 
 ## Acquiring a Single Image
 <img src="https://openspim.org/images/µOpenSPIM_single-image.png" width="100">
- To acquire a single image using the OpenSPIM plugin:
+ To acquire a single image with µOpenSPIM:
 
 1.  Navigate the 4D stage to the location you want to image.
 2.  Click *Add current position* to add this plane to the position list. 
