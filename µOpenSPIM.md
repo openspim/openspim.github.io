@@ -15,7 +15,7 @@
 -   Right now µOpenSPIM is in its beta stage and works with µManager gamma1 20210504 for Windows (nightly build 04 May 2021).
 1.  Please download and install the [64-bit](https://valelab4.ucsf.edu/~MM/nightlyBuilds/2.0.0-gamma/Windows/MMSetup_64bit_2.0.0-gamma1_20210504.exe)or [32-bit](https://valelab4.ucsf.edu/~MM/nightlyBuilds/2.0.0-gamma/Windows/MMSetup_32bit_2.0.0-gamma1_20210504.exe)build of [µManager](https://micro-manager.org/)and follow its *Hardware Configuration Wizard* to create a functional configuration file (.cfg) that allows µManager to control the OpenSPIM hardware. On the first time startup of µOpenSPIM users will be asked to select the file location of MicroManager.
 2.  <strong>[Download](https://openspim.org/%C2%B5OpenSPIM)</strong>and unzip µOpenSPIM into any directory and start the application using the *µOpenSPIM.exe* file.
-3.  CLick the *START* button (top left). In the new window multiple µManager configuration files can be added, removed and selected. Click **Add .cfg file** to add and then select your working µManager configration file ending with .cfg. Then click the *Start* button. After loading the hardware µManager should now be ready for use.
+3.  CLick the *START* button (top left). In the new window multiple µManager configuration files can be added, removed and selected. Click *Add .cfg file* to add and then select your working µManager configration file ending with .cfg. Then click the *Start* button. After loading the hardware µManager should now be ready for use.
 
 ## Getting familiar with µOpenSPIM's GUI.
 
@@ -101,7 +101,7 @@ To record multiple views of a sample over time:
 ## Acquisition Controls
 <figure>
   <img src="https://openspim.org/images/%C2%B5OpenSPIM_Acquisition.jpg" width="1024">
-<figcaption>Acquisition Controls of the µOpenSPIM GUI (A-I) with the Picard 4D-stage controls on the right (J) and the Cponsole window (K). For a higher resolution image click <a href=\images/%C2%B5OpenSPIM_Acquisition.jpg>here.</a>
+<figcaption>Acquisition Controls of the µOpenSPIM GUI (A-I) with the Picard 4D-stage controls on the top right (J) and the Console window on the bottom right  (K). For a higher resolution image click <a href=\images/%C2%B5OpenSPIM_Acquisition.jpg>here.</a>
 
 </figcaption>
 </figure>  
