@@ -18,8 +18,7 @@
 3.  CLick the *START* button (top left). In the new window multiple µManager configuration files can be added, removed and selected. Click *Add .cfg file* to add and then select your working µManager configration file ending with .cfg. Then click the *Start* button. After loading the hardware µManager should now be ready for use.
 
 ## Getting familiar with µOpenSPIM's GUI.
-
-
+-   coming soon
 
 ## Acquisition with µOpenSPIM 
 The process of acquiring images ranges from snapping a single image to recording overnight (or longer) time lapses of samples from N different angles.
