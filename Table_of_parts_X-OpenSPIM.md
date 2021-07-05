@@ -12,7 +12,7 @@ To have two laser lines available (488 and 561) we chose a multiple wavelength l
 Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purchased from <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts">Pieter Fourie Design and Engineering</a>.
 
 <figure align="center">
-  <img src="images/X-OpenSPIM_rendering_topview.jpg" width="1024">
+  <img src="images/X-OpenSPIM_rendering_topview.jpg" width="1280">
 <figcaption>Rendering of the X-OpenSPIM (top view). The light path of the laser beam is shown in cyan. For a higher resolution image click <a href=\images/X-OpenSPIM_rendering_topview.jpg>here.</a>
 
 </figcaption>
