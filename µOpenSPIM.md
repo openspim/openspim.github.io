@@ -11,7 +11,7 @@
 -   A tested Anti-drift logic similar to the old plugin but with new options that can help with keeping a drifting sample within the field of view during long term image acquisition.
 - And more to come...
 
-## Installation and start-up of the OpenSPIM plugin
+## Installation and start-up of the µOpenSPIM
 -   Right now µOpenSPIM is in its beta stage and works with µManager gamma1 20210504 for Windows (nightly build 04 May 2021).
 1.  Please download and install the [ 64-bit](https://valelab4.ucsf.edu/~MM/nightlyBuilds/2.0.0-gamma/Windows/MMSetup_64bit_2.0.0-gamma1_20210504.exe)or [ 32-bit](https://valelab4.ucsf.edu/~MM/nightlyBuilds/2.0.0-gamma/Windows/MMSetup_32bit_2.0.0-gamma1_20210504.exe)build of [µManager](https://micro-manager.org/)and follow its *Hardware Configuration Wizard* to create a functional configuration file (.cfg) that allows µManager to control the OpenSPIM hardware. On the first time startup of µOpenSPIM users will be asked to select the file location of µManager.
 2.  <strong>[ Download](https://openspim.org/%C2%B5OpenSPIM)</strong>and unzip the µOpenSPIM folder into any directory and start the application using the *µOpenSPIM.exe* file.
