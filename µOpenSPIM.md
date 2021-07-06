@@ -20,6 +20,8 @@
 ## Getting familiar with µOpenSPIM's GUI.
 -   coming soon
 
+[![Demonstration of how to arrange the GUI of µOpenSPIM]({image-url})]({https://openspim.org/videos/Arrange-GUI.mp4} "Link Title")
+
 ## Acquisition with µOpenSPIM 
 The process of acquiring images ranges from snapping a single image to recording overnight (or longer) time lapses of samples from N different angles.
 
