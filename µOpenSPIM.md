@@ -21,7 +21,7 @@
 -   The GUI of µOpenSPIM can be arranged in many ways and then saved and restored if needed.</br>
 Here is a small video that demonstrats one possible way of how to arrange the GUI of µOpenSPIM.</br>
 
-[![Alt text for your video](https://openspim.org/images/Arrange-GUI.gif)](https://openspim.org/videos/Arrange-GUI.mp4 "How to arrange µOpenSPIM'a GUI...")
+[![Alt text for your video](https://openspim.org/videos/Arrange-GUI.gif)](https://openspim.org/videos/Arrange-GUI.mp4 "How to arrange µOpenSPIM'a GUI...")
 
 ## Acquisition with µOpenSPIM 
 The process of acquiring images ranges from snapping a single image to recording overnight (or longer) time lapses of samples from N different angles.
