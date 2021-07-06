@@ -2,13 +2,13 @@
 <img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"> is an intuitive new graphical user interface (GUI) for OpenSPIM users, which relies on [µManager.](https://micro-manager.org)
 
 ## Features of µOpenSPIM
--   A complete overhaul of the GUI has been made including simple graphic visualizations and an improved control over Picrard’s 4D-stage.
--   A user-friendly way of setting up multiview time lapse recordings with several positions and the option to acquire periodic and sporadic intervals with optional breaks during time-lapse recordings.
+-   A complete overhaul of the GUI has been made including simple graphic visualizations and an improved control over Picrard’s 4D-stage
+-   A user-friendly way of setting up multiview time lapse recordings with several positions and the option to acquire periodic and sporadic intervals with optional breaks during time-lapse recordings
 -   A quick save function for nearly all acquisitions settings to save time in case an imaging session is interrupted or a similar session will take place at another time.
--   Arduino UNO support for basic but efficient control of several connected hardware devices so that OpenSPIM users can quickly benefit from improved image acquisition speed and acquisition accuracy.
+-   Arduino UNO support for basic but efficient control of several connected hardware devices so that OpenSPIM users can quickly benefit from improved image acquisition speed and acquisition accuracy
 -   An option for on-the-fly maximum intensity projections
 -   A Picard Stage calibration feature to correct rotational inaccuracies and to improve the 4D-USB stage control
--   A tested Anti-drift logic similar to the old plugin but with new options that can help with keeping a drifting sample within the field of view during long term image acquisition.
+-   A tested Anti-drift logic similar to the old plugin but with new options that can help with keeping a drifting sample within the field of view during long term image acquisition
 - And more to come...
 
 ## Installation and start-up of the µOpenSPIM
