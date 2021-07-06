@@ -18,7 +18,7 @@
 3.  CLick the *START* button (top left). In the new window multiple µManager configuration files can be added, removed and selected. Click *Add .cfg file* to add and then select your working µManager configration file ending with .cfg. Then click the *Start* button. After loading the hardware µManager should now be ready for use.
 
 ## Getting familiar with µOpenSPIM's GUI.
-The GUI of µOpenSPIM can be arranged in many ways and then saved and restored if needed.
+-   The GUI of µOpenSPIM can be arranged in many ways and then saved and restored if needed.
 Follow this link to see a demonstration of [one possible way to arrange the GUI of µOpenSPIM.](https://openspim.org/videos/Arrange-GUI.mp4)
 [<img src="https://openspim.org/images/µOpenSPIM_change-GUI.png" width="350">](https://openspim.org/videos/Arrange-GUI.mp4)
 
@@ -38,7 +38,8 @@ The process of acquiring images ranges from snapping a single image to recording
 
 ## Acquiring a Stack
 <img src="https://openspim.org/images/µOpenSPIM_single-stack.png" width="100">
- A stack is a sandwich of many image slices of different focus levels of the sample. To set up a stack requires to move the Z stage. 
+A stack is a sandwich of many image slices of different focus levels of the sample. To set up a stack requires to move the Z stage.
+
 1.  Navigate to the sample location where the Z stack should begin.
 2.  Click *Z-start*. The current Z position will now show up next to the button.
 3.  Navigate to the sample location where the stack should end.
