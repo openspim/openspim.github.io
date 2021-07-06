@@ -18,8 +18,8 @@
 3.  CLick the *START* button (top left). In the new window multiple µManager configuration files can be added, removed and selected. Click *Add .cfg file* to add and then select your working µManager configration file ending with .cfg. Then click the *Start* button. After loading the hardware µManager should now be ready for use.
 
 ## Getting familiar with µOpenSPIM's GUI.
--   The GUI of µOpenSPIM can be arranged in many ways and then saved and restored if needed.
-Follow this link to see a demonstration of [one possible way to arrange the GUI of µOpenSPIM.](https://openspim.org/videos/Arrange-GUI.mp4)
+-   The GUI of µOpenSPIM can be arranged in many ways and then saved and restored if needed.</br>
+Follow this link to see [a demonstration of one possible way of how to arrange the GUI of µOpenSPIM.](https://openspim.org/videos/Arrange-GUI.mp4)
 [<img src="https://openspim.org/images/µOpenSPIM_change-GUI.png" width="750">](https://openspim.org/videos/Arrange-GUI.mp4)
 
 [![Alt text for your video](https://openspim.org/images/µOpenSPIM_change-GUI.png)](https://openspim.org/videos/Arrange-GUI.mp4 "Put hover text here!")
