@@ -45,7 +45,7 @@ The process of acquiring images ranges from snapping a single image to recording
 
 ## Acquiring a Stack
 <img src="https://openspim.org/images/µOpenSPIM_single-stack.png" width="100">
-A stack is a sandwich of many image slices of different focus levels of the sample. To set up a stack requires to move the Z stage.
+A stack is a sandwich of many image slices of different focus levels of the sample with a defined beginning and end. To set up a stack requires to move the Z stage.
 
 1.  Navigate to the sample location where the Z stack should begin.
 2.  Click *Z-start*. The current Z position will now show up next to the button.
@@ -109,7 +109,7 @@ To record multiple views of a sample over time:
 
 ## Acquisition Controls
 The following image with introduce you the the location of all available controls to set up an imagign session.</br>
-For a more detailed decription follow this link: <strong>&nbsp;&nbsp;[Detailed Acquisition controls for µOpenSPIM.](https://openspim.org/µOpenSPIM_Acquisition-controls)</strong>
+For a more detailed decription follow this link: <strong>[Detailed Acquisition controls for µOpenSPIM.](https://openspim.org/µOpenSPIM_Acquisition-controls)</strong>
 <figure>
   <img src="https://openspim.org/images/%C2%B5OpenSPIM_Acquisition.jpg" width="1024">
 <figcaption>Acquisition Controls of the µOpenSPIM GUI (A-I) with the Picard 4D-stage controls on the top right (J) and the Console window on the bottom right  (K). For a higher resolution image click <a href=\images/%C2%B5OpenSPIM_Acquisition.jpg>here.</a>
@@ -117,24 +117,28 @@ For a more detailed decription follow this link: <strong>&nbsp;&nbsp;[Detailed A
 </figure>  
 
   - (A) Positions  
-    This table shows the list of stacks of images to acquire. Each time point will consist of the images recorded at each position in this list (as well as the Z slices described by the range in the Z column).
+    This table shows the list of predefined positions, which will be acquired at each time point. There might be multiple positions or just one. A position is location where the four motorized stepper mtotors (X, Y, Z, and R) will move the sample just before imaging of a given time point takes place.</br>
+    In case a 3-diemnsional stack is intendted to be acquired, the Z stage will have three location values instead of one, namely the start and end position, which sets the total volume of the stack, and the Z step size. The latter specifies the amount of total slices/images per stack.
     1.  Add position
         - Clicking this button will add a row to the end of the table with only the current position. In case a z-stack is not defined a single slice will be taken at the given location.
     2.  Delete position
         - Clicking this will remove any currently-highlighted rows from the table. You can click and drag rows or move them up and down with the arrows at the end of the row.
-    3.  Update position: Update selected position according to the current 4D-stage positions (X, Y, Z, R).
+    3.  Update position
+        - Clicking this button will update the selected position according to the current 4D-stage positions (X, Y, Z, R).
 
   - (B) Define Z-stacks
+    This is where the beginning and the end of a new stack is specified, as well as the Z step size, using the Z stage.
     1. Z-start
         - Clicking this button will mark the current z stepper motor position as the beginning of a desired z-stack.
     2. Z-end
         - Clicking this button will mark the current z stepper motor position as the end of a desired z-stack.
     3. Go to centre
         - Clicking this button will move the stage Z into the centre of the defined z-stack.
-    4. Add Pos.
-        - Clicking this button will add a row to the end of the positions table that will include the X, Y, and R positions as well as the two z-stack positions (Z-start and Z-end).  
+    4. Add stack position.
+        - Clicking this button will add a row to the end of the positions table that will include the X, Y, and R positions together with the two z-stack positions (Z-start and Z-end) and the Z step size value.  
 
   - (C) Time points (TP)
+    This table includes the information how often the predefined positions should be acquired. A single time point can be specified or many time points stretching over a long time period.
     1. Add TP
         - Clicking this button will add a row to the end of the time points table where the number of time points and their recurrent intervals can be specified.
     2. Add Pause
@@ -143,19 +147,21 @@ For a more detailed decription follow this link: <strong>&nbsp;&nbsp;[Detailed A
         - Clicking this will remove any currently-highlighted rows from the time points table.
 
   - (D) Acquisition
+    After all positions and time points have been set up for imaging, there are several options to consider before starting the acquisition.
     1. Acquire
-        - Clicking this button will start the specified imaging session.
+        - Clicking this button will start the predefined imaging session.
     2. Anti-Drift
-        - Clicking the Anti-drift tab and enabling it will be an attempt to prevent the sample from leaving its initial position. Users can choose between Phase Correlation (whole 3d-stack is taken into account) or Centre of Mass (drifts are only corrected in x, y). Be careful, as high concentrations of fluorescent beads surrounding the sample may disarrange the Anti-Drift.
+        - Click the Anti-drift tab to enable it with the aim to prevent the sample from leaving its initial predefined position. One can choose between Phase Correlation (whereby entire volume of a 3d-stack is taken into account) or Centre of Mass (whereby drifts are only corrected in x, y but not in z). Note that high concentrations of fluorescent beads surrounding the sample may disarrange the Anti-Drift logic.
     3. ROI
-        - This is where a region of interest (ROI) can be applied. But first a ROI has to be specified in the preview window of µManager. To do so, select the Rectangle tool and make a selection within the preview window. The preview window will open up by clicking *Live view*. The Live view can be stopped while using the Rectangle tool.
+        - Within this tab a region of interest (ROI) can be specified and applied to the field of view of the camera. The region is specified in the preview window of µManager. Select the Rectangle tool and create a selection inside the preview window. The window will open up by clicking *Live view*. When the ROI is specified, click the *Apply* button.
     4. Binning
-        - Here different binning options can be selected for the acquisition, e.g. 2x2 or 3x3 binning. Binning combines the charge of pixels, which increases the signal to noise ratio (SNR) and leads to higher camera frame rates but on the expanse of pixel resolution. 
+        - Different binning options can be selected before acquisition, e.g. 2x2 or 3x3 binning. Higher Binning settings combines the charge of more pixels, which increases the signal to noise ratio (SNR) and results in higher camera frame rates but on the expanse of pixel resolution. 
 
   - (E) Preview of imaging session
-        - This is a simple schematic overview of the current time points table. Nothing can be specified here.
+        - This simple schematic provides an visual overview of the specified time points.
 
   - (F) Select Channels/Pins
+    
         - Add one or more "channels". A channel is typically a laser but it can also be another hardware component of the OpenSPIM. There are two ways of controlling a channel during acquisition: 1) Software controlled (without an ArduinoUNO microcontroller) and 2) Arduino Controlled (with an ArduinoUNO microcontroller). 
     1. Software controlled:
         - Click *Add channel* to add a new channel to the table. Click into the drop-down menus to change e.g. the Shutter of a laser. Several channels can be added to the table.
