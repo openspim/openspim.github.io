@@ -17,6 +17,12 @@
 2.  <strong>&nbsp;&nbsp;[Download](https://openspim.org/%C2%B5OpenSPIM)</strong>and unzip the µOpenSPIM folder into any directory and start the application using the *µOpenSPIM.exe* file.
 3.  CLick the *START* button (top left). In the new window multiple µManager configuration files can be added, removed and selected. Click *Add .cfg file* to add and then select your working µManager configration file ending with .cfg. Then click the *Start* button. After loading the hardware µManager should now be ready for use.
 
+## Configuring multiple cameras in µManager (X-OpenSPIM)
+CLick here to find a step-by-step guide on how to cofigure two sister cameras in µManager.
+
+## Setting up an Arduino microcontroller in µManager
+Follow this link to get detailed description on how to configure and set up an Arduino UNO board for hardware controlled imaging with µOpenSPIM.</br>
+
 ## Getting familiar with µOpenSPIM's GUI.
 -   The GUI of µOpenSPIM can be arranged in many ways and then saved and restored if needed.</br>
 Here is a small video that demonstrats one possible way of how to arrange the GUI of µOpenSPIM.</br>
@@ -102,10 +108,11 @@ To record multiple views of a sample over time:
 
 
 ## Acquisition Controls
+The following image with introduce you the the location of all available controls to set up an imagign session.</br>
+For a more detailed decription follow this link: <strong>&nbsp;&nbsp;[Detailed Acquisition controls for µOpenSPIM.](https://openspim.org/µOpenSPIM_Acquisition-controls)</strong>
 <figure>
   <img src="https://openspim.org/images/%C2%B5OpenSPIM_Acquisition.jpg" width="1024">
 <figcaption>Acquisition Controls of the µOpenSPIM GUI (A-I) with the Picard 4D-stage controls on the top right (J) and the Console window on the bottom right  (K). For a higher resolution image click <a href=\images/%C2%B5OpenSPIM_Acquisition.jpg>here.</a>
-
 </figcaption>
 </figure>  
 
