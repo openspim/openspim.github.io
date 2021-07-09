@@ -15,17 +15,17 @@
 -   Right now µOpenSPIM is in its beta stage and works with µManager gamma1 20210504 for Windows (nightly build 04 May 2021).
 1.  Please download and install the &nbsp;&nbsp;[64-bit](https://valelab4.ucsf.edu/~MM/nightlyBuilds/2.0.0-gamma/Windows/MMSetup_64bit_2.0.0-gamma1_20210504.exe)or &nbsp;&nbsp;[32-bit](https://valelab4.ucsf.edu/~MM/nightlyBuilds/2.0.0-gamma/Windows/MMSetup_32bit_2.0.0-gamma1_20210504.exe)build of &nbsp;&nbsp;[µManager](https://micro-manager.org/)and follow its *Hardware Configuration Wizard* to create a functional configuration file (.cfg) that allows µManager to control the OpenSPIM hardware. On the first time startup of µOpenSPIM users will be asked to select the file location of µManager.
 2.  <strong>&nbsp;&nbsp;[Download](https://openspim.org/%C2%B5OpenSPIM)</strong>and unzip the µOpenSPIM folder into any directory and start the application using the *µOpenSPIM.exe* file.
-3.  CLick the *START* button (top left). In the new window multiple µManager configuration files can be added, removed and selected. Click *Add .cfg file* to add and then select your working µManager configration file ending with .cfg. Then click the *Start* button. After loading the hardware µManager should now be ready for use.
+3.  CLick the *START* button (top left). In the new window multiple µManager configuration files can be added, removed and selected. Click *Add .cfg file* to add and then select your working µManager configuration file ending with .cfg. Then click the *Start* button. After loading the hardware µManager should now be ready for use.
 
 ## Configuring multiple cameras in µManager (X-OpenSPIM)
-CLick here to find a step-by-step guide on how to cofigure two sister cameras in µManager.
+CLick here to find a step-by-step guide on how to configure two sister cameras in µManager.
 
 ## Setting up an Arduino microcontroller in µManager
 Follow this link to get detailed description on how to configure and set up an Arduino UNO board for hardware controlled imaging with µOpenSPIM.</br>
 
 ## Getting familiar with µOpenSPIM's GUI.
 -   The GUI of µOpenSPIM can be arranged in many ways and then saved and restored if needed.</br>
-Here is a small video that demonstrats one possible way of how to arrange the GUI of µOpenSPIM.</br>
+Here is a small video that demonstrates one possible way of how to arrange the GUI of µOpenSPIM.</br>
 
 [<img src="https://openspim.org/videos/Arrange-GUI.gif" width="400">](https://openspim.org/videos/Arrange-GUI.mp4)
 
@@ -57,7 +57,7 @@ A stack is a sandwich of many image slices of different focus levels of the samp
 8.  Click *Add TP* and set both, the number of time points (TP) and the interval, to 1.
 9.  Add at least one channel (either Software Controlled or Arduino Controlled) to the Channels list and set each channel's exposure time.
 10. Though a single stack can easily fit into the memory, it is recommended that you specify an Output directory so the stack is saved to the disk. A metadata file of all acquisition settings will additionally be saved into the Output directory.
-11. Optionally, turn on *Show/Save Maximum Intensity Projections of each TP* to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own subfolder within the Output directory.
+11. Optionally, turn on *Show/Save Maximum Intensity Projections of each TP* to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own sub-folder within the Output directory.
 12. Click *Acquire* to capture the defined stack.
 
 ## Single-Plane Time Lapse
@@ -117,8 +117,8 @@ For a more detailed decription follow this link: <strong>[Detailed Acquisition c
 </figure>  
 
 ### (A) Positions  
-    This table shows the list of predefined positions, which will be acquired at each time point. There might be multiple positions or just one. A position is location where the four motorized stepper mtotors (X, Y, Z, and R) will move the sample just before imaging of a given time point takes place.</br>
-    In case a 3-diemnsional stack is intendted to be acquired, the Z stage will have three location values instead of one, namely the start and end position, which sets the total volume of the stack, and the Z step size. The latter specifies the amount of total slices/images per stack.
+    This table shows the list of predefined positions, which will be acquired at each time point. There might be multiple positions or just one. A position is location where the four motorized stepper motors (X, Y, Z, and R) will move the sample just before imaging of a given time point takes place.</br>
+    In case a 3-dimensional stack is intended to be acquired, the Z stage will have three location values instead of one, namely the start and end position, which sets the total volume of the stack, and the Z step size. The latter specifies the amount of total slices/images per stack.
     1.  Add position
         - Clicking this button will add a row to the end of the table with only the current position. In case a z-stack is not defined a single slice will be taken at the given location.
     2.  Delete position
@@ -161,7 +161,7 @@ For a more detailed decription follow this link: <strong>[Detailed Acquisition c
         - This simple schematic provides an visual overview of the specified time points.
 
   - (F) Select Channels/Pins
-    A channel can be a laser of a certain wavelength or a brightfield lamp, which fire up during camera exposure. In case a digital output pin of 
+    A channel can be a laser of a certain wavelength or a bright-field lamp, which fire up during camera exposure. In case a digital output pin of 
         - Add one or more "channels". A channel is typically a laser but it can also be another hardware component of the OpenSPIM. There are two ways of controlling a channel during acquisition: 1) Software controlled (without an ArduinoUNO microcontroller) and 2) Arduino Controlled (with an ArduinoUNO microcontroller). 
     1. Software controlled:
         - Click *Add channel* to add a new channel to the table. Click into the drop-down menus to change e.g. the Shutter of a laser. Several channels can be added to the table.
@@ -196,12 +196,12 @@ For a more detailed decription follow this link: <strong>[Detailed Acquisition c
     1.  Save current position
         - Click this button to save the current position of the stage. It will be added to a list.
     2.  Load location
-         - Click this button to Load a previosly saved stage position from a list.
+         - Click this button to Load a previously saved stage position from a list.
     3.  Indicate angles
         - Indicate here the number of angles you wish to acquire during a single time-point. The angles will then be indicated above the rotational stage (Stage R).
     4.  Calibrate
         - Click this button to calibrate the R Stage in case the 360 degrees do not correspond to a full revolution of the sample holder.
-    5.  Click *Homing* on one of the four Stages to move the stepper motot back to its home position.
+    5.  Click *Homing* on one of the four Stages to move the stepper motor back to its home position.
     6.  Click *Stop* to immediately stop a stepper motor.
 
   - (K) Console
