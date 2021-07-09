@@ -18,7 +18,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </figcaption>
 </figure>  
 
-## Illumination Parts List
+## Purchased and self made parts list
 
 <table>
 <tr class="header">
