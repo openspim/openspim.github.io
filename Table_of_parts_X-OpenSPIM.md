@@ -76,7 +76,7 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Detection axis holder, top</td>
 <td align="center"> <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts">Part 10</a></td>
-<td align="center"><img src="images/µOpenSPIM/PFDE/PART10.png" width="150"></td>
+<td align="center"><img src="images/µOpenSPIM/PFDE/PART_10.png" width="150"></td>
 <td align="center">2</td>
 <td align="center">30 $</td>
 </tr>
@@ -326,9 +326,9 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">4D-Stage sample arm holder</td>
 <td>
-<a href="images/µOpenSPIM/4D-PicardStage/SampleArmHolder/4D-Motor-Arm_28mm.stl">&nbsp;Heatsink.stl</a><br/>
-<a href="images/µOpenSPIM/4D-PicardStage/SampleArmHolder/4D-Motor-Arm_28mm.stp">&nbsp;Heatsink.step</a><br/>
-<a href="images/µOpenSPIM/4D-PicardStage/SampleArmHolder/4D-Motor-Arm_28mm.pdf">&nbsp;Heatsink.pdf</a>
+<a href="images/µOpenSPIM/4D-PicardStage/SampleArmHolder/4D-Motor-Arm_28mm.stl">&nbsp;4D-Motor-Arm_28mm.stl</a><br/>
+<a href="images/µOpenSPIM/4D-PicardStage/SampleArmHolder/4D-Motor-Arm_28mm.stp">&nbsp;4D-Motor-Arm_28mm.stp</a><br/>
+<a href="images/µOpenSPIM/4D-PicardStage/SampleArmHolder/4D-Motor-Arm_28mm.pdf">&nbsp;4D-Motor-Arm_28mm.pdf</a>
 </td>
 <td align="center"><img src="images/µOpenSPIM/4D-PicardStage/SampleArmHolder/4D-Motor-Arm_28mm.png" width="150"></td>
 <td align="center">1</td>
@@ -339,11 +339,11 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">4D-Stage syringe holder</td>
 <td>
-<a href="images/µOpenSPIM/4D-PicardStage/SampleArmHolder/SyringeHolder.stl">&nbsp;4D-Stage_syringe_holder.stl</a><br/>
-<a href="images/µOpenSPIM/4D-PicardStage/SampleArmHolder/SyringeHolder.stp">&nbsp;4D-Stage_syringe_holder.step</a><br/>
-<a href="images/µOpenSPIM/4D-PicardStage/SampleArmHolder/SyringeHolder.pdf">&nbsp;4D-Stage_syringe_holder.pdf</a>
+<a href="images/µOpenSPIM/4D-PicardStage/SyringeHolder/SyringeHolder.stl">&nbsp;4D-Stage_syringe_holder.stl</a><br/>
+<a href="images/µOpenSPIM/4D-PicardStage/SyringeHolder/SyringeHolder.stp">&nbsp;4D-Stage_syringe_holder.stp</a><br/>
+<a href="images/µOpenSPIM/4D-PicardStage/SyringeHolder/SyringeHolder.pdf">&nbsp;4D-Stage_syringe_holder.pdf</a>
 </td>
-<td align="center"><img src="images/µOpenSPIM/4D-PicardStage/SampleArmHolder/SyringeHolder.png" width="150"></td>
+<td align="center"><img src="images/µOpenSPIM/4D-PicardStage/SyringeHolder/SyringeHolder.png" width="150"></td>
 <td align="center">1</td>
 </tr>
 
@@ -352,11 +352,11 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">Acrylic sample chamber</td>
 <td>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STL">&nbsp;Acrylic_sample_chamber.stl</a><br/>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Acrylic_sample_chamber.step</a><br/>
-<a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Acrylic_sample_chamber.pdf</a>
+<a href="images/µOpenSPIM/SampleChamber/SampleChamber.stl">&nbsp;SampleChamber.stl</a><br/>
+<a href="images/µOpenSPIM/SampleChamber/SampleChamber.stp">&nbsp;SampleChamber.stp</a><br/>
+<a href="images/µOpenSPIM/SampleChamber/SampleChamber.pdf">&nbsp;SampleChamber.pdf</a>
 </td>
-<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
+<td align="center"><img src="images/µOpenSPIM/SampleChamber/SampleChamber.png" width="150"></td>
 <td align="center">1</td>
 </tr>
 
@@ -365,11 +365,24 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">Metal holder for acrylic sample chamber</td>
 <td>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STL">&nbsp;Metal_holder.stl</a><br/>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Metal_holder.step</a><br/>
-<a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Metal_holder.pdf</a>
+<a href="images/µOpenSPIM/SampleChamberHolder/SampleChamberHolder.stl">&nbsp;SampleChamberHolder.stl</a><br/>
+<a href="images/µOpenSPIM/SampleChamberHolder/SampleChamberHolder.stp">&nbsp;SampleChamberHolder.stp</a><br/>
+<a href="images/µOpenSPIM/SampleChamberHolder/SampleChamberHolder.pdf">&nbsp;SampleChamberHolder.pdf</a>
 </td>
-<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
+<td align="center"><img src="images/µOpenSPIM/SampleChamberHolder/SampleChamberHolder.png" width="150"></td>
+<td align="center">1</td>
+</tr>
+
+<tr class="odd">
+<td align="center">OpenSPIM</td>
+<td align="center" bgcolor="#98FB98">self made</td>
+<td align="center">Metal holder bottom for acrylic sample chamber</td>
+<td>
+<a href="images/µOpenSPIM/SampleChamberHolder/SampleChamberHolderBottom.stl">&nbsp;SampleChamberHolderBottom.stl</a><br/>
+<a href="images/µOpenSPIM/SampleChamberHolder/SampleChamberHolderBottom.stp">&nbsp;SampleChamberHolderBottom.stp</a><br/>
+<a href="images/µOpenSPIM/SampleChamberHolder/SampleChamberHolderBottom.pdf">&nbsp;SampleChamberHolderBottom.pdf</a>
+</td>
+<td align="center"><img src="images/µOpenSPIM/SampleChamberHolder/SampleChamberHolderBottom.png" width="150"></td>
 <td align="center">1</td>
 </tr>
 
@@ -378,25 +391,38 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">Objective holder ring</td>
 <td>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STL">&nbsp;Objective_holder_ring.stl</a><br/>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Objective_holder_ring.step</a><br/>
-<a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Objective_holder_ring.pdf</a>
+<a href="models/images/µOpenSPIM/ObjectiveHolder_ring/ObjectiveHolder_Ring.stl">&nbsp;ObjectiveHolder_Ring.stl</a><br/>
+<a href="images/µOpenSPIM/ObjectiveHolder_ring/ObjectiveHolder_Ring.stp">&nbsp;ObjectiveHolder_Ring.stp</a><br/>
+<a href="images/µOpenSPIM/ObjectiveHolder_ring/ObjectiveHolder_Ring.pdf">&nbsp;ObjectiveHolder_Ring.pdf</a>
 </td>
-<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
-<td align="center">3</td>
+<td align="center"><img src="images/µOpenSPIM/ObjectiveHolder_ring/ObjectiveHolder_Ring.png" width="150"></td>
+<td align="center">4</td>
 </tr>
 
 <tr class="odd">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
-<td align="center">Objective holder ring with handle</td>
+<td align="center">Objective holder ring with handle (part1)</td>
 <td>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STL">&nbsp;Objective_holder_ring_handle.stl</a><br/>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Objective_holder_ring_handle.step</a><br/>
-<a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Objective_holder_ring_handle.pdf</a>
+<a href="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1.stl">&nbsp;ObjectiveHolder-Tail1.stl</a><br/>
+<a href="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1.stp">&nbsp;ObjectiveHolder-Tail1.stp</a><br/>
+<a href="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1.pdf">&nbsp;ObjectiveHolder-Tail1.pdf</a>
 </td>
-<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
-<td align="center">1</td>
+<td align="center"><img src="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1-pic.png" width="150"></td>
+<td align="center">2</td>
+</tr>
+
+<tr class="odd">
+<td align="center">OpenSPIM</td>
+<td align="center" bgcolor="#98FB98">self made</td>
+<td align="center">Objective holder ring with handle (part2)</td>
+<td>
+<a href="images/µOpenSPIM/ObjectiveHolder_tail2/ObjectiveHolder-Tail2.stl">&nbsp;ObjectiveHolder-Tail2.stl</a><br/>
+<a href="images/µOpenSPIM/ObjectiveHolder_tail2/ObjectiveHolder-Tail2.stp">&nbsp;ObjectiveHolder-Tail2.stp</a><br/>
+<a href="images/µOpenSPIM/ObjectiveHolder_tail2/ObjectiveHolder-Tail2.pdf">&nbsp;ObjectiveHolder-Tail2.pdf</a>
+</td>
+<td align="center"><img src="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1-pic.png" width="150"></td>
+<td align="center">2</td>
 </tr>
 
 <tr class="odd">
