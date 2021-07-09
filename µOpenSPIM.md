@@ -116,7 +116,7 @@ For a more detailed decription follow this link: <strong>[Detailed Acquisition c
 </figcaption>
 </figure>  
 
-  - (A) Positions  
+### (A) Positions  
     This table shows the list of predefined positions, which will be acquired at each time point. There might be multiple positions or just one. A position is location where the four motorized stepper mtotors (X, Y, Z, and R) will move the sample just before imaging of a given time point takes place.</br>
     In case a 3-diemnsional stack is intendted to be acquired, the Z stage will have three location values instead of one, namely the start and end position, which sets the total volume of the stack, and the Z step size. The latter specifies the amount of total slices/images per stack.
     1.  Add position
@@ -161,7 +161,7 @@ For a more detailed decription follow this link: <strong>[Detailed Acquisition c
         - This simple schematic provides an visual overview of the specified time points.
 
   - (F) Select Channels/Pins
-    
+    A channel can be a laser of a certain wavelength or a brightfield lamp, which fire up during camera exposure. In case a digital output pin of 
         - Add one or more "channels". A channel is typically a laser but it can also be another hardware component of the OpenSPIM. There are two ways of controlling a channel during acquisition: 1) Software controlled (without an ArduinoUNO microcontroller) and 2) Arduino Controlled (with an ArduinoUNO microcontroller). 
     1. Software controlled:
         - Click *Add channel* to add a new channel to the table. Click into the drop-down menus to change e.g. the Shutter of a laser. Several channels can be added to the table.
