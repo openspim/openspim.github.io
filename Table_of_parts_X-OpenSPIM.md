@@ -393,7 +393,7 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">Objective holder ring</td>
 <td>
-<a href="models/images/µOpenSPIM/ObjectiveHolder_ring/ObjectiveHolder_Ring.stl">&nbsp;ObjectiveHolder_Ring.stl</a><br/>
+<a href="images/µOpenSPIM/ObjectiveHolder_ring/ObjectiveHolder_Ring.stl">&nbsp;ObjectiveHolder_Ring.stl</a><br/>
 <a href="images/µOpenSPIM/ObjectiveHolder_ring/ObjectiveHolder_Ring.stp">&nbsp;ObjectiveHolder_Ring.stp</a><br/>
 <a href="images/µOpenSPIM/ObjectiveHolder_ring/ObjectiveHolder_Ring.pdf">&nbsp;ObjectiveHolder_Ring.pdf</a>
 </td>
