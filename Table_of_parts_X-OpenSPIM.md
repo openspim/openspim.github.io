@@ -378,11 +378,11 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">Metal holder bottom for acrylic sample chamber</td>
 <td>
-<a href="images/µOpenSPIM/SampleChamberHolder/SampleChamberHolderBottom.stl">&nbsp;SampleChamberHolderBottom.stl</a><br/>
-<a href="images/µOpenSPIM/SampleChamberHolder/SampleChamberHolderBottom.stp">&nbsp;SampleChamberHolderBottom.stp</a><br/>
-<a href="images/µOpenSPIM/SampleChamberHolder/SampleChamberHolderBottom.pdf">&nbsp;SampleChamberHolderBottom.pdf</a>
+<a href="images/µOpenSPIM/SampleChamberHolderBottom/SampleChamberHolderBottom.stl">&nbsp;SampleChamberHolderBottom.stl</a><br/>
+<a href="images/µOpenSPIM/SampleChamberHolderBottom/SampleChamberHolderBottom.stp">&nbsp;SampleChamberHolderBottom.stp</a><br/>
+<a href="images/µOpenSPIM/SampleChamberHolderBottom/SampleChamberHolderBottom.pdf">&nbsp;SampleChamberHolderBottom.pdf</a>
 </td>
-<td align="center"><img src="images/µOpenSPIM/SampleChamberHolder/SampleChamberHolderBottom.png" width="150"></td>
+<td align="center"><img src="images/µOpenSPIM/SampleChamberHolderBottom/SampleChamberHolderBottom.png" width="150"></td>
 <td align="center">1</td>
 </tr>
 
@@ -421,7 +421,7 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <a href="images/µOpenSPIM/ObjectiveHolder_tail2/ObjectiveHolder-Tail2.stp">&nbsp;ObjectiveHolder-Tail2.stp</a><br/>
 <a href="images/µOpenSPIM/ObjectiveHolder_tail2/ObjectiveHolder-Tail2.pdf">&nbsp;ObjectiveHolder-Tail2.pdf</a>
 </td>
-<td align="center"><img src="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1-pic.png" width="150"></td>
+<td align="center"><img src="images/µOpenSPIM/ObjectiveHolder_tail2/ObjectiveHolder-Tail2.png" width="150"></td>
 <td align="center">2</td>
 </tr>
 
