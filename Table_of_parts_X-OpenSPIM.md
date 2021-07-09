@@ -9,7 +9,7 @@ The described X-OpenSPIM system is equipped with two  <a href="https://andor.oxi
 
 To have two laser lines available (488 and 561) we chose a multiple wavelength laser system <a href="https://www.vortranlaser.com/">(Stradus VersaLase)</a>.
 
-Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purchased from <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts">*Pieter Fourie Design and Engineering*</a>.
+Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purchased from <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts">[Pieter Fourie Design and Engineering]</a>.
 
 <figure align="center">
   <img src="images/X-OpenSPIM_rendering_topview.jpg" width="1280">
