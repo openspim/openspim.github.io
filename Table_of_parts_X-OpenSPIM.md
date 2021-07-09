@@ -31,7 +31,7 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <th>Price</th>
 </tr>
 
-<tr class="even">
+<tr class="odd">
 <td align="center">Arduino</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Arduino UNO Rev3 SMD</td>
@@ -41,7 +41,7 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center">19 €</td>
 </tr>
 
-<tr class="odd">
+<tr class="even">
 <td align="center">Nikon</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">CFI Plan Fluor 10x W/ 0.30/ 3,50 </br>10x water-dipping objective, N.A. 0.10</td>
@@ -51,7 +51,7 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center">~1500 € (Thorlabs)</td>
 </tr>
 
-<tr class="even">
+<tr class="odd">
 <td align="center">Nikon</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">CFI Apochromat 40x W NIR/ 0.80/ 3,50</br>40x water-dipping objective, N.A 0.80)</td>
@@ -61,7 +61,7 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center">~2850 € (Thorlabs)</td>
 </tr>
 
-<tr class="odd">
+<tr class="even">
 <td align="center">PFDE</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Detection axis holder, base</td>
@@ -71,7 +71,7 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center">30 $</td>
 </tr>
 
-<tr class="even">
+<tr class="odd">
 <td align="center">PFDE</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Detection axis holder, top</td>
