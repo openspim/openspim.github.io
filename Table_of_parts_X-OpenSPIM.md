@@ -453,16 +453,6 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center">2</td>
 </tr>
 
-<tr class="odd">
-<td align="center">PFDE</td>
-<td align="center" bgcolor="#87CEFA">purchase</td>
-<td align="center">Infinity space tube </td>
-<td align="center"> <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts">Part 11</a></td>
-<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
-<td align="center">2</td>
-<td align="center">75 $</td>
-</tr>
-
 
 </table>
 
