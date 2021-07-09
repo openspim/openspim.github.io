@@ -76,7 +76,7 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Detection axis holder, top</td>
 <td align="center"> <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts">Part 10</a></td>
-<td align="center"><img src="images/µOpenSPIM/PFDE/PART_10.png" width="150"></td>
+<td align="center"><img src="images/µOpenSPIM/PFDE/PART10.png" width="150"></td>
 <td align="center">2</td>
 <td align="center">30 $</td>
 </tr>
@@ -360,6 +360,18 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center">1</td>
 </tr>
 
+<tr class="even">
+<td align="center">OpenSPIM</td>
+<td align="center" bgcolor="#98FB98">self made</td>
+<td align="center">Dovetail Optical Rail, 300 mm, Metric (cut)</td>
+<td>
+<a href="images/µOpenSPIM/RLA300_M-Step_cut45/RLA300_M-Step_cut45.stp">&nbsp;RLA300_M-Step_cut45.stp</a>
+</td>
+<td align="center"><img src="images/µOpenSPIM/RLA300_M-Step_cut45/RLA300_M-Step_cut45_v2.png" width="150"></td>
+<td align="center">2</td>
+<td align="center"></td>
+</tr>
+
 <tr class="odd">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
@@ -417,11 +429,11 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">Objective holder ring with handle (part2)</td>
 <td>
-<a href="images/µOpenSPIM/ObjectiveHolder_tail2/ObjectiveHolder-Tail2.stl">&nbsp;ObjectiveHolder-Tail2.stl</a><br/>
-<a href="images/µOpenSPIM/ObjectiveHolder_tail2/ObjectiveHolder-Tail2.stp">&nbsp;ObjectiveHolder-Tail2.stp</a><br/>
-<a href="images/µOpenSPIM/ObjectiveHolder_tail2/ObjectiveHolder-Tail2.pdf">&nbsp;ObjectiveHolder-Tail2.pdf</a>
+<a href="images/µOpenSPIM/ObjectiveHolder-tail2/ObjectiveHolder-Tail2.stl">&nbsp;ObjectiveHolder-Tail2.stl</a><br/>
+<a href="images/µOpenSPIM/ObjectiveHolder-tail2/ObjectiveHolder-Tail2.stp">&nbsp;ObjectiveHolder-Tail2.stp</a><br/>
+<a href="images/µOpenSPIM/ObjectiveHolder-tail2/ObjectiveHolder-Tail2.pdf">&nbsp;ObjectiveHolder-Tail2.pdf</a>
 </td>
-<td align="center"><img src="images/µOpenSPIM/ObjectiveHolder_tail2/ObjectiveHolder-Tail2.png" width="150"></td>
+<td align="center"><img src="images/µOpenSPIM/ObjectiveHolder-tail2/ObjectiveHolder-Tail2.png" width="150"></td>
 <td align="center">2</td>
 </tr>
 
