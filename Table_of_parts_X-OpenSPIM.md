@@ -13,7 +13,7 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 
 <figure align="center">
   <img src="images/X-OpenSPIM_rendering_topview.jpg" width="1280">
-<figcaption>Rendering of the X-OpenSPIM (top view). The light path of the laser beam is shown in cyan. For a higher resolution image click <a href=\images/X-OpenSPIM_rendering_topview.jpg>here.</a>
+<figcaption>Accurate rendering of the X-OpenSPIM currently in use in the Tomancak lab (top view). The light path of the laser beam is shown in cyan. Image created with Autodesk Inventor by Charlène Brillard. For a higher resolution image click <a href=\images/X-OpenSPIM_rendering_topview.jpg>here.</a>
 
 </figcaption>
 </figure>  
