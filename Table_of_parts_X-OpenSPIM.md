@@ -324,7 +324,7 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center">1</td>
 </tr>
 
-<tr class="odd">
+<tr class="even">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">4D-Stage syringe holder</td>
@@ -375,7 +375,7 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center">1</td>
 </tr>
 
-<tr class="odd">
+<tr class="even">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">Metal holder bottom for acrylic sample chamber</td>
@@ -401,7 +401,7 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center">4</td>
 </tr>
 
-<tr class="odd">
+<tr class="even">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">Objective holder ring with handle (part1)</td>
@@ -427,7 +427,7 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center">2</td>
 </tr>
 
-<tr class="odd">
+<tr class="even">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">RC1 Ø1/2" lens stilt</td>
