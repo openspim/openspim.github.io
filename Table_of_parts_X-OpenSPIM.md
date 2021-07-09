@@ -404,7 +404,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <tr class="even">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
-<td align="center">Objective holder ring with handle (part1)</td>
+<td align="center">Handle for objective holder ring (part1)</td>
 <td>
 <a href="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1.stl">&nbsp;ObjectiveHolder-Tail1.stl</a><br/>
 <a href="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1.stp">&nbsp;ObjectiveHolder-Tail1.stp</a><br/>
@@ -417,13 +417,26 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <tr class="odd">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
-<td align="center">Objective holder ring with handle (part2)</td>
+<td align="center">Handle for objective holder ring (part2)</td>
 <td>
 <a href="images/µOpenSPIM/ObjectiveHolder-tail2/ObjectiveHolder-Tail2.stl">&nbsp;ObjectiveHolder-Tail2.stl</a><br/>
 <a href="images/µOpenSPIM/ObjectiveHolder-tail2/ObjectiveHolder-Tail2.stp">&nbsp;ObjectiveHolder-Tail2.stp</a><br/>
 <a href="images/µOpenSPIM/ObjectiveHolder-tail2/ObjectiveHolder-Tail2.pdf">&nbsp;ObjectiveHolder-Tail2.pdf</a>
 </td>
 <td align="center"><img src="images/µOpenSPIM/ObjectiveHolder-tail2/ObjectiveHolder-Tail2.png" width="150"></td>
+<td align="center">2</td>
+</tr>
+
+<tr class="odd">
+<td align="center">OpenSPIM</td>
+<td align="center" bgcolor="#98FB98">self made</td>
+<td align="center">Infinity space tube</td>
+<td>
+<a href="images/µOpenSPIM/InfinitySpaceTube/OpenSPIM_Infinity-Space.stl">&nbsp;OpenSPIM_Infinity-Space.stl</a><br/>
+<a href="images/µOpenSPIM/InfinitySpaceTube/OpenSPIM_Infinity-Space.stp">&nbsp;OpenSPIM_Infinity-Space.stp</a><br/>
+<a href="images/µOpenSPIM/InfinitySpaceTube/OpenSPIM_Infinity-Space.pdf">&nbsp;OpenSPIM_Infinity-Space.pdf</a>
+</td>
+<td align="center"><img src="images/µOpenSPIM/InfinitySpaceTube/OpenSPIM_Infinity-Space_v2.png" width="150"></td>
 <td align="center">2</td>
 </tr>
 
@@ -443,13 +456,13 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <tr class="odd">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
-<td align="center">Infinity space tube</td>
+<td align="center">Tube lens adapter to fit new Tube Lens (ITL200), f = 200 mm</td>
 <td>
-<a href="images/µOpenSPIM/InfinitySpaceTube/OpenSPIM_Infinity-Space.stl">&nbsp;OpenSPIM_Infinity-Space.stl</a><br/>
-<a href="images/µOpenSPIM/InfinitySpaceTube/OpenSPIM_Infinity-Space.stp">&nbsp;OpenSPIM_Infinity-Space.stp</a><br/>
-<a href="images/µOpenSPIM/InfinitySpaceTube/OpenSPIM_Infinity-Space.pdf">&nbsp;OpenSPIM_Infinity-Space.pdf</a>
+<a href="images/µOpenSPIM/CameraAdapter/TubeLensAdapter.stl">&nbsp;TubeLensAdapter.stl</a><br/>
+<a href="images/µOpenSPIM/CameraAdapter/OpenSPIM_Infinity-Space.stp">&nbsp;OpenSPIM_Infinity-Space.stp</a><br/>
+<a href="images/µOpenSPIM/CameraAdapter/TubeLensAdapter.pdf">&nbsp;OpenSPIM_Infinity-Space.pdf</a>
 </td>
-<td align="center"><img src="images/µOpenSPIM/InfinitySpaceTube/OpenSPIM_Infinity-Space_v2.png" width="150"></td>
+<td align="center"><img src="images/µOpenSPIM/CameraAdapter/TubeLensAdapter_v2.png" width="150"></td>
 <td align="center">2</td>
 </tr>
 
