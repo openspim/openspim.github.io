@@ -456,8 +456,5 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 
 </table>
 
-## Opto-mechanical parts list
-
-</table>
 
 Once you have all the parts continue on to [step by step assembly](Step_by_step_assembly)
