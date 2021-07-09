@@ -66,7 +66,7 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Detection axis holder, base</td>
 <td align="center"> <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts/">Part 9</a></td>
-<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
+<td align="center"><img src="images/µOpenSPIM/PFDE/PART9.png" width="150"></td>
 <td align="center">2</td>
 <td align="center">30 $</td>
 </tr>
@@ -76,7 +76,7 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Detection axis holder, top</td>
 <td align="center"> <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts">Part 10</a></td>
-<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
+<td align="center"><img src="images/µOpenSPIM/PFDE/PART10.png" width="150"></td>
 <td align="center">2</td>
 <td align="center">30 $</td>
 </tr>
@@ -326,11 +326,11 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">4D-Stage sample arm holder</td>
 <td>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STL">&nbsp;Heatsink.stl</a><br/>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;Heatsink.step</a><br/>
-<a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;Heatsink.pdf</a>
+<a href="images/µOpenSPIM/4D-PicardStage/SampleArmHolder/4D-Motor-Arm_28mm.stl">&nbsp;Heatsink.stl</a><br/>
+<a href="images/µOpenSPIM/4D-PicardStage/SampleArmHolder/4D-Motor-Arm_28mm.stp">&nbsp;Heatsink.step</a><br/>
+<a href="images/µOpenSPIM/4D-PicardStage/SampleArmHolder/4D-Motor-Arm_28mm.pdf">&nbsp;Heatsink.pdf</a>
 </td>
-<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
+<td align="center"><img src="images/µOpenSPIM/4D-PicardStage/SampleArmHolder/4D-Motor-Arm_28mm.png" width="150"></td>
 <td align="center">1</td>
 </tr>
 
@@ -339,11 +339,11 @@ Most self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">4D-Stage syringe holder</td>
 <td>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STL">&nbsp;4D-Stage_syringe_holder.stl</a><br/>
-<a href="models/OpenSPIM_Cube-Laser_Heatsink.STEP">&nbsp;4D-Stage_syringe_holder.step</a><br/>
-<a href="documents/OpenSPIM_Cube-Laser_Heatsink.PDF">&nbsp;4D-Stage_syringe_holder.pdf</a>
+<a href="images/µOpenSPIM/4D-PicardStage/SampleArmHolder/SyringeHolder.stl">&nbsp;4D-Stage_syringe_holder.stl</a><br/>
+<a href="images/µOpenSPIM/4D-PicardStage/SampleArmHolder/SyringeHolder.stp">&nbsp;4D-Stage_syringe_holder.step</a><br/>
+<a href="images/µOpenSPIM/4D-PicardStage/SampleArmHolder/SyringeHolder.pdf">&nbsp;4D-Stage_syringe_holder.pdf</a>
 </td>
-<td align="center"><img src="images/jpg-icon.jpg" width="150"></td>
+<td align="center"><img src="images/µOpenSPIM/4D-PicardStage/SampleArmHolder/SyringeHolder.png" width="150"></td>
 <td align="center">1</td>
 </tr>
 
