@@ -7,7 +7,7 @@ description: Table of parts
 
 The described X-OpenSPIM system is equipped with two  <a href="https://andor.oxinst.com/products/scmos-camera-series/neo-5-5-scmos">Andor sCMOS Neo 5.5 cameras</a> which together with the Hamamatsu Flash4 and PCO Edge cameras are known to work with µManager’s <a href="https://micro-manager.org/wiki/Utilities#Multi-Camera">Multi-Camera</a> function.
 
-To have two laser lines available (488 and 561) we chose a multiple wavelength laser system <em><a href=https://www.vortranlaser.com>Stradus VersaLase</a></em>.
+To have two laser lines available (488 and 561) we chose a multiple wavelength laser system <p><a href=https://www.vortranlaser.com>Stradus VersaLase</a></p>.
 
 Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purchased from <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts">Pieter Fourie Design and Engineering</a>.
 
