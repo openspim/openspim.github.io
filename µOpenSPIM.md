@@ -207,6 +207,7 @@ In case of an 3-dimensional stack, the Z stage will have three location values: 
 
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(K)</span> **Console**</br>
-        - The console window can be useful to see what is going on in the background of the plugin and to spot error messages.
+
+- The console window can be useful to see what is going on in the background of the plugin and to spot error messages.
     1.  Clicking *Clear* will delete all written content.
     
