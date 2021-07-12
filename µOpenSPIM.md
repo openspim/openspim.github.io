@@ -193,17 +193,18 @@ In case of an 3-dimensional stack, the Z stage will have three location values: 
     3.  Click *CLEAR* to clear the Acquisition panel from all settings and tables.
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(J)</span> **Stage**</br>
-        - Move the four Stages (X, Y, Z, R) and calibrate the rotational stepper size (R Stage) and the Anti-Drift.
-    1.  Save current position
+Here you can move the four stepper motors of the 4D-stage Stages (X, Y, Z, R), calibrate the rotational stepper size (R Stage), save and load current positions and inverse the axis of the x and y stage, which might be crucial for the Anti-Drift to work correctly.
+    
+1.  Save current position
         - Click this button to save the current position of the stage. It will be added to a list.
-    2.  Load location
+2.  Load location
          - Click this button to Load a previously saved stage position from a list.
-    3.  Indicate angles
+3.  Indicate angles
         - Indicate here the number of angles you wish to acquire during a single time-point. The angles will then be indicated above the rotational stage (Stage R).
-    4.  Calibrate
+4.  Calibrate
         - Click this button to calibrate the R Stage in case the 360 degrees do not correspond to a full revolution of the sample holder.
-    5.  Click *Homing* on one of the four Stages to move the stepper motor back to its home position.
-    6.  Click *Stop* to immediately stop a stepper motor.
+5.  Click *Homing* on one of the four Stages to move the stepper motor back to its home position.
+6.  Click *Stop* to immediately stop a stepper motor.
 
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(K)</span> **Console**</br>
