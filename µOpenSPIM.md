@@ -172,9 +172,9 @@ This table provides a summary of the final imaging session with its current sett
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(I)</span> **Acquisition settings**</br>
 All input settings including Positions, Time points and Channels can be saved here.
-1.  Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">SAVE</span>&nbsp;to save all acquisition settings as an .xml file.
-2.  Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">LOAD</span>&nbsp;to load previously saved acquisition settings.
-3.  Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">CLEAR</span>&nbsp;to clear the Acquisition panel from all settings and tables.
+1.  Click <span style="color:#75FF52; background-color:#F5F5F5; font-weight:bold">SAVE</span>&nbsp;to save all acquisition settings as an .xml file.
+2.  Click <span style="color:#ECEC00; background-color:#F5F5F5; font-weight:bold">LOAD</span>&nbsp;to load previously saved acquisition settings.
+3.  Click <span style="color:#FA8072; background-color:#F5F5F5; font-weight:bold">CLEAR</span>&nbsp;to clear the Acquisition panel from all settings and tables.
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(J)</span> **Stage**</br>
 Here you can move the four stepper motors of the 4D-stage Stages (X, Y, Z, R), calibrate the rotational stepper size (R Stage), save and load current positions and inverse the axis of the x and y stage, which might be crucial for the Anti-Drift to work correctly.
