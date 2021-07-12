@@ -163,8 +163,7 @@ Add one or more "channels". A channel is typically a laser but it can also be an
     - Choose <span style="color:#000000; background-color:#F5F5F5; font-weight:bold">Single Plane TIFF</span>&nbsp;to save every image individually.
     - Select <span style="color:#000000; background-color:#F5F5F5; font-weight:bold">OMETIFF Image stack</span>&nbsp;to save every time-point as an individual stack including all channels.
     - Select <span style="color:#000000; background-color:#F5F5F5; font-weight:bold">N5 format</span>&nbsp;to save your acquired data in the N5 format, which allows images to be available in multiple resolutions and can be written in parallel. More info on N5 can be found [here.](https://github.com/saalfeldlab/n5)
-5.  <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Arduino Controlled:</span>&nbsp;Show/save Maximum intensity Projections of each TP.
-    - We advise to tick this option for long time-lapse recordings. It can be very useful to have a first impression of how well an imaging session goes or went, particularly if large SPIM data is acquired where generating MIPs after imaging is completed can be very time-consuming.
+5.  <span style="color:#000000; background-color:#F5F5F5; font-weight:bold">Show/save Maximum intensity Projections of each TP:</span>&nbsp;We advise to tick this option for long time-lapse recordings. It can be very useful to have a first impression of how well an imaging session goes or went, particularly if large SPIM data is acquired where generating MIPs after imaging is completed can be very time-consuming.
 6.  Here notes can be written down, which will be saved as an additional Note.txt file into the Output directory.
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(H)</span> **Summary**</br>
