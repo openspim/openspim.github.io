@@ -116,7 +116,7 @@ For a more detailed decription follow this link: <strong>[Detailed Acquisition c
 </figcaption>
 </figure>  
 
-### (A) Positions  
+<span style="color:#4169E1; font-weight:bold">(A)</span> _Positions_ 
 This table shows the list of predefined positions, which will be acquired at each time point. There might be multiple positions or just one. A position is location where the four motorized stepper motors (X, Y, Z, and R) will move the sample just before imaging of a given time point takes place.</br>
 In case a 3-dimensional stack is intended to be acquired, the Z stage will have three location values instead of one, namely the start and end position, which sets the total volume of the stack, and the Z step size. The latter specifies the amount of total slices/images per stack.
     1.  Add position
@@ -126,7 +126,7 @@ In case a 3-dimensional stack is intended to be acquired, the Z stage will have 
     3.  Update position
         - Clicking this button will update the selected position according to the current 4D-stage positions (X, Y, Z, R).
 
-  - (B) Define Z-stacks
+  - (B) Define Z-stacks</br>
     This is the place where the beginning and the end of a new stack together with the Z step size is specified using the Z stage.
     1. Z-start
         - Clicking this button will mark the current z stepper motor position as the beginning of a desired z-stack.
@@ -137,7 +137,7 @@ In case a 3-dimensional stack is intended to be acquired, the Z stage will have 
     4. Add stack position.
         - Clicking this button will add a row to the end of the positions table that will include the X, Y, and R positions together with the two z-stack positions (Z-start and Z-end) and the Z step size value.  
 
-  - (C) Time points (TP)
+  - (C) Time points (TP)</br>
     This table includes the information how often the predefined positions should be acquired. A time point can be specified once or many times for long term time lapse recordings.
     1. Add TP
         - Clicking this button will add a row to the end of the time points table where the number of time points and their recurrent intervals can be specified.
