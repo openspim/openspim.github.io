@@ -126,14 +126,10 @@ In case of an 3-dimensional stack, the Z stage will have three location values: 
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(B)</span> **Define Z-stacks**</br>
 This is the place where the beginning and the end of a new stack together with the Z step size is specified using the Z stage.
-1. Z-start
-    - Clicking this button will mark the current z stepper motor position as the beginning of a desired z-stack.
-2. Z-end
-    - Clicking this button will mark the current z stepper motor position as the end of a desired z-stack.
-3. Go to centre
-    - Clicking this button will move the stage Z into the centre of the defined z-stack.
-4. Add stack position.
-    - Clicking this button will add a row to the end of the positions table that will include the X, Y, and R positions together with the two z-stack positions (Z-start and Z-end) and the Z step size value.  
+1. <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Z-start:&nbsp;</span>Clicking this button will mark the current z stepper motor position as the beginning of a desired z-stack.
+2. <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Z-end:&nbsp;</span>Clicking this button will mark the current z stepper motor position as the end of a desired z-stack.
+3. <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Go to centre:&nbsp;</span>Clicking this button will move the stage Z into the centre of the defined z-stack.
+4. <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add stack position:&nbsp;</span>Clicking this button will add a row to the end of the positions table that will include the X, Y, and R positions together with the two z-stack positions (Z-start and Z-end) and the Z step size value.  
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(C)</span> **Time points**</br>
 This table includes the information how often the predefined positions should be acquired. A time point can be specified once or many times for long term time lapse recordings.
