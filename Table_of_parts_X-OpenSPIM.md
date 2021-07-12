@@ -391,7 +391,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <tr class="odd">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
-<td align="center">Objective holder ring</td>
+<td align="center">Modified objective holder ring (part1)</td>
 <td>
 <a href="images/µOpenSPIM/ObjectiveHolder_ring/ObjectiveHolder_Ring.stl">&nbsp;ObjectiveHolder_Ring.stl</a><br/>
 <a href="images/µOpenSPIM/ObjectiveHolder_ring/ObjectiveHolder_Ring.stp">&nbsp;ObjectiveHolder_Ring.stp</a><br/>
@@ -404,27 +404,27 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <tr class="even">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
-<td align="center">Handle for objective holder ring (part1)</td>
+<td align="center">Handle for objective holder ring (part2)</td>
 <td>
 <a href="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1.stl">&nbsp;ObjectiveHolder-Tail1.stl</a><br/>
 <a href="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1.stp">&nbsp;ObjectiveHolder-Tail1.stp</a><br/>
 <a href="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1.pdf">&nbsp;ObjectiveHolder-Tail1.pdf</a>
 </td>
 <td align="center"><img src="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1-pic.png" width="150"></td>
-<td align="center">2</td>
+<td align="center">4</td>
 </tr>
 
 <tr class="odd">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
-<td align="center">Handle for objective holder ring (part2)</td>
+<td align="center">Handle for objective holder ring (part3)</td>
 <td>
 <a href="images/µOpenSPIM/ObjectiveHolder-tail2/ObjectiveHolder-Tail2.stl">&nbsp;ObjectiveHolder-Tail2.stl</a><br/>
 <a href="images/µOpenSPIM/ObjectiveHolder-tail2/ObjectiveHolder-Tail2.stp">&nbsp;ObjectiveHolder-Tail2.stp</a><br/>
 <a href="images/µOpenSPIM/ObjectiveHolder-tail2/ObjectiveHolder-Tail2.pdf">&nbsp;ObjectiveHolder-Tail2.pdf</a>
 </td>
 <td align="center"><img src="images/µOpenSPIM/ObjectiveHolder-tail2/ObjectiveHolder-Tail2.png" width="150"></td>
-<td align="center">2</td>
+<td align="center">4</td>
 </tr>
 
 <tr class="odd">
