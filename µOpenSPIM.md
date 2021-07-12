@@ -121,10 +121,8 @@ This table shows the list of predefined positions, which will be acquired at eac
 In case of an 3-dimensional stack, the Z stage will have three location values: Z start and Z end location values, both defining the total volume of the stack, and the Z step size value, which specifies the total amount of slices/images within this volume.
 
 1.  <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add position:&nbsp;</span>Clicking this button will add a row to the end of the table with only the current position. In case a z-stack is not defined a single slice will be taken at the given location.
-2.  Delete position
-    - Clicking this will remove any currently-highlighted rows from the table. You can click and drag rows or move them up and down with the arrows at the end of the row.
-3.  Update position
-    - Clicking this button will update the selected position according to the current 4D-stage positions (X, Y, Z, R).
+2.  <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Delete position:&nbsp;</span>Clicking this will remove any currently-highlighted rows from the table. You can click and drag rows or move them up and down with the arrows at the end of the row.
+3.  <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Update position:&nbsp;</span>Clicking this button will update the selected position according to the current 4D-stage positions (X, Y, Z, R).
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(B)</span> **Define Z-stacks**</br>
 This is the place where the beginning and the end of a new stack together with the Z step size is specified using the Z stage.
