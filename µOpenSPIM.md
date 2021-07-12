@@ -150,9 +150,9 @@ Here a simple schematic overview is given showing the current list of time point
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(F)</span> **Channels**</br>
 A typical channel is a laser of a given wavelength that is used to illuminate the sample. In case an Arduino UNO is in control of one or several lasers, they all must be wired to one of the digital output pins. Alternatively, laser can also be software controlled via µManager. Furthermore, it is possible that a channel represent a different device other than a laser.
 Add one or more "channels". A channel is typically a laser but it can also be another hardware component of the OpenSPIM. There are two ways of controlling a channel during acquisition: 1) Software controlled (without an ArduinoUNO microcontroller) and 2) Arduino Controlled (with an ArduinoUNO microcontroller). 
-1. <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Software controlled:</span>&nbsp;Click *Add channel* to add a new channel to the table. Click into the drop-down menus to change e.g. the Shutter of a laser. Several channels can be added to the table.
+1. **Software controlled** Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add channel</span>&nbsp;to add a new channel to the table. Click into the drop-down menus to change e.g. the Shutter of a laser. Several channels can be added to the table.
 - Double click on the exposure value of any added channel to change it.
-2. <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Arduino Controlled:</span>&nbsp;Simply select one or several of the available channels that are under the control of the Arduino-Shutter. Channel Names can be changed in the Arduino Uno configuration table.
+2. **Arduino Controlled:** Simply select one or several of the available channels that are under the control of the Arduino-Shutter. Channel Names can be changed in the Arduino Uno configuration table.
 - Double click on the exposure value of any added channel to change it.
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(G)</span> **Saving options**</br>
