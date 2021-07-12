@@ -117,7 +117,7 @@ For a more detailed decription follow this link: <strong>[Detailed Acquisition c
 </figure>  
 
 ### (A) Positions  
-    This table shows the list of predefined positions, which will be acquired at each time point. There might be multiple positions or just one. A position is location where the four motorized stepper motors (X, Y, Z, and R) will move the sample just before imaging of a given time point takes place.<br>
+    This table shows the list of predefined positions, which will be acquired at each time point. There might be multiple positions or just one. A position is location where the four motorized stepper motors (X, Y, Z, and R) will move the sample just before imaging of a given time point takes place.
     In case a 3-dimensional stack is intended to be acquired, the Z stage will have three location values instead of one, namely the start and end position, which sets the total volume of the stack, and the Z step size. The latter specifies the amount of total slices/images per stack.
     1.  Add position
         - Clicking this button will add a row to the end of the table with only the current position. In case a z-stack is not defined a single slice will be taken at the given location.
@@ -127,7 +127,7 @@ For a more detailed decription follow this link: <strong>[Detailed Acquisition c
         - Clicking this button will update the selected position according to the current 4D-stage positions (X, Y, Z, R).
 
   - (B) Define Z-stacks
-    This is where the beginning and the end of a new stack is specified, as well as the Z step size, using the Z stage.
+    This is the place where the beginning and the end of a new stack and the Z step size is specified, using the Z stage.
     1. Z-start
         - Clicking this button will mark the current z stepper motor position as the beginning of a desired z-stack.
     2. Z-end
@@ -138,7 +138,7 @@ For a more detailed decription follow this link: <strong>[Detailed Acquisition c
         - Clicking this button will add a row to the end of the positions table that will include the X, Y, and R positions together with the two z-stack positions (Z-start and Z-end) and the Z step size value.  
 
   - (C) Time points (TP)
-    This table includes the information how often the predefined positions should be acquired. A single time point can be specified or many time points stretching over a long time period.
+    This table includes the information how often the predefined positions should be acquired. A time point can be specified once or many times for long term time lapse recordings.
     1. Add TP
         - Clicking this button will add a row to the end of the time points table where the number of time points and their recurrent intervals can be specified.
     2. Add Pause
@@ -147,9 +147,9 @@ For a more detailed decription follow this link: <strong>[Detailed Acquisition c
         - Clicking this will remove any currently-highlighted rows from the time points table.
 
   - (D) Acquisition
-    After all positions and time points have been set up for imaging, there are several options to consider before starting the acquisition.
+    After all positions and time points have been set up for imaging, there are a few options worth considering before starting the acquisition.
     1. Acquire
-        - Clicking this button will start the predefined imaging session.
+        - Clicking this button will start the currently set up imaging session.
     2. Anti-Drift
         - Click the Anti-drift tab to enable it with the aim to prevent the sample from leaving its initial predefined position. One can choose between Phase Correlation (whereby entire volume of a 3d-stack is taken into account) or Centre of Mass (whereby drifts are only corrected in x, y but not in z). Note that high concentrations of fluorescent beads surrounding the sample may disarrange the Anti-Drift logic.
     3. ROI
@@ -158,10 +158,10 @@ For a more detailed decription follow this link: <strong>[Detailed Acquisition c
         - Different binning options can be selected before acquisition, e.g. 2x2 or 3x3 binning. Higher Binning settings combines the charge of more pixels, which increases the signal to noise ratio (SNR) and results in higher camera frame rates but on the expanse of pixel resolution. 
 
   - (E) Preview of imaging session
-        - This simple schematic provides an visual overview of the specified time points.
+        - At this location a simple schematic is provided to give users a visual overview of the way time points have been currently set up.
 
   - (F) Select Channels/Pins
-    A channel can be a laser of a certain wavelength or a bright-field lamp, which fire up during camera exposure. In case a digital output pin of 
+    A typical channel is a laser of a given wavelength that is used to illuminate the sample. In case an Arduino UNO is in control of one or several lasers, they all must be wired to one of the digital output pins. Alternatively, laser can also be software controlled via µManager. Furthermore, it is possible that a channel represent a different device other than a laser.
         - Add one or more "channels". A channel is typically a laser but it can also be another hardware component of the OpenSPIM. There are two ways of controlling a channel during acquisition: 1) Software controlled (without an ArduinoUNO microcontroller) and 2) Arduino Controlled (with an ArduinoUNO microcontroller). 
     1. Software controlled:
         - Click *Add channel* to add a new channel to the table. Click into the drop-down menus to change e.g. the Shutter of a laser. Several channels can be added to the table.
