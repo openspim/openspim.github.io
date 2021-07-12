@@ -42,8 +42,8 @@
     4. Binning
         - Here different binning options can be selected for the acquisition, e.g. 2x2 or 3x3 binning. Binning combines the charge of pixels, which increases the signal to noise ratio (SNR) and leads to higher camera frame rates but on the expanse of pixel resolution. 
 
-  - (E) Preview of imaging session
-        - This is a simple schematic overview of the current time points table. Nothing can be specified here.
+  - (E) Preview of imaging session</br>
+  This is a simple schematic overview of the current time points table. Nothing can be specified here.
 
   - (F) Select Channels/Pins
         - Add one or more "channels". A channel is typically a laser but it can also be another hardware component of the OpenSPIM. There are two ways of controlling a channel during acquisition: 1) Software controlled (without an ArduinoUNO microcontroller) and 2) Arduino Controlled (with an ArduinoUNO microcontroller). 

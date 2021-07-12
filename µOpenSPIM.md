@@ -119,7 +119,8 @@ For a more detailed decription follow this link: <strong>[Detailed Acquisition c
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(A)</span> **Positions**</br>
 This table shows the list of predefined positions, which will be acquired at each time point. There might be multiple positions or just one. A position is defined by the location where the four motorized stepper motors (X, Y, Z, and R) will move before acquiring an image or stack at a given time point.</br>
 In case of an 3-dimensional stack, the Z stage will have three location values: Z start and Z end location values, both defining the total volume of the stack, and the Z step size value, which specifies the total amount of slices/images within this volume.
-1.  <span style="color:#FF00FF; background-color:#87CEFA; font-weight:bold">Add position:</span>Clicking this button will add a row to the end of the table with only the current position. In case a z-stack is not defined a single slice will be taken at the given location.
+
+1.  <span style="color:#87CEFA; font-weight:bold">Add position:</span>Clicking this button will add a row to the end of the table with only the current position. In case a z-stack is not defined a single slice will be taken at the given location.
 2.  Delete position
     - Clicking this will remove any currently-highlighted rows from the table. You can click and drag rows or move them up and down with the arrows at the end of the row.
 3.  Update position
@@ -157,7 +158,7 @@ After all positions and time points have been set up for imaging, there are a fe
     - Different binning options can be selected before acquisition, e.g. 2x2 or 3x3 binning. Higher Binning settings combines the charge of more pixels, which increases the signal to noise ratio (SNR) and results in higher camera frame rates but on the expanse of pixel resolution. 
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(E)</span> **Preview of imaging session**</br>
-        - At this location a simple schematic is provided to give users a visual overview of the way time points have been currently set up.
+Here a simple schematic overview is given showing the current list of time points that have been set up.
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(F)</span> **Channels**</br>
 A typical channel is a laser of a given wavelength that is used to illuminate the sample. In case an Arduino UNO is in control of one or several lasers, they all must be wired to one of the digital output pins. Alternatively, laser can also be software controlled via µManager. Furthermore, it is possible that a channel represent a different device other than a laser.
