@@ -119,78 +119,77 @@ For a more detailed decription follow this link: <strong>[Detailed Acquisition c
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(A)</span> **Positions**</br>
 This table shows the list of predefined positions, which will be acquired at each time point. There might be multiple positions or just one. A position is defined by the location where the four motorized stepper motors (X, Y, Z, and R) will move before acquiring an image or stack at a given time point.</br>
 In case of an 3-dimensional stack, the Z stage will have three location values: Z start and Z end location values, both defining the total volume of the stack, and the Z step size value, which specifies the total amount of slices/images within this volume.
-    1.  Add position
-        - Clicking this button will add a row to the end of the table with only the current position. In case a z-stack is not defined a single slice will be taken at the given location.
-    2.  Delete position
-        - Clicking this will remove any currently-highlighted rows from the table. You can click and drag rows or move them up and down with the arrows at the end of the row.
-    3.  Update position
-        - Clicking this button will update the selected position according to the current 4D-stage positions (X, Y, Z, R).
+1.  Add position
+    - Clicking this button will add a row to the end of the table with only the current position. In case a z-stack is not defined a single slice will be taken at the given location.
+2.  Delete position
+    - Clicking this will remove any currently-highlighted rows from the table. You can click and drag rows or move them up and down with the arrows at the end of the row.
+3.  Update position
+    - Clicking this button will update the selected position according to the current 4D-stage positions (X, Y, Z, R).
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(B)</span> **Define Z-stacks**</br>
-    This is the place where the beginning and the end of a new stack together with the Z step size is specified using the Z stage.
-    1. Z-start
-        - Clicking this button will mark the current z stepper motor position as the beginning of a desired z-stack.
-    2. Z-end
-        - Clicking this button will mark the current z stepper motor position as the end of a desired z-stack.
-    3. Go to centre
-        - Clicking this button will move the stage Z into the centre of the defined z-stack.
-    4. Add stack position.
-        - Clicking this button will add a row to the end of the positions table that will include the X, Y, and R positions together with the two z-stack positions (Z-start and Z-end) and the Z step size value.  
+This is the place where the beginning and the end of a new stack together with the Z step size is specified using the Z stage.
+1. Z-start
+    - Clicking this button will mark the current z stepper motor position as the beginning of a desired z-stack.
+2. Z-end
+    - Clicking this button will mark the current z stepper motor position as the end of a desired z-stack.
+3. Go to centre
+    - Clicking this button will move the stage Z into the centre of the defined z-stack.
+4. Add stack position.
+    - Clicking this button will add a row to the end of the positions table that will include the X, Y, and R positions together with the two z-stack positions (Z-start and Z-end) and the Z step size value.  
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(C)</span> **Time points**</br>
-    This table includes the information how often the predefined positions should be acquired. A time point can be specified once or many times for long term time lapse recordings.
-    1. Add TP
-        - Clicking this button will add a row to the end of the time points table where the number of time points and their recurrent intervals can be specified.
-    2. Add Pause
-        - Clicking this button will add an acquisition break to the end of the time points table. 
-    3. Delete TP
-        - Clicking this will remove any currently-highlighted rows from the time points table.
+This table includes the information how often the predefined positions should be acquired. A time point can be specified once or many times for long term time lapse recordings.
+1. Add TP
+    - Clicking this button will add a row to the end of the time points table where the number of time points and their recurrent intervals can be specified.
+2. Add Pause
+    - Clicking this button will add an acquisition break to the end of the time points table. 
+3. Delete TP
+    - Clicking this will remove any currently-highlighted rows from the time points table.
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(D)</span> **Acquisition**</br>
-    After all positions and time points have been set up for imaging, there are a few options worth considering before starting the acquisition.
-    1. Acquire
-        - Clicking this button will start the currently set up imaging session.
-    2. Anti-Drift
-        - Click the Anti-drift tab to enable it with the aim to prevent the sample from leaving its initial predefined position. One can choose between Phase Correlation (whereby entire volume of a 3d-stack is taken into account) or Centre of Mass (whereby drifts are only corrected in x, y but not in z). Note that high concentrations of fluorescent beads surrounding the sample may disarrange the Anti-Drift logic.
-    3. ROI
-        - Within this tab a region of interest (ROI) can be specified and applied to the field of view of the camera. The region is specified in the preview window of µManager. Select the Rectangle tool and create a selection inside the preview window. The window will open up by clicking *Live view*. When the ROI is specified, click the *Apply* button.
-    4. Binning
-        - Different binning options can be selected before acquisition, e.g. 2x2 or 3x3 binning. Higher Binning settings combines the charge of more pixels, which increases the signal to noise ratio (SNR) and results in higher camera frame rates but on the expanse of pixel resolution. 
+After all positions and time points have been set up for imaging, there are a few options worth considering before starting the acquisition.
+1. Acquire
+    - Clicking this button will start the currently set up imaging session.
+2. Anti-Drift
+    - Click the Anti-drift tab to enable it with the aim to prevent the sample from leaving its initial predefined position. One can choose between Phase Correlation (whereby entire volume of a 3d-stack is taken into account) or Centre of Mass (whereby drifts are only corrected in x, y but not in z). Note that high concentrations of fluorescent beads surrounding the sample may disarrange the Anti-Drift logic.
+3. ROI
+    - Within this tab a region of interest (ROI) can be specified and applied to the field of view of the camera. The region is specified in the preview window of µManager. Select the Rectangle tool and create a selection inside the preview window. The window will open up by clicking *Live view*. When the ROI is specified, click the *Apply* button.
+4. Binning
+    - Different binning options can be selected before acquisition, e.g. 2x2 or 3x3 binning. Higher Binning settings combines the charge of more pixels, which increases the signal to noise ratio (SNR) and results in higher camera frame rates but on the expanse of pixel resolution. 
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(E)</span> **Preview of imaging session**</br>
         - At this location a simple schematic is provided to give users a visual overview of the way time points have been currently set up.
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(F)</span> **Channels**</br>
-    A typical channel is a laser of a given wavelength that is used to illuminate the sample. In case an Arduino UNO is in control of one or several lasers, they all must be wired to one of the digital output pins. Alternatively, laser can also be software controlled via µManager. Furthermore, it is possible that a channel represent a different device other than a laser.
-        - Add one or more "channels". A channel is typically a laser but it can also be another hardware component of the OpenSPIM. There are two ways of controlling a channel during acquisition: 1) Software controlled (without an ArduinoUNO microcontroller) and 2) Arduino Controlled (with an ArduinoUNO microcontroller). 
-    1. Software controlled:
-        - Click *Add channel* to add a new channel to the table. Click into the drop-down menus to change e.g. the Shutter of a laser. Several channels can be added to the table.
-        - Double click onto the existing Exposure number to change the exposure time of a given channel.
-    2. Arduino Controlled:
-        -  Simply select one or several of the available channels that are under the control of the Arduino-Shutter. Channel Names can be changed in the Arduino Uno configuration table.
+A typical channel is a laser of a given wavelength that is used to illuminate the sample. In case an Arduino UNO is in control of one or several lasers, they all must be wired to one of the digital output pins. Alternatively, laser can also be software controlled via µManager. Furthermore, it is possible that a channel represent a different device other than a laser.
+Add one or more "channels". A channel is typically a laser but it can also be another hardware component of the OpenSPIM. There are two ways of controlling a channel during acquisition: 1) Software controlled (without an ArduinoUNO microcontroller) and 2) Arduino Controlled (with an ArduinoUNO microcontroller). 
+1. Software controlled:
+    - Click *Add channel* to add a new channel to the table. Click into the drop-down menus to change e.g. the Shutter of a laser. Several channels can be added to the table.
+    - Double click onto the existing Exposure number to change the exposure time of a given channel.
+2. Arduino Controlled:
+    -  Simply select one or several of the available channels that are under the control of the Arduino-Shutter. Channel Names can be changed in the Arduino Uno configuration table.
   
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(G)</span> **Saving options**</br>
-    1.  Save images 
-        - If ticked acquired images will be saved to the hard disk. 
-    2.  Clicking this button will allow you to specify an Output directory.
-    3.  Clicking this button will open the specified Output folder.
-    4.  Saving format:
-        - Choose *Single Plane TIFF* to save every image individually.
-        - Select *OMETIFF Image stack* to save every time-point as an individual stack including all channels.
-        - Select *N5 format* to save your acquired data in the N5 format, which allows images to be available in multiple resolutions and can be written in parallel. More info on N5 can be found here: https://github.com/saalfeldlab/n5.
-    5.  Show/save Maximum intensity Projections of each TP.
-        - We advise to tick this option for long time-lapse recordings. It can be very useful to have a first impression of how well an imaging session goes or went, particularly if large SPIM data is acquired where generating MIPs after imaging is completed can be very time-consuming.
-    6.  Here notes can be written down, which will be saved as an additional Note.txt file into the Output directory.
+1.  Save images 
+    - If ticked acquired images will be saved to the hard disk. 
+2.  Clicking this button will allow you to specify an Output directory.
+3.  Clicking this button will open the specified Output folder.
+4.  Saving format:
+    - Choose *Single Plane TIFF* to save every image individually.
+    - Select *OMETIFF Image stack* to save every time-point as an individual stack including all channels.
+    - Select *N5 format* to save your acquired data in the N5 format, which allows images to be available in multiple resolutions and can be written in parallel. More info on N5 can be found here: https://github.com/saalfeldlab/n5.
+5.  Show/save Maximum intensity Projections of each TP.
+    - We advise to tick this option for long time-lapse recordings. It can be very useful to have a first impression of how well an imaging session goes or went, particularly if large SPIM data is acquired where generating MIPs after imaging is completed can be very time-consuming.
+6.  Here notes can be written down, which will be saved as an additional Note.txt file into the Output directory.
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(H)</span> **Summary**</br>
-  - (H) Summary
-    This table provides a summary of the final imaging session with its current settings.
+This table provides a summary of the final imaging session with its current settings.
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(I)</span> **Acquisition settings**</br>
-        - All input settings including Positions, Time points and Channels can be saved here.
-    1.  Click *SAVE* to save all acquisition settings as an .xml file.
-    2.  Click *LOAD* to load previously saved acquisition settings.
-    3.  Click *CLEAR* to clear the Acquisition panel from all settings and tables.
+All input settings including Positions, Time points and Channels can be saved here.
+1.  Click *SAVE* to save all acquisition settings as an .xml file.
+2.  Click *LOAD* to load previously saved acquisition settings.
+3.  Click *CLEAR* to clear the Acquisition panel from all settings and tables.
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(J)</span> **Stage**</br>
 Here you can move the four stepper motors of the 4D-stage Stages (X, Y, Z, R), calibrate the rotational stepper size (R Stage), save and load current positions and inverse the axis of the x and y stage, which might be crucial for the Anti-Drift to work correctly.
