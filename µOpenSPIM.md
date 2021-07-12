@@ -156,15 +156,15 @@ Add one or more "channels". A channel is typically a laser but it can also be an
 - Double click on the exposure value of any added channel to change it.
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(G)</span> **Saving options**</br>
-1.  Save images 
+1.  <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Save images:</span>&nbsp; 
     - If ticked acquired images will be saved to the hard disk. 
 2.  Clicking this button will allow you to specify an Output directory.
 3.  Clicking this button will open the specified Output folder.
-4.  Saving format:
+4.  <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Saving format:</span>&nbsp;
     - Choose *Single Plane TIFF* to save every image individually.
     - Select *OMETIFF Image stack* to save every time-point as an individual stack including all channels.
-    - Select *N5 format* to save your acquired data in the N5 format, which allows images to be available in multiple resolutions and can be written in parallel. More info on N5 can be found here: https://github.com/saalfeldlab/n5.
-5.  Show/save Maximum intensity Projections of each TP.
+    - Select *N5 format* to save your acquired data in the N5 format, which allows images to be available in multiple resolutions and can be written in parallel. More info on N5 can be found [here](https://github.com/saalfeldlab/n5.)
+5.  <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Arduino Controlled:</span>&nbsp;Show/save Maximum intensity Projections of each TP.
     - We advise to tick this option for long time-lapse recordings. It can be very useful to have a first impression of how well an imaging session goes or went, particularly if large SPIM data is acquired where generating MIPs after imaging is completed can be very time-consuming.
 6.  Here notes can be written down, which will be saved as an additional Note.txt file into the Output directory.
 
@@ -173,26 +173,23 @@ This table provides a summary of the final imaging session with its current sett
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(I)</span> **Acquisition settings**</br>
 All input settings including Positions, Time points and Channels can be saved here.
-1.  Click *SAVE* to save all acquisition settings as an .xml file.
-2.  Click *LOAD* to load previously saved acquisition settings.
-3.  Click *CLEAR* to clear the Acquisition panel from all settings and tables.
+1.  Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">SAVE</span>&nbsp;to save all acquisition settings as an .xml file.
+2.  Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">LOAD</span>&nbsp;to load previously saved acquisition settings.
+3.  Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">CLEAR</span>&nbsp;to clear the Acquisition panel from all settings and tables.
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(J)</span> **Stage**</br>
 Here you can move the four stepper motors of the 4D-stage Stages (X, Y, Z, R), calibrate the rotational stepper size (R Stage), save and load current positions and inverse the axis of the x and y stage, which might be crucial for the Anti-Drift to work correctly.
     
-1.  Save current position
-        - Click this button to save the current position of the stage. It will be added to a list.
-2.  Load location
-         - Click this button to Load a previously saved stage position from a list.
-3.  Indicate angles
-        - Indicate here the number of angles you wish to acquire during a single time-point. The angles will then be indicated above the rotational stage (Stage R).
-4.  Calibrate
+1.  <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Save current position:</span>&nbsp;Click this button to save the current position of the stage. It will be added to a list.
+2.  <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Load location:</span>&nbsp;Click this button to Load a previously saved stage position from a list.
+3.  <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Indicate angles:</span>&nbsp;Indicate here the number of angles you wish to acquire during a single time-point. The angles will then be indicated above the rotational stage (Stage R).
+4.  <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Save images:</span>&nbsp;Calibrate
         - Click this button to calibrate the R Stage in case the 360 degrees do not correspond to a full revolution of the sample holder.
-5.  Click *Homing* on one of the four Stages to move the stepper motor back to its home position.
-6.  Click *Stop* to immediately stop a stepper motor.
+5.  Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Homing</span>&nbsp; on one of the four Stages to move the stepper motor back to its home position.
+6.  Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Stop</span>&nbsp; to immediately stop a stepper motor.
 
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(K)</span> **Console**</br>
 The console window can be useful to see what is going on in the background of the plugin and to spot error messages.
-1.  Clicking *Clear* will delete all written content.
+1.  Clicking <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Clear</span>&nbsp; will delete all written content.
     
