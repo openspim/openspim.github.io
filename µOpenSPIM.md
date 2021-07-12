@@ -118,6 +118,7 @@ For a more detailed decription follow this link: <strong>[Detailed Acquisition c
 
 ### (A) Positions  
     This table shows the list of predefined positions, which will be acquired at each time point. There might be multiple positions or just one. A position is location where the four motorized stepper motors (X, Y, Z, and R) will move the sample just before imaging of a given time point takes place.
+    
     In case a 3-dimensional stack is intended to be acquired, the Z stage will have three location values instead of one, namely the start and end position, which sets the total volume of the stack, and the Z step size. The latter specifies the amount of total slices/images per stack.
     1.  Add position
         - Clicking this button will add a row to the end of the table with only the current position. In case a z-stack is not defined a single slice will be taken at the given location.
@@ -127,7 +128,7 @@ For a more detailed decription follow this link: <strong>[Detailed Acquisition c
         - Clicking this button will update the selected position according to the current 4D-stage positions (X, Y, Z, R).
 
   - (B) Define Z-stacks
-    This is the place where the beginning and the end of a new stack and the Z step size is specified, using the Z stage.
+    This is the place where the beginning and the end of a new stack together with the Z step size is specified using the Z stage.
     1. Z-start
         - Clicking this button will mark the current z stepper motor position as the beginning of a desired z-stack.
     2. Z-end
