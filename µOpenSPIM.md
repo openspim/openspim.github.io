@@ -152,7 +152,7 @@ A typical channel is a laser of a given wavelength that is used to illuminate th
 Add one or more "channels". A channel is typically a laser but it can also be another hardware component of the OpenSPIM. There are two ways of controlling a channel during acquisition: 1) Software controlled (without an ArduinoUNO microcontroller) and 2) Arduino Controlled (with an ArduinoUNO microcontroller). 
 1. **Software controlled** Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add channel</span>&nbsp;to add a new channel to the table. Click into the drop-down menus to change e.g. the Shutter of a laser. Several channels can be added to the table.
 - Double click on the exposure value of any added channel to change it.
-2. **Arduino Controlled:** Simply select one or several of the available channels that are under the control of the Arduino-Shutter. Channel Names can be changed in the Arduino Uno configuration table.
+2. **Arduino Controlled:** Simply select one or several of the available channels (**Pin8** to **Pin13**) that are under the control of the Arduino-Shutter. Channel Names can be changed in the Arduino Uno configuration table.
 - Double click on the exposure value of any added channel to change it.
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(G)</span> **Saving options**</br>
