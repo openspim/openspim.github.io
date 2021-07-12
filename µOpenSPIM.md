@@ -133,23 +133,16 @@ This is the place where the beginning and the end of a new stack together with t
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(C)</span> **Time points**</br>
 This table includes the information how often the predefined positions should be acquired. A time point can be specified once or many times for long term time lapse recordings.
-1. Add TP
-    - Clicking this button will add a row to the end of the time points table where the number of time points and their recurrent intervals can be specified.
-2. Add Pause
-    - Clicking this button will add an acquisition break to the end of the time points table. 
-3. Delete TP
-    - Clicking this will remove any currently-highlighted rows from the time points table.
+1. <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add TP:</span>&nbsp;Clicking this button will add a row to the end of the time points table where the number of time points and their recurrent intervals can be specified.
+2. <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add Pause:</span>&nbsp;Clicking this button will add an acquisition break to the end of the time points table. 
+3. <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Delete TP:</span>&nbsp;Clicking this will remove any currently-highlighted rows from the time points table.
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(D)</span> **Acquisition**</br>
 After all positions and time points have been set up for imaging, there are a few options worth considering before starting the acquisition.
-1. Acquire
-    - Clicking this button will start the currently set up imaging session.
-2. Anti-Drift
-    - Click the Anti-drift tab to enable it with the aim to prevent the sample from leaving its initial predefined position. One can choose between Phase Correlation (whereby entire volume of a 3d-stack is taken into account) or Centre of Mass (whereby drifts are only corrected in x, y but not in z). Note that high concentrations of fluorescent beads surrounding the sample may disarrange the Anti-Drift logic.
-3. ROI
-    - Within this tab a region of interest (ROI) can be specified and applied to the field of view of the camera. The region is specified in the preview window of µManager. Select the Rectangle tool and create a selection inside the preview window. The window will open up by clicking *Live view*. When the ROI is specified, click the *Apply* button.
-4. Binning
-    - Different binning options can be selected before acquisition, e.g. 2x2 or 3x3 binning. Higher Binning settings combines the charge of more pixels, which increases the signal to noise ratio (SNR) and results in higher camera frame rates but on the expanse of pixel resolution. 
+1. <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Acquire:</span>&nbsp;Clicking this button will start the currently set up imaging session.
+2. <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Anti-Drift:</span>&nbsp;Click the Anti-drift tab to enable it with the aim to prevent the sample from leaving its initial predefined position. One can choose between Phase Correlation (whereby entire volume of a 3d-stack is taken into account) or Centre of Mass (whereby drifts are only corrected in x, y but not in z). Note that high concentrations of fluorescent beads surrounding the sample may disarrange the Anti-Drift logic.
+3. <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">ROI:</span>&nbsp;Within this tab a region of interest (ROI) can be specified and applied to the field of view of the camera. The region is specified in the preview window of µManager. Select the Rectangle tool and create a selection inside the preview window. The window will open up by clicking *Live view*. When the ROI is specified, click the *Apply* button.
+4. <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Binning:</span>&nbsp;Different binning options can be selected before acquisition, e.g. 2x2 or 3x3 binning. Higher Binning settings combines the charge of more pixels, which increases the signal to noise ratio (SNR) and results in higher camera frame rates but on the expanse of pixel resolution. 
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(E)</span> **Preview of imaging session**</br>
 Here a simple schematic overview is given showing the current list of time points that have been set up.
@@ -157,12 +150,11 @@ Here a simple schematic overview is given showing the current list of time point
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(F)</span> **Channels**</br>
 A typical channel is a laser of a given wavelength that is used to illuminate the sample. In case an Arduino UNO is in control of one or several lasers, they all must be wired to one of the digital output pins. Alternatively, laser can also be software controlled via µManager. Furthermore, it is possible that a channel represent a different device other than a laser.
 Add one or more "channels". A channel is typically a laser but it can also be another hardware component of the OpenSPIM. There are two ways of controlling a channel during acquisition: 1) Software controlled (without an ArduinoUNO microcontroller) and 2) Arduino Controlled (with an ArduinoUNO microcontroller). 
-1. Software controlled:
-    - Click *Add channel* to add a new channel to the table. Click into the drop-down menus to change e.g. the Shutter of a laser. Several channels can be added to the table.
-    - Double click onto the existing Exposure number to change the exposure time of a given channel.
-2. Arduino Controlled:
-    -  Simply select one or several of the available channels that are under the control of the Arduino-Shutter. Channel Names can be changed in the Arduino Uno configuration table.
-  
+1. <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Software controlled:</span>&nbsp;Click *Add channel* to add a new channel to the table. Click into the drop-down menus to change e.g. the Shutter of a laser. Several channels can be added to the table.
+- Double click on the exposure value of any added channel to change it.
+2. <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Arduino Controlled:</span>&nbsp;Simply select one or several of the available channels that are under the control of the Arduino-Shutter. Channel Names can be changed in the Arduino Uno configuration table.
+- Double click on the exposure value of any added channel to change it.
+
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(G)</span> **Saving options**</br>
 1.  Save images 
     - If ticked acquired images will be saved to the hard disk. 
