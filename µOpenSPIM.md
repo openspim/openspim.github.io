@@ -156,14 +156,13 @@ Add one or more "channels". A channel is typically a laser but it can also be an
 - Double click on the exposure value of any added channel to change it.
 
 <span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(G)</span> **Saving options**</br>
-1.  <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Save images:</span>&nbsp; 
-    - If ticked acquired images will be saved to the hard disk. 
+1.  <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Save images:</span>&nbsp;If ticked acquired images will be saved to the hard disk. 
 2.  Clicking this button will allow you to specify an Output directory.
 3.  Clicking this button will open the specified Output folder.
 4.  <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Saving format:</span>&nbsp;
-    - Choose *Single Plane TIFF* to save every image individually.
-    - Select *OMETIFF Image stack* to save every time-point as an individual stack including all channels.
-    - Select *N5 format* to save your acquired data in the N5 format, which allows images to be available in multiple resolutions and can be written in parallel. More info on N5 can be found [here](https://github.com/saalfeldlab/n5.)
+    - Choose <span style="color:#000000; background-color:#F5F5F5; font-weight:bold">Single Plane TIFF</span>&nbsp;to save every image individually.
+    - Select <span style="color:#000000; background-color:#F5F5F5; font-weight:bold">OMETIFF Image stack</span>&nbsp;to save every time-point as an individual stack including all channels.
+    - Select <span style="color:#000000; background-color:#F5F5F5; font-weight:bold">N5 format</span>&nbsp;to save your acquired data in the N5 format, which allows images to be available in multiple resolutions and can be written in parallel. More info on N5 can be found [here](https://github.com/saalfeldlab/n5.)
 5.  <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Arduino Controlled:</span>&nbsp;Show/save Maximum intensity Projections of each TP.
     - We advise to tick this option for long time-lapse recordings. It can be very useful to have a first impression of how well an imaging session goes or went, particularly if large SPIM data is acquired where generating MIPs after imaging is completed can be very time-consuming.
 6.  Here notes can be written down, which will be saved as an additional Note.txt file into the Output directory.
