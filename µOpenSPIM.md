@@ -126,7 +126,7 @@ In case of an 3-dimensional stack, the Z stage will have three location values: 
     3.  Update position
         - Clicking this button will update the selected position according to the current 4D-stage positions (X, Y, Z, R).
 
-  - (B) Define Z-stacks</br>
+<span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(B)</span> **Define Z-stacks**</br>
     This is the place where the beginning and the end of a new stack together with the Z step size is specified using the Z stage.
     1. Z-start
         - Clicking this button will mark the current z stepper motor position as the beginning of a desired z-stack.
@@ -137,7 +137,7 @@ In case of an 3-dimensional stack, the Z stage will have three location values: 
     4. Add stack position.
         - Clicking this button will add a row to the end of the positions table that will include the X, Y, and R positions together with the two z-stack positions (Z-start and Z-end) and the Z step size value.  
 
-  - (C) Time points (TP)</br>
+<span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(C)</span> **Time points**</br>
     This table includes the information how often the predefined positions should be acquired. A time point can be specified once or many times for long term time lapse recordings.
     1. Add TP
         - Clicking this button will add a row to the end of the time points table where the number of time points and their recurrent intervals can be specified.
@@ -146,7 +146,7 @@ In case of an 3-dimensional stack, the Z stage will have three location values: 
     3. Delete TP
         - Clicking this will remove any currently-highlighted rows from the time points table.
 
-  - (D) Acquisition
+<span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(D)</span> **Acquisition**</br>
     After all positions and time points have been set up for imaging, there are a few options worth considering before starting the acquisition.
     1. Acquire
         - Clicking this button will start the currently set up imaging session.
@@ -157,10 +157,10 @@ In case of an 3-dimensional stack, the Z stage will have three location values: 
     4. Binning
         - Different binning options can be selected before acquisition, e.g. 2x2 or 3x3 binning. Higher Binning settings combines the charge of more pixels, which increases the signal to noise ratio (SNR) and results in higher camera frame rates but on the expanse of pixel resolution. 
 
-  - (E) Preview of imaging session
+<span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(E)</span> **Preview of imaging session**</br>
         - At this location a simple schematic is provided to give users a visual overview of the way time points have been currently set up.
 
-  - (F) Select Channels/Pins
+<span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(F)</span> **Channels**</br>
     A typical channel is a laser of a given wavelength that is used to illuminate the sample. In case an Arduino UNO is in control of one or several lasers, they all must be wired to one of the digital output pins. Alternatively, laser can also be software controlled via µManager. Furthermore, it is possible that a channel represent a different device other than a laser.
         - Add one or more "channels". A channel is typically a laser but it can also be another hardware component of the OpenSPIM. There are two ways of controlling a channel during acquisition: 1) Software controlled (without an ArduinoUNO microcontroller) and 2) Arduino Controlled (with an ArduinoUNO microcontroller). 
     1. Software controlled:
@@ -169,7 +169,7 @@ In case of an 3-dimensional stack, the Z stage will have three location values: 
     2. Arduino Controlled:
         -  Simply select one or several of the available channels that are under the control of the Arduino-Shutter. Channel Names can be changed in the Arduino Uno configuration table.
   
-  - (G) Saving options
+<span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(G)</span> **Saving options**</br>
     1.  Save images 
         - If ticked acquired images will be saved to the hard disk. 
     2.  Clicking this button will allow you to specify an Output directory.
@@ -182,16 +182,17 @@ In case of an 3-dimensional stack, the Z stage will have three location values: 
         - We advise to tick this option for long time-lapse recordings. It can be very useful to have a first impression of how well an imaging session goes or went, particularly if large SPIM data is acquired where generating MIPs after imaging is completed can be very time-consuming.
     6.  Here notes can be written down, which will be saved as an additional Note.txt file into the Output directory.
 
+<span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(H)</span> **Summary**</br>
   - (H) Summary
     This table provides a summary of the final imaging session with its current settings.
 
-  - (I) Acquisition Settings
-        - All settings including Positions, Time points and Channel/Pins tables can be saved here.
+<span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(I)</span> **Acquisition settings**</br>
+        - All input settings including Positions, Time points and Channels can be saved here.
     1.  Click *SAVE* to save all acquisition settings as an .xml file.
     2.  Click *LOAD* to load previously saved acquisition settings.
     3.  Click *CLEAR* to clear the Acquisition panel from all settings and tables.
 
-  - (J) Stage
+<span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(J)</span> **Stage**</br>
         - Move the four Stages (X, Y, Z, R) and calibrate the rotational stepper size (R Stage) and the Anti-Drift.
     1.  Save current position
         - Click this button to save the current position of the stage. It will be added to a list.
@@ -204,7 +205,8 @@ In case of an 3-dimensional stack, the Z stage will have three location values: 
     5.  Click *Homing* on one of the four Stages to move the stepper motor back to its home position.
     6.  Click *Stop* to immediately stop a stepper motor.
 
-  - (K) Console
+
+<span style="color:#FF00FF; background-color:#F5F5F5; font-weight:bold">(K)</span> **Console**</br>
         - The console window can be useful to see what is going on in the background of the plugin and to spot error messages.
     1.  Clicking *Clear* will delete all written content.
     
