@@ -340,7 +340,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <tr class="odd">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
-<td align="center">Acrylic sample chamber</td>
+<td align="center">Acrylic acquisition chamber</td>
 <td>
 <a href="images/µOpenSPIM/SampleChamber/SampleChamber.stl">&nbsp;SampleChamber.stl</a><br/>
 <a href="images/µOpenSPIM/SampleChamber/SampleChamber.stp">&nbsp;SampleChamber.stp</a><br/>
@@ -365,7 +365,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <tr class="odd">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
-<td align="center">Metal holder for acrylic sample chamber</td>
+<td align="center">Metal holder for acrylic acquisition chamber</td>
 <td>
 <a href="images/µOpenSPIM/SampleChamberHolder/SampleChamberHolder.stl">&nbsp;SampleChamberHolder.stl</a><br/>
 <a href="images/µOpenSPIM/SampleChamberHolder/SampleChamberHolder.stp">&nbsp;SampleChamberHolder.stp</a><br/>
@@ -378,7 +378,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <tr class="even">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
-<td align="center">Metal holder bottom for acrylic sample chamber</td>
+<td align="center">Metal holder bottom for acrylic acquisition chamber</td>
 <td>
 <a href="images/µOpenSPIM/SampleChamberHolderBottom/SampleChamberHolderBottom.stl">&nbsp;SampleChamberHolderBottom.stl</a><br/>
 <a href="images/µOpenSPIM/SampleChamberHolderBottom/SampleChamberHolderBottom.stp">&nbsp;SampleChamberHolderBottom.stp</a><br/>
@@ -404,7 +404,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <tr class="even">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
-<td align="center">Handle for objective holder ring (part2)</td>
+<td align="center">Modified objective holder ring (part2)</br>tail part one, which can be fixed to the acquisition chamber holder </td>
 <td>
 <a href="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1.stl">&nbsp;ObjectiveHolder-Tail1.stl</a><br/>
 <a href="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1.stp">&nbsp;ObjectiveHolder-Tail1.stp</a><br/>
