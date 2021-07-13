@@ -1,7 +1,7 @@
 ## Acquisition Controls
 <figure>
   <img src="https://openspim.org/images/%C2%B5OpenSPIM_Acquisition.jpg" width="1024">
-<figcaption>Acquisition Controls of the µOpenSPIM GUI (A-I) with the Picard 4D-stage controls on the top right (J) and the Console window on the bottom right  (K). For a higher resolution image click <a href=\images/%C2%B5OpenSPIM_Acquisition.jpg>here.</a>
+<figcaption>Acquisition Controls of the µOpenSPIM GUI (A-I) with the Picard 4D-stage controls on the top right (J) and the Console window on the bottom right  (K). For a higher resolution image click <a href=\images/%C2%B5OpenSPIM_Acquisition.jpg>here</a>.
 
 </figcaption>
 </figure>  

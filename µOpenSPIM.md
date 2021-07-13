@@ -14,7 +14,7 @@
 ## Installation and start-up of the µOpenSPIM
 -   Right now µOpenSPIM is in its beta stage and works with µManager gamma1 20210504 for Windows (nightly build 04 May 2021).
 1.  Please download and install the [64-bit](https://valelab4.ucsf.edu/~MM/nightlyBuilds/2.0.0-gamma/Windows/MMSetup_64bit_2.0.0-gamma1_20210504.exe) or [32-bit](https://valelab4.ucsf.edu/~MM/nightlyBuilds/2.0.0-gamma/Windows/MMSetup_32bit_2.0.0-gamma1_20210504.exe)build of [µManager](https://micro-manager.org/) and follow its *Hardware Configuration Wizard* to create a functional configuration file (.cfg) that allows µManager to control the OpenSPIM hardware. On the first time startup of µOpenSPIM users will be asked to select the file location of µManager.
-2.  <strong>[Download](https://openspim.org/%C2%B5OpenSPIM)</strong>and unzip the µOpenSPIM folder into any directory and start the application using the *µOpenSPIM.exe* file.
+2.  <strong>[Download](https://openspim.org/%C2%B5OpenSPIM)</strong> and unzip the µOpenSPIM folder into any directory and start the application using the *µOpenSPIM.exe* file.
 3.  CLick the *START* button (top left). In the new window multiple µManager configuration files can be added, removed and selected. Click *Add .cfg file* to add and then select your working µManager configuration file ending with .cfg. Then click the *Start* button. After loading the hardware µManager should now be ready for use.
 
 ## Configuring multiple cameras in µManager (X-OpenSPIM)
@@ -23,11 +23,9 @@ CLick here to find a step-by-step guide on how to configure two sister cameras i
 ## Setting up an Arduino microcontroller in µManager
 Follow this link to get detailed description on how to configure and set up an Arduino UNO board for hardware controlled imaging with µOpenSPIM.</br>
 
-## Getting familiar with µOpenSPIM's GUI.
+## Getting familiar with µOpenSPIM's GUI
 -   The GUI of µOpenSPIM can be arranged in many ways and then saved and restored if needed.</br>
-Here is a small video that demonstrates one possible way of how to arrange the GUI of µOpenSPIM.</br>
-
-[<img src="https://openspim.org/videos/Arrange-GUI.gif" width="400">](https://openspim.org/videos/Arrange-GUI.mp4)
+original <a href=\Table_of_parts>L-OpenSPIM design</a>.
 
 ## Acquisition with µOpenSPIM 
 The process of acquiring images ranges from snapping a single image to recording overnight (or longer) time lapses of samples from N different angles.
