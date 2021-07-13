@@ -11,21 +11,30 @@
 -   A tested Anti-drift logic similar to the old plugin but with new options that can help with keeping a drifting sample within the field of view during long term image acquisition
 - And more to come...
 
+## µOpenSPIM requirements
+-   All hardware components of an OpenSPIM system (Laser, Camera, Stage, etc.) have to be pre-configured with µManager's Hardware Configuration Wizard using Version 2.0 gamma (nightly build 04 May 2021) on a Windows7/10 computer.
+
+## How to set up µManager for µOpenSPIM
+-   Click here if you have never created a working .cfg file with µManager before or/and want to get guidance on configuring multiple cameras or the Arduino UNO for µManager.
+
+## Creating a working .cfg file using µManager's Hardware Configuration Wizard
+-   
+
+## Configuring multiple cameras in µManager (X-OpenSPIM)
+-   CLick here to find a step-by-step guide on how to configure two sister cameras in µManager.
+
+## Setting up an Arduino microcontroller in µManager
+-   Follow this link to get detailed description on how to configure and set up an Arduino UNO board for hardware controlled imaging with µOpenSPIM.</br>
+
 ## Installation and start-up of the µOpenSPIM
 -   Right now µOpenSPIM is in its beta stage and works with µManager gamma1 20210504 for Windows (nightly build 04 May 2021).
 1.  Please download and install the [64-bit](https://valelab4.ucsf.edu/~MM/nightlyBuilds/2.0.0-gamma/Windows/MMSetup_64bit_2.0.0-gamma1_20210504.exe) or [32-bit](https://valelab4.ucsf.edu/~MM/nightlyBuilds/2.0.0-gamma/Windows/MMSetup_32bit_2.0.0-gamma1_20210504.exe)build of [µManager](https://micro-manager.org/) and follow its *Hardware Configuration Wizard* to create a functional configuration file (.cfg) that allows µManager to control the OpenSPIM hardware. On the first time startup of µOpenSPIM users will be asked to select the file location of µManager.
 2.  <strong>[Download](https://openspim.org/%C2%B5OpenSPIM)</strong> and unzip the µOpenSPIM folder into any directory and start the application using the *µOpenSPIM.exe* file.
 3.  CLick the *START* button (top left). In the new window multiple µManager configuration files can be added, removed and selected. Click *Add .cfg file* to add and then select your working µManager configuration file ending with .cfg. Then click the *Start* button. After loading the hardware µManager should now be ready for use.
 
-## Configuring multiple cameras in µManager (X-OpenSPIM)
-CLick here to find a step-by-step guide on how to configure two sister cameras in µManager.
-
-## Setting up an Arduino microcontroller in µManager
-Follow this link to get detailed description on how to configure and set up an Arduino UNO board for hardware controlled imaging with µOpenSPIM.</br>
-
 ## Getting familiar with µOpenSPIM's GUI
 -   The GUI of µOpenSPIM can be arranged in many ways and then saved and restored if needed.</br>
-original <a href=\Table_of_parts>L-OpenSPIM design</a>.
+Click <a href=\µOpenSPIM_GUI>here</a> for more information and help.
 
 ## Acquisition with µOpenSPIM 
 The process of acquiring images ranges from snapping a single image to recording overnight (or longer) time lapses of samples from N different angles.
