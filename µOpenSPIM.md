@@ -64,29 +64,29 @@ A stack is a sandwich of many image slices of different focus levels of the samp
 <img src="https://openspim.org/images/µOpenSPIM_time-lapse.png" width="300">
  To acquire a time lapse of a single plane, set up the recording exactly as if you were going to record only one image.
 
-1.  After clicking *Add TP* specify how often the plane should be imaged and set its recurring time interval (in seconds, minutes, hours or days).
-    - Optionally you can add acquisition breaks by clicking *Add Pause*. Then specify the length of the acquisition break and click *Add TP* to continue with a new time lapse recording after the acquisition break.
+1.  After clicking <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add TP</span>&nbsp;specify how often the plane should be imaged and set its recurring time interval (in seconds, minutes, hours or days).
+    - Optionally you can add acquisition breaks by clicking <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add Pause</span>. Then specify the length of the acquisition break and click *Add TP* to continue with a new time lapse recording after the acquisition break.
 2.  Add at least one channel (either Software Controlled or Arduino Controlled) to the Channels list and set each channel's exposure time.
 3.  Specify an Output directory. A metadata file of all acquisition settings will additionally be saved into the Output directory.
 4.  Optionally:
     a) Enable Anti-Drift: choose between Phase Correlation (logic is based on the 3d-stack with x, y, and z coordinates) or Centre of Mass (logic is only based on x, y coordinates). Note that beads surrounding the sample might affect the Anti-Drift.
-    b) Select a region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click *Apply*.
+    b) Select a region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Apply</span>.
     c) Enable Binning: Choose one of the binning options and press apply.
-5.  Click *Acquire* to begin the time-lapse recording.
+5.  Click <span style="color:#00FF00; background-color:#F5F5F5; font-weight:bold">Acquire</span>&nbsp;to begin the time-lapse recording.
 
 ## Single-View Time Lapse
 <img src="https://openspim.org/images/µOpenSPIM_4d-time-lapse.png" width="300">
  To record a single view/stack of a sample over time:
 
 1.  Navigate the 4D-stage to the location you wish to acquire images and specify the beginning and the end of the Z stack and the Z-Step Size (in μm) as described above. In the Picard 4D-stage the minimum Z step size is 1.524 µm. 
-2.  Click *Add Pos.* to add the newly defined Z stack to the position list on the left and specify how often the stack should be imaged and set the recurring time interval (in seconds, minutes, hours or days).
+2.  Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add Pos.</span>&nbsp;to add the newly defined Z stack to the position list on the left and specify how often the stack should be imaged and set the recurring time interval (in seconds, minutes, hours or days).
 3.  Specify an Output directory. A metadata file of all acquisition settings will additionally be saved into the Output directory.
 4.  Optionally:
     - a) Enable Anti-Drift: choose between Phase Correlation (logic is based on the 3d-stack with x, y, and z) or Centre of Mass (logic based on x, y). Note that beads surrounding the sample might affect the Anti-Drift.
-    - b) Select a Region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click *Apply*.
+    - b) Select a Region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Apply</span>.
     - c) Enable Binning: Choose one of the binning options and press apply.
-    - d) Turn on *Show/Save Maximum Intensity Projections of each TP* to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own subfolder within the Output directory.
-5.  Click *Acquire* to begin the multi-view time-lapse recording.
+    - d) Turn on <span style="color:#000000; background-color:#F5F5F5; font-weight:bold">Show/Save Maximum Intensity Projections of each TP</span>&nbsp;to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own subfolder within the Output directory.
+5.  Click <span style="color:#00FF00; background-color:#F5F5F5; font-weight:bold">Acquire</span>&nbsp;to begin the multi-view time-lapse recording.
 
 ## Multi-View Time Lapse
 <img src="https://openspim.org/images/µOpenSPIM_multiview-timelapse.png" width="300">
@@ -96,15 +96,15 @@ To record multiple views of a sample over time:
 1.  For each view:
     - a)  Navigate the 4D-stage to the location you wish to acquire images.
     - b)  Specify the beginning and the end of the Z stack and the Z-Step Size (in μm) as described above. In the Picard 4D-stage the minimum Z step size is 1.524 µm. 
-    - c)  Click *Add Pos.* to add the newly defined Z stack to the position list on the left.
-2.  After clicking *Add TP* specify how often the stack(s) or view(s) should be imaged and set the recurring time interval (in seconds, minutes, hours or days).  Add acquisition breaks by clicking *Add Pause* and specify its length. Click *Add TP* to add new time lapse span which will continue after the acquisition break.
+    - c)  Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add Pos.</span>&nbsp;to add the newly defined Z stack to the position list on the left.
+2.  After clicking <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add Pos.</span>&nbsp;specify how often the stack(s) or view(s) should be imaged and set the recurring time interval (in seconds, minutes, hours or days).  Add acquisition breaks by clicking <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add Pause</span>&nbsp;and specify its length. Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add TP</span>&nbsp;to add new time lapse span which will continue after the acquisition break.
 3.  Specify an Output directory. A metadata file of all acquisition settings will additionally be saved into the Output directory.
 4.  Optionally:
     - a) Enable Anti-Drift: choose between Phase Correlation (logic is based on the 3d-stack with x, y, and z) or Centre of Mass (logic based on x, y). Note that beads surrounding the sample might affect the Anti-Drift.
-    - b) Select a Region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click *Apply*.
+    - b) Select a Region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Apply</span>.
     - c) Enable Binning: Choose one of the binning options and press apply.
-    - d) Turn on *Show/Save Maximum Intensity Projections of each TP* to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own subfolder within the Output directory.
-5.  Click *Acquire* to begin the multi-view time-lapse recording.
+    - d) Turn on <span style="color:#000000; background-color:#F5F5F5; font-weight:bold">Show/Save Maximum Intensity Projections of each TP</span>&nbsp;to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own subfolder within the Output directory.
+5.  Click <span style="color:#00FF00; background-color:#F5F5F5; font-weight:bold">Acquire</span>&nbsp;to begin the multi-view time-lapse recording.
 
 
 ## Acquisition Controls
