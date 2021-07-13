@@ -1,4 +1,4 @@
-## Getting familiar with µOpenSPIM's GUI
+## Getting familiar with µOpenSPIM's graphical user interface (GUI)
 -   xxx
 
 Here is a small video that demonstrates one possible way of how to arrange the GUI of µOpenSPIM.</br>
