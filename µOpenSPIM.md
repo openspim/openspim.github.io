@@ -68,7 +68,7 @@ A stack is a sandwich of many image slices of different focus levels of the samp
 1.  After clicking <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add TP</span>&nbsp;specify how often the plane should be imaged and set its recurring time interval (in seconds, minutes, hours or days).
     - Optionally you can add acquisition breaks by clicking <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add Pause</span>. Then specify the length of the acquisition break and click <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add TP</span>&nbsp;to continue with a new time lapse recording after the acquisition break.
 2.  Add at least one channel (either Software Controlled or Arduino Controlled) to the Channels list and set each channel's exposure time.
-3.  Specify an Output directory. A metadata file of all acquisition settings will additionally be saved into the Output directory.
+3.  &nbsp;<img src="https://openspim.org/images/specify_dir.png" width="20">&nbsp;Clicking this button will allow you to specify an Output directory. A metadata file of all acquisition settings will additionally be saved into the Output directory.
 4.  Optionally:
     -   Enable Anti-Drift: choose between Phase Correlation (logic is based on the 3d-stack with x, y, and z coordinates) or Centre of Mass (logic is only based on x, y coordinates). Note that beads surrounding the sample might affect the Anti-Drift.
     -   Select a region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Apply</span>.
@@ -81,7 +81,7 @@ A stack is a sandwich of many image slices of different focus levels of the samp
 
 1.  Navigate the 4D-stage to the location you wish to acquire images and specify the beginning and the end of the Z stack and the Z-Step Size (in μm) as described above. In the Picard 4D-stage the minimum Z step size is 1.524 µm. 
 2.  Click <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add Pos.</span>&nbsp;to add the newly defined Z stack to the position list on the left and specify how often the stack should be imaged and set the recurring time interval (in seconds, minutes, hours or days).
-3.  Specify an Output directory. A metadata file of all acquisition settings will additionally be saved into the Output directory.
+3.  &nbsp;<img src="https://openspim.org/images/specify_dir.png" width="20">&nbsp;Clicking this button will allow you to specify an Output directory. A metadata file of all acquisition settings will additionally be saved into the Output directory.
 4.  Optionally:
     - Enable Anti-Drift: choose between Phase Correlation (logic is based on the 3d-stack with x, y, and z) or Centre of Mass (logic based on x, y). Note that beads surrounding the sample might affect the Anti-Drift.
     - Select a Region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Apply</span>.
@@ -99,7 +99,7 @@ To record multiple views of a sample over time:
     - Specify the beginning and the end of the Z stack and the Z-Step Size (in μm) as described above. In the Picard 4D-stage the minimum Z step size is 1.524 µm. 
     - Click <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add Pos.</span>&nbsp;to add the newly defined Z stack to the position list on the left.
 2.  After clicking <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add Pos.</span>&nbsp;specify how often the stack(s) or view(s) should be imaged and set the recurring time interval (in seconds, minutes, hours or days).  Add acquisition breaks by clicking <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add Pause</span>&nbsp;and specify its length. Click <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add TP</span>&nbsp;to add new time lapse span which will continue after the acquisition break.
-3.  Specify an Output directory. A metadata file of all acquisition settings will additionally be saved into the Output directory.
+3.  &nbsp;<img src="https://openspim.org/images/specify_dir.png" width="20">&nbsp;Clicking this button will allow you to specify an Output directory. A metadata file of all acquisition settings will additionally be saved into the Output directory.
 4.  Optionally:
     - Enable Anti-Drift: choose between Phase Correlation (logic is based on the 3d-stack with x, y, and z) or Centre of Mass (logic based on x, y). Note that beads surrounding the sample might affect the Anti-Drift.
     - Select a Region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Apply</span>.
@@ -157,8 +157,8 @@ A typical channel is a laser of a given wavelength illuminating the sample durin
 
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(G)</span> **Saving options**</br>
 1.  <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Save images:</span>&nbsp;If ticked acquired images will be saved to the hard disk. 
-2.  Clicking this button will allow you to specify an Output directory.
-3.  Clicking this button will open the specified Output folder.
+2.  &nbsp;<img src="https://openspim.org/images/specify_dir.png" width="20">&nbsp;Clicking this button will allow you to specify an Output directory.
+3.  &nbsp;<img src="https://openspim.org/images/open_dir.png" width="20">&nbsp;Clicking this button will open the specified Output folder.
 4.  <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Saving format:</span>&nbsp;
     - Choose <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">Single Plane TIFF</span>&nbsp;to save every image individually.
     - Select <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">OMETIFF Image stack</span>&nbsp;to save every time-point as an individual stack including all channels.
