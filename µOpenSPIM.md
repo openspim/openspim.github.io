@@ -57,7 +57,8 @@ A stack is a sandwich of many image slices of different focus levels of the samp
 8.  Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add TP</span>&nbsp;and set both, the number of time points (TP) and the interval, to 1.
 9.  Add at least one channel (either Software Controlled or Arduino Controlled) to the Channels list and set each channel's exposure time.
 10. Though a single stack can easily fit into the memory, it is recommended that you specify an Output directory&nbsp;<img src="https://openspim.org/images/specify-dir.png" width="20">&nbsp;so the stack is saved to the disk. A metadata file of all acquisition settings will additionally be saved into the Output directory.
-11. Optionally, turn on <span style="color:#000000; background-color:#F5F5F5; font-weight:bold">Show/Save Maximum Intensity Projections of each TP</span>&nbsp;to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own sub-folder within the Output directory.
+11. Optionally:
+    -   turn on <span style="color:#000000; background-color:#F5F5F5; font-weight:bold">Show/Save Maximum Intensity Projections of each TP</span>&nbsp;to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own sub-folder within the Output directory.
 12. Click <span style="color:#00FF00; background-color:#F5F5F5; font-weight:bold">Acquire</span>&nbsp;to capture the defined stack.
 
 ## Single-Plane Time Lapse
