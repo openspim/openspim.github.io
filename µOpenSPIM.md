@@ -56,7 +56,7 @@ A stack is a sandwich of many image slices of different focus levels of the samp
 7.  Click <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add Pos.</span>&nbsp;to add the newly defined Z stack to the position list on the left. It will also include the X, Y, and R positions.
 8.  Click <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add TP</span>&nbsp;and set both, the number of time points (TP) and the interval, to 1.
 9.  Add at least one channel (either Software Controlled or Arduino Controlled) to the Channels list and set each channel's exposure time.
-10. Though a single stack can easily fit into the memory, it is recommended that you specify an Output directory&nbsp;<img src="https://openspim.org/images/specify-dir.png" width="20">&nbsp;so the stack is saved to the disk. A metadata file of all acquisition settings will additionally be saved into the Output directory.
+10. Though a single stack can easily fit into the memory, it is recommended that you specify an Output directory&nbsp;<img src="https://openspim.org/images/specify-dir.png" width="15">&nbsp;so the stack is saved to the disk. A metadata file of all acquisition settings will additionally be saved into the Output directory.
 11. Optionally:
     -   turn on <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">Show/Save Maximum Intensity Projections of each TP</span>&nbsp;to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own sub-folder within the Output directory.
 12. Click <span style="color:#00FF00; background-color:#DCDCDC; font-weight:bold">Acquire</span>&nbsp;to capture the defined stack.
@@ -66,7 +66,7 @@ A stack is a sandwich of many image slices of different focus levels of the samp
  To acquire a time lapse of a single plane, set up the recording exactly as if you were going to record only one image.
 
 1.  After clicking <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add TP</span>&nbsp;specify how often the plane should be imaged and set its recurring time interval (in seconds, minutes, hours or days).
-    - Optionally you can add acquisition breaks by clicking <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add Pause</span>. Then specify the length of the acquisition break and click *Add TP* to continue with a new time lapse recording after the acquisition break.
+    - Optionally you can add acquisition breaks by clicking <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add Pause</span>. Then specify the length of the acquisition break and click <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add TP</span>&nbsp;to continue with a new time lapse recording after the acquisition break.
 2.  Add at least one channel (either Software Controlled or Arduino Controlled) to the Channels list and set each channel's exposure time.
 3.  Specify an Output directory. A metadata file of all acquisition settings will additionally be saved into the Output directory.
 4.  Optionally:
