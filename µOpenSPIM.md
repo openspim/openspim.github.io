@@ -1,5 +1,5 @@
 
-<img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"> is an intuitive new graphical user interface (GUI) for OpenSPIM users, which relies on [µManager.](https://micro-manager.org)
+<img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"> is an intuitive new graphical user interface (GUI) for OpenSPIM users, which relies on [µManager](https://micro-manager.org).
 
 ## Features of µOpenSPIM
 -   A complete overhaul of the GUI has been made including simple graphic visualizations and an improved control over Picrard’s 4D-stage
