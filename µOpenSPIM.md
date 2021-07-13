@@ -41,7 +41,7 @@ The process of acquiring images ranges from snapping a single image to recording
 3.  Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add TP</span>&nbsp;and set both, the number of time points (TP) and the interval, to 1.
 4.  Add at least one channel to the Software Controlled Channels list or select one of the Channels that are available in the Arduino Controlled Channels list. Don't forget to set the desired exposure time of each channel.
 5.  You may specify an Output directory if you would prefer the image be written straight to disk, rather than opened in µManager using the computer memory. A metadata.txt file of all acquisition settings will also be saved into the Output directory.
-6.  Finally, click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Acquire</span>&nbsp;to capture a single or multi-channel image.
+6.  Finally, click <span style="color:#00FF00; background-color:#F5F5F5; font-weight:bold">Acquire</span>&nbsp;to capture a single or multi-channel image.
 
 ## Acquiring a Stack
 <img src="https://openspim.org/images/µOpenSPIM_single-stack.png" width="100">
