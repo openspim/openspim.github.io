@@ -1889,6 +1889,7 @@
     background-image:url(/skins/Cavendish/cavendish/external.png?2ccd8)
   }
   #bodyContent a[href ^="https://"],.link-https {
+    background:url(images/external.png?2ccd8) center right no-repeat;
     padding-right:16px;
     background-size:12px 12px
   }
@@ -1897,37 +1898,37 @@
     background-size:12px 12px
   }
   #bodyContent a[href ^="news://"] {
-    background:url(/skins/Cavendish/cavendish/newspaper.png?94be0) center right no-repeat;
+    background:url(images/newspaper.png?94be0) center right no-repeat;
     ppadding-right:16px;
     background-size:12px 12px
   }
   #bodyContent a[href ^="ftp://"],.link-ftp {
-    background:url(/skins/Cavendish/cavendish/folder.png?cffcc) center right no-repeat;
+    background:url(images/folder.png?cffcc) center right no-repeat;
     padding-right:16px;
     background-size:12px 12px
   }
   #bodyContent a[href ^="irc://"],#bodyContent a.extiw[href ^="irc://"],.link-irc {
-    background:url(/skins/Cavendish/cavendish/speech-bubble-left-4.png?7f3fa) center right no-repeat;
+    background:url(images/speech-bubble-left-4.png?7f3fa) center right no-repeat;
     padding-right:16px;
     background-size:12px 12px
   }
   #bodyContent a[href ^="skype:"],.link-skype {
-    background:url(/skins/Cavendish/cavendish/speech-bubble-left-4.png?7f3fa) center right no-repeat;
+    background:url(images/speech-bubble-left-4.png?7f3fa) center right no-repeat;
     padding-right:16px;
     background-size:12px 12px
   }
   #bodyContent a.external[href $=".ogg"],#bodyContent a.external[href $=".ogg"],#bodyContent a.external[href $=".mid"],#bodyContent a.external[href $=".mid"],#bodyContent a.external[href $=".midi"],#bodyContent a.external[href $=".midi"],#bodyContent a.external[href $=".mp3"],#bodyContent a.external[href $=".mp3"],#bodyContent a.external[href $=".wav"],#bodyContent a.external[href $=".wav"],#bodyContent a.external[href $=".wma"],#bodyContent a.external[href $=".wma"],#bodyContent a.external[href $=".m4a"],.link-audio {
-    background:url(/skins/Cavendish/cavendish/audio.png?34a7d) center right no-repeat;
+    background:url(images/audio.png?34a7d) center right no-repeat;
     padding-right:16px;
     background-size:12px 12px
   }
   #bodyContent a.external[href $=".ogm"],#bodyContent a.external[href $=".ogm"],#bodyContent a.external[href $=".avi"],#bodyContent a.external[href $=".avi"],#bodyContent a.external[href $=".mpeg"],#bodyContent a.external[href $=".mpeg"],#bodyContent a.external[href $=".mpg"],#bodyContent a.external[href $=".mpg"],#bodyContent a.external[href $=".m4v"],.link-video {
-    background:url(/skins/Cavendish/cavendish/video.png?5c325) center right no-repeat;
+    background:url(images/video.png?5c325) center right no-repeat;
     padding-right:16px;
     background-size:12px 12px
   }
   #bodyContent a.external[href $=".pdf"],#bodyContent a.external[href $=".doc"],#bodyContent a.external[href $=".docx"],#bodyContent a.external[href $=".odt"],.link-document {
-    background:url(/skins/Cavendish/cavendish/document.png?b867c) center right no-repeat;
+    background:url(images/document.png?b867c) center right no-repeat;
     padding-right:16px;
     background-size:12px 12px
   }
