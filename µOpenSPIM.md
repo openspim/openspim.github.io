@@ -155,7 +155,7 @@ A typical channel is a laser of a given wavelength illuminating the sample durin
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(G)</span> **Saving options**</br>
 1.  <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Save images:</span>&nbsp;If ticked acquired images will be saved to the hard disk. 
 2.  &nbsp;<img src="https://openspim.org/images/specify_dir.png" width="20">&nbsp;Clicking this button will allow you to specify an Output directory.
-3.  &nbsp;<img src="https://openspim.org/images/open_dir.png" width="20">&nbsp;Clicking this button will open the specified Output folder.
+3.  &nbsp;<img src="https://openspim.org/images/open_dir_v2.png" width="20">&nbsp;Clicking this button will open the specified Output folder.
 4.  <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Saving format:</span>&nbsp;
     - Choose <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">Single Plane TIFF</span>&nbsp;to save every image individually.
     - Select <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">OMETIFF Image stack</span>&nbsp;to save every time-point as an individual stack including all channels.
