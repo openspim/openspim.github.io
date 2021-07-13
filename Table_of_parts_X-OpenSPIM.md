@@ -7,13 +7,13 @@ description: Table of parts
 
 The described X-OpenSPIM system is equipped with two [Andor sCMOS Neo 5.5 camera](https://andor.oxinst.com/products/scmos-camera-series/neo-5-5-scmos), which together with the Hamamatsu Flash4 and PCO Edge cameras are known to work with µManager’s <a href="https://micro-manager.org/wiki/Utilities#Multi-Camera">Multi-Camera</a> function.
 
-To have two laser lines available (488 and 561) we chose a multiple wavelength laser system <a href=https://www.vortranlaser.com>Stradus VersaLase.</a>
+To have two laser lines available (488 and 561) we chose a multiple wavelength laser system <a href=https://www.vortranlaser.com>Stradus VersaLase</a>.
 
-Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purchased from <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts">Pieter Fourie Design and Engineering.</a>
+Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purchased from <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts">Pieter Fourie Design and Engineering</a>.
 
 <figure align="center">
   <img src="images/X-OpenSPIM_rendering_topview.jpg" width="1280">
-<figcaption>Accurate rendering of the X-OpenSPIM currently in use in the Tomancak lab (top view). The light path of the laser beam is shown in cyan. Image created with Autodesk Inventor by Charlène Brillard. For a higher resolution image click <a href=\images/X-OpenSPIM_rendering_topview.jpg>here.</a>
+<figcaption>Accurate rendering of the X-OpenSPIM currently in use in the Tomancak lab (top view). The light path of the laser beam is shown in cyan. Image created with Autodesk Inventor by Charlène Brillard. For a higher resolution image click <a href=\images/X-OpenSPIM_rendering_topview.jpg>here</a>.
 
 </figcaption>
 </figure>  
