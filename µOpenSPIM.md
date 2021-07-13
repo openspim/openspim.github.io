@@ -37,28 +37,28 @@ The process of acquiring images ranges from snapping a single image to recording
  To acquire a single image with µOpenSPIM:
 
 1.  Navigate the 4D stage to the location you want to image.
-2.  Click *Add current position* to add this plane to the position list. 
-3.  Click *Add TP* and set both, the number of time points (TP) and the interval, to 1.
+2.  Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add current position</span>&nbsp;to add this plane to the position list. 
+3.  Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add TP</span>&nbsp;and set both, the number of time points (TP) and the interval, to 1.
 4.  Add at least one channel to the Software Controlled Channels list or select one of the Channels that are available in the Arduino Controlled Channels list. Don't forget to set the desired exposure time of each channel.
 5.  You may specify an Output directory if you would prefer the image be written straight to disk, rather than opened in µManager using the computer memory. A metadata.txt file of all acquisition settings will also be saved into the Output directory.
-6.  Finally, click *Acquire* to capture a single or multi-channel image.
+6.  Finally, click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Acquire</span>&nbsp;to capture a single or multi-channel image.
 
 ## Acquiring a Stack
 <img src="https://openspim.org/images/µOpenSPIM_single-stack.png" width="100">
 A stack is a sandwich of many image slices of different focus levels of the sample with a defined beginning and end. To set up a stack requires to move the Z stage.
 
 1.  Navigate to the sample location where the Z stack should begin.
-2.  Click *Z-start*. The current Z position will now show up next to the button.
+2.  Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Z-start</span>&nbsp;and the current Z position will now show up next to the button.
 3.  Navigate to the sample location where the stack should end.
-4.  Click *Z-end*. The current Z position swill show up once again next to the button.
-5.  Click *Go to centre* and check if the Z Stage ends up in the middle of the stack. This is a good way to know that the Z stack has been set correctly.
+4.  Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Z-end</span>&nbsp; and the current Z position swill show up once again next to the button.
+5.  Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Go to centre</span>&nbsp;and check if the Z Stage ends up in the middle of the stack. This is a good way to know that the Z stack has been set correctly.
 6.  Specify the Z-Step Size (in μm).
-7.  Click *Add Pos.* to add the newly defined Z stack to the position list on the left. It will also include the X, Y, and R positions.
-8.  Click *Add TP* and set both, the number of time points (TP) and the interval, to 1.
+7.  Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add Pos.</span>&nbsp;to add the newly defined Z stack to the position list on the left. It will also include the X, Y, and R positions.
+8.  Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add TP</span>&nbsp;and set both, the number of time points (TP) and the interval, to 1.
 9.  Add at least one channel (either Software Controlled or Arduino Controlled) to the Channels list and set each channel's exposure time.
 10. Though a single stack can easily fit into the memory, it is recommended that you specify an Output directory so the stack is saved to the disk. A metadata file of all acquisition settings will additionally be saved into the Output directory.
-11. Optionally, turn on *Show/Save Maximum Intensity Projections of each TP* to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own sub-folder within the Output directory.
-12. Click *Acquire* to capture the defined stack.
+11. Optionally, turn on <span style="color:#000000; background-color:#F5F5F5; font-weight:bold">Show/Save Maximum Intensity Projections of each TP</span>&nbsp;to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own sub-folder within the Output directory.
+12. Click <span style="color:#00FF00; background-color:#F5F5F5; font-weight:bold">Acquire</span>&nbsp;to capture the defined stack.
 
 ## Single-Plane Time Lapse
 <img src="https://openspim.org/images/µOpenSPIM_time-lapse.png" width="300">
