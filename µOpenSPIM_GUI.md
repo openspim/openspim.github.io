@@ -7,4 +7,4 @@ Here is a small video that demonstrates one possible way of how to arrange the G
 
 <a href ="https://openspim.org/videos/Arrange-GUI.mp4" target="_blank" >test</a>
 
-<a href="{https://openspim.org/videos/Arrange-GUI.mp4}" title="GUI"><img src="{https://openspim.org/videos/Arrange-GUI.gif}" alt="Test" /></a>
+<a href="https://openspim.org/videos/Arrange-GUI.mp4" title="GUI"><img src="https://openspim.org/videos/Arrange-GUI.gif" alt="Test2" /></a>
