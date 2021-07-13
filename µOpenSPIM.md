@@ -69,9 +69,9 @@ A stack is a sandwich of many image slices of different focus levels of the samp
 2.  Add at least one channel (either Software Controlled or Arduino Controlled) to the Channels list and set each channel's exposure time.
 3.  Specify an Output directory. A metadata file of all acquisition settings will additionally be saved into the Output directory.
 4.  Optionally:
-    a) Enable Anti-Drift: choose between Phase Correlation (logic is based on the 3d-stack with x, y, and z coordinates) or Centre of Mass (logic is only based on x, y coordinates). Note that beads surrounding the sample might affect the Anti-Drift.
-    b) Select a region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Apply</span>.
-    c) Enable Binning: Choose one of the binning options and press apply.
+    -   Enable Anti-Drift: choose between Phase Correlation (logic is based on the 3d-stack with x, y, and z coordinates) or Centre of Mass (logic is only based on x, y coordinates). Note that beads surrounding the sample might affect the Anti-Drift.
+    -   Select a region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Apply</span>.
+    -   Enable Binning: Choose one of the binning options and press apply.
 5.  Click <span style="color:#00FF00; background-color:#F5F5F5; font-weight:bold">Acquire</span>&nbsp;to begin the time-lapse recording.
 
 ## Single-View Time Lapse
@@ -82,10 +82,10 @@ A stack is a sandwich of many image slices of different focus levels of the samp
 2.  Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add Pos.</span>&nbsp;to add the newly defined Z stack to the position list on the left and specify how often the stack should be imaged and set the recurring time interval (in seconds, minutes, hours or days).
 3.  Specify an Output directory. A metadata file of all acquisition settings will additionally be saved into the Output directory.
 4.  Optionally:
-    - a) Enable Anti-Drift: choose between Phase Correlation (logic is based on the 3d-stack with x, y, and z) or Centre of Mass (logic based on x, y). Note that beads surrounding the sample might affect the Anti-Drift.
-    - b) Select a Region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Apply</span>.
-    - c) Enable Binning: Choose one of the binning options and press apply.
-    - d) Turn on <span style="color:#000000; background-color:#F5F5F5; font-weight:bold">Show/Save Maximum Intensity Projections of each TP</span>&nbsp;to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own subfolder within the Output directory.
+    - Enable Anti-Drift: choose between Phase Correlation (logic is based on the 3d-stack with x, y, and z) or Centre of Mass (logic based on x, y). Note that beads surrounding the sample might affect the Anti-Drift.
+    - Select a Region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Apply</span>.
+    - Enable Binning: Choose one of the binning options and press apply.
+    - Turn on <span style="color:#000000; background-color:#F5F5F5; font-weight:bold">Show/Save Maximum Intensity Projections of each TP</span>&nbsp;to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own subfolder within the Output directory.
 5.  Click <span style="color:#00FF00; background-color:#F5F5F5; font-weight:bold">Acquire</span>&nbsp;to begin the multi-view time-lapse recording.
 
 ## Multi-View Time Lapse
@@ -94,16 +94,16 @@ A stack is a sandwich of many image slices of different focus levels of the samp
 To record multiple views of a sample over time:
 
 1.  For each view:
-    - a)  Navigate the 4D-stage to the location you wish to acquire images.
-    - b)  Specify the beginning and the end of the Z stack and the Z-Step Size (in μm) as described above. In the Picard 4D-stage the minimum Z step size is 1.524 µm. 
-    - c)  Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add Pos.</span>&nbsp;to add the newly defined Z stack to the position list on the left.
+    - Navigate the 4D-stage to the location you wish to acquire images.
+    - Specify the beginning and the end of the Z stack and the Z-Step Size (in μm) as described above. In the Picard 4D-stage the minimum Z step size is 1.524 µm. 
+    - Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add Pos.</span>&nbsp;to add the newly defined Z stack to the position list on the left.
 2.  After clicking <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add Pos.</span>&nbsp;specify how often the stack(s) or view(s) should be imaged and set the recurring time interval (in seconds, minutes, hours or days).  Add acquisition breaks by clicking <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add Pause</span>&nbsp;and specify its length. Click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Add TP</span>&nbsp;to add new time lapse span which will continue after the acquisition break.
 3.  Specify an Output directory. A metadata file of all acquisition settings will additionally be saved into the Output directory.
 4.  Optionally:
-    - a) Enable Anti-Drift: choose between Phase Correlation (logic is based on the 3d-stack with x, y, and z) or Centre of Mass (logic based on x, y). Note that beads surrounding the sample might affect the Anti-Drift.
-    - b) Select a Region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Apply</span>.
-    - c) Enable Binning: Choose one of the binning options and press apply.
-    - d) Turn on <span style="color:#000000; background-color:#F5F5F5; font-weight:bold">Show/Save Maximum Intensity Projections of each TP</span>&nbsp;to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own subfolder within the Output directory.
+    - Enable Anti-Drift: choose between Phase Correlation (logic is based on the 3d-stack with x, y, and z) or Centre of Mass (logic based on x, y). Note that beads surrounding the sample might affect the Anti-Drift.
+    - Select a Region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click <span style="color:#00BFFF; background-color:#F5F5F5; font-weight:bold">Apply</span>.
+    - Enable Binning: Choose one of the binning options and press apply.
+    - Turn on <span style="color:#000000; background-color:#F5F5F5; font-weight:bold">Show/Save Maximum Intensity Projections of each TP</span>&nbsp;to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own subfolder within the Output directory.
 5.  Click <span style="color:#00FF00; background-color:#F5F5F5; font-weight:bold">Acquire</span>&nbsp;to begin the multi-view time-lapse recording.
 
 
