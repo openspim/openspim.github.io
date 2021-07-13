@@ -33,7 +33,7 @@ Here is a small video that demonstrates one possible way of how to arrange the G
 The process of acquiring images ranges from snapping a single image to recording overnight (or longer) time lapses of samples from N different angles.
 
 ## Acquiring a Single Image
-<img src="https://openspim.org/images/µOpenSPIM_single-image.png" width="100">
+<img src="https://openspim.org/images/µOpenSPIM_single-image.png" width="100"></br>
  To acquire a single image with µOpenSPIM:
 
 1.  Navigate the 4D stage to the location you want to image.
@@ -44,7 +44,7 @@ The process of acquiring images ranges from snapping a single image to recording
 6.  Finally, click <span style="color:#00FF00; background-color:#DCDCDC; font-weight:bold">Acquire</span>&nbsp;to capture a single or multi-channel image.
 
 ## Acquiring a Stack
-<img src="https://openspim.org/images/µOpenSPIM_single-stack.png" width="100">
+<img src="https://openspim.org/images/µOpenSPIM_single-stack.png" width="100"></br>
 A stack is a sandwich of many image slices of different focus levels of the sample with a defined beginning and end. To set up a stack requires to move the Z stage.
 
 1.  Navigate to the sample location where the Z stack should begin.
@@ -62,7 +62,7 @@ A stack is a sandwich of many image slices of different focus levels of the samp
 12. Click <span style="color:#00FF00; background-color:#DCDCDC; font-weight:bold">Acquire</span>&nbsp;to capture the defined stack.
 
 ## Single-Plane Time Lapse
-<img src="https://openspim.org/images/µOpenSPIM_time-lapse.png" width="300">
+<img src="https://openspim.org/images/µOpenSPIM_time-lapse.png" width="300"></br>
  To acquire a time lapse of a single plane, set up the recording exactly as if you were going to record only one image.
 
 1.  After clicking <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add TP</span>&nbsp;specify how often the plane should be imaged and set its recurring time interval (in seconds, minutes, hours or days).
@@ -76,7 +76,7 @@ A stack is a sandwich of many image slices of different focus levels of the samp
 5.  Click <span style="color:#00FF00; background-color:#DCDCDC; font-weight:bold">Acquire</span>&nbsp;to begin the time-lapse recording.
 
 ## Single-View Time Lapse
-<img src="https://openspim.org/images/µOpenSPIM_4d-time-lapse.png" width="300">
+<img src="https://openspim.org/images/µOpenSPIM_4d-time-lapse.png" width="300"></br>
  To record a single view/stack of a sample over time:
 
 1.  Navigate the 4D-stage to the location you wish to acquire images and specify the beginning and the end of the Z stack and the Z-Step Size (in μm) as described above. In the Picard 4D-stage the minimum Z step size is 1.524 µm. 
@@ -90,8 +90,7 @@ A stack is a sandwich of many image slices of different focus levels of the samp
 5.  Click <span style="color:#00FF00; background-color:#DCDCDC; font-weight:bold">Acquire</span>&nbsp;to begin the multi-view time-lapse recording.
 
 ## Multi-View Time Lapse
-<img src="https://openspim.org/images/µOpenSPIM_multiview-timelapse.png" width="300">
-
+<img src="https://openspim.org/images/µOpenSPIM_multiview-timelapse.png" width="300"></br>
 To record multiple views of a sample over time:
 
 1.  For each view:
