@@ -162,7 +162,7 @@ This table provides a summary of the final imaging session with its current sett
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(G)</span> **Save all settings**</br>
 All input settings including Positions, Time points and Channels can be saved here.
 1.  Click <span style="color:#008000; background-color:#DCDCDC; font-weight:bold">SAVE</span>&nbsp;to save all acquisition settings as an .xml file.
-2.  Click <span style="color:#FFD700; background-color:#DCDCDC; font-weight:bold">LOAD</span>&nbsp;to load previously saved acquisition settings.
+2.  Click <span style="color:#FFA500; background-color:#DCDCDC; font-weight:bold">LOAD</span>&nbsp;to load previously saved acquisition settings.
 3.  Click <span style="color:#FA8072; background-color:#DCDCDC; font-weight:bold">CLEAR</span>&nbsp;to clear the Acquisition panel from all settings and tables.
 
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(H)</span> **Acquisition settings**</br>
