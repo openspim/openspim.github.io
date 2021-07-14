@@ -17,7 +17,7 @@
 ## How to set up µManager for µOpenSPIM?
 -   Click [here](/µOpenSPIM_µManager-configuration) if you have never created a working .cfg file with µManager before or/and want to get guidance on configuring multiple cameras or the Arduino UNO for µManager.
 
-## Installation and start-up of the µOpenSPIM
+## Installation and start-up of µOpenSPIM
 -   Right now µOpenSPIM is in its beta stage and works with µManager gamma1 20210504 for Windows (nightly build 04 May 2021).
 1.  Please download and install the [64-bit](https://valelab4.ucsf.edu/~MM/nightlyBuilds/2.0.0-gamma/Windows/MMSetup_64bit_2.0.0-gamma1_20210504.exe) or [32-bit](https://valelab4.ucsf.edu/~MM/nightlyBuilds/2.0.0-gamma/Windows/MMSetup_32bit_2.0.0-gamma1_20210504.exe) build of [µManager](https://micro-manager.org/) and follow its *Hardware Configuration Wizard* to create a functional configuration file (.cfg) that allows µManager to control the OpenSPIM hardware. On the first time startup of µOpenSPIM users will be asked to select the file location of µManager.
 2.  <strong>[Download](https://openspim.org/%C2%B5OpenSPIM)</strong> and unzip the µOpenSPIM folder into any directory and start the application using the *µOpenSPIM.exe* file.
@@ -116,27 +116,29 @@ For a more detailed decription follow this link: <strong>[Detailed Acquisition c
 
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(A)</span> **Positions**</br>
 This table shows the list of predefined positions, which will be acquired at each time point. There might be multiple positions or just one. A position is defined by the location where the four motorized stepper motors (X, Y, Z, and R) will move before acquiring an image or stack at a given time point.</br>
-In case of an 3-dimensional stack, the Z stage will have three location values: Z start and Z end location values, both defining the total volume of the stack, and the Z step size value, which specifies the total amount of slices/images within this volume.
+In case of an 3-dimensional stack, the Z stage will have three location values: Z start and Z end location values, both defining the total volume of the stack, and the Z step size value, which specifies the total amount of slices within this volume, whereby each slice is one image.
 
-1.  <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add position:</span>&nbsp;Clicking this button will add a row to the end of the table with only the current position. In case a z-stack is not defined a single slice will be taken at the given location.
-2.  <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Delete position:</span>&nbsp;Clicking this will remove any currently-highlighted rows from the table. You can click and drag rows or move them up and down with the arrows at the end of the row.
+1.  <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add position:</span>&nbsp;Clicking this button will add a row to the end of the table with the current X, Y, Z and R coordinates.
+2.  <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Delete position:</span>&nbsp;Clicking this will remove a highlighted row from the table. You can click and drag rows and move them up and down by using the arrows at the end of the row.
 3.  <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Update position:</span>&nbsp;Clicking this button will update the selected position according to the current 4D-stage positions (X, Y, Z, R).
 
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(B)</span> **Define Z-stacks**</br>
-This is the place where the beginning and the end of a new stack together with the Z step size is specified using the Z stage.
+Here the beginning and the end of a new stack together with its Z step size can be specified using the Z stage. One has to first find the sample and a centre it in the field of view. By navigating through the sample along the z-axis the beginning and end of a z-stack is specified. 
 1. <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Z-start:</span>&nbsp;Clicking this button will mark the current z stepper motor position as the beginning of a desired z-stack.
 2. <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Z-end:</span>&nbsp;Clicking this button will mark the current z stepper motor position as the end of a desired z-stack.
 3. <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Go to centre:</span>&nbsp;Clicking this button will move the stage Z into the centre of the defined z-stack.
-4. <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add stack position:</span>&nbsp;Clicking this button will add a row to the end of the positions table that will include the X, Y, and R positions together with the two z-stack positions (Z-start and Z-end) and the Z step size value.  
+4. <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add stack position:</span>&nbsp;Clicking this button will add a row to the end of the positions table that will include the X, Y, and R positions together with the two z-stack positions (Z-start and Z-end) and the Z step size value.</br>
+-   It is possible to manually change any positional values by double-clicking on one of the positional entries. Note that this can be done during an ongoing imaging session.
+In order to overwrite all positional values with the current positions of the stepper motors simply select any previously created position entry and press the “Update position” button.
 
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(C)</span> **Time points**</br>
-This table includes the information how often the predefined positions should be acquired. A time point can be specified once or many times for long term time lapse recordings.
+This table includes the information how often the predefined positions should be acquired. A time point can be specified once or many times for long term time lapse recordings. In case 3-d stacks are acquired across a given period of time, the imaging process is referred to as 4d-Microscopy.
 1. <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add TP:</span>&nbsp;Clicking this button will add a row to the end of the time points table where the number of time points and their recurrent intervals can be specified.
 2. <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add Pause:</span>&nbsp;Clicking this button will add an acquisition break to the end of the time points table. 
-3. <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Delete TP:</span>&nbsp;Clicking this will remove any currently-highlighted rows from the time points table.
+3. <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Delete TP:</span>&nbsp;Clicking this will remove any highlighted row from the time points table.
 
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(D)</span> **Acquisition**</br>
-After all positions and time points have been set up for imaging, there are a few options worth considering before starting the acquisition.
+After all positions and number of time points have been specified, there are still a few options worth considering before starting the acquisition process.
 1. <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Acquire:</span>&nbsp;Clicking this button will start the currently set up imaging session.
 2. <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">Anti-Drift:</span>&nbsp;Click the Anti-drift tab to enable it with the aim to prevent the sample from leaving its initial predefined position. One can choose between Phase Correlation (whereby entire volume of a 3d-stack is taken into account) or Centre of Mass (whereby drifts are only corrected in x, y but not in z). Note that high concentrations of fluorescent beads surrounding the sample may disarrange the Anti-Drift logic.
 3. <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">ROI:</span>&nbsp;Within this tab a region of interest (ROI) can be specified and applied to the field of view of the camera. The region is specified in the preview window of µManager. Select the Rectangle tool and create a selection inside the preview window. The window will open up by clicking *Live view*. When the ROI is specified, click the <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Apply</span>&nbsp;button.
@@ -146,7 +148,7 @@ After all positions and time points have been set up for imaging, there are a fe
 Here a simple schematic overview is given showing the current list of time points that have been set up.
 
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(F)</span> **Channels**</br>
-A typical channel is a laser of a given wavelength illuminating the sample during acquisition. In case an Arduino UNO is in control of one or several lasers, they all must be wired to one of the digital output pins. It is possible that a channel represents a different device other than a laser. Alternatively, lasers can also be controlled by the Software, which in our case is µManager.
+A typical channel is a laser of a given wavelength illuminating the sample during acquisition. In case an Arduino UNO is in control of one or several lasers, they all must be wired to one of the digital output pins. It is possible that a channel represents a different device other than a laser. Alternatively, lasers can also be controlled by the Software, which in our case is µManager. Do find out more about Software versus Hardware controlled imaging, click [here](/µOpenSPIM_SoftwareVSHardware).
 1. **Software controlled** Click <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add channel</span>&nbsp;to add a new channel to the table. Click into the drop-down menus to change e.g. the Shutter of a laser. Several channels can be added to the table.
     - Double click on the exposure value of any added channel to change it.
 2. **Arduino Controlled:** Simply select one or several of the available channels (**Pin8** to **Pin13**) that are under the control of the Arduino-Shutter. Channel Names can be changed in the Arduino UNO configuration table.
