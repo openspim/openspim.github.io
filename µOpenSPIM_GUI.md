@@ -1,5 +1,5 @@
 ## Getting familiar with µOpenSPIM's graphical user interface (GUI)
--   xxx
+-	The GUI of µOpenSPIM can be arranged in many ways and then saved and restored if needed.</br>
 
 Here is a small video that demonstrates one possible way of how to arrange the GUI of µOpenSPIM.</br>
 
