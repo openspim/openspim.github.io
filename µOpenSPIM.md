@@ -137,24 +137,18 @@ This table includes the information how often the predefined positions should be
 2. <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add Pause:</span>&nbsp;Clicking this button will add an acquisition break to the end of the time points table. 
 3. <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Delete TP:</span>&nbsp;Clicking this will remove any highlighted row from the time points table.
 
-<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(D)</span> **Acquisition**</br>
-After all positions and number of time points have been specified, there are still a few options worth considering before starting the acquisition process.
-1. <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Acquire:</span>&nbsp;Clicking this button will start the currently set up imaging session.
-2. <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">Anti-Drift:</span>&nbsp;Click the Anti-drift tab to enable it with the aim to prevent the sample from leaving its initial predefined position. One can choose between Phase Correlation (whereby entire volume of a 3d-stack is taken into account) or Centre of Mass (whereby drifts are only corrected in x, y but not in z). Note that high concentrations of fluorescent beads surrounding the sample may disarrange the Anti-Drift logic.
-3. <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">ROI:</span>&nbsp;Within this tab a region of interest (ROI) can be specified and applied to the field of view of the camera. The region is specified in the preview window of µManager. Select the Rectangle tool and create a selection inside the preview window. The window will open up by clicking *Live view*. When the ROI is specified, click the <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Apply</span>&nbsp;button.
-4. <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">Binning:</span>&nbsp;Different binning options can be selected before acquisition, e.g. **2x2** or **3x3** binning. Higher Binning settings combines the charge of more pixels, which increases the signal to noise ratio (SNR) and results in higher camera frame rates but on the expanse of pixel resolution. 
-
-<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(E)</span> **Preview of imaging session**</br>
+<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(D)</span> **Preview of imaging session**</br>
 Here a simple schematic overview is given showing the current list of time points that have been set up.
 
-<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(F)</span> **Channels**</br>
+<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(E)</span> **Channels**</br>
 A typical channel is a laser of a given wavelength illuminating the sample during acquisition. In case an Arduino UNO is in control of one or several lasers, they all must be wired to one of the digital output pins. It is possible that a channel represents a different device other than a laser. Alternatively, lasers can also be controlled by the Software, which in our case is µManager. Do find out more about Software versus Hardware controlled imaging, click [here](/µOpenSPIM_SoftwareVSHardware).
-1. **Software controlled** Click <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add channel</span>&nbsp;to add a new channel to the table. Click into the drop-down menus to change e.g. the Shutter of a laser. Several channels can be added to the table.
-    - Double click on the exposure value of any added channel to change it.
+1. **Software controlled** Click <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add channel</span>&nbsp;to add a new channel to the table. Several channels can be added to the table. 
+-   Click into the drop-down menus to change Camera and the correct Shutter for the intended laser line.
+- Double click on the exposure value of any added channel to change it.
 2. **Arduino Controlled:** Simply select one or several of the available channels (**Pin8** to **Pin13**) that are under the control of the Arduino-Shutter. Channel Names can be changed in the Arduino UNO configuration table.
     - Double click on the exposure value of any added channel to change it.
 
-<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(G)</span> **Saving options**</br>
+<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(F)</span> **Saving options**</br>
 1.  <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Save images:</span>&nbsp;If ticked acquired images will be saved to the hard disk. 
 2.  &nbsp;<img src="https://openspim.org/images/specify_dir.png" width="20">&nbsp;Clicking this button will allow you to specify an Output directory.
 3.  &nbsp;<img src="https://openspim.org/images/open_dir_v2.png" width="20">&nbsp;Clicking this button will open the specified Output folder.
@@ -165,14 +159,21 @@ A typical channel is a laser of a given wavelength illuminating the sample durin
 5.  <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">Show/save Maximum intensity Projections of each TP:</span>&nbsp;We advise to tick this option for long time-lapse recordings. It can be very useful to have a first impression of how well an imaging session goes or went, particularly if large SPIM data is acquired where generating MIPs after imaging is completed can be very time-consuming.
 6.  Here notes can be written down, which will be saved as an additional Note.txt file into the Output directory.
 
-<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(H)</span> **Summary**</br>
+<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(G)</span> **Summary**</br>
 This table provides a summary of the final imaging session with its current settings.
 
-<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(I)</span> **Acquisition settings**</br>
+<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(H)</span> **Acquisition settings**</br>
 All input settings including Positions, Time points and Channels can be saved here.
 1.  Click <span style="color:#75FF52; background-color:#DCDCDC; font-weight:bold">SAVE</span>&nbsp;to save all acquisition settings as an .xml file.
 2.  Click <span style="color:#FFE430; background-color:#DCDCDC; font-weight:bold">LOAD</span>&nbsp;to load previously saved acquisition settings.
 3.  Click <span style="color:#FA8072; background-color:#DCDCDC; font-weight:bold">CLEAR</span>&nbsp;to clear the Acquisition panel from all settings and tables.
+
+<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(I)</span> **Acquisition**</br>
+After all positions and number of time points have been specified, there are still a few options worth considering before starting the acquisition process.
+1. <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Acquire:</span>&nbsp;Clicking this button will start the currently set up imaging session.
+2. <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">Anti-Drift:</span>&nbsp;Click the Anti-drift tab to enable it with the aim to prevent the sample from leaving its initial predefined position. One can choose between Phase Correlation (whereby entire volume of a 3d-stack is taken into account) or Centre of Mass (whereby drifts are only corrected in x, y but not in z). Note that high concentrations of fluorescent beads surrounding the sample may disarrange the Anti-Drift logic.
+3. <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">ROI:</span>&nbsp;Within this tab a region of interest (ROI) can be specified and applied to the field of view of the camera. The region is specified in the preview window of µManager. Select the Rectangle tool and create a selection inside the preview window. The window will open up by clicking *Live view*. When the ROI is specified, click the <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Apply</span>&nbsp;button.
+4. <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">Binning:</span>&nbsp;Different binning options can be selected before acquisition, e.g. **2x2** or **3x3** binning. Higher Binning settings combines the charge of more pixels, which increases the signal to noise ratio (SNR) and results in higher camera frame rates but on the expanse of pixel resolution. 
 
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(J)</span> **Stage**</br>
 Here you can move the four stepper motors of the 4D-stage Stages (X, Y, Z, R), calibrate the rotational stepper size (R Stage), save and load current positions and inverse the axis of the x and y stage, which might be crucial for the Anti-Drift to work correctly.
