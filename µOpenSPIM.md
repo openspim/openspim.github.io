@@ -39,7 +39,7 @@ The process of acquiring images ranges from snapping a single image to recording
 3.  Click <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Add TP</span>&nbsp;and set both, the number of time points (TP) and the interval, to 1.
 4.  Add at least one channel to the Software Controlled Channels list or select one of the Channels that are available in the Arduino Controlled Channels list. Don't forget to set the desired exposure time of each channel.
 5.  You may specify an Output directory&nbsp;<img src="https://openspim.org/images/specify_dir.png" width="20">&nbsp;if you would prefer the image be written straight to disk, rather than opened in µManager using the computer memory. A metadata.txt file of all acquisition settings will also be saved into the Output directory.
-6.  Finally, click <span style="color:#00FF00; background-color:#DCDCDC; font-weight:bold">Acquire</span>&nbsp;to capture a single or multi-channel image.
+6.  Finally, click <span style="color:#008000; background-color:#DCDCDC; font-weight:bold">Acquire</span>&nbsp;to capture a single or multi-channel image.
 
 ## Acquiring a Stack
 <img src="https://openspim.org/images/µOpenSPIM_single-stack.png" width="100"></br>
@@ -57,7 +57,7 @@ A stack is a sandwich of many image slices of different focus levels of the samp
 10. Though a single stack can easily fit into the memory, it is recommended that you specify an Output directory&nbsp;<img src="https://openspim.org/images/specify_dir.png" width="20">&nbsp;so the stack is saved to the disk. A metadata file of all acquisition settings will additionally be saved into the Output directory.
 11. Optionally:
     -   turn on <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">Show/Save Maximum Intensity Projections of each TP</span>&nbsp;to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own sub-folder within the Output directory.
-12. Click <span style="color:#00FF00; background-color:#DCDCDC; font-weight:bold">Acquire</span>&nbsp;to capture the defined stack.
+12. Click <span style="color:#008000; background-color:#DCDCDC; font-weight:bold">Acquire</span>&nbsp;to capture the defined stack.
 
 ## Single-Plane Time Lapse
 <img src="https://openspim.org/images/µOpenSPIM_time-lapse.png" width="300"></br>
@@ -71,7 +71,7 @@ A stack is a sandwich of many image slices of different focus levels of the samp
     -   Enable Anti-Drift: choose between Phase Correlation (logic is based on the 3d-stack with x, y, and z coordinates) or Centre of Mass (logic is only based on x, y coordinates). Note that beads surrounding the sample might affect the Anti-Drift.
     -   Select a region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Apply</span>.
     -   Enable Binning: Choose one of the binning options and press apply.
-5.  Click <span style="color:#00FF00; background-color:#DCDCDC; font-weight:bold">Acquire</span>&nbsp;to begin the time-lapse recording.
+5.  Click <span style="color:#008000; background-color:#DCDCDC; font-weight:bold">Acquire</span>&nbsp;to begin the time-lapse recording.
 
 ## Single-View Time Lapse
 <img src="https://openspim.org/images/µOpenSPIM_4d-time-lapse.png" width="300"></br>
@@ -85,7 +85,7 @@ A stack is a sandwich of many image slices of different focus levels of the samp
     - Select a Region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Apply</span>.
     - Enable Binning: Choose one of the binning options and press apply.
     - Turn on <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">Show/Save Maximum Intensity Projections of each TP</span>&nbsp;to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own subfolder within the Output directory.
-5.  Click <span style="color:#00FF00; background-color:#DCDCDC; font-weight:bold">Acquire</span>&nbsp;to begin the multi-view time-lapse recording.
+5.  Click <span style="color:#008000; background-color:#DCDCDC; font-weight:bold">Acquire</span>&nbsp;to begin the multi-view time-lapse recording.
 
 ## Multi-View Time Lapse
 <img src="https://openspim.org/images/µOpenSPIM_multiview-timelapse.png" width="300"></br>
@@ -102,7 +102,7 @@ To record multiple views of a sample over time:
     - Select a Region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click <span style="color:#00BFFF; background-color:#DCDCDC; font-weight:bold">Apply</span>.
     - Enable Binning: Choose one of the binning options and press apply.
     - Turn on <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">Show/Save Maximum Intensity Projections of each TP</span>&nbsp;to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own subfolder within the Output directory.
-5.  Click <span style="color:#00FF00; background-color:#DCDCDC; font-weight:bold">Acquire</span>&nbsp;to begin the multi-view time-lapse recording.
+5.  Click <span style="color:#008000; background-color:#DCDCDC; font-weight:bold">Acquire</span>&nbsp;to begin the multi-view time-lapse recording.
 
 
 ## Acquisition Controls
