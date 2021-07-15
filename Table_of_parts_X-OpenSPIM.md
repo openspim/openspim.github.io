@@ -12,8 +12,8 @@ To have two laser lines available (488 and 561) we chose a multiple wavelength l
 Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purchased from <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts">Pieter Fourie Design and Engineering</a>.
 
 <figure align="center">
-  <img src="images/µOpenSPIM/X-OpenSPIM.jpg" width="1280">
-<figcaption>Accurate rendering of the X-OpenSPIM currently in use in the Tomancak lab (top view). The light path of the laser beam is shown in cyan. Image created with Autodesk Inventor by Charlène Brillard. For a top view rendering with labelled parts click <a href=\images/X-OpenSPIM_rendering_topview.jpg>here</a>.
+  <a href="https://openspim.org/X-OpenSPIM_rendering_topview" target="_blank" title="How to arrange µOpenSPIM'a GUI"><img src="images/µOpenSPIM/X-OpenSPIM.jpg" width="1280"></a>
+<figcaption>Accurate rendering of the X-OpenSPIM currently in use in the Tomancak lab (top view). The light path of the laser beam is shown in cyan. Image created with Autodesk Inventor by Charlène Brillard. For a top view rendering with labelled parts click <a href="images/X-OpenSPIM_rendering_topview.jpg">here</a>.
 
 </figcaption>
 </figure>  
