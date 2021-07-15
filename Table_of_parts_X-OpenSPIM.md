@@ -62,7 +62,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Arduino UNO Rev3 SMD</td>
 <td align="center"> <a href="https://store.arduino.cc/arduino-uno-rev3-smd">A000073</a></td>
-<td align="center"><img src="images/Arduino_Uno.jpeg" width="150"></td>
+<td align="center"><a href="https://store.arduino.cc/arduino-uno-rev3-smd"><img src="images/Arduino_Uno.jpeg" width="150"></a></td>
 <td align="center">1</td>
 <td align="center">19 €</td>
 </tr>
