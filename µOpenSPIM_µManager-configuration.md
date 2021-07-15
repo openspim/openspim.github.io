@@ -19,8 +19,4 @@ This video shows how an ArduinoUNO can be configured to enable Camera-Laser hard
 
 
 
-<img src="/images/mp4.png" width="300" onmouseover="this.src='/videos/SettingUp_ArduinoUNO.gif'" onmouseout="this.src='/images/mp4.png'" />
-
-
-
-![test](https://openspim.org/videos/SettingUp_ArduinoUNO.mp4)
+<a href="https://openspim.org/videos/SettingUp_ArduinoUNO.mp4" target="_blank" title="MultiCamera"><img src="/images/mp4.png" width="300" onmouseover="this.src='/videos/SettingUp_ArduinoUNO.gif'" onmouseout="this.src='/images/mp4.png'" /></a>
