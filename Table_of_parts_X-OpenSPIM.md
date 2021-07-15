@@ -12,12 +12,37 @@ To have two laser lines available (488 and 561) we chose a multiple wavelength l
 Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purchased from <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts">Pieter Fourie Design and Engineering</a>.
 
 <figure align="center">
-  <a href="/images/µOpenSPIM/X-OpenSPIM.jpg" target="_blank" title="Click for a higher resolution image"><img src="images/µOpenSPIM/X-OpenSPIM.jpg" width="1280"></a>
+  <a href="/images/µOpenSPIM/X-OpenSPIM.jpg" target="_blank" title="Click for a higher resolution image"><img src="images/µOpenSPIM/X-OpenSPIM.jpg" width="1024"></a>
 <figcaption>Accurate rendering of the X-OpenSPIM currently in use in the Tomancak lab (top view). The light path of the laser beam is shown in cyan. Image created with Autodesk Inventor by Charlène Brillard. 
 </br>For a top view rendering with labelled parts click <a href="images/X-OpenSPIM_rendering_topview.jpg">here</a>.
 
 </figcaption>
 </figure>  
+
+## Upgrade from L-OpenSPIM to X-OpenSPIM
+
+<table>
+<tr class="header">
+<th>OpenSPIM configuration</th>
+<th>Accessibility</th>
+<th>Description</th>
+<th>File or Link/Model</th>
+<th>Image</th>
+<th>Quantity</th>
+<th>Price</th>
+</tr>
+
+<tr class="odd">
+<td align="center">X-OpenSPIM</td>
+<td align="center" bgcolor="#98FB98">self-made</td>
+<td align="center">OpenSPIM with four-lens SPIM geometry</td>
+<td align="center"> <a href="/images/µOpenSPIM/X-OpenSPIM.stp">X-OpenSPIM.stp</a></td>
+<td align="center"><img src="images/Arduino_Uno.jpeg" width="150"></td>
+<td align="center">1</td>
+<td align="center">13000 € (without cameras)</td>
+</tr>
+
+</table>
 
 ## Purchased and self made parts list
 
