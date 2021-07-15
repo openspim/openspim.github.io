@@ -23,7 +23,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 
 <table>
 <tr class="header">
-<th>OpenSPIM configuration</th>
+<th>Configuration</th>
 <th>Accessibility</th>
 <th>Description</th>
 <th>File or Link/Model</th>
@@ -37,7 +37,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center" bgcolor="#98FB98">self-made</td>
 <td align="center">OpenSPIM with four-lens SPIM geometry</td>
 <td align="center"> <a href="/images/µOpenSPIM/X-OpenSPIM.stp">X-OpenSPIM.stp</a></td>
-<td align="center"><img src="images/Arduino_Uno.jpeg" width="150"></td>
+<td align="center"><img src="images/X-OpenSPIM.jpeg" width="150"></td>
 <td align="center">1</td>
 <td align="center">13000 € (without cameras)</td>
 </tr>
