@@ -33,7 +33,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </tr>
 
 <tr class="odd">
-<td align="center">&nbsp;&nbsp;X-OpenSPIM&nbsp;&nbsp;</td>
+<td align="center">&nbsp;&nbsp;&nbsp;&nbsp;X-OpenSPIM&nbsp;&nbsp;&nbsp;&nbsp;</td>
 <td align="center" bgcolor="#98FB98">self-made</td>
 <td align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OpenSPIM with four-lens SPIM geometry&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 <td align="center"> <a href="/images/µOpenSPIM/X-OpenSPIM.stp">X-OpenSPIM.stp</a></td>
@@ -62,7 +62,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Arduino UNO Rev3 SMD</td>
 <td align="center"> <a href="https://store.arduino.cc/arduino-uno-rev3-smd">A000073</a></td>
-<td align="center"><a href="https://store.arduino.cc/arduino-uno-rev3-smd"><img src="images/Arduino_Uno.jpeg" width="150"></a></td>
+<td align="center"><img src="images/Arduino_Uno.jpeg" width="150"></td>
 <td align="center">1</td>
 <td align="center">19 €</td>
 </tr>
