@@ -19,4 +19,4 @@ This video shows how an ArduinoUNO can be configured to enable Camera-Laser hard
 
 
 
-<img src="a.jpg" onmouseover="this.src='/videos/SettingUp_ArduinoUNO.gif'" onmouseout="this.src='/images/mp4.png'" />
+<img src="/images/mp4.png" width="300" onmouseover="this.src='/videos/SettingUp_ArduinoUNO.gif'" onmouseout="this.src='/images/mp4.png'" />
