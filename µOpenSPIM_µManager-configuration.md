@@ -15,12 +15,4 @@ The following video shows how we configure our two sister cameras (Andor sCMOS N
 -   A detailed description on how to configure and set up an ArduinoUNO board for hardware controlled imaging with µOpenSPIM are coming soon.</br>
 
 This video shows how an ArduinoUNO can be configured to enable Camera-Laser hardware synchronization in µOpenSPIM.</br>
-<a href="https://openspim.org/videos/SettingUp_ArduinoUNO.mp4" target="_blank" title="MultiCamera"><img src="https://openspim.org/videos/SettingUp_ArduinoUNO.gif" width="300" alt="Configuring two Andor sCMOS cameras with µManager." /></a>
-
-
-
 <a href="https://openspim.org/videos/SettingUp_ArduinoUNO.mp4" target="_blank" title="MultiCamera"><img src="/images/mp4.png" width="300" onmouseover="this.src='/videos/SettingUp_ArduinoUNO.gif'" onmouseout="this.src='/images/mp4.png'" /></a>
-
-
-
-[![Alternate Text]({https://openspim.org/images/mp4.png})]({https://openspim.org/videos/SettingUp_ArduinoUNO.mp4} "Test video")
