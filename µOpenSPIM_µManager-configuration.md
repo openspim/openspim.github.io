@@ -1,3 +1,34 @@
+<head>
+<script type="text/javascript">
+
+var staticGifSuffix = "-static.gif";
+var gifSuffix = ".gif";
+
+$(document).ready(function() {
+
+  $(".img-animate").each(function () {
+
+     $(this).hover(
+        function()
+        {
+            var originalSrc = $(this).attr("src");
+            $(this).attr("src", originalSrc.replace(staticGifSuffix, gifSuffix));
+        },
+        function()
+        {
+            var originalSrc = $(this).attr("src");
+            $(this).attr("src", originalSrc.replace(gifSuffix, staticGifSuffix));  
+        }
+     );
+
+  });
+
+});
+</script>
+
+</head>
+<body>
+
 ## Creating a working .cfg file using µManager's Hardware Configuration Wizard
 
 In this video we show how we created from scracth the .cfg for the [X-OpenSPIM](/Table_of_parts_X-OpenSPIM) using µManager's Hardware Configuration Wizard.</br>
