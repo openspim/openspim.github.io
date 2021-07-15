@@ -1,20 +1,3 @@
-{::options parse_block_html="true" /}
-
-$(document).ready(function()
-{
-    $("#imgAnimate").hover(
-        function()
-        {
-            $(this).attr("src", "GIF URL HERE");
-        },
-        function()
-        {
-            $(this).attr("src", "STATIC IMAGE URL HERE");
-        });
-});
-
-{::options parse_block_html="false" /}
-
 ##	Creating a working .cfg file using µManager's Hardware Configuration Wizard
 
 In this video we show how we created from scracth the .cfg for the [X-OpenSPIM](/Table_of_parts_X-OpenSPIM) using µManager's Hardware Configuration Wizard.</br>
