@@ -33,11 +33,11 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </tr>
 
 <tr class="odd">
-<td align="center">X-OpenSPIM</td>
+<td align="center">-------------- X-OpenSPIM --------------</td>
 <td align="center" bgcolor="#98FB98">self-made</td>
 <td align="center">OpenSPIM with four-lens SPIM geometry</td>
 <td align="center"> <a href="/images/µOpenSPIM/X-OpenSPIM.stp">X-OpenSPIM.stp</a></td>
-<td align="center"><img src="images/X-OpenSPIM.jpeg" width="150"></td>
+<td align="center"><img src="images/X-OpenSPIM_rendering_topview.jpg" width="150"></td>
 <td align="center">1</td>
 <td align="center">13000 € (without cameras)</td>
 </tr>
