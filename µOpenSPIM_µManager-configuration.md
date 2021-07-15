@@ -1,7 +1,6 @@
 ## Creating a working .cfg file using µManager's Hardware Configuration Wizard
--   more coming soon...
 
-Watch this video showing how we created the .cfg for the [X-OpenSPIM](/Table_of_parts_X-OpenSPIM) using µManager's Hardware Configuration Wizard from scracth.</br>
+In this video we show how we created from scracth the .cfg for the [X-OpenSPIM](/Table_of_parts_X-OpenSPIM) using µManager's Hardware Configuration Wizard.</br>
 
 <a href="https://openspim.org/videos/SettingUp_MM.mp4" target="_blank" title="MultiCamera"><img src="https://openspim.org/videos/SettingUp_MM.gif" width="200" alt="Configuring two Andor sCMOS cameras with µManager." /></a>
 
