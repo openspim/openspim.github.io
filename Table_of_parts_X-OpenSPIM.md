@@ -7,7 +7,7 @@ description: Table of parts
 
 The described X-OpenSPIM system is equipped with two [Andor sCMOS Neo 5.5 camera](https://andor.oxinst.com/products/scmos-camera-series/neo-5-5-scmos), which together with the Hamamatsu Flash4 and PCO Edge cameras are known to work with µManager’s <a href="https://micro-manager.org/wiki/Utilities#Multi-Camera">Multi-Camera</a> function.
 
-To have two laser lines available (488 and 561) we chose a multiple wavelength laser system <a href=https://www.vortranlaser.com>Stradus VersaLase</a>.
+The two laser lines (488 and 561) come from a multiple wavelength laser system <a href=https://www.vortranlaser.com>Stradus VersaLase</a> and are under the control of an ArduinoUNO board (camera-laser synchronization).
 
 Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purchased from <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts">Pieter Fourie Design and Engineering</a>.
 
@@ -37,7 +37,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OpenSPIM with four-lens SPIM geometry&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 <td align="center"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/images/µOpenSPIM/X-OpenSPIM.stp">X-OpenSPIM.stp</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>For a top view rendering<br>with labelled parts click <a href="images/X-OpenSPIM_rendering_topview.jpg">here</a>.
 </td>
-<td align="center"><img src="images/X-OpenSPIM_rendering_topview.jpg" width="200"></td>
+<td align="center"><img src="images/X-OpenSPIM_rendering_topview.jpg" width="260"></td>
 <td align="center">1</td>
 <td align="center">~13000 €<br>(without cameras/<br>self made parts)</td>
 </tr>
