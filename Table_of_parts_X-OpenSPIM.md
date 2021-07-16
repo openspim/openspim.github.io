@@ -44,7 +44,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 
 </table>
 
-## Purchased and self made parts list
+## Purchased and self made parts list for the X-OpenSPIM upgrade
 
 <table>
 <tr class="header">
