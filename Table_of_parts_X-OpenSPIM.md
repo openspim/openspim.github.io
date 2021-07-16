@@ -13,8 +13,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 
 <figure align="center">
   <a href="/images/µOpenSPIM/X-OpenSPIM.jpg" target="_blank" title="Click for a higher resolution image"><img src="images/µOpenSPIM/X-OpenSPIM.jpg" width="1024"></a>
-<figcaption>Accurate rendering of the X-OpenSPIM currently in use in the Tomancak lab (side view). Image created with Autodesk Inventor by Charlène Brillard. 
-</br>For a top view rendering with labelled parts click <a href="images/X-OpenSPIM_rendering_topview.jpg">here</a>.
+<figcaption>Accurate rendering of the X-OpenSPIM currently in use in the Tomancak lab (side view). Image created with Autodesk Inventor by Charlène Brillard. For a top view rendering with labelled parts click <a href="images/X-OpenSPIM_rendering_topview.jpg">here</a>.
 
 </figcaption>
 </figure>  
@@ -36,7 +35,8 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center">&nbsp;&nbsp;&nbsp;X-OpenSPIM&nbsp;&nbsp;&nbsp;</td>
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OpenSPIM with four-lens SPIM geometry&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-<td align="center"> <a href="/images/µOpenSPIM/X-OpenSPIM.stp">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X-OpenSPIM.stp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
+<td align="center"> <a href="/images/µOpenSPIM/X-OpenSPIM.stp">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X-OpenSPIM.stp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>For a top view rendering<br>with labelled parts click <a href="images/X-OpenSPIM_rendering_topview.jpg">here</a>.
+</td>
 <td align="center"><img src="images/X-OpenSPIM_rendering_topview.jpg" width="150"></td>
 <td align="center">1</td>
 <td align="center">~13000 €<br>(without cameras &<br> self made parts)</td>
