@@ -37,7 +37,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OpenSPIM with four-lens SPIM geometry&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 <td align="center"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/images/µOpenSPIM/X-OpenSPIM.stp">X-OpenSPIM.stp (96 MB)</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;For a top view rendering with labelled parts&nbsp;&nbsp;<br><a href="images/X-OpenSPIM_rendering_topview.jpg">click here</a>.
 </td>
-<td align="center"><img src="images/X-OpenSPIM_rendering_topview.jpg" width="240"></td>
+<td align="center"><img src="images/X-OpenSPIM_rendering_topview.jpg" width="242"></td>
 <td align="center">1</td>
 <td align="center">~13000 €<br>&nbsp;(without cameras/&nbsp;<br>self made parts)</td>
 </tr>
