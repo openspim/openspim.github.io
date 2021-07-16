@@ -33,7 +33,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </tr>
 
 <tr class="odd">
-<td align="center">&nbsp;&nbsp;&nbsp;&nbsp;X-OpenSPIM&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="center">&nbsp;&nbsp;&nbsp;X-OpenSPIM&nbsp;&nbsp;&nbsp;</td>
 <td align="center" bgcolor="#98FB98">self-made</td>
 <td align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OpenSPIM with four-lens SPIM geometry&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 <td align="center"> <a href="/images/µOpenSPIM/X-OpenSPIM.stp">X-OpenSPIM.stp</a></td>
