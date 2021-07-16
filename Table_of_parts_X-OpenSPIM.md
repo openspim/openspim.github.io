@@ -485,7 +485,9 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center">Tube lens adapter to fit new Tube Lens (ITL200), f = 200 mm</td>
 <td>
 <a href="images/µOpenSPIM/CameraAdapter/TubeLensAdapter.stl">&nbsp;TubeLensAdapter.stl</a><br/>
+<a href="images/µOpenSPIM/CameraAdapter/CameraAdapter.stl">&nbsp;CameraAdapter.stl</a><br/>
 <a href="images/µOpenSPIM/CameraAdapter/TubeLensAdapter.pdf">&nbsp;OpenSPIM_Infinity-Space.pdf</a>
+<a href="images/µOpenSPIM/CameraAdapter/CameraAdapterExploded.png">&nbsp;CameraAdapterExploded.png</a>
 </td>
 <td align="center"><img src="images/µOpenSPIM/CameraAdapter/TubeLensAdapter_v2.png" width="150"></td>
 <td align="center">2</td>
