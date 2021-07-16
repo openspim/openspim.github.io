@@ -13,7 +13,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 
 <figure align="center">
   <a href="/images/µOpenSPIM/X-OpenSPIM.jpg" target="_blank" title="Click for a higher resolution image"><img src="images/µOpenSPIM/X-OpenSPIM.jpg" width="1024"></a>
-<figcaption>Accurate rendering of the X-OpenSPIM currently in use in the Tomancak lab (side view). Image created with Autodesk Inventor by Charlène Brillard. For a top view rendering with labelled parts click <a href="images/X-OpenSPIM_rendering_topview.jpg">here</a>.
+<figcaption>Accurate rendering of the X-OpenSPIM currently in use in the Tomancak lab (side view). Image created with Autodesk Inventor by Charlène Brillard.
 
 </figcaption>
 </figure>  
