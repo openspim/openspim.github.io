@@ -39,7 +39,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </td>
 <td align="center"><img src="images/X-OpenSPIM_rendering_topview.jpg" width="240"></td>
 <td align="center">1</td>
-<td align="center">~13000 €<br>(without cameras/<br>self made parts)</td>
+<td align="center">~13000 €<br>&nbsp;(without cameras/&nbsp;<br>self made parts)</td>
 </tr>
 
 </table>
