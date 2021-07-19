@@ -7,6 +7,8 @@ The following video shows how a working .cfg file was created from scratch for t
 ## Configuring multiple cameras in µManager (X-OpenSPIM)
 This video demonstrates how to configure two sister cameras (2x Andor sCMOS Neo 5.5) in µManager to function as a single logical camera (Multi-Camera).</br> 
 <a href="https://openspim.org/videos/SettingUp_MultiCamera.mp4" target="_blank" title="How to create a .cfg file using µManager's Hardware Configuration Wizard"><img src="https://openspim.org/videos/SettingUp_MultiCamera.gif" width="300" alt="Creating a .cfg file using µManager's Hardware Configuration Wizard." /></a></br>
+
+## Pixel size calibration
 It is also important to calibrate your Pixel Size correctly. To do this in µManager go to *Devices* > *Pixel Size Calibration* and specify the Pixel Size (µm). Before you can click*OK*, you have to select at least one of the devices from the "Property Name" table, e.g. Core-Initialize. Now click *OK* and save/overwrite the current configuration file.
 
 If you don't know the correct Pixel Size value for your OpenSPIM system check:
