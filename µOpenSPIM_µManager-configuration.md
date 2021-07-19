@@ -18,8 +18,10 @@ If you don't know the correct Pixel Size value for your OpenSPIM system check:
 -	if the detection axis is equipped with any other demagnifying lenses (e.g. C-mount) or zoom optics. </br>In case of the described [X-OpenSPIM](/Table_of_parts_X-OpenSPIM), the [camera mounts & adapters](https://openspim.org/images/%C2%B5OpenSPIM/CameraAdapter/CameraAdapterExploded.png) comprising a tube lens (ITL200, Thorlabs), a U-TV1x video camera adapter (projection lens) and a U-CMAD3 video camera mount adapter retain a 1x magnification.
 
 Once you gathered the information the following formula can be used:</br>
-
-Image Pixel Size = Camera Pixel Size x Binning / Magnification of the Detection Objective x Camera Mounts x Zoom Optics</br>
+</br>
+<a align="center">+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</a></br>
+<a align="center">Image Pixel Size = Camera Pixel Size x Binning / Magnification of the Detection Objective x Camera Mounts x Zoom Optics</a></br>
+<a align="center">+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</a></br>
 
 As an example:</br>
 Our two Andor sCMOS Neo 5.5 cameras have 6.5 µm pixels and the X-OpenSPIM is equipped with 40x detection objectives (CFI Apochromat NIR 40X W, Nikon). Camera mounts retain a 1x magnification and there are no additional zoom optics installed into the detection axis.</br>
