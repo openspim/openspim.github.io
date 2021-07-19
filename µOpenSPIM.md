@@ -15,7 +15,7 @@
 -   All hardware components of an OpenSPIM system (Laser, Camera, Stage, etc.) have to be pre-configured with µManager's Hardware Configuration Wizard using Version 2.0 gamma (nightly build 04 May 2021) on a Windows7/10 computer.
 
 ## How to set up µManager for µOpenSPIM?
--   Click [here](/µOpenSPIM_µManager-configuration) if you have never created a working .cfg file with µManager before or/and want to get guidance on configuring multiple cameras or the Arduino UNO for µManager.
+-   Click [here](/µOpenSPIM_µManager-configuration) if you have never created a working .cfg file with µManager before or/and want to get guidance on configuring multiple cameras, pixel size calibration and configuring an ArduinoUNO board for µManager.
 
 ## Installation and start-up of µOpenSPIM
 -   Right now, µOpenSPIM is in its beta stage and works with µManager gamma1 20210504 for Windows (nightly build 04 May 2021).
