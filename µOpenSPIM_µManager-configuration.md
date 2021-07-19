@@ -20,7 +20,7 @@ If you don't know the correct Pixel Size value for your OpenSPIM system check:
 Once you gathered the information the following formula can be used:</br>
 </br>
 <p align="center">+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</p></br>
-<p align="center" style="color:#1E90FF;>Image Pixel Size = Camera Pixel Size x Binning / Magnification of the Detection Objective x Camera Mounts x Zoom Optics</p></br>
+<p align="center">Image Pixel Size = Camera Pixel Size x Binning / Magnification of the Detection Objective x Camera Mounts x Zoom Optics</p></br>
 <p align="center">+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</p></br>
 
 As an example:</br>
