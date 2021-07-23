@@ -19,7 +19,7 @@
 
 ## Installation and start-up of µOpenSPIM
 -   Right now, µOpenSPIM is in its beta stage and works with µManager 2.0.1 20210721 for Windows (nightly build 21 July 2021).
--   See also the[µOpenSPIM-Github Site](https://github.com/openspim/micro-OpenSPIM).
+-   See also the [µOpenSPIM-Github Site](https://github.com/openspim/micro-OpenSPIM).
 1.  Please download and install the [64-bit](https://valelab4.ucsf.edu/~MM/nightlyBuilds/2.0/Windows/MMSetup_64bit_2.0.1_20210721.exe) or [32-bit](https://valelab4.ucsf.edu/~MM/nightlyBuilds/2.0/Windows/MMSetup_32bit_2.0.1_20210721.exe) build of [µManager](https://micro-manager.org/) and follow its *Hardware Configuration Wizard* to create a functional configuration file (.cfg) that allows µManager to control the OpenSPIM hardware. On the first time startup of µOpenSPIM users will be asked to select the file location of µManager.
 2.  Download µOpenSPIM for <strong>[Windows 64-bit](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.2/OpenSPIM_setup.exe)</strong> or <strong>[MacOSX](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.2/OpenSPIM-1.0.dmg)</strong> and follow the installation guide.
 
@@ -129,8 +129,11 @@ Here the beginning and the end of a new stack together with its Z step size can 
 1. <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Z-start:</span>&nbsp;Clicking this button will mark the current z stepper motor position as the beginning of a desired z-stack.
 2. <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Z-end:</span>&nbsp;Clicking this button will mark the current z stepper motor position as the end of a desired z-stack.
 3. <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Go to centre:</span>&nbsp;Clicking this button will move the stage Z into the centre of the defined z-stack.
-4. <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Add stack position:</span>&nbsp;Clicking this button will add a row to the end of the positions table that will include the X, Y, and R positions together with the two z-stack positions (Z-start and Z-end) and the Z step size value.</br>
+4. <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Add Z-stack:</span>&nbsp;Clicking this button will add a row to the end of the positions table that will include the X, Y, and R positions together with the two z-stack positions (Z-start and Z-end) and the Z step size value.</br>
 -   It is possible to manually change any positional values by double-clicking on one of the positional entries. Note that this can be done during an ongoing imaging session.
+5. <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">New Z-stack:</span>&nbsp;Clicking this button will clear all previously locked Z-stack values in order to define a new Z-stack.</br>
+-   It is possible to manually change any positional values by double-clicking on one of the positional entries. Note that this can be done during an ongoing imaging session.
+
 In order to overwrite all positional values with the current positions of the stepper motors simply select any previously created position entry and press the “Update position” button.
 
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(C)</span> **Time points**</br>
