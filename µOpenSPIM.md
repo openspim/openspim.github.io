@@ -186,10 +186,9 @@ Here you can move the four stepper motors of the 4D-stage Stages (X, Y, Z, R), c
 1.  <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Save current position:</span>&nbsp;Click this button to save the current position of the stage. It will be added to a list.
 2.  <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Load location:</span>&nbsp;Click this button to Load a previously saved stage position from a list.
 3.  <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">Indicate angles:</span>&nbsp;Indicate here the number of angles you wish to acquire during a single time-point. The angles will then be indicated above the rotational stage (Stage R).
-4.  <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Calibrate:</span>&nbsp;Click this button to calibrate the R Stage in case the 360 degrees do not correspond to a full revolution of the sample holder.
-5.  Click <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Homing</span>&nbsp;on one of the four Stages to move the stepper motor back to its home position.
-6.  Click <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Stop</span>&nbsp;to immediately stop a stepper motor.
-
+4.  Click <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Homing</span>&nbsp;on one of the four Stages to move the stepper motor back to its home position.
+5.  Click <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Stop</span>&nbsp;to immediately stop a stepper motor.
+6.  <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Calibrate:</span>&nbsp;Click this button to calibrate the R Stage in case the 360 degrees do not correspond to a full revolution of the sample holder.
 
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(K)</span> **Console**</br>
 The console window can be useful to see what is going on in the background of the plugin and to spot error messages.
