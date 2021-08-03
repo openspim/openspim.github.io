@@ -189,6 +189,8 @@ Here you can move the four stepper motors of the 4D-stage Stages (X, Y, Z, R), c
 4.  Click <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Homing</span>&nbsp;on one of the four Stages to move the stepper motor back to its home position.
 5.  Click <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Stop</span>&nbsp;to immediately stop a stepper motor.
 6.  <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Calibrate:</span>&nbsp;Click this button to calibrate the R Stage in case the 360 degrees do not correspond to a full revolution of the sample holder.
+7.  <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Add Pos.</span>&nbsp;Clicking this button will add a row to the end of the Position table using the current X, Y, Z and R coordinates.
+8.  <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Go back to the last used position</span>&nbsp;Clicking this button will move the stage to the previous position.
 
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(K)</span> **Console**</br>
 The console window can be useful to see what is going on in the background of the plugin and to spot error messages.
