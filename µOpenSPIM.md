@@ -109,9 +109,9 @@ To record multiple views of a sample over time:
 
 ## Acquisition Controls
 The following image will introduce you to the location of all available controls to set up an imaging session.</br>
-For a more detailed description follow this link: <strong>[Detailed Acquisition controls for µOpenSPIM.](https://openspim.org/images/%C2%B5OpenSPIM_Acquisition_07-23.jpg)</strong>
+For a more detailed description follow this link: <strong>[Detailed Acquisition controls for µOpenSPIM.](https://openspim.org/images/%C2%B5OpenSPIM_Acquisition_08-03.jpg)</strong>
 <figure>
-  <img src="https://openspim.org/images/µOpenSPIM_Acquisition_07-23.jpg" width="1024">
+  <img src="https://openspim.org/images/µOpenSPIM_Acquisition_08-03.jpg" width="1024">
 <figcaption>Acquisition Controls of the µOpenSPIM GUI (A-I) with the Picard 4D-stage controls on the top right (J) and the Console window on the bottom right  (K). For a higher resolution image click <a href=\images/%C2%B5OpenSPIM_Acquisition.jpg>here.</a>
 </figcaption>
 </figure>  
@@ -175,7 +175,8 @@ After all positions and number of time points have been specified, it's almost t
 1. <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">Anti-Drift:</span>&nbsp;Click the Anti-drift tab to enable it with the aim to prevent the sample from leaving its initial predefined position. One can choose between Phase Correlation (whereby entire volume of a 3d-stack is taken into account) or Centre of Mass (whereby drifts are only corrected in x, y but not in z). Note that high concentrations of fluorescent beads surrounding the sample may disarrange the Anti-Drift functionality.
 2. <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">ROI:</span>&nbsp;Within this tab a region of interest (ROI) can be specified and applied to the field of view of the camera. The region is specified in the preview window of µManager. Select the Rectangle tool and create a selection inside the preview window. The window will open up by clicking *Live view*. When the ROI is specified, click the <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Apply</span>&nbsp;button.
 3. <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">Binning:</span>&nbsp;Different binning options can be selected before acquisition, e.g. **2x2** or **3x3** binning. Higher Binning settings combines the charge of more pixels, which increases the signal to noise ratio (SNR) and results in higher camera frame rates but on the expanse of pixel resolution.
-4. <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Acquire:</span>&nbsp;Clicking this button will start the currently set up imaging session.
+4. <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Live:</span>&nbsp;Clicking this button will toggle the camera into live view. The exposure values can be changed below.
+5. <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Acquire:</span>&nbsp;Clicking this button will start the currently set up imaging session.
 
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(I)</span> **Preview of imaging session**</br>
 Here a simple schematic overview is given showing the current list of time points that have been set up.
