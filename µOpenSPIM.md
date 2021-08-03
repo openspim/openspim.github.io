@@ -170,7 +170,7 @@ All input settings created by the user including Positions, Time points and Chan
 2.  Click <span style="color:#FFA500; background-color:#DCDCDC; font-weight:bold">LOAD</span>&nbsp;to load previously saved acquisition settings.
 3.  Click <span style="color:#FA8072; background-color:#DCDCDC; font-weight:bold">CLEAR</span>&nbsp;to clear the Acquisition panel from all settings and tables.
 
-<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(H)</span> **Acquisition settings**</br>
+<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(H)</span> **Acquisition**</br>
 After all positions and number of time points have been specified, it's almost time to start imaging. However, there are still a few options worth considering before starting the acquisition process such as ROI, Anti-Drift and Binning. It's also worth checking one more time if the correct saving format has been chosen and whether Maximum Intensity Projections should be generated on the fly.
 1. <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Acquire:</span>&nbsp;Clicking this button will start the currently set up imaging session.
 2. <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">Anti-Drift:</span>&nbsp;Click the Anti-drift tab to enable it with the aim to prevent the sample from leaving its initial predefined position. One can choose between Phase Correlation (whereby entire volume of a 3d-stack is taken into account) or Centre of Mass (whereby drifts are only corrected in x, y but not in z). Note that high concentrations of fluorescent beads surrounding the sample may disarrange the Anti-Drift logic.
