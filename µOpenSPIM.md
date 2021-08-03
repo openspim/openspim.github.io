@@ -8,7 +8,7 @@
 -   Arduino UNO support for basic but efficient control of several connected hardware devices so that OpenSPIM users can quickly benefit from improved image acquisition speed and acquisition accuracy
 -   An option for on-the-fly maximum intensity projections
 -   A Picard Stage calibration feature to correct rotational inaccuracies and to improve the 4D-USB stage control
--   A tested Anti-drift logic similar to the old plugin but with new options that can help with keeping a drifting sample within the field of view during long term image acquisition
+-   A tested Anti-drift functionality similar to the old plugin but with new options that can help with keeping a drifting sample within the field of view during long term image acquisition
 - And more to come...
 
 ## µOpenSPIM requirements
@@ -19,8 +19,8 @@
 
 ## Installation and start-up of µOpenSPIM
 -   Right now, µOpenSPIM is in its beta stage and works with µManager 2.0.1 20210721 for Windows (nightly build 21 July 2021).
--   See also the [µOpenSPIM-Github Site](https://github.com/openspim/micro-OpenSPIM).
-1.  Please download and install the [64-bit](https://valelab4.ucsf.edu/~MM/nightlyBuilds/2.0/Windows/MMSetup_64bit_2.0.1_20210721.exe) build of [µManager](https://micro-manager.org/) and follow its *Hardware Configuration Wizard* to create a functional configuration file (.cfg) that allows µManager to control the OpenSPIM hardware. On the first time startup of µOpenSPIM users will be asked to select the file location of µManager.
+-   See also our [µOpenSPIM-Github Site](https://github.com/openspim/micro-OpenSPIM).
+1.  Please [download](https://valelab4.ucsf.edu/~MM/builds/2.0/Mac/Micro-Manager-2.0.0.dmg) and install the [64-bit](https://valelab4.ucsf.edu/~MM/nightlyBuilds/2.0/Windows/MMSetup_64bit_2.0.1_20210721.exe) build of [µManager](https://micro-manager.org/) and follow its *Hardware Configuration Wizard* to create a functional configuration file (.cfg) that allows µManager to control the OpenSPIM hardware. On the first time startup of µOpenSPIM users will be asked to select the file location of µManager.
 2.  Download µOpenSPIM for <strong>[Windows 64-bit](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.2/OpenSPIM_setup.exe)</strong> or <strong>[MacOSX](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.2/OpenSPIM-1.0.dmg)</strong> and follow the installation guide.
 
 3.  In the starting window multiple µManager configuration files can be added, removed and selected. Click *Add .cfg file* to add and then select your working µManager configuration file ending with .cfg. Then click the *Start* button. After loading the hardware µManager should now be ready for use.
@@ -70,7 +70,7 @@ A stack is a sandwich of many image slices of different focus levels of the samp
 2.  Add at least one channel (either Software Controlled or Arduino Controlled) to the Channels list and set each channel's exposure time.
 3.  &nbsp;<img src="https://openspim.org/images/specify_dir.png" width="20">&nbsp;Clicking this button will allow you to specify an Output directory. A metadata file of all acquisition settings will additionally be saved into the Output directory.
 4.  Optionally:
-    -   Enable Anti-Drift: choose between Phase Correlation (logic is based on the 3d-stack with x, y, and z coordinates) or Centre of Mass (logic is only based on x, y coordinates). Note that beads surrounding the sample might affect the Anti-Drift.
+    -   Enable Anti-Drift: choose between Phase Correlation (functionality is based on the 3d-stack with x, y, and z coordinates) or Centre of Mass (functionality is only based on x, y coordinates). Note that beads surrounding the sample might affect the Anti-Drift.
     -   Select a region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Apply</span>.
     -   Enable Binning: Choose one of the binning options and press apply.
 5.  Click <span style="color:#008000; background-color:#DCDCDC; font-weight:bold">Acquire</span>&nbsp;to begin the time-lapse recording.
@@ -83,7 +83,7 @@ A stack is a sandwich of many image slices of different focus levels of the samp
 2.  Click <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Add Pos.</span>&nbsp;to add the newly defined Z stack to the position list on the left and specify how often the stack should be imaged and set the recurring time interval (in seconds, minutes, hours or days).
 3.  &nbsp;<img src="https://openspim.org/images/specify_dir.png" width="20">&nbsp;Clicking this button will allow you to specify an Output directory. A metadata file of all acquisition settings will additionally be saved into the Output directory.
 4.  Optionally:
-    - Enable Anti-Drift: choose between Phase Correlation (logic is based on the 3d-stack with x, y, and z) or Centre of Mass (logic based on x, y). Note that beads surrounding the sample might affect the Anti-Drift.
+    - Enable Anti-Drift: choose between Phase Correlation (functionality is based on the 3d-stack with x, y, and z) or Centre of Mass (functionality based on x, y). Note that beads surrounding the sample might affect the Anti-Drift.
     - Select a Region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Apply</span>.
     - Enable Binning: Choose one of the binning options and press apply.
     - Turn on <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">Show/Save Maximum Intensity Projections of each TP</span>&nbsp;to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own subfolder within the Output directory.
@@ -100,7 +100,7 @@ To record multiple views of a sample over time:
 2.  After clicking <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Add Pos.</span>&nbsp;specify how often the stack(s) or view(s) should be imaged and set the recurring time interval (in seconds, minutes, hours or days).  Add acquisition breaks by clicking <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Add Pause</span>&nbsp;and specify its length. Click <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Add TP</span>&nbsp;to add new time lapse span which will continue after the acquisition break.
 3.  &nbsp;<img src="https://openspim.org/images/specify_dir.png" width="20">&nbsp;Clicking this button will allow you to specify an Output directory. A metadata file of all acquisition settings will additionally be saved into the Output directory.
 4.  Optionally:
-    - Enable Anti-Drift: choose between Phase Correlation (logic is based on the 3d-stack with x, y, and z) or Centre of Mass (logic based on x, y). Note that beads surrounding the sample might affect the Anti-Drift.
+    - Enable Anti-Drift: choose between Phase Correlation (functionality is based on the 3d-stack with x, y, and z) or Centre of Mass (functionality based on x, y). Note that beads surrounding the sample might affect the Anti-Drift.
     - Select a Region of interest (ROI): Select a ROI with the Rectangle tool in the µManager's preview window, which will pop up when you click *Live View*. Then click <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Apply</span>.
     - Enable Binning: Choose one of the binning options and press apply.
     - Turn on <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">Show/Save Maximum Intensity Projections of each TP</span>&nbsp;to receive a Maximum Intensity Projection (MIP) after the stack has been fully acquired. The MIP will be saved into its own subfolder within the Output directory.
@@ -172,7 +172,7 @@ All input settings created by the user including Positions, Time points and Chan
 
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(H)</span> **Acquisition**</br>
 After all positions and number of time points have been specified, it's almost time to start imaging. However, there are still a few options worth considering before starting the acquisition process such as ROI, Anti-Drift and Binning. It's also worth checking one more time if the correct saving format has been chosen and whether Maximum Intensity Projections should be generated on the fly.
-1. <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">Anti-Drift:</span>&nbsp;Click the Anti-drift tab to enable it with the aim to prevent the sample from leaving its initial predefined position. One can choose between Phase Correlation (whereby entire volume of a 3d-stack is taken into account) or Centre of Mass (whereby drifts are only corrected in x, y but not in z). Note that high concentrations of fluorescent beads surrounding the sample may disarrange the Anti-Drift logic. 
+1. <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">Anti-Drift:</span>&nbsp;Click the Anti-drift tab to enable it with the aim to prevent the sample from leaving its initial predefined position. One can choose between Phase Correlation (whereby entire volume of a 3d-stack is taken into account) or Centre of Mass (whereby drifts are only corrected in x, y but not in z). Note that high concentrations of fluorescent beads surrounding the sample may disarrange the Anti-Drift functionality.
 2. <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">ROI:</span>&nbsp;Within this tab a region of interest (ROI) can be specified and applied to the field of view of the camera. The region is specified in the preview window of µManager. Select the Rectangle tool and create a selection inside the preview window. The window will open up by clicking *Live view*. When the ROI is specified, click the <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Apply</span>&nbsp;button.
 3. <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">Binning:</span>&nbsp;Different binning options can be selected before acquisition, e.g. **2x2** or **3x3** binning. Higher Binning settings combines the charge of more pixels, which increases the signal to noise ratio (SNR) and results in higher camera frame rates but on the expanse of pixel resolution.
 4. <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Acquire:</span>&nbsp;Clicking this button will start the currently set up imaging session.
