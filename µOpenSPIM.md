@@ -111,8 +111,8 @@ To record multiple views of a sample over time:
 The following image will introduce you to the location of all available controls to set up an imaging session.</br>
 For a more detailed description follow this link: <strong>[Detailed Acquisition controls for µOpenSPIM.](https://openspim.org/images/%C2%B5OpenSPIM_Acquisition_08-03.jpg)</strong>
 <figure>
-  <img src="https://openspim.org/images/µOpenSPIM_Acquisition_08-03.jpg" width="1317">
-<figcaption>Acquisition Controls of the µOpenSPIM GUI (A-I) with the Picard 4D-stage controls on the top right (J) and the Console window on the bottom right  (K). For a higher resolution image click <a href=\images/%C2%B5OpenSPIM_Acquisition.jpg>here.</a>
+  <a href="https://openspim.org/images/%C2%B5OpenSPIM_Acquisition_08-03.jpg" target="_blank" title="µOpenSPIM-Acquisition panel"><img src="https://openspim.org/images/µOpenSPIM_Acquisition_08-03.jpg" width="1317"></a>
+<figcaption>Acquisition Controls of the µOpenSPIM GUI (A-I) with the Picard 4D-stage controls on the top right (J) and the Console window on the bottom right  (K). For a higher resolution image click <a href=\images/%C2%B5OpenSPIM_Acquisition_08-03.jpg>here.</a>
 </figcaption>
 </figure>  
 
