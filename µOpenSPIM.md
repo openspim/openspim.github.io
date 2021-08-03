@@ -165,7 +165,7 @@ This table provides a summary of the final imaging session with its current sett
 6.  Here notes can be written down, which will be saved as an additional Note.txt file into the Output directory.
 
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(G)</span> **Save/Load settings**</br>
-All input settings created by the user including Positions, Time points and Channels can be saved here and layer loaded again.
+All input settings created by the user including Positions, Time points and Channels can be saved here and loaded again at a later time point.
 1.  Click <span style="color:#008000; background-color:#DCDCDC; font-weight:bold">SAVE</span>&nbsp;to save all acquisition settings as an .xml file.
 2.  Click <span style="color:#FFA500; background-color:#DCDCDC; font-weight:bold">LOAD</span>&nbsp;to load previously saved acquisition settings.
 3.  Click <span style="color:#FA8072; background-color:#DCDCDC; font-weight:bold">CLEAR</span>&nbsp;to clear the Acquisition panel from all settings and tables.
