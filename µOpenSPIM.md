@@ -179,6 +179,7 @@ After all positions and number of time points have been specified, it's almost t
 
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(I)</span> **Preview of imaging session**</br>
 Here a simple schematic overview is given showing the current list of time points that have been set up.
+
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(J)</span> **Stage**</br>
 Here you can move the four stepper motors of the 4D-stage Stages (X, Y, Z, R), calibrate the rotational stepper size (R Stage), save and load current positions and inverse the axis of the x and y stage, which might be crucial for the Anti-Drift to work correctly.
     
