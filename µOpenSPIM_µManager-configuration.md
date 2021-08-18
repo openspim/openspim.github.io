@@ -60,11 +60,10 @@ If one is not yet familiar with µManager’s Hardware Configuration Wizard, its
 </br>
 You can also watch the video below to see how an ArduinoUNO board is configured for camera-laser synchronization in an OpenSPIM in the same way as described below.</br>
 <a href="https://openspim.org/videos/SettingUp_ArduinoUNO.mp4" target="_blank" title="How to create a .cfg file using µManager's Hardware Configuration Wizard"><img src="https://openspim.org/videos/SettingUp_ArduinoUNO.gif" width="300" alt="Creating a .cfg file using µManager's Hardware Configuration Wizard." /></a>
-</br>
--	Step 1: Download and install the open-source Arduino UNO software (IDE:https://www.arduino.cc/en/Main/Software
 
--	Step 2: USB-connect the Arduino board to your acquisition computer and upload the Arduino UNO firmware source code via a blank sketch window to the board. The firmware source code can be found e.g., on the µManager website under the following link:
-https://valelab4.ucsf.edu/svn/micromanager2/trunk/DeviceAdapters/Arduino/AOTFcontroller/AOTFcontroller.ino
+-	Step 1: Download and install the open-source [Arduino UNO software (IDE:)](https://www.arduino.cc/en/Main/Software).
+
+-	Step 2: USB-connect the Arduino board to your acquisition computer and upload the Arduino UNO firmware source code via a blank sketch window to the board. The firmware source code can be found e.g., on the µManager website under the [following link](https://valelab4.ucsf.edu/svn/micromanager2/trunk/DeviceAdapters/Arduino/AOTFcontroller/AOTFcontroller.ino).
 
 -	Step 3: Run µManager’s “Hardware Configuration Wizard” (Toolbar > Devices) and choose to modify your current µManager or create a new configuration file. Then select the “Arduino” folder from the Available Devices list and add the “Arduino-Hub” from within.
 Provide the correct “Port value”, which can be looked up in the Device Manager’s Ports list of Windows, where the connected Arduino UNO is listed. 
@@ -74,9 +73,11 @@ Make sure that the “Arduino-Hub”, “Arduino-Switch” and “Arduino-Shutte
 
 -	Step 4: After the “Hardware Configuration Wizard” is completed, a new group should be created within µManager’s “Configuration Settings”, called “System”. In case this group already exists, due to the previous multi camera steps, simply select the group and press “Edit”. Within the Group Editor select the following features from the Property Name list and add them:
 </br>
-	-	“Arduino-Switch-Blanking Mode”
-	-	“VLT_VersaLase-LASER_{A-D}_LaserEmission”
-	-	“VLT_VersaLase-LASER_{A-D}_DigitalModulation” (in case a VersaLase is used)
+</br>
+-	“Arduino-Switch-Blanking Mode”
+-	“VLT_VersaLase-LASER_{A-D}_LaserEmission”
+-	“VLT_VersaLase-LASER_{A-D}_DigitalModulation” (in case a VersaLase is used)
+</br>
 </br>
 Confirm by pressing “OK”, and select the newly created “System”-Group. Then specify the “Current Property Value” for all previously selected devices by pressing the Preset-”Edit” button. Set the “Arduino-Switch-Blanking Mode”, the “VLT_VersaLase-LASER_{A-D} LaserEmission” as well as the “VLT_VersaLase-LASER_{A-D}_DigitalModulation” to “ON” and press “OK”. 
 As already mentioned previously in the Multi-Camera section, we recommend changing the preset Name to ‘Startup’. This will automatically set all properties within the “System”-Group to the given preset values whenever µManager is started.
