@@ -75,22 +75,15 @@ In the “Peripheral Devices” setup step, select the “Arduino-Switch” and 
 Make sure that the “Arduino-Hub”, “Arduino-Switch” and “Arduino-Shutter” are listed in µManager’s “Installed Devices”. During the subsequent steps of the “Hardware Configuration Wizard” select the “Arduino Shutter” as the “Default Shutter”.
 
 -	Step 4:
-After the “Hardware Configuration Wizard” is completed, a new group should be created within µManager’s “Configuration Settings”, called “System”. In case this group already exists, due to the previous multi camera steps, simply select the group and press “Edit”. Within the Group Editor select the following features from the Property Name list and add them:
-</br>
+After the “Hardware Configuration Wizard” is completed, a new group should be created within µManager’s “Configuration Settings”, called “System”. In case this group already exists, due to the previous multi camera steps, simply select the group and press “Edit”. Within the Group Editor select the following features from the Property Name list and add them:</br>
 “Arduino-Switch-Blanking Mode”</br>
 “VLT_VersaLase-LASER_{A-D}_LaserEmission”</br>
-“VLT_VersaLase-LASER_{A-D}_DigitalModulation” (in case a VersaLase is used)
-</br>
-</br>
-Confirm by pressing “OK”, and select the newly created “System”-Group. Then specify the “Current Property Value” for all previously selected devices by pressing the Preset-”Edit” button. Set the “Arduino-Switch-Blanking Mode”, the “VLT_VersaLase-LASER_{A-D} LaserEmission” as well as the “VLT_VersaLase-LASER_{A-D}_DigitalModulation” to “ON” and press “OK”. 
+“VLT_VersaLase-LASER_{A-D}_DigitalModulation” (in case a VersaLase is used)</br>
+</br>Confirm by pressing “OK”, and select the newly created “System”-Group. Then specify the “Current Property Value” for all previously selected devices by pressing the Preset-”Edit” button. Set the “Arduino-Switch-Blanking Mode”, the “VLT_VersaLase-LASER_{A-D} LaserEmission” as well as the “VLT_VersaLase-LASER_{A-D}_DigitalModulation” to “ON” and press “OK”. 
 As already mentioned previously in the Multi-Camera section, we recommend changing the preset Name to ‘Startup’. This will automatically set all properties within the “System”-Group to the given preset values whenever µManager is started.
 In case the “System” Group with its “Startup” presets is not created, the “Property Values” have to be set correctly in the “Device Property Browser” every time µManager is started.
 As shown in Figure 21, one can combine the Multi Camera property settings and presets for Binning and the camera triggering settings. We advise to create an additional group for each laser line (DigitalPeakPowerSetting), which can be used to control the digital peak power of both laser lines.</br>
 </br>
--	Step 5 (Optional):
-For imaging with µManager’s “Multi-Dimensional Acquisition” (MDA) we recommend creating another “Group” called e.g., “Channels” where the “Arduino-Switch-State” can be selected to toggle the digital output pattern across Pin-8 to Pin-13.
-It is useful to get familiarized with the digital output pattern to better understand how pins 8-13 are switched using single number values from 0-63 as described at the [Arduino µManager website](https://micro-manager.org/wiki/Arduino). In our example we will toggle between pin 13 and pin 12 with the Arduino-Switch-State values 16 and 32 respectively. Figure 23 depicts how Pin-13 and Pin-12 are wired to control the two laser shutters, 488 and 561 respectively.
-
 -	Step 5 (Optional):
 For imaging with µManager’s “Multi-Dimensional Acquisition” (MDA) we recommend creating another “Group” called e.g., “Channels” where the “Arduino-Switch-State” can be selected to toggle the digital output pattern across Pin-8 to Pin-13.
 It is useful to get familiarized with the digital output pattern to better understand how pins 8-13 are switched using single number values from 0-63 as described at the [Arduino µManager website](https://micro-manager.org/wiki/Arduino). In our example we will toggle between pin 13 and pin 12 with the Arduino-Switch-State values 16 and 32 respectively. Figure 23 depicts how Pin-13 and Pin-12 are wired to control the two laser shutters, 488 and 561 respectively.
