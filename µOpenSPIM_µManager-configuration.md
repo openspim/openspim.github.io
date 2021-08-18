@@ -30,7 +30,10 @@ To shorten this step, we added another group by selecting the Utility “Core Ca
 </br>
 For multi camera imaging we recommend using a decent acquisition computer. E.g., we use a HPZ820 workstation with multiple processors and, notably, found that enabling the non-uniform memory access (NUMA) in the BIOS greatly improves image acquisition stability.
 
-<a href="https://openspim.org/images/ConfigCameras.png" target="_blank" title="Configuring the MultiCamera in µManager"><img src="https://openspim.org/images/ConfigCameras.png" width="800"></a>
+<a href="https://openspim.org/images/ConfigCameras.png" target="_blank" title="Configuring the MultiCamera in µManager"><img src="https://openspim.org/images/ConfigCameras.png" width="800"><figcaption>Multi camera “Startup” preset values of the newly created “System” configuration group in µManager.</figcaption></a>
+
+
+Multi camera “Startup” preset values of the newly created “System” configuration group in µManager.
 
 
 ## Pixel size calibration
