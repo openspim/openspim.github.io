@@ -30,10 +30,7 @@ To shorten this step, we added another group by selecting the Utility “Core Ca
 </br>
 For multi camera imaging we recommend using a decent acquisition computer. E.g., we use a HPZ820 workstation with multiple processors and, notably, found that enabling the non-uniform memory access (NUMA) in the BIOS greatly improves image acquisition stability.
 
-<a href="https://openspim.org/images/ConfigCameras.png" target="_blank" title="Configuring the MultiCamera in µManager"><img src="https://openspim.org/images/ConfigCameras.png" width="700"><figcaption>Multi camera “Startup” preset values of the newly created “System” configuration group in µManager.</figcaption></a>
-
-
-Multi camera “Startup” preset values of the newly created “System” configuration group in µManager.
+<a href="https://openspim.org/images/ConfigCameras.png" target="_blank" title="Configuring the MultiCamera in µManager"><img src="https://openspim.org/images/ConfigCameras.png" width="800"><figcaption>Multi camera “Startup” preset values of the newly created “System” configuration group in µManager.</figcaption></a>
 
 
 ## Pixel size calibration
@@ -58,6 +55,11 @@ Therefore we have a Image Pixel Size of 6.5 x Binning / 40 x 1 x 1, which equals
 We don't worry about the Binning as µManager is taking this automatically into account.
 
 ## Setting up an Arduino microcontroller in µManager
-A detailed description on how to configure and set up an ArduinoUNO board for hardware controlled imaging with µOpenSPIM is coming soon.</br>
-You can already watch the video below to see how we configure an ArduinoUNO board for camera-laser synchronization in an OpenSPIM.</br>
+The following steps depict how an ArduinoUNO board can be configured to enable hardware-controlled triggering of two laser lines (in our case a 488 and 561 laser; see also Figure 23).
+If one is not yet familiar with µManager’s Hardware Configuration Wizard, its Device Property Browser and how to create Configuration “Groups” and “Presets”, we recommend first reading through µManager’s [Configuration Guide](https://micro-manager.org/wiki/Micro-Manager_Configuration_Guide).
+</br>
+You can also watch the video below to see how an ArduinoUNO board is configured for camera-laser synchronization in an OpenSPIM.</br>
 <a href="https://openspim.org/videos/SettingUp_ArduinoUNO.mp4" target="_blank" title="How to create a .cfg file using µManager's Hardware Configuration Wizard"><img src="https://openspim.org/videos/SettingUp_ArduinoUNO.gif" width="300" alt="Creating a .cfg file using µManager's Hardware Configuration Wizard." /></a>
+
+
+
