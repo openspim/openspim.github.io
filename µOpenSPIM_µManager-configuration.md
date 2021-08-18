@@ -18,7 +18,7 @@ Use the “Hardware Configuration Wizard” to add the “Multi Camera” option
 Create a new “Group” within µManager’s configuration settings named “System”. This step is necessary to specify the physical camera properties. To do so, one has to go into the Group Editor by pressing the Group “Edit” button and tick the Multi Camera-Physical Camera 1 and Multi Camera-Physical Camera 2 from the Property Name list. Furthermore, the “Core-Camera”, “Binning” and “TriggerMode” has to be added for both cameras and confirmed with OK.
 
 -	Step 4:
-Now is the time to edit all preset values of our newly created “System” group. Press the ”Edit” button of the preset panel. In there one can specify the Andor sCMOS Camera-1 as Multi Camera-Physical Camera 1 and Andor sCMOS Camera-2 as Multi Camera-Physical Camera-2. Additionally, the “TriggerMode” of Camera-1 (the ‘Slave’) has to be set to “External” and of Camera-2 (the ‘Master’) to “Internal (Recommended for fast acquisition)”. Subsequently we recommend to set both Cameras to 2x2 binning. All above mentioned preset values are shown in Figure 19.
+Now is the time to edit all preset values of our newly created “System” group. Press the ”Edit” button of the preset panel. In there one can specify the Andor sCMOS Camera-1 as Multi Camera-Physical Camera 1 and Andor sCMOS Camera-2 as Multi Camera-Physical Camera-2. Additionally, the “TriggerMode” of Camera-1 (the ‘Slave’) has to be set to “External” and of Camera-2 (the ‘Master’) to “Internal (Recommended for fast acquisition)”. Subsequently we recommend to set both Cameras to 2x2 binning. All above mentioned preset values are shown in the figure below.
 
 -	Step 5:
 Furthermore, we advise to follow µManager’s “Multi-Camera” recommendations and set the preset name to “Startup” as this will automatically set all Properties within the “System”-Group to any given preset value during µManager’s startup.
@@ -30,7 +30,7 @@ To shorten this step, we added another group by selecting the Utility “Core Ca
 </br>
 For multi camera imaging we recommend using a decent acquisition computer. E.g., we use a HPZ820 workstation with multiple processors and, notably, found that enabling the non-uniform memory access (NUMA) in the BIOS greatly improves image acquisition stability.
 
-
+<a href="https://openspim.org/images/ConfigCameras.png" target="_blank" title="Configuring the MultiCamera in µManager"><img src="https://openspim.org/images/ConfigCameras.png" width="800"></a>
 
 
 ## Pixel size calibration
