@@ -76,6 +76,7 @@ Make sure that the “Arduino-Hub”, “Arduino-Switch” and “Arduino-Shutte
 
 -	Step 4:
 After the “Hardware Configuration Wizard” is completed, a new group should be created within µManager’s “Configuration Settings”, called “System”. In case this group already exists, due to the previous multi camera steps, simply select the group and press “Edit”. Within the Group Editor select the following features from the Property Name list and add them:</br>
+</br>
 “Arduino-Switch-Blanking Mode”</br>
 “VLT_VersaLase-LASER_{A-D}_LaserEmission”</br>
 “VLT_VersaLase-LASER_{A-D}_DigitalModulation” (in case a VersaLase is used)</br>
