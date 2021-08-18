@@ -81,6 +81,7 @@ After the “Hardware Configuration Wizard” is completed, a new group should b
 “VLT_VersaLase-LASER_{A-D}_LaserEmission”</br>
 “VLT_VersaLase-LASER_{A-D}_DigitalModulation” (in case a VersaLase is used)
 </br>
+</br>
 Confirm by pressing “OK”, and select the newly created “System”-Group. Then specify the “Current Property Value” for all previously selected devices by pressing the Preset-”Edit” button. Set the “Arduino-Switch-Blanking Mode”, the “VLT_VersaLase-LASER_{A-D} LaserEmission” as well as the “VLT_VersaLase-LASER_{A-D}_DigitalModulation” to “ON” and press “OK”. 
 As already mentioned previously in the Multi-Camera section, we recommend changing the preset Name to ‘Startup’. This will automatically set all properties within the “System”-Group to the given preset values whenever µManager is started.
 In case the “System” Group with its “Startup” presets is not created, the “Property Values” have to be set correctly in the “Device Property Browser” every time µManager is started.
