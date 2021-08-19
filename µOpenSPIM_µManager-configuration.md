@@ -88,7 +88,7 @@ As shown in Figure 21, one can combine the Multi Camera property settings and pr
 </br>
 -	Step 5 (Optional):
 For imaging with µManager’s “Multi-Dimensional Acquisition” (MDA) we recommend creating another “Group” called e.g., “Channels” where the “Arduino-Switch-State” can be selected to toggle the digital output pattern across Pin-8 to Pin-13.
-It is useful to get familiarized with the digital output pattern to better understand how pins 8-13 are switched using single number values from 0-63 as described at the [Arduino µManager website](https://micro-manager.org/wiki/Arduino). In our example we will toggle between pin 13 and pin 12 with the Arduino-Switch-State values 16 and 32 respectively. Figure 23 depicts how Pin-13 and Pin-12 are wired to control the two laser shutters, 488 and 561 respectively.
+It is useful to get familiarized with the digital output pattern to better understand how pins 8-13 are switched using single number values from 0-63 as described at the [Arduino µManager website](https://micro-manager.org/Arduino). In our example we will toggle between pin 13 and pin 12 with the Arduino-Switch-State values 16 and 32 respectively. Figure 23 depicts how Pin-13 and Pin-12 are wired to control the two laser shutters, 488 and 561 respectively.
 
 -	Step 6:
 Make sure the digital outputs of Pin-13 to Pin-8 of the Arduino board are correctly triggered by the digital exposure signal of the sCMOS “master” camera, which has to be wired to the Pin-2 digital input on the Arduino UNO board as shown in Figure 23.
