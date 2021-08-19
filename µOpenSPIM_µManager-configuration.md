@@ -1,4 +1,4 @@
-##	Creating a working .cfg file using µManager's Hardware Configuration Wizard
+##	**Creating a working .cfg file using µManager's Hardware Configuration Wizard**
 
 The following video shows how a working .cfg file was created from scratch for the described [X-OpenSPIM](/Table_of_parts_X-OpenSPIM) using µManager's Hardware Configuration Wizard.</br></br>
 
@@ -52,7 +52,7 @@ As an example:</br>
 Our two Andor sCMOS Neo 5.5 cameras have 6.5 µm pixels and the X-OpenSPIM is equipped with 40x detection objectives (CFI Apochromat NIR 40X W, Nikon). Camera mounts retain a 1x magnification and there are no additional zoom optics installed into the detection axis.</br>
 
 Therefore we have a Image Pixel Size of 6.5 x Binning / 40 x 1 x 1, which equals a Pixel Size value of 0.1625 µm.</br>
-We don't worry about the Binning as µManager is taking this automatically into account.
+We don't worry about the Binning as µManager is taking this into account automatically.
 
 ## Setting up an Arduino microcontroller in µManager
 The following steps depict how an ArduinoUNO board can be configured to enable hardware-controlled triggering of two laser lines (in our case a 488 and 561 laser; see also Figure 23).
