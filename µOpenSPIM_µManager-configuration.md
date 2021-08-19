@@ -54,7 +54,7 @@ Our two Andor sCMOS Neo 5.5 cameras have 6.5 µm pixels and the X-OpenSPIM is eq
 Therefore we have a Image Pixel Size of 6.5 x Binning / 40 x 1 x 1, which equals a Pixel Size value of 0.1625 µm.</br>
 We don't worry about the Binning as µManager is taking this into account automatically.
 
-## **Setting up an Arduino microcontroller in µManager**
+## **Setting up an ArduinoUNO microcontroller in µManager**
 The following steps depict how an ArduinoUNO board can be configured to enable hardware-controlled triggering of two laser lines (in our case a 488 and 561 laser; see also Figure 23).
 If one is not yet familiar with µManager’s Hardware Configuration Wizard, its Device Property Browser and how to create Configuration “Groups” and “Presets”, we recommend first reading through µManager’s [Configuration Guide](https://micro-manager.org/wiki/Micro-Manager_Configuration_Guide).
 </br>
@@ -82,7 +82,7 @@ After the “Hardware Configuration Wizard” is completed, a new group should b
 Confirm by pressing “OK”, and select the newly created “System”-Group. Then specify the “Current Property Value” for all previously selected devices by pressing the Preset-”Edit” button. Set the “Arduino-Switch-Blanking Mode”, the “VLT_VersaLase-LASER {A-D} LaserEmission” as well as the “VLT_VersaLase-LASER {A-D} DigitalModulation” to “ON” and press “OK”. As already mentioned previously in the Multi-Camera section, we recommend changing the preset Name to ‘Startup’. This will automatically set all properties within the “System”-Group to the given preset values whenever µManager is started. In case the “System” Group with its “Startup” presets is not created, the “Property Values” have to be set correctly in the “Device Property Browser” every time µManager is started. As shown in the figure below, one can combine the Multi Camera property settings and presets for Binning and the camera triggering settings. We advise to create an additional group for each laser line (DigitalPeakPowerSetting), which can be used to control the digital peak power of both laser lines.</br>
 
 </br></br>
-<a href="https://openspim.org/images/ConfigCameras.png" target="_blank" title="Configuring the MultiCamera in µManager"><img src="https://openspim.org/images/ConfigArduinoLaser.png" width="750"><figcaption>Multi camera “Startup” preset values of the newly created “System” configuration group in µManager.</figcaption></a></br>
+<a href="https://openspim.org/images/ConfigArduinoLaser.png" target="_blank" title="Configuring an ArduinoUNO board in µManager for Camera-Laser synchronization"><img src="https://openspim.org/images/ConfigArduinoLaser.png" width="750"><figcaption>Multi camera “Startup” preset values of the newly created “System” configuration group in µManager.</figcaption></a></br>
 
 -   <span style="color:#000000; font-weight:bold">Step 5: (Optional)</span>
 For imaging with µManager’s “Multi-Dimensional Acquisition” (MDA) we recommend creating another “Group” called e.g., “Channels” where the “Arduino-Switch-State” can be selected to toggle the digital output pattern across Pin-8 to Pin-13.
