@@ -70,33 +70,32 @@ Download and install the open-source [Arduino UNO software (IDE:)](https://www.a
 USB-connect the Arduino board to your acquisition computer and upload the Arduino UNO firmware source code via a blank sketch window to the board. The firmware source code can be found e.g., on the µManager website under the [following link](https://valelab4.ucsf.edu/svn/micromanager2/trunk/DeviceAdapters/Arduino/AOTFcontroller/AOTFcontroller.ino).
 
 -   <span style="color:#000000; font-weight:bold">Step 3:</span>
+The laser itself has to be set into the correct state in order to receive the digital trigger signal from the Arduino board. The VersaLase laser system offers several trigger modes (analogue modulation via BNC or RS232, external triggering via BNC and digital modulation via SMB connectivity). In order to use the available SMB connectivity, the VersaLase settings have to be set to emission and digital modulation “ON”, while External control has to be set to “OFF”. Initially, this has to be done and checked within the VersaLase GUI software provided by the company.
+
+-   <span style="color:#000000; font-weight:bold">Step 4:</span>
 Run µManager’s “Hardware Configuration Wizard” (Toolbar > Devices) and choose to modify your current µManager or create a new configuration file. Then select the “Arduino” folder from the Available Devices list and add the “Arduino-Hub” from within.
 Provide the correct “Port value”, which can be looked up in the Device Manager’s Ports list of Windows, where the connected Arduino UNO is listed. 
 In the “Pre-Initialization Properties” set the “BaudRate” to ‘57600’ and the “Verbrose” to ‘0’.
 In the “Peripheral Devices” setup step, select the “Arduino-Switch” and “Arduino-Shutter” and press “OK”.
 Make sure that the “Arduino-Hub”, “Arduino-Switch” and “Arduino-Shutter” are listed in µManager’s “Installed Devices”. During the subsequent steps of the “Hardware Configuration Wizard” select the “Arduino Shutter” as the “Default Shutter”.
 
--   <span style="color:#000000; font-weight:bold">Step 4:</span>
+-   <span style="color:#000000; font-weight:bold">Step 5:</span>
 After the “Hardware Configuration Wizard” is completed, a new group should be created within µManager’s “Configuration Settings”, called “System”. In case this group already exists, due to the previous multi camera steps, simply select the group and press “Edit”. Within the Group Editor select the following features from the Property Name list and add them:</br></br>
 “Arduino-Switch-Blanking Mode”</br>
-“VLT_VersaLase-LASER {A-D} LaserEmission”</br>
-“VLT_VersaLase-LASER {A-D} DigitalModulation” (in case a VersaLase is used)</br></br>
+“VLT_VersaLase-LASER {A-D} LaserEmission”</br></br>
 Confirm by pressing “OK”, and select the newly created “System”-Group. Then specify the “Current Property Value” for all previously selected devices by pressing the Preset-”Edit” button. Set the “Arduino-Switch-Blanking Mode”, the “VLT_VersaLase-LASER {A-D} LaserEmission” as well as the “VLT_VersaLase-LASER {A-D} DigitalModulation” to “ON” and press “OK”. As already mentioned previously in the Multi-Camera section, we recommend changing the preset Name to ‘Startup’. This will automatically set all properties within the “System”-Group to the given preset values whenever µManager is started. In case the “System” Group with its “Startup” presets is not created, the “Property Values” have to be set correctly in the “Device Property Browser” every time µManager is started. As shown in the figure below, one can combine the Multi Camera property settings and presets for Binning and the camera triggering settings. We advise to create an additional group for each laser line (DigitalPeakPowerSetting), which can be used to control the digital peak power of both laser lines.</br>
 
 </br>
 <a href="https://openspim.org/images/ConfigArduinoLaser.png" target="_blank" title="Configuring an ArduinoUNO board in µManager for Camera-Laser synchronization"><img src="https://openspim.org/images/ConfigArduinoLaser.png" width="750"><figcaption>Multi camera, Laser and Arduino “Startup” preset values for a newly created “System” configuration group in µManager.</figcaption></a></br>
 
--   <span style="color:#000000; font-weight:bold">Step 5: (Optional)</span>
+-   <span style="color:#000000; font-weight:bold">Step 6: (Optional)</span>
 For imaging with µManager’s “Multi-Dimensional Acquisition” (MDA) we recommend creating another “Group” called e.g., “Channels” where the “Arduino-Switch-State” can be selected to toggle the digital output pattern across Pin-8 to Pin-13.
 It is useful to get familiarized with the digital output pattern to better understand how pins 8-13 are switched using single number values from 0-63 as described at the [Arduino µManager website](https://micro-manager.org/Arduino). In our example we will toggle between pin 13 and pin 12 with the Arduino-Switch-State values 16 and 32 respectively. The figure below depicts how Pin-13 and Pin-12 are wired to control the two laser shutters, 488 and 561 respectively.
 
--   <span style="color:#000000; font-weight:bold">Step 6:</span>
+-   <span style="color:#000000; font-weight:bold">Step 7:</span>
 Make sure the digital outputs of Pin-13 to Pin-8 of the Arduino board are correctly triggered by the digital exposure signal of the sCMOS “master” camera, which has to be wired to the Pin-2 digital input on the Arduino UNO board as shown in the figure below.
 The trigger mechanism of a sCMOS camera is typically based on the digital exposure output of the “master” camera but there are several options how the synchronization of the camera with an Arduino board can be achieved. E.g., there are different FIRE output cables (such as Fire 1, Fire ALL, Fire n, et cetera) for some sCMOS Andor cameras), which can give distinctive trigger signals and depend among others things on the activation of rows on the camera’s sensor chip in case the camera uses a rolling shutter instead of a global shutter. We used the output cable labelled “FIRE”. In case an Andor camera is used, more information can be found at andor.oxinst.com under [the following link](https://andor.oxinst.com/learning/view/article/synchronizing-to-andor-scmos-cameras).
 After µManager’s Arduino Properties have been configured as described above and the sCMOS camera is wired to the Arduino UNO board and set into a state of exposure, e.g., by going “Live”, then the corresponding digital output pins (Pin-8 to Pin-13) will provide an approximate 5V value when measured. Make sure to test the 5V digital outputs prior to connecting them to any device. This can be done e.g., by using a voltmeter, oscilloscope or simply by making LED lights go on.
-
--   <span style="color:#000000; font-weight:bold">Step 7:</span>
-The laser itself has to be set into the correct state in order to receive the digital trigger signal. The VersaLase laser system offers several trigger modes (analogue modulation via BNC or RS232, external triggering via BNC and digital modulation via SMB connectivity). One can use the available SMB connectivity, meaning that within µManager’s Device Property Browser the VersaLase settings have to be set to emission “ON” and digital modulation “ON”. External control has to be set to “OFF”, which can be done and checked within the VersaLase GUI software provided by the company.
 
 A full circuit of the described X-OpenSPIM using an ArduinoUNO microcontroller is shown below and also summarizes all according settings specified in µManager and within the VersaLase GUI software provided by the company.
 
