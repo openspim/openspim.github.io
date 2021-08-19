@@ -28,7 +28,7 @@ At this point the configuration settings for the two cameras are completed and c
 Finally, the “Multi Camera” of µManager’s Core Camera Utility has to be selected in the Device Property Browser before a single multi-channel image (1 channel per camera) can be acquired.
 To shorten this step, we added another group by selecting the Utility “Core Camera”. This allowed us to quickly switch between Camera 1, Camera 2 and Multi Camera within the “Configuration Settings”.
 </br></br>
-<a href="https://openspim.org/images/ConfigCameras.png" target="_blank" title="Configuring the MultiCamera in µManager"><img src="https://openspim.org/images/ConfigCameras.png" width="750"><figcaption>Multi camera “Startup” preset values of the newly created “System” configuration group in µManager.</figcaption></a></br></br>
+<a href="https://openspim.org/images/ConfigCameras.png" target="_blank" title="Configuring the MultiCamera in µManager"><img src="https://openspim.org/images/ConfigCameras.png" width="750"><figcaption>Multi camera “Startup” preset values of the newly created “System” configuration group in µManager.</figcaption></a></br>
 
 For multi camera imaging we recommend using a decent acquisition computer. E.g., we use a HPZ820 workstation with multiple processors and, notably, found that enabling the non-uniform memory access (NUMA) in the BIOS greatly improves image acquisition stability.
 
