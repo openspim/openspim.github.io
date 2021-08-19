@@ -3,7 +3,8 @@
 This site provides guidance on how to configure µManager so that an OpenSPIM can be operated using µOpenSPIM.
 Here one can learn how a working .cfg file is created, how multiple cameras are added to µManager and how an ArduinoUNO board has to be configured. Because every OpenSPIM system is typically equipped with different devices, it should be kept in mind that all step by step guides are written with respect to the <a href=\Table_of_parts_X-OpenSPIM>X-OpenSPIM</a> currently operating in the Tomancak lab.
 
-Take a look at the following figure, to quickly get an idea how the different devices are wired in the represented <a href=\Table_of_parts_X-OpenSPIM>X-OpenSPIM</a>.
+Take a look at the figure below, to quickly get an idea how the different devices are wired in the described <a href=\Table_of_parts_X-OpenSPIM>X-OpenSPIM</a>. The system is equipped with an ArduinoUNO. Its full circuit is shown schematically. Also necessary settings specified in µManager are also shown. Note that the Camera and Channel Groups are optional.
+
 </br>
 <a href="https://openspim.org/images/ArduinoCircuitSettings.png" align="center" target="_blank" title="Configuring an ArduinoUNO board in µManager for Camera-Laser synchronization"><img src="https://openspim.org/images/ArduinoCircuitSettings_1200.png" width="1200"><figcaption>Figure 1 - Arduino circuit to control two lasers in an X-OpenSPIM while simultaneously imaging with two sCMOS cameras.</figcaption></a></br>
 
@@ -105,7 +106,5 @@ It is useful to get familiarized with the digital output pattern to better under
 Make sure the digital outputs of Pin-13 to Pin-8 of the Arduino board are correctly triggered by the digital exposure signal of the sCMOS “master” camera, which has to be wired to the Pin-2 digital input on the Arduino UNO board as shown in the figure below.
 The trigger mechanism of a sCMOS camera is typically based on the digital exposure output of the “master” camera but there are several options how the synchronization of the camera with an Arduino board can be achieved. E.g., there are different FIRE output cables (such as Fire 1, Fire ALL, Fire n, et cetera) for some sCMOS Andor cameras), which can give distinctive trigger signals and depend among others things on the activation of rows on the camera’s sensor chip in case the camera uses a rolling shutter instead of a global shutter. We used the output cable labelled “FIRE”. In case an Andor camera is used, more information can be found at andor.oxinst.com under [the following link](https://andor.oxinst.com/learning/view/article/synchronizing-to-andor-scmos-cameras).
 After µManager’s Arduino Properties have been configured as described above and the sCMOS camera is wired to the Arduino UNO board and set into a state of exposure, e.g., by going “Live”, then the corresponding digital output pins (Pin-8 to Pin-13) will provide an approximate 5V value when measured. Make sure to test the 5V digital outputs prior to connecting them to any device. This can be done e.g., by using a voltmeter, oscilloscope or simply by making LED lights go on.
-
-A full circuit of the described X-OpenSPIM equipped with an ArduinoUNO microcontroller is shown below and gives an overview of the necessary settings specified in µManager and within the VersaLase GUI software provided by the company. Note that the Camera and Channel Groups are optional.
 
 
