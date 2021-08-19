@@ -33,7 +33,7 @@ To shorten this step, we added another group by selecting the Utility “Core Ca
 For multi camera imaging we recommend using a decent acquisition computer. E.g., we use a HPZ820 workstation with multiple processors and, notably, found that enabling the non-uniform memory access (NUMA) in the BIOS greatly improves image acquisition stability.
 
 
-## Pixel size calibration
+## **Pixel size calibration**
 It is also important to calibrate your Pixel Size correctly. To do this in µManager go to *Devices* > *Pixel Size Calibration* and specify the Pixel Size (µm). Before you can  *OK*, you have to select at least one of the devices from the "Property Name" table, e.g. Core-Initialize. Now click *OK* and save/overwrite the current configuration file.</br>
 
 If you don't know the correct Pixel Size value for your OpenSPIM system check:
@@ -54,7 +54,7 @@ Our two Andor sCMOS Neo 5.5 cameras have 6.5 µm pixels and the X-OpenSPIM is eq
 Therefore we have a Image Pixel Size of 6.5 x Binning / 40 x 1 x 1, which equals a Pixel Size value of 0.1625 µm.</br>
 We don't worry about the Binning as µManager is taking this into account automatically.
 
-## Setting up an Arduino microcontroller in µManager
+## **Setting up an Arduino microcontroller in µManager**
 The following steps depict how an ArduinoUNO board can be configured to enable hardware-controlled triggering of two laser lines (in our case a 488 and 561 laser; see also Figure 23).
 If one is not yet familiar with µManager’s Hardware Configuration Wizard, its Device Property Browser and how to create Configuration “Groups” and “Presets”, we recommend first reading through µManager’s [Configuration Guide](https://micro-manager.org/wiki/Micro-Manager_Configuration_Guide).
 </br>
