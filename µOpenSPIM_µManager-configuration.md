@@ -8,7 +8,7 @@ The following video shows how a working .cfg file was created from scratch for t
 The following step by step guide and example video demonstrate how to configure two sister cameras (2x Andor sCMOS Neo 5.5) in µManager to function as a single logical camera (Multi-Camera).The configuration is facilitated by the fact that both cameras are of the same type.</br> 
 <a href="https://openspim.org/videos/SettingUp_MultiCamera.mp4" target="_blank" title="How to create a .cfg file using µManager's Hardware Configuration Wizard"><img src="https://openspim.org/videos/SettingUp_MultiCamera.gif" width="500" alt="Creating a .cfg file using µManager's Hardware Configuration Wizard." /></a></br>
 
--	Step 1:
+-   <span style="color:#000000; background-color:#DCDCDC; font-weight:bold">Step 1:</span>
 Because both Andor cameras use the same device adapter, they can be added and named through the “Hardware Configuration Wizard” by selecting successively the “AndorSDK3” option within the folder of the same name from the list of available devices. Thereby the camera, which is initially added, should be considered the “slave” camera, whereas the second camera becomes the “master”. In case the two cameras are not of the same type, they must at least have the same width, height and pixel type properties.
 
 -	Step 2:
