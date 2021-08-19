@@ -3,11 +3,15 @@
 This site provides guidance on how to configure µManager so that an OpenSPIM can be operated using µOpenSPIM.
 Here one can learn how a working .cfg file is created, how multiple cameras are added to µManager and how an ArduinoUNO board has to be configured. Because every OpenSPIM system is typically equipped with different devices, it should be kept in mind that all step by step guides are written with respect to the <a href=\Table_of_parts_X-OpenSPIM>X-OpenSPIM</a> currently operating in the Tomancak lab.
 
+To better understand how the different devices are wired in this OpenSPIM
+
+
+
 ##	**Creating a working .cfg file using µManager's Hardware Configuration Wizard**
 
 The following video shows how a working .cfg file was created from scratch for the described [X-OpenSPIM](/Table_of_parts_X-OpenSPIM) using µManager's Hardware Configuration Wizard.</br></br>
 
-<a href="https://openspim.org/videos/SettingUp_MM.mp4" target="_blank" title="MultiCamera"><img src="https://openspim.org/videos/SettingUp_MM.gif" width="500" alt="Configuring two Andor sCMOS cameras with µManager." /></a></br></br> 
+<a href="https://openspim.org/videos/SettingUp_MM.mp4" target="_blank" title="MultiCamera"><img src="https://openspim.org/videos/SettingUp_MM.gif" width="500" alt="Configuring two Andor sCMOS cameras with µManager." /><figcaption>Video 1 - How to create a .cfg file.</figcaption></a></br></br> 
 
 Regarding the Picard USB 4D-Stage, make sure that the "StepSize" for the X-, Y-, and Z-Stage is set to the precise value of 1.524 and also the "Max" value (maximum stepper motor range) is set to 8839 as show in the video above. 
 
@@ -94,7 +98,7 @@ Confirm by pressing “OK”, and select the newly created “System”-Group. T
 <a href="https://openspim.org/images/ConfigArduinoLaser.png" target="_blank" title="Configuring an ArduinoUNO board in µManager for Camera-Laser synchronization"><img src="https://openspim.org/images/ConfigArduinoLaser.png" width="750"><figcaption>Multi camera, Laser and Arduino “Startup” preset values for a newly created “System” configuration group in µManager.</figcaption></a></br>
 
 -   <span style="color:#000000; font-weight:bold">Step 6: (Optional)</span>
-Ti acquire images with µManager’s “Multi-Dimensional Acquisition” (MDA) we recommend creating another “Group” called “Channels” in which the “Arduino-Switch-State” has been selected. This allows to toggle the digital output pattern across Pin-8 to Pin-13, which can be used in the MDA as a channel.
+To acquire images with µManager’s “Multi-Dimensional Acquisition” (MDA) we recommend creating another “Group” called “Channels” in which the “Arduino-Switch-State” has been selected. This allows to toggle the digital output pattern across Pin-8 to Pin-13, which can be used in the MDA as a channel.
 It is useful to get familiarized with the digital output pattern to better understand how pins 8-13 are switched using single number values from 0-63 as described at the [Arduino µManager website](https://micro-manager.org/Arduino). In our example we will toggle between pin 13 and pin 12 with the Arduino-Switch-State values 16 and 32 respectively. The figure below depicts how Pin-13 and Pin-12 are wired to control the two laser shutters, 488 and 561 respectively.</br>In the same way another "Group" can be created and e.g., named "Camera" whereby the "Core-Camera" can be selected to quickly toggle between MultiCamera and the two sister cameras (Camera 1 and Camera 2) respectively using µManager's group panel.
 
 -   <span style="color:#000000; font-weight:bold">Step 7:</span>
