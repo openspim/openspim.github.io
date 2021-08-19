@@ -1,7 +1,7 @@
 ##	**Configuring µManager for µOpenSPIM**
 
 This site provides guidance on how to configure µManager so that an OpenSPIM can be operated using µOpenSPIM.
-Here one can learn how a working .cfg file is created, how multiple cameras are added and how an ArduinoUNO board has to be configured. Because every OpenSPIM system might be different, it should be kept in mind that all step by step guides are written with respect to the <a href=\Table_of_parts_X-OpenSPIM>X-OpenSPIM</a> currently operating in the Tomancak lab.
+Here one can learn how a working .cfg file is created, how multiple cameras are added to µManager and how an ArduinoUNO board has to be configured. Because every OpenSPIM system is typically equipped with different devices, it should be kept in mind that all step by step guides are written with respect to the <a href=\Table_of_parts_X-OpenSPIM>X-OpenSPIM</a> currently operating in the Tomancak lab.
 
 ##	**Creating a working .cfg file using µManager's Hardware Configuration Wizard**
 
