@@ -5,19 +5,19 @@ Here one can learn how a working .cfg file is created, how multiple cameras are 
 
 Take a look at the following figure, to quickly get an idea how the different devices are wired in the represented <a href=\Table_of_parts_X-OpenSPIM>X-OpenSPIM</a>.
 </br>
-<a href="https://openspim.org/images/ArduinoCircuitSettings.png" target="_blank" title="Configuring an ArduinoUNO board in µManager for Camera-Laser synchronization"><img src="https://openspim.org/images/ArduinoCircuitSettings_1200.png" width="750"><figcaption>Arduino circuit using a breadboard to control multi-channel laser triggering in an X-OpenSPIM while simultaneously imaging with two sCMOS cameras.</figcaption></a></br>
+<a href="https://openspim.org/images/ArduinoCircuitSettings.png" target="_blank" title="Configuring an ArduinoUNO board in µManager for Camera-Laser synchronization"><img src="https://openspim.org/images/ArduinoCircuitSettings_1200.png" width="750"><figcaption>Figure 1 - Arduino circuit using a breadboard to control multi-channel laser triggering in an X-OpenSPIM while simultaneously imaging with two sCMOS cameras.</figcaption></a></br>
 
 ##	**Creating a working .cfg file using µManager's Hardware Configuration Wizard**
 
 The following video shows how a working .cfg file was created from scratch for the following [X-OpenSPIM](/Table_of_parts_X-OpenSPIM) using µManager's Hardware Configuration Wizard.</br></br>
 
-<a href="https://openspim.org/videos/SettingUp_MM.mp4" target="_blank" title="MultiCamera"><img src="https://openspim.org/videos/SettingUp_MM.gif" width="500" alt="Configuring two Andor sCMOS cameras with µManager." /><figcaption>Video 1 - How to create a .cfg file.</figcaption></a></br></br> 
+<a href="https://openspim.org/videos/SettingUp_MM.mp4" target="_blank" title="MultiCamera"><img src="https://openspim.org/videos/SettingUp_MM.gif" width="500" alt="Configuring two Andor sCMOS cameras with µManager." /><figcaption>Video 1 - How to create a .cfg file.</figcaption></a></br>
 
 Regarding the Picard USB 4D-Stage, make sure that the "StepSize" for the X-, Y-, and Z-Stage is set to the precise value of 1.524 and also the "Max" value (maximum stepper motor range) is set to 8839 as show in the video above. 
 
 ## **Configuring multiple cameras in µManager (X-OpenSPIM)**
-The following step by step guide and example video demonstrate how to configure two sister cameras (2x Andor sCMOS Neo 5.5) in µManager to function as a single logical camera (Multi-Camera).The configuration is facilitated by the fact that both cameras are of the same type.</br></br> 
-<a href="https://openspim.org/videos/SettingUp_MultiCamera.mp4" target="_blank" title="How to create a .cfg file using µManager's Hardware Configuration Wizard"><img src="https://openspim.org/videos/SettingUp_MultiCamera.gif" width="500" alt="Creating a .cfg file using µManager's Hardware Configuration Wizard." /></a></br></br> 
+The following step by step guide and example video below demonstrate how to configure two sister cameras (2x Andor sCMOS Neo 5.5) in µManager to function as a single logical camera (Multi-Camera).The configuration is facilitated by the fact that both cameras are of the same type.</br></br> 
+<a href="https://openspim.org/videos/SettingUp_MultiCamera.mp4" target="_blank" title="How to create a .cfg file using µManager's Hardware Configuration Wizard"><img src="https://openspim.org/videos/SettingUp_MultiCamera.gif" width="500" alt="Creating a .cfg file using µManager's Hardware Configuration Wizard." /><figcaption>Video 2 - How to configure two sister cameras in an X-OpenSPIM.</figcaption></a></br></br> 
 
 -   <span style="color:#000000; font-weight:bold">Step 1:</span>
 Because both Andor cameras use the same device adapter, they can be added and named through the “Hardware Configuration Wizard” by selecting successively the “AndorSDK3” option within the folder of the same name from the list of available devices. Thereby the camera, which is initially added, should be considered the “slave” camera, whereas the second camera becomes the “master”. In case the two cameras are not of the same type, they must at least have the same width, height and pixel type properties.
@@ -39,7 +39,7 @@ At this point the configuration settings for the two cameras are completed and c
 Finally, the “Multi Camera” of µManager’s Core Camera Utility has to be selected in the Device Property Browser before a single multi-channel image (1 channel per camera) can be acquired.
 To shorten this step, we added another group by selecting the Utility “Core Camera”. This allowed us to quickly switch between Camera 1, Camera 2 and Multi Camera within the “Configuration Settings”.
 </br></br>
-<a href="https://openspim.org/images/ConfigCameras.png" target="_blank" title="Configuring the MultiCamera in µManager"><img src="https://openspim.org/images/ConfigCameras.png" width="750"><figcaption>Multi camera “Startup” preset values of the newly created “System” configuration group in µManager.</figcaption></a></br>
+<a href="https://openspim.org/images/ConfigCameras.png" target="_blank" title="Configuring the MultiCamera in µManager"><img src="https://openspim.org/images/ConfigCameras.png" width="750"><figcaption>Figure 2 - Multi camera “Startup” preset values of the newly created “System” configuration group in µManager.</figcaption></a></br>
 
 For multi camera imaging we recommend using a decent acquisition computer. E.g., we use a HPZ820 workstation with multiple processors and, notably, found that enabling the non-uniform memory access (NUMA) in the BIOS greatly improves image acquisition stability.
 
@@ -70,7 +70,7 @@ The following steps depict how an ArduinoUNO board can be configured to enable h
 If one is not yet familiar with µManager’s Hardware Configuration Wizard, its Device Property Browser and how to create Configuration “Groups” and “Presets”, we recommend first reading through µManager’s [Configuration Guide](https://micro-manager.org/wiki/Micro-Manager_Configuration_Guide).
 </br>
 You can also watch the video below to see how an ArduinoUNO board is configured for camera-laser synchronization in an OpenSPIM in the same way as described below.</br></br>
-<a href="https://openspim.org/videos/SettingUp_ArduinoUNO.mp4" target="_blank" title="How to create a .cfg file using µManager's Hardware Configuration Wizard"><img src="https://openspim.org/videos/SettingUp_ArduinoUNO.gif" width="500" alt="Creating a .cfg file using µManager's Hardware Configuration Wizard." /></a></br></br>
+<a href="https://openspim.org/videos/SettingUp_ArduinoUNO.mp4" target="_blank" title="How to create a .cfg file using µManager's Hardware Configuration Wizard"><img src="https://openspim.org/videos/SettingUp_ArduinoUNO.gif" width="500" alt="Creating a .cfg file using µManager's Hardware Configuration Wizard." /><figcaption>Video 3 - How to configure an ArduinoUNO board in µManager.</figcaption></a></br></br>
 
 -   <span style="color:#000000; font-weight:bold">Step 1:</span>
 Download and install the open-source [Arduino UNO software (IDE:)](https://www.arduino.cc/en/Main/Software).
