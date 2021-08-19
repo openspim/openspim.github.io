@@ -1,5 +1,3 @@
-##	**Setting up µManager to run µOpenSPIM**
-
 ##	**Creating a working .cfg file using µManager's Hardware Configuration Wizard**
 
 The following video shows how a working .cfg file was created from scratch for the described [X-OpenSPIM](/Table_of_parts_X-OpenSPIM) using µManager's Hardware Configuration Wizard.</br></br>
