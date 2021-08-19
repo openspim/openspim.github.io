@@ -6,7 +6,7 @@ Here one can learn how a working .cfg file is created, how multiple cameras are 
 Take a look at the figure below, to quickly get an idea how the different devices are wired in the described <a href=\Table_of_parts_X-OpenSPIM>X-OpenSPIM</a>. The system is equipped with an ArduinoUNO. Its full circuit is shown schematically. Also necessary settings specified in µManager are also shown. Note that the Camera and Channel Groups are optional.
 
 </br>
-<a href="https://openspim.org/images/ArduinoCircuitSettings.png" align="center" target="_blank" title="Configuring an ArduinoUNO board in µManager for Camera-Laser synchronization"><img src="https://openspim.org/images/ArduinoCircuitSettings_1200.png" width="1200"><figcaption>Figure 1 - Arduino circuit to control two lasers in an X-OpenSPIM while simultaneously imaging with two sCMOS cameras.</figcaption></a></br>
+<a href="https://openspim.org/images/ArduinoCircuitSettings.png" align="center" target="_blank" title="Configuring an ArduinoUNO board in µManager for Camera-Laser synchronization"><img src="https://openspim.org/images/ArduinoCircuitSettings_1024.png" width="1024"><figcaption>Figure 1 - Arduino circuit to control two lasers in an X-OpenSPIM while simultaneously imaging with two sCMOS cameras.</figcaption></a></br>
 
 ##	**Creating a working .cfg file using µManager's Hardware Configuration Wizard**
 
