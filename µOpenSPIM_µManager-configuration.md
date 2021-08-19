@@ -4,6 +4,8 @@ The following video shows how a working .cfg file was created from scratch for t
 
 <a href="https://openspim.org/videos/SettingUp_MM.mp4" target="_blank" title="MultiCamera"><img src="https://openspim.org/videos/SettingUp_MM.gif" width="500" alt="Configuring two Andor sCMOS cameras with µManager." /></a></br>
 
+Regarding the Picard USB 4D-Stage, make sure that the "StepSize" for the X-, Y-, and Z-Stage is set to the precise value of 1.524 and also the "Max" value (maximum stepper motor range) is set to 8839 as show in the video above. 
+
 ## **Configuring multiple cameras in µManager (X-OpenSPIM)**
 The following step by step guide and example video demonstrate how to configure two sister cameras (2x Andor sCMOS Neo 5.5) in µManager to function as a single logical camera (Multi-Camera).The configuration is facilitated by the fact that both cameras are of the same type.</br></br> 
 <a href="https://openspim.org/videos/SettingUp_MultiCamera.mp4" target="_blank" title="How to create a .cfg file using µManager's Hardware Configuration Wizard"><img src="https://openspim.org/videos/SettingUp_MultiCamera.gif" width="500" alt="Creating a .cfg file using µManager's Hardware Configuration Wizard." /></a></br></br> 
