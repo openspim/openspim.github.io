@@ -3,13 +3,13 @@
 This site provides guidance on how to configure µManager so that an OpenSPIM can be operated using µOpenSPIM.
 Here one can learn how a working .cfg file is created, how multiple cameras are added to µManager and how an ArduinoUNO board has to be configured. Because every OpenSPIM system is typically equipped with different devices, it should be kept in mind that all step by step guides are written with respect to the <a href=\Table_of_parts_X-OpenSPIM>X-OpenSPIM</a> currently operating in the Tomancak lab.
 
-To better understand how the different devices are wired in this OpenSPIM
-
-
+Take a look at the following figure, to quickly get an idea how the different devices are wired in the represented <a href=\Table_of_parts_X-OpenSPIM>X-OpenSPIM</a>.
+</br>
+<a href="https://openspim.org/images/ArduinoCircuitSettings.png" target="_blank" title="Configuring an ArduinoUNO board in µManager for Camera-Laser synchronization"><img src="https://openspim.org/images/ArduinoCircuitSettings_1200.png" width="750"><figcaption>Arduino circuit using a breadboard to control multi-channel laser triggering in an X-OpenSPIM while simultaneously imaging with two sCMOS cameras.</figcaption></a></br>
 
 ##	**Creating a working .cfg file using µManager's Hardware Configuration Wizard**
 
-The following video shows how a working .cfg file was created from scratch for the described [X-OpenSPIM](/Table_of_parts_X-OpenSPIM) using µManager's Hardware Configuration Wizard.</br></br>
+The following video shows how a working .cfg file was created from scratch for the following [X-OpenSPIM](/Table_of_parts_X-OpenSPIM) using µManager's Hardware Configuration Wizard.</br></br>
 
 <a href="https://openspim.org/videos/SettingUp_MM.mp4" target="_blank" title="MultiCamera"><img src="https://openspim.org/videos/SettingUp_MM.gif" width="500" alt="Configuring two Andor sCMOS cameras with µManager." /><figcaption>Video 1 - How to create a .cfg file.</figcaption></a></br></br> 
 
