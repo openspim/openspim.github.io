@@ -1,8 +1,8 @@
 ##	Creating a working .cfg file using µManager's Hardware Configuration Wizard
 
-The following video shows how a working .cfg file was created from scratch for the described [X-OpenSPIM](/Table_of_parts_X-OpenSPIM) using µManager's Hardware Configuration Wizard.</br>
+The following video shows how a working .cfg file was created from scratch for the described [X-OpenSPIM](/Table_of_parts_X-OpenSPIM) using µManager's Hardware Configuration Wizard.</br></br>
 
-<a href="https://openspim.org/videos/SettingUp_MM.mp4" target="_blank" title="MultiCamera"><img src="https://openspim.org/videos/SettingUp_MM.gif" width="500" alt="Configuring two Andor sCMOS cameras with µManager." /></a>
+<a href="https://openspim.org/videos/SettingUp_MM.mp4" target="_blank" title="MultiCamera"><img src="https://openspim.org/videos/SettingUp_MM.gif" width="500" alt="Configuring two Andor sCMOS cameras with µManager." /></a></br>
 
 ## Configuring multiple cameras in µManager (X-OpenSPIM)
 The following step by step guide and example video demonstrate how to configure two sister cameras (2x Andor sCMOS Neo 5.5) in µManager to function as a single logical camera (Multi-Camera).The configuration is facilitated by the fact that both cameras are of the same type.</br></br> 
