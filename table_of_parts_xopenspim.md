@@ -1,5 +1,5 @@
 ---
-title: Table of Parts for an X-OpenSPIM upgrade t
+title: Table of Parts for an X-OpenSPIM upgrade
 layout: page
 description: Table of parts
 ---
