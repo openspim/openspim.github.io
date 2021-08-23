@@ -120,6 +120,26 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <tr class="odd">
 <td align="center">Thorlabs</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">90° Flip Mount for Ø1" Filters and Optics, M4 Tap</td>
+<td align="center"> <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=TRF90/M">TRF90/M</a></td>
+<td align="center"><img src="images/TRF90-M.jpeg" width="150"></td>
+<td align="center">1</td>
+<td align="center">72,06 €</td>
+</tr>
+
+<tr class="odd">
+<td align="center">Thorlabs</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">Absorptive Neutral Density Filter, SM1-Threaded Mount, ARC: 350-700 nm, OD: 2.0</td>
+<td align="center"> <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=NE20A-A">NE20A-A</a></td>
+<td align="center"><img src="images/NE20A-A.jpeg" width="150"></td>
+<td align="center">1</td>
+<td align="center">72,06 €</td>
+</tr>
+
+<tr class="odd">
+<td align="center">Thorlabs</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Achromatic Doublet, f=19 mm, Ø1/2", SM05-Threaded Mount, ARC: 400-700 nm</td>
 <td align="center"> <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=AC127-019-A-ML">AC127-019-A-ML</a></td>
 <td align="center"><img src="images/AC127-019-A-ML.jpeg" width="150"></td>
