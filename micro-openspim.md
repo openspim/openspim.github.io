@@ -17,7 +17,7 @@
 -   µOpenSPIM has been tested with Picard's USB 4D-Stage in mind. Using different 4D-Stages should work but could lead to unexpected behaviour.
 
 ## How to set up µManager before using µOpenSPIM?
--   Click [here](/µOpenSPIM_µManager-configuration) if you have never created a working .cfg file with µManager before or/and want to get guidance on configuring multiple cameras, pixel size calibration and configuring an ArduinoUNO board for µManager.
+-   Click [here](/micro-openspim_micromanager-configuration) if you have never created a working .cfg file with µManager before or/and want to get guidance on configuring multiple cameras, pixel size calibration and configuring an ArduinoUNO board for µManager.
 
 ## Installation and start-up of µOpenSPIM
 -   Right now, µOpenSPIM is in its beta stage and works with µManager 2.0.1 20210721 for Windows (nightly build 21 July 2021).
@@ -145,7 +145,7 @@ This table includes the information how often the predefined positions should be
 3. <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Delete TP:</span>&nbsp;Clicking this will remove any highlighted row from the time points table.
 
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(D)</span> **Channels**</br>
-A typical channel is a laser of a given wavelength illuminating the sample during acquisition. In case an Arduino UNO is in control of one or several lasers, they all must be wired to one of the digital output pins. It is possible that a channel represents a different device other than a laser. Alternatively, lasers can also be controlled by the Software, which in our case is µManager. Do find out more about Software versus Hardware controlled imaging, click [here](/µOpenSPIM_SoftwareVSHardware).
+A typical channel is a laser of a given wavelength illuminating the sample during acquisition. In case an Arduino UNO is in control of one or several lasers, they all must be wired to one of the digital output pins. It is possible that a channel represents a different device other than a laser. Alternatively, lasers can also be controlled by the Software, which in our case is µManager. Do find out more about Software versus Hardware controlled imaging, click [here](/micro-openspim_softwarevshardware).
 1. **Software controlled** Click <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Add channel</span>&nbsp;to add a new channel to the table. Several channels can be added to the table. 
 -   Click into the drop-down menus to change Camera and the correct Shutter for the intended laser line.
 - Double click on the exposure value of any added channel to change it.
