@@ -124,7 +124,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center"> <a href="https://www.thorlabs.com/thorproduct.cfm?partnumber=TRF90/M">TRF90/M</a></td>
 <td align="center"><img src="images/TRF90-M.jpeg" width="150"></td>
 <td align="center">1</td>
-<td align="center">72,06 €</td>
+<td align="center">80,66 €</td>
 </tr>
 
 <tr class="odd">
