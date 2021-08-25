@@ -114,7 +114,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center"> <a href="https://www.conrad.de/de/p/tru-components-tec1-12706-peltier-element-15-v-6-4-a-65-w-l-x-b-x-h-40-x-40-x-3-8-mm-189115.html">TEC1-12706</a></td>
 <td align="center"><img src="images/peltier-element.png" width="150"></td>
 <td align="center">1</td>
-<td align="center">10-30 €</td>
+<td align="center">5-25 €</td>
 </tr>
 
 <tr class="even">
