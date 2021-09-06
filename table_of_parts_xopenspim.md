@@ -575,7 +575,20 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <a href="images/µOpenSPIM/Cooling/CoolingWalls/CoolingWalls_part1.pdf">&nbsp;CoolingWalls_part1.pdf</a>
 </td>
 <td align="center"><img src="images//µOpenSPIM/Cooling/CoolingPlate/CoolingWalls_part1.png" width="150"></td>
-<td align="center">1</td>
+<td align="center">2</td>
+</tr>
+
+<tr class="even">
+<td align="center">OpenSPIM</td>
+<td align="center" bgcolor="#98FB98">self made</td>
+<td align="center">Cooling Walls Part2</td>
+<td>
+<a href="images/µOpenSPIM/Cooling/CoolingWalls/CoolingWalls_part2.stl">&nbsp;CoolingWalls_part2.stl</a><br/>
+<a href="images/µOpenSPIM/Cooling/CoolingWalls/CoolingWalls_part2.stp">&nbsp;CoolingWalls_part2.step</a><br/>
+<a href="images/µOpenSPIM/Cooling/CoolingWalls/CoolingWalls_part2.pdf">&nbsp;CoolingWalls_part2.pdf</a>
+</td>
+<td align="center"><img src="images//µOpenSPIM/Cooling/CoolingPlate/CoolingWalls_part2.png" width="150"></td>
+<td align="center">2</td>
 </tr>
 
 </table>
