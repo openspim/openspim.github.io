@@ -488,9 +488,9 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">Infinity space tube</td>
 <td>
-<a href="images/µOpenSPIM/InfinitySpaceTube/OpenSPIM_Infinity-Space.stl">&nbsp;OpenSPIM_Infinity-Space.stl</a><br/>
-<a href="images/µOpenSPIM/InfinitySpaceTube/OpenSPIM_Infinity-Space.stp">&nbsp;OpenSPIM_Infinity-Space.stp</a><br/>
-<a href="images/µOpenSPIM/InfinitySpaceTube/OpenSPIM_Infinity-Space.pdf">&nbsp;OpenSPIM_Infinity-Space.pdf</a>
+<a href="images/µOpenSPIM/InfinitySpaceTube/OpenSPIM_Infinity-Space_v2.stl">&nbsp;OpenSPIM_Infinity-Space.stl</a><br/>
+<a href="images/µOpenSPIM/InfinitySpaceTube/OpenSPIM_Infinity-Space_v2.stp">&nbsp;OpenSPIM_Infinity-Space.stp</a><br/>
+<a href="images/µOpenSPIM/InfinitySpaceTube/OpenSPIM_Infinity-Space_v2.pdf">&nbsp;OpenSPIM_Infinity-Space.pdf</a>
 </td>
 <td align="center"><img src="images/µOpenSPIM/InfinitySpaceTube/OpenSPIM_Infinity-Space_v3.png" width="150"></td>
 <td align="center">2</td>
