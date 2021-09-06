@@ -552,4 +552,30 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center">2</td>
 </tr>
 
+<tr class="even">
+<td align="center">OpenSPIM</td>
+<td align="center" bgcolor="#98FB98">self made</td>
+<td align="center">Heatsink</td>
+<td>
+<a href="images/µOpenSPIM/Cooling/Heatsink/Heatsink.stl">&nbsp;Heatsink.stl</a><br/>
+<a href="images/µOpenSPIM/Cooling/Heatsink/Heatsink.stp">&nbsp;Heatsink.step</a><br/>
+<a href="images/µOpenSPIM/Cooling/Heatsink/Heatsink.pdf">&nbsp;Heatsink.pdf</a>
+</td>
+<td align="center"><img src="images//µOpenSPIM/Cooling/CoolingPlate/CoolingPlate.png" width="150"></td>
+<td align="center">1</td>
+</tr>
+
+<tr class="even">
+<td align="center">OpenSPIM</td>
+<td align="center" bgcolor="#98FB98">self made</td>
+<td align="center">Cooling Walls Part1</td>
+<td>
+<a href="images/µOpenSPIM/Cooling/CoolingWalls/CoolingWalls_part1.stl">&nbsp;CoolingWalls_part1.stl</a><br/>
+<a href="images/µOpenSPIM/Cooling/CoolingWalls/CoolingWalls_part1.stp">&nbsp;Heatsink.step</a><br/>
+<a href="images/µOpenSPIM/Cooling/CoolingWalls/CoolingWalls_part1.pdf">&nbsp;Heatsink.pdf</a>
+</td>
+<td align="center"><img src="images//µOpenSPIM/Cooling/CoolingPlate/CoolingPlate.png" width="150"></td>
+<td align="center">1</td>
+</tr>
+
 </table>
