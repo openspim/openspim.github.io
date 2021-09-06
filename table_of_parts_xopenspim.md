@@ -398,9 +398,9 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">Acrylic acquisition chamber</td>
 <td>
-<a href="images/µOpenSPIM/SampleChamber/SampleChamber.stl">&nbsp;SampleChambe .stl</a><br/>
-<a href="images/µOpenSPIM/SampleChamber/SampleChamber.stp">&nbsp;SampleChambe .stp</a><br/>
-<a href="images/µOpenSPIM/SampleChamber/SampleChamber.pdf">&nbsp;SampleChambe .pdf</a>
+<a href="images/µOpenSPIM/SampleChamber/SampleChamber.stl">&nbsp;SampleChamber.stl</a><br/>
+<a href="images/µOpenSPIM/SampleChamber/SampleChamber.stp">&nbsp;SampleChamber.stp</a><br/>
+<a href="images/µOpenSPIM/SampleChamber/SampleChamber.pdf">&nbsp;SampleChamber.pdf</a>
 </td>
 <td align="center"><img src="images/µOpenSPIM/SampleChamber/X-OpenSPIM40xNikon_SampleChamber.png" width="150"></td>
 <td align="center">1</td>
