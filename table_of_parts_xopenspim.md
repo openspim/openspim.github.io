@@ -530,7 +530,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </tr>
 
 <tr class="even">
-<td align="center">Various suppliers</td>
+<td align="center">Various<br/>suppliers</td>
 <td align="center" bgcolor="#87CEFA">purchase</td>
 <td align="center">Peltier element</td>
 <td align="center"> <a href="https://www.conrad.de/de/p/tru-components-tec1-12706-peltier-element-15-v-6-4-a-65-w-l-x-b-x-h-40-x-40-x-3-8-mm-189115.html">TEC1-12706</a></td>
