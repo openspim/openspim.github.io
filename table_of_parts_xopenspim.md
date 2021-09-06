@@ -542,7 +542,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <tr class="odd">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
-<td align="center">Cooling Plate</td>
+<td align="center">Cooling Plate<br/>The cooling plate is placed between the acrylic chamber and the Peltier element</td>
 <td>
 <a href="images/µOpenSPIM/Cooling/CoolingPlate/CoolingPlate.stl">&nbsp;CoolingPlate.stl</a><br/>
 <a href="images/µOpenSPIM/Cooling/CoolingPlate/CoolingPlate.stp">&nbsp;CoolingPlate.step</a><br/>
@@ -555,7 +555,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <tr class="even">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
-<td align="center">Heatsink</td>
+<td align="center">Heatsink<br/>The heatsink has a compartment for the Peltier element</td>
 <td>
 <a href="images/µOpenSPIM/Cooling/Heatsink/Heatsink.stl">&nbsp;Heatsink.stl</a><br/>
 <a href="images/µOpenSPIM/Cooling/Heatsink/Heatsink.stp">&nbsp;Heatsink.step</a><br/>
@@ -568,7 +568,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <tr class="odd">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
-<td align="center">Cooling Walls Part1</td>
+<td align="center">Cooling Walls Part1<br/>These cooling walls face the illumination axis</td>
 <td>
 <a href="images/µOpenSPIM/Cooling/CoolingWalls/CoolingWalls_part1.stl">&nbsp;CoolingWalls_part1.stl</a><br/>
 <a href="images/µOpenSPIM/Cooling/CoolingWalls/CoolingWalls_part1.stp">&nbsp;CoolingWalls_part1.step</a><br/>
@@ -581,7 +581,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <tr class="even">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
-<td align="center">Cooling Walls Part2</td>
+<td align="center">Cooling Walls Part2<br/>These cooling walls face the detection axis</td>
 <td>
 <a href="images/µOpenSPIM/Cooling/CoolingWalls/CoolingWalls_part2.stl">&nbsp;CoolingWalls_part2.stl</a><br/>
 <a href="images/µOpenSPIM/Cooling/CoolingWalls/CoolingWalls_part2.stp">&nbsp;CoolingWalls_part2.step</a><br/>
