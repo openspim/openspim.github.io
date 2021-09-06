@@ -539,14 +539,17 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <th>Price</th>
 </tr>
 
-<tr class="odd">
-<td align="center">Arduino</td>
-<td align="center" bgcolor="#87CEFA">purchase</td>
-<td align="center">Arduino UNO Rev3 SMD</td>
-<td align="center"> <a href="https://store.arduino.cc/arduino-uno-rev3-smd">A000073</a></td>
-<td align="center"><img src="images/Arduino_Uno.jpeg" width="150"></td>
-<td align="center">1</td>
-<td align="center">19 €</td>
+<tr class="even">
+<td align="center">OpenSPIM</td>
+<td align="center" bgcolor="#98FB98">self made</td>
+<td align="center">Cooling Plate</td>
+<td>
+<a href="images/µOpenSPIM/Cooling/CoolingPlate/CoolingPlate.stl">&nbsp;CoolingPlate.stl</a><br/>
+<a href="images/µOpenSPIM/Cooling/CoolingPlate/CoolingPlate.stp">&nbsp;CoolingPlate.step</a><br/>
+<a href="images/µOpenSPIM/Cooling/CoolingPlate/CoolingPlate.pdf">&nbsp;CoolingPlate.pdf</a>
+</td>
+<td align="center"><img src="images//µOpenSPIM/Cooling/CoolingPlate/CoolingPlate.png" width="150"></td>
+<td align="center">2</td>
 </tr>
 
 </table>
