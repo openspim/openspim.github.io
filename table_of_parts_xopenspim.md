@@ -427,7 +427,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <a href="images/µOpenSPIM/SampleChamberHolder/SampleChamberHolder.stp">&nbsp;SampleChamberHolder.stp</a><br/>
 <a href="images/µOpenSPIM/SampleChamberHolder/SampleChamberHolder.pdf">&nbsp;SampleChamberHolder.pdf</a>
 </td>
-<td align="center"><img src="images/µOpenSPIM/SampleChamberHolder/SampleChamberHolder.png" width="150"></td>
+<td align="center"><img src="images/µOpenSPIM/SampleChamberHolder/SampleChamberHolde.png" width="150"></td>
 <td align="center">1</td>
 </tr>
 
