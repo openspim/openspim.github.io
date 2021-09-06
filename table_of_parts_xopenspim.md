@@ -574,7 +574,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <a href="images/µOpenSPIM/Cooling/CoolingWalls/CoolingWalls_part1.stp">&nbsp;CoolingWalls_part1.step</a><br/>
 <a href="images/µOpenSPIM/Cooling/CoolingWalls/CoolingWalls_part1.pdf">&nbsp;CoolingWalls_part1.pdf</a>
 </td>
-<td align="center"><img src="images//µOpenSPIM/Cooling/CoolingPlate/CoolingWalls_part1.png" width="150"></td>
+<td align="center"><img src="images//µOpenSPIM/Cooling/CoolingWalls/CoolingWalls_part1.png" width="150"></td>
 <td align="center">2</td>
 </tr>
 
@@ -587,7 +587,20 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <a href="images/µOpenSPIM/Cooling/CoolingWalls/CoolingWalls_part2.stp">&nbsp;CoolingWalls_part2.step</a><br/>
 <a href="images/µOpenSPIM/Cooling/CoolingWalls/CoolingWalls_part2.pdf">&nbsp;CoolingWalls_part2.pdf</a>
 </td>
-<td align="center"><img src="images//µOpenSPIM/Cooling/CoolingPlate/CoolingWalls_part2.png" width="150"></td>
+<td align="center"><img src="images//µOpenSPIM/Cooling/CoolingWalls/CoolingWalls_part2.png" width="150"></td>
+<td align="center">2</td>
+</tr>
+
+<tr class="even">
+<td align="center">OpenSPIM</td>
+<td align="center" bgcolor="#98FB98">self made</td>
+<td align="center">Teflon Spacer</td>
+<td>
+<a href="images/µOpenSPIM/Cooling/TeflonSpacer/TeflonSpacer.stl">&nbsp;TeflonSpacer.stl</a><br/>
+<a href="images/µOpenSPIM/Cooling/CoolingWalls/TeflonSpacer.stp">&nbsp;TeflonSpacer.step</a><br/>
+<a href="images/µOpenSPIM/Cooling/CoolingWalls/TeflonSpacer.pdf">&nbsp;TeflonSpacer.pdf</a>
+</td>
+<td align="center"><img src="images//µOpenSPIM/Cooling/TeflonSpacer/TeflonSpacer.png" width="150"></td>
 <td align="center">2</td>
 </tr>
 
