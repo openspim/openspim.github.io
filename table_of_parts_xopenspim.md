@@ -466,7 +466,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <a href="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1.stp">&nbsp;ObjectiveHolder-Tail1.stp</a><br/>
 <a href="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1.pdf">&nbsp;ObjectiveHolder-Tail1.pdf</a>
 </td>
-<td align="center"><img src="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1-pic.png" width="150"></td>
+<td align="center"><img src="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1.png" width="150"></td>
 <td align="center">4</td>
 </tr>
 
