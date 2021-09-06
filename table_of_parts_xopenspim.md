@@ -553,6 +553,3 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </tr>
 
 </table>
-
-
-Once you have all the parts continue on to [step by step assembly](\Table_of_parts_X-OpenSPIM)
