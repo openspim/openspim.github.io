@@ -530,6 +530,16 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </tr>
 
 <tr class="even">
+<td align="center">Various suppliers</td>
+<td align="center" bgcolor="#87CEFA">purchase</td>
+<td align="center">Peltier element</td>
+<td align="center"> <a href="https://www.conrad.de/de/p/tru-components-tec1-12706-peltier-element-15-v-6-4-a-65-w-l-x-b-x-h-40-x-40-x-3-8-mm-189115.html">TEC1-12706</a></td>
+<td align="center"><img src="images/peltier-element.png" width="150"></td>
+<td align="center">1</td>
+<td align="center">5-25 €</td>
+</tr>
+
+<tr class="odd">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">Cooling Plate</td>
@@ -555,7 +565,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center">1</td>
 </tr>
 
-<tr class="even">
+<tr class="odd">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">Cooling Walls Part1</td>
@@ -582,16 +592,6 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </tr>
 
 <tr class="odd">
-<td align="center">Various suppliers</td>
-<td align="center" bgcolor="#87CEFA">purchase</td>
-<td align="center">Peltier element</td>
-<td align="center"> <a href="https://www.conrad.de/de/p/tru-components-tec1-12706-peltier-element-15-v-6-4-a-65-w-l-x-b-x-h-40-x-40-x-3-8-mm-189115.html">TEC1-12706</a></td>
-<td align="center"><img src="images/peltier-element.png" width="150"></td>
-<td align="center">1</td>
-<td align="center">5-25 €</td>
-</tr>
-
-<tr class="even">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
 <td align="center">Teflon Spacer</td>
