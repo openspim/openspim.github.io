@@ -450,11 +450,11 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <tr class="even">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
-<td align="center">Modified objective holder ring (part 2)</br>translational part with rails made out of plastic</td>
+<td align="center">Modified objective holder ring (part 2)</br>Handle (piece 1) with rails made of plastic</td>
 <td>
-<a href="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1.stl">&nbsp;ObjectiveHolder-Tail1.stl</a><br/>
-<a href="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1.stp">&nbsp;ObjectiveHolder-Tail1.stp</a><br/>
-<a href="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1.pdf">&nbsp;ObjectiveHolder-Tail1.pdf</a>
+<a href="images/µOpenSPIM/ObjectiveHolder_tail1/Handle_part1.stl">&nbsp;Handle_part1.stl</a><br/>
+<a href="images/µOpenSPIM/ObjectiveHolder_tail1/Handle_part1.stp">&nbsp;Handle_part1-Tail1.stp</a><br/>
+<a href="images/µOpenSPIM/ObjectiveHolder_tail1/Handle_part1.pdf">&nbsp;Handle_part1-Tail1.pdf</a>
 </td>
 <td align="center"><img src="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1_rendered.png" width="150"></td>
 <td align="center">4</td>
@@ -463,11 +463,11 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <tr class="odd">
 <td align="center">OpenSPIM</td>
 <td align="center" bgcolor="#98FB98">self made</td>
-<td align="center">Modified objective holder ring (part 3)</br>handle</td>
+<td align="center">Modified objective holder ring (part 3)</br>Handle (piece 2)</td>
 <td>
-<a href="images/µOpenSPIM/ObjectiveHolder-tail2/ObjectiveHolder-Tail2.stl">&nbsp;ObjectiveHolder-Tail2.stl</a><br/>
-<a href="images/µOpenSPIM/ObjectiveHolder-tail2/ObjectiveHolder-Tail2.stp">&nbsp;ObjectiveHolder-Tail2.stp</a><br/>
-<a href="images/µOpenSPIM/ObjectiveHolder-tail2/ObjectiveHolder-Tail2.pdf">&nbsp;ObjectiveHolder-Tail2.pdf</a>
+<a href="images/µOpenSPIM/ObjectiveHolder-tail2/Handle_part2.stl">&nbsp;Handle_part2.stl</a><br/>
+<a href="images/µOpenSPIM/ObjectiveHolder-tail2/Handle_part2.stp">&nbsp;Handle_part2.stp</a><br/>
+<a href="images/µOpenSPIM/ObjectiveHolder-tail2/Handle_part2.pdf">&nbsp;Handle_part2.pdf</a>
 </td>
 <td align="center"><img src="images/µOpenSPIM/ObjectiveHolder-tail2/ObjectiveHolder-Tail2.png" width="150"></td>
 <td align="center">4</td>
