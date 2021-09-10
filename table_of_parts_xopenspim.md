@@ -368,7 +368,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </td>
 <td align="center"><img src="images/µOpenSPIM/4D-PicardStage/SampleArmHolder/4D-Motor-Arm_28mm.png" width="150"></td>
 <td align="center">1</td>
-<td align="center">- €</td>
+<td align="center">€</td>
 </tr>
 
 <tr class="even">
@@ -382,7 +382,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </td>
 <td align="center"><img src="images/µOpenSPIM/4D-PicardStage/SyringeHolder/SyringeHolder.png" width="150"></td>
 <td align="center">1</td>
-<td align="center">- €</td>
+<td align="center">€</td>
 </tr>
 
 <tr class="odd">
@@ -396,7 +396,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </td>
 <td align="center"><img src="images/µOpenSPIM/SampleChamber/SampleChamber.png" width="150"></td>
 <td align="center">1</td>
-<td align="center">- €</td>
+<td align="center">€</td>
 </tr>
 
 <tr class="even">
@@ -408,7 +408,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </td>
 <td align="center"><img src="images/µOpenSPIM/RLA300_M-Step_cut45/RLA300_M-Step_cut45_v2.png" width="150"></td>
 <td align="center">2</td>
-<td align="center">- €</td>
+<td align="center">€</td>
 </tr>
 
 <tr class="odd">
@@ -422,7 +422,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </td>
 <td align="center"><img src="images/µOpenSPIM/SampleChamberHolder/SampleChamberHolder.png" width="150"></td>
 <td align="center">1</td>
-<td align="center">- €</td>
+<td align="center">€</td>
 </tr>
 
 <tr class="even">
@@ -436,7 +436,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </td>
 <td align="center"><img src="images/µOpenSPIM/SampleChamberHolderBottom/SampleChamberHolderBottom.png" width="150"></td>
 <td align="center">1</td>
-<td align="center">- €</td>
+<td align="center">€</td>
 </tr>
 
 <tr class="odd">
@@ -450,7 +450,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </td>
 <td align="center"><img src="images/µOpenSPIM/ObjectiveHolder_ring/ObjectiveHolder_Ring.png" width="150"></td>
 <td align="center">4</td>
-<td align="center">- €</td>
+<td align="center">€</td>
 </tr>
 
 <tr class="even">
@@ -464,7 +464,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </td>
 <td align="center"><img src="images/µOpenSPIM/ObjectiveHolder_tail1/ObjectiveHolder-Tail1_rendered.png" width="150"></td>
 <td align="center">4</td>
-<td align="center">- €</td>
+<td align="center">€</td>
 </tr>
 
 <tr class="odd">
@@ -478,7 +478,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </td>
 <td align="center"><img src="images/µOpenSPIM/ObjectiveHolder-tail2/ObjectiveHolder-Tail2.png" width="150"></td>
 <td align="center">4</td>
-<td align="center">- €</td>
+<td align="center">€</td>
 </tr>
 
 <tr class="odd">
@@ -492,7 +492,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </td>
 <td align="center"><img src="images/µOpenSPIM/InfinitySpaceTube/OpenSPIM_Infinity-Space_v3.png" width="150"></td>
 <td align="center">2</td>
-<td align="center">- €</td>
+<td align="center">€</td>
 </tr>
 
 <tr class="even">
@@ -506,7 +506,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </td>
 <td align="center"><img src="images/0.5''lens-stilt_v2.jpg" width="150"></td>
 <td align="center">4</td>
-<td align="center">- €</td>
+<td align="center">€</td>
 </tr>
 
 <tr class="odd">
@@ -521,7 +521,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </td>
 <td align="center"><img src="images/µOpenSPIM/CameraAdapter/TubeLensAdapter_v2.png" width="150"></td>
 <td align="center">2</td>
-<td align="center">- €</td>
+<td align="center">€</td>
 </tr>
 
 
@@ -561,7 +561,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </td>
 <td align="center"><img src="images//µOpenSPIM/Cooling/CoolingPlate/CoolingPlate.png" width="150"></td>
 <td align="center">1</td>
-<td align="center">- €</td>
+<td align="center">€</td>
 </tr>
 
 <tr class="even">
@@ -575,7 +575,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </td>
 <td align="center"><img src="images/µOpenSPIM/Cooling/Heatsink/Heatsink.png" width="150"></td>
 <td align="center">1</td>
-<td align="center">- €</td>
+<td align="center">€</td>
 </tr>
 
 <tr class="odd">
@@ -589,7 +589,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </td>
 <td align="center"><img src="images//µOpenSPIM/Cooling/CoolingWalls/CoolingWalls_part1.png" width="150"></td>
 <td align="center">2</td>
-<td align="center">- €</td>
+<td align="center">€</td>
 </tr>
 
 <tr class="even">
@@ -603,7 +603,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </td>
 <td align="center"><img src="images/µOpenSPIM/Cooling/CoolingWalls/CoolingWalls_part2.png" width="150"></td>
 <td align="center">2</td>
-<td align="center">- €</td>
+<td align="center">€</td>
 </tr>
 
 <tr class="odd">
@@ -617,7 +617,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 </td>
 <td align="center"><img src="images//µOpenSPIM/Cooling/TeflonSpacer/TeflonSpacer.png" width="150"></td>
 <td align="center">4</td>
-<td align="center">- €</td>
+<td align="center">€</td>
 </tr>
 
 </table>
