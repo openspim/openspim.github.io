@@ -612,8 +612,8 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center">Teflon Spacer<br/>These 1 mm spacers made out of teflon help to thermally insulated the objectives from the heat sink </td>
 <td>
 <a href="images/µOpenSPIM/Cooling/TeflonSpacer/TeflonSpacer.stl">&nbsp;TeflonSpacer.stl</a><br/>
-<a href="images/µOpenSPIM/Cooling/CoolingWalls/TeflonSpacer.stp">&nbsp;TeflonSpacer.step</a><br/>
-<a href="images/µOpenSPIM/Cooling/CoolingWalls/TeflonSpacer.pdf">&nbsp;TeflonSpacer.pdf</a>
+<a href="images/µOpenSPIM/Cooling/TeflonSpacer/TeflonSpacer.stp">&nbsp;TeflonSpacer.step</a><br/>
+<a href="images/µOpenSPIM/Cooling/TeflonSpacer/TeflonSpacer.pdf">&nbsp;TeflonSpacer.pdf</a>
 </td>
 <td align="center"><img src="images//µOpenSPIM/Cooling/TeflonSpacer/TeflonSpacer.png" width="150"></td>
 <td align="center">4</td>
