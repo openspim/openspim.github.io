@@ -18,8 +18,9 @@ Remove any optical parts from the illumination axis except for the kinematic mir
 -   <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 2</span>&nbsp;
 Adjust the beam splitter cube and aim for two beams that are perpendicular to each other when they hit the first two kinematic mirrors.
 
-
-
+-   <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 3</span>&nbsp;
+Now adjust all kinematic mounts until the laser beam roughly follows the desired path along the optical rails.
+</br><img src="https://openspim.org/images/Alignment/Alignment_Figure1.png" width="100"></br>
 
 
 
