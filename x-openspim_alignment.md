@@ -3,9 +3,9 @@ It can take time to learn how to optimally align an OpenSPIM system and there ar
 With two illumination sides and two detection objectives this task becomes particularly challenging. Therefore, we provide a simple, reproducible way. 
 Our alignment guide describes how to initially align the beam along the rails, how to visualize and tune the beam within the field of view of the cameras and finally aligning the created light-sheet on the sample.
 
-## µOpenSPIM requirements
--   All hardware components of an OpenSPIM system (Laser, Camera, Stage, etc.) have to be pre-configured with µManager's Hardware Configuration Wizard using Version 2.0 gamma (nightly build 04 May 2021) on a Windows7/10 computer.
--   µOpenSPIM has been tested with Picard's USB 4D-Stage in mind. Using different 4D-Stages should work but could lead to unexpected behaviour.
+## Requirements
+-   Make sure appropriate laser safety measures and training has been carried out and that µManager’s “Hardware configuration wizard” has been completed for at least one camera, one laser and the USB-4D stage.
+-   A syringe to mount a glass capillary into the acquisition chamber filled with agarose containing fluorescent beads is needed for part B and C.
 
 ## How to set up µManager before using µOpenSPIM?
 -   Click [here](/micro-openspim_micromanager-configuration) if you have never created a working .cfg file with µManager before or/and want to get guidance on configuring multiple cameras, pixel size calibration and configuring an ArduinoUNO board for µManager.
