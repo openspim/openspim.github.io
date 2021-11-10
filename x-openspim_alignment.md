@@ -1,6 +1,7 @@
 ## Alignment guide X-OpenSPIM
--   A complete overhaul of the GUI has been made including simple graphic visualizations and an improved control over Picrard’s 4D-stage
--   A user-friendly way of setting up multiview time lapse recordings with several positions and the option to acquire periodic and sporadic intervals with optional breaks during time-lapse recordings
+It can take time to learn how to optimally align an OpenSPIM system and there are different ways and always room to improve.
+With two illumination sides and two detection objectives this task becomes particularly challenging. Therefore, we provide a simple, reproducible way. 
+Our alignment guide describes how to initially align the beam along the rails, how to visualize and tune the beam within the field of view of the cameras and finally aligning the created light-sheet on the sample.
 
 ## µOpenSPIM requirements
 -   All hardware components of an OpenSPIM system (Laser, Camera, Stage, etc.) have to be pre-configured with µManager's Hardware Configuration Wizard using Version 2.0 gamma (nightly build 04 May 2021) on a Windows7/10 computer.
