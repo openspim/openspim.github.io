@@ -1,11 +1,12 @@
 ## Alignment guide X-OpenSPIM
-It can take time to learn how to optimally align an OpenSPIM system and there are different ways and always room to improve.
-With two illumination sides and two detection objectives this task becomes particularly challenging. Therefore, we provide a simple, reproducible way. 
-Our alignment guide describes how to initially align the beam along the rails, how to visualize and tune the beam within the field of view of the cameras and finally aligning the created light-sheet on the sample.
+There are different ways how to optimally align an OpenSPIM system and it can take time to get the hang of it. With two illumination sides and two detection objectives this task becomes particularly challenging. This site provides a simple, reproducible way of how to 
+-   initially align the beam along the rails
+-   visualize and tune the beam within the field of view of the cameras 
+-   align the created light-sheet on the sample (final step).
 
 ## Requirements
 -   Make sure appropriate laser safety measures and training has been carried out and that µManager’s “Hardware configuration wizard” has been completed for at least one camera, one laser and the USB-4D stage.
--   A syringe to mount a glass capillary into the acquisition chamber filled with agarose containing fluorescent beads is needed for part B and C.
+-   A syringe to mount a glass capillary into the acquisition chamber. The capillary should be filled with agarose containing any fluorescent beads, which can be exited by the laser in use.
 
 ## How to set up µManager before using µOpenSPIM?
 -   Click [here](/micro-openspim_micromanager-configuration) if you have never created a working .cfg file with µManager before or/and want to get guidance on configuring multiple cameras, pixel size calibration and configuring an ArduinoUNO board for µManager.
@@ -18,9 +19,5 @@ Our alignment guide describes how to initially align the beam along the rails, h
 <img src="https://openspim.org/images/µOpenSPIM_single-image.png" width="100"></br>
  To acquire a single image with µOpenSPIM:
 
-1.  Navigate the 4D stage to the location you want to image.
-2.  Click <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Add current position</span>&nbsp;to add this plane to the position list. 
-3.  Click <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Add TP</span>&nbsp;and set both, the number of time points (TP) and the interval, to 1.
-4.  Add at least one channel to the Software Controlled Channels list or select one of the Channels that are available in the Arduino Controlled Channels list. Don't forget to set the desired exposure time of each channel.
-5.  You may specify an Output directory&nbsp;<img src="https://openspim.org/images/specify_dir.png" width="20">&nbsp;if you would prefer the image be written straight to disk, rather than opened in µManager using the computer memory. A metadata.txt file of all acquisition settings will also be saved into the Output directory.
-6.  Finally, click <span style="color:#008000; background-color:#DCDCDC; font-weight:bold">Acquire</span>&nbsp;to capture a single or multi-channel image.
+1.  Click <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Add current position</span>&nbsp;to add this plane to the position list. 
+2.  Finally, click <span style="color:#008000; background-color:#DCDCDC; font-weight:bold">Acquire</span>&nbsp;to capture a single or multi-channel image.
