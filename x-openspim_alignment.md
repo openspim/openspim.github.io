@@ -1,5 +1,5 @@
 ## Alignment guide X-OpenSPIM
-There are different ways how to optimally align an OpenSPIM system and it can take time to get the hang of it. With two illumination sides and two detection objectives this task becomes particularly challenging. This site provides a simple, reproducible way of how to 
+There are different ways how to optimally align an OpenSPIM system and it can take time to get the hang of it. With two illumination sides and two detection objectives this task becomes particularly challenging. This site provides a simple, reproducible way of how to...
 -   initially align the beam along the rails
 -   visualize and tune the beam within the field of view of the cameras 
 -   align the created light-sheet on the sample (final step).
