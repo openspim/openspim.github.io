@@ -20,7 +20,7 @@ Adjust the beam splitter cube and aim for two beams that are perpendicular to ea
 
 -   <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 3</span>&nbsp;
 Now adjust all kinematic mounts until the laser beam roughly follows the desired path along the optical rails.
-</br><img src="https://openspim.org/images/alignment/Alignment_Figure1.png" width="800"></br>
+</br><img src="https://openspim.org/images/alignment/Alignment_Figure1.png" width="1024"></br>
 
 
 
