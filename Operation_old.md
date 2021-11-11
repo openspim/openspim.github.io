@@ -1,8 +1,3 @@
----
-title: Microscope Operation
-layout: page
-description: Operating the OpenSPIM microscope
----
 
 # Software (original OpenSPIM plugin)
 
