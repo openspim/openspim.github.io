@@ -6,4 +6,4 @@ For more details see also our publication [on Advanced Biology](https://onlineli
 
 If you find the guides helpful and did something cool with your x-OpenSPIM please remember to cite us!
 
-Pitrone P. G., Schindelin J., Stuyvenberg L., Preibisch S., Weber M.; Eliceiri K. W., Huisken J., Tomancak P. (2021) **Time to Upgrade: A New OpenSPIM Guide to Build and Operate Advanced OpenSPIM Configurations** *Advanced Biology* [Supplement including configuration and alignment guides as well as details about how to cool the acquisition chamber](https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fadbi.202101182&file=adbi202101182-sup-0001-SuppMat.pdf)
+Girstmair J., Moon H., Brillard C., Haase R., Tomancak P. (2021) **Time to Upgrade: A New OpenSPIM Guide to Build and Operate Advanced OpenSPIM Configurations** *Advanced Biology* [Supplement including configuration and alignment guides as well as details about how to cool the acquisition chamber](https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fadbi.202101182&file=adbi202101182-sup-0001-SuppMat.pdf)
