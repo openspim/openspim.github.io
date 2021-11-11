@@ -24,8 +24,13 @@ Feel free to edit this page with information about your system! (You will need a
   - Andor sCMOS Neo cameras
   - 488/561 VersaLase (X-OpenSPIM)
   - 488 Coherent OBIS Laser (T-OpenSPIM)
-  - hardware-controlled laser triggering (Arduino) of the X-OpenSPIM
-  - operated by MicroManager using our new custom made µManager plugin called µOpenSPIM
+  - hardware-controlled laser triggering (ArduinoUNO)
+  - operated by MicroManager using our new custom made µManager plugin called [µOpenSPIM](https://openspim.org/micro-openspim)
+
+  For details on how to assemble, configure, align and operate the X-OpenSPIM check out our lates publication [on Advanced Biology](https://onlinelibrary.wiley.com/doi/10.1002/adbi.202101182).
+  </br>
+<a href="https://onlinelibrary.wiley.com/doi/10.1002/adbi.202101182" align="center" target="_blank" title="Time to Upgrade: A New OpenSPIM Guide to Build and Operate Advanced OpenSPIM Configurations
+"><img src="https://openspim.org/images/ToC_figure.png" align="center" width="197"><figcaption>X-OpenSPIM paper on Advanced Biology.</figcaption></a></br>
 
 # Madison, WI, USA
 
