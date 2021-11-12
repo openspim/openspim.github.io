@@ -1,7 +1,7 @@
 ---
 title: µOpenSPIM acquisition controls
 layout: page
-description: Operating the OpenSPIM using µOpenSPIM
+description: detailed acquisition controls of µOpenSPIM
 ---
 <a href="https://github.com/openspim/micro-OpenSPIM" target="_blank" title="µOpenSPIM-Github Site"><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a> 
 
