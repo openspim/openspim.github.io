@@ -12,16 +12,16 @@ For a more detailed description follow this link: <strong>[Detailed Acquisition 
 </figcaption>
 </figure>  
 
-<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(A)</span> **Positions**</br>
+<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(A)</span> **Positions**
 <span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(B)</span> **Define Z-stacks**
 <span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(C)</span> **Time points**
-<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(D)</span> **Channels**</br>
+<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(D)</span> **Channels**
 <span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(E)</span> **Summary**
-<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(F)</span> **Saving options**
-<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(G)</span> **Save/Load settings**</br>
+<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(F)</span> **Saving options**</br>
+<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(G)</span> **Save/Load settings**
 <span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(H)</span> **Acquisition**
 <span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(I)</span> **Preview of imaging session**
-<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(J)</span> **Stage**</br>
+<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(J)</span> **Stage**
 <span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(K)</span> **Console**
 
 ## Acquisition with µOpenSPIM 
