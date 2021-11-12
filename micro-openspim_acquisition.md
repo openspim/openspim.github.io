@@ -1,3 +1,4 @@
+<a href="https://github.com/openspim/micro-OpenSPIM" target="_blank" title="µOpenSPIM-Github Site"><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a> 
 
 ## Getting familiar with µOpenSPIM's GUI
 -   The GUI of µOpenSPIM can be arranged in many ways and then saved and restored if needed.</br>
