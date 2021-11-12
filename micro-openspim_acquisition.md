@@ -12,7 +12,7 @@ For a more detailed description follow this link: <strong>[Detailed Acquisition 
 </figcaption>
 </figure>  
 
-<span div align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(A)</span> **Positions**
+<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(A)</span> **Positions**
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(B)</span> **Define Z-stacks**
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(C)</span> **Time points**
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(D)</span> **Channels**
