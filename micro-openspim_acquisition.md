@@ -1,8 +1,4 @@
----
-title: µOpenSPIM GUI and Image acquisition
-layout: page
-description: Operating the OpenSPIM using µOpenSPIM
---- 
+<a><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a> 
 
 </br>Go back to the [µOpenSPIM starting page](/micro-openspim)</br>
 

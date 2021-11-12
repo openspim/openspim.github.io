@@ -1,8 +1,4 @@
----
-title: µOpenSPIM acquisition controls
-layout: page
-description: detailed acquisition controls of µOpenSPIM
----
+<a><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a> 
 
 </br>Go back to [Image acquisition](/micro-openspim_acquisition)</br>
 
