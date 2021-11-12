@@ -9,19 +9,20 @@ For a more detailed description follow this link: <strong>[Detailed Acquisition 
 <figure align="center">
   <a href="https://openspim.org/images/Figure5_Acquisition-panel_website.png" target="_blank" title="µOpenSPIM-Acquisition panel"><img width="1024" src="https://openspim.org/images/Figure5_Acquisition-panel_website_1317x887.png"></a>
 <figcaption>Acquisition Controls of the µOpenSPIM GUI (A-I) with the Picard 4D-stage controls on the top right (J) and the Console window on the bottom right  (K). For a higher resolution image click <a href=\images/Figure5_Acquisition-panel_website.png>here.</a>
-<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(A)</span> **Positions**</br>
-<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(B)</span> **Define Z-stacks**
-<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(C)</span> **Time points**
-<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(D)</span> **Channels**</br>
-<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(E)</span> **Summary**
-<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(F)</span> **Saving options**
-<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(G)</span> **Save/Load settings**</br>
-<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(H)</span> **Acquisition**
-<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(I)</span> **Preview of imaging session**
-<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(J)</span> **Stage**</br>
-<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(K)</span> **Console**
 </figcaption>
 </figure>  
+
+<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(A)</span> **Positions**</br>
+<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(B)</span> **Define Z-stacks**
+<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(C)</span> **Time points**
+<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(D)</span> **Channels**</br>
+<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(E)</span> **Summary**
+<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(F)</span> **Saving options**
+<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(G)</span> **Save/Load settings**</br>
+<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(H)</span> **Acquisition**
+<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(I)</span> **Preview of imaging session**
+<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(J)</span> **Stage**</br>
+<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(K)</span> **Console**
 
 ## Acquisition with µOpenSPIM 
 The process of acquiring images ranges from snapping a single image to recording overnight (or longer) time lapses of samples from N different angles.
