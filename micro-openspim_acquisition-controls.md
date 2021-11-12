@@ -1,5 +1,7 @@
 <a href="https://github.com/openspim/micro-OpenSPIM" target="_blank" title="µOpenSPIM-Github Site"><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a> 
 
+Go back to [Image acquisition](/micro-openspim_acquisition)
+
 ## Acquisition Controls
 The following image will introduce you to the location of all available controls to set up an imaging session.</br>
 For a more detailed description follow this link: <strong>[Detailed Acquisition controls for µOpenSPIM.](https://openspim.org/images/%C2%B5OpenSPIM_Acquisition_08-03.jpg)</strong>
