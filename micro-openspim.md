@@ -27,4 +27,4 @@
 
 3.  In the starting window multiple µManager configuration files can be added, removed and selected. Click *Add .cfg file* to add and then select your working µManager configuration file ending with .cfg. Then click the *Start* button. After loading the hardware µManager should now be ready for use.
 
-## Continue to [Image acquisition](/micro-openspim_acquisition)
+## => Continue to [Image acquisition](/micro-openspim_acquisition)
