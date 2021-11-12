@@ -3,9 +3,6 @@
 -   The GUI of µOpenSPIM can be arranged in many ways and then saved and restored if needed.</br>
 Click <a href=\µOpenSPIM_GUI>here</a> for more information and help.
 
-## Acquisition with µOpenSPIM 
-The process of acquiring images ranges from snapping a single image to recording overnight (or longer) time lapses of samples from N different angles.
-
 ## Acquisition Controls
 The following image will introduce you to the location of all available controls to set up an imaging session.</br>
 For a more detailed description follow this link: <strong>[Detailed Acquisition controls for µOpenSPIM.](https://openspim.org/images/%C2%B5OpenSPIM_Acquisition_08-03.jpg)</strong>
@@ -26,6 +23,9 @@ For a more detailed description follow this link: <strong>[Detailed Acquisition 
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(I)</span> **Preview of imaging session**</br>
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(J)</span> **Stage**</br>
 <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(K)</span> **Console**</br>
+
+## Acquisition with µOpenSPIM 
+The process of acquiring images ranges from snapping a single image to recording overnight (or longer) time lapses of samples from N different angles.
 
 ## Acquiring a Single Image
 <img src="https://openspim.org/images/µOpenSPIM_single-image.png" width="100"></br>
