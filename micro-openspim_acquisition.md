@@ -17,7 +17,7 @@ The following image will introduce you to the location of all available controls
 For a more detailed description follow this link: <strong>[Detailed Acquisition controls for µOpenSPIM.](https://openspim.org/images/%C2%B5OpenSPIM_Acquisition_08-03.jpg)</strong>
 <figure align="center">
   <a href="https://openspim.org/images/Figure5_Acquisition-panel_website.png" target="_blank" title="µOpenSPIM-Acquisition panel"><img width="1024" src="https://openspim.org/images/Figure5_Acquisition-panel_website_1317x887.png"></a>
-<figcaption>Acquisition Controls of the µOpenSPIM GUI (A-I) with the Picard 4D-stage controls on the top right (J) and the Console window on the bottom right  (K). For a higher resolution image click <a href=\micro-openspim_acquisition-controls>here.</a>
+<figcaption>Acquisition Controls of the µOpenSPIM GUI (A-I) with the Picard 4D-stage controls on the top right (J) and the Console window on the bottom right  (K).
 </figcaption>
 </figure>  
 
