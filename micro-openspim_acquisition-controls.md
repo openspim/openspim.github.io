@@ -1,6 +1,6 @@
-<a><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a> 
+<a><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a>&nbsp;Go back to [Image acquisition](/micro-openspim_acquisition)</br>
 
-</br>Go back to [Image acquisition](/micro-openspim_acquisition)</br>
+
 
 ## Acquisition Controls
 The following image will introduce you to the location of all available controls to set up an imaging session.</br>
