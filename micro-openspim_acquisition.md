@@ -12,17 +12,17 @@ For a more detailed description follow this link: <strong>[Detailed Acquisition 
 </figcaption>
 </figure>  
 
-<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(A)</span> **Positions**
-<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(B)</span> **Define Z-stacks**
-<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(C)</span> **Time points**
-<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(D)</span> **Channels**
-<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(E)</span> **Summary**
-<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(F)</span> **Saving options**</br>
-<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(G)</span> **Save/Load settings**
-<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(H)</span> **Acquisition**
-<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(I)</span> **Preview of imaging session**
-<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(J)</span> **Stage**
-<span align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(K)</span> **Console**
+<span div align="center" style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(A)</span> **Positions**
+<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(B)</span> **Define Z-stacks**
+<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(C)</span> **Time points**
+<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(D)</span> **Channels**
+<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(E)</span> **Summary**
+<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(F)</span> **Saving options**</br>
+<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(G)</span> **Save/Load settings**
+<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(H)</span> **Acquisition**
+<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(I)</span> **Preview of imaging session**
+<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(J)</span> **Stage**
+<span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(K)</span> **Console**
 
 ## Acquisition with µOpenSPIM 
 The process of acquiring images ranges from snapping a single image to recording overnight (or longer) time lapses of samples from N different angles.
