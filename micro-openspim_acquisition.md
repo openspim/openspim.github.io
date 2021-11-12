@@ -31,7 +31,7 @@ The process of acquiring images ranges from snapping a single image to recording
 <img src="https://openspim.org/images/µOpenSPIM_single-image.png" width="100"></br>
  To acquire a single image with µOpenSPIM:
 
-1.  Navigate the 4D stage to the location you want to image.
+1.  Navigate the 4D stage <span style="color:#FF00FF; background-color:#DCDCDC; font-weight:bold">(J)</span> &nbsp;to the location you want to image.
 2.  Click <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Add current position</span>&nbsp;to add this plane to the position list. 
 3.  Click <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Add TP</span>&nbsp;and set both, the number of time points (TP) and the interval, to 1.
 4.  Add at least one channel to the Software Controlled Channels list or select one of the Channels that are available in the Arduino Controlled Channels list. Don't forget to set the desired exposure time of each channel.
