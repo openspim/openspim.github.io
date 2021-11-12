@@ -3,9 +3,8 @@ title: µOpenSPIM acquisition controls
 layout: page
 description: detailed acquisition controls of µOpenSPIM
 ---
-<a href="https://github.com/openspim/micro-OpenSPIM" target="_blank" title="µOpenSPIM-Github Site"><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a> 
 
-Go back to [Image acquisition](/micro-openspim_acquisition)
+</br>Go back to [Image acquisition](/micro-openspim_acquisition)</br>
 
 ## Acquisition Controls
 The following image will introduce you to the location of all available controls to set up an imaging session.</br>
