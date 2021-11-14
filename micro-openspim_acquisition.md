@@ -1,6 +1,6 @@
 <a><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a>&nbsp;
 
-## Navigation
+## Quick Navigation
 </br>[<= Return to the µOpenSPIM starting page](/micro-openspim)</br>
 
 ## Getting familiar with µOpenSPIM's GUI
