@@ -1,8 +1,8 @@
 <a><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a>&nbsp;
 
 ## Quick Navigation
-<= Return to the [µOpenSPIM starting page](/micro-openspim)</br>
-=> Go to [Detailed Acquisition controls for µOpenSPIM.](/micro-openspim_acquisition-controls)
+=> Go to [Detailed Acquisition controls for µOpenSPIM.](/micro-openspim_acquisition-controls)</br>
+<= Return to the [µOpenSPIM starting page](/micro-openspim)
 
 ## Getting familiar with µOpenSPIM's GUI
 -   The GUI of µOpenSPIM can be arranged in many ways and then saved and restored if needed.</br>
