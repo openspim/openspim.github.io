@@ -2,8 +2,8 @@
 </br>
 
 ## Quick Navigation
-[<= Return to Image acquisition](/micro-openspim_acquisition)</br>
-[<= <= Return to the µOpenSPIM starting page](/micro-openspim)
+<= Return to [Image acquisition](/micro-openspim_acquisition)</br>
+<= <= Return to the[µOpenSPIM starting page](/micro-openspim)
 
 ## Acquisition Controls
 The following image will introduce you to the location of all available controls to set up an imaging session.</br>
