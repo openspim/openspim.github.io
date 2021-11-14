@@ -2,8 +2,8 @@
 <a href="https://github.com/openspim/micro-OpenSPIM" target="_blank" title="µOpenSPIM-Github Site"><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a> is an intuitive new graphical user interface (GUI) for OpenSPIM users, which relies on [µManager](https://micro-manager.org).
 
 ## Quick Navigation
-[=> Go to Image acquisition](/micro-openspim_acquisition)</br>
-[=> => Detailed Acquisition controls for µOpenSPIM.](/micro-openspim_acquisition-controls)
+=> Go to [Image acquisition](/micro-openspim_acquisition)</br>
+=> => Go to [Detailed Acquisition controls for µOpenSPIM.](/micro-openspim_acquisition-controls)
 
 ## Features of µOpenSPIM
 -   A complete overhaul of the GUI has been made including simple graphic visualizations and an improved control over Picrard’s 4D-stage
