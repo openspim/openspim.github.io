@@ -1,4 +1,4 @@
-<a><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a>&nbsp;Go back to [Image acquisition](/micro-openspim_acquisition)</br>
+<a><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a>&nbsp;</br>[<= Return to Image acquisition](/micro-openspim_acquisition)</br>
 
 
 
