@@ -1,4 +1,4 @@
-<a><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a>&nbsp;
+<a href="/micro-openspim" target="_blank" title="µOpenSPIM-Github Site"><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a> 
 
 ## Quick Navigation
 => Go to [Detailed Acquisition controls for µOpenSPIM.](/micro-openspim_acquisition-controls)</br>

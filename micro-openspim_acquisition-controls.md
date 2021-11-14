@@ -1,4 +1,4 @@
-<a><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a>&nbsp;
+<a href="/micro-openspim" target="_blank" title="µOpenSPIM-Github Site"><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a>
 </br>
 
 ## Quick Navigation
