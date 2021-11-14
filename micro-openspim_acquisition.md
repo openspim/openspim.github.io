@@ -1,4 +1,4 @@
-<a><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a>&nbsp;Go back to the [µOpenSPIM starting page](/micro-openspim)</br>
+<a><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a>&nbsp;</br>[<= Return to the µOpenSPIM starting page](/micro-openspim)</br>
 
 ## Getting familiar with µOpenSPIM's GUI
 -   The GUI of µOpenSPIM can be arranged in many ways and then saved and restored if needed.</br>
