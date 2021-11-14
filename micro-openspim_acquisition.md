@@ -2,6 +2,7 @@
 
 ## Quick Navigation
 <= Return to the [µOpenSPIM starting page](/micro-openspim)</br>
+=> Go to [Detailed Acquisition controls for µOpenSPIM.](/micro-openspim_acquisition-controls)
 
 ## Getting familiar with µOpenSPIM's GUI
 -   The GUI of µOpenSPIM can be arranged in many ways and then saved and restored if needed.</br>
