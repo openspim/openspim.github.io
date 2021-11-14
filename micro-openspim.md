@@ -3,6 +3,7 @@
 
 ## Quick Navigation
 [=> Go to Image acquisition](/micro-openspim_acquisition)
+[=> => Detailed Acquisition controls for µOpenSPIM.](/micro-openspim_acquisition-controls)
 
 ## Features of µOpenSPIM
 -   A complete overhaul of the GUI has been made including simple graphic visualizations and an improved control over Picrard’s 4D-stage
