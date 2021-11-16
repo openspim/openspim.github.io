@@ -57,6 +57,11 @@ Proceed to the second optical rail between the corner mirror and the illuminatio
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 6</span>&nbsp;
 Mount the lenses of the first telescope system (without the cylindrical lens) and pay attention that the distance between them roughly equals the sum of their focal length (19 mm and 75 mm means that the distance between the two lenses should be 94 mm). Note that by placing the telescopic lenses, the beam has significantly expanded. Follow the enlarged beam starting behind the telescopic lenses e.g., with a piece of cleaning tissue, and check if the beam retains the same diameter until it hits the corner mirror. This indicates that the distance between the two lenses is correct.  It may be a good idea to verify if the telescopic lenses did not severely alter the alignment of the laser e.g., by placing an alignment plate at the end of the rail. Such misalignments can be avoided by ensuring that the telescopic lenses are tightly assembled and that the lens mounts face the illumination axis without any tilt. One might need to make minor adjustments using the screws of the kinematic mounts to correct for small deviations of the beam caused by the inserted lenses.
+<figure align="center">
+  <a href="https://openspim.org/images/alignment/Alignment_Figure6.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure6.png"></a>
+<figcaption> Figure 6
+</figcaption>
+</figure>  
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 7</span>&nbsp;
 Repeat step 1-6 to align a possible second illumination axis.
