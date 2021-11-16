@@ -41,5 +41,9 @@ Place the first alignment disc at the beginning of the first optical rail and th
 </figcaption>
 </figure>  
 Start with the first kinematic mirror using the fine adjustment screws and aim for the central opening of the first alignment disc (reference point 1). Then adjust the second kinematic mirror but this time try to hit the central hole of the alignment disc. The laser beam will not hit the alignment disc right away. Instead, it diminishes before reaching the central hole of the alignment disc. Whenever this is the case, go back to the first kinematic mirror and readjust for the Iris aperture hole. Play this back and forward until the beam strikes both reference points and the first optical rail is correctly aligned.
-
+<figure align="center">
+  <a href="https://openspim.org/images/alignment/Alignment_Figure4.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure4.png"></a>
+<figcaption> *Figure 4*
+</figcaption>
+</figure>  
 
