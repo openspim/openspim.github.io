@@ -28,7 +28,7 @@ Now adjust all kinematic mounts until the laser beam roughly follows the desired
 
 Try to find the central spot of each KM as indicated in Figure 2.
 <figure align="center">
-  <a href="https://openspim.org/images/alignment/Alignment_Figure1.png" target="_blank"><img width="1024" src="https://openspim.org/images/alignment/Alignment_Figure3.png"></a>
+  <a href="https://openspim.org/images/alignment/Alignment_Figure1.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure2.png"></a>
 <figcaption> Figure 2 - Centering the beam on the kinematic mirrors.
 </figcaption>
 </figure>  
