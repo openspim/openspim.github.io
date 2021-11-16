@@ -39,7 +39,7 @@ This requires some patience, because in order to achieve a perpendicular bounce,
 Place the first alignment disc at the beginning of the first optical rail and the second alignment disc at its end. Adjust the kinematic mounts (KM05/M, Thorlabs) of the reflecting mirrors.
 
 <figure align="center">
-  <a href="https://openspim.org/images/alignment/Alignment_Figure1.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure3.png"></a>
+  <a href="https://openspim.org/images/alignment/Alignment_Figure3.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure3.png"></a>
 <figcaption> Figure 1 - Aligning the laser along the rails by adjusting the Kinematic Mirrors (KM) with their mounts set to 45 degrees along the rails (red arrows).
 </figcaption>
 </figure>  
