@@ -19,8 +19,15 @@ Remove any optical parts from the illumination axis except for the kinematic mir
 Adjust the beam splitter cube and aim for two beams that are perpendicular to each other when they hit the first two kinematic mirrors.
 
 -   <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 3</span>&nbsp;
-Now adjust all kinematic mounts until the laser beam roughly follows the desired path along the optical rails.
+Now adjust all kinematic mounts until the laser beam roughly follows the desired path along the optical rails (see Figure 1 below).
 </br><img src="https://openspim.org/images/alignment/Alignment_Figure1.png" width="1024"></br>
+
+This requires some patience, because in order to achieve a perpendicular bounce, kinematic mirrors have to be taken off the breadboard, then readjusted (slightly turned) by loosening and tightening their rail carriers, and then placed back on the optical breadboard and into the beam path. This typically requires several attempts. Ensure that the laser hits approximately the center of each mirror and try to avoid using the fine adjustment screws too much. They need to have sufficient margin in the next step and should retain a more or less neutral position.
+</br><img src="https://openspim.org/images/alignment/Alignment_Figure2.png" width="1024"></br>
+
+-   <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 4</span>&nbsp;
+Place the first alignment disc at the beginning of the first optical rail and the second alignment disc at its end. Adjust the kinematic mounts (KM05/M, Thorlabs) of the reflecting mirrors.
+
 
 
 
