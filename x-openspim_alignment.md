@@ -26,11 +26,23 @@ Now adjust all kinematic mounts until the laser beam roughly follows the desired
 </figcaption>
 </figure>  
 
+Try to find the central spot of each KM as indicated in Figure 2.
+<figure align="center">
+  <a href="https://openspim.org/images/alignment/Alignment_Figure1.png" target="_blank"><img width="1024" src="https://openspim.org/images/alignment/Alignment_Figure3.png"></a>
+<figcaption> Figure 2 - Centering the beam on the kinematic mirrors.
+</figcaption>
+</figure>  
+
 This requires some patience, because in order to achieve a perpendicular bounce, kinematic mirrors have to be taken off the breadboard, then readjusted (slightly turned) by loosening and tightening their rail carriers, and then placed back on the optical breadboard and into the beam path. This typically requires several attempts. Ensure that the laser hits approximately the center of each mirror and try to avoid using the fine adjustment screws too much. They need to have sufficient margin in the next step and should retain a more or less neutral position.
 
 -   <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 4</span>&nbsp;
 Place the first alignment disc at the beginning of the first optical rail and the second alignment disc at its end. Adjust the kinematic mounts (KM05/M, Thorlabs) of the reflecting mirrors.
-</br><img src="https://openspim.org/images/alignment/Alignment_Figure2.png" width="1024"></br>
+
+<figure align="center">
+  <a href="https://openspim.org/images/alignment/Alignment_Figure1.png" target="_blank"><img width="1024" src="https://openspim.org/images/alignment/Alignment_Figure3.png"></a>
+<figcaption> Figure 1 - Aligning the laser along the rails by adjusting the Kinematic Mirrors (KM) with their mounts set to 45 degrees along the rails (red arrows).
+</figcaption>
+</figure>  
 
 
 
