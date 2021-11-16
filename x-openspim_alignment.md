@@ -40,10 +40,17 @@ Place the first alignment disc at the beginning of the first optical rail and th
 <figcaption> Figure 3
 </figcaption>
 </figure>  
-Start with the first kinematic mirror using the fine adjustment screws and aim for the central opening of the first alignment disc (reference point 1). Then adjust the second kinematic mirror but this time try to hit the central hole of the alignment disc. The laser beam will not hit the alignment disc right away. Instead, it diminishes before reaching the central hole of the alignment disc. Whenever this is the case, go back to the first kinematic mirror and readjust for the Iris aperture hole. Play this back and forward until the beam strikes both reference points and the first optical rail is correctly aligned.
+Start with the first kinematic mirror (KM1) using the fine adjustment screws (pink arrows) and aim for the central opening of the first alignment disc (AD1). Then adjust the second kinematic mirror (KM2, green arrows) but this time try to hit the central hole of the second alignment disc (AD2). The laser beam will not hit the alignment disc right away. Instead, it typically diminishes before reaching the central hole of the alignment disc. Whenever this is the case, go back to the first kinematic mirror (KM1) and readjust for the Iris aperture hole. Play this back and forward until the beam strikes both reference points and the first optical rail is correctly aligned.
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure4.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure4.png"></a>
 <figcaption> Figure 4
 </figcaption>
 </figure>  
 
+-   <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 5</span>&nbsp;
+Proceed to the second optical rail between the corner mirror and the illumination objective of the chamber. Again, place the two reference points at the beginning and the end of the rail. Initially the gimbal mount knobs of the corner mirror should be brought into a neutral position and the first alignment done by sliding the corner mirror forward or backward along the rail. There should be a reasonable alignment of the beam before fixing the mirror onto the rail. Now the beam can be aligned by adjusting the corner mirror with the horizontal and vertical adjuster knobs of the Gimbal mounts until the beam passes directly through the center of both alignment disc holes.
+<figure align="center">
+  <a href="https://openspim.org/images/alignment/Alignment_Figure5.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure5.png"></a>
+<figcaption> Figure 5
+</figcaption>
+</figure>  
