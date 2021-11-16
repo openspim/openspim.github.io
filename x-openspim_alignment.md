@@ -21,8 +21,8 @@ Adjust the beam splitter cube and aim for two beams that are perpendicular to ea
 -   <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 3</span>&nbsp;
 Now adjust all kinematic mounts until the laser beam roughly follows the desired path along the optical rails (see Figure 1 below).
 <figure align="center">
-  <a href="https://openspim.org/images/alignment/Alignment_Figure1.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure1.png"></a>
-<figcaption style="font-weight:italic"> Figure 1 - Aligning the laser along the rails by adjusting the Kinematic Mirrors (KM) with their mounts set to 45 degrees along the rails (red arrows). The two blue arrows point to the fine adjustment screws of the kinematic mount. The perpendicular beam path branching off the beam splitter easily titls to one side (yellow dotted line), which should be avoided
+  <a href="https://openspim.org/images/alignment/Alignment_Figure1.png" target="_blank"><img width="900" src="https://openspim.org/images/alignment/Alignment_Figure1.png"></a>
+<figcaption> Figure 1 - Aligning the laser along the rails by adjusting the Kinematic Mirrors (KM) with their mounts set to 45 degrees along the rails (red arrows). The two blue arrows point to the fine adjustment screws of the kinematic mount. The perpendicular beam path branching off the beam splitter easily titls to one side (yellow dotted line), which should be avoided.
 </figcaption>
 </figure>  
 Try to find the central spot of each KM as indicated in Figure 2.
