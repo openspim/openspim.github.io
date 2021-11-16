@@ -21,14 +21,14 @@ Adjust the beam splitter cube and aim for two beams that are perpendicular to ea
 -   <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 3</span>&nbsp;
 Now adjust all kinematic mounts until the laser beam roughly follows the desired path along the optical rails (see Figure 1 below).
 <figure align="center">
-  <a href="https://openspim.org/images/alignment/Alignment_Figure1.png" target="_blank"><img width="1024" src="https://openspim.org/images/alignment/Alignment_Figure1.png"></a>
+  <a href="https://openspim.org/images/alignment/Alignment_Figure1.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure1.png"></a>
 <figcaption> Figure 1 - Aligning the laser along the rails by adjusting the Kinematic Mirrors (KM) with their mounts set to 45 degrees along the rails (red arrows).
 </figcaption>
 </figure>  
 
 Try to find the central spot of each KM as indicated in Figure 2.
 <figure align="center">
-  <a href="https://openspim.org/images/alignment/Alignment_Figure1.png" target="_blank"><img width="500" src="https://openspim.org/images/alignment/Alignment_Figure2.png"></a>
+  <a href="https://openspim.org/images/alignment/Alignment_Figure2.png" target="_blank"><img width="500" src="https://openspim.org/images/alignment/Alignment_Figure2.png"></a>
 <figcaption> Figure 2 - Centering the beam on the kinematic mirrors.
 </figcaption>
 </figure>  
@@ -39,7 +39,7 @@ This requires some patience, because in order to achieve a perpendicular bounce,
 Place the first alignment disc at the beginning of the first optical rail and the second alignment disc at its end. Adjust the kinematic mounts (KM05/M, Thorlabs) of the reflecting mirrors.
 
 <figure align="center">
-  <a href="https://openspim.org/images/alignment/Alignment_Figure1.png" target="_blank"><img width="1024" src="https://openspim.org/images/alignment/Alignment_Figure3.png"></a>
+  <a href="https://openspim.org/images/alignment/Alignment_Figure1.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure3.png"></a>
 <figcaption> Figure 1 - Aligning the laser along the rails by adjusting the Kinematic Mirrors (KM) with their mounts set to 45 degrees along the rails (red arrows).
 </figcaption>
 </figure>  
