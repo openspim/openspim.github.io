@@ -45,17 +45,3 @@ Place the first alignment disc at the beginning of the first optical rail and th
 
 
 
-
-
-
-
-## Installation and start-up of µOpenSPIM
--   Right now, µOpenSPIM is in its beta stage and works with µManager 2.0.1 20210721 for Windows (nightly build 21 July 2021).
--   See also our [µOpenSPIM-Github Site](https://github.com/openspim/micro-OpenSPIM).
-
-## Acquiring a Single Image
-<img src="https://openspim.org/images/µOpenSPIM_single-image.png" width="100"></br>
- To acquire a single image with µOpenSPIM:
-
-1.  Click <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Add current position</span>&nbsp;to add this plane to the position list. 
-2.  Finally, click <span style="color:#008000; background-color:#DCDCDC; font-weight:bold">Acquire</span>&nbsp;to capture a single or multi-channel image.
