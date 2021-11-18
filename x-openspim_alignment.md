@@ -71,5 +71,12 @@ Now that the alignment along the rails carrying the optical components is comple
 Preparations:
 -   Prepare 1% water agarose containing fluorescent beads (e.g., 1:2000), which fit the laser excitation and emission filters of your OpenSPIM system. Sonicate the beads in a 1:100 stock solution for 3 min before mixing them with water agarose or vigorously vortex it for several minutes to avoid clustering.
 -   Vortex the Agarose containing the beads for 3 min and soak it into a glass capillary e.g., by using a plunger. For detailed descriptions for mounting and preparing samples visit the [OpenSPIM website](https://openspim.org/Sample_Preparation).
+<figure align="center">
+  <a href="https://openspim.org/images/alignment/Alignment_Figure7.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure7.png"></a>
+<figcaption> Figure 7
+</figcaption>
+</figure>  
+
+-   Fill the acquisition chamber with water, mount and find the lower edge of the glass capillary using any available bright light source (even the torch of your phone can be used). Then push out the agarose by gently pressing the plunger until the column of agarose covers the entire field of view. Make sure the glass capillary completely out of view. Now focus on the left or right edge of the Agarose and center the column of agarose in the field of view. Particularly in an X-OpenSPIM with two detection objectives, it is important that the glass capillary with the Agarose is positioned well in the center of the chamber before proceeding with the alignment.
 
 ## 3. Fine align the created light-sheet on the sample
