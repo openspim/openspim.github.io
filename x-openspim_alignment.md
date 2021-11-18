@@ -67,5 +67,9 @@ Mount the lenses of the first telescope system (without the cylindrical lens) an
 Repeat step 1-6 to align a possible second illumination axis.
 
 ## 2. Visualizing and tuning the beam within the field of view of one or two cameras
+Now that the alignment along the rails carrying the optical components is completed, the emitted laser beam can be visualized in agarose after adding the two telescope systems and adjusted by slightly changing the positions of the spherical lens assemblies along the rails.
+Preparations:
+-   Prepare 1% water agarose containing fluorescent beads (e.g., 1:2000), which fit the laser excitation and emission filters of your OpenSPIM system. Sonicate the beads in a 1:100 stock solution for 3 min before mixing them with water agarose or vigorously vortex it for several minutes to avoid clustering.
+-   Vortex the Agarose containing the beads for 3 min and soak it into a glass capillary e.g., by using a plunger. For detailed descriptions for mounting and preparing samples visit the [OpenSPIM website](https://openspim.org/Sample_Preparation).
 
 ## 3. Fine align the created light-sheet on the sample
