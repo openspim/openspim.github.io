@@ -79,4 +79,10 @@ Preparations:
 
 -   Fill the acquisition chamber with water, mount and find the lower edge of the glass capillary using any available bright light source (even the torch of your phone can be used). Then push out the agarose by gently pressing the plunger until the column of agarose covers the entire field of view. Make sure the glass capillary completely out of view. Now focus on the left or right edge of the Agarose and center the column of agarose in the field of view. Particularly in an X-OpenSPIM with two detection objectives, it is important that the glass capillary with the Agarose is positioned well in the center of the chamber before proceeding with the alignment.
 
+<figure align="center">
+  <a href="https://openspim.org/images/alignment/Alignment_Figure8.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure8.png"></a>
+<figcaption> Figure 7
+</figcaption>
+</figure>  
+
 ## 3. Fine align the created light-sheet on the sample
