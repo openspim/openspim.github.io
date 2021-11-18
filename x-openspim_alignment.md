@@ -85,4 +85,9 @@ Preparations:
 </figcaption>
 </figure>  
 
+<span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 8</span>&nbsp;
+Remove emission filters and cylindrical lenses on the illumination axes that you aim to align and slightly adjust the distance between the 25 mm and 50 mm telescopic lenses and their distance to the illumination objective. Try tightening the two telescopic lenses with the spring-loaded plunger of the rail carrier up to the point where they can only just glide along the optical rail. At some point the laser beam should become visible, first as an indistinct broad fuzzy beam crossing the field of view horizontally from left to right.
+Further adjust the telescope lenses to increase the sharpness of the beam until it looks similar to the one depicted in Supplementary Figure 8, A.
+
+
 ## 3. Fine align the created light-sheet on the sample
