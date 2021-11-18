@@ -81,7 +81,7 @@ Preparations:
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure8.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure8.png"></a>
-<figcaption> Figure 7
+<figcaption> Figure 8
 </figcaption>
 </figure>  
 
