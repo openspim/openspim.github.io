@@ -113,4 +113,4 @@ Check if any rotational misalignments between the field of view of both sister c
 </figcaption>
 </figure>  
 
-## 3. Fine align the created light-sheet on the sample
+## 3. Fine alignment of the created light-sheet on the sample
