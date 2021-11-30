@@ -89,5 +89,22 @@ Preparations:
 Remove emission filters and cylindrical lenses on the illumination axes that you aim to align and slightly adjust the distance between the 25 mm and 50 mm telescopic lenses and their distance to the illumination objective. Try tightening the two telescopic lenses with the spring-loaded plunger of the rail carrier up to the point where they can only just glide along the optical rail. At some point the laser beam should become visible, first as an indistinct broad fuzzy beam crossing the field of view horizontally from left to right.
 Further adjust the telescope lenses to increase the sharpness of the beam until it looks similar to the one depicted in Supplementary Figure 8, A.
 
+<span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 9</span>&nbsp;
+Adjust the horizontal gimbal mount knob of the corner mirror to bring the illumination beam in focus with the working distance of the detection objective up to the point where it can be seen as a very thin stripe instead of a coarse beam (Supplementary Figure 8, B). At this point it often becomes obvious that the focal point of the beam is not centered in the field of view. This shift is shown in Supplementary Figure 8, B. Again, carefully adjust one of the telescopic lenses to correct for this shift.
+
+<span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 10</span>&nbsp;
+Repeat step 4 to 6 on the second illumination axis until the left and right illumination beams are aligned and resemble the aligned beams depicted in Supplementary Figure 8, C and D.
+
+<span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 11</span>&nbsp;
+Adjust the vertical gimbal mount adjuster knob to center the beam. In this way both illumination paths are aligned and centered in the field of view until they overlap each other (Supplementary Figure 8, E).
+
+<span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 11</span>&nbsp;
+Check if any rotational misalignments between the field of view of both sister cameras are visible. An example of this can be seen in in Supplementary Figure 8, G.  If this is the case one camera has to be rotated until the mismatch is corrected.
+
+<figure align="center">
+  <a href="https://openspim.org/images/alignment/Alignment_Figure10.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure10.png"></a>
+<figcaption> Figure 10
+</figcaption>
+</figure>  
 
 ## 3. Fine align the created light-sheet on the sample
