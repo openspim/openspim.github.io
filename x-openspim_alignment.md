@@ -34,10 +34,10 @@ This requires some patience, because in order to achieve a perpendicular bounce,
 </figure>  
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 4</span>&nbsp;
-Place the first alignment disc at the beginning of the first optical rail and the second alignment disc at its end as depicted in Figure 3. Now readjust the kinematic mounts (KM05/M, Thorlabs) of the reflecting mirrors.
+Place the first alignment disc at the beginning of the first optical rail and the second alignment disc at its end as depicted in Figure 3. Now readjust the kinematic mounts (KM05/M, Thorlabs) of the reflecting mirrors until the beam hits the central hole of the first reference point (AD1) and the central spot of all kinematic mirrors.
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure3.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure3.png"></a>
-<figcaption> Figure 3
+<figcaption> Figure 3 - Creating two reference points (AD1 and AD2) on an optical rail.
 </figcaption>
 </figure>  
 Start with the first kinematic mirror (KM1) using the fine adjustment screws (pink arrows) and aim for the central opening of the first alignment disc (AD1). Then adjust the second kinematic mirror (KM2, green arrows) but this time try to hit the central hole of the second alignment disc (AD2). The laser beam will not hit the alignment disc right away. Instead, it typically diminishes before reaching the central hole of the alignment disc. Whenever this is the case, go back to the first kinematic mirror (KM1) and readjust for the Iris aperture hole. Play this back and forward until the beam strikes both reference points and the first optical rail is correctly aligned.
@@ -59,7 +59,7 @@ Proceed to the second optical rail between the corner mirror and the illuminatio
 Mount the lenses of the first telescope system as shown in Figure 6 (without the cylindrical lens) and make sure that the distance between them roughly equals the sum of their focal length (e.g., 19 mm and 75 mm means that the distance between the two lenses should be 94 mm). Note that by placing the telescopic lenses, the beam has significantly expanded. Follow the enlarged beam starting behind the telescopic lenses (a piece of lens cleaning tissue will do) and check if the beam retains the same diameter along the rails until it hits the corner mirror. At this point it may be a good idea to verify whether the insertion of the telescopic lenses did not severely alter the alignment of the laser beam. This can be checked by placing an alignment disk at the end of the rail. Such misalignment are common and can be avoided by ensuring that the telescopic lenses are tightly assembled and that the lens mounts face the illumination axis without any tilt. One might need to make minor adjustments using the screws of the kinematic mounts to correct for small deviations of the beam caused by the inserted lenses.
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure6.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure6.png"></a>
-<figcaption> Figure 6 - Alignment along the rails in one of the two illumination sides is completed.
+<figcaption> Figure 6 - Successful beam alignment along the rails in one of the two illumination sides.
 </figcaption>
 </figure>  
 
@@ -81,7 +81,7 @@ Preparations:
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure8.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure8.png"></a>
-<figcaption> Figure 8 - Position the glass capillary in the center of the chamber and bringing it into the field of view using a bright light (e.g., a smartphone).
+<figcaption> Figure 8 - Positioning the glass capillary in the center of the chamber and bringing it into the field of view using a bright light (e.g., a smartphone).
 </figcaption>
 </figure>  
 
