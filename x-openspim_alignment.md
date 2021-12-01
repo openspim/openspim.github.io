@@ -114,3 +114,20 @@ Check if any rotational misalignments between the field of view of both sister c
 </figure>  
 
 ## 3. Fine alignment of the created light-sheet on the sample
+<span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 13</span>&nbsp;
+Place the cylindrical lenses on the rail and put back the emission filter. Make sure the cylindrical lens is in its correct place and its rotational mount is well adjusted by checking wether a focused, horizontal laser stripe has appeared on the corner mirror surface.
+
+<figure align="center">
+  <a href="https://openspim.org/images/alignment/Alignment_Figure11.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure11.png"></a>
+<figcaption> Figure 11
+</figcaption>
+</figure>  
+
+<span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 14</span>&nbsp;
+The correct alignment of both excitation light-sheets can now be tested on fluorescent beads. For this, use the horizontal gimbal mount to bring the light-sheet into the focal plane of one of the detection objectives, while simultaneously gently playing with the rotation mount of the cylindrical lens. The beads embedded in agarose should now become focused and visible and ideally cover the field of view homogeneously as small bright dots as shown in Figure 12.
+
+<figure align="center">
+  <a href="https://openspim.org/images/alignment/Alignment_Figure12.png" target="_blank"><img width="600" src="https://openspim.org/images/alignment/Alignment_Figure12.png"></a>
+<figcaption> Figure 12
+</figcaption>
+</figure> 
