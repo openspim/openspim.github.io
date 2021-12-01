@@ -105,7 +105,7 @@ Adjust the vertical gimbal mount adjuster knob (Figure 9, E, 2) to center the be
 </figure>  
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 12</span>&nbsp;
-Check if any rotational misalignments between the field of view of both sister cameras are visible. An example of this can be seen in Figure 10 (see inset).  If this is the case one camera has to be rotated (Figure 10, red double-arrow) until the mismatch is corrected.
+Check if any rotational misalignment between the field of view of both sister cameras are visible. An example of this can be seen in Figure 10 (see inset).  If this is the case one camera has to be rotated (Figure 10, red double-arrow) until the mismatch is corrected.
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure10.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure10.png"></a>
@@ -130,8 +130,8 @@ The correct alignment of both excitation light-sheets can now be tested on fluor
 Different light intensities of the beads between the left and right illumination axes, may indicate slight beam alignment differences. This issue can be corrected by looking at the beads. In the illumination axis, where a lower intensity of beads is observed, the height of the beam can carefully be adjusted by using the two reflecting mirrors positioned prior to the rail carrying the first telescopic system. By making slight adjustments with a 5/64" hex key adjuster, intensities should increase and decrease. Aim to maximize light intensity on both illumination axes.
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 16</span>&nbsp;
-An overlap of the field of view of the two sister cameras can be achieved mechanically by looking at beads and using the fine adjustments of the corner mirror mount knops of one of the detection axes.
-First make sure the same beads are visible in the two sister cameras and that the beads are co-focused by moving one of the detection objectives in z. Then use the corner mirror mount knops of the 2-inch corner mirror mount (KCB2EC/M, Thorlabs) to co-align the two field of views until all beads overlap. If a significant stronger mismatch of beads is visible at the outer corners of the field of view (Supplementary Figure 8, H) and the impression of a spiraling feeling occurs while going through the beads in z, then one of the two cameras has to be rotated before the overall match of the beads can be improved (Supplementary Figure 8, I).
+An overlap of the field of view of the two sister cameras can be achieved mechanically by looking at beads and using the fine adjustments of the corner mirror mount knobs of one of the detection axes.
+First make sure the same beads are visible in the two sister cameras and that the beads are co-focused by moving one of the detection objectives in z. Then use the corner mirror mount knobs (Figure 12, white arrows) of the 2-inch corner mirror mount (KCB2EC/M, Thorlabs) to co-align the two field of views until all beads overlap. If a significant stronger mismatch of beads is visible at the outer corners of the field of view and the impression of a spiraling feeling occurs while going through the beads in z, then one of the two cameras has to be rotated before the overall match of the beads can be improved (see Step 12).
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure12.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure12.png"></a>
