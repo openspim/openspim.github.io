@@ -115,7 +115,7 @@ Check if any rotational misalignments between the field of view of both sister c
 
 ## 3. Fine alignment of the created light-sheet on the sample
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 13</span>&nbsp;
-Place the cylindrical lenses on the rail and put back the emission filter. Make sure the cylindrical lens is in its correct place and its rotational mount is well adjusted by checking wether a focused, horizontal laser stripe has appeared on the corner mirror surface.
+Place the cylindrical lenses on the rail and put back the emission filter. Make sure the cylindrical lens is in its correct place and its rotational mount is well adjusted by checking whether a focused, horizontal laser stripe has appeared on the corner mirror surface.
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure11.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure11.png"></a>
@@ -131,3 +131,6 @@ The correct alignment of both excitation light-sheets can now be tested on fluor
 <figcaption> Figure 12
 </figcaption>
 </figure> 
+
+<span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 15</span>&nbsp;
+Different light intensities of the beads between the left and right illumination axes, may indicate slight beam alignment differences. This issue can be corrected by looking at the beads. In the illumination axis, where a lower intensity of beads is observed, the height of the beam can carefully be adjusted by using the two reflecting mirrors positioned prior to the rail carrying the first telescopic system. By making slight adjustments with a 5/64" hex key adjuster, intensities should increase and decrease. Aim to maximize light intensity on both illumination axes.
