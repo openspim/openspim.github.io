@@ -139,3 +139,5 @@ First make sure the same beads are visible in the two sister cameras and that th
 </figcaption>
 </figure> 
 
+The alignment of your OpenSPIM is now completed!
+
