@@ -22,19 +22,19 @@ Adjust the beam splitter cube and aim for two beams that are perpendicular to ea
 Now adjust all kinematic mounts until the laser beam roughly follows the desired path along the optical rails (see Figure 1 below).
 <figure style="font-weight:italic"; align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure1.png" target="_blank"><img width="900" src="https://openspim.org/images/alignment/Alignment_Figure1.png"></a>
-<figcaption> Figure 1 - Aligning the laser along the rails by adjusting the Kinematic Mirrors (KM) with their mounts set to 45 degrees along the rails (red arrows). The two blue arrows point to the fine adjustment screws of the kinematic mount. The perpendicular beam path branching off the beam splitter easily tilts to one side (yellow dotted line), which should be avoided.
+<figcaption> Figure 1 - Aligning the laser along the first optical rail by adjusting the Beam Splitter and Kinematic Mirrors (KM1-KM3) with their mounts set to 45 degrees along the rails as shown on the right. The two blue arrows point to the fine adjustment screws of the kinematic mount, which will be used later. The perpendicular beam path branching off the Beam Splitter easily tilts to one side (see yellow dotted line),and should be avoided. Red double headed arrows indicate adjustment direction.
 </figcaption>
 </figure>  
 Try to find the central spot of each KM as indicated in Figure 2.
-This requires some patience, because in order to achieve a perpendicular bounce, kinematic mirrors have to be taken off the breadboard, then readjusted (slightly turned) by loosening and tightening their rail carriers, and then placed back on the optical breadboard and into the beam path. This typically requires several attempts. Ensure that the laser hits approximately the center of each mirror and try to avoid using the fine adjustment screws too much. They need to have sufficient margin in the next step and should retain a more or less neutral position.
+This requires some patience, because in order to achieve a perpendicular bounce, kinematic mirrors have to be taken off the breadboard, then readjusted (slightly turned as shown in Figure 1, side view of KM) by loosening and tightening their rail carriers, and then placed back on the optical breadboard and into the beam path. This typically requires several attempts. Ensure that the laser hits approximately the center of each mirror and try to excessive use the fine adjustment screws as they need to have sufficient margin in Step 4 and should for now retain a more or less neutral position.
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure2.png" target="_blank"><img width="500" src="https://openspim.org/images/alignment/Alignment_Figure2.png"></a>
-<figcaption> Figure 2 - Centering the beam on the kinematic mirrors
+<figcaption> Figure 2 - Centered beam on kinematic mirrors.
 </figcaption>
 </figure>  
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 4</span>&nbsp;
-Place the first alignment disc at the beginning of the first optical rail and the second alignment disc at its end. Adjust the kinematic mounts (KM05/M, Thorlabs) of the reflecting mirrors.
+Place the first alignment disc at the beginning of the first optical rail and the second alignment disc at its end as depicted in Figure 3. Now readjust the kinematic mounts (KM05/M, Thorlabs) of the reflecting mirrors.
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure3.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure3.png"></a>
 <figcaption> Figure 3
@@ -43,23 +43,23 @@ Place the first alignment disc at the beginning of the first optical rail and th
 Start with the first kinematic mirror (KM1) using the fine adjustment screws (pink arrows) and aim for the central opening of the first alignment disc (AD1). Then adjust the second kinematic mirror (KM2, green arrows) but this time try to hit the central hole of the second alignment disc (AD2). The laser beam will not hit the alignment disc right away. Instead, it typically diminishes before reaching the central hole of the alignment disc. Whenever this is the case, go back to the first kinematic mirror (KM1) and readjust for the Iris aperture hole. Play this back and forward until the beam strikes both reference points and the first optical rail is correctly aligned.
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure4.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure4.png"></a>
-<figcaption> Figure 4
+<figcaption> Figure 4 - Beam alignment along the first optical rail.
 </figcaption>
 </figure>  
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 5</span>&nbsp;
-Proceed to the second optical rail between the corner mirror and the illumination objective of the chamber. Again, place the two reference points at the beginning and the end of the rail. Initially the Gimbal mount knobs of the corner mirror should be brought into a neutral position and the first alignment done by sliding the corner mirror forward or backward along the rail. There should be a reasonable alignment of the beam before fixing the mirror onto the rail. Now the beam can be aligned by adjusting the corner mirror with the horizontal and vertical adjuster knobs of the Gimbal mounts until the beam passes directly through the center of both alignment disc holes.
+Proceed to the second optical rail between the corner mirror and the illumination objective of the chamber. Again, place the two reference points at the beginning and the end of the rail (see Figure 5). Initially the Gimbal mount knobs of the corner mirror should be brought into a neutral position and the first alignment done by sliding the corner mirror forward or backward along the rail (Figure 5, red double headed arrow). There should be a reasonable alignment of the beam before tightly fixing the mirror onto the rail. Now the beam can be aligned by adjusting the corner mirror with the horizontal (H) and vertical (V) adjuster knobs of the Gimbal mounts until the beam passes directly through the center of both alignment disc holes.
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure5.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure5.png"></a>
-<figcaption> Figure 5
+<figcaption> Figure 5 - Beam alignment along the second optical rail.
 </figcaption>
 </figure>  
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 6</span>&nbsp;
-Mount the lenses of the first telescope system (without the cylindrical lens) and pay attention that the distance between them roughly equals the sum of their focal length (19 mm and 75 mm means that the distance between the two lenses should be 94 mm). Note that by placing the telescopic lenses, the beam has significantly expanded. Follow the enlarged beam starting behind the telescopic lenses e.g., with a piece of cleaning tissue, and check if the beam retains the same diameter until it hits the corner mirror. This indicates that the distance between the two lenses is correct.  It may be a good idea to verify if the telescopic lenses did not severely alter the alignment of the laser e.g., by placing an alignment plate at the end of the rail. Such misalignments can be avoided by ensuring that the telescopic lenses are tightly assembled and that the lens mounts face the illumination axis without any tilt. One might need to make minor adjustments using the screws of the kinematic mounts to correct for small deviations of the beam caused by the inserted lenses.
+Mount the lenses of the first telescope system as shown in Figure 6 (without the cylindrical lens) and make sure that the distance between them roughly equals the sum of their focal length (e.g., 19 mm and 75 mm means that the distance between the two lenses should be 94 mm). Note that by placing the telescopic lenses, the beam has significantly expanded. Follow the enlarged beam starting behind the telescopic lenses (a piece of lens cleaning tissue will do) and check if the beam retains the same diameter along the rails until it hits the corner mirror. At this point it may be a good idea to verify whether the insertion of the telescopic lenses did not severely alter the alignment of the laser beam. This can be checked by placing an alignment disk at the end of the rail. Such misalignment are common and can be avoided by ensuring that the telescopic lenses are tightly assembled and that the lens mounts face the illumination axis without any tilt. One might need to make minor adjustments using the screws of the kinematic mounts to correct for small deviations of the beam caused by the inserted lenses.
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure6.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure6.png"></a>
-<figcaption> Figure 6
+<figcaption> Figure 6 - Alignment along the rails in one of the two illumination sides is completed.
 </figcaption>
 </figure>  
 
@@ -67,30 +67,30 @@ Mount the lenses of the first telescope system (without the cylindrical lens) an
 Repeat step 1-6 to align a possible second illumination axis.
 
 ## 2. Visualizing and tuning the beam within the field of view of one or two cameras
-Now that the alignment along the rails carrying the optical components is completed, the emitted laser beam can be visualized in agarose after adding the two telescope systems and adjusted by slightly changing the positions of the spherical lens assemblies along the rails.
+Now that the alignment along the rails carrying the optical components is completed, the emitted laser beam can be visualized in agarose and adjusted by slightly changing the positions of the spherical lens assemblies along the rails.
 Preparations:
 -   Prepare 1% water agarose containing fluorescent beads (e.g., 1:2000), which fit the laser excitation and emission filters of your OpenSPIM system. Sonicate the beads in a 1:100 stock solution for 3 min before mixing them with water agarose or vigorously vortex it for several minutes to avoid clustering.
 -   Vortex the Agarose containing the beads for 3 min and soak it into a glass capillary e.g., by using a plunger. For detailed descriptions for mounting and preparing samples visit the [OpenSPIM website](https://openspim.org/Sample_Preparation).
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure7.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure7.png"></a>
-<figcaption> Figure 7
+<figcaption> Figure 7 - Mounting the glass capillary containing agarose into the acquisition chamber.
 </figcaption>
 </figure>  
 
--   Fill the acquisition chamber with water, mount and find the lower edge of the glass capillary using any available bright light source (even the torch of your phone can be used). Then push out the agarose by gently pressing the plunger until the column of agarose covers the entire field of view. Make sure the glass capillary completely out of view. Now focus on the left or right edge of the Agarose and center the column of agarose in the field of view. Particularly in an X-OpenSPIM with two detection objectives, it is important that the glass capillary with the Agarose is positioned well in the center of the chamber before proceeding with the alignment.
+-   Fill the acquisition chamber with water, mount and find the lower edge of the glass capillary using any available bright light source (even the torch of your phone can be used). Then push out the agarose by gently pressing the plunger until the column of agarose covers the entire field of view. Make sure the glass capillary completely out of view. Now focus on the left or right edge of the agarose and center the column of agarose in the field of view. Particularly in an X-OpenSPIM setup with two detection objectives, it is crucial that the glass capillary is positioned well in the center of the chamber before proceeding with the alignment.
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure8.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure8.png"></a>
-<figcaption> Figure 8
+<figcaption> Figure 8 - Position the glass capillary in the center of the chamber and bringing it into the field of view using a bright light (e.g., a smartphone).
 </figcaption>
 </figure>  
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 8</span>&nbsp;
-Remove emission filters and cylindrical lenses on the illumination axes that you aim to align and slightly adjust the distance between the 25 mm and 50 mm telescopic lenses and their distance to the illumination objective (Figure 9, E, 3). Try tightening the two telescopic lenses with the spring-loaded plunger of the rail carrier up to the point where they can only just glide along the optical rail. At some point the laser beam should become visible, first as an indistinct broad fuzzy beam crossing the field of view horizontally from left to right.
+Remove emission filters and cylindrical lenses on the illumination axes used for alignment and slightly adjust the distance between the 25 mm and 50 mm telescopic lenses and their distance to the illumination objective (Number 3 in Figure 9, E. Try tightening the two telescopic lenses with the spring-loaded plunger of the rail carrier up to the point where they can barely glide along the optical rail (Figure 9, red double headed arrows). At some point the laser beam will become visible, first as an indistinct broad fuzzy beam crossing the field of view horizontally from left to right.
 Further adjust the telescope lenses to increase the sharpness of the beam until it looks similar to the one depicted in Supplementary Figure 9, A.
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 9</span>&nbsp;
-Adjust the horizontal gimbal mount knob of the corner mirror (Figure 9, E, 1) to bring the illumination beam in focus with the working distance of the detection objective up to the point where it can be seen as a very thin stripe instead of a coarse beam (Figure 9, B). At this point it often becomes obvious that the focal point of the beam is not centered in the field of view. This shift is shown in Figure 9, C. Again, carefully adjust one of the telescopic lenses to correct for this shift.
+Adjust the horizontal gimbal mount knob of the corner mirror (Number 1 in Figure 9, E) to bring the illumination beam in focus with the working distance of the detection objective up to the point where it can be seen as a very thin stripe instead of a coarse beam (see Figure 9, B). At this point it often becomes obvious that the focal point of the beam is not centered in the field of view. This shift is shown in Figure 9, C. Again, carefully adjust one of the telescopic lenses (Number 3 in Figure 9) by gently gliding it along the optical rail to correct for this shift (red double headed arrows).
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 10</span>&nbsp;
 Repeat step 4 to 6 on the second illumination axis until the left and right illumination beams are aligned and resemble the aligned beam depicted in Figure 9, B.
@@ -100,7 +100,7 @@ Adjust the vertical gimbal mount adjuster knob (Figure 9, E, 2) to center the be
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure9.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure9.png"></a>
-<figcaption> Figure 9
+<figcaption> Figure 9 - Visualizing and adjusting the laser beam within the field of view. Insets show actual pictures captured in the field of view of one of the two cameras.
 </figcaption>
 </figure>  
 
