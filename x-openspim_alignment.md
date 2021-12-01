@@ -134,7 +134,7 @@ An overlap of the field of view of the two sister cameras can be achieved mechan
 First make sure the same beads are visible in the two sister cameras and that the beads are co-focused by moving one of the detection objectives in z. Then use the corner mirror mount knops of the 2-inch corner mirror mount (KCB2EC/M, Thorlabs) to co-align the two field of views until all beads overlap. If a significant stronger mismatch of beads is visible at the outer corners of the field of view (Supplementary Figure 8, H) and the impression of a spiraling feeling occurs while going through the beads in z, then one of the two cameras has to be rotated before the overall match of the beads can be improved (Supplementary Figure 8, I).
 
 <figure align="center">
-  <a href="https://openspim.org/images/alignment/Alignment_Figure12.png" target="_blank"><img width="500" src="https://openspim.org/images/alignment/Alignment_Figure12.png"></a>
+  <a href="https://openspim.org/images/alignment/Alignment_Figure12.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure12.png"></a>
 <figcaption> Figure 12
 </figcaption>
 </figure> 
