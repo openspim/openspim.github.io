@@ -1,4 +1,6 @@
-## Alignment guide X-OpenSPIM
+## OpenSPIM alignment guide (L/T/X-OpenSPIM)
+
+
 There are different ways how to optimally align an OpenSPIM system and it can take time to get the hang of it. With two illumination sides and two detection objectives, as it is the case in an [X-OpenSPIM](https://openspim.org/table_of_parts_xopenspim), this task becomes particularly challenging. This site aims to provide a simple, reproducible way of how to...
 -   (1) initially align the beam path along the rails
 -   (2) visualize and tune the beam within the field of view of one or two cameras 
@@ -37,7 +39,7 @@ This requires some patience, because in order to achieve a perpendicular bounce,
 Place the first alignment disc at the beginning of the first optical rail and the second alignment disc at its end as depicted in Figure 3. Now readjust the kinematic mounts (KM05/M, Thorlabs) of the reflecting mirrors until the beam hits the central hole of the first reference point (AD1) and the central spot of all kinematic mirrors.
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure3.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure3.png"></a>
-<figcaption> Figure 3 - Creating two reference points (AD1 and AD2) on an optical rail.
+<figcaption> Figure 3 - Creating two reference points (AD1 and AD2) on the first optical rail.
 </figcaption>
 </figure>  
 Start with the first kinematic mirror (KM1) using the fine adjustment screws (pink arrows) and aim for the central opening of the first alignment disc (AD1). Then adjust the second kinematic mirror (KM2, green arrows) but this time try to hit the central hole of the second alignment disc (AD2). The laser beam will not hit the alignment disc right away. Instead, it typically diminishes before reaching the central hole of the alignment disc. Whenever this is the case, go back to the first kinematic mirror (KM1) and readjust for the Iris aperture hole. Play this back and forward until the beam strikes both reference points and the first optical rail is correctly aligned.
@@ -59,7 +61,7 @@ Proceed to the second optical rail between the corner mirror and the illuminatio
 Mount the lenses of the first telescope system as shown in Figure 6 (without the cylindrical lens) and make sure that the distance between them roughly equals the sum of their focal length (e.g., 19 mm and 75 mm means that the distance between the two lenses should be 94 mm). Note that by placing the telescopic lenses, the beam has significantly expanded. Follow the enlarged beam starting behind the telescopic lenses (a piece of lens cleaning tissue will do) and check if the beam retains the same diameter along the rails until it hits the corner mirror. At this point it may be a good idea to verify whether the insertion of the telescopic lenses did not severely alter the alignment of the laser beam. This can be checked by placing an alignment disk at the end of the rail. Such misalignment are common and can be avoided by ensuring that the telescopic lenses are tightly assembled and that the lens mounts face the illumination axis without any tilt. One might need to make minor adjustments using the screws of the kinematic mounts to correct for small deviations of the beam caused by the inserted lenses.
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure6.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure6.png"></a>
-<figcaption> Figure 6 - Successful beam alignment along the rails in one of the two illumination sides.
+<figcaption> Figure 6 - Successful beam alignment along all rails for one out of two illumination sides.
 </figcaption>
 </figure>  
 
@@ -77,11 +79,12 @@ Preparations:
 </figcaption>
 </figure>  
 
--   Fill the acquisition chamber with water, mount and find the lower edge of the glass capillary using any available bright light source (even the torch of your phone can be used). Then push out the agarose by gently pressing the plunger until the column of agarose covers the entire field of view. Make sure the glass capillary completely out of view. Now focus on the left or right edge of the agarose and center the column of agarose in the field of view. Particularly in an X-OpenSPIM setup with two detection objectives, it is crucial that the glass capillary is positioned well in the center of the chamber before proceeding with the alignment.
+-   Fill the acquisition chamber with water, mount and find the lower edge of the glass capillary using any available bright light source (even the torch of your phone can be used). Then push out the agarose by gently pressing the plunger until the column of agarose covers the entire field of view. Make sure the glass capillary completely out of view. Now use the 4D-stage to focus on the left or right edge of the agarose and center the column of agarose in the field of view. If the OpenSPIM is equipped with a second camera, then the focal plane of both detection objectives should now become coaligned by focusing on the same left or right edge of the agarose. To do this, gently slide the objective forward and backward along the detection axis using the plastic handle attached to the objective ring (see also the [chamber modifications of the X-OpenSPIM](https://openspim.org/table_of_parts_xopenspim)).
+Ensure that both sister cameras have the same positional orientation. <span style="color:darkred; font-weight:bold">Particularly in an X-OpenSPIM setup with two detection objectives, it is crucial that the glass capillary is positioned well in the center of the chamber before proceeding with the alignment!</span>&nbsp;
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure8.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure8.png"></a>
-<figcaption> Figure 8 - Positioning the glass capillary in the center of the chamber and bringing it into the field of view using a bright light (e.g., a smartphone).
+<figcaption> Figure 8 - Preparing the glass capillary and its position in the center of the chamber. A smartphone can be used as a bright light source to bring the capillary into the field of view of one camera.
 </figcaption>
 </figure>  
 
@@ -96,7 +99,7 @@ Adjust the horizontal gimbal mount knob of the corner mirror (Number 1 in Figure
 Repeat step 4 to 6 on the second illumination axis until the left and right illumination beams are aligned and resemble the aligned beam depicted in Figure 9, B.
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 11</span>&nbsp;
-Adjust the vertical gimbal mount adjuster knob (Figure 9, E, 2) to center the beam. In this way both illumination paths are aligned and centered in the field of view until they overlap each other.
+Adjust the vertical gimbal mount adjuster knob (Number 2 in Figure 9, E) to center the beam. In this way both illumination paths are aligned and centered in the field of view until they overlap each other.
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure9.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure9.png"></a>
