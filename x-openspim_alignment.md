@@ -81,7 +81,7 @@ Preparations:
 
 -   Fill the acquisition chamber with water, mount and find the lower edge of the glass capillary using any available bright light source (even the torch of your phone can be used). Then push out the agarose by gently pressing the plunger until the column of agarose can easily cover the entire field of view. Make sure the glass capillary is completely out of view.
 </br>
-<span style="font-weight:bold">In case of a second camera, the focal plane of both detection objectives should now become approximately coaligned. For this it is necessary to coalign the fields of view of both sister cameras by focusing the second camera onto the exact same spot (e.g., the bottom left or right edge of the capillary or some kind of sample) to which the first camera already points. This is achieved by gently sliding the detection objective forward and backward along the detection axis until the capillary/agarose becomes visible using the plastic handle (see the [chamber modifications of the X-OpenSPIM acquisition chamber](https://openspim.org/table_of_parts_xopenspim)). At the same time the corner mirror mount knobs (KCB2EC/M, Thorlabs) installed in on of the detection axes have to be adjusted to bring the two fields of views closer together. Ensure that both sister cameras have the same top and bottom orientation and try to make the best possible overlap of both cameras.</span>
+<span style="font-weight:bold">In case of a second camera, the focal plane of both detection objectives should now become approximately coaligned. For this it is necessary to coalign the fields of view of both sister cameras by focusing the second camera onto the exact same spot (e.g., the bottom left or right edge of the capillary or some kind of recognizable sample) to which the first camera already points. This is achieved by gently sliding the detection objective forward and backward along the detection axis using the plastic handle that connects to the objective holder ring of the detection objective (see the [chamber modifications of the X-OpenSPIM acquisition chamber](https://openspim.org/table_of_parts_xopenspim)). At the same time the corner mirror mount knobs (KCB2EC/M, Thorlabs) installed in on of the detection axes have to be adjusted to bring the two fields of views closer together. Ensure that both sister cameras have the same top and bottom orientation and try to make the best possible overlap of both cameras.</span>
 </br>
 <span style="color:darkred; font-weight:bold">Particularly in an X-OpenSPIM setup with two detection objectives, it is crucial that the glass capillary with its column of agarose is positioned well in the center of the chamber before proceeding with the alignment!</span>&nbsp;
 Now use the 4D-stage to focus on the left or right edge of the agarose and center the column of agarose in the field of view.
@@ -107,7 +107,9 @@ Adjust the vertical gimbal mount adjuster knob (Number 2 in Figure 9, E) to cent
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure9.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure9.png"></a>
-<figcaption> Figure 9 - Visualizing and adjusting the laser beam within the field of view. Insets show actual pictures captured in the field of view of one of the two cameras.
+<figcaption> Figure 9 - Visualizing and aligning the laser beam within the field of view. Insets (A-D) show actual pictures captured in the field of view of one of the two cameras. A) Broad beam of the left illumination before adjusting the horizontal gimbal mount knob of the corner mirror. B) Correct alignment of one of the two 
+illumination beams C) illumination beam with a slight misalignment (shift) to the left of its focal point. D) One of the illumination beams needs to be
+adjusted with the vertical gimbal mount adjuster knob to center it in the field of view. E) 1 = horizontal gimbal mount adjuster knob; 2 = vertical gimbal mount adjuster knob; 3 = telescopic lenses; 4 = plastic handles that connect to the objective holder ring of their respective  detection objective and are used to slide the objective along the detection axis.
 </figcaption>
 </figure>  
 
@@ -125,11 +127,11 @@ Check if any rotational misalignment between the field of view of both sister ca
 Place the cylindrical lenses on the rail and put back the emission filter. Make sure the cylindrical lens is in its correct place and its rotational mount is well adjusted by checking whether a focused, horizontal laser stripe has appeared on the corner mirror surface.
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 14</span>&nbsp;
-The correct alignment of both excitation light-sheets can now be tested on fluorescent beads. For this, use the horizontal gimbal mount to bring the light-sheet into the focal plane of one of the detection objectives, while simultaneously gently playing with the rotation mount of the cylindrical lens. The beads embedded in agarose should now become focused and visible and ideally cover the field of view homogeneously as small bright dots as shown in the inset of Figure 11.
+The correct alignment of both excitation light-sheets can now be tested on fluorescent beads. For this, use the horizontal gimbal mount knob to bring the light-sheet into the focal plane of one of the detection objectives, while simultaneously gently playing with the rotation mount of the cylindrical lens. The beads embedded in agarose should now become focused and visible and ideally cover the field of view homogeneously as small bright dots as shown in the inset of Figure 11.
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure11.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure11.png"></a>
-<figcaption> Figure 11
+<figcaption> Figure 11 - Visualizing the beads using the horizontal gimbal mount knob and adjusting the scaled rotation of the cylindrical lens mount (red double headed arrows). Inset shows illuminated and aligned beads of both detection axes (not yet aligned) spreading over the entire field of view. 
 </figcaption>
 </figure> 
 
