@@ -144,7 +144,7 @@ First make sure the same beads are visible in the two sister cameras and that th
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure12.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure12.png"></a>
-<figcaption> Figure 12
+<figcaption> Figure 12 - Corner mirror present in one of the two detection axes to mechanically align the two camera views by using the two mirror mount knobs (white arrows). Inset shows how alignment took place using fluorescent beads.
 </figcaption>
 </figure> 
 
