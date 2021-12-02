@@ -6,7 +6,7 @@ There are different ways how to optimally align an OpenSPIM system and it can ta
 -   (3) fine alignment of the light-sheet using beads.
 
 The alignment guide was initially written for a recent [X-OpenSPIM publication](https://onlinelibrary.wiley.com/doi/10.1002/adbi.202101182) but can be applied in almost the same way to the L, and T-OpenSPIM configuration.</br>
-Renderings have been created by Charlène Brillard [Tomancak Lab](https://www.mpi-cbg.de/research-groups/current-groups/pavel-tomancak/group-members/).
+Renderings have been created by Charlène Brillard [(Tomancak Group)](https://www.mpi-cbg.de/research-groups/current-groups/pavel-tomancak/group-members/).
 
 ## Requirements
 -   Make sure appropriate laser safety measures and training has been carried out and that µManager’s “Hardware configuration wizard” has been completed for at least one camera, one laser and the USB-4D stage.
@@ -33,7 +33,7 @@ Try to find the central spot of each KM as indicated in Figure 2.
 This requires some patience, because in order to achieve a perpendicular bounce, kinematic mirrors have to be taken off the breadboard, then readjusted (slightly turned as shown in Figure 1, side view of KM) by loosening and tightening their rail carriers, and then placed back on the optical breadboard and into the beam path. This typically requires several attempts. Ensure that the laser hits approximately the center of each mirror and try to excessive use the fine adjustment screws as they need to have sufficient margin in Step 4 and should for now retain a more or less neutral position.
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure2.png" target="_blank"><img width="500" src="https://openspim.org/images/alignment/Alignment_Figure2.png"></a>
-<figcaption> Figure 2 - Centered beam on kinematic mirrors.
+<figcaption> Figure 2 - The beam as been centered on the kinematic mirrors.
 </figcaption>
 </figure>  
 
@@ -63,7 +63,7 @@ Proceed to the second optical rail between the corner mirror and the illuminatio
 Mount the lenses of the first telescope system as shown in Figure 6 (without the cylindrical lens) and make sure that the distance between them roughly equals the sum of their focal length (e.g., 19 mm and 75 mm means that the distance between the two lenses should be 94 mm). Note that by placing the telescopic lenses, the beam has significantly expanded. Follow the enlarged beam starting behind the telescopic lenses (a piece of lens cleaning tissue will do) and check if the beam retains the same diameter along the rails until it hits the corner mirror. At this point it may be a good idea to verify whether the insertion of the telescopic lenses did not severely alter the alignment of the laser beam. This can be checked by placing an alignment disk at the end of the rail. Such misalignment are common and can be avoided by ensuring that the telescopic lenses are tightly assembled and that the lens mounts face the illumination axis without any tilt. One might need to make minor adjustments using the screws of the kinematic mounts to correct for small deviations of the beam caused by the inserted lenses.
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure6.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure6.png"></a>
-<figcaption> Figure 6 - Successful beam alignment along all rails for one out of two illumination sides.
+<figcaption> Figure 6 - The beam is aligned along all rails for the first illumination sides.
 </figcaption>
 </figure>  
 
@@ -77,20 +77,21 @@ Preparations:
 -   Vortex the Agarose containing the beads for 3 min and soak it into a glass capillary e.g., by using a plunger. In case of an X-OpenSPIM we recommend to already mount some kind of sample, which can be easily spotted. For detailed descriptions for mounting and preparing samples visit the [OpenSPIM website](https://openspim.org/Sample_Preparation).
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure7.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure7.png"></a>
-<figcaption> Figure 7 - Mounting the glass capillary containing agarose into the acquisition chamber.
+<figcaption> Figure 7 - Glass capillary containing agarose that can be pushed out using a plunger (left) and mounted glass capillary depicted in the center of the acquisition chamber, which has been filled with water.
 </figcaption>
 </figure>  
 
 -   Fill the acquisition chamber with water, mount and find the lower edge of the glass capillary using any available bright light source (even the torch of your phone can be used). Then push out the agarose by gently pressing the plunger until the column of agarose can easily cover the entire field of view. Make sure the glass capillary is completely out of view.
 </br>
-<span style="font-weight:bold">In case of a second camera, the focal plane of both detection objectives should now become approximately coaligned. For this it is necessary to coalign the fields of view of both sister cameras by focusing the second camera onto the exact same spot (e.g., the bottom left or right edge of the capillary or some kind of recognizable sample) to which the first camera already points. This is achieved by gently sliding the detection objective forward and backward along the detection axis using the plastic handle that connects to the objective holder ring of the detection objective (see the [chamber modifications of the X-OpenSPIM acquisition chamber](https://openspim.org/table_of_parts_xopenspim)). At the same time the corner mirror mount knobs (KCB2EC/M, Thorlabs) installed in on of the detection axes have to be adjusted to bring the two fields of views closer together. Ensure that both sister cameras have the same top and bottom orientation and try to make the best possible overlap of both cameras.</span>
+-   In case of a second camera:
+Coalign the focal plane of both detection objectives within the fields of view of both sister cameras by focusing the second camera onto the exact same spot (e.g., the bottom left or right edge of the capillary or some kind of recognizable spot or sample) to which the first camera already points. Alignment is achieved by gently sliding the detection objective forward and backward along the detection axis using the plastic handle that connects to the objective holder ring of the detection objective (see the [chamber modifications of the X-OpenSPIM acquisition chamber](https://openspim.org/table_of_parts_xopenspim)). At the same time the corner mirror mount knobs (KCB2EC/M, Thorlabs) installed in on of the detection axes have to be adjusted to bring the two fields of views closer together (see also Figure 12). Ensure that both sister cameras have the same top and bottom orientation and try to make the best possible overlap of both cameras.
 </br>
 <span style="color:darkred; font-weight:bold">Particularly in an X-OpenSPIM setup with two detection objectives, it is crucial that the glass capillary with its column of agarose is positioned well in the center of the chamber before proceeding with the alignment!</span>&nbsp;
 Now use the 4D-stage to focus on the left or right edge of the agarose and center the column of agarose in the field of view.
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure8.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure8.png"></a>
-<figcaption> Figure 8 - Preparing the glass capillary and its position in the center of the chamber. A smartphone can be used as a bright light source to bring the capillary into the field of view of one camera.
+<figcaption> Figure 8 - The glass capillary is positioned in the center of the chamber and a smartphone used as a bright light source to find the capillary and to bring it into the field of view of the camera using the 4D-stage.
 </figcaption>
 </figure>  
 
@@ -120,7 +121,7 @@ Check if any rotational misalignment between the field of view of both sister ca
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure10.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure10.png"></a>
-<figcaption> Figure 10
+<figcaption> Figure 10 - Rotating one of the two sister cameras may be necessary to match the field of view. The inset depicts a rotational misalignment of Camera 1 of an otherwise aligned beam that has been visualized in Agarose after removing emission filters and the cylindrical lenses.
 </figcaption>
 </figure>  
 
