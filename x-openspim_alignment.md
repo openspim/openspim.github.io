@@ -3,7 +3,7 @@
 There are different ways how to optimally align an OpenSPIM system and it can take time to get the hang of it. With two illumination sides and two detection objectives, as it is the case in an [X-OpenSPIM](https://openspim.org/table_of_parts_xopenspim), this task becomes particularly challenging. This site aims to provide a simple, reproducible way of how to...
 -   (1) initially align the beam path along the rails
 -   (2) visualize and tune the beam within the field of view of one or two cameras 
--   (3) fine alignment of the light-sheet on the sample (beads).
+-   (3) fine alignment of the light-sheet using beads.
 
 The alignment guide was initially written for a recent [X-OpenSPIM publication](https://onlinelibrary.wiley.com/doi/10.1002/adbi.202101182) but can be applied in almost the same way to the L, and T-OpenSPIM configuration.</br>
 Renderings have been created by Charlène Brillard [Tomancak Lab](https://www.mpi-cbg.de/research-groups/current-groups/pavel-tomancak/group-members/).
@@ -124,7 +124,7 @@ Check if any rotational misalignment between the field of view of both sister ca
 </figcaption>
 </figure>  
 
-## 3. Fine alignment of the created light-sheet on the sample
+## 3. Fine alignment of the created light-sheet using beads
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 13</span>&nbsp;
 Place the cylindrical lenses on the rail and put back the emission filter. Make sure the cylindrical lens is in its correct place and its rotational mount is well adjusted by checking whether a focused, horizontal laser stripe has appeared on the corner mirror surface.
 
