@@ -3,7 +3,7 @@
 There are different ways how to optimally align an OpenSPIM system and it can take time to get the hang of it. With two illumination sides and two detection objectives, as it is the case in an [X-OpenSPIM](https://openspim.org/table_of_parts_xopenspim), this task becomes particularly challenging. This site aims to provide a simple, reproducible way of how to...
 -   (1) initially align the beam path along the rails
 -   (2) visualize and tune the beam within the field of view of one or two cameras 
--   (3) fine alignment of the light-sheet using beads.
+-   (3) fine align the light-sheet for the sample using beads.
 
 The alignment guide was initially written for a recent [X-OpenSPIM publication](https://onlinelibrary.wiley.com/doi/10.1002/adbi.202101182) but can be applied in almost the same way to the L, and T-OpenSPIM configuration.</br>
 Renderings have been created by Charlène Brillard [(Tomancak Group)](https://www.mpi-cbg.de/research-groups/current-groups/pavel-tomancak/group-members/).
@@ -11,6 +11,7 @@ Renderings have been created by Charlène Brillard [(Tomancak Group)](https://ww
 ## Requirements
 -   Make sure appropriate laser safety measures and training has been carried out and that µManager’s “Hardware configuration wizard” has been completed for at least one camera, one laser and the USB-4D stage.
 -   A syringe to mount a glass capillary into the acquisition chamber. The capillary should be filled with agarose containing any fluorescent beads, which can be exited by the laser in use.
+-   In case of an X-OpenSPIM acquisition chamber modifications are needed to allow additional adjustments of the detections objectives (see chamber parts [here](https://openspim.org/table_of_parts_xopenspim)) 
 
 ## 1. Aligning the laser beam along the rails
 For the alignment along the rails, which carry the optical components of the first and second telescope system, one can use Ø1/2" mirrors (BB05-E02, Thorlabs) mounted on kinematic mounts (KM05/M, Thorlabs) and larger Ø1" corner mirrors (BB1-E02, Thorlabs) mounted on gimbal mirror mounts (GM100/M, Thorlabs). Note that the corner mirror is a modification of the original OpenSPIM design and is placed on its own short rail piece that was cut off from a 300 mm optical rail (RLA300/M, Thorlabs).
@@ -125,7 +126,7 @@ Check if any rotational misalignment between the field of view of both sister ca
 </figcaption>
 </figure>  
 
-## 3. Fine alignment of the created light-sheet using beads
+## 3. Fine alignment of the light-sheet for the sample using beads
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 13</span>&nbsp;
 Place the cylindrical lenses on the rail and put back the emission filter. Make sure the cylindrical lens is in its correct place and its rotational mount is well adjusted by checking whether a focused, horizontal laser stripe has appeared on the corner mirror surface.
 
