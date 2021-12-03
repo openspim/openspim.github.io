@@ -106,7 +106,7 @@ Adjust the horizontal gimbal mount knob of the corner mirror (Number 1 in Figure
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 10</span>&nbsp;
 Repeat step 4 to 6 on the second illumination axis until the left and right illumination beams are aligned and resemble the aligned beam depicted in Figure 9, B.
 </br>**In case a second camera is used:**</br>
-Once both illumination sides are aligned and the beam is clearly visible within the column of agarose in one of the two cameras (using no cylindrical lenses and no emission filters), then the detection objective of the second camera should be adjusted up to the point where the beams of both detection axes are highly similar in shape and clearly visible as demonstrated in Fogure 9, C.
+Once both illumination sides are aligned and the beam is clearly visible within the column of agarose in one of the two cameras (using no cylindrical lenses and no emission filters), then the detection objective of the second camera should be adjusted up to the point where the beams of both detection axes are highly similar in shape and clearly visible as demonstrated in Fogure 9, C.</br>
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 11</span>&nbsp;
 Adjust the vertical gimbal mount adjuster knob (Number 2 in Figure 9, E) to center the beam. In this way both illumination paths are aligned and centered in the field of view until they overlap each other.
