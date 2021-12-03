@@ -120,11 +120,11 @@ adjusted with the vertical gimbal mount adjuster knob to center it in the field 
 </figure>  
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 12</span>&nbsp;
-Check if any rotational misalignment between the field of view of both sister cameras are visible. An example of this can be seen in Figure 10 (see inset).  If this is the case one camera has to be rotated (Figure 10, red double-arrow) until the mismatch is corrected.
+Check if any rotational misalignment between the field of view of both sister cameras is visible. An example of this can be seen in Figure 10 (see inset).  If this is the case, one camera has to be rotated (Figure 10, red double-arrow) until the mismatch is corrected.
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure10.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure10.png"></a>
-<figcaption> Figure 10 - Rotating one of the two sister cameras may be necessary to match the field of view. The inset depicts a rotational misalignment of Camera 1 of an otherwise aligned beam that has been visualized in Agarose after removing emission filters and the cylindrical lenses.
+<figcaption> Figure 10 - Rotating one of the two sister cameras may be necessary to match the field of view. The inset depicts a rotational misalignment of Camera 1 of an otherwise aligned beam that has been visualized in agarose after removing emission filters and the cylindrical lenses.
 </figcaption>
 </figure>  
 
@@ -137,7 +137,7 @@ The correct alignment of both excitation light-sheets can now be tested on fluor
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure11.png" target="_blank"><img width="800" src="https://openspim.org/images/alignment/Alignment_Figure11.png"></a>
-<figcaption> Figure 11 - Visualizing the beads using the horizontal gimbal mount knob and adjusting the scaled rotation of the cylindrical lens mount (red double headed arrows). Inset shows illuminated and aligned beads of both detection axes (not yet aligned) spreading over the entire field of view. 
+<figcaption> Figure 11 - The beam has been aligned on the fluorescent beads (inset) using the horizontal gimbal mount knob and adjusting the scaled rotation of the cylindrical lens mount (red double headed arrows). The beads of both detection axes are shown but have not yet been aligned. However, they spread nicely over the entire field of view. 
 </figcaption>
 </figure> 
 
@@ -154,5 +154,5 @@ First make sure the same beads are visible in the two sister cameras and that th
 </figcaption>
 </figure> 
 
-The alignment of your OpenSPIM is now completed!
+Congratulations, the alignment of your OpenSPIM is now completed!
 
