@@ -1,6 +1,6 @@
 ---
 ---
-We provide new instructions and guides on how to assemble, configure, and align an [X-OpenSPIM](https://openspim.org/table_of_parts_xopenspim), together with a completely overhauled software plugin [μOpenSPIM](https://openspim.org/micro-openspim). This makes it easier and less time-consuming for OpenSPIM users to upgrade to a more advanced OpenSPIM system and use it as a powerful research tool in their laboratories.
+We provide new instructions and guides on how to assemble, configure, and [align](https://openspim.org/x-openspim_alignment) an [X-OpenSPIM](https://openspim.org/table_of_parts_xopenspim), together with a completely overhauled software plugin [μOpenSPIM](https://openspim.org/micro-openspim). This makes it easier and less time-consuming for OpenSPIM users to upgrade to a more advanced OpenSPIM system and use it as a powerful research tool in their laboratories.
 
 For more details see also our publication:
 
