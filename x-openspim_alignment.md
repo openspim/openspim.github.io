@@ -5,7 +5,7 @@ There are different ways how to optimally align an OpenSPIM system and it can ta
 -   (2) visualize and tune the beam within the field of view of one or two cameras 
 -   (3) fine align the light-sheet for the sample using beads.
 
-The alignment guide was initially written for a recent [X-OpenSPIM publication](https://onlinelibrary.wiley.com/doi/10.1002/adbi.202101182) but can be applied in almost the same way to the L, and T-OpenSPIM configuration.</br>
+The alignment guide was initially written for a recent [X-OpenSPIM publication](https://onlinelibrary.wiley.com/doi/10.1002/adbi.202101182) but can be applied in very much the same way to any L-, or T-OpenSPIM configuration.</br>
 Renderings have been created by Charlène Brillard [(Tomancak Group)](https://www.mpi-cbg.de/research-groups/current-groups/pavel-tomancak/group-members/).
 
 ## Requirements
