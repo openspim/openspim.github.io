@@ -6,7 +6,7 @@ There are different ways how to optimally align an OpenSPIM system and it can ta
 -   (3) fine align the light-sheet for the sample using beads.
 
 The alignment guide was initially written for a recent [X-OpenSPIM publication](https://onlinelibrary.wiley.com/doi/10.1002/adbi.202101182) but can be applied in very much the same way to any L-, or T-OpenSPIM configuration.</br>
-Renderings have been created by Charlène Brillard [(Tomancak Group)](https://www.mpi-cbg.de/research-groups/current-groups/pavel-tomancak/group-members/).
+All renderings have been created by Charlène Brillard [(Tomancak Group)](https://www.mpi-cbg.de/research-groups/current-groups/pavel-tomancak/group-members/).
 
 ## Requirements
 -   Make sure appropriate laser safety measures and training has been carried out and that µManager’s “Hardware configuration wizard” has been completed for at least one camera, one laser and the USB-4D stage.
