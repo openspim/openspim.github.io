@@ -24,7 +24,7 @@ Remove any optical parts from the illumination axis except for the kinematic mir
 Adjust the beam splitter cube and aim for two beams that are perpendicular to each other when they hit the first two kinematic mirrors.
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 3</span>&nbsp;
-Now adjust all kinematic mounts until the laser beam roughly follows the desired path along the optical rails (see Figure 1 below).
+Adjust all kinematic mounts until the laser beam roughly follows the desired path along the optical rails (see Figure 1 below).
 <figure style="font-weight:italic"; align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure1.png" target="_blank"><img width="900" src="https://openspim.org/images/alignment/Alignment_Figure1.png"></a>
 <figcaption> Figure 1 - Aligning the laser along the first optical rail by adjusting the Beam Splitter and Kinematic Mirrors (KM1-KM3) with their mounts set to 45 degrees along the rails as shown on the right. The two blue arrows point to the fine adjustment screws of the kinematic mount, which will be used later. The perpendicular beam path branching off the Beam Splitter easily tilts to one side (see yellow dotted line), and should be avoided. Red double headed arrows indicate adjustment direction.
@@ -39,7 +39,7 @@ This requires some patience, because in order to achieve a perpendicular bounce,
 </figure>  
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 4</span>&nbsp;
-Place the first alignment disc at the beginning of the first optical rail and the second alignment disc at its end as depicted in Figure 3. Now readjust the kinematic mounts (KM05/M, Thorlabs) of the reflecting mirrors until the beam hits the central hole of the first reference point (AD1) and the central spot of all kinematic mirrors.
+Place the first alignment disc at the beginning of the first optical rail and the second alignment disc at its end as depicted in Figure 3. Readjust the kinematic mounts (KM05/M, Thorlabs) of the reflecting mirrors until the beam hits the central hole of the first reference point (AD1) and the central spot of all kinematic mirrors.
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure3.png" target="_blank"><img width="700" src="https://openspim.org/images/alignment/Alignment_Figure3.png"></a>
 <figcaption> Figure 3 - Two reference points (AD1 and AD2) have been created on the first optical rail.
@@ -53,7 +53,7 @@ Start with the first kinematic mirror (KM1) using the fine adjustment screws (pi
 </figure>  
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 5</span>&nbsp;
-Proceed to the second optical rail between the corner mirror and the illumination objective of the chamber. Again, place the two reference points at the beginning and the end of the rail (see Figure 5). Initially the Gimbal mount knobs of the corner mirror should be brought into a neutral position and the first alignment done by sliding the corner mirror forward or backward along the rail (Figure 5, red double headed arrow). There should be a reasonable alignment of the beam before tightly fixing the mirror onto the rail. Now the beam can be aligned by adjusting the corner mirror with the horizontal (H) and vertical (V) adjuster knobs of the Gimbal mounts until the beam passes directly through the center of both alignment disc holes.
+Proceed to the second optical rail between the corner mirror and the illumination objective of the chamber. Again, place the two reference points at the beginning and the end of the rail (see Figure 5). Initially the Gimbal mount knobs of the corner mirror should be brought into a neutral position and the first alignment done by sliding the corner mirror forward or backward along the rail (Figure 5, red double headed arrow). There should be a reasonable alignment of the beam before tightly fixing the mirror onto the rail. The beam can be aligned by adjusting the corner mirror with the horizontal (H) and vertical (V) adjuster knobs of the Gimbal mounts until the beam passes directly through the center of both alignment disc holes.
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure5.png" target="_blank"><img width="700" src="https://openspim.org/images/alignment/Alignment_Figure5.png"></a>
 <figcaption> Figure 5 - Beam alignment along the second optical rail.
@@ -72,7 +72,7 @@ Mount the lenses of the first telescope system as shown in Figure 6 (without the
 Repeat step 1-6 to align a possible second illumination axis.
 
 ## 2. Visualizing and tuning the beam within the field of view of one or two cameras
-Now that the alignment along the rails carrying the optical components is completed, the emitted laser beam can be visualized in agarose and adjusted by slightly changing the positions of the spherical lens assemblies along the rails.
+After the alignment along the rails carrying the optical components is completed, the emitted laser beam can be visualized in agarose and adjusted by slightly changing the positions of the spherical lens assemblies along the rails.
 Preparations:
 -   Prepare 1% water agarose containing fluorescent beads (e.g., 1:2000), which fit the laser excitation and emission filters of your OpenSPIM system. Sonicate the beads in a 1:100 stock solution for 3 min before mixing them with water agarose or vigorously vortex it for several minutes to avoid clustering.
 -   Vortex the Agarose containing the beads for 3 min and soak it into a glass capillary e.g., by using a plunger. In case of an X-OpenSPIM we recommend to already mount some kind of sample, which can be easily spotted. For detailed descriptions for mounting and preparing samples visit the [OpenSPIM website](https://openspim.org/Sample_Preparation).
@@ -84,10 +84,10 @@ Preparations:
 
 -   Fill the acquisition chamber with water, mount and find the lower edge of the glass capillary using any available bright light source (even the torch of your phone can be used). Then push out the agarose by gently pressing the plunger until the column of agarose can easily cover the entire field of view. Make sure the glass capillary is completely out of view.</br>
 __In case a second camera is used:__
-Now is the time to coalign for the first time the focal plane of both detection objectives within the fields of view of both sister cameras by focusing the second camera onto the exact same spot (e.g., the bottom left or right edge of the capillary or some kind of recognizable spot or sample) to which the first camera already points. Alignment is achieved by gently sliding the detection objective forward and backward along the detection axis using the plastic handle that connects to the objective holder ring of the detection objective (see the [chamber modifications of the X-OpenSPIM acquisition chamber](https://openspim.org/table_of_parts_xopenspim)). At the same time the corner mirror mount knobs (KCB2EC/M, Thorlabs) installed in on of the detection axes have to be adjusted to bring the two fields of views closer together (see also Figure 12). Ensure that both sister cameras have the same top and bottom orientation and try to make the best possible overlap of both cameras.</br></br>
+For the first time the focal plane of both detection objectives within the fields of view of both sister cameras can now be coaligned by focusing the second camera onto the exact same spot (e.g., the bottom left or right edge of the capillary or some kind of recognizable spot or sample) to which the first camera already points. Alignment is achieved by gently sliding the detection objective forward and backward along the detection axis using the plastic handle that connects to the objective holder ring of the detection objective (see the [chamber modifications of the X-OpenSPIM acquisition chamber](https://openspim.org/table_of_parts_xopenspim)). At the same time the corner mirror mount knobs (KCB2EC/M, Thorlabs) installed in on of the detection axes have to be adjusted to bring the two fields of views closer together (see also Figure 12). Ensure that both sister cameras have the same top and bottom orientation and try to make the best possible overlap of both cameras.</br></br>
 
 <span style="color:darkred; font-weight:bold">Attention! Particularly in an X-OpenSPIM setup with two detection objectives, it is crucial that the glass capillary with its column of agarose is positioned well in the center of the chamber before proceeding with the alignment!</span>&nbsp;
-Now use the 4D-stage to focus on the left or right edge of the agarose and center the column of agarose in the field of view.
+Use the 4D-stage to focus on the left or right edge of the agarose and center the column of agarose in the field of view.
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure8.png" target="_blank"><img width="700" src="https://openspim.org/images/alignment/Alignment_Figure8.png"></a>
@@ -132,7 +132,7 @@ Check if any rotational misalignment between the field of view of both sister ca
 Place the cylindrical lenses on the rail and put back the emission filter. Make sure the cylindrical lens is in its correct place and its rotational mount is well adjusted by checking whether a focused, horizontal laser stripe has appeared on the corner mirror surface.
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 14</span>&nbsp;
-The correct alignment of both excitation light-sheets can now be tested on fluorescent beads. For this, use the horizontal gimbal mount knob to bring the light-sheet into the focal plane of one of the detection objectives, while simultaneously gently playing with the rotation mount of the cylindrical lens. The beads embedded in agarose should now become focused and visible and ideally cover the field of view homogeneously as small bright dots as shown in the inset of Figure 11.
+The correct alignment of both excitation light-sheets can be tested on fluorescent beads. For this, use the horizontal gimbal mount knob to bring the light-sheet into the focal plane of one of the detection objectives, while simultaneously gently playing with the rotation mount of the cylindrical lens. The beads embedded in agarose should become focused and visible and ideally cover the field of view homogeneously as small bright dots as shown in the inset of Figure 11.
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure11.png" target="_blank"><img width="700" src="https://openspim.org/images/alignment/Alignment_Figure11.png"></a>
@@ -153,5 +153,5 @@ First make sure the same beads are visible in the two sister cameras and that th
 </figcaption>
 </figure> 
 
-Congratulations, the alignment of your OpenSPIM is now completed!
+Congratulations, the alignment of your OpenSPIM is completed!
 
