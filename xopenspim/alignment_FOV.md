@@ -1,6 +1,7 @@
 ## 2. Visualizing and tuning the beam within the field of view of one or two cameras
 After the alignment along the rails carrying the optical components is completed, the emitted laser beam can be visualized in agarose and adjusted by slightly changing the positions of the spherical lens assemblies along the rails.
-Preparations:
+<details><summary>Preparations:</summary>
+<p>
 -   Prepare 1% water agarose containing fluorescent beads (e.g., 1:2000), which fit the laser excitation and emission filters of your OpenSPIM system. Sonicate the beads in a 1:100 stock solution for 3 min before mixing them with water agarose or vigorously vortex it for several minutes to avoid clustering.
 -   Vortex the Agarose containing the beads for 3 min and soak it into a glass capillary e.g., by using a plunger. In case of an X-OpenSPIM we recommend to already mount some kind of sample, which can be easily spotted. For detailed descriptions for mounting and preparing samples visit the [OpenSPIM website](https://openspim.org/Sample_Preparation).
 <figure align="center">
@@ -12,6 +13,8 @@ Preparations:
 -   Fill the acquisition chamber with water, mount and find the lower edge of the glass capillary using any available bright light source (even the torch of your phone can be used). Then push out the agarose by gently pressing the plunger until the column of agarose can easily cover the entire field of view. Make sure the glass capillary is completely out of view.</br>
 __In case a second camera is used:__
 For the first time the focal plane of both detection objectives within the fields of view of both sister cameras can now be coaligned by focusing the second camera onto the exact same spot (e.g., the bottom left or right edge of the capillary or some kind of recognizable spot or sample) to which the first camera already points. Alignment is achieved by gently sliding the detection objective forward and backward along the detection axis using the plastic handle that connects to the objective holder ring of the detection objective (see the [chamber modifications of the X-OpenSPIM acquisition chamber](https://openspim.org/table_of_parts_xopenspim)). At the same time the corner mirror mount knobs (KCB2EC/M, Thorlabs) installed in on of the detection axes have to be adjusted to bring the two fields of views closer together (see also Figure 12). Ensure that both sister cameras have the same top and bottom orientation and try to make the best possible overlap of both cameras.</br></br>
+</p>
+</details>
 
 <span style="color:darkred; font-weight:bold">Attention! Particularly in an X-OpenSPIM setup with two detection objectives, it is crucial that the glass capillary with its column of agarose is positioned well in the center of the chamber before proceeding with the alignment!</span>&nbsp;
 Use the 4D-stage to focus on the left or right edge of the agarose and center the column of agarose in the field of view.
