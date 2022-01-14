@@ -84,6 +84,8 @@ Note that by placing the first two telescopic lenses (19 mm and 75 mm), the beam
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 7</span>&nbsp;
 Repeat step 1-6 to align a possible second illumination axis.
 
+**[Continue](https://openspim.org/xopenspim/alignment_FOV)**
+
 ##  Go to:
 -   [Welcome site](https://openspim.org/xopenspim/alignment_welcome)
 - [1. Aligning the laser beam along the rails](https://openspim.org/xopenspim/alignment_rails)
