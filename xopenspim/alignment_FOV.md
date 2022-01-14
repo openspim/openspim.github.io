@@ -15,7 +15,7 @@ Use the 4D-stage to focus on the left or right edge of the agarose and center th
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure7.png" target="_blank"><img width="700" src="https://openspim.org/images/alignment/Alignment_Figure7.png"></a>
-<figcaption> Figure 7 - Glass capillary containing agarose that can be pushed out using a plunger (left) and mounted glass capillary depicted in the center of the acquisition chamber, which has been filled with water.
+<figcaption> Figure 7 - Preparing a glass capillary containing agarose that can be pushed out using a plunger (left) and mounted glass capillary depicted in the center of the acquisition chamber, which has been filled with water.
 </figcaption>
 </figure>  
 
