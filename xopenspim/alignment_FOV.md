@@ -65,6 +65,8 @@ Check if any rotational misalignment between the field of view of both sister ca
 </figcaption>
 </figure>  
 
+**[Continue](https://openspim.org/xopenspim/alignment_sample)**
+
 ##  Go to:
 -   [Welcome site](https://openspim.org/xopenspim/alignment_welcome)
 - [1. Aligning the laser beam along the rails](https://openspim.org/xopenspim/alignment_rails)
