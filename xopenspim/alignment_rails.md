@@ -20,8 +20,13 @@ Adjust all kinematic mounts until the laser beam roughly follows the desired pat
 <figcaption> Figure 1 - Aligning the laser along the first optical rail by adjusting the Beam Splitter and Kinematic Mirrors (KM1-KM3) with their mounts set to 45 degrees along the rails as shown on the right. The two blue arrows point to the fine adjustment screws of the kinematic mount, which will be used later. The perpendicular beam path branching off the Beam Splitter easily tilts to one side (see yellow dotted line), and should be avoided. Red double headed arrows indicate adjustment direction.
 </figcaption>
 </figure>  
+<details><summary>Hint</summary>
+<p>
 Try to find the central spot of each KM as indicated in Figure 2.
 This requires some patience, because in order to achieve a perpendicular bounce, kinematic mirrors have to be taken off the breadboard, then readjusted (slightly turned as shown in Figure 1, side view of KM) by loosening and tightening their rail carriers, and then placed back on the optical breadboard and into the beam path. This typically requires several attempts. Ensure that the laser hits approximately the center of each mirror and try to excessive use the fine adjustment screws as they need to have sufficient margin in Step 4 and should for now retain a more or less neutral position.
+</p>
+</details>
+
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure2.png" target="_blank"><img width="500" src="https://openspim.org/images/alignment/Alignment_Figure2.png"></a>
 <figcaption> Figure 2 - The beam has been correctly centered on the kinematic mirrors.
@@ -30,12 +35,18 @@ This requires some patience, because in order to achieve a perpendicular bounce,
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 4</span>&nbsp;
 Place the first alignment disc at the beginning of the first optical rail and the second alignment disc at its end as depicted in Figure 3. Readjust the kinematic mounts (KM05/M, Thorlabs) of the reflecting mirrors until the beam hits the central hole of the first reference point (AD1) and the central spot of all kinematic mirrors.
+<details><summary>Hint</summary>
+<p>
+Start with the first kinematic mirror (KM1) using the fine adjustment screws (pink arrows) and aim for the central opening of the first alignment disc (AD1). Then adjust the second kinematic mirror (KM2, green arrows) but this time try to hit the central hole of the second alignment disc (AD2). The laser beam will not hit the alignment disc right away. Instead, it typically diminishes before reaching the central hole of the alignment disc. Whenever this is the case, go back to the first kinematic mirror (KM1) and readjust for the Iris aperture hole. Play this back and forward until the beam strikes both reference points and the first optical rail is correctly aligned.
+</p>
+</details>
+
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure3.png" target="_blank"><img width="700" src="https://openspim.org/images/alignment/Alignment_Figure3.png"></a>
 <figcaption> Figure 3 - Two reference points (AD1 and AD2) have been created on the first optical rail.
 </figcaption>
-</figure>  
-Start with the first kinematic mirror (KM1) using the fine adjustment screws (pink arrows) and aim for the central opening of the first alignment disc (AD1). Then adjust the second kinematic mirror (KM2, green arrows) but this time try to hit the central hole of the second alignment disc (AD2). The laser beam will not hit the alignment disc right away. Instead, it typically diminishes before reaching the central hole of the alignment disc. Whenever this is the case, go back to the first kinematic mirror (KM1) and readjust for the Iris aperture hole. Play this back and forward until the beam strikes both reference points and the first optical rail is correctly aligned.
+</figure> 
+
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure4.png" target="_blank"><img width="700" src="https://openspim.org/images/alignment/Alignment_Figure4.png"></a>
 <figcaption> Figure 4 - Beam alignment along the first optical rail.
