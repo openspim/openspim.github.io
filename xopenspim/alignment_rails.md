@@ -54,7 +54,13 @@ Start with the first kinematic mirror (KM1) using the fine adjustment screws (pi
 </figure>  
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 5</span>&nbsp;
-Proceed to the second optical rail between the corner mirror and the illumination objective of the chamber. Again, place the two reference points at the beginning and the end of the rail (see Figure 5). Initially the Gimbal mount knobs of the corner mirror should be brought into a neutral position and the first alignment done by sliding the corner mirror forward or backward along the rail (Figure 5, red double headed arrow). There should be a reasonable alignment of the beam before tightly fixing the mirror onto the rail. The beam can be aligned by adjusting the corner mirror with the horizontal (H) and vertical (V) adjuster knobs of the Gimbal mounts until the beam passes directly through the center of both alignment disc holes.
+Proceed to aligning the second optical rail between the corner mirror and the illumination objective of the chamber. Again, place the two reference points at the beginning and the end of the rail (see Figure 5).
+
+<details><summary>Hint</summary>
+<p>
+Initially the Gimbal mount knobs of the corner mirror should be brought into a neutral position and the first alignment done by sliding the corner mirror forward or backward along the rail (Figure 5, red double headed arrow). There should be a reasonable alignment of the beam before tightly fixing the mirror onto the rail. The beam can be aligned by adjusting the corner mirror with the horizontal (H) and vertical (V) adjuster knobs of the Gimbal mounts until the beam passes directly through the center of both alignment disc holes.
+</p>
+</details>
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure5.png" target="_blank"><img width="700" src="https://openspim.org/images/alignment/Alignment_Figure5.png"></a>
 <figcaption> Figure 5 - Beam alignment along the second optical rail.
