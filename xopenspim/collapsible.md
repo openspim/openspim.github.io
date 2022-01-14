@@ -3,7 +3,7 @@
 <details><summary>CLICK ME</summary>
 <p>
 
-#### yes, even hidden code blocks!
+#### Test!
 
 ```python
 print("hello world!")
