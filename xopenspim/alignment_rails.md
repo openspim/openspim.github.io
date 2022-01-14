@@ -24,7 +24,7 @@ This requires some patience, because in order to achieve a perpendicular bounce,
   <a href="https://openspim.org/images/alignment/Alignment_Figure1.png" target="_blank"><img width="900" src="https://openspim.org/images/alignment/Alignment_Figure1.png"></a><figcaption> Figure 1 - Laser alignment along the first optical rail is achieved by adjusting the Beam Splitter and Kinematic Mirrors (KM1-KM3) with their mounts set to 45 degrees along the rails as shown on the right. The two blue arrows point to the fine adjustment screws of the kinematic mount, which will be used later. The perpendicular beam path branching off the Beam Splitter easily tilts to one side (see yellow dotted line), and should be avoided. Red double headed arrows indicate adjustment direction.
 </figcaption>
 </figure>  
-
+</br>
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure2.png" target="_blank"><img width="500" src="https://openspim.org/images/alignment/Alignment_Figure2.png"></a>
 <figcaption> Figure 2 - A centered beam on all kinematic mirrors.
