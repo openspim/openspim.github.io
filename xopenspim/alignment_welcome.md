@@ -11,8 +11,4 @@ All renderings have been created by Charlène Brillard [(Tomancak Group)](https:
 ## Requirements
 -   Make sure appropriate laser safety measures and training has been carried out and that µManager’s “Hardware configuration wizard” has been completed for at least one camera, one laser and the USB-4D stage.
 -   A syringe to mount a glass capillary into the acquisition chamber. The capillary should be filled with agarose containing any fluorescent beads, which can be exited by the laser in use.
--   In case of an X-OpenSPIM acquisition chamber modifications are needed to allow additional adjustments of the detections objectives (see chamber parts [here](https://openspim.org/table_of_parts_xopenspim)) 
-
-## 1. Aligning the laser beam along the rails
-## 2. Visualizing and tuning the beam within the field of view of one or two cameras
-## 3. Fine alignment of the light-sheet for the sample using beads
+-   In case of an X-OpenSPIM acquisition chamber modifications are needed to allow additional adjustments of the detections objectives (see chamber parts [here](https://openspim.org/table_of_parts_xopenspim))
