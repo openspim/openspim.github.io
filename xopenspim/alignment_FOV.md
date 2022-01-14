@@ -67,7 +67,7 @@ Check if any rotational misalignment between the field of view of both sister ca
 </figcaption>
 </figure>  
 
-**[Continue](https://openspim.org/xopenspim/alignment_sample)**
+**[Click here to continue the alignment guide...](https://openspim.org/xopenspim/alignment_sample)**
 
 ##  Go to:
 -   [Welcome site](https://openspim.org/xopenspim/alignment_welcome)
