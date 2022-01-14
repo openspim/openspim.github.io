@@ -1,9 +1,9 @@
 ## Welcome to the OpenSPIM alignment guide!
 
 There are different ways how to optimally align an OpenSPIM system and it can take time to get the hang of it. With two illumination sides and two detection objectives, as it is the case in an [X-OpenSPIM](https://openspim.org/table_of_parts_xopenspim), this task becomes particularly challenging. This site aims to provide a simple, reproducible way of how to...
--   [initially align the beam path along the rails](https://openspim.org/xopenspim/alignment_rails)
--   [visualize and tune the beam within the field of view of one or two cameras](https://openspim.org/xopenspim/alignment_FOV) 
--   [fine align the light-sheet for the sample using beads](https://openspim.org/xopenspim/alignment_sample)
+-   [1. initially align the beam path along the rails](https://openspim.org/xopenspim/alignment_rails)
+-   [2. visualize and tune the beam within the field of view of one or two cameras](https://openspim.org/xopenspim/alignment_FOV) 
+-   [3. fine align the light-sheet for the sample using beads](https://openspim.org/xopenspim/alignment_sample)
 
 The alignment guide was initially written for a recent [X-OpenSPIM publication](https://onlinelibrary.wiley.com/doi/10.1002/adbi.202101182) but can be applied in very much the same way to any L-, or T-OpenSPIM configuration.</br>
 All renderings have been created by Charlène Brillard [(Tomancak Group)](https://www.mpi-cbg.de/research-groups/current-groups/pavel-tomancak/group-members/).
