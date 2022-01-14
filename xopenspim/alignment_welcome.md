@@ -14,4 +14,4 @@ All renderings have been created by Charlène Brillard [(Tomancak Group)](https:
 -   In case of an X-OpenSPIM acquisition chamber modifications are needed to allow additional adjustments of the detections objectives (see chamber parts [here](https://openspim.org/table_of_parts_xopenspim))
 
 
-[Click here to start the alignment guide](https://openspim.org/xopenspim/alignment_rails)
+[Click here to start](https://openspim.org/xopenspim/alignment_rails)
