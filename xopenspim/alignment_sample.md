@@ -31,7 +31,7 @@ Make sure the same beads are visible in the two sister cameras and that the bead
 </figcaption>
 </figure> 
 
-**Congratulations, the alignment of your OpenSPIM is completed!**
+**Congratulations, your OpenSPIM is now aligned!**
 
 ##  Go to:
 -   [Welcome site](https://openspim.org/xopenspim/alignment_welcome)
