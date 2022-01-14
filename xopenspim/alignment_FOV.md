@@ -1,15 +1,6 @@
 ## 2. Visualizing and tuning the beam within the field of view of one or two cameras
 After the alignment along the rails carrying the optical components is completed, the emitted laser beam can be visualized in agarose and adjusted by slightly changing the positions of the spherical lens assemblies along the rails.
 
-<span style="color:darkred; font-weight:bold">Careful! Particularly in an X-OpenSPIM setup with two detection objectives, it is crucial that the glass capillary with its column of agarose is positioned well in the center of the chamber before proceeding with the alignment!</span>&nbsp;
-Use the 4D-stage to focus on the left or right edge of the agarose and center the column of agarose in the field of view.
-
-<figure align="center">
-  <a href="https://openspim.org/images/alignment/Alignment_Figure7.png" target="_blank"><img width="700" src="https://openspim.org/images/alignment/Alignment_Figure7.png"></a>
-<figcaption> Figure 7 - Glass capillary containing agarose that can be pushed out using a plunger (left) and mounted glass capillary depicted in the center of the acquisition chamber, which has been filled with water.
-</figcaption>
-</figure>  
-
 <details><summary>Click here for preparations:</summary>
 <p>
 -   Prepare 1% water agarose containing fluorescent beads (e.g., 1:2000), which fit the laser excitation and emission filters of your OpenSPIM system. Sonicate the beads in a 1:100 stock solution for 3 min before mixing them with water agarose or vigorously vortex it for several minutes to avoid clustering.</br>
@@ -18,6 +9,15 @@ Use the 4D-stage to focus on the left or right edge of the agarose and center th
 -   Fill the acquisition chamber with water, mount and find the lower edge of the glass capillary using any available bright light source (even the torch of your phone can be used). Then push out the agarose by gently pressing the plunger until the column of agarose can easily cover the entire field of view. Make sure the glass capillary is completely out of view.</br>
 </p>
 </details>
+
+<span style="color:darkred; font-weight:bold">Careful! Particularly in an X-OpenSPIM setup with two detection objectives, it is crucial that the glass capillary with its column of agarose is positioned well in the center of the chamber before proceeding with the alignment!</span>&nbsp;
+Use the 4D-stage to focus on the left or right edge of the agarose and center the column of agarose in the field of view.
+
+<figure align="center">
+  <a href="https://openspim.org/images/alignment/Alignment_Figure7.png" target="_blank"><img width="700" src="https://openspim.org/images/alignment/Alignment_Figure7.png"></a>
+<figcaption> Figure 7 - Glass capillary containing agarose that can be pushed out using a plunger (left) and mounted glass capillary depicted in the center of the acquisition chamber, which has been filled with water.
+</figcaption>
+</figure>  
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure8.png" target="_blank"><img width="700" src="https://openspim.org/images/alignment/Alignment_Figure8.png"></a>
