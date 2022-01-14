@@ -18,8 +18,12 @@ Different light intensities of the beads between the left and right illumination
 </figure> 
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 15</span>&nbsp;
-An overlap of the field of view of the two sister cameras can be achieved mechanically by looking at beads and using the fine adjustments of the corner mirror mount knobs of one of the detection axes.
-First make sure the same beads are visible in the two sister cameras and that the beads are co-focused by moving one of the detection objectives in z. Then use the corner mirror mount knobs (Figure 12, white arrows) of the 2-inch corner mirror mount (KCB2EC/M, Thorlabs) to co-align the two field of views until all beads overlap. If a significant stronger mismatch of beads is visible at the outer corners of the field of view and the impression of a spiraling feeling occurs while going through the beads in z, then one of the two cameras has to be rotated before the overall match of the beads can be improved (see Step 12).
+Create an overlap of both field of views (camera one and two) by using the fine adjustments of the corner mirror mount knobs (see Figure 12, white arows) while looking at the beads.
+<details><summary>Click here for more details on Step 15</summary>
+<p>
+Make sure the same beads are visible in the two sister cameras and that the beads are co-focused by moving one of the detection objectives in z. Then use the corner mirror mount knobs (Figure 12, white arrows) of the 2-inch corner mirror mount (KCB2EC/M, Thorlabs) to co-align the two field of views until all beads overlap. If a significant stronger mismatch of beads is visible at the outer corners of the field of view and the impression of a spiraling feeling occurs while going through the beads in z, then one of the two cameras has to be rotated before the overall match of the beads can be improved (see also Step 12).
+</p>
+</details>
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure12.png" target="_blank"><img width="700" src="https://openspim.org/images/alignment/Alignment_Figure12.png"></a>
