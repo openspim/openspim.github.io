@@ -1,6 +1,6 @@
 ## 1. Aligning the laser beam along the rails
 
-<details><summary>Details for the depicted X-OpenSPIM system</summary>
+<details><summary>Click for details on mirrors and alignment disks used in the depicted X-OpenSPIM system</summary>
 <p>
 For the alignment along the rails, which carry the optical components of the first and second telescope system, one can use Ø1/2" mirrors (BB05-E02, Thorlabs) mounted on kinematic mounts (KM05/M, Thorlabs) and larger Ø1" corner mirrors (BB1-E02, Thorlabs) mounted on gimbal mirror mounts (GM100/M, Thorlabs). Note that the corner mirror is a modification of the original OpenSPIM design and is placed on its own short rail piece that was cut off from a 300 mm optical rail (RLA300/M, Thorlabs).
 All mirrors placed into a kinematic mount should be adjusted to approximately 45 degrees to ensure a perpendicular bounce of the beam. After the alignment the emitted laser beam will hit roughly the center of all mirrors and ends at the center of the illumination objective. To achieve this, two separate reference points are needed at the correct height. In a typical OpenSPIM setup the beam would be elevated 50 mm off the surface of the breadboard. For the reference points one can use e.g., nearly closed iris apertures (SM1D12D, Thorlabs), alignment disks (DG05-1500-H1-MD, Thorlabs) or alignment disks created via alignment plates (LMR1AP) for lens mounts (LMR1/M). We used the latter placed on 1" rail carriers (RC1, Thorlabs) to create both reference points at the correct height. In the following the two reference points will be called AD1 and AD2 respectively.
@@ -14,18 +14,17 @@ Remove any optical parts from the illumination axis except for the kinematic mir
 Adjust the beam splitter cube and aim for two beams that are perpendicular to each other when they hit the first two kinematic mirrors.
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 3</span>&nbsp;
-Adjust all kinematic mounts until the laser beam roughly follows the desired path along the optical rails (see Figure 1 below).
+Adjust all kinematic mounts until the laser beam roughly follows the desired path along the optical rails (see Figure 1 below). Try to find the central spot of each KM as indicated in Figure 2.
+<details><summary>Click here for more details</summary>
+<p>
+This requires some patience, because in order to achieve a perpendicular bounce, kinematic mirrors have to be taken off the breadboard, then readjusted (slightly turned as shown in Figure 1, side view of KM) by loosening and tightening their rail carriers, and then placed back on the optical breadboard and into the beam path. This typically requires several attempts. Ensure that the laser hits approximately the center of each mirror and try to excessive use the fine adjustment screws as they need to have sufficient margin in Step 4 and should for now retain a more or less neutral position.
+</p>
+</details>
 <figure style="font-weight:italic"; align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure1.png" target="_blank"><img width="900" src="https://openspim.org/images/alignment/Alignment_Figure1.png"></a>
 <figcaption> Figure 1 - Aligning the laser along the first optical rail by adjusting the Beam Splitter and Kinematic Mirrors (KM1-KM3) with their mounts set to 45 degrees along the rails as shown on the right. The two blue arrows point to the fine adjustment screws of the kinematic mount, which will be used later. The perpendicular beam path branching off the Beam Splitter easily tilts to one side (see yellow dotted line), and should be avoided. Red double headed arrows indicate adjustment direction.
 </figcaption>
 </figure>  
-<details><summary>Hint</summary>
-<p>
-Try to find the central spot of each KM as indicated in Figure 2.
-This requires some patience, because in order to achieve a perpendicular bounce, kinematic mirrors have to be taken off the breadboard, then readjusted (slightly turned as shown in Figure 1, side view of KM) by loosening and tightening their rail carriers, and then placed back on the optical breadboard and into the beam path. This typically requires several attempts. Ensure that the laser hits approximately the center of each mirror and try to excessive use the fine adjustment screws as they need to have sufficient margin in Step 4 and should for now retain a more or less neutral position.
-</p>
-</details>
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure2.png" target="_blank"><img width="500" src="https://openspim.org/images/alignment/Alignment_Figure2.png"></a>
@@ -84,4 +83,6 @@ Note that by placing the first two telescopic lenses (19 mm and 75 mm), the beam
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 7</span>&nbsp;
 Repeat step 1-6 to align a possible second illumination axis.
+
+
 
