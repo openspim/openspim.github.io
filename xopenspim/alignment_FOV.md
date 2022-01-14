@@ -14,13 +14,7 @@ After the alignment along the rails carrying the optical components is completed
 </p>
 </details>
 
-<details><summary>Click here in case a second camera is used</summary>
-<p>
-For the first time the focal plane of both detection objectives within the fields of view of both sister cameras can now be coaligned by focusing the second camera onto the exact same spot (e.g., the bottom left or right edge of the capillary or some kind of recognizable spot or sample) to which the first camera already points. Alignment is achieved by gently sliding the detection objective forward and backward along the detection axis using the plastic handle that connects to the objective holder ring of the detection objective (see the [chamber modifications of the X-OpenSPIM acquisition chamber](https://openspim.org/table_of_parts_xopenspim)). At the same time the corner mirror mount knobs (KCB2EC/M, Thorlabs) installed in on of the detection axes have to be adjusted to bring the two fields of views closer together (see also Figure 12). Ensure that both sister cameras have the same top and bottom orientation and try to make the best possible overlap of both cameras.</br></br>
-</p>
-</details>
-
-<span style="color:darkred; font-weight:bold">Attention! Particularly in an X-OpenSPIM setup with two detection objectives, it is crucial that the glass capillary with its column of agarose is positioned well in the center of the chamber before proceeding with the alignment!</span>&nbsp;
+<span style="color:darkred; font-weight:bold">Careful! Particularly in an X-OpenSPIM setup with two detection objectives, it is crucial that the glass capillary with its column of agarose is positioned well in the center of the chamber before proceeding with the alignment!</span>&nbsp;
 Use the 4D-stage to focus on the left or right edge of the agarose and center the column of agarose in the field of view.
 
 <figure align="center">
@@ -38,8 +32,15 @@ Adjust the horizontal gimbal mount knob of the corner mirror (Number 1 in Figure
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 10</span>&nbsp;
 Repeat step 4 to 6 on the second illumination axis until the left and right illumination beams are aligned and resemble the aligned beam depicted in Figure 9, B.
-</br>__In case a second camera is used:__</br>
-Once both illumination sides are aligned and the beam is clearly visible within the column of agarose in one of the two cameras (using no cylindrical lenses and no emission filters), then the detection objective of the second camera should be adjusted up to the point where the beams of both detection axes are highly similar in shape and clearly visible as demonstrated in Fogure 9, C.</br>
+
+<details><summary>Click here in case a second camera is used</summary>
+<p>
+Once both illumination sides are aligned and a beam is clearly visible within the FOV of one camera (using no cylindrical lenses and no emission filters), then the detection objective of the second camera should be adjusted up to the point where the beams of both detection axes are highly similar in shape and clearly visible as demonstrated in Figure 9, C.</br>
+Careful! Particularly in an X-OpenSPIM setup with two detection objectives, it is crucial that the glass capillary with its column of agarose is positioned well in the center of the chamber before proceeding with this alignment step!</br>
+
+Initially any bright field light (e.g. phone flashlight) can be used to find any given structure (e.g., the bottom left or right edge of the capillary or some kind of recognizable spot/sample). Gently slide the detection objective of the second camera forward and backward along the detection axis until the same structure becomes visible. Also the corner mirror mount knobs (KCB2EC/M, Thorlabs) installed in on of the detection axes have to be adjusted to bring the two fields of views closer together until they can fully overlap. This alignment should subsequently be repeated using pure agarose in which the beam of one illumination serves as the new alignment target  (see also Figure 12). Ensure that both sister cameras have the same top and bottom orientation.</br>
+</p>
+</details>
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 11</span>&nbsp;
 Adjust the vertical gimbal mount adjuster knob (Number 2 in Figure 9, E) to center the beam. In this way both illumination paths are aligned and centered in the field of view until they overlap each other.
