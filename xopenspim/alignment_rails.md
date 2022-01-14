@@ -11,7 +11,7 @@ All mirrors placed into a kinematic mount should be adjusted to approximately 45
 Remove any optical parts from the illumination axis except for the kinematic mirrors (see Figure 1). If available, place a density filter (e.g., OD: 2.0) close to the exit face of the laser housing and set laser intensity to a minimum. The beam should be barely visible to the eye for safety reasons.
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 2</span>&nbsp;
-Adjust the beam splitter cube and aim for two beams that are perpendicular to each other when they hit the first two kinematic mirrors.
+Adjust the beam splitter cube and aim for two beams that are perpendicular to each other when they hit the first two kinematic mirrors. Careful! The perpendicular beam path branching off the Beam Splitter easily tilts to one side, but this should be avoided (see yellow dotted line in Figure 1. Red double headed arrows indicate adjustment direction).
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 3</span>&nbsp;
 Adjust all kinematic mounts until the laser beam roughly follows the desired path along the optical rails (see Figure 1 below). Try to find the central spot of each KM as indicated in Figure 2.
@@ -21,7 +21,7 @@ This requires some patience, because in order to achieve a perpendicular bounce,
 </p>
 </details>
 <figure style="font-weight:italic"; align="center">
-  <a href="https://openspim.org/images/alignment/Alignment_Figure1.png" target="_blank"><img width="900" src="https://openspim.org/images/alignment/Alignment_Figure1.png"></a><figcaption> Figure 1 - Laser alignment along the first optical rail is achieved by adjusting the Beam Splitter and Kinematic Mirrors (KM1-KM3) with their mounts set to 45 degrees along the rails as shown on the right. The two blue arrows point to the fine adjustment screws of the kinematic mount, which will be used later. The perpendicular beam path branching off the Beam Splitter easily tilts to one side (see yellow dotted line), and should be avoided. Red double headed arrows indicate adjustment direction.
+  <a href="https://openspim.org/images/alignment/Alignment_Figure1.png" target="_blank"><img width="900" src="https://openspim.org/images/alignment/Alignment_Figure1.png"></a><figcaption> Figure 1 - Laser alignment along the first optical rail is achieved by adjusting the Beam Splitter and Kinematic Mirrors (KM1-KM3) with their mounts set to 45 degrees along the rails as shown on the right. The two blue arrows point to the fine adjustment screws of the kinematic mount, which will be used later. 
 </figcaption>
 </figure>  
 </br>
