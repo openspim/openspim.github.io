@@ -24,4 +24,4 @@ First make sure the same beads are visible in the two sister cameras and that th
 </figcaption>
 </figure> 
 
-Congratulations, the alignment of your OpenSPIM is completed!
+**Congratulations, the alignment of your OpenSPIM is completed!**
