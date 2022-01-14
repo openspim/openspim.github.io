@@ -26,7 +26,11 @@ This requires some patience, because in order to achieve a perpendicular bounce,
 | *Figure 1 - Laser alignment along the first optical rail is achieved by adjusting the Beam Splitter and Kinematic Mirrors (KM1-KM3) with their mounts set to 45 degrees along the rails as shown on the right. The two blue arrows point to the fine adjustment screws of the kinematic mount, which will be used later.* |
 
 <figure style="font-weight:italic"; align="center">
-  <a href="https://openspim.org/images/alignment/Alignment_Figure1.png" target="_blank"><img width="900" src="https://openspim.org/images/alignment/Alignment_Figure1.png"></a><figcaption> Figure 1 - Laser alignment along the first optical rail is achieved by adjusting the Beam Splitter and Kinematic Mirrors (KM1-KM3) with their mounts set to 45 degrees along the rails as shown on the right. The two blue arrows point to the fine adjustment screws of the kinematic mount, which will be used later. 
+  <a href="https://openspim.org/images/alignment/Alignment_Figure1.png" target="_blank"><img width="900" src="https://openspim.org/images/alignment/Alignment_Figure1.png"></a>
+| *Figure 1 - Laser alignment along the first optical rail is achieved by adjusting the Beam Splitter and Kinematic Mirrors (KM1-KM3) with their mounts set to 45 degrees along the rails as shown on the right. The two blue arrows point to the fine adjustment screws of the kinematic mount, which will be used later.* |
+
+
+  <figcaption> Figure 1 - Laser alignment along the first optical rail is achieved by adjusting the Beam Splitter and Kinematic Mirrors (KM1-KM3) with their mounts set to 45 degrees along the rails as shown on the right. The two blue arrows point to the fine adjustment screws of the kinematic mount, which will be used later. 
 </figcaption>
 </figure>  
 </br>
