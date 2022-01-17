@@ -11,20 +11,21 @@ All mirrors placed into a kinematic mount should be adjusted to approximately 45
 **Remove any optical parts** from the illumination axis except for the kinematic mirrors (see Figure 1). If available, **place a density filter** (e.g., OD: 2.0) close to the exit face of the laser housing and set laser intensity to a minimum. The beam should be barely visible to the eye for safety reasons.
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 2</span>&nbsp;
-**Adjust the beam splitter cube** and aim for two beams that are perpendicular to each other when they hit the first two kinematic mirrors. Careful! The perpendicular beam path branching off the Beam Splitter easily tilts to one side, but this should be avoided (see yellow dotted line in Figure 1. Red double headed arrows indicate adjustment direction).
+**Adjust the beam splitter cube** and aim for two beams that are perpendicular to each other when they hit the first two kinematic mirrors. Careful! The perpendicular beam path branching off the Beam Splitter easily tilts to one side, but this should be avoided (see yellow dotted line in Figure 1).
+
+<figure style="font-weight:italic"; align="center">
+  <a href="https://openspim.org/images/alignment/Alignment_Figure1.png" target="_blank"><img width="900" src="https://openspim.org/images/alignment/Alignment_Figure1.png"></a>
+  <figcaption> Figure 1 - Laser alignment along the first optical rail is achieved by adjusting the Beam Splitter and Kinematic Mirrors (KM1-KM3) with their mounts set to 45 degrees along the rails as shown on the right. The two blue arrows point to the fine adjustment screws of the kinematic mount, which will be used later. Red double headed arrows indicate adjustment direction. 
+</figcaption>
+</figure>  
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 3</span>&nbsp;
 **Adjust all kinematic mirror mounts to 45 degrees** until the laser beam roughly follows the path along the optical rails (see Figure 1). Try to **find the central spot** of each KM as indicated in Figure 2.
 <details><summary>Click here for more details on Step 3</summary>
 <p>
-This requires some patience, because in order to achieve a perpendicular bounce, kinematic mirrors have to be taken off the breadboard, then readjusted (slightly turned as shown in Figure 1, side view of KM) by loosening and tightening their rail carriers, and then placed back on the optical breadboard and into the beam path. This typically requires several attempts. Ensure that the laser hits approximately the center of each mirror and try to minimize using the fine adjustment screws as they need to have sufficient margin (Step 4) and should retain a more or less neutral position.
+This step requires some patience, because in order to achieve a perpendicular bounce, kinematic mirrors have to be taken off the breadboard, then readjusted (slightly turned as shown in Figure 1, side view of KM) by loosening and tightening their rail carriers, and then placed back on the optical breadboard and into the beam path. This typically requires several attempts. Ensure that the laser hits approximately the center of each mirror and try to minimize using the fine adjustment screws as they need to have sufficient margin (Step 4) and should retain a more or less neutral position.
 </p>
 </details>
-<figure style="font-weight:italic"; align="center">
-  <a href="https://openspim.org/images/alignment/Alignment_Figure1.png" target="_blank"><img width="900" src="https://openspim.org/images/alignment/Alignment_Figure1.png"></a>
-  <figcaption> Figure 1 - Laser alignment along the first optical rail is achieved by adjusting the Beam Splitter and Kinematic Mirrors (KM1-KM3) with their mounts set to 45 degrees along the rails as shown on the right. The two blue arrows point to the fine adjustment screws of the kinematic mount, which will be used later. 
-</figcaption>
-</figure>  
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure2.png" target="_blank"><img width="500" src="https://openspim.org/images/alignment/Alignment_Figure2.png"></a>
