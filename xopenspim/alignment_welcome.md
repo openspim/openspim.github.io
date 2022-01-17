@@ -13,7 +13,7 @@ All renderings have been created by Charlène Brillard [(Tomancak Group)](https:
 -   A syringe to mount a glass capillary into the acquisition chamber. The capillary should be filled with agarose containing any fluorescent beads, which can be exited by the laser in use.
 -   In case of an X-OpenSPIM acquisition chamber modifications are needed to allow additional adjustments of the detections objectives (see chamber parts [here](https://openspim.org/table_of_parts_xopenspim))
 
-##  [Click here to start part 1 of the alignment guide](https://openspim.org/xopenspim/alignment_rails)
+**[Click here to start with part 1 of the alignment guide](https://openspim.org/xopenspim/alignment_rails)**
 
 <figure align="center">
   <a href="https://openspim.org/images/X-OpenSPIM_rendering_topview.jpg" target="_blank"><img width="700" src="https://openspim.org/images/X-OpenSPIM_rendering_topview.jpg"></a>
