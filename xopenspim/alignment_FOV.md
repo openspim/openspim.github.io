@@ -4,10 +4,11 @@ After the alignment along the rails carrying the optical components is completed
 ## Preparations:
 -   **Prepare 1% agarose with fluorescent beads**
 -   **fill the acquisition chamber with water**
-
+</br>
+<span style="color:darkred; font-weight:bold">Careful! Particularly in an X-OpenSPIM setup with two detection objectives, it is crucial that the glass capillary with its column of agarose is positioned well in the center of the chamber before proceeding with the alignment!</span>&nbsp;</br>
 <details><summary>Click here for more details:</summary>
 <p>
-
+</br>
 -   Prepare 1% water agarose containing fluorescent beads (e.g., 1:2000), which fit the laser excitation and emission filters of your OpenSPIM system. Sonicate the beads in a 1:100 stock solution for 3 min before mixing them with water agarose or vigorously vortex it for several minutes to avoid clustering.</br>
 
 -   Vortex the Agarose containing the beads for 3 min and soak it into a glass capillary e.g., by using a plunger. In case of an X-OpenSPIM we recommend to already mount some kind of sample, which can be easily spotted. For detailed descriptions for mounting and preparing samples visit the <a href="https://openspim.org/Sample_Preparation">OpenSPIM website</a>.
@@ -16,8 +17,7 @@ After the alignment along the rails carrying the optical components is completed
 </p>
 </details>
 
-<span style="color:darkred; font-weight:bold">Careful! Particularly in an X-OpenSPIM setup with two detection objectives, it is crucial that the glass capillary with its column of agarose is positioned well in the center of the chamber before proceeding with the alignment!</span>&nbsp;</br>
-**Use the 4D-stage** to focus on the left or right edge of the agarose and **center the column of agarose** in the field of view. A smartphone's bright light source is sufficient find the capillary and bring it into the field of view.
+-   **Use the 4D-stage** to focus on the left or right edge of the agarose and **center the column of agarose** in the field of view. A smartphone's bright light source is sufficient find the capillary and bring it into the field of view.
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure7.png" target="_blank"><img width="700" src="https://openspim.org/images/alignment/Alignment_Figure7.png"></a>
