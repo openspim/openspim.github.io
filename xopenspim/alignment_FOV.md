@@ -14,8 +14,6 @@ After the alignment along the rails carrying the optical components is completed
 -   Vortex the Agarose containing the beads for 3 min and soak it into a glass capillary e.g., by using a plunger. In case of an X-OpenSPIM we recommend to already mount some kind of sample, which can be easily spotted. For detailed descriptions for mounting and preparing samples visit the <a href="https://openspim.org/Sample_Preparation">OpenSPIM website</a>.
 
 -   Fill the acquisition chamber with water, mount and find the lower edge of the glass capillary using any available bright light source (even the torch of your phone can be used). Then push out the agarose by gently pressing the plunger until the column of agarose can easily cover the entire field of view. Make sure the glass capillary is completely out of view and only agarose is visible.</br>
-</p>
-</details>
 
 -   **Use the 4D-stage** to focus on the left or right edge of the agarose and **center the column of agarose** in the field of view. A smartphone's bright light source is sufficient find the capillary and bring it into the field of view.
 
@@ -30,6 +28,9 @@ After the alignment along the rails carrying the optical components is completed
 <figcaption> Figure 8 - The glass capillary gets positioned in the center of the chamber using the 4D-stage.
 </figcaption>
 </figure>  
+
+</p>
+</details>
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 8</span>&nbsp;
 **Remove emission filters and cylindrical lenses** on the illumination axes used for alignment and slightly **adjust the distance between** the 25 mm and 50 mm **telescopic lenses** and their distance to the illumination objective (Number 3 in Figure 9, E) to visualize the beam.
