@@ -17,7 +17,7 @@ After the alignment along the rails carrying the optical components is completed
 </details>
 
 <span style="color:darkred; font-weight:bold">Careful! Particularly in an X-OpenSPIM setup with two detection objectives, it is crucial that the glass capillary with its column of agarose is positioned well in the center of the chamber before proceeding with the alignment!</span>&nbsp;</br>
-**Use the 4D-stage** to focus on the left or right edge of the agarose and **center the column of agarose** in the field of view.
+**Use the 4D-stage** to focus on the left or right edge of the agarose and **center the column of agarose** in the field of view. A smartphone's bright light source is sufficient find the capillary and bring it into the field of view.
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure7.png" target="_blank"><img width="700" src="https://openspim.org/images/alignment/Alignment_Figure7.png"></a>
@@ -27,7 +27,7 @@ After the alignment along the rails carrying the optical components is completed
 </br>
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure8.png" target="_blank"><img width="700" src="https://openspim.org/images/alignment/Alignment_Figure8.png"></a>
-<figcaption> Figure 8 - The glass capillary is positioned in the center of the chamber and a smartphone used as a bright light source to find the capillary and to bring it into the field of view of the camera using the 4D-stage.
+<figcaption> Figure 8 - The glass capillary gets positioned in the center of the chamber using the 4D-stage.
 </figcaption>
 </figure>  
 
