@@ -4,7 +4,6 @@ After the alignment along the rails carrying the optical components is completed
 ## Preparations:
 -   **Prepare 1% agarose with fluorescent beads**
 -   **fill the acquisition chamber with water**
-<span style="color:darkred; font-weight:bold">Careful! Particularly in an X-OpenSPIM setup with two detection objectives, it is crucial that the glass capillary with its column of agarose is positioned well in the center of the chamber before proceeding with the alignment!</span>&nbsp;</br>
 <details><summary>Click here for more details:</summary>
 <p>
 -   Prepare 1% water agarose containing fluorescent beads (e.g., 1:2000), which fit the laser excitation and emission filters of your OpenSPIM system. Sonicate the beads in a 1:100 stock solution for 3 min before mixing them with water agarose or vigorously vortex it for several minutes to avoid clustering.</br>
@@ -29,11 +28,11 @@ After the alignment along the rails carrying the optical components is completed
 
 </p>
 </details>
-
+<span style="color:darkred; font-weight:bold">Careful! Particularly in an X-OpenSPIM setup with two detection objectives, it is crucial that the glass capillary with its column of agarose is positioned well in the center of the chamber before proceeding with the alignment!</span>&nbsp;</br>
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 8</span>&nbsp;
 **Remove emission filters and cylindrical lenses** on the illumination axes used for alignment and slightly **adjust the distance between** the 25 mm and 50 mm **telescopic lenses** and their distance to the illumination objective (Number 3 in Figure 9, E) to visualize the beam.
 
-<details><summary>Click here for more details in step 8</summary>
+<details><summary>Click here for more details on step 8</summary>
 <p>
 Try tightening the two telescopic lenses with the spring-loaded plunger of the rail carrier up to the point where they can barely glide along the optical rail (Figure 9, red double headed arrows). At some point the laser beam will become visible, first as an indistinct broad fuzzy beam crossing the field of view horizontally from left to right.
 Further adjust the telescope lenses to increase the sharpness of the beam until it looks similar to the one depicted in Supplementary Figure 9, A.
