@@ -4,7 +4,6 @@ After the alignment along the rails carrying the optical components is completed
 ## Preparations:
 -   **Prepare 1% agarose with fluorescent beads**
 -   **fill the acquisition chamber with water**
-</br>
 <span style="color:darkred; font-weight:bold">Careful! Particularly in an X-OpenSPIM setup with two detection objectives, it is crucial that the glass capillary with its column of agarose is positioned well in the center of the chamber before proceeding with the alignment!</span>&nbsp;</br>
 <details><summary>Click here for more details:</summary>
 <p>
