@@ -1,14 +1,18 @@
 ## 2. Visualizing and tuning the beam within the field of view of one or two cameras
 After the alignment along the rails carrying the optical components is completed, the emitted laser beam can be visualized in agarose and adjusted by slightly changing the positions of the spherical lens assemblies along the rails.
 
-<details><summary>Click here for preparations:</summary>
+## Preparations:
+-   Prepare 1% agarose with fluorescent beads
+-   fill the acquisition chamber with water
+
+<details><summary>Click here for detailed preparations:</summary>
 <p>
 
 -   Prepare 1% water agarose containing fluorescent beads (e.g., 1:2000), which fit the laser excitation and emission filters of your OpenSPIM system. Sonicate the beads in a 1:100 stock solution for 3 min before mixing them with water agarose or vigorously vortex it for several minutes to avoid clustering.</br>
 
 -   Vortex the Agarose containing the beads for 3 min and soak it into a glass capillary e.g., by using a plunger. In case of an X-OpenSPIM we recommend to already mount some kind of sample, which can be easily spotted. For detailed descriptions for mounting and preparing samples visit the <a href="https://openspim.org/Sample_Preparation">OpenSPIM website</a>.
 
--   Fill the acquisition chamber with water, mount and find the lower edge of the glass capillary using any available bright light source (even the torch of your phone can be used). Then push out the agarose by gently pressing the plunger until the column of agarose can easily cover the entire field of view. Make sure the glass capillary is completely out of view.</br>
+-   Fill the acquisition chamber with water, mount and find the lower edge of the glass capillary using any available bright light source (even the torch of your phone can be used). Then push out the agarose by gently pressing the plunger until the column of agarose can easily cover the entire field of view. Make sure the glass capillary is completely out of view and only agarose is visible.</br>
 </p>
 </details>
 
@@ -28,11 +32,22 @@ Use the 4D-stage to focus on the left or right edge of the agarose and center th
 </figure>  
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 8</span>&nbsp;
-Remove emission filters and cylindrical lenses on the illumination axes used for alignment and slightly adjust the distance between the 25 mm and 50 mm telescopic lenses and their distance to the illumination objective (Number 3 in Figure 9, E. Try tightening the two telescopic lenses with the spring-loaded plunger of the rail carrier up to the point where they can barely glide along the optical rail (Figure 9, red double headed arrows). At some point the laser beam will become visible, first as an indistinct broad fuzzy beam crossing the field of view horizontally from left to right.
+**Remove emission filters and cylindrical lenses** on the illumination axes used for alignment and slightly **adjust the distance between** the 25 mm and 50 mm **telescopic lenses** and their distance to the illumination objective (Number 3 in Figure 9, E) to visualize the beam.
+
+<details><summary>Click here for more details in step 8</summary>
+<p>
+Try tightening the two telescopic lenses with the spring-loaded plunger of the rail carrier up to the point where they can barely glide along the optical rail (Figure 9, red double headed arrows). At some point the laser beam will become visible, first as an indistinct broad fuzzy beam crossing the field of view horizontally from left to right.
 Further adjust the telescope lenses to increase the sharpness of the beam until it looks similar to the one depicted in Supplementary Figure 9, A.
+</p>
+</details>
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 9</span>&nbsp;
-Adjust the horizontal gimbal mount knob of the corner mirror (Number 1 in Figure 9, E) to bring the illumination beam in focus with the working distance of the detection objective up to the point where it can be seen as a very thin stripe instead of a coarse beam (see Figure 9, B). At this point it often becomes obvious that the focal point of the beam is not centered in the field of view. This shift is shown in Figure 9, C. Again, carefully adjust one of the telescopic lenses (Number 3 in Figure 9) by gently gliding it along the optical rail to correct for this shift (red double headed arrows).
+**Adjust** the horizontal **gimbal mount knob of the corner mirror** (Number 1 in Figure 9, E) **to bring the illumination beam in focus** with the working distance of the detection objective
+<details><summary>Click here for more details in step 9</summary>
+<p>
+The beam should now be seen as a very thin stripe instead of a coarse beam (see Figure 9, B). At this point it often becomes obvious that the focal point of the beam is not centered in the field of view. This shift is shown in Figure 9, C. Again, carefully adjust one of the telescopic lenses (Number 3 in Figure 9) by gently gliding it along the optical rail to correct for this shift (red double headed arrows).
+</p>
+</details>
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 10</span>&nbsp;
 Repeat step 4 to 6 on the second illumination axis until the left and right illumination beams are aligned and resemble the aligned beam depicted in Figure 9, B.
@@ -48,7 +63,7 @@ Initially any bright field light (e.g. phone flashlight) can be used to find any
 </details>
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 11</span>&nbsp;
-Adjust the vertical gimbal mount adjuster knob (Number 2 in Figure 9, E) to center the beam. In this way both illumination paths are aligned and centered in the field of view until they overlap each other.
+**Adjust the vertical gimbal mount** adjuster knob (Number 2 in Figure 9, E) **to center the beam**. In this way both illumination paths are aligned and centered in the field of view until they overlap each other.
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure9.png" target="_blank"><img width="700" src="https://openspim.org/images/alignment/Alignment_Figure9.png"></a>
@@ -59,7 +74,7 @@ adjusted with the vertical gimbal mount adjuster knob to center it in the field 
 </figure>  
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 12</span>&nbsp;
-Check if any rotational misalignment between the field of view of both sister cameras is visible. An example of this can be seen in Figure 10 (see inset).  If this is the case, one camera has to be rotated (Figure 10, red double-arrow) until the mismatch is corrected.
+**Check** if any **rotational misalignment** between the field of view **of both sister cameras** is visible. An example of this can be seen in Figure 10 (see inset).  If this is the case, one camera has to be rotated (Figure 10, red double-arrow) until the mismatch is corrected.
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure10.png" target="_blank"><img width="700" src="https://openspim.org/images/alignment/Alignment_Figure10.png"></a>

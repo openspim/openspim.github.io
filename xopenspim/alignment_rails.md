@@ -33,7 +33,7 @@ This requires some patience, because in order to achieve a perpendicular bounce,
 </figure>  
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 4</span>&nbsp;
-**Place** the first **alignment disc** at the beginning of the first optical rail and the second alignment disc at its end as depicted in Figure 3. **Readjust** the kinematic mounts (KM05/M, Thorlabs) of the reflecting mirrors **until the beam hits the central hole of the first reference point (AD1)** and the central spot of all kinematic mirrors.
+**Place** the **first alignment disc** at the beginning of the first optical rail **and the second alignment disc** at its end as depicted in Figure 3. **Readjust** the kinematic mounts (KM05/M, Thorlabs) of the reflecting mirrors **until the beam hits both central holes of the two reference points (AD1 and AD2)** and the central spot of all kinematic mirrors.
 <details><summary>Click here for more details on Step 4</summary>
 <p>
 Start with the first kinematic mirror (KM1) using the fine adjustment screws (pink arrows) and aim for the central opening of the first alignment disc (AD1). Then adjust the second kinematic mirror (KM2, green arrows) but this time try to hit the central hole of the second alignment disc (AD2). The laser beam will not hit the alignment disc right away. Instead, it typically diminishes before reaching the central hole of the alignment disc. Whenever this is the case, go back to the first kinematic mirror (KM1) and readjust for the Iris aperture hole. Play this back and forward until the beam strikes both reference points and the first optical rail is correctly aligned.
