@@ -14,3 +14,9 @@ All renderings have been created by Charlène Brillard [(Tomancak Group)](https:
 -   In case of an X-OpenSPIM acquisition chamber modifications are needed to allow additional adjustments of the detections objectives (see chamber parts [here](https://openspim.org/table_of_parts_xopenspim))
 
 ##  [Click here to start](https://openspim.org/xopenspim/alignment_rails)
+
+<figure align="center">
+  <a href="https://openspim.org/images/X-OpenSPIM_rendering_topview.jpg" target="_blank"><img width="700" src="https://openspim.org/images/X-OpenSPIM_rendering_topview.jpg"></a>
+<figcaption> Top view rendering with labelled parts of the X-OpenSPIM used for the alignment guide.
+</figcaption>
+</figure> 
