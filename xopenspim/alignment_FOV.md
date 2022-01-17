@@ -82,7 +82,7 @@ adjusted with the vertical gimbal mount adjuster knob to center it in the field 
 </figcaption>
 </figure>  
 
-**[Continue to part 3. of the alignment guide](https://openspim.org/xopenspim/alignment_sample)**
+**[Continue to part 3 of the alignment guide](https://openspim.org/xopenspim/alignment_sample)**
 
 ##  Go to:
 -   [Welcome site](https://openspim.org/xopenspim/alignment_welcome)
