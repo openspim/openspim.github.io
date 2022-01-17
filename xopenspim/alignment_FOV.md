@@ -50,7 +50,7 @@ The beam should now be seen as a very thin stripe instead of a coarse beam (see 
 </details>
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 10</span>&nbsp;
-Repeat step 4 to 6 on the second illumination axis until the left and right illumination beams are aligned and resemble the aligned beam depicted in Figure 9, B.
+**Repeat step 4 to 6 on the second illumination axis** until the left and right illumination beams are aligned and resemble the aligned beam depicted in Figure 9, B.
 
 <details><summary>Click here in case a second camera is used</summary>
 <p>
