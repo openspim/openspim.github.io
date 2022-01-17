@@ -74,7 +74,7 @@ adjusted with the vertical gimbal mount adjuster knob to center it in the field 
 </figure>  
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 12</span>&nbsp;
-**Check** if any **rotational misalignment** between the field of view **of both sister cameras** is visible. An example of this can be seen in Figure 10 (see inset).  If this is the case, one camera has to be rotated (Figure 10, red double-arrow) until the mismatch is corrected.
+**Check** if any **rotational misalignment** between the field of view **of both sister cameras** is visible. An example of this can be seen in Figure 10 (inset).  If this is the case, one camera has to be rotated (Figure 10, red double-arrow) until the mismatch is corrected.
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure10.png" target="_blank"><img width="700" src="https://openspim.org/images/alignment/Alignment_Figure10.png"></a>
