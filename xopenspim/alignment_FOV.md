@@ -2,8 +2,8 @@
 After the alignment along the rails carrying the optical components is completed, the emitted laser beam can be visualized in agarose and adjusted by slightly changing the positions of the spherical lens assemblies along the rails.
 
 ## Preparations:
--   Prepare 1% agarose with fluorescent beads
--   fill the acquisition chamber with water
+-   Prepare **1% agarose with fluorescent beads**
+-   **fill the acquisition chamber with water**
 
 <details><summary>Click here for detailed preparations:</summary>
 <p>
