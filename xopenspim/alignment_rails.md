@@ -53,7 +53,7 @@ Start with the first kinematic mirror (KM1) using the fine adjustment screws (pi
 </figure>  
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 5</span>&nbsp;
-**Proceed to aligning the second optical rail** between the corner mirror and the illumination objective of the chamber. Again, **place the two reference points** at the beginning and the end of the rail and **move the Gimbal mount** of the corner mirror (see Figure 5).
+**Proceed aligning the second optical rail** between the corner mirror and the illumination objective of the chamber. Again, **place the two reference points** at the beginning and the end of the rail and **move the Gimbal mount** of the corner mirror (see Figure 5).
 
 <details><summary>Click here for more details on Step 5</summary>
 <p>
