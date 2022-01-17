@@ -5,7 +5,7 @@ After the alignment along the rails carrying the optical components is completed
 -   **Prepare 1% agarose with fluorescent beads**
 -   **fill the acquisition chamber with water**
 
-<details><summary>Click here for detailed preparations:</summary>
+<details><summary>Click here for more details:</summary>
 <p>
 
 -   Prepare 1% water agarose containing fluorescent beads (e.g., 1:2000), which fit the laser excitation and emission filters of your OpenSPIM system. Sonicate the beads in a 1:100 stock solution for 3 min before mixing them with water agarose or vigorously vortex it for several minutes to avoid clustering.</br>
