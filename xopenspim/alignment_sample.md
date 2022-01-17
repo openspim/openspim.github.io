@@ -3,7 +3,7 @@
 **Place the cylindrical lenses** on the rail and **put back the emission filter**. Make sure the cylindrical lens is in its correct place and its rotational mount is well adjusted by checking whether a focused, horizontal laser stripe has appeared on the corner mirror surface.
 
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 14</span>&nbsp;
-**Test the alignment** of both excitation light-sheets **on fluorescent beads**. For this, **use the horizontal gimbal mount knob** to bring the light-sheet into the focal plane of one of the detection objectives, while **simultaneously** gently **playing with the rotation mount of the cylindrical lens**. The beads embedded in agarose should become focused and visible and ideally cover the field of view homogeneously as small bright dots as shown in the inset of Figure 11.
+**Test the alignment** of both excitation light-sheets **on fluorescent beads**. For this, **use the horizontal gimbal mount knob** to bring the light-sheet into the focal plane of one of the detection objectives, while **simultaneously** gently **playing with the rotation mount of the cylindrical lens** (see Figure 11, red double arrows). The beads embedded in agarose should become focused and visible and ideally cover the field of view homogeneously as small bright dots as shown in the inset of Figure 11.
 
 <details><summary>Click here in case different light intensities between both illumination sides are observed</summary>
 <p>
