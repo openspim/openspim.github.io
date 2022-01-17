@@ -3,7 +3,7 @@ After the alignment along the rails carrying the optical components is completed
 
 ## Preparations:
 -   **Prepare 1% agarose with fluorescent beads**
--   **fill the acquisition chamber with water**
+-   **Fill the acquisition chamber with water**
 <details><summary>Click here for more details:</summary>
 <p>
 
