@@ -1,8 +1,13 @@
 ---
 ---
-We provide new instructions and guides on how to assemble, configure, and [align](https://openspim.org/xopenspim/alignment_welcome) an [X-OpenSPIM](https://openspim.org/table_of_parts_xopenspim), together with a completely overhauled software plugin [μOpenSPIM](https://openspim.org/micro-openspim). This makes it easier and less time-consuming for OpenSPIM users to upgrade to a more advanced OpenSPIM system and use it as a powerful research tool in their laboratories.
+##	Welcome to the X-OpenSPIM site on openspim.org!
+Here we provide new instructions and guides on how to [assemble, configure](https://onlinelibrary.wiley.com/doi/10.1002/adbi.202101182), and [align](https://openspim.org/xopenspim/alignment_welcome) an [X-OpenSPIM](https://openspim.org/table_of_parts_xopenspim), together with a completely overhauled software plugin [μOpenSPIM](https://openspim.org/micro-openspim). This makes it easier and less time-consuming for OpenSPIM users to upgrade to a more advanced OpenSPIM system and use it as a powerful research tool in their laboratories.
 
-For more details see also our publication:
+-	[Take a look at the modifications and parts needed to build an X-OpenSPIM](https://openspim.org/table_of_parts_xopenspim)
+-	[Follow the alignment guide](https://openspim.org/xopenspim/alignment_welcome)
+-	[Try the new OpenSPIM plugin (μOpenSPIM) for acquiring data](https://openspim.org/micro-openspim)
+
+See also the related publication for detailed instructions on assembly and configuration:
 
 </br><a href="https://onlinelibrary.wiley.com/doi/10.1002/adbi.202101182" align="center" target="_blank" title="Time to Upgrade: A New OpenSPIM Guide to Build and Operate Advanced OpenSPIM Configurations
 "><img src="https://openspim.org/images/ToC_figure.png" align="center" width="197"><figcaption>X-OpenSPIM paper on Advanced Biology.</figcaption></a></br>
