@@ -16,8 +16,8 @@ After the alignment along the rails carrying the optical components is completed
 </p>
 </details>
 
-<span style="color:darkred; font-weight:bold">Careful! Particularly in an X-OpenSPIM setup with two detection objectives, it is crucial that the glass capillary with its column of agarose is positioned well in the center of the chamber before proceeding with the alignment!</span>&nbsp;
-Use the 4D-stage to focus on the left or right edge of the agarose and center the column of agarose in the field of view.
+<span style="color:darkred; font-weight:bold">Careful! Particularly in an X-OpenSPIM setup with two detection objectives, it is crucial that the glass capillary with its column of agarose is positioned well in the center of the chamber before proceeding with the alignment!</span>&nbsp;</br>
+**Use the 4D-stage** to focus on the left or right edge of the agarose and **center the column of agarose** in the field of view.
 
 <figure align="center">
   <a href="https://openspim.org/images/alignment/Alignment_Figure7.png" target="_blank"><img width="700" src="https://openspim.org/images/alignment/Alignment_Figure7.png"></a>
