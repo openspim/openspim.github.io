@@ -31,6 +31,7 @@ After the alignment along the rails carrying the optical components is completed
 </details>
 <span style="color:darkred; font-weight:bold">Careful! Particularly in an X-OpenSPIM setup with two detection objectives, it is crucial that the glass capillary with its column of agarose is positioned well in the center of the chamber before proceeding with the alignment!</span>&nbsp;</br>
 <span style="color:#1E90FF; background-color:#DCDCDC; font-weight:bold">Step 8</span>&nbsp;
+
 **Remove emission filters and cylindrical lenses** on the illumination axes used for alignment and slightly **adjust the distance between** the 25 mm and 50 mm **telescopic lenses** and their distance to the illumination objective (Number 3 in Figure 9, E) to visualize the beam.
 
 <details><summary>Click here for more details on step 8</summary>
