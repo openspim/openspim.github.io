@@ -84,7 +84,7 @@ adjusted with the vertical gimbal mount adjuster knob to center it in the field 
 
 **[Continue to part 3 of the alignment guide](https://openspim.org/xopenspim/alignment_sample)**
 
-##  Go to:
+##  Quick menu:
 -   [Welcome site](https://openspim.org/xopenspim/alignment_welcome)
 - [Part 1. Aligning the laser beam along the rails](https://openspim.org/xopenspim/alignment_rails)
 - [Part 2. Visualizing and tuning the beam within the field of view of one or two cameras](https://openspim.org/xopenspim/alignment_FOV) 
