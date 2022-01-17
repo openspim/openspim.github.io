@@ -2,7 +2,7 @@
 After the alignment along the rails carrying the optical components is completed, the emitted laser beam can be visualized in agarose and adjusted by slightly changing the positions of the spherical lens assemblies along the rails.
 
 ## Preparations:
--   Prepare **1% agarose with fluorescent beads**
+-   **Prepare 1% agarose with fluorescent beads**
 -   **fill the acquisition chamber with water**
 
 <details><summary>Click here for detailed preparations:</summary>
@@ -86,6 +86,6 @@ adjusted with the vertical gimbal mount adjuster knob to center it in the field 
 
 ##  Go to:
 -   [Welcome site](https://openspim.org/xopenspim/alignment_welcome)
-- [1. Aligning the laser beam along the rails](https://openspim.org/xopenspim/alignment_rails)
-- [2. Visualizing and tuning the beam within the field of view of one or two cameras](https://openspim.org/xopenspim/alignment_FOV) 
-- [3. Fine alignment of the light-sheet for the sample using beads](https://openspim.org/xopenspim/alignment_sample)
+- [Part 1. Aligning the laser beam along the rails](https://openspim.org/xopenspim/alignment_rails)
+- [Part 2. Visualizing and tuning the beam within the field of view of one or two cameras](https://openspim.org/xopenspim/alignment_FOV) 
+- [Part 3. Fine alignment of the light-sheet for the sample using beads](https://openspim.org/xopenspim/alignment_sample)
