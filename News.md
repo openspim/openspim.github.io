@@ -3,7 +3,7 @@ title: OpenSPIM News
 layout: page
 description: News and announcements
 ---
-- [2021-11-11 Interested in building or upgrading to an X-OpenSPIM? Then check this out!](news/2021-11-11_-_Time_to_upgrade_to_an_X-OpenSPIM)
+- [2021-11-11 Major update on building and configuring an X-OpenSPIM](x-openspim_welcome)
 - [2015-10-16 Brightfield Illumination by Michael Redd](news/2015-10-16_Brightfield_illumination_by_Michael_Redd)
 - [2014-08-15 EMBO practical course on Light Sheet Microscopy](news/2014-08-15_EMBO_practical_course_on_light_sheet_microscopy)
 - [2014-04-22 Multiview deconvolution](news/2014-04-22_Multiview_deconvolution)
