@@ -1,7 +1,7 @@
 ---
 ---
 ##	Welcome to the X-OpenSPIM site on openspim.org!
-Here we provide new instructions and guides on how to [assemble, configure](https://onlinelibrary.wiley.com/doi/10.1002/adbi.202101182), and [align](https://openspim.org/xopenspim/alignment_welcome) an [X-OpenSPIM](https://openspim.org/table_of_parts_xopenspim), together with a completely overhauled software plugin [μOpenSPIM](https://openspim.org/micro-openspim). As an OpenSPIM user, this should make it easier and less time-consuming to upgrade to a more advanced OpenSPIM system and use it as a powerful research tool in their laboratories.
+Here you can find new instructions and guides on how to [assemble, configure](https://onlinelibrary.wiley.com/doi/10.1002/adbi.202101182), and [align](https://openspim.org/xopenspim/alignment_welcome) an [X-OpenSPIM](https://openspim.org/table_of_parts_xopenspim). Additionally, a completely overhauled software plugin, [μOpenSPIM](https://openspim.org/micro-openspim), is provided. This should make it easier and less time-consuming to upgrade to a more advanced OpenSPIM system or improve your current one.
 
 -	[Take a look at the modifications and parts needed to build an X-OpenSPIM](https://openspim.org/table_of_parts_xopenspim)
 -	[Follow the alignment guide](https://openspim.org/xopenspim/alignment_welcome)
