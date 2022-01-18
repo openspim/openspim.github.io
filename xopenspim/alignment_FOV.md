@@ -4,6 +4,7 @@ After the alignment along the rails carrying the optical components is completed
 ## Preparations:
 -   **Prepare 1% agarose with fluorescent beads**
 -   **Fill the acquisition chamber with water**
+-   **Mount the glass capillary and find the agarose within the field of view using a bright light source**
 <details><summary>Click here for more details:</summary>
 <p>
 
