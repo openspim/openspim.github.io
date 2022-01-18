@@ -75,8 +75,7 @@ adjusted with the vertical gimbal mount adjuster knob to center it in the field 
 
 </br>
 <figure align="center">
-    <img width="700" src="https://openspim.org/images/alignment/Alignment_Figure9.png"
-         alt="Test">
+    <img width="700" src="https://openspim.org/images/alignment/Alignment_Figure9.png" alt="Test">
     <figcaption> Figure 9 - Visualizing and aligning the laser beam within the field of view. Insets (A-D) show actual pictures captured in the field of view of one of the two cameras. A) Broad beam of the left illumination before adjusting the horizontal gimbal mount knob of the corner mirror. B) Correct alignment of one of the two illumination beams C) illumination beam with a slight misalignment (shift) to the left of its focal point. D) One of the illumination beams needs to be adjusted with the vertical gimbal mount adjuster knob to center it in the field of view. E) 1 = horizontal gimbal mount adjuster knob; 2 = vertical gimbal mount adjuster knob; 3 = telescopic lenses; 4 = plastic handles that connect to the objective holder ring of their respective  detection objective and are used to slide the objective along the detection axis.</figcaption>
 </figure> 
 </br>
