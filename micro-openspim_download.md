@@ -6,12 +6,13 @@
 2.  __Download µOpenSPIM__ for <strong>[Windows 64-bit](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.3/OpenSPIM_setup_1.0.3.exe)</strong> or <strong>[MacOSX](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.3/OpenSPIM-1.0.3.dmg)</strong> and follow the installation guide.
 
 
+## Download µOpenSPIM
 
 | µOpenSPIM     | Win64bit      | MACOSX |
 | ------------- |:-------------:| --------:|
-| col 3 is      | [1.0.4](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.4/OpenSPIM_setup_1.0.4.exe)   | [1.0.4](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.4/OpenSPIM-1.0.4.dmg)  |
-| col 2 is      | [1.0.3](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.4/OpenSPIM_setup_1.0.3.exe)   | [1.0.3](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.3/OpenSPIM-1.0.4.dmg)  |
-| zebra stripes | [1.0.2](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.4/OpenSPIM_setup_1.0.2.exe)   | [1.0.2](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.2/OpenSPIM-1.0.4.dmg)  |
+|               | [1.0.4](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.4/OpenSPIM_setup_1.0.4.exe)   | [1.0.4](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.4/OpenSPIM-1.0.4.dmg)  |
+|               | [1.0.3](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.4/OpenSPIM_setup_1.0.3.exe)   | [1.0.3](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.3/OpenSPIM-1.0.4.dmg)  |
+|               | [1.0.2](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.4/OpenSPIM_setup_1.0.2.exe)   | [1.0.2](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.2/OpenSPIM-1.0.4.dmg)  |
 
 1.0.4
 -	Save/load functions for beanshell and java script
