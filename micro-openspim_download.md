@@ -7,7 +7,6 @@
 
 
 ## Download µOpenSPIM
-
 | µOpenSPIM     | Win64bit      | MACOSX |
 | ------------- |:-------------:| --------:|
 |               | [1.0.4](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.4/OpenSPIM_setup_1.0.4.exe)   | [1.0.4](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.4/OpenSPIM-1.0.4.dmg)  |
