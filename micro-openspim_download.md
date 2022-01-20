@@ -14,8 +14,6 @@
 	-	Added the citation information in LoadingDialog window
 </p>
 </details>
+
 -	[Win64bit](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.4/OpenSPIM_setup_1.0.4.exe)
 -	[MACOSX](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.4/OpenSPIM-1.0.4.dmg)
-
-
-
