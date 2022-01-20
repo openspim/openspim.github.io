@@ -4,7 +4,7 @@
 1.  Please [download](https://valelab4.ucsf.edu/~MM/builds/2.0/Mac/Micro-Manager-2.0.0.dmg) and install the [64-bit](https://valelab4.ucsf.edu/~MM/nightlyBuilds/2.0/Windows/MMSetup_64bit_2.0.1_20210721.exe) build of [µManager](https://micro-manager.org/) and follow its *Hardware Configuration Wizard* to create a functional configuration file (.cfg) that allows µManager to control the OpenSPIM hardware. On the first time startup of µOpenSPIM users will be asked to select the file location of µManager.
 
 2. Download µOpenSPIM
-| µOpenSPIM | Win64bit                                                                                            | MACOSX                                                                                        |
+|	µOpenSPIM | Win64bit                                                                                            | MACOSX                                                                                        |
 |:---------:|:---------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------:|
 |           |[1.0.4](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.4/OpenSPIM_setup_1.0.4.exe)|[1.0.4](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.4/OpenSPIM-1.0.4.dmg)|
 |           |[1.0.3](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.4/OpenSPIM_setup_1.0.3.exe)|[1.0.3](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.3/OpenSPIM-1.0.4.dmg)|
@@ -16,3 +16,10 @@
 -	Supported ClijX in script panel
 -	Updated help files
 -	Added the citation information in LoadingDialog window
+
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
