@@ -5,8 +5,8 @@
 
 <details><summary>Download µOpenSPIM 1.0.4 for...</summary>
 <p>
-	
--	latest changes:
+
+-	Latest changes:
 	-	Save/load functions for beanshell and java script
 	-	Added example fusion scripts
 	-	Supported ClijX in script panel
