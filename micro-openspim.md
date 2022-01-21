@@ -5,15 +5,18 @@
 [Detailed Acquisition controls](/micro-openspim_acquisition-controls)
 
 ## Features of µOpenSPIM
+<details>
+<p>
+	
 -   A complete overhaul of the GUI has been made including simple graphic visualizations and an improved control over Picrard’s 4D-stage
 -   A user-friendly way of setting up multiview time lapse recordings with several positions and the option to acquire periodic and sporadic intervals with optional breaks during time-lapse recordings
 -   A quick save function for nearly all acquisitions settings to save time in case an imaging session is interrupted or a similar session will take place at another time
--   Different saving formats allow acquisition as single plane tiff files, whole stacks or in n5 format, which is optimised for browsing through big data.
--   ArduinoUNO support for basic but efficient control of several connected hardware devices so that OpenSPIM users can quickly benefit from improved image acquisition speed and acquisition accuracy
--   An option for on-the-fly maximum intensity projections
--   A Picard Stage calibration feature to correct rotational inaccuracies and to improve the 4D-USB stage control
--   A tested drift-correction functionality with new options that can help with keeping a drifting sample within the field of view during long term image acquisition
-- And more to come...
+-   Different saving formats (single plane tiff files, whole stacks or n5 format)
+-   ArduinoUNO support
+-   On-the-fly image processing
+-   new drift-correction functionality
+</p>
+</details>
 
 ## µOpenSPIM requirements
 -   All hardware components of an OpenSPIM system (Laser, Camera, Stage, etc.) have to be pre-configured with µManager's Hardware Configuration Wizard using Version 2.0 gamma (nightly build 04 May 2021) on a Windows7/10 computer.
