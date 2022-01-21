@@ -1,13 +1,13 @@
 <img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a> </br>Welcome! µOpenSPIM is an intuitive new graphical user interface (GUI) for OpenSPIM users, which relies on [µManager](https://micro-manager.org). You can also visit our [Github website](https://github.com/openspim/micro-OpenSPIM).
 
 ## Quick Menu
-[Image acquisition using µOpenSPIM](/micro-openspim_acquisition)</br>
+[Image acquisition](/micro-openspim_acquisition)</br>
 [Detailed Acquisition controls](/micro-openspim_acquisition-controls)
 
 ## Features of µOpenSPIM
 <details>
 <p>
-	
+
 -   A complete overhaul of the GUI has been made including simple graphic visualizations and an improved control over Picrard’s 4D-stage
 -   A user-friendly way of setting up multiview time lapse recordings with several positions and the option to acquire periodic and sporadic intervals with optional breaks during time-lapse recordings
 -   A quick save function for nearly all acquisitions settings to save time in case an imaging session is interrupted or a similar session will take place at another time
