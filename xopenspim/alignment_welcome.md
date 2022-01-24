@@ -5,13 +5,13 @@ There are different ways how to optimally align an OpenSPIM system and it can ta
 -   [visualize and tune the beam within the field of view of one or two cameras (Part 2)](https://openspim.org/xopenspim/alignment_FOV) 
 -   [fine align the light-sheet for the sample using beads (Part 3)](https://openspim.org/xopenspim/alignment_sample)
 
-The alignment guide was initially written for a recent [X-OpenSPIM publication](https://onlinelibrary.wiley.com/doi/10.1002/adbi.202101182) but can be applied in very much the same way to any L-, or T-OpenSPIM configuration.</br>
+The alignment guide was initially written for a [X-OpenSPIM publication](https://onlinelibrary.wiley.com/doi/10.1002/adbi.202101182) (2021) but can be applied in very much the same way to any L-, or T-OpenSPIM configuration.</br>
 All renderings have been created by Charlène Brillard [(Tomancak Group)](https://www.mpi-cbg.de/research-groups/current-groups/pavel-tomancak/group-members/).
 
 ## Requirements
--   Make sure appropriate laser safety measures and training has been carried out and that µManager’s “Hardware configuration wizard” has been completed for at least one camera, one laser and the USB-4D stage.
--   A syringe to mount a glass capillary into the acquisition chamber. The capillary should be filled with agarose containing any fluorescent beads, which can be exited by the laser in use.
--   In case of an X-OpenSPIM acquisition chamber modifications are needed to allow additional adjustments of the detections objectives (see chamber parts [here](https://openspim.org/table_of_parts_xopenspim))
+-   Make sure appropriate laser safety measures and training have been carried out and that µManager’s “Hardware configuration wizard” has been completed for at least one camera, one laser and the USB-4D stage.
+-   A syringe to mount a glass capillary into the acquisition chamber. The capillary should be filled with agarose containing fluorescent beads which can be excited by the laser in use.
+-   In case of an X-OpenSPIM acquisition chamber, modifications are needed to allow additional adjustments of the detections objectives (see chamber parts [here](https://openspim.org/table_of_parts_xopenspim))
 
 **[Click here to start with part 1 of the alignment guide](https://openspim.org/xopenspim/alignment_rails)**
 
