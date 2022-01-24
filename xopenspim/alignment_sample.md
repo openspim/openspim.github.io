@@ -7,7 +7,7 @@
 
 <details><summary>Click here in case different light intensities between both illumination sides are observed</summary>
 <p>
-Different light intensities of the beads between the left and right illumination axes, may indicate slight beam alignment differences. This issue can be corrected by looking at the beads. In the illumination axis, where a lower intensity of beads is observed, the height of the beam can carefully be adjusted by using the two reflecting mirrors positioned prior to the rail carrying the first telescopic system. By making slight adjustments with a 5/64" hex key adjuster, intensities should increase and decrease. Aim to maximize light intensity on both illumination axes.
+Different light intensities of the beads between the left and right illumination axes may indicate slight beam alignment differences. This issue can be corrected by looking at the beads. In the illumination axis, where a lower intensity of beads is observed, the height of the beam can carefully be adjusted by using the two reflecting mirrors positioned prior to the rail carrying the first telescopic system. By making slight adjustments with a 5/64" hex key adjuster, intensities should increase and decrease. Aim to maximize light intensity on both illumination axes.
 </p>
 </details>
 
