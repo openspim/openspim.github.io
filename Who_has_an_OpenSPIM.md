@@ -28,7 +28,7 @@ Feel free to edit this page with information about your system! (You will need a
   - operated by MicroManager using our new custom made µManager plugin called [µOpenSPIM](https://openspim.org/micro-openspim)
 </br>
 
-  For details on how to assemble, configure, align and operate the X-OpenSPIM check out our [lates publication](https://onlinelibrary.wiley.com/doi/10.1002/adbi.202101182).
+  For details on how to assemble, configure, align and operate the X-OpenSPIM take a look at the [openspim.org X-OpenSPIM website](https://openspim.org/x-openspim_welcome) and read our related [publication](https://onlinelibrary.wiley.com/doi/10.1002/adbi.202101182).
 
   </br>
 <a href="https://onlinelibrary.wiley.com/doi/10.1002/adbi.202101182" target="_blank" title="Time to Upgrade: A New OpenSPIM Guide to Build and Operate Advanced OpenSPIM Configurations
