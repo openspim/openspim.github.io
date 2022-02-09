@@ -220,7 +220,7 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <td><a href="documents/MODIFIED_ThorLabs_RC1-M_Rail-Carrier_for_Dovetail-Optical-Rail.PDF">RC1 mod.pdf</a></td>
 <td align="center"><img src="images/MODIFIED_ThorLabs_RC1-M_Rail-Carrier_for_Dovetail-Optical-Rail-1.jpg" width="70%"</td>
 <td align="center">1</td>
-<td align="center"> </td>
+<td align="center"> </td>
 </tr>
 <tr class="even">
 <td>ThorLabs</td>
@@ -461,9 +461,9 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <td>Ø1"/25.4 mm <strong>Fluorescent Microscopy Filter</strong><br/>
 <br/>
 Make sure to get at least one good bandpass (FWHM 30-50 nm) and a longpass that block the illumination well</td>
-<td> </td>
+<td> </td>
 <td align="center"><img src="images/AHF_Fluorescent-Filter.jpg" width="70%"</td>
-<td align="center"> </td>
+<td align="center"> </td>
 <td align="center">100-300</td>
 </tr>
 <tr class="odd">
@@ -585,7 +585,7 @@ Here are some companies who make Ø1" (Ø25.4 mm) microscopy filters:<br/>
 <a href="documents/OpenSPIM_Motor_Pully.PDF">motor.pdf</a></td>
 <td align="center"><img src="images/Pulleys.jpg" width="50%"</td>
 <td align="center">1 each</td>
-<td align="center"> </td>
+<td align="center"> </td>
 </tr>
 <tr class="odd">
 <td>any</td>
@@ -594,7 +594,7 @@ Here are some companies who make Ø1" (Ø25.4 mm) microscopy filters:<br/>
 <td>any</td>
 <td align="center"><img src="images/Assembled_motorsystem_green_top.jpg" width="50%"</td>
 <td align="center">1</td>
-<td align="center"> </td>
+<td align="center"> </td>
 </tr>
 <tr class="even">
 <td>OpenSPIM</td>
@@ -605,7 +605,7 @@ Here are some companies who make Ø1" (Ø25.4 mm) microscopy filters:<br/>
 <td><a href="https://de.rs-online.com/web/p/kugellager/4090057/">NSK 6001Z</a></td>
 <td align="center"><img src="images/Ballbearing_pulley.jpg" width="50%"</td>
 <td align="center">1</td>
-<td align="center"> </td>
+<td align="center"> </td>
 </tr>
 <tr class="odd">
 <td>ThorLabs</td>
@@ -643,34 +643,48 @@ Variable Height Clamp, Metric, M6 Tapped</td>
 <td><a href="https://www.apple.com">Mac Book Pro</a></td>
 <td align="center"><img src="images/Computer.jpg" width="50%"</td>
 <td align="center">1</td>
-<td align="center"> </td>
+<td align="center"> </td>
 </tr>
 <tr class="even">
 <td>Andor/<br/>
 Hamamatsu/<br/>
-pco</td>
+pco/<br/>
+Teledyne Photometrics</td>
 <td>purchase<br/>
 </td>
 <td><strong>Digital camera</strong><br/>
 <br/>
-<br/>
-<br/>
 Andor Zyla<br/>
-<br/>
-<br/>
 <br/>
 Hamamatsu ORCA-Flash4.0 LT<br/>
 <br/>
-pco.edge 4.2 sCMOS</td>
+pco.edge 4.2 sCMOS<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+Teledyne Photometrics<br/>KINETIX family<br/>
+<br/>
+<br/>
+Teledyne Photometrics<br/>Prime BSI Express<br/></td>
 <td><a href="https://www.andor.com/scientific-cameras/neo-and-zyla-scmos-cameras">Andor Zyla 5.5 or 4.2</a><br/>
 <br/>
 <a href="https://www.hamamatsu.com/eu/en/community/life_science_camera/product/search/C11440-42U/index.html">Hamamatsu ORCA-Flash4.0 LT</a><br/>
 <br/>
-<a href="https://www.pco.de/scmos-cameras/pcoedge-42/">pco.edge 4.2</a></td>
+<a href="https://www.pco.de/scmos-cameras/pcoedge-42/">pco.edge 4.2</a><br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<a href="https://www.photometrics.com/products/cameras-for-openspim">Teledyne Photometrics KINETIX family</a><br/>
+<br/>
+<a href="https://www.photometrics.com/products/cameras-for-openspim">Teledyne Photometrics Prime BSI Express</a></td>
 <td align="center">
 <img src="images/Zyla.png" width="50%"><br/>
 <img src="images/Flash4_lt.jpg" width="50%"><br/>
-<img src="images/Pco_edge_sCMOS.jpg" width="50%">
+<img src="images/Pco_edge_sCMOS.jpg" width="50%"><br/>
+<img src="images/Kinetix-shadow_small.png" width="50%"><br/>
+<img src="images/BSI-Express_small.png" width="50%">
 </td>
 <td align="center">1</td>
 <td align="center">Ask for quote</td>
@@ -688,10 +702,10 @@ pco.edge 4.2 sCMOS</td>
 <td>any electronics vendor</td>
 <td align="center" bgcolor="pink">purchase</td>
 <td><strong>USB cables</strong> for the 4D positioning system and USB hub (at minimum 5 USB positions)</td>
-<td> </td>
+<td> </td>
 <td align="center"><img src="images/Usb_cables.jpg" width="70%"></td>
 <td align="center">4 &amp; 1</td>
-<td align="center"> </td>
+<td align="center"> </td>
 </tr>
 <tr class="odd">
 <td>any electronics vendor</td>
