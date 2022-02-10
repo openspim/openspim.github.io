@@ -693,7 +693,7 @@ Teledyne Photometrics<br/>Prime BSI Express<br/></td>
 <tr class="odd">
 <td>Andor</td>
 <td align="center" bgcolor="pink">purchase</td>
-<td>Andor Zyla 5.5 or 4.2</td>
+<td><strong>Digital camera</strong> Andor Zyla 5.5 or 4.2</td>
 <td><a href="https://www.andor.com/scientific-cameras/neo-and-zyla-scmos-cameras">Andor Zyla 5.5 or 4.2</a></td>
 <td align="center"><img src="images/Zyla.png" width="50%"></td>
 <td align="center">1</td>
@@ -703,7 +703,7 @@ Teledyne Photometrics<br/>Prime BSI Express<br/></td>
 <tr class="odd">
 <td>Hamamatsu</td>
 <td align="center" bgcolor="pink">purchase</td>
-<td>Hamamatsu ORCA-Flash4.0 LT</td>
+<td><strong>Digital camera</strong> Hamamatsu ORCA-Flash4.0 LT</td>
 <td><a href="https://www.hamamatsu.com/eu/en/community/life_science_camera/product/search/C11440-42U/index.html">Hamamatsu ORCA-Flash4.0 LT</a></td>
 <td align="center"><img src="images/Flash4_lt.jpg" width="50%"></td>
 <td align="center">1</td>
@@ -713,7 +713,7 @@ Teledyne Photometrics<br/>Prime BSI Express<br/></td>
 <tr class="odd">
 <td>pco</td>
 <td align="center" bgcolor="pink">purchase</td>
-<td>pco.edge 4.2 sCMOS</td>
+<td><strong>Digital camera</strong> pco.edge 4.2 sCMOS</td>
 <td><a href="https://www.pco.de/scmos-cameras/pcoedge-42/">pco.edge 4.2</a></td>
 <td align="center"><img src="images/Pco_edge_sCMOS.jpg" width="50%"></td>
 <td align="center">1</td>
@@ -723,7 +723,7 @@ Teledyne Photometrics<br/>Prime BSI Express<br/></td>
 <tr class="odd">
 <td>Teledyne Photometrics</td>
 <td align="center" bgcolor="pink">purchase</td>
-<td>KINETIX</td>
+<td><strong>Digital camera</strong> KINETIX</td>
 <td><a href="https://www.photometrics.com/products/cameras-for-openspim">Teledyne Photometrics KINETIX family</a></td>
 <td align="center"><img src="images/Kinetix-shadow_small.png" width="50%"></td>
 <td align="center">1</td>
