@@ -690,7 +690,7 @@ Teledyne Photometrics<br/>Prime BSI Express<br/></td>
 <td align="center">Ask for quote</td>
 </tr>
 
-<tr class="odd">
+<tr class="even">
 <td>Andor</td>
 <td align="center" bgcolor="pink">purchase</td>
 <td><strong>Digital camera</strong> Andor Zyla 5.5 or 4.2</td>
@@ -710,7 +710,7 @@ Teledyne Photometrics<br/>Prime BSI Express<br/></td>
 <td align="center">Ask for quote</td>
 </tr>
 
-<tr class="odd">
+<tr class="even">
 <td>pco</td>
 <td align="center" bgcolor="pink">purchase</td>
 <td><strong>Digital camera</strong> pco.edge 4.2 sCMOS</td>
@@ -739,11 +739,6 @@ Teledyne Photometrics<br/>Prime BSI Express<br/></td>
 <td align="center">1</td>
 <td align="center">Ask for quote</td>
 </tr>
-
-
-
-
-
 
 <tr class="odd">
 <td>Keyspan</td>
