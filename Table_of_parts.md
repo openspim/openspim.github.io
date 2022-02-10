@@ -701,6 +701,26 @@ Teledyne Photometrics<br/>Prime BSI Express<br/></td>
 </tr>
 
 <tr class="odd">
+<td>Hamamatsu</td>
+<td align="center" bgcolor="pink">purchase</td>
+<td>Hamamatsu ORCA-Flash4.0 LT</td>
+<td><a href="https://www.hamamatsu.com/eu/en/community/life_science_camera/product/search/C11440-42U/index.html">Hamamatsu ORCA-Flash4.0 LT</a></td>
+<td align="center"><img src="images/Flash4_lt.jpg" width="50%"></td>
+<td align="center">1</td>
+<td align="center">Ask for quote</td>
+</tr>
+
+<tr class="odd">
+<td>pco</td>
+<td align="center" bgcolor="pink">purchase</td>
+<td>pco.edge 4.2 sCMOS</td>
+<td><a href="https://www.pco.de/scmos-cameras/pcoedge-42/">pco.edge 4.2</a></td>
+<td align="center"><img src="images/Pco_edge_sCMOS.jpg" width="50%"></td>
+<td align="center">1</td>
+<td align="center">Ask for quote</td>
+</tr>
+
+<tr class="odd">
 <td>Teledyne Photometrics</td>
 <td align="center" bgcolor="pink">purchase</td>
 <td>KINETIX</td>
