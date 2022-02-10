@@ -622,7 +622,7 @@ Variable Height Clamp, Metric, M6 Tapped</td>
 </tr>
 </table>
 
-## Digital Cameras
+## Digital Cameras / Electronics
 
 <table>
 <tr class="header">
@@ -634,6 +634,7 @@ Variable Height Clamp, Metric, M6 Tapped</td>
 <th>Quantity</th>
 <th>Price (EUR)</th>
 </tr>
+<tr class="odd">
 
 <tr class="even">
 <td>Andor</td>
@@ -685,29 +686,6 @@ Variable Height Clamp, Metric, M6 Tapped</td>
 <td align="center">Ask for quote</td>
 </tr>
 
-## Electronics
-
-<table>
-<tr class="header">
-<th>Manufacturer</th>
-<th>Accessibility</th>
-<th>Description</th>
-<th>File or Link/Model #</th>
-<th>Image</th>
-<th>Quantity</th>
-<th>Price (EUR)</th>
-</tr>
-<tr class="even">
-<td>Apple</td>
-<td align="center" bgcolor="pink">purchase</td>
-<td>Laptop <strong>computer</strong> to operate the OpenSPIM system. We use Apple MacBook Pro with effectively 4GB of RAM and 256GB SSS hard drive running 32 bit Windows XP.<br/>
-<br/>
-<em>Note: We are forced to use Windows due to availability of drivers, and the MacBook Pro for it's firewire jack</em></td>
-<td><a href="https://www.apple.com">Mac Book Pro</a></td>
-<td align="center"><img src="images/Computer.jpg" width="50%"</td>
-<td align="center">1</td>
-<td align="center"> </td>
-</tr>
 <tr class="odd">
 <td>Keyspan</td>
 <td align="center" bgcolor="pink">purchase</td>
