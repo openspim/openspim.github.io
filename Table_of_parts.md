@@ -622,7 +622,7 @@ Variable Height Clamp, Metric, M6 Tapped</td>
 </tr>
 </table>
 
-## Electronics
+## Digital Cameras
 
 <table>
 <tr class="header">
@@ -633,61 +633,6 @@ Variable Height Clamp, Metric, M6 Tapped</td>
 <th>Image</th>
 <th>Quantity</th>
 <th>Price (EUR)</th>
-</tr>
-<tr class="odd">
-<td>Apple</td>
-<td align="center" bgcolor="pink">purchase</td>
-<td>Laptop <strong>computer</strong> to operate the OpenSPIM system. We use Apple MacBook Pro with effectively 4GB of RAM and 256GB SSS hard drive running 32 bit Windows XP.<br/>
-<br/>
-<em>Note: We are forced to use Windows due to availability of drivers, and the MacBook Pro for it's firewire jack</em></td>
-<td><a href="https://www.apple.com">Mac Book Pro</a></td>
-<td align="center"><img src="images/Computer.jpg" width="50%"</td>
-<td align="center">1</td>
-<td align="center"> </td>
-</tr>
-<tr class="even">
-<td>Andor/<br/>
-Hamamatsu/<br/>
-pco/<br/>
-Teledyne Photometrics</td>
-<td>purchase<br/>
-</td>
-<td><strong>Digital camera</strong><br/>
-<br/>
-Andor Zyla<br/>
-<br/>
-Hamamatsu ORCA-Flash4.0 LT<br/>
-<br/>
-pco.edge 4.2 sCMOS<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-Teledyne Photometrics<br/>KINETIX family<br/>
-<br/>
-<br/>
-Teledyne Photometrics<br/>Prime BSI Express<br/></td>
-<td><a href="https://www.andor.com/scientific-cameras/neo-and-zyla-scmos-cameras">Andor Zyla 5.5 or 4.2</a><br/>
-<br/>
-<a href="https://www.hamamatsu.com/eu/en/community/life_science_camera/product/search/C11440-42U/index.html">Hamamatsu ORCA-Flash4.0 LT</a><br/>
-<br/>
-<a href="https://www.pco.de/scmos-cameras/pcoedge-42/">pco.edge 4.2</a><br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<a href="https://www.photometrics.com/products/cameras-for-openspim">Teledyne Photometrics KINETIX family</a><br/>
-<br/>
-<a href="https://www.photometrics.com/products/cameras-for-openspim">Teledyne Photometrics Prime BSI Express</a></td>
-<td align="center">
-<img src="images/Zyla.png" width="50%"><br/>
-<img src="images/Flash4_lt.jpg" width="50%"><br/>
-<img src="images/Pco_edge_sCMOS.jpg" width="50%"><br/>
-<img src="images/Kinetix-shadow_small.png" width="50%"><br/>
-<img src="images/BSI-Express_small.png" width="50%">
-</td>
-<td align="center">1</td>
-<td align="center">Ask for quote</td>
 </tr>
 
 <tr class="even">
@@ -740,6 +685,29 @@ Teledyne Photometrics<br/>Prime BSI Express<br/></td>
 <td align="center">Ask for quote</td>
 </tr>
 
+## Electronics
+
+<table>
+<tr class="header">
+<th>Manufacturer</th>
+<th>Accessibility</th>
+<th>Description</th>
+<th>File or Link/Model #</th>
+<th>Image</th>
+<th>Quantity</th>
+<th>Price (EUR)</th>
+</tr>
+<tr class="even">
+<td>Apple</td>
+<td align="center" bgcolor="pink">purchase</td>
+<td>Laptop <strong>computer</strong> to operate the OpenSPIM system. We use Apple MacBook Pro with effectively 4GB of RAM and 256GB SSS hard drive running 32 bit Windows XP.<br/>
+<br/>
+<em>Note: We are forced to use Windows due to availability of drivers, and the MacBook Pro for it's firewire jack</em></td>
+<td><a href="https://www.apple.com">Mac Book Pro</a></td>
+<td align="center"><img src="images/Computer.jpg" width="50%"</td>
+<td align="center">1</td>
+<td align="center"> </td>
+</tr>
 <tr class="odd">
 <td>Keyspan</td>
 <td align="center" bgcolor="pink">purchase</td>
