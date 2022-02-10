@@ -694,7 +694,7 @@ Teledyne Photometrics<br/>Prime BSI Express<br/></td>
 <tr class="odd">
 <td>Teledyne Photometrics</td>
 <td align="center" bgcolor="pink">purchase</td>
-<td><strong>Teledyne Photometrics KINETIX family</td>
+<td>KINETIX</td>
 <td><a href="https://www.photometrics.com/products/cameras-for-openspim">Teledyne Photometrics KINETIX family</a></td>
 <td align="center"><img src="images/Kinetix-shadow_small.png" width="50%"></td>
 <td align="center">1</td>
