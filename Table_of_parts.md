@@ -735,7 +735,7 @@ Teledyne Photometrics<br/>Prime BSI Express<br/></td>
 <td align="center" bgcolor="pink">purchase</td>
 <td>Prime BSI Express</td>
 <td><a href="https://www.photometrics.com/products/cameras-for-openspim">Teledyne Photometrics Prime BSI Express</a></td>
-<td align="center"><img src=images/Kinetix-shadow_small.png" width="50%"></td>
+<td align="center"><img src="images/Kinetix-shadow_small.png" width="50%"></td>
 <td align="center">1</td>
 <td align="center">Ask for quote</td>
 </tr>
