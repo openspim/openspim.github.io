@@ -12,7 +12,7 @@ The two laser lines (488 and 561) come from a multiple wavelength laser system <
 Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purchased from <a href="https://www.pfde.co.uk/p/698089/openspim-microscope-parts">Pieter Fourie Design and Engineering</a>.
 
 <figure align="center">
-  <a href="/images/µOpenSPIM/X-OpenSPIM-rendering.png" target="_blank" title="Click for a higher resolution image"><img src="images/µOpenSPIM/X-OpenSPIM-rendering.png" width="1024"></a>
+  <a href="/images/µOpenSPIM/X-OpenSPIM-rendering.png" target="_blank" title="Click for a higher resolution image"><img src="images/µOpenSPIM/X-OpenSPIM-rendering_small.png" width="1024"></a>
 <figcaption>Accurate rendering of the X-OpenSPIM currently in use in the Tomancak lab (side view). Image created with Autodesk Inventor by Charlène Brillard.
 
 </figcaption>
