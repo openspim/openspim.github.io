@@ -34,6 +34,7 @@ description: Welcome to µOpenSPIM
 
 </table>
 
+<img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200">
 
 ## Requirements
 -   All hardware components of an OpenSPIM system (Laser, Camera, Stage, etc.) have to be pre-configured with µManager's Hardware Configuration Wizard using Version 2.0 gamma (nightly build 04 May 2021) on a Windows7/10 computer.
