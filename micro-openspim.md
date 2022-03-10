@@ -13,6 +13,22 @@ description: Welcome to µOpenSPIM
 -	[Acquisition controls](/micro-openspim_acquisition-controls)
 
 ## Features of µOpenSPIM
+
+<table>
+<tr class="header">
+<th>Configuration</th>
+<th>Accessibility</th>
+</tr>
+
+<tr class="odd">
+<td align="center">&nbsp;&nbsp;&nbsp;X-OpenSPIM&nbsp;&nbsp;&nbsp;</td>
+<td align="center"><img src="https://openspim.org/images/Figure5_Acquisition-panel_website.png" width="400"></td>
+
+</tr>
+
+</table>
+
+
 <img src="https://openspim.org/images/Figure5_Acquisition-panel_website.png" width="400"></a>
 <details>
 <p>
