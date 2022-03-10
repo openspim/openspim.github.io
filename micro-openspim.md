@@ -20,8 +20,6 @@ Welcome! µOpenSPIM is an intuitive new graphical user interface (GUI) for OpenS
 </tr>
 
 <tr class="odd">
-<img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a>
-
 <td align="center"><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></td>
 <td align="center"><img src="https://openspim.org/images/Figure5_Acquisition-panel_website.png" width="400"></td>
 <td align="left">
