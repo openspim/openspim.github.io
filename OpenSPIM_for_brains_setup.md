@@ -4,8 +4,6 @@ layout: page
 description: Additional setup tweaks
 ---
 
-# OpenSPIM for brains setup built by Monika Pawłowska (Nencki Institute of Experimental Biology, Warsaw)
-
 The table below lists the parts used by the OpenSPIM for brains setup built by Monika Pawłowska (Nencki Institute of Experimental Biology, Warsaw).
 
 <table>
