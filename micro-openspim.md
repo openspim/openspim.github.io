@@ -46,14 +46,14 @@ Welcome! µOpenSPIM is an intuitive new graphical user interface (GUI) for OpenS
 </p>
 </details>
 
-## µOpenSPIM requirements
+## Requirements
 -   All hardware components of an OpenSPIM system (Laser, Camera, Stage, etc.) have to be pre-configured with µManager's Hardware Configuration Wizard using Version 2.0 gamma (nightly build 04 May 2021) on a Windows7/10 computer.
 -   µOpenSPIM has been tested with Picard's USB 4D-Stage in mind. Using different 4D-Stages should work but could lead to unexpected behaviour.
 
 ## How to set up µManager before using µOpenSPIM?
 -   Click [here](/micro-openspim_micromanager-configuration) if you have never created a working .cfg file with µManager before or/and want to get guidance on configuring multiple cameras, pixel size calibration and configuring an ArduinoUNO board for µManager.
 
-## Installation and start-up of µOpenSPIM
+## Installation and start-up
 µOpenSPIM is in its beta stage and works with µManager 2.0.1 20210721 for Windows (nightly build 21 July 2021).</br>
 Visit our [µOpenSPIM-Github Site](https://github.com/openspim/micro-OpenSPIM) for previous releases and more information.
 1.  Download and install the [64-bit](https://valelab4.ucsf.edu/~MM/nightlyBuilds/2.0/Windows/MMSetup_64bit_2.0.1_20210721.exe) build of [µManager](https://micro-manager.org/) and follow its *Hardware Configuration Wizard* to create a functional configuration file (.cfg) that allows µManager to control the OpenSPIM hardware. On the first time startup of µOpenSPIM users will be asked to select the file location of µManager.
