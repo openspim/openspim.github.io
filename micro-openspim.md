@@ -16,25 +16,24 @@ description: Welcome to µOpenSPIM
 <tr class="header">
 <th>Acquisition window</th>
 <th>Features</th>
+<th>Logo</th>
 </tr>
 
 <tr class="odd">
 <td align="center"><img src="https://openspim.org/images/Figure5_Acquisition-panel_website.png" width="400"></td>
 <td align="left">
 &nbsp;&nbsp;&nbsp;-   A complete overhaul of the GUI and an improved control over Picrard’s 4D-stage</br>
-&nbsp;&nbsp;&nbsp;-   A user-friendly way of setting up multiview time lapse recordings 
+&nbsp;&nbsp;&nbsp;-   A user-friendly way of setting up multiview time lapse recordings</br>
 &nbsp;&nbsp;&nbsp;-   An option to acquire periodic and sporadic intervals with optional breaks during time-lapse recordings</br>
 &nbsp;&nbsp;&nbsp;-   A quick save function for nearly all acquisitions settings</br>
 &nbsp;&nbsp;&nbsp;-   Different saving formats (single plane tiff files, whole stacks or n5 format)</br>
 &nbsp;&nbsp;&nbsp;-   ArduinoUNO support</br>
 &nbsp;&nbsp;&nbsp;-   On-the-fly image processing</br>
-&nbsp;&nbsp;&nbsp;-   New drift-correction functionality</br></td>
-
+&nbsp;&nbsp;&nbsp;-   New drift-correction functionality</br>
+<td align="center"><a href="https://openspim.org/images/%C2%B5OS_Logo.png" target="_blank" title="Click for a higher resolution image"><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="400"></a>
+</td>
 </tr>
-
 </table>
-
-<img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200">
 
 ## Requirements
 -   All hardware components of an OpenSPIM system (Laser, Camera, Stage, etc.) have to be pre-configured with µManager's Hardware Configuration Wizard using Version 2.0 gamma (nightly build 04 May 2021) on a Windows7/10 computer.
