@@ -14,8 +14,8 @@ Welcome! µOpenSPIM is an intuitive new graphical user interface (GUI) for OpenS
 
 <table>
 <tr class="header">
-<th>Software</th>
-<th>Configuration</th>
+<th>Software plugin</th>
+<th>Image</th>
 <th>Features</th>
 </tr>
 
@@ -23,9 +23,15 @@ Welcome! µOpenSPIM is an intuitive new graphical user interface (GUI) for OpenS
 <img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a>
 
 <td align="center"><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></td>
-<td align="center">&nbsp;&nbsp;&nbsp;µOpenSPIM&nbsp;&nbsp;&nbsp;</td>
 <td align="center"><img src="https://openspim.org/images/Figure5_Acquisition-panel_website.png" width="400"></td>
-<td align="center">&nbsp;&nbsp;&nbsp;Feature 1, Feature 2, Feature 3&nbsp;&nbsp;&nbsp;</td>
+<td align="left">
+-   A complete overhaul of the GUI has been made including simple graphic visualizations and an improved control over Picrard’s 4D-stage</br>
+-   A user-friendly way of setting up multiview time lapse recordings with several positions and the option to acquire periodic and sporadic intervals with optional breaks during time-lapse recordings</br>
+-   A quick save function for nearly all acquisitions settings to save time in case an imaging session is interrupted or a similar session will take place at another time</br>
+-   Different saving formats (single plane tiff files, whole stacks or n5 format)</br>
+-   ArduinoUNO support</br>
+-   On-the-fly image processing (CLIJ support)</br>
+-   new drift-correction functionality</br></td>
 
 </tr>
 
