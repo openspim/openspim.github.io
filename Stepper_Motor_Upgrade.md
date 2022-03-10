@@ -4,8 +4,6 @@ layout: page
 description: Additional setup tweaks
 ---
 
-# Stepper Motor Upgrade
-
 Instructions about how to go about this for a Thorlabs DRV001 connected via a Thorlabs BSC201 controller on a 64bit OpenSPIM setup are detailed below (by Jerome Boulanger and Ben Sutcliffe):
 
 1.  Download the micro-manager source code as instructed [here](https://micro-manager.org/wiki/Micro-Manager_Source_Code).
