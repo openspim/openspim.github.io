@@ -5,7 +5,7 @@ description: Operating the OpenSPIM microscope
 ---
 Now that we have assembled the OpenSPIM microscope it is time to start using it. We will need to prepare a sample, align the light sheet (Calibration), set-up the acquisition and process the data.
 
-However, it might be a good idea to undertsand some fundamental SPIM optics first. In this case [click here]("/SPIM_Optics_101").
+However, it might be a good idea to undertsand some fundamental SPIM optics first. In this case [click here](https://openspim.org/SPIM_Optics_101).
 
 # Sample Preparation
 
