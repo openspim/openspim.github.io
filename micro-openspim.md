@@ -20,7 +20,7 @@ description: Welcome to µOpenSPIM
 </tr>
 
 <tr class="odd">
-<td align="center"><img src="https://openspim.org/images/Figure5_Acquisition-panel_website.png" width="400"></td>
+<td align="center"><a href="https://openspim.org/images/Figure5_Acquisition-panel_website.png" target="_blank" title="Click for a higher resolution image"><img src="https://openspim.org/images/Figure5_Acquisition-panel_website.png" width="400"></a></td>
 <td align="left">
 &nbsp;&nbsp;&nbsp;-   A complete overhaul of the GUI and an improved control over Picrard’s 4D-stage</br>
 &nbsp;&nbsp;&nbsp;-   A user-friendly way of setting up multiview time lapse recordings</br>
@@ -30,7 +30,7 @@ description: Welcome to µOpenSPIM
 &nbsp;&nbsp;&nbsp;-   ArduinoUNO support</br>
 &nbsp;&nbsp;&nbsp;-   On-the-fly image processing</br>
 &nbsp;&nbsp;&nbsp;-   New drift-correction functionality</br>
-<td align="center"><a href="https://openspim.org/images/%C2%B5OS_Logo.png" target="_blank" title="Click for a higher resolution image"><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="400"></a>
+<td align="center"><a href="https://openspim.org/images/%C2%B5OS_Logo.png" target="_blank" title="Click for a higher resolution image"><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a>
 </td>
 </tr>
 </table>
