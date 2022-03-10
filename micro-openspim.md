@@ -1,10 +1,10 @@
 ---
-title: µOpenSPIM
+title: Welcome to µOpenSPIM
 layout: page
 description: Welcome to µOpenSPIM
 ---
 
-Welcome! µOpenSPIM is an intuitive graphical user interface (GUI) for OpenSPIM users, which relies on [µManager](https://micro-manager.org). You can also visit our [Github website](https://github.com/openspim/micro-OpenSPIM).
+µOpenSPIM is an intuitive graphical user interface (GUI) for OpenSPIM users, which relies on [µManager](https://micro-manager.org). You can also visit our [Github website](https://github.com/openspim/micro-OpenSPIM).
 
 ## Quick Menu
 -	[Image acquisition](/micro-openspim_acquisition)</br>
