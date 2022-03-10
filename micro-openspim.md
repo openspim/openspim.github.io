@@ -10,7 +10,7 @@ description: Welcome to µOpenSPIM
 
 ## Quick Menu
 -	[Image acquisition](/micro-openspim_acquisition)</br>
--	[Detailed Acquisition controls](/micro-openspim_acquisition-controls)
+-	[Acquisition controls](/micro-openspim_acquisition-controls)
 
 ## Features of µOpenSPIM
 <img src="https://openspim.org/images/Figure5_Acquisition-panel_website.png" width="400"></a>
@@ -22,7 +22,7 @@ description: Welcome to µOpenSPIM
 -   A quick save function for nearly all acquisitions settings to save time in case an imaging session is interrupted or a similar session will take place at another time
 -   Different saving formats (single plane tiff files, whole stacks or n5 format)
 -   ArduinoUNO support
--   On-the-fly image processing
+-   On-the-fly image processing (CLIJ support)
 -   new drift-correction functionality
 </p>
 </details>
