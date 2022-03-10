@@ -4,9 +4,7 @@ layout: page
 description: Welcome to µOpenSPIM
 ---
 
-<img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a>
-</br>Welcome!</br>
-µOpenSPIM is an intuitive new graphical user interface (GUI) for OpenSPIM users, which relies on [µManager](https://micro-manager.org). You can also visit our [Github website](https://github.com/openspim/micro-OpenSPIM).
+Welcome! µOpenSPIM is an intuitive new graphical user interface (GUI) for OpenSPIM users, which relies on [µManager](https://micro-manager.org). You can also visit our [Github website](https://github.com/openspim/micro-OpenSPIM).
 
 ## Quick Menu
 -	[Image acquisition](/micro-openspim_acquisition)</br>
@@ -16,13 +14,18 @@ description: Welcome to µOpenSPIM
 
 <table>
 <tr class="header">
+<th>Software</th>
 <th>Configuration</th>
-<th>Accessibility</th>
+<th>Features</th>
 </tr>
 
 <tr class="odd">
-<td align="center">&nbsp;&nbsp;&nbsp;X-OpenSPIM&nbsp;&nbsp;&nbsp;</td>
+<img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a>
+
+<td align="center"><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></td>
+<td align="center">&nbsp;&nbsp;&nbsp;µOpenSPIM&nbsp;&nbsp;&nbsp;</td>
 <td align="center"><img src="https://openspim.org/images/Figure5_Acquisition-panel_website.png" width="400"></td>
+<td align="center">&nbsp;&nbsp;&nbsp;Feature 1, Feature 2, Feature 3&nbsp;&nbsp;&nbsp;</td>
 
 </tr>
 
