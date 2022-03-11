@@ -6,6 +6,14 @@ description: Welcome to µOpenSPIM
 
 µOpenSPIM is an intuitive graphical user interface (GUI) for OpenSPIM users, which relies on [µManager](https://micro-manager.org). You can also visit our [Github website](https://github.com/openspim/micro-OpenSPIM).
 
+## Quick Menu
+-	Features
+-	Requirements
+-	How to set up µManager
+-	Installation and start-up
+-	[Image acquisition](/micro-openspim_acquisition)
+-	[Acquisition controls](/micro-openspim_acquisition-controls)
+
 ## Features of µOpenSPIM
 
 <table>
@@ -30,13 +38,6 @@ description: Welcome to µOpenSPIM
 </td>
 </tr>
 </table>
-
-## Quick Menu
--	[Requirements](https://openspim.org/micro-openspim)
--	[How to set up µManager](https://openspim.org/micro-openspim)
--	[Installation and start-up](https://openspim.org/micro-openspim)
--	[Image acquisition](/micro-openspim_acquisition)
--	[Acquisition controls](/micro-openspim_acquisition-controls)
 
 ## Requirements
 -   All hardware components of an OpenSPIM system (Laser, Camera, Stage, etc.) have to be pre-configured with µManager's Hardware Configuration Wizard using Version 2.0 gamma (nightly build 04 May 2021) on a Windows7/10 computer.
