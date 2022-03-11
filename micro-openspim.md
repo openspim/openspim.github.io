@@ -24,7 +24,7 @@ description: Welcome to µOpenSPIM
 <td align="left">
 &nbsp;&nbsp;&nbsp;-   A complete overhaul of the GUI and an improved control over Picrard’s 4D-stage&nbsp;&nbsp;&nbsp;</br>
 &nbsp;&nbsp;&nbsp;-   A user-friendly way of setting up multiview time lapse recordings&nbsp;&nbsp;&nbsp;</br>
-&nbsp;&nbsp;&nbsp;-   An option to acquire periodic and sporadic intervals with optional breaks during time-lapse recordings&nbsp;&nbsp;&nbsp;</br>
+&nbsp;&nbsp;&nbsp;-   Time-laspe with periodic and sporadic intervals and breaks&nbsp;&nbsp;&nbsp;</br>
 &nbsp;&nbsp;&nbsp;-   A quick save function for nearly all acquisitions settings&nbsp;&nbsp;&nbsp;</br>
 &nbsp;&nbsp;&nbsp;-   Different saving formats (single plane tiff files, whole stacks or n5 format)&nbsp;&nbsp;&nbsp;</br>
 &nbsp;&nbsp;&nbsp;-   ArduinoUNO support&nbsp;&nbsp;&nbsp;</br>
