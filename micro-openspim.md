@@ -61,6 +61,7 @@ Visit our [µOpenSPIM-Github Site](https://github.com/openspim/micro-OpenSPIM) f
 <details><summary>Click for µOpenSPIM's latest changes (15. Nov. 2021):</summary>
 <p>
 
+1.0.4 (15. Nov. 2021)
 -	Save/load functions for beanshell and java script
 -	Added example fusion scripts
 -	Supported ClijX in script panel
