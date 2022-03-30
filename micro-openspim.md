@@ -62,6 +62,9 @@ Visit our [µOpenSPIM-Github Site](https://github.com/openspim/micro-OpenSPIM) f
 <p>
 
 1.0.4 (15. Nov. 2021)
+-	[Win64bit](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.4/OpenSPIM_setup_1.0.4.exe)
+-	[MACOSX](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.4/OpenSPIM-1.0.4.dmg)
+
 -	Save/load functions for beanshell and java script
 -	Added example fusion scripts
 -	Supported ClijX in script panel
