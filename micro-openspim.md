@@ -51,7 +51,7 @@ description: Welcome to µOpenSPIM
 Visit our [µOpenSPIM-Github Site](https://github.com/openspim/micro-OpenSPIM) for previous releases and more information.
 1.  Download and install the [64-bit](https://valelab4.ucsf.edu/~MM/nightlyBuilds/2.0/Windows/MMSetup_64bit_2.0.1_20210721.exe) build of [µManager](https://micro-manager.org/) and follow its *Hardware Configuration Wizard* to create a functional configuration file (.cfg) that allows µManager to control the OpenSPIM hardware. On the first time startup of µOpenSPIM users will be asked to select the file location of µManager.
 
-2.	**Download µOpenSPIM**
+2.	**Download the latest version of µOpenSPIM**
 	-	[Win64bit](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.4/OpenSPIM_setup_1.0.4.exe)
 	-	[MACOSX](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.4/OpenSPIM-1.0.4.dmg)
 
