@@ -69,4 +69,8 @@ Visit our [µOpenSPIM-Github Site](https://github.com/openspim/micro-OpenSPIM) f
 </p>
 </details>
 
+## Contact
+
+Please post feedback, software bugs and questions to <openspim@mpi-cbg.de>.
+
 ## => Continue to [Image acquisition](/micro-openspim_acquisition)
