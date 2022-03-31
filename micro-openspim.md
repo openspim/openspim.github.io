@@ -74,5 +74,5 @@ description: Welcome to µOpenSPIM
 ## Contact
 
 Please post feedback, software bugs and questions to <openspim@mpi-cbg.de>
-
-## => Continue to [Image acquisition](/micro-openspim_acquisition)
+</br></br>
+## Continue to [Image acquisition](/micro-openspim_acquisition)
