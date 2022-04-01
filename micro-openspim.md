@@ -26,14 +26,15 @@ description: Welcome to µOpenSPIM
 <tr class="odd">
 <td align="center"><a href="https://openspim.org/images/Figure5_Acquisition-panel_website.png" target="_blank" title="Click for a higher resolution image"><img src="https://openspim.org/images/Figure5_Acquisition-panel_website.png" width="400"></a></td>
 <td align="left">
-&nbsp;&nbsp;&nbsp;-   A complete overhaul of the GUI and an improved control over Picrard’s 4D-stage&nbsp;&nbsp;&nbsp;</br>
+&nbsp;&nbsp;&nbsp;-   A complete overhaul of the GUI&nbsp;&nbsp;&nbsp;</br>
+&nbsp;&nbsp;&nbsp;-   An improved control over Picrard’s 4D-stage&nbsp;&nbsp;&nbsp;</br>
 &nbsp;&nbsp;&nbsp;-   A user-friendly way of setting up multiview time lapse recordings&nbsp;&nbsp;&nbsp;</br>
 &nbsp;&nbsp;&nbsp;-   Time-laspe with periodic and sporadic intervals and breaks&nbsp;&nbsp;&nbsp;</br>
 &nbsp;&nbsp;&nbsp;-   A quick save function for nearly all acquisitions settings&nbsp;&nbsp;&nbsp;</br>
-&nbsp;&nbsp;&nbsp;-   Different saving formats (single plane tiff files, whole stacks or n5 format)&nbsp;&nbsp;&nbsp;</br>
+&nbsp;&nbsp;&nbsp;-   Different saving formats including the n5 format&nbsp;&nbsp;&nbsp;</br>
 &nbsp;&nbsp;&nbsp;-   ArduinoUNO support&nbsp;&nbsp;&nbsp;</br>
 &nbsp;&nbsp;&nbsp;-   On-the-fly image processing&nbsp;&nbsp;&nbsp;</br>
-&nbsp;&nbsp;&nbsp;-   New drift-correction functionality&nbsp;&nbsp;&nbsp;</br>
+&nbsp;&nbsp;&nbsp;-   Improved drift-correction functionality&nbsp;&nbsp;&nbsp;</br>
 <td align="center"><a href="https://openspim.org/images/%C2%B5OS_Logo.png" target="_blank" title="Click for a higher resolution image"><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a>
 </td>
 </tr>
@@ -73,7 +74,7 @@ description: Welcome to µOpenSPIM
 
 ## Contact
 
-Please post feedback, software bugs and questions to <openspim@mpi-cbg.de>
+Please post feedback, software bugs and questions to <openspim@mpi-cbg.de></br>
 In case you experienced an issue using µOpenSPIM, it can help to add the related Log file, which is placed in your Micro-Manager folder.
 </br></br>
 ## Continue to [Image acquisition](/micro-openspim_acquisition)
