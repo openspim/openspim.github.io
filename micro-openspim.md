@@ -76,5 +76,5 @@ description: Welcome to µOpenSPIM
 
 Please post feedback, software bugs and questions to <openspim@mpi-cbg.de></br>
 In case you experienced an issue using µOpenSPIM, it can help to add the related Log file, which is placed in your Micro-Manager folder.
-</br></br>
+</br>
 ## Continue to [Image acquisition](/micro-openspim_acquisition)
