@@ -35,7 +35,7 @@ description: Welcome to µOpenSPIM
 &nbsp;&nbsp;&nbsp;-   ArduinoUNO support&nbsp;&nbsp;&nbsp;</br>
 &nbsp;&nbsp;&nbsp;-   On-the-fly image processing&nbsp;&nbsp;&nbsp;</br>
 &nbsp;&nbsp;&nbsp;-   Improved drift-correction functionality&nbsp;&nbsp;&nbsp;</br>
-<td align="center"><a href="https://openspim.org/images/%C2%B5OS_Logo.png" target="_blank" title="Click for a higher resolution image"><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="200"></a>
+<td align="center"><a href="https://openspim.org/images/%C2%B5OS_Logo.png" target="_blank" title="Click for a higher resolution image"><img src="https://openspim.org/images/%C2%B5OS_Logo.png" width="150"></a>
 </td>
 </tr>
 </table>
@@ -74,7 +74,7 @@ description: Welcome to µOpenSPIM
 
 ## Contact
 
-Please post feedback, software bugs and questions to <openspim@mpi-cbg.de></br>
+Please post feedback, software bugs and questions to the [Image.sc forum]().</br>
 In case you experienced an issue using µOpenSPIM, it can help to add the related Log file, which is placed in your Micro-Manager folder.
 </br>
 ## Continue to [Image acquisition](/micro-openspim_acquisition)
