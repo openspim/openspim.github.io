@@ -28,12 +28,12 @@ Although the light sheet is rather stable once aligned, it should be [**aligned*
 
 It is also possible to measure the [light-sheet thickness](Light_sheet_characterization) using a small mirror mounted in the sample chamber.
 
-Click [here](Calibration) to go to the original OpenSPIM plugin site.
+Click [here](xopenspim/alignment_welcome) to follow the most recent OpenSPIM alignmetn guide (2021) and [here](https://openspim.org/Operation_old) for the original light-sheet calibration site (2013).
 
 # Software
 
 A new [µManager](https://micro-manager.org/) based OpenSPIM plugin called [μOpenSPIM](https://openspim.org/micro-openspim) has been developed. We recommend using [μOpenSPIM](https://openspim.org/micro-openspim) for any current OpenSPIM system that uses [µManager](https://micro-manager.org/).
-Click [here](xopenspim/alignment_welcome) to follow the most recent OpenSPIM alignmetn guide (2021) and [here](https://openspim.org/Operation_old) for the original light-sheet calibration site (2013).
+Click [here](https://openspim.org/Operation_old) to go to the original OpenSPIM plugin site.
 
 # Data processing
 
