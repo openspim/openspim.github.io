@@ -28,7 +28,7 @@ Although the light sheet is rather stable once aligned, it should be [**aligned*
 
 It is also possible to measure the [light-sheet thickness](Light_sheet_characterization) using a small mirror mounted in the sample chamber.
 
-Click [here](xopenspim/alignment_welcome) to follow the most recent OpenSPIM alignmetn guide (2021) and [here](https://openspim.org/Operation_old) for the original light-sheet calibration site (2013).
+Click [here](xopenspim/alignment_welcome) to follow the most recent OpenSPIM alignmetn guide (2021) and [here](Light-sheet_Calibration) for the original light-sheet calibration site (2013).
 
 # Software
 
