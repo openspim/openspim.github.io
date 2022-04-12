@@ -58,8 +58,30 @@ description: Welcome to µOpenSPIM
 3.  In the starting window multiple µManager configuration files can be added, removed and selected. Click *Add .cfg file* to add and then select your working µManager configuration file ending with .cfg. Then click the *Start* button. After loading the hardware µManager should now be ready for use.
 
 
-<details><summary>Click for µOpenSPIM's latest changes and previous versions:</summary>
+<details><summary>Click for µOpenSPIM's latest version:</summary>
 <p>
+
+####	1.0.6 (12. April 2022) [Win64bit](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.6/microOpenSPIM_setup_1.0.6.exe), [MACOSX](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.6/microOpenSPIM-1.0.6.dmg)
+-	Major update in PositionList
+-	Improved the logic to handle Z-stack setting
+-	"Update position" update the position with the current X, Y, R, Z with Z-Stack setting
+
+</p>
+</details>
+
+<details><summary>Click for µOpenSPIM's previous versions:</summary>
+<p>
+
+####	1.0.5 (22. March. 2022) [Win64bit](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.5/microOpenSPIM_setup_1.0.5.exe), [MACOSX](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.5/microOpenSPIM-1.0.5.dmg)
+-	Anti-Drift preprocess: gaussian blur(sigma=2), convolve filter and maximum filter
+-	Tickboxes of the positions
+-	Fixed wrong percentage indicator
+-	Removed the verbose messages
+-	Fixed false warning sign that there is the filename already exists
+-	Removed null-MPI issue when unchecked MIP option
+-	Updated labels for Z-Stacks
+-	Added position name and color to distinguish "Stack" and "Position" in the position list
+-	Added the name for "Save current position"
 
 ####	1.0.4 (15. Nov. 2021) [Win64bit](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.4/OpenSPIM_setup_1.0.4.exe), [MACOSX](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.4/OpenSPIM-1.0.4.dmg)
 -	Save/load functions for beanshell and java script
@@ -67,6 +89,7 @@ description: Welcome to µOpenSPIM
 -	Supported ClijX in script panel
 -	Updated help files
 -	Added the citation information in LoadingDialog window
+
 
 
 </p>
