@@ -4,8 +4,6 @@ layout: page
 description: Welcome to µOpenSPIM
 ---
 
-## Features of µOpenSPIM
-
 <table>
 <tr class="header">
 <th>Acquisition window</th>
