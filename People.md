@@ -9,12 +9,20 @@ description: OpenSPIM people
 <td><a href="https://www.mpi-cbg.de/research/research-groups/pavel-tomancak.html">Research Group Leader</a> at the MPI-CBG in Dresden. Provides ideas, concepts, research questions and funding.</td>
 </tr>
 <tr>
-<td align="center">{% include image src="Jan.jpg" width="40%" caption="Jan Huisken" %}</td>
-<td><a href="https://www.mpi-cbg.de/huisken">Research Group Leader</a> at the MPI-CBG in Dresden.</td>
+<td align="center">{% include image src="PeterGPitrone.png" width="40%" caption="Peter Gabriela Pitrone" %}</td>
+<td>Light Microscopist for Andor Technology. Designed and built the OpenSPIM.</td>
 </tr>
 <tr>
-<td align="center">{% include image src="PeterGPitrone.png" width="40%" caption="Peter Gabriela Pitrone" %}</td>
-<td>Microscopy technician in the <a href="https://www.mpi-cbg.de/research/research-groups/pavel-tomancak.html">Tomancak Lab</a>. Designed and built the OpenSPIM.</td>
+<td align="center">{% include image src="Johannes_Girstmair.jpg" width="40%" caption="Johannes Girstmair" %}</td>
+<td><a href="https://www.mpi-cbg.de/research/researchgroups/currentgroups/pavel-tomancak/group-members">Postdoc</a> at the MPI-CBG in Dresden. Dedicated to the developmental biology research of flatworms using OpenSPIM.</td>
+</tr>
+<tr>
+<td align="center">{% include image src="HongKee_Moon.jpg" width="40%" caption="HongKee Moon" %}</td>
+<td><a href="https://www.mpi-cbg.de/research/research-groups/pavel-tomancak.html">Scientific Software Engineer</a> at the MPI-CBG in Dresden. Programmed and creates features for µOpenSPIM (the current graphical user interface for OpenSPIM users).</td>
+</tr>
+<tr>
+<td align="center">{% include image src="Jan.jpg" width="40%" caption="Jan Huisken" %}</td>
+<td><a href="https://www.mpi-cbg.de/huisken">Humboldt Professor of Multiscale Biology</a> at the University of Göttingen.</td>
 </tr>
 <tr>
 <td align="center">{% include image src="Kevin_eliceiri.jpg" width="40%" caption="Kevin Eliceiri" %}</td>
