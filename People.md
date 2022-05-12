@@ -14,7 +14,7 @@ description: OpenSPIM people
 </tr>
 <tr>
 <td align="center">{% include image src="Johannes_Girstmair.jpg" width="40%" caption="Johannes Girstmair" %}</td>
-<td><a href="https://www.mpi-cbg.de/research/researchgroups/currentgroups/pavel-tomancak/group-members">Postdoc</a> at the MPI-CBG in Dresden. Dedicated to the developmental biology research of flatworms using OpenSPIM.</td>
+<td><a href="https://www.mpi-cbg.de/research/researchgroups/currentgroups/pavel-tomancak/group-members">Postdoc</a> at the MPI-CBG in Dresden. Dedicated to the developmental biology research of flatworms by using and further enhancing OpenSPIM.</td>
 </tr>
 <tr>
 <td align="center">{% include image src="HongKee_Moon.png" width="40%" caption="HongKee Moon" %}</td>
