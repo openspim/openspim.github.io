@@ -17,7 +17,7 @@ description: OpenSPIM people
 <td><a href="https://www.mpi-cbg.de/research/researchgroups/currentgroups/pavel-tomancak/group-members">Postdoc</a> at the MPI-CBG in Dresden. Dedicated to the developmental biology research of flatworms using OpenSPIM.</td>
 </tr>
 <tr>
-<td align="center">{% include image src="HongKee_Moon.jpg" width="40%" caption="HongKee Moon" %}</td>
+<td align="center">{% include image src="HongKee_Moon.png" width="40%" caption="HongKee Moon" %}</td>
 <td><a href="https://www.mpi-cbg.de/research/research-groups/pavel-tomancak.html">Scientific Software Engineer</a> at the MPI-CBG in Dresden. Programmed and creates features for µOpenSPIM (the current graphical user interface for OpenSPIM users).</td>
 </tr>
 <tr>
