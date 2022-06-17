@@ -41,7 +41,7 @@ description: Welcome to µOpenSPIM
 µOpenSPIM is in its beta stage and works with µManager 2.0.1 20210721 for Windows (nightly build 21 July 2021).</br>
 1.  Download and install the [64-bit](https://valelab4.ucsf.edu/~MM/nightlyBuilds/2.0/Windows/MMSetup_64bit_2.0.1_20210721.exe) build of [µManager](https://micro-manager.org/) and follow its *Hardware Configuration Wizard* to create a functional configuration file (.cfg) that allows µManager to control the OpenSPIM hardware. On the first time startup of µOpenSPIM users will be asked to select the file location of µManager.
 
-2.	**Download the latest version of µOpenSPIM (1.06)**
+2.	**Download the latest version of µOpenSPIM (1.07)**
 	-	[Win64bit](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.7/OpenSPIM_setup_1.0.7.exe)
 	-	[MACOSX](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.7/microOpenSPIM-1.0.7.dmg)
 
@@ -51,7 +51,7 @@ description: Welcome to µOpenSPIM
 <details><summary>Click for µOpenSPIM's latest version:</summary>
 <p>
 
-####	1.0.6 (12. April 2022) [Win64bit](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.6/microOpenSPIM_setup_1.0.7.exe), [MACOSX](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.7/microOpenSPIM-1.0.7.dmg)
+####	1.0.7 (17. June 2022) [Win64bit](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.6/microOpenSPIM_setup_1.0.7.exe), [MACOSX](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.7/microOpenSPIM-1.0.7.dmg)
 -	Fixed an Anti-Drift bug
 -	Fixed that windows has an issue for generating a jar file
 
