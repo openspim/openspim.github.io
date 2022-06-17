@@ -55,6 +55,7 @@ description: Welcome to µOpenSPIM
 -	Fixed an Anti-Drift bug
 -	Fixed that windows has an issue for generating a jar file
 
+
 </p>
 </details>
 
@@ -65,12 +66,6 @@ description: Welcome to µOpenSPIM
 -	Major update in PositionList
 -	Improved the logic to handle Z-stack setting
 -	"Update position" update the position with the current X, Y, R, Z with Z-Stack setting
-
-</p>
-</details>
-
-<details><summary>Click for µOpenSPIM's previous versions:</summary>
-<p>
 
 ####	1.0.5 (22. March. 2022) [Win64bit](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.5/microOpenSPIM_setup_1.0.5.exe), [MACOSX](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.5/microOpenSPIM-1.0.5.dmg)
 -	Anti-Drift preprocess: gaussian blur(sigma=2), convolve filter and maximum filter
