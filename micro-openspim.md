@@ -51,9 +51,8 @@ description: Welcome to µOpenSPIM
 <details><summary>Click for µOpenSPIM's latest version:</summary>
 <p>
 
-####	1.0.7 (17. June 2022) [Win64bit]((https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.7/OpenSPIM_setup_1.0.7.exe), [MACOSX](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.7/microOpenSPIM-1.0.7.dmg)
--	Fixed an Anti-Drift bug
--	Fixed that windows has an issue for generating a jar file
+####	1.0.8 (22. July 2022) [Win64bit]((https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.8/microOpenSPIM_setup_1.0.8.exe), [MACOSX](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.8/microOpenSPIM-1.0.8.dmg)
+-	Fixed an issue that opening N5 format corrupts the current dataset
 
 
 </p>
@@ -61,6 +60,10 @@ description: Welcome to µOpenSPIM
 
 <details><summary>Click for µOpenSPIM's previous versions:</summary>
 <p>
+
+####	1.0.7 (17. June 2022) [Win64bit]((https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.7/OpenSPIM_setup_1.0.7.exe), [MACOSX](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.7/microOpenSPIM-1.0.7.dmg)
+-	Fixed an Anti-Drift bug
+-	Fixed that windows has an issue for generating a jar file
 
 ####	1.0.6 (12. April 2022) [Win64bit](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.6/microOpenSPIM_setup_1.0.6.exe), [MACOSX](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.6/microOpenSPIM-1.0.6.dmg)
 -	Major update in PositionList
