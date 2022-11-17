@@ -243,7 +243,7 @@ Some self-made parts, including an X-OpenSPIM acquisition chamber, can be purcha
 <td align="center">Cylindrical Achromat Lens</td>
 <td align="center"> <a href="https://www.thorlabs.de/thorproduct.cfm?partnumber=ACY254-050-A">ACY254-050-A</a></td>
 <td align="center"><img src="images/ACY254-050-A.jpeg" width="150"></td>
-<td align="center">1</td>
+<td align="center">2</td>
 <td align="center">369,85 €</td>
 </tr>
 
