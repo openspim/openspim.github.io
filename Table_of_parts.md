@@ -638,7 +638,7 @@ Variable Height Clamp, Metric, M6 Tapped</td>
 <tr class="odd">
 <td>Teledyne Photometrics</td>
 <td align="center" bgcolor="pink">purchase</td>
-<td>KINETIX</td>
+  <td><strong>Digital camera</strong></br>KINETIX 10MP</td>
 <td><a href="https://www.photometrics.com/products/cameras-for-openspim">Teledyne Photometrics KINETIX family</a></td>
 <td align="center"><img src="images/Kinetix-shadow_small.png" width="50%"></td>
 <td align="center">1</td>
@@ -648,7 +648,7 @@ Variable Height Clamp, Metric, M6 Tapped</td>
 <tr class="even">
 <td>Teledyne Photometrics</td>
 <td align="center" bgcolor="pink">purchase</td>
-<td>Prime BSI Express</td>
+<td><strong>Digital camera</strong></br>Prime BSI Express</td>
 <td><a href="https://www.photometrics.com/products/cameras-for-openspim">Teledyne Photometrics Prime BSI Express</a></td>
 <td align="center"><img src="images/BSI-Express_small.png" width="50%"></td>
 <td align="center">1</td>
