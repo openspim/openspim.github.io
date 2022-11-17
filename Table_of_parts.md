@@ -368,37 +368,6 @@ The <strong>heat sink</strong> brings the laser to the desired height of 50 mm o
 <td align="center">2</td>
 <td align="center">0.10</td>
 </tr>
-<tr class="odd">
-<td>X-OpenSPIM</td>
-<td align="center" bgcolor="green">self made</td>
-<td>milled <strong>acrylic sample chamber</strong> that holds two 10x Nikon water dipping illumination objectives (CFI Plan Fluor 10X W) and two 40x Nikon water dipping detection objectives (CFI Apochromat NIR 40X W)<br/>
-<br/>
-<em>plus four M5 screws</em></td>
-<td><a href="documents/SampleChamber_X-OpenSPIM_Nikon10x40x.PDF">SampleChamber X-OpenSPIM Nikon10x40x.PDF</a></td>
-<td align="center"><img src="images/Sample_chamber_X-OpenSPIM.png" width="100%"</td>
-<td align="center">1</td>
-<td align="center"></td>
-</tr>
-<tr class="even">
-<td>X-OpenSPIM</td>
-<td align="center" bgcolor="green">self made</td>
-<td><strong>metal holder</strong> for the acrylic X-OpenSPIM sample chamber</td>
-<td><a href="documents/SampleChamberHolder_X-OpenSPIM_Nikon10x40x.PDF">SampleChamberHolder X-OpenSPIM Nikon10x40x.PDF</a></td>
-<td align="center"><img src="images/Sample-chamber-holder.png" width="100%"</td>
-<td align="center">1</td>
-<td align="center"></td>
-</tr>
-<tr class="odd">
-<td>X-OpenSPIM</td>
-<td align="center" bgcolor="green">self made</td>
-<td>metal <strong>objective holder ring</strong> attaching the illumination and detection lens to the metal sample chamber holder (Note: co-focusing the two detection objectives requires one objective to be moved in z. One way of doing this is modifying one of the objetive holder rings with an additional stalk. Furthermore it is recommended to introduce a corner mirror to one detection axis; see <a href="documents/X-OpenSPIM_modifications.pdf">X-OpenSPIM_modifications.pdf</a>).<br/>
-<br/>
-<em>plus three M3 x 8 mm screws for each</em></td>
-<td><a href="documents/ObjectiveHolderRing_X-OpenSPIM_Nikon10x40x.PDF">ObjectiveHolderRing X-OpenSPIM Nikon10x40x.PDF</a></td>
-<td align="center"><img src="images/Objective-holder-ring.png" width="100%"></td>
-<td align="center">1</td>
-<td align="center"></td>
-</tr>
 </table>
 
 ## Detection Axis Optical Components List
@@ -639,7 +608,7 @@ Variable Height Clamp, Metric, M6 Tapped</td>
 <tr class="even">
 <td>Andor</td>
 <td align="center" bgcolor="pink">purchase</td>
-<td><strong>Digital camera</strong> Andor Zyla 5.5 or 4.2</td>
+<td>Andor Zyla 5.5 or 4.2</td>
 <td><a href="https://www.andor.com/scientific-cameras/neo-and-zyla-scmos-cameras">Andor Zyla 5.5 or 4.2</a></td>
 <td align="center"><img src="images/Zyla.png" width="50%"></td>
 <td align="center">1</td>
@@ -649,7 +618,7 @@ Variable Height Clamp, Metric, M6 Tapped</td>
 <tr class="odd">
 <td>Hamamatsu</td>
 <td align="center" bgcolor="pink">purchase</td>
-<td><strong>Digital camera</strong> Hamamatsu ORCA-Flash4.0 LT</td>
+<td>Hamamatsu ORCA-Flash4.0 LT</td>
 <td><a href="https://www.hamamatsu.com/eu/en/community/life_science_camera/product/search/C11440-42U/index.html">Hamamatsu ORCA-Flash4.0 LT</a></td>
 <td align="center"><img src="images/Flash4_lt.jpg" width="50%"></td>
 <td align="center">1</td>
@@ -659,7 +628,7 @@ Variable Height Clamp, Metric, M6 Tapped</td>
 <tr class="even">
 <td>pco</td>
 <td align="center" bgcolor="pink">purchase</td>
-<td><strong>Digital camera</strong> pco.edge 4.2 sCMOS</td>
+<td>Pco.edge 4.2 sCMOS</td>
 <td><a href="https://www.pco.de/scmos-cameras/pcoedge-42/">pco.edge 4.2</a></td>
 <td align="center"><img src="images/Pco_edge_sCMOS.jpg" width="50%"></td>
 <td align="center">1</td>
