@@ -41,14 +41,19 @@ description: Welcome to µOpenSPIM
 µOpenSPIM is in its beta stage and works with µManager 2.0.1 20210721 for Windows (nightly build 21 July 2021).</br>
 1.  Download and install the [64-bit build of µManager ](https://valelab4.ucsf.edu/~MM/nightlyBuilds/2.0/Windows/MMSetup_64bit_2.0.1_20210721.exe) and follow its *Hardware Configuration Wizard* to create a functional configuration file (.cfg) that allows µManager to control the OpenSPIM hardware. On the first time startup of µOpenSPIM users will be asked to select the file location of µManager.
 
-2.	**Download the latest version of µOpenSPIM 1.0.9 (17. August 2022)**
-	-	[Win64bit](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.9/microOpenSPIM_setup_1.0.9.exe)
-	-	[MACOSX](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.9/microOpenSPIM-1.0.9.dmg)
+2.	**Download the latest version of µOpenSPIM 1.0.10 (19. January 2024)**
+	-	[Win64bit](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.10/OpenSPIM_setup_1.0.10.exe)
+	-	[MACOSX](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.10/OpenSPIM-1.0.dmg)
 
 3.  In the starting window multiple µManager configuration files can be added, removed and selected. Click *Add .cfg file* to add and then select your working µManager configuration file ending with .cfg. Then click the *Start* button. After loading the hardware µManager should now be ready for use.
 
 <details><summary>Click for µOpenSPIM's changes and previous versions:</summary>
 <p>
+
+####	1.0.10 (19. January 2024) [Win64bit](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.10/OpenSPIM_setup_1.0.10.exe), [MACOSX](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.10/OpenSPIM-1.0.dmg)
+-	New filename scheme for acquisition files
+-	BigStitcher support
+-	Mastodon support
 
 ####	1.0.9 (17. August 2022) [Win64bit](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.9/microOpenSPIM_setup_1.0.9.exe), [MACOSX](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.9/microOpenSPIM-1.0.9.dmg)
 -	BigDataViewer interface added
