@@ -17,7 +17,7 @@ description: Welcome to µOpenSPIM
 <td align="center"><a href="https://openspim.org/images/Figure5_Acquisition-panel_website.png" target="_blank" title="Click for a higher resolution image"><img src="https://openspim.org/images/Figure5_Acquisition-panel_website.png" width="400"></a></td>
 <td align="left">
 &nbsp;&nbsp;&nbsp;-   A complete overhaul of the GUI&nbsp;&nbsp;&nbsp;</br>
-&nbsp;&nbsp;&nbsp;-   An improved control over Picrard’s 4D-stage&nbsp;&nbsp;&nbsp;</br>
+&nbsp;&nbsp;&nbsp;-   An improved control over Picard’s 4D-stage&nbsp;&nbsp;&nbsp;</br>
 &nbsp;&nbsp;&nbsp;-   A user-friendly way of setting up multiview time lapse recordings&nbsp;&nbsp;&nbsp;</br>
 &nbsp;&nbsp;&nbsp;-   Time-laspe with periodic and sporadic intervals and breaks&nbsp;&nbsp;&nbsp;</br>
 &nbsp;&nbsp;&nbsp;-   A quick save function for nearly all acquisitions settings&nbsp;&nbsp;&nbsp;</br>
