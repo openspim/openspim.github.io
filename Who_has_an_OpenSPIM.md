@@ -229,3 +229,22 @@ Component details:
 
   - 3-D mouse
 
+# OsloSPIM at the University of Oslo, Norway
+We use our OpenSPIM to study how early mammalian embryo models (using so-called mouse gastruloids) grow and develop, and how the first organs form. Especially, we are interested in how cells self-organize and orchestrate their motion to form tissue. To explain the underpinning dynamics, we couple our experiments with 3D simulations. To fully utilize light-sheet imaging, we also study collective cell migration and how nerve cells make new connections in live zebrafish, and we study the cells' own recycling system (autophagy) in Drosophila larvae. 
+
+https://www.uio.no/ritmo/english/people/postdoctoral-fellows/endrejm/index/
+
+- The illumination laser (Cobolt 6 series, Hübner Photonics) has laser heads with four different wavelengths (λ = 375, 488 561, 647 nm), corresponding to UV, green, red and far red light.
+  
+- Fast imaging: An Arduino UNO board sends trigger pulses to the laser to obtain fast switching between the different wavelengths (ideal for live imaging).
+  
+- Micro Manager controls the laser, camera (Andor Zyla 5.5, Andor), moveable 4D stage (USB-4D-Stage, Picard Industries), and the Arduino UNO board.
+  
+- Temperature control: To control the temperature, water at physiological temperature flows through channels in the viewing chamber, which is made of heat conducting aluminum.
+  
+- Media exchange: To provide fresh oxygen and nutrients to the 3D cell cultures, the media can be exchanged continually.    
+ 
+
+
+
+
