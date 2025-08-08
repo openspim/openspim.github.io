@@ -45,6 +45,9 @@ description: Welcome to µOpenSPIM
 	-	[Win64bit](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.11/OpenSPIM_setup_1.0.11.exe)
 	-	[MACOSX](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.11/OpenSPIM-1.0.11.dmg)
 
+    **For EMBO Course µOpenSPIM 1.0.12beta (8. August 2025)**
+    -   [Win64bit](https://github.com/openspim/micro-OpenSPIM/releases/download/v1.0.11/OpenSPIM_setup_1.0.12beta.exe)
+
 3.  In the starting window multiple µManager configuration files can be added, removed and selected. Click *Add .cfg file* to add and then select your working µManager configuration file ending with .cfg. Then click the *Start* button. After loading the hardware µManager should now be ready for use.
 
 <details><summary>Click for µOpenSPIM's changes and previous versions:</summary>
